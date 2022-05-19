@@ -20,11 +20,11 @@ Learn how to web-based storefronts for Adobe Commerce and Magento Open Source.
 
 ## Overview
 
-This documentation provides resources for developing web-based for Adobe Commerce and Magento Open Source. The 
+This documentation provides resources for developing web-based frontends for Adobe Commerce and Magento Open Source.
 
 ## Discover
 
-Use these sections to learn about how to develop PHP extensions.
+Use these sections to learn about how to develop a web-based frontend.
 
 <DiscoverBlock slots="heading, link, text"/>
 
@@ -67,4 +67,4 @@ Lorem ipsum dolor sit amet
 
 ## Contributing to this documentation
 
-We encourage you to participate in our open documentation initiative. If you have suggestions, corrections, additions, or deletions for this documentation, check out the source on [GitHub](https://github.com/adobedocs/commerce-frontend-core), and open a pull request.
+We encourage you to participate in our open documentation initiative. If you have suggestions, corrections, additions, or deletions for this documentation, check out the source on [GitHub](https://github.com/adobedocs/commerce-frontend-core), and open a pull request
