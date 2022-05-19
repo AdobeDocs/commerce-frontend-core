@@ -1,6 +1,6 @@
 ---
 title: Commerce Frontend Development
-description: 
+description: TBD
 ---
 
 <Hero slots="image, heading, text"/>
@@ -26,7 +26,7 @@ This documentation provides resources for developing web-based frontends for Ado
 
 Use these sections to learn about how to develop a web-based frontend.
 
-<DiscoverBlock slots="heading, link, text"/>
+<!--  <DiscoverBlock slots="heading, link, text"/> -->
 
 ### Sections
 
