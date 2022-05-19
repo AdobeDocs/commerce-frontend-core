@@ -63,7 +63,8 @@ Lorem ipsum dolor sit amet
 Lorem ipsum dolor sit amet
 
 -->
-<DiscoverBlock width="100%" slots="heading, link, text"/>
+
+<DiscoverBlock width="100%" slots="heading, text"/>
 
 ## Contributing to this documentation
 
