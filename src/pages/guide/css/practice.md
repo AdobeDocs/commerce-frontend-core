@@ -71,6 +71,6 @@ After the Grey theme is applied (and [static files cache cleared]), store pages 
 
 ![product page when Grey applied]
 
-[product page when Blank applied]: {{site.baseurl}}/common/images/practice_blank.png
-[product page when Grey applied]: {{site.baseurl}}/common/images/css_practice.png
+[product page when Blank applied]: ../../_images/frontend/practice_blank.png
+[product page when Grey applied]: ../../_images/frontend/css_practice.png
 [static files cache cleared]: {{page.baseurl}}/frontend-dev-guide/cache_for_frontdevs.html#clean_static_cache

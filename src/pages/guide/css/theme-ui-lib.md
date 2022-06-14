@@ -217,7 +217,7 @@ To create a tooltip element, use the `.lib-tooltip()` mixin.
 
 As result, the tooltip placed on the right side.
 
-![Tooltip element]({{ site.baseurl }}/common/images/fdg/tooltip-element-result.png)
+![Tooltip element](../../_images/frontend/tooltip-element-result.png)
 
 ## Embedded documentation {#docs}
 
@@ -250,5 +250,5 @@ The generated Magento UI library documentation is provided in a convenient [HTML
 
 [Magento UI library documentation]: {{ page.baseurl }}/frontend-dev-guide/css-topics/theme-ui-lib.html
 
-[ui_lib1.png]: {{ site.baseurl }}/common/images/ui_lib1.png
-[ui_lib2.png]: {{ site.baseurl }}/common/images/ui_lib2.png
+[ui_lib1.png]: ../../_images/frontend/ui_lib1.png
+[ui_lib2.png]: ../../_images/frontend/ui_lib2.png

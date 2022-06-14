@@ -34,14 +34,12 @@ To change the products quantity, ExampleCorp take the following steps:
 1. Put it in the corresponding location in their Orange theme directory: `app/design/frontend/ExampleCorp/orange/Magento_Catalog/web/css/source/module/_listings.less`
 1. Make the changes in the code. The following image illustrates which section of the file they change, the modified lines are highlighted:
 
-![responsive practice 1]
+![responsive practice 1](../../_images/frontend/rwd_pract1.png)
 
 After ExampleCorp [applies their theme]({{ page.baseurl }}/frontend-dev-guide/themes/theme-apply.html), the catalog page of their store looks like following:
 
-![responsive practice 2]
+![responsive practice 2](../../_images/frontend/rwd_practice.jpg)
 
 (compare to the [same page for the Blank theme]({{ page.baseurl }}/frontend-dev-guide/responsive-web-design/rwd_mobile.html).)
 
 [`/Magento_Catalog/web/css/source/module/_listings.less`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/design/frontend/Magento/blank/Magento_Catalog/web/css/source/module/_listings.less
-[responsive practice 1]: {{site.baseurl}}/common/images/rwd_pract1.png
-[responsive practice 2]: {{site.baseurl}}/common/images/rwd_practice.jpg

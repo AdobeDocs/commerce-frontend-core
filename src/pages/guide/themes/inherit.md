@@ -89,13 +89,13 @@ Let's imagine SampleCompany needs to add some winter holidays decor. So it creat
 
 In the Orange theme there is a footer background image located at `app/design/frontend/SampleCompany/orange/web/images/background.jpg`.
 
-![]({{ site.baseurl }}/common/images/inh-background1.jpg)
+![](../../_images/frontend/inh-background1.jpg)
 
 SampleCompany wants it to be replaced with a holiday one, so it places a new background image with exactly the same name and [extension](https://glossary.magento.com/extension) in `app/design/frontend/SampleCompany/orange_winter/web/images/background.jpg`
 
 Once the Orange Winter theme is [applied]({{ page.baseurl }}/frontend-dev-guide/themes/theme-apply.html), the new holiday image overrides the one from Orange, so on [storefront](https://glossary.magento.com/storefront) the holiday background is visible.
 
-![]({{ site.baseurl }}/common/images/inh-background2.jpg)
+![](../../_images/frontend/inh-background2.jpg)
 
 ## Override templates {#theme-inherit-templates}
 
@@ -112,7 +112,7 @@ For example, if you must override the `<Magento_Catalog_module_dir>/view/fronten
 **Example:**
 By default, according to the module template, in the mini [shopping cart](https://glossary.magento.com/shopping-cart) products are listed under the Go to [Checkout](https://glossary.magento.com/checkout) button:
 
-![In the minishopping cart products are listed under the Go to Checkout button]({{ site.baseurl }}/common/images/inherit_mini1.png)
+![In the minishopping cart products are listed under the Go to Checkout button](../../_images/frontend/inherit_mini1.png)
 
 The order is defined in the `<Magento_Checkout_module_dir>/view/frontend/templates/cart/minicart.phtml` module template. The Blank theme does not override this template.
 SampleCompany decided they want the product list to be displayed before the Go to Checkout button.
@@ -121,7 +121,7 @@ To do this, they need to add an overriding template for the corresponding module
 Note, that the path to the template inside the `templates` directory in the theme corresponds to that in the module.
 Having changed the order or elements in the templates, SampleCompany got the minicart look like following:
 
-![In the minishopping cart products are listed above the Go to Checkout button]({{ site.baseurl }}/common/images/inherit_mini2.png)
+![In the minishopping cart products are listed above the Go to Checkout button](../../_images/frontend/inherit_mini2.png)
 
 You can find out what exactly code changes are required to perform this and other tasks in the [Illustration of customizing templates topic]({{ page.baseurl }}/frontend-dev-guide/templates/template-sample.html).
 

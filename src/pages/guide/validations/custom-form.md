@@ -141,4 +141,4 @@ Here are examples of all available ways of validating the form fields.
 
 As a result, the form gets validated before sending data to the server for processing.
 
-![Validated Form Example]({{ site.baseurl }}/common/images/form-validation-result.png)
+![Validated Form Example](../../_images/frontend/form-validation-result.png)

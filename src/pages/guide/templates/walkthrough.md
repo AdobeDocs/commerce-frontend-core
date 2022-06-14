@@ -38,7 +38,7 @@ A small customization to illustrate the walkthrough: in their Orange theme, the 
 
 The following image illustrates how the default review form looks like:
 
-![Default review form]({{ site.baseurl }}/common/images/template_walk_without_text.png)
+![Default review form](../../_images/frontend/template_walk_without_text.png)
 
 To add the text, ExampleCorp needs to override the default review form template in the Orange theme.
 
@@ -46,8 +46,8 @@ First, they copy the `form.phtml` template from `<Magento_Review_module_dir>/vie
 
 In the theme `form.phtml` file they add the HTML snippet with the message before the `<form>`:
 
-![HTML snippet to add]({{ site.baseurl }}/common/images/template-sample-code.png)
+![HTML snippet to add](../../_images/frontend/template-sample-code.png)
 
 Here's how the form will look when the Orange theme is applied in a store:
 
-![Review form with the new message added]({{site.baseurl}}/common/images/template_with_text.png)
+![Review form with the new message added](../../_images/frontend/template_with_text.png)

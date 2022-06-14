@@ -23,7 +23,7 @@ To enable template hints:
 1. In the **Debug** tab, set **Template Path Hints for storefront** to **Yes**. To enable path hints for [Admin](https://glossary.magento.com/admin) set **Template Path Hints for Admin** to **Yes**.
 1. To save the changes, click **Save Config** in the upper-right corner.
 
-![Enabling template hints]({{ site.baseurl }}/common/images/fdg_debug_theme_23.png)
+![Enabling template hints](../../_images/frontend/fdg_debug_theme_23.png)
 
 {:.bs-callout-info}
 You can also use the CLI to enable/disable template hints.
@@ -45,21 +45,21 @@ bin/magento cache:clean config full_page
 Now that you have enabled template hints, reload the page that you want to modify. If you enabled hints for storefront with URL Param, reload the page with the param `?templatehints=magento` in the URL and review the path for the template file or files that the template hints show.
 Here is an example of a storefront [category](https://glossary.magento.com/category) page with template hints enabled:
 
-![A storefront page with enabled template hints]({{ site.baseurl }}/common/images/theme_debug2.png)
+![A storefront page with enabled template hints](../../_images/frontend/theme_debug2.png)
 
 In this example, the mini [shopping cart](https://glossary.magento.com/shopping-cart) page element is defined by the `<Magento_Checkout_module_dir>/view/frontend/templates/cart/minicart.phtml` template:
 
-![A hint with template name for minishopping cart]({{ site.baseurl }}/common/images/theme_debug3.png)
+![A hint with template name for minishopping cart](../../_images/frontend/theme_debug3.png)
 (the template name is above the element)
 
 Here is how the Customers page looks with template hints enabled in the Admin:
 
-![Admin page with enabled template hints]({{ site.baseurl }}/common/images/theme_debug5.png)
+![Admin page with enabled template hints](../../_images/frontend/theme_debug5.png)
 
 Alternatively, you can perform a text search in the file system by using system generated titles, [CSS](https://glossary.magento.com/css) class names, block titles, labels, or links text as search terms.
 For example, using a browser debug tool, you can define that the minicart block css class is `minicart-wrapper`.
 
-![Firebug displaying html]({{ site.baseurl }}/common/images/theme_debug4.png)
+![Firebug displaying html](../../_images/frontend/theme_debug4.png)
 
 A search through the app directory for occurrences of "minicart-wrapper" in `.phtml` files returns the `app/code/Magento/Checkout/view/frontend/templates/cart/minicart.phtml` template.
 

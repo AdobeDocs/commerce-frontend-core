@@ -59,4 +59,4 @@ Related topics
 [Simple style changes with client-side Less compilation vs. server-side]: {{ page.baseurl }}/frontend-dev-guide/css-guide/css_quick_guide_mode.html
 
 <!-- Image definitions -->
-[Storefront with Luma applied]: {{ site.baseurl }}/common/images/css_guide_luma21.png
+[Storefront with Luma applied]: ../../../_images/frontend/css_guide_luma21.png

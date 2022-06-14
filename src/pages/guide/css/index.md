@@ -87,5 +87,5 @@ Other topics of this chapter describe the following:
 *  [CSS critical path]({{ page.baseurl }}/frontend-dev-guide/css-topics/css-critical-path.html): how to use CSS critical path.
 *  [Customizing styles illustration]({{ page.baseurl }}/frontend-dev-guide/css-topics/css-practice.html): how to change a theme's color scheme using Magento UI library.
 
-[The default view of a product page, with the orange Add to Cart button]: {{site.baseurl}}/common/images/css_over1.png
-[The customized view of a product page, with the grey Add to Cart button]: {{site.baseurl}}/common/images/css_over2.png
+[The default view of a product page, with the orange Add to Cart button]: ../../_images/frontend/css_over1.png
+[The customized view of a product page, with the grey Add to Cart button]: ../../_images/frontend/css_over2.png

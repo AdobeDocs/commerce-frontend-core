@@ -103,11 +103,11 @@ When using Grunt for styles preprocessing, you can enable the CSS source maps ge
 
 For each theme, Magento compiles all theme `.less` files into two CSS files: `styles-m.css` and `styles-l.css`. So when you debug a theme, your browser only sees `styles-m.css` and it might be difficult to define which `.css` or `.less` file requires corrections. For example:
 
-![node declaration autocomplete]({{ site.baseurl }}/common/images/fdg/no-map.png){:width="610px"}
+![node declaration autocomplete](../../_images/frontend/no-map.png)
 
 CSS source maps solve this issue. They help to find the `.less` file, where the style is specified. For example:
 
-![node declaration autocomplete]({{ site.baseurl }}/common/images/fdg/with-map.png){:width="610px"}
+![node declaration autocomplete](../../_images/frontend/with-map.png)
 
 CSS source maps are generated automatically when you compile CSS for your theme using the `grunt less: <theme>` command. To use them, you need to enable the display of source maps in your browser. For example, in Chrome, you would open the Developer Tools, go to the **Settings** panel, select **Preferences**, then check the **Enable CSS source maps** checkbox.
 
@@ -117,7 +117,7 @@ The `<magento-root>/lib/web/css/source/lib/variables` directory contains LESS fi
 
 To change or override any of these variables, simply create a file in `<theme-dir>/web/css/source/_theme.less` For example:
 
-![node declaration autocomplete]({{ site.baseurl }}/common/images/fdg/lib-map.png){:width="610px"}
+![node declaration autocomplete](../../_images/frontend/lib-map.png)
 
 ```css
 @navigation__background: @secondary__color__light;

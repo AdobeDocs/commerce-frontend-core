@@ -33,7 +33,7 @@ Any templates configured in the Magento [Admin](https://glossary.magento.com/adm
 
    Make note of this path because you will need it later when you configure this new template to be used instead of the default template.
 
-   ![New template creation page with loaded default template]({{ site.baseurl }}/common/images/email_create_template21.png){:width="70%"}{:height="70%"}
+   ![New template creation page with loaded default template](../../_images/frontend/email_create_template21.png)
 
 1. In **Template Name**, enter a name to identify the template in the Admin.
 1. In **Template Subject**, add plain text to use as the Subject of the emails sent using the template you create. This field can contain system variables.
@@ -48,7 +48,7 @@ Any templates configured in the Magento [Admin](https://glossary.magento.com/adm
 
       For example, if you created a "New Order" template, the configuration section is **Order** as the following figure shows.
 
-      ![Choosing a custom template]({{ site.baseurl }}/common/images/email_choose-template21.png){:width="70%"}{:height="70%"}
+      ![Choosing a custom template](../../_images/frontend/email_choose-template21.png)
 
    1. Select your newly created template from the list.
    1. Click **Save Config**.
@@ -72,11 +72,11 @@ To add the store and sales related information to a template, use system variabl
 
 System variables are placeholders which are replaced by particular values when the actual email is generated. For example, the Store Hours (`{% raw %}{{config path="general/store_information/hours"}}{% endraw %}`) variable is replaced by the value set in the **STORES** > Settings > **Configuration** > GENERAL > **General** > **Store Information** section.
 
-![Configuration > General > Store Information section.]({{ site.baseurl }}/common/images/store_information.png)
+![Configuration > General > Store Information section.](../../_images/frontend/store_information.png)
 
 You may also create your own custom variables and set their values in the Admin, under **SYSTEM** > Other Settings > **Custom Variables**.
 
-![Add new custom variable section]({{ site.baseurl }}/common/images/custom_variables.png)
+![Add new custom variable section](../../_images/frontend/custom_variables.png)
 
 To add a variable to your template content:
 
@@ -85,7 +85,7 @@ To add a variable to your template content:
 1. Click to place the cursor in the text in which to insert the variable.
 1. Click **Insert Variable**. A pop-up containing a list of variables opens, including custom variables. The variables in the **Store Contact Information** are available in all email templates whereas the variables in the **Template Variables** section are specific to the template you are editing and the extensions you may have installed. The following figure shows an example:
 
-   ![The list of available variables]({{ site.baseurl }}/common/images/email_insert_variable21.png){:width="70%"}{:height="70%"}
+   ![The list of available variables](../../_images/frontend/email_insert_variable21.png)
 
 1. Click the name of the required variable. <br> The variable code is inserted in the template content.
 
@@ -333,7 +333,7 @@ To customize your logo using a theme:
 1. In the configuration record corresponding to your store view, click **Edit**.
 1. Under **Transactional Emails** in the **Logo Image** field upload your logo and specify the alternative text for it.
 
-   ![System configuration]({{ site.baseurl }}/common/images/email_templ_logo21.png)
+   ![System configuration](../../_images/frontend/email_templ_logo21.png)
 
 1. Enter values for **Logo Width** and **Logo Height**. Based on the preceding example, you would enter `200` and `100`, respectively.
 
@@ -351,14 +351,14 @@ To set those values:
    1. Note: The **Store Phone Number** and **Store Hours of Operation** fields are optional.
    1. Click the **Save Config** button.
 
-   ![Set contact information in emails from Admin]({{ site.baseurl }}/common/images/contact_information_email.png)
+   ![Set contact information in emails from Admin](../../_images/frontend/contact_information_email.png)
 
 1. To set the store email:
    1. In the Admin, navigate to **STORES** > Settings > **Configuration** > GENERAL > **General** > **Store Email Addresses** > **General Contact**
    1. Input values into the **Sender Name** and **Sender Email** fields.
    1. Click the **Save Config** button.
 
-   ![Set the store email from Admin]({{ site.baseurl }}/common/images/set_store_email.png)
+   ![Set the store email from Admin](../../_images/frontend/set_store_email.png)
 
 The sales emails are configured to display all of the above values, if they're configured in the admin. If you want to add those values to other email templates, you can use the following variables:
 

@@ -46,4 +46,4 @@ If your theme inherits from Blank or Luma, you do not even need to additionally 
 If your theme does not inherit from Blank or Luma, to be able to use the scripts, you must configure RequireJS for your theme.
 
 [`matchMedia.js`]: https://github.com/paulirish/matchMedia.js/
-[responsive menu]: {{site.baseurl}}/common/images/js_rwd_menu.png
+[responsive menu]: ../../_images/frontend/js_rwd_menu.png

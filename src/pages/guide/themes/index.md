@@ -22,6 +22,6 @@ Your new theme can be a standalone new theme, or it can inherit from the default
 
 ## Themes flow
 
-![Themes flow]({{ site.baseurl }}/common/images/fdg/create_install_theme.png)
+![Themes flow](../../_images/frontend/create_install_theme.png)
 
 [inherit other required files from a parent theme]: {{page.baseurl}}/frontend-dev-guide/themes/theme-inherit.html

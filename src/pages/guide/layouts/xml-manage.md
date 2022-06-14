@@ -214,7 +214,7 @@ To add new classes to the container:
 <referenceContainer name="page.wrapper" htmlClass="my-new-page-wrapper-class second-class"/>
 ```
 
-![Container Classes]({{ site.baseurl }}/common/images/container-classes-result.png)
+![Container Classes](../../_images/frontend/container-classes-result.png)
 
 {:.bs-callout-warning}
 This method overrides existing classes.
@@ -262,7 +262,7 @@ To set attributes for the HTML `body` tag use the `<attribute>` instruction.
     </body>
 ```
 
-![Block Class]({{ site.baseurl }}/common/images/body-class-result.png)
+![Block Class](../../_images/frontend/body-class-result.png)
 
 **Example:** Add a custom attribute to the `body` tag.
 
@@ -321,7 +321,7 @@ To add a new class to the block:
 </referenceBlock>
 ```
 
-![Block Class]({{ site.baseurl }}/common/images/block-class-result.png)
+![Block Class](../../_images/frontend/block-class-result.png)
 
 ## Reference a CMS block {#ref_cms_block}
 
@@ -340,7 +340,7 @@ A CMS block is injected into the layout by using the [Magento/Cms/Block/Block] c
 
 As a result, the CMS block added to the bottom of the page.
 
-![CMS Block]({{ site.baseurl }}/common/images/cms-block-reference.png)
+![CMS Block](../../_images/frontend/cms-block-reference.png)
 
 ## Making the block visibility dynamic {#ref_config_block}
 
@@ -487,7 +487,7 @@ put the stock availability and SKU blocks next to the product price on a product
 
 In the Magento Blank theme these elements are located as follows:
 
-![]({{site.baseurl}}/common/images/layout_image1.png)
+](../../_images/frontend/layout_image1.png)
 
 Place the stock availability and SKU blocks after product price block on a product page, and move the review block out of the product-info-price container.
 To do this, add the extending `catalog_product_view.xml` in the `app/design/frontend/ExampleCorp/orange/Magento_Catalog/layout/` directory:
@@ -503,7 +503,7 @@ To do this, add the extending `catalog_product_view.xml` in the `app/design/fron
 
 This would make the product page look like following:
 
-![]({{site.baseurl}}/common/images/layout_image2.png)
+![](../../_images/frontend/layout_image2.png)
 
 {:.bs-callout-info}
 To learn how to locate the layout file you need to customize, see [Locate templates, layouts, and styles].

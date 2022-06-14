@@ -23,11 +23,11 @@ To apply a theme:
 
 1. In Admin, go to **Content** > Design > **Configuration**. A Design Configuration page opens. It contains a grid with the available configuration scopes. For example:
 
-   ![Design Configuration page]
+   ![Design Configuration page](../../_images/frontend/design_conf1.png)
 
 1. In the configuration record corresponding to your store view, click **Edit**. The page with design configuration for the selected scope opens. For example:
 
-   ![Design Configuration page for a particular scope]
+   ![Design Configuration page for a particular scope](../../_images/frontend/applied_theme.png)
 
 1. On the **Default Theme** tab, in the **Applied Theme** drop-down, select your newly created theme.
 1. Click **Save Configuration**.
@@ -44,7 +44,7 @@ To add a design exception:
 1. On the **Design Rule** tab, click **Add New User Agent Rule**.
 1. In the **Search String** box specify the user-agent using either normal strings or regular expressions (PCRE). In the **Theme Name** drop-down list select the theme to be used for matching agent.
 
-![Design Exception]({{ site.baseurl }}/common/images/user_agent_rule.png)
+![Design Exception](../../_images/frontend/user_agent_rule.png)
 
 1. Click **Save Configuration** or **Save and Continue**.
 1. If caching is enabled, [clear the cache](#theme-apply-clear).
@@ -65,7 +65,7 @@ To add a permanent theme-independent logo:
 1. If caching is enabled, [clear the cache](#theme-apply-clear).
 1. To see your changes applied, reload the storefront pages.
 
-![Set store logo in Admin]({{ site.baseurl }}/common/images/logo.png)
+![Set store logo in Admin](../../_images/frontend/logo.png)
 
 The logo you add here is stored in the `/pub/media/logo/default/` directory.
 
@@ -81,11 +81,8 @@ A system message notifies you that invalidated cache types must be refreshed.
 1. Click **System** > **Cache Management**.
 1. Clear the invalid cache types.
 
-![Clear the cache from Admin]({{ site.baseurl }}/common/images/clear_cache.png)
+![Clear the cache from Admin](../../_images/frontend/clear_cache.png)
 
 ## Troubleshooting (if the changes do not get applied)
 
 If the changes you configure in the Admin are not applied after you clear the cache and reload the page, delete all files in the `pub/static/frontend` and `var/view_preprocessed` directories, then reload the pages. You can delete the files manually or run the `grunt clean:<theme_name>` command in CLI. For details about using Grunt in Magento see [Installing and configuring Grunt]({{ page.baseurl }}/frontend-dev-guide/css-topics/css_debug.html#prerequisites).
-
-[Design Configuration page]: {{site.baseurl}}/common/images/design_conf1.png
-[Design Configuration page for a particular scope]: {{site.baseurl}}/common/images/fdg/applied_theme.png

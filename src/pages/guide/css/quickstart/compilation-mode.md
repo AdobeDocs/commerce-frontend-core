@@ -15,7 +15,7 @@ The examples in this topic use the [simple approach]({{ page.baseurl }}/frontend
 
 In our examples, we will change the color and font of the primary buttons. The default view of the primary buttons can be illustrated by the **Create an Account** button view on the Customer login page:
 
-![Admin login page with the default view of the primary buttons]({{ site.baseurl }}/common/images/extend_less_screenshot21.png)
+![Admin login page with the default view of the primary buttons](../../../_images/frontend/extend_less_screenshot21.png)
 
 ## Before you begin
 
@@ -41,7 +41,7 @@ The following is an illustration of how the process of making simple changes loo
 1. [Clean static files cache]({{ page.baseurl }}/frontend-dev-guide/cache_for_frontdevs.html#clean_static_cache).
 1. Refresh the page and verify your changes.
 
-   ![Less code redefining the color of the primary buttons]({{ site.baseurl }}/common/images/extend_less_screenshot121.png)
+   ![Less code redefining the color of the primary buttons](../../../_images/frontend/extend_less_screenshot121.png)
 
 1. Change the button font size by adding the following code in the `_extend.less` file:
 
@@ -62,7 +62,7 @@ The following is an illustration of how the process of making simple changes loo
 
 1. Refresh the page and verify your changes.
 
-   ![Admin login page where the font of the buttons was changed]({{ site.baseurl }}/common/images/extend_less_screenshot221.png)
+   ![Admin login page where the font of the buttons was changed](../../../_images/frontend/extend_less_screenshot221.png)
 
 {:.bs-callout-info}
 If you are using server-side compilation mode, you must [clean generated static view files]({{ page.baseurl }}/frontend-dev-guide/cache_for_frontdevs.html#clean_static_cache). Continue to the next section to learn how to use Grunt to automate this process.
@@ -90,7 +90,7 @@ If you are using server-side compilation mode, you must [clean generated static 
 
 1. Refresh the page and verify your changes.
 
-   ![Admin login page where the color of the button was changed]({{ site.baseurl }}/common/images/extend_less_screenshot121.png)
+   ![Admin login page where the color of the button was changed](../../../_images/frontend/extend_less_screenshot121.png)
 
 1. Change the button font size by adding the following code in the `_extend.less` file:
 
@@ -106,7 +106,7 @@ If you are using server-side compilation mode, you must [clean generated static 
 
 1. Refresh the page and verify your changes.
 
-   ![Admin login page where the font of the buttons was changed]({{ site.baseurl }}/common/images/extend_less_screenshot221.png)
+   ![Admin login page where the font of the buttons was changed](../../../_images/frontend/extend_less_screenshot221.png)
 
 ## Using client-side compilation mode
 
@@ -128,7 +128,7 @@ If you are using server-side compilation mode, you must [clean generated static 
 
 1. Refresh the page and verify your changes.
 
-   ![Admin login page where the font of the buttons was changed]({{ site.baseurl }}/common/images/extend_less_screenshot121.png)
+   ![Admin login page where the font of the buttons was changed](../../../_images/frontend/extend_less_screenshot121.png)
 
 1. Change the button font size by adding the following code in the `_extend.less` file:
 
@@ -144,7 +144,7 @@ If you are using server-side compilation mode, you must [clean generated static 
 
 1. Refresh the page and verify your changes.
 
-   ![Admin login page where the font of the buttons was changed]({{ site.baseurl }}/common/images/extend_less_screenshot221.png)
+   ![Admin login page where the font of the buttons was changed](../../../_images/frontend/extend_less_screenshot221.png)
 
 {:.bs-callout-info}
 When your Magento instance is in client-side Less compilation mode, simple changes are applied after saving or refreshing the page. For more sophisticated changes, you may need to manually clean the theme sub-directory in the `pub/static/frontend` directory and generate a new deployment. See [Styles debugging]({{ page.baseurl }}/frontend-dev-guide/css-topics/css_debug.html).

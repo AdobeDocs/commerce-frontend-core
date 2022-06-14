@@ -93,7 +93,7 @@ For the sake of compatibility, upgradability and easy maintenance, do not edit t
 
 1. Expand the _Product Video_ section and uncheck the **Use system value** checkbox. Then change the configuration options.
 
-![Product Video Options]({{ page.baseurl }}/frontend-dev-guide/images/config-catalog-catalog-product-video.png)
+![Product Video Options](../../_images/frontend/config-catalog-catalog-product-video.png)
 
 1. When complete, click _Save Config_.
 

@@ -46,15 +46,15 @@ Introducing a critical path CSS to Magento leads to performance improvements:
 
 -  Eliminated render-blocking CSS resources. As a result, the time for loading render-blocking resources decreases substantially.
 
-   ![CSS resources eliminated as render-blocking]({{ site.baseurl }}/common/images/critical_css_improvements1.png)
+   ![CSS resources eliminated as render-blocking](../../_images/frontend/critical_css_improvements1.png)
 
 -  The first meaningful paint time improved from 3.5 seconds to 2.3 seconds.
 
-   ![First meaningful paint time improved]({{ site.baseurl }}/common/images/critical_css_improvements2.png)
+   ![First meaningful paint time improved](../../_images/frontend/critical_css_improvements2.png)
 
 -  The speed index increased by 0.8 seconds.
 
-   ![Speed index increased]({{ site.baseurl }}/common/images/critical_css_improvements3.png)
+   ![Speed index increased](../../_images/frontend/critical_css_improvements3.png)
 
 As a result, the Google PageSpeed Insights score improved by **5** points.
 

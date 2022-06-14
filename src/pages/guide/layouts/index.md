@@ -130,4 +130,4 @@ Layout validations and error handling depends on the [application mode] in which
 [Customizing layout - step-by-step illustration]: {{ page.baseurl }}/frontend-dev-guide/layouts/layout-practice.html
 
 <!-- Image Definitions -->
-[layout]: {{ site.baseurl }}/common/images/layouts_block_containers_defn21.png
+[layout]: ../../_images/frontend/layouts_block_containers_defn21.png

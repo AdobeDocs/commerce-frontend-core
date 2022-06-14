@@ -27,12 +27,12 @@ To add a custom favicon in the Admin, do the following:
 1. Navigate to **Content** > Design > **Configuration**.
 1. In the scope grid, decide on which level you will configure the favicon and click **Edit** in the corresponding row.
 
-   ![favicon 1]({{site.baseurl}}/common/images/favicon_2_21.png)
+   ![favicon 1](../../_images/frontend/favicon_2_21.png)
 
 1. Under the **Other Settings** title, expand the **HTML Head** options.
 1. Next to **Favicon Icon**, click **Upload**, and select the file.
 
-   ![favicon 2]({{site.baseurl}}/common/images/favicon_1_21.png)
+   ![favicon 2](../../_images/frontend/favicon_1_21.png)
 
 1. Click **Save Configuration** in the upper right corner to save the changes.
 

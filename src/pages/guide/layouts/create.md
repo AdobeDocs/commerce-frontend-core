@@ -62,8 +62,8 @@ bin/magento cache:clean
 
 The new page layout displays in all `Layout` dropdowns.
 
-![Custom page layout]({{ site.baseurl }}/common/images/fdg/custom_layout_admin_backend.png)
+![Custom page layout](../../_images/frontend/custom_layout_admin_backend.png)
 
 On the storefront, there is a new footer for those pages that use the `3 Columns Double Footer` layout.
 
-![Storefront two footers layout]({{ site.baseurl }}/common/images/fdg/custom_layout_footer_bottom.png)
+![Storefront two footers layout](../../_images/frontend/custom_layout_footer_bottom.png)

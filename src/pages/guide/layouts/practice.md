@@ -289,6 +289,6 @@ As a result, the customer links look like following:
 
 ![layout screen2]
 
-[layout transform]: {{site.baseurl}}/common/images/layout_transform21.png
-[layout screen1]: {{site.baseurl}}/common/images/layout_screen221.png
-[layout screen2]: {{site.baseurl}}/common/images/layout_screen321.png
+[layout transform]: ../../_images/frontend/layout_transform21.png
+[layout screen1]: ../../_images/frontend/layout_screen221.png
+[layout screen2]: ../../_images/frontend/layout_screen321.png

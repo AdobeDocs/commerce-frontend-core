@@ -114,7 +114,7 @@ Override the default `wishlist_index_share.xml` in any one of the following path
 </page>
 ```
 
-![Wish List Sharing. 3 columns layout page type]({{ page.baseurl }}/frontend-dev-guide/images/wish-list-sharing.png)
+![Wish List Sharing. 3 columns layout page type](../../_images/frontend/wish-list-sharing.png)
 
 {:.bs-callout-info}
 By default, Magento provides 5 page layout types for the frontend (`empty`, `1column`, `2columns-left`, `2columns-right`, and `3columns`) and 3 page layout types for the backend (`admin-empty`, `admin-1column`, and `admin-2columns-left`).
