@@ -4,19 +4,15 @@ module.exports = [
       path: "/",
     },
     {
-      title: "Guide",
-      path: "/frontend/",
+      title: "Development",
+      path: "/development/",
     },
     {
       title: "UI Components",
       path: "/ui-components/",
     },
     {
-      title: "Javascript",
+      title: "JavaScript",
       path: "/javascript/",
-    },
-    {
-      title: "Admin",
-      path: "/admin/",
     },
   ];
