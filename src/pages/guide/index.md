@@ -3,7 +3,7 @@ title: Frontend Developer Guide | Commerce Frontend Development
 description:
 ---
 
-## Introduction {#overview-introduction}
+# Frontend Developer Guide
 
 This document provides instructions for creating and installing custom [storefront](https://glossary.magento.com/storefront) themes for a Magento application. It describes Magento's content rendering process and explains the view layer of the system to the extent required to build a [theme](https://glossary.magento.com/theme) efficiently. The document also walks through everyday [frontend](https://glossary.magento.com/frontend) developer's tasks.
 
@@ -55,13 +55,3 @@ To use this guide, you must be familiar with:
 *  [PHTML](https://glossary.magento.com/phtml)
 *  [PHP (Basic)](https://glossary.magento.com/php)
 *  [Responsive Web Design (RWD)]({{ page.baseurl }}/frontend-dev-guide/responsive-web-design/rwd_overview.html)
-
-{:.ref-header}
-Related topics
-
-*  [Themes]({{ page.baseurl }}/frontend-dev-guide/themes/theme-overview.html)
-*  [Magento UI library]({{ page.baseurl }}/frontend-dev-guide/css-topics/theme-ui-lib.html)
-*  [Cascading style sheets (CSS)]({{ page.baseurl }}/frontend-dev-guide/css-topics/css-overview.html)
-*  [JavaScript coding standard]({{ page.baseurl }}/coding-standards/code-standard-javascript.html)
-*  [Responsive web design]({{ page.baseurl }}/frontend-dev-guide/responsive-web-design/rwd_overview.html)
-*  [Translations]({{ page.baseurl }}/frontend-dev-guide/translations/xlate.html)
