@@ -4,8 +4,8 @@ module.exports = [
       path: "/",
     },
     {
-      title: "Development",
-      path: "/development/",
+      title: "Guide",
+      path: "/guide/",
     },
     {
       title: "UI Components",
