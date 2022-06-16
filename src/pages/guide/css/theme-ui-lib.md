@@ -6,14 +6,14 @@ functional_areas:
   - Theme
 ---
 
-The Magento UI [library](https://glossary.magento.com/library) is a flexible [Less]-based [frontend](https://glossary.magento.com/frontend) library designed to assist Magento [theme](https://glossary.magento.com/theme) developers.
+The Magento UI [library](https://glossary.magento.com/library) is a flexible [Less]-based [frontend](https://glossary.magento.com/frontend) library designed to assist [theme](https://glossary.magento.com/theme) developers.
 It employs a set of mixins for base elements to ease frontend theme development and customization.
 
-This topic describes how the library is organized, and how to use it. For more information, see the [Magento UI library documentation] that reflects the latest [embedded documentation].
+This topic describes how the library is organized and how to use it.
 
-## Components provided by the UI library {#library_elements}
+## Components provided by the UI library
 
-The Magento UI library provides the ability to customize and reuse the following user interface elements and properties:
+The UI library provides the ability to customize and reuse the following user interface elements and properties:
 
 *  actions-toolbar
 *  breadcrumbs
@@ -37,9 +37,9 @@ The following illustration shows a [storefront](https://glossary.magento.com/sto
 
 ![*A product page with user interface elements specified*][ui_lib1.png]
 
-## Mixin location {#fedg_using-ui-lib_mixins}
+## Mixin location
 
-You can find the Magento UI library under [`lib/web/css`][].
+You can find the UI library under [`lib/web/css`][].
 Library source `.less` files are stored under the `source` directory, each file contains mixins for configuring a certain element, and in most cases the element coincides with the file name:
 
 ```tree
@@ -85,7 +85,7 @@ lib/web
     └── jquery/ (Library javascript files)
 ```
 
-## Predefined variables {#fedg_using-ui-lib_predef-vars}
+## Predefined variables
 
 If your theme [inherits][] from any Magento out-of-the-box theme, for example Blank, you can easily customize any element of a store page without changing any [CSS](https://glossary.magento.com/css) code or templates.
 Customization can be performed by simply changing in your theme the values of the predefined variables used in the UI library or parent theme mixins.
@@ -96,7 +96,8 @@ For example, [`lib/web/css/source/lib/variables/_breadcrumbs.less`][] contains v
 
 To change the default library variables values, specify the new values for the required variables in the `<theme_dir>/web/css/source/_theme.less` file.
 
-{:.bs-callout-info}
+<InlineAlert variant="info" slots="text"/>
+
 Please mind, that your `<theme_dir>/web/css/source/_theme.less` file overrides `_theme.less` of the parent theme (if your theme has a parent).
 So if you want to inherit the parent theme's variable values additionally to your changes, add the content of parent’s `_theme.less` to your file as well.
 
@@ -105,11 +106,11 @@ The theme customized Blank by redefining variables only.
 
 ![*Changing design by redefining variables*][ui_lib2.png]
 
-## Your custom variables {#fedg_using-ui-lib_vars}
+## Your custom variables
 
-When naming custom variables, please follow the [Magento naming convention for the Less variables].
+When naming custom variables, please follow the [Magento naming convention for the Less variables](https://developer.adobe.com/commerce/php/coding-standards/less/#naming).
 
-## Using mixins {#fedg_using-ui-lib_customize}
+## Using mixins
 
 You can use a mixin with default variables values, or you can redefine them when calling a mixin.
 The following paragraphs describe both ways to call a mixin.
@@ -219,36 +220,29 @@ As result, the tooltip placed on the right side.
 
 ![Tooltip element](../../_images/frontend/tooltip-element-result.png)
 
-## Embedded documentation {#docs}
+## Embedded documentation
 
-The detailed information about the Magento UI library is embedded in the code repository:
+The detailed information about the UI library is embedded in the code repository:
 
-*  [`lib/web/css/docs/source/README.md`] describes the Magento UI library structure, naming conventions, and code style.
+*  [`lib/web/css/docs/source/README.md`] describes the UI library structure, naming conventions, and code style.
 *  [`lib/web/css/docs`] contains a set of `.html` files with detailed information about the library mixins.
 
 Each file is named after the mixin it describes, and contains detailed mixin description and navigation controls to access documentation for other mixins.
-The generated Magento UI library documentation is provided in a convenient [HTML](https://glossary.magento.com/html) view. It is available in the following location in your Magento installation: `<your_Magento_instance>/pub/static/frontend/Magento/blank/en_US/css/docs/index.html` (view in a browser).
+The generated UI library documentation is provided in a convenient [HTML](https://glossary.magento.com/html) view. It is available in the following location in your Magento installation: `<your_Magento_instance>/pub/static/frontend/Magento/blank/en_US/css/docs/index.html` (view in a browser).
 
 <!-- Link definitions -->
 
-[`lib/web/css/docs/source/README.md`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/css/docs/source/README.md
+[`lib/web/css/docs/source/README.md`]: https://github.com/magento/magento2/blob/2.4/lib/web/css/docs/source/README.md
 
-[`lib/web/css/docs`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/css/docs
+[`lib/web/css/docs`]: https://github.com/magento/magento2/blob/2.4/lib/web/css/docs
 
-[`lib/web/css/source/lib/variables/_breadcrumbs.less`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/css/source/lib/variables/_breadcrumbs.less
+[`lib/web/css/source/lib/variables/_breadcrumbs.less`]: https://github.com/magento/magento2/blob/2.4/lib/web/css/source/lib/variables/_breadcrumbs.less
 
-[`lib/web/css/source/lib/variables`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/css/source/lib/variables
+[`lib/web/css/source/lib/variables`]: https://github.com/magento/magento2/blob/2.4/lib/web/css/source/lib/variables
 
-[`lib/web/css`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/css
-
-[embedded documentation]: #docs
-[inherits]: {{ page.baseurl }}/frontend-dev-guide/themes/theme-inherit.html
+[`lib/web/css`]: https://github.com/magento/magento2/blob/2.4/lib/web/css
 
 [Less]: http://lesscss.org/
-
-[Magento naming convention for the Less variables]: {{ page.baseurl }}/coding-standards/code-standard-less.html#naming
-
-[Magento UI library documentation]: {{ page.baseurl }}/frontend-dev-guide/css-topics/theme-ui-lib.html
 
 [ui_lib1.png]: ../../_images/frontend/ui_lib1.png
 [ui_lib2.png]: ../../_images/frontend/ui_lib2.png

@@ -7,7 +7,7 @@ functional_areas:
 
 ## In this topic
 
-Stylesheets are the main tool in responsive web design (RWD) implementation. This topic describes the mechanisms and approaches to building RWD used in the default Magento themes. To re-use them in your custom theme, make your theme [inherit][theme-inherit] from the Magento Blank theme.
+Stylesheets are the main tool in responsive web design (RWD) implementation. This topic describes the mechanisms and approaches to building RWD used in the default Magento themes. To re-use them in your custom theme, make your theme [inherit][theme-inherit] from the Blank theme.
 
 ## Mobile first
 
@@ -24,7 +24,7 @@ The mobile and desktop styles are defined in separate files:
 -  [styles-l.less] is used to generate desktop-specific styles (768px and higher).
 -  [styles-m.less] is used to generate basic and mobile-specific styles.
 
-## Breakpoints {#fedg_rwd_css_break}
+## Breakpoints
 
 Breakpoints are used in the CSS code to set up the screen width at which the design switches from the mobile to the desktop version.
 
@@ -37,20 +37,21 @@ The Blank and Luma themes use Less variables to implement the following [breakpo
 -  `@screen__l`: 1024px
 -  `@screen__xl`: 1440px
 
-The default breakpoint variables are located in the Magento UI library: `lib/web/css/source/lib/variables/_responsive.less`.
+The default breakpoint variables are located in the UI library: `lib/web/css/source/lib/variables/_responsive.less`.
 
 You can change these breakpoints or add new ones in your custom theme. For instructions see the [Add a new breakpoint][rwd-breakpoints] topic.
 
-## Media queries in Magento default themes {#lib_rwd}
+## Media queries in default themes
 
-The Blank and Luma theme styles are based on the [Magento UI library]. The library uses [CSS3 media queries][css3-media-queries-wiki], an extension of the `@media` rule, to adapt the layout to the screen width.
+The Blank and Luma theme styles are based on the [UI library]. The library uses [CSS3 media queries][css3-media-queries-wiki], an extension of the `@media` rule, to adapt the layout to the screen width.
 
-The approach implemented in the Magento UI library, uses `@media-common` style group separation and `.media-width()` mixins which can be used in any `.less` file in a theme, as many times as needed, but it is invoked only once, in `lib/web/css/source/lib/_responsive.less`. The resulting `styles-m.css` and `styles-l.css` both have only one call of each media query with all the rules there, instead of multiple calls for the same query.
+The approach implemented in the UI library, uses `@media-common` style group separation and `.media-width()` mixins which can be used in any `.less` file in a theme, as many times as needed, but it is invoked only once, in `lib/web/css/source/lib/_responsive.less`. The resulting `styles-m.css` and `styles-l.css` both have only one call of each media query with all the rules there, instead of multiple calls for the same query.
 
 -  Media queries `@media-common`, `max screen__s` and `max screen__m` will be added to `styles-m.css`.
 -  Media queries `min screen__m` and `min screen__l` will be added to `styles-l.css`.
 
-{:.bs-callout-warning}
+<InlineAlert variant="warning" slots="text"/>
+
 If working on a theme which inherits from either the Blank or Luma theme, it's recommended to use `.media-width()` and style groups separation.  Otherwise the style rules will be added twice, once to `styles-m.css` and once more to `styles-l.css`.
 
 For Less styles rules to be compiled to `styles-m.css` without a media query so that they apply to all screen widths use the `@media-common` style group separation.
@@ -121,24 +122,12 @@ For grouping style rules in certain media queries the `.media-width()` mixin use
 }
 ```
 
-You can find more information about the Magento UI library responsive mixin usage in `<your_Magento_instance>/pub/static/frontend/Magento/blank/en_US/css/docs/responsive.html` (view in a browser).
-
-{:.ref-header}
-Related topics
-
--  [Create a theme][theme-create]
--  [CSS and Less preprocessing][css-preprocessing]
--  [Magento UI library][magento-ui-link]
--  [JavaScript in a responsive design][rwd-js]
+You can find more information about the UI library responsive mixin usage in `<your_Magento_instance>/pub/static/frontend/Magento/blank/en_US/css/docs/responsive.html` (view in a browser).
 
 <!-- Link definitions -->
-[styles-l.less]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/design/frontend/Magento/blank/web/css/styles-l.less
-[styles-m.less]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/design/frontend/Magento/blank/web/css/styles-m.less
-[rwd-js]: {{page.baseurl}}/frontend-dev-guide/responsive-web-design/rwd_js.html
-[magento-ui-link]: {{page.baseurl}}/frontend-dev-guide/css-topics/theme-ui-lib.html
-[css-preprocessing]: {{page.baseurl}}/frontend-dev-guide/css-topics/css-preprocess.html
-[theme-create]: {{page.baseurl}}/frontend-dev-guide/themes/theme-create.html
+[styles-l.less]: https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/blank/web/css/styles-l.less
+[styles-m.less]: https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/blank/web/css/styles-m.less
 [css3-media-queries-wiki]: http://en.wikipedia.org/wiki/Media_queries
-[breakpoints-link]: {{ page.baseurl }}/frontend-dev-guide/responsive-web-design/rwd_overview.html#fedg_rwd_terms
-[theme-inherit]: {{ page.baseurl }}/frontend-dev-guide/themes/theme-inherit.html
-[rwd-breakpoints]: {{ page.baseurl }}/frontend-dev-guide/responsive-web-design/rwd-breakpoints.html
+[breakpoints-link]: index.md#terms-used
+[theme-inherit]: ../themes/inherit.md
+[rwd-breakpoints]: breakpoints.md

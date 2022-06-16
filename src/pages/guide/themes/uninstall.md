@@ -13,13 +13,13 @@ This topic describes how to uninstall a [storefront](https://glossary.magento.co
 The way a theme should be uninstalled is defined by two factors:
 
 *  the way the theme was added: manually added (installed or created), installed as [composer](https://glossary.magento.com/composer) package or as an [extension](https://glossary.magento.com/extension).
-*  the way Magento was installed: [using the source files from GitHub]({{ page.baseurl }}/install-gde/install/cli/install-cli-sample-data-clone.html) or [using Composer]({{ page.baseurl }}/install-gde/install/cli/install-cli-sample-data-composer.html).
+*  the way Magento was installed: [using the source files from GitHub](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-sample-data-clone.html) or [using Composer](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-sample-data-composer.html).
 
 The following sections describe the flow for uninstalling themes in each case.
 
 ## Prerequisites
 
-1. [Set your Magento application to the developer or default mode]({{ page.baseurl }}/config-guide/cli/config-cli-subcommands-mode.html).
+1. [Set your Magento application to the developer or default mode](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html).
 1. Make sure that the theme is not applied on the storefront. To do this, in the [Admin](https://glossary.magento.com/admin) panel navigate to **Content** > Design > **Configuration** and make sure that your custom theme is not applied for any [store view](https://glossary.magento.com/store-view).
 1. Make sure that the theme is not defined as a parent for any registered theme. To do this, in the Admin panel, navigate to **Content** > Design > **Themes**. Make sure that your theme is not mentioned in the **Parent Theme** column. If it is mentioned, you need to uninstall the child theme first.
 
@@ -43,13 +43,13 @@ Where:
 *  `<dbname>`: your Magento database name
 *  `<Vendor>/<theme>`: relative path to the theme directory
 
-## Uninstall a theme package {#uninstall_theme_pack}
+## Uninstall a theme package
 
 The flow for uninstalling a theme that is [Composer package](https://glossary.magento.com/composer-package) is different, depending on the way your Magento instance was installed.
 
 ### Uninstall a theme package if Magento was installed using Composer
 
-If both the theme and the Magento instance were installed using Composer, you can use a special CLI command. Follow the instructions from the [Uninstall themes Composer package]({{ page.baseurl }}/install-gde/install/cli/install-cli-theme-uninstall.html) topic.
+If both the theme and the Magento instance were installed using Composer, you can use a special CLI command. Follow the instructions from the [Uninstall themes Composer package](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-theme-uninstall.html) topic.
 
 ### Uninstall a theme package if Magento was installed by cloning the repository
 
@@ -73,9 +73,10 @@ Take the following steps:
    composer update
    ```
 
-1. Use the `magento theme:uninstall` CLI command as described in the [Uninstall themes Composer package]({{ page.baseurl }}/install-gde/install/cli/install-cli-theme-uninstall.html) topic.
+1. Use the `magento theme:uninstall` CLI command as described in the [Uninstall themes Composer package](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-theme-uninstall.html) topic.
 
-{:.bs-callout-info}
+<InlineAlert variant="info" slots="text"/>
+
 You can use the Composer remove command to remove the dependency, but in that case, you must delete the theme record from the database manually.
 
 ## Uninstall a theme extension

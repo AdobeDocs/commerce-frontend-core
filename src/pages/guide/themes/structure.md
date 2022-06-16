@@ -6,11 +6,12 @@ functional_areas:
   - Theme
 ---
 
-## What's in this topic {#theme-structure-intro}
+## What's in this topic
 
-A [design theme]({{ page.baseurl }}/frontend-dev-guide/themes/theme-overview.html) is an important part of the Magento application. This topic describes the file structure of a Magento [theme](https://glossary.magento.com/theme).
+A [design theme](index.md) is an important part of the Magento application. This topic describes the file structure of a Magento [theme](https://glossary.magento.com/theme).
 
-## Magento theme location {#theme-structure-loc}
+## Magento theme location
+
 [Storefront](https://glossary.magento.com/storefront) themes are conventionally located under `app/design/frontend/<Vendor>/`. Though technically they can reside in other directories. For example Magento built-in themes can be located under `vendor/magento/theme-frontend-<theme_code>` when a Magento instance is deployed from the [Composer](https://glossary.magento.com/composer) repository.
 
 Each theme must be stored in a separate directory:
@@ -23,7 +24,7 @@ app/design/frontend/<Vendor>/
 ├--...
 ```
 
-## Theme components {#theme-structure-comp}
+## Theme components
 
 The structure of a Magento theme directory typically would be like following:
 
@@ -52,7 +53,8 @@ The structure of a Magento theme directory typically would be like following:
 
 Let's have a closer look at each particular sub-directory.
 
-{:.bs-callout-info}
+<InlineAlert variant="info" slots="text"/>
+
 The directories and files structure described below is the most extended one. It may not coincide with the structure of your store.
 
 <table>
@@ -173,7 +175,7 @@ The directories and files structure described below is the most extended one. It
       </td>
       <td colspan="1">This directory contains theme
         <code>less</code>
-         configuration files that invoke mixins for global elements from the Magento UI library, and
+         configuration files that invoke mixins for global elements from the UI library, and
         <code>theme.less</code>
          file which overrides the default variables values.
       </td>
@@ -254,14 +256,14 @@ The directories and files structure described below is the most extended one. It
   </tbody>
 </table>
 
-## Theme files {#theme-structure-files}
+## Theme files
 
 Apart from the configuration file and theme [metadata](https://glossary.magento.com/metadata) file, all theme files fall into the following two categories:
 
 *  Static view files
 *  Dynamic view files
 
-### Static view files {#theme-structure-pub}
+### Static view files
 
 A set of theme files that are returned by the server to a browser as is, without any processing, are called the *static files* of a theme.
 
@@ -281,8 +283,9 @@ The key difference between static files and other theme files is that static fil
 
 Static view files that can be accessed by a direct link from the storefront, are distinguished as public theme files.
 
-{:.bs-callout-info}
-  To be actually accessible for browsers public static files are [published]({{ page.baseurl }}/config-guide/cli/config-cli-subcommands-static-view.html#config-cli-static-overview) to the `/pub/static/frontend/<Vendor>/<theme>/<locale>/css/` directory.
+<InlineAlert variant="info" slots="text"/>
+
+To be actually accessible for browsers public static files are [published](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-static-view.html#config-cli-static-overview) to the `/pub/static/frontend/<Vendor>/<theme>/<locale>/css/` directory.
 
 ### Dynamic view files
 

@@ -5,22 +5,22 @@ functional_areas:
   - Frontend
 ---
 
-## What is in this topic   {#practice_over}
+## What is in this topic
 
-This topic features a step-by-step illustration of how to change a theme's color scheme using Magento UI library.
+This topic features a step-by-step illustration of how to change a theme's color scheme using UI library.
 
 ## Changing theme color scheme
 
 ExampleCorp created a custom theme that inherits from the Magento basic Blank theme.
 The following image illustrates how store pages look when the Blank theme is applied:
 
-![product page when Blank applied]
+![product page when Blank applied](../../_images/frontend/practice_blank.png)
 
 In their Grey theme, ExampleCorp wants to change the color scheme from white to grey.
 
 The Grey theme directory is `app/design/frontend/ExampleCorp/grey`.
 
-ExampleCorp decided to use the Magento UI library, so to change the color scheme, they need to define new values for certain default Less variables.
+ExampleCorp decided to use the UI library, so to change the color scheme, they need to define new values for certain default Less variables.
 To do this, they added an overriding `_theme.less` file in the `app/design/frontend/ExampleCorp/grey/web/css/source` directory, with the following content:
 
 ```less
@@ -67,10 +67,6 @@ To do this, they added an overriding `_theme.less` file in the `app/design/front
 @header-icons-color-hover: @color-gray60;
 ```
 
-After the Grey theme is applied (and [static files cache cleared]), store pages will look like following:
+After the Grey theme is applied (and [static files cache cleared](../caching.md#clean-cache-cleancache)), store pages will look like following:
 
-![product page when Grey applied]
-
-[product page when Blank applied]: ../../_images/frontend/practice_blank.png
-[product page when Grey applied]: ../../_images/frontend/css_practice.png
-[static files cache cleared]: {{page.baseurl}}/frontend-dev-guide/cache_for_frontdevs.html#clean_static_cache
+![product page when Grey applied](../../_images/frontend/css_practice.png)

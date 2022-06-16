@@ -6,15 +6,15 @@ functional_areas:
   - Theme
 ---
 
-## What's in this topic {#favicon-intro}
+## What's in this topic
 
 This topic describes how to apply your custom [theme](https://glossary.magento.com/theme) for [Admin](https://glossary.magento.com/magento-admin).
 
 ## Prerequisites
 
-1. [Set]({{ page.baseurl }}/config-guide/cli/config-cli-subcommands-mode.html) your Magento application to the developer [mode]({{ page.baseurl }}/config-guide/bootstrap/magento-modes.html). The application mode influences the way [static files](https://glossary.magento.com/static-files) are cached by Magento.
-1. [Create a custom theme for the Admin panel]({{ page.baseurl }}/frontend-dev-guide/themes/admin_theme_create.html).
-1. [Add a new custom module]({{ page.baseurl }}/extension-dev-guide/build/build.html) or decide to use existing custom module. The module must load after the Magento_Theme module. To ensure this, add the following code in `<your_custom_module_dir>/etc/module.xml` (replace placeholders with your [module](https://glossary.magento.com/module) information):
+1. [Set](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html) your Magento application to the developer [mode](https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html). The application mode influences the way [static files](https://glossary.magento.com/static-files) are cached by Magento.
+1. [Create a custom theme for the Admin panel](../themes/create-admin.md).
+1. [Add a new custom module](https://developer.adobe.com/commerce/php/development/build/) or decide to use existing custom module. The module must load after the Magento_Theme module. To ensure this, add the following code in `<your_custom_module_dir>/etc/module.xml` (replace placeholders with your [module](https://glossary.magento.com/module) information):
 
    ```xml
    <module name="%YourVendor_YourModule%" setup_version="2.0.1"> <!-- Example: "Magento_Backend" -->
@@ -25,7 +25,8 @@ This topic describes how to apply your custom [theme](https://glossary.magento.c
    </module>
    ```
 
-{:.bs-callout-info}
+<InlineAlert variant="info" slots="text"/>
+
 If you choose to create a separate dedicated module, you can use the [Magento_SampleMinimal module from the Magento 2 sample modules repository](https://github.com/magento/magento2-samples/tree/master/sample-module-minimal) as example of a minimal module you need. If you will copy and use Magento_SampleMinimal, do not forget to enter your vendor and module naming, instead the ones used in the sample, in the `<your_module_dir>/etc/module.xml`, `<your_module_dir>/registration.php`, `and <your_module_dir>/composer.json` files.
 
 If you decide to use the existing module, keep in mind, that theme declaring might be affected when the module is changed.
@@ -35,12 +36,12 @@ If you decide to use the existing module, keep in mind, that theme declaring mig
 To apply the [Admin](https://glossary.magento.com/admin) theme, take the following steps:
 
 1. [Specify the new Admin theme in your module's `di.xml`](#specify_di)
-1. Update the components by running the [`bin/magento setup:upgrade`]({{ page.baseurl }}/install-gde/install/cli/install-cli-uninstall.html#instgde-install-keep) command.
+1. Update the components by running the [`bin/magento setup:upgrade`](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-uninstall.html#instgde-install-keep) command.
 1. Open the Admin in browser and view the new theme applied.
 
 Each step is described further with more details.
 
-## Specify the custom Admin theme in `di.xml` {#specify_di}
+## Specify the custom Admin theme in `di.xml`
 
 You need to specify the admin theme to be used in the `<your_module_dir>/etc/di.xml` file. Add it, if the file does not yet exist in your module.
 
@@ -68,13 +69,9 @@ run the `bin/magento setup:upgrade` command in your command line. If prompted, a
 
 For details about performing command line tasks, view the following topics:
 
--  [Command line configuration]({{ page.baseurl }}/config-guide/cli/config-cli.html)
--  [Uninstall or reinstall Magento: Optionally keeping generated files]({{ page.baseurl }}/install-gde/install/cli/install-cli-subcommands-db-upgr.html)
+-  [Command line configuration](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli.html)
+-  [Uninstall or reinstall Magento: Optionally keeping generated files](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-db-upgr.html)
 
 ## Open Admin in browser
 
 The last step is to open the Admin in browser and view the new theme applied.
-
-## See also
-
--  [Uninstall a theme]({{ page.baseurl }}/install-gde/install/cli/install-cli-theme-uninstall.html)

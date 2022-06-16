@@ -19,30 +19,31 @@ The following sections contain more information about each installation flow.
 
 ## Prerequisites
 
-[Set]({{ page.baseurl }}/config-guide/cli/config-cli-subcommands-mode.html) your Magento application to the developer or default [mode]({{ page.baseurl }}/config-guide/bootstrap/magento-modes.html).
+[Set](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html) your Magento application to the developer or default [mode](https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html).
 
 ## Install a theme manually
 
 To install a theme manually:
 
-1. Make sure that the directory structure you are copying is `<VendorName>/<theme>`. And all the [theme files]({{ page.baseurl }}/frontend-dev-guide/themes/theme-structure.html) are in the `<theme>` directory.
+1. Make sure that the directory structure you are copying is `<VendorName>/<theme>`. And all the [theme files](structure.md) are in the `<theme>` directory.
 
 1. Copy this directory to the `<Magento root dir>/app/design/frontend` directory.
 
 ## Install a theme as composer package
 
-To install the theme as composer package, follow the instructions in the [Install, manage, and upgrade modules]({{ site.baseurl }}/cloud/howtos/install-components.html) topic.
+To install the theme as composer package, follow the instructions in the [Install, manage, and upgrade modules](https://devdocs.magento.com/cloud/howtos/install-components.html) topic.
 
 -  Manually installed themes are stored in the `app/design/` directory. Themes loaded through Composer are located in the `vendor/` directory and can be stored anywhere in root.
 
 -  When the application starts up, Composer executes each file included in the `autoload.files` section. `registration.php` then registers itself as a theme.
 
-{:.bs-callout-info}
+<InlineAlert variant="info" slots="text"/>
+
 Composer-based themes are loaded from external sources and cannot be modified directly, whereas local themes are part of the project source code and therefore can be edited directly.
 
 ## Install a theme as an extension
 
-If a theme is distributed on [Commerce Marketplace](https://marketplace.magento.com/), see [Install the Extension]({{ site.baseurl }}/extensions/install/).
+If a theme is distributed on [Commerce Marketplace](https://marketplace.magento.com/), see [Install the Extension](https://devdocs.magento.com/extensions/install/).
 
 ## Register a theme
 

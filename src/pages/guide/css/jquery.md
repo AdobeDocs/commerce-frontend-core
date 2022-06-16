@@ -16,8 +16,3 @@ In Magento out of the box certain [storefront](https://glossary.magento.com/stor
 We do not recommend downloading the jQuery UI styles as is, because they will override the default Magento themes definitions and break the default Magento design.
 
 To use the jQuery styles, you need to define those which you need in your custom stylesheets in the `<your_custom_theme>/web/css` directory.
-
-## Recommended reading
-
--  [Define what styles you need to change]({{ page.baseurl }}/frontend-dev-guide/themes/debug-theme.html#debug-theme-style)
--  [Quick start guide to working with styles for a new theme]({{ page.baseurl }}/frontend-dev-guide/css-guide/css_quick_guide_overview.html)

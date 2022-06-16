@@ -10,9 +10,9 @@ functional_areas:
 
 The properties of product images used on the [storefront](https://glossary.magento.com/storefront) are stored in the `view.xml` configuration file. This topic provides all details about what properties are available and how to configure them.
 
-The properties for the images displayed on the product pages are defined by the gallery widget options. The options of the widget can be configured in the [theme](https://glossary.magento.com/theme) `view.xml` as well. For more details, view the [Gallery widget]({{ page.baseurl }}/javascript-dev-guide/widgets/widget_gallery.html) topic.
+The properties for the images displayed on the product pages are defined by the gallery widget options. The options of the widget can be configured in the [theme](https://glossary.magento.com/theme) `view.xml` as well. For more details, view the [Gallery widget](https://devdocs.magento.com/guides/v2.4/javascript-dev-guide/widgets/widget_gallery.html) topic.
 
-## Configure image properties in view.xml {#view_xml_structure}
+## Configure image properties in view.xml
 
 The conventional location of `view.xml` for a theme is:
 
@@ -20,7 +20,7 @@ The conventional location of `view.xml` for a theme is:
 <theme_dir>/etc/view.xml
 ```
 
-For example, here is the `view.xml` of the Magento Blank theme: [`app/design/frontend/Magento/blank/etc/view.xml`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/design/frontend/Magento/blank/etc/view.xml).
+For example, here is the `view.xml` of the Blank theme: [`app/design/frontend/Magento/blank/etc/view.xml`](https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/blank/etc/view.xml).
 
 In `view.xml`, image properties are configured in the scope of `<images module="Magento_Catalog">` element:
 
@@ -120,7 +120,7 @@ Generally, product images are cached while saving the product. However, the `mag
 *  After you import products, which might have images of various sizes
 *  If images were resized or deleted manually from [cache](https://glossary.magento.com/cache)
 
-Each image assigned to a product must be resized in accordance with image [metadata](https://glossary.magento.com/metadata) defined in a module's [`view.xml`]({{ page.baseurl }}/frontend-dev-guide/themes/theme-create.html#fedg_create_theme_how-to-images) configuration file. After resizing an image, its resized copy is stored in the cache (`/pub/media/catalog/product/cache` directory). Magento serves storefront images from cache.
+Each image assigned to a product must be resized in accordance with image [metadata](https://glossary.magento.com/metadata) defined in a module's [`view.xml`](create-storefront.md#configure-images) configuration file. After resizing an image, its resized copy is stored in the cache (`/pub/media/catalog/product/cache` directory). Magento serves storefront images from cache.
 
 Command usage:
 
@@ -138,7 +138,7 @@ To speed up the job while in asynchronous mode, you may manually run several ins
 bin/magento queue:consumer:start media.storage.catalog.image.resize
 ```
 
-## Configure variables in view.xml {#view_xml_vars}
+## Configure variables in view.xml
 
 The variable properties `vars` are configured for each module individually, defined by `module` name.
 
@@ -156,7 +156,7 @@ The variable properties `vars` are configured for each module individually, defi
 </vars>
 ```
 
-Any block that extends [`AbstractBlock`]({{ site.mage2bloburl }}/{{ page.guide_version }}/lib/internal/Magento/Framework/View/Element/AbstractBlock.php), can fetch variable values with the `getVar` method:
+Any block that extends [`AbstractBlock`](https://github.com/magento/magento2/blob/2.4/lib/internal/Magento/Framework/View/Element/AbstractBlock.php), can fetch variable values with the `getVar` method:
 
 ```php
 $block->getVar($name, $module = null)
@@ -167,7 +167,7 @@ $block->getVar($name, $module = null)
 | `name` | `Yes` | The first level variable name |
 | `module` | `No` | The module name where the variable is added. If not passed, it will be determined automatically based on the current module. |
 
-Check the following example on getting the breakpoints variable by the [`Gallery`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Catalog/Block/Product/View/Gallery.php) block:
+Check the following example on getting the breakpoints variable by the [`Gallery`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Catalog/Block/Product/View/Gallery.php) block:
 
 ```php
 /**
@@ -181,5 +181,6 @@ public function getBreakpoints()
 }
 ```
 
- {:.bs-callout-info}
+<InlineAlert variant="info" slots="text"/>
+
 Variables may be used within the scope of modules than the defined one.

@@ -8,15 +8,16 @@ functional_areas:
 
 This topic discusses how to create the files that make up a theme, how to add a logo to a theme, and how to size images.
 
- {:.bs-callout-info}
-A new theme you create is not applied for your store automatically. You need to apply it manually in the Admin panel. This procedure is described in the [Apply and configure a theme in Admin]({{page.baseurl}}/frontend-dev-guide/themes/theme-apply.html) topic.
+<InlineAlert variant="info" slots="text"/>
+
+A new theme you create is not applied for your store automatically. You need to apply it manually in the Admin panel. This procedure is described in the [Apply and configure a theme in Admin](apply-storefront.md) topic.
 
 ## Prerequisites
 
 1. For the sake of compatibility, upgradability, and easy maintenance, do not modify the out of the box Magento themes. To customize the design of your Magento store, create a new custom [theme](https://glossary.magento.com/theme).
-1. [Set]({{page.baseurl}}/config-guide/cli/config-cli-subcommands-mode.html) your Magento application to the developer [mode]({{page.baseurl}}/config-guide/bootstrap/magento-modes.html). The application mode influences the way [static files](https://glossary.magento.com/static-files) are cached by Magento. The recommendations about theme development we provide in this chapter are developer/default-mode specific.
+1. [Set](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html) your Magento application to the developer [mode](https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html). The application mode influences the way [static files](https://glossary.magento.com/static-files) are cached by Magento. The recommendations about theme development we provide in this chapter are developer/default-mode specific.
 
-## Create a storefront theme: walkthrough {#theme-gen-walkthrough}
+## Create a storefront theme: walkthrough
 
 The high-level steps required to add a new theme in the Magento system are the following:
 
@@ -29,8 +30,8 @@ The high-level steps required to add a new theme in the Magento system are the f
 
 ## Recommended reading
 
-*  [Checklist of modules]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento)
-*  [Static view files processing]({{page.baseurl}}/config-guide/cli/config-cli-subcommands-static-view.html)
+*  [Checklist of modules](https://github.com/magento/magento2/blob/2.4/app/code/Magento)
+*  [Static view files processing](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-static-view.html)
 
 ## Create a theme directory
 
@@ -52,9 +53,9 @@ To create the directory for your theme:
 
 The folder name conventionally matches naming used in the theme's code: any alphanumeric set of characters, as the vendor sees fit, is acceptable. This convention is merely a recommendation, so nothing prevents naming this directory in another way.
 
-## Declare your theme {#fedg_create_theme_how-to_declare}
+## Declare your theme
 
-After you create a directory for your theme, you must create `theme.xml` containing at least the theme name. Optionally, you can specify the parent theme name (if the theme [inherits]({{page.baseurl}}/frontend-dev-guide/themes/theme-inherit.html) from one) and, if necessary, where the theme preview image is stored.
+After you create a directory for your theme, you must create `theme.xml` containing at least the theme name. Optionally, you can specify the parent theme name (if the theme [inherits](inherit.md) from one) and, if necessary, where the theme preview image is stored.
 
 1. Add or copy from an existing `theme.xml` file to your theme directory `app/design/frontend/<Vendor>/<theme>`.
 
@@ -83,7 +84,7 @@ After you create a directory for your theme, you must create `theme.xml` contain
 
 If you change the theme title or parent theme information in `theme.xml` after a theme was already [registered](#register_theme), you need to open or reload any [Admin](https://glossary.magento.com/magento-admin) page for your changes to be saved in the database.
 
-## Make your theme a Composer package {#fedg_create_theme_composer}
+## Make your theme a Composer package
 
 Magento default themes are distributed as [Composer](https://getcomposer.org/) packages.
 
@@ -118,9 +119,9 @@ Example of a theme `composer.json` file:
 }
 ```
 
-You can find details about the Composer integration in the Magento system in [Composer integration]({{page.baseurl}}/extension-dev-guide/build/composer-integration.html).
+You can find details about the Composer integration in the Magento system in [Composer integration](https://developer.adobe.com/commerce/php/development/build/composer-integration/).
 
-## Add registration.php {#fedg_create_theme_reg}
+## Add registration.php
 
 To register your theme in the system, add a `registration.php` file in your theme directory with the following content:
 
@@ -138,15 +139,15 @@ ComponentRegistrar::register(ComponentRegistrar::THEME, 'frontend/<Vendor>/<them
 
 Where `<Vendor>` is your vendor name and `<theme>` is the theme code.
 
-For illustration, see the [registration.php]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/design/frontend/Magento/luma/registration.php) file in the Magento Luma theme.
+For illustration, see the [registration.php](https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/luma/registration.php) file in the Luma theme.
 
-## Configure images {#fedg_create_theme_how-to-images}
+## Configure images
 
 Product image sizes and other properties used on the [storefront](https://glossary.magento.com/storefront) are configured in a `view.xml` configuration file. It is required for a theme, but is optional if exists in the parent theme.
 
 If the product image sizes of your theme differ from those of the parent theme, or if your theme does not inherit from any theme, add `view.xml` using the following steps:
 
-1. Log in to your Magento server as a user with permissions to create directories and files in the Magento installation directory. (Typically, this is the [file system owner]({{page.baseurl}}/install-gde/prereq/apache.html).)
+1. Log in to your Magento server as a user with permissions to create directories and files in the Magento installation directory. (Typically, this is the [file system owner](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/apache.html).)
 
 1. Create the `etc` directory in your theme folder.
 
@@ -161,9 +162,9 @@ If the product image sizes of your theme differ from those of the parent theme, 
      </image>
    ```
 
-For details about images configuration in the `view.xml` file, see the [Configure images properties for a theme]({{page.baseurl}}/frontend-dev-guide/themes/theme-images.html) topic.
+For details about images configuration in the `view.xml` file, see the [Configure images properties for a theme](images.md) topic.
 
-## Create directories for static files {#fedg_theme_how-to_static}
+## Create directories for static files
 
 Your theme will likely contain several types of static files:
 
@@ -188,7 +189,8 @@ In the `.../<theme>/web/images` directory, you store the general theme-related s
 
 It is likely that your theme will also contain module-specific files, which are stored in the corresponding sub-directories, like `.../<theme>/<Namespace_Module>/web/css` and similar. Managing the module-specific theme files is discussed in the following sections of this guide.
 
- {:.bs-callout-info}
+<InlineAlert variant="info" slots="text"/>
+
 When you change files stored here during theme development, you need to clear the `pub/static` and `var/view_preprocessed` directories, and then reload the pages. Otherwise, the old versions of files are displayed on the storefront.
 
 ### To clear the `pub/static` directory:
@@ -203,7 +205,7 @@ rm -r <magento_root>/pub/static/*/*
 rm -r <magento_root>/var/view_preprocessed/*
 ```
 
-## Your theme directory structure now {#fedg_theme_how-to_structure}
+## Your theme directory structure now
 
 At this point your theme file structure looks as follows:
 
@@ -220,24 +222,24 @@ app/design/frontend/&lt;Vendor&gt;/
 │&nbsp;&nbsp;&nbsp;├──&nbsp;composer.json
 </pre>
 
-## Theme logo {#theme_logo}
+## Theme logo
 
-In the Magento application, the default format and name of a logo image is `logo.svg`. When you put a `logo.svg` image in the conventional location, which is the `<theme_dir>/web/images` directory, it is automatically recognized as the theme logo. It is displayed in your store page header once the theme is [applied]({{page.baseurl}}/frontend-dev-guide/themes/theme-apply.html).
+In the Magento application, the default format and name of a logo image is `logo.svg`. When you put a `logo.svg` image in the conventional location, which is the `<theme_dir>/web/images` directory, it is automatically recognized as the theme logo. It is displayed in your store page header once the theme is [applied](apply-storefront.md).
 
 In your custom theme, you can use a logo file with a different name and format, but you might need to declare it.
 
-The necessity of declaration depends on whether your theme has a [parent]({{page.baseurl}}/frontend-dev-guide/themes/theme-inherit.html) theme and its logo image. The following cases are possible:
+The necessity of declaration depends on whether your theme has a [parent](inherit.md) theme and its logo image. The following cases are possible:
 
 *  Your theme does not have a parent theme:
    *  If your logo image name and format uses the default naming convention (`logo.svg`), there is no need to declare it.
-   *  If your logo image name or format does not use the default naming convention, you need to [declare it in layout](#logo_declare).
+   *  If your logo image name or format does not use the default naming convention, you need to [declare it in layout](#declaring-theme-logo).
 *  Your theme has a parent theme:
    *  If your theme logo image has the same name and format as the parent's theme logo, there is no need to declare it.
    *  If your logo image has a different name or format, declare it in the [layout](https://glossary.magento.com/layout).
 
-## Declaring theme logo {#logo_declare}
+## Declaring theme logo
 
-To declare a theme logo, add an [extending]({{page.baseurl}}/frontend-dev-guide/layouts/layout-extend.html) `<theme_dir>/Magento_Theme/layout/default.xml` layout.
+To declare a theme logo, add an [extending](../layouts/extend.md) `<theme_dir>/Magento_Theme/layout/default.xml` layout.
 
 For example, if your logo file is `my_logo.png` sized 300x300px, you need to declare it as follows:
 
@@ -258,25 +260,22 @@ For example, if your logo file is `my_logo.png` sized 300x300px, you need to dec
 
 Declaring the logo size is optional.
 
-To learn more about theme layouts, refer to the [Layout section]({{page.baseurl}}/frontend-dev-guide/layouts/layout-overview.html) of this guide.
+To learn more about theme layouts, refer to the [Layout section](../layouts/index.md) of this guide.
 
-## Troubleshooting {#trouble}
+## Troubleshooting
 
 When your theme changes are not visible even after clearing the cache, try redeploying your static files using the `bin/magento setup:static-content:deploy` command, or add the `-f` argument to force deploy static content in any deployment mode in case you are not in production mode.
 
- {:.bs-callout-info}
+<InlineAlert variant="info" slots="text"/>
+
 Running this command with the `-f` argument can fix issues regarding deployment of static content, but removes **all** symlinks and deploys the actual static content files.
 
-## What's next {#next}
+## What's next
 
-### Theme registration {#register_theme}
+### Theme registration
 
 After adding your theme files to the file system and opening the Admin (or reloading any Admin page), your theme gets registered and added to the database. If a theme is removed, the default theme will automatically be used, but the theme's database record is not automatically removed.
 
 ### Applying a theme
 
-For information on how to apply the theme for the storefront, see the [Apply and configure a theme in Admin]({{page.baseurl}}/frontend-dev-guide/themes/theme-apply.html) topic.
-
-## See also
-
-*  [Uninstall a theme]({{ page.baseurl }}/install-gde/install/cli/install-cli-theme-uninstall.html)
+For information on how to apply the theme for the storefront, see the [Apply and configure a theme in Admin](apply-admin.md) topic.

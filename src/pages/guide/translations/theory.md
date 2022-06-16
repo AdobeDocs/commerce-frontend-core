@@ -11,7 +11,7 @@ Your custom theme may contain new strings that are not present in out-of-the-box
 To ensure your theme displays correctly with any language applied on a store view, verify the unique strings of your theme are added to the translation [i18n tool] when [generating the dictionary].
 Then when a new [language package](https://glossary.magento.com/language-package) is created and used to translate a store view, all theme strings are also translated.
 
-## Strings added in .phtml templates {#add_strings_phtml}
+## Strings added in .phtml templates
 
 To ensure that your new string is added to the dictionary and translated, use the `__('<your_string>')` method when outputting a string in a [.phtml template].
 
@@ -29,32 +29,30 @@ If your string contains a variable, to add a placeholder for this variable in th
 
 In this example, the _'Hello %1'_ string is added to the dictionary when the i18n tool is run.
 
-## Strings added in email templates {#add_strings_email}
+## Strings added in email templates
 
 If your theme contains [custom email templates], their strings can be added to the dictionary as well.
-To add the email template strings to the dictionary, use the {% raw %} `{{trans}}` {% endraw %} [directive].
+To add the email template strings to the dictionary, use the `{{trans}}` [directive].
 
 Custom email templates [added using the Admin panel] are not stored in the file system, and their strings are not added to the dictionary.
 
-To ensure that your new string is added to the dictionary and translated, use the {% raw %} `{{trans}}` {% endraw %} [directive] when outputting a string in an [email template]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Customer/view/frontend/email/account_new.html).
+To ensure that your new string is added to the dictionary and translated, use the `{{trans}}` [directive] when outputting a string in an [email template](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Customer/view/frontend/email/account_new.html).
 
 For example:
 
 -  When only a string is added in the email template:
-    {% raw %}
+
     ```html
     {{trans "Lorem Ipsum is simply dummy text of the printing"}}
     ```
-    {% endraw %}
 
 -  When only a string is added with a variable value in the email template:
-    {% raw %}
+
     ```html
     {{trans "%items items" items="numItems"}}
     ```
-    {% endraw %}
 
-## Strings added in UI component templates {#add_strings_ui_html}
+## Strings added in UI component templates
 
 To ensure that the text you add in `.html` templates of UI components is added to the dictionary, mark the text using the `i18n` custom binding. The following code samples illustrate how to use custom bindings:
 
@@ -84,23 +82,23 @@ To ensure that the text you add in `.html` templates of UI components is added t
    <input type="text" data-bind="attr: {placeholder: $t('First Name')}" />
    ```
 
-## Strings added in UI components configuration files {#add_strings_ui_xml}
+## Strings added in UI components configuration files
 
 To ensure that the text you add in UI components configuration `.xml` files is added to the dictionary, use the `translate` attribute. Set the attribute to true for the corresponding element: `translate=true`
 
-In this example, the *Delete* string is added to the dictionary when the i18n tool is run:
+In this example, the _Delete_ string is added to the dictionary when the i18n tool is run:
 
 ```xml
 <item name="label" xsi:type="string" translate="true">Delete</item>
 ```
 
-Translated strings that originate from `.xml` files will not render unless they are called with a `__(<variable>)` method in `.php` files. In this example, you would use a call similar to the following to display the translated *Delete* string.
+Translated strings that originate from `.xml` files will not render unless they are called with a `__(<variable>)` method in `.php` files. In this example, you would use a call similar to the following to display the translated _Delete_ string.
 
 ```php
 __($this->config->getData('label'))
 ```
 
-## Strings added in Underscore templates {#add_strings_underscore_html}
+## Strings added in Underscore templates
 
 To ensure that the text you add in `.html` Underscore templates is collected by the `i18n` tool, use the `_.i18n('')` Underscore function.
 
@@ -118,7 +116,7 @@ To ensure that the text you add in `.html` Underscore templates is collected by 
 
    In this example, the _'Hello %1'_ string is added to the dictionary when the i18n tool is run.
 
-## Strings added in .js files {#add_strings_js}
+## Strings added in .js files
 
 To ensure that the text you add in a `.js` file is collected by the i18n tool and added to the dictionary:
 
@@ -154,9 +152,9 @@ To ensure that the text you add in a `.js` file is collected by the i18n tool an
 
 In this example, the `'Hello %1'` string is added to the dictionary when the i18n tool is run.
 
-[i18n tool]: {{page.baseurl}}/config-guide/cli/config-cli-subcommands-i18n.html
-[generating the dictionary]: {{page.baseurl}}/config-guide/cli/config-cli-subcommands-i18n.html#config-cli-subcommands-xlate-dict
-[.phtml template]: {{page.baseurl}}/frontend-dev-guide/templates/template-overview.html
-[custom email templates]: {{page.baseurl}}/frontend-dev-guide/templates/template-email.html#customize-email-theme
-[directive]: {{page.baseurl}}/frontend-dev-guide/templates/template-email.html#localization
-[added using the Admin panel]: {{page.baseurl}}/frontend-dev-guide/templates/template-email.html#customize-email-admin
+[i18n tool]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-i18n.html
+[generating the dictionary]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-i18n.html#config-cli-subcommands-xlate-dict
+[.phtml template]: ../templates/index.md
+[custom email templates]: ../templates/email.md#customize-email-templates-using-a-theme
+[directive]: ../templates/email.md#localization
+[added using the Admin panel]: ../templates/email.md#customize-email-templates-using-the-admin

@@ -10,7 +10,7 @@ This allows the customer to enforce data validation rules before submission, whi
 
 ## Initiating validation
 
-There are several ways to initiate form validation as described in [Initializing JavaScript]({{ page.baseurl }}/javascript-dev-guide/javascript/js_init.html) topic.
+There are several ways to initiate form validation as described in [Initializing JavaScript](https://devdocs.magento.com/guides/v2.4/javascript-dev-guide/javascript/js_init.html) topic.
 
 ### Using the `data-mage-init` attribute
 
@@ -34,7 +34,7 @@ There are several ways to initiate form validation as described in [Initializing
 
 ## Form validation rules
 
-All available Magento validation rules may be found in [validation/rules.js]({{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/Ui/view/base/web/js/lib/validation/rules.js).
+All available Magento validation rules may be found in [validation/rules.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/validation/rules.js).
 
 Additionally, you may also use any available [jQuery validation rules](https://jqueryvalidation.org/documentation/#link-list-of-built-in-validation-methods).
 

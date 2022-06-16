@@ -6,7 +6,7 @@ functional_areas:
   - Theme
 ---
 
-## What's in this topic {#theme-inherit-over}
+## What's in this topic
 
 [Theme](https://glossary.magento.com/theme) inheritance enables you to easily extend themes and minimize the maintenance efforts. You can use an existing theme as a basis for customizations, or minor store design updates, like holidays decoration. Rather than copy extensive theme files and modify what you want to change, you can add overriding and extending files.
 
@@ -23,7 +23,7 @@ For comprehensive information about developing theme components, see subsequent 
 A parent theme is specified in the child theme `theme.xml` declaration file.
 
 Example:
-The Orange theme by ExampleCorp inherits from the Magento Blank theme. The inheritance is declared in `app/design/frontend/ExampleCorp/orange/theme.xml` as follows:
+The Orange theme by ExampleCorp inherits from the Blank theme. The inheritance is declared in `app/design/frontend/ExampleCorp/orange/theme.xml` as follows:
 
 ```xml
 <theme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/theme.xsd">
@@ -35,8 +35,9 @@ The Orange theme by ExampleCorp inherits from the Magento Blank theme. The inher
 </theme>
 ```
 
-{:.bs-callout-info}
-A parent and a child theme can belong to different vendors. For example, your custom theme can inherit from the Magento Blank theme.
+<InlineAlert variant="info" slots="text"/>
+
+A parent and a child theme can belong to different vendors. For example, your custom theme can inherit from the Blank theme.
 
 ## Relationship between parent and child themes
 
@@ -50,7 +51,7 @@ A parent and a child theme can belong to different vendors. For example, your cu
 
 If your theme does not contain a `view.xml` configuration file, it will be inherited from the parent theme. If you add the `<theme_dir>/etc/view.xml` file in your theme, it extends the parent file.
 
-## Override static assets {#theme-inherit-static}
+## Override static assets
 
 Static assets, or static view files, are styles, JavaScript, images, and fonts.
 
@@ -83,7 +84,7 @@ If module context is defined for a file:
 **Example:**
 
 A company named SampleCompany created a theme named Orange. The theme files are located in `app/design/frontend/SampleCompany/orange`.
-Orange inherits from the Magento Blank theme.
+Orange inherits from the Blank theme.
 
 Let's imagine SampleCompany needs to add some winter holidays decor. So it creates a new `orange_winter` theme, which inherits from Orange. The theme is located in `app/design/frontend/SampleCompany/orange_winter`.
 
@@ -93,11 +94,11 @@ In the Orange theme there is a footer background image located at `app/design/fr
 
 SampleCompany wants it to be replaced with a holiday one, so it places a new background image with exactly the same name and [extension](https://glossary.magento.com/extension) in `app/design/frontend/SampleCompany/orange_winter/web/images/background.jpg`
 
-Once the Orange Winter theme is [applied]({{ page.baseurl }}/frontend-dev-guide/themes/theme-apply.html), the new holiday image overrides the one from Orange, so on [storefront](https://glossary.magento.com/storefront) the holiday background is visible.
+Once the Orange Winter theme is [applied](apply-storefront.md), the new holiday image overrides the one from Orange, so on [storefront](https://glossary.magento.com/storefront) the holiday background is visible.
 
 ![](../../_images/frontend/inh-background2.jpg)
 
-## Override templates {#theme-inherit-templates}
+## Override templates
 
 The fallback scheme for templates is the following (module context is always known for them):
 
@@ -123,9 +124,9 @@ Having changed the order or elements in the templates, SampleCompany got the min
 
 ![In the minishopping cart products are listed above the Go to Checkout button](../../_images/frontend/inherit_mini2.png)
 
-You can find out what exactly code changes are required to perform this and other tasks in the [Illustration of customizing templates topic]({{ page.baseurl }}/frontend-dev-guide/templates/template-sample.html).
+You can find out what exactly code changes are required to perform this and other tasks in the [Illustration of customizing templates topic](../templates/sample.md).
 
-## Extend layouts {#theme-inherit-layout}
+## Extend layouts
 
 The layouts processing mechanism does not involve fallback. The system collects [layout](https://glossary.magento.com/layout) files in the following order:
 
@@ -156,9 +157,9 @@ To do this, they added an extending layout in `app/design/frontend/ExampleCorp/o
 </page>
 ```
 
-For more information about extending layout refer to the [Extend a layout]({{ page.baseurl }}/frontend-dev-guide/layouts/layout-extend.html) article.
+For more information about extending layout refer to the [Extend a layout](../layouts/extend.md) article.
 
-## Override layouts {#theme-inherit-layout-over}
+## Override layouts
 
 Though overriding layouts is not recommended, it is still possible, and might be a solution for certain customization tasks.
 To override the instructions from an ancestor theme layout file:
@@ -191,4 +192,4 @@ To do this, they added an overriding layout in `app/design/frontend/SampleCompan
 </page>
 ```
 
-For more information about overriding layout refer to the [Override a layout]({{ page.baseurl }}/frontend-dev-guide/layouts/layout-override.html) article.
+For more information about overriding layout refer to the [Override a layout](../layouts/override.md) article.

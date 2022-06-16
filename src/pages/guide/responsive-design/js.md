@@ -7,7 +7,7 @@ functional_areas:
 
 ## What's in this topic
 
-This topic describes the JavaScript used in Magento out-of-the-box Blank and Luma themes to relocate certain elements and change their behavior depending on the [breakpoint]({{ page.baseurl }}/frontend-dev-guide/responsive-web-design/rwd_overview.html#fedg_rwd_terms).
+This topic describes the JavaScript used in Magento out-of-the-box Blank and Luma themes to relocate certain elements and change their behavior depending on the [breakpoint](index.md#terms-used).
 
 ## Scripts general overview
 
@@ -25,7 +25,7 @@ The script files are located in the file system as follows:
        ├── menu.js
 ```
 
-## menu.js {#fedg_rwd_js_nav}
+## menu.js
 
 In a mobile view, on the 768px breakpoint, `menu.js` changes the navigation menu look and behavior the following way:
 
@@ -38,7 +38,7 @@ The following image illustrates the mobile-view navigation menu.
 
 ![responsive menu]
 
-## Re-using Magento scripts in your theme {#rwd_js_reuse}
+## Re-using scripts in your theme
 
 You can use the `menu.js` and `matchMedia.js` to add responsive behavior in your custom theme.
 If your theme inherits from Blank or Luma, you do not even need to additionally include the script files in your theme.

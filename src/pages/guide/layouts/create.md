@@ -49,7 +49,8 @@ Add the newly created page layout to the `layouts.xml` file of the theme directo
 </page_layouts>
 ```
 
-{:.bs-callout-info}
+<InlineAlert variant="info" slots="text"/>
+
 Note that the value of the new layout `id` attribute should match the name of the newly created page-layout XML file.
 
 Clean the cache by going to **System** > **Cache Management** > **Flush Magento Cache** or by entering the following command:

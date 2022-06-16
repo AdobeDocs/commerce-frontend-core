@@ -13,7 +13,7 @@ This chapter combines the topics aiming to help you to quickly start working wit
 ## High-level steps to create a theme and change styles
 
 1. [Set] your Magento application to the developer [mode].
-1. In the file system, [add a new theme] inheriting from Magento Blank or Luma.
+1. In the file system, [add a new theme] inheriting from Blank or Luma.
 1. [Apply your theme]
 1. Decide which CSS compilation mode you will use. Compilation modes are described in the following topics:
    -  Detailed description: [Styles debugging]
@@ -36,27 +36,20 @@ But if there is something you want to improve, the only recommended way is creat
 
 Making changes in the Magento out-of-the-box themes is a bad idea, because can result in your changes being overwritten during upgrade.
 
-{:.ref-header}
-Related topics
-
--  [CSS in Magento themes][css overview]
--  [Simple ways to customize a theme's styles]
--  [Simple style changes with client-side Less compilation vs. server-side]
-
 <!-- Link Definitions -->
-[Simple ways to customize a theme's styles]: {{ page.baseurl }}/frontend-dev-guide/css-guide/css_quick_guide_approach.html
-[Simple style changes with client-side Less compilation vs. server-side]: {{ page.baseurl }}/frontend-dev-guide/css-guide/css_quick_guide_mode.html
-[Set]: {{ page.baseurl }}/config-guide/cli/config-cli-subcommands-mode.html
-[mode]: {{ page.baseurl }}/config-guide/bootstrap/magento-modes.html
-[add a new theme]: {{ page.baseurl }}/frontend-dev-guide/themes/theme-create.html
+[Simple ways to customize a theme's styles]: customize-styles.md
+[Simple style changes with client-side Less compilation vs. server-side]: compilation-mode.md
+[Set]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html
+[mode]: https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html
+[add a new theme]: ../../themes/create-storefront.md
 
-[Apply your theme]: {{ page.baseurl }}/frontend-dev-guide/themes/theme-apply.html
+[Apply your theme]: ../../themes/apply-storefront.md
 
-[Styles debugging]: {{ page.baseurl }}/frontend-dev-guide/css-topics/css_debug.html
-[Simple style changes with client-side Less compilation vs. server-side]: {{ page.baseurl }}/frontend-dev-guide/css-guide/css_quick_guide_mode.html
-[css overview]: {{ page.baseurl }}/frontend-dev-guide/css-topics/css-overview.html
-[Simple ways to customize a theme's styles]: {{ page.baseurl }}/frontend-dev-guide/css-guide/css_quick_guide_approach.html
-[Simple style changes with client-side Less compilation vs. server-side]: {{ page.baseurl }}/frontend-dev-guide/css-guide/css_quick_guide_mode.html
+[Styles debugging]: ../debug.md
+[Simple style changes with client-side Less compilation vs. server-side]: compilation-mode.md
+[css overview]: ../index.md
+[Simple ways to customize a theme's styles]: customize-styles.md
+[Simple style changes with client-side Less compilation vs. server-side]: compilation-mode.md
 
 <!-- Image definitions -->
 [Storefront with Luma applied]: ../../../_images/frontend/css_guide_luma21.png

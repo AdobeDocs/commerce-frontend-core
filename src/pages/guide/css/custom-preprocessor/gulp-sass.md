@@ -8,9 +8,9 @@ functional_areas:
 
 By default, Magento uses [Less](http://lesscss.org/) for themes styling. But you can use other stylesheet languages that can be compiled (processed) to CSS. For example, Sass is a popular alternative.
 
-If you decide not to use Less and the default [Magento UI library]({{ page.baseurl }}/frontend-dev-guide/css-topics/theme-ui-lib.html), you need to create your own theme from scratch and use an alternative preprocessor. This topic describes how to configure and use the [Gulp](http://gulpjs.com/) task runner and the gulp-sass package for the Sass preprocessor.
+If you decide not to use Less and the default [UI library](../theme-ui-lib.md), you need to create your own theme from scratch and use an alternative preprocessor. This topic describes how to configure and use the [Gulp](http://gulpjs.com/) task runner and the gulp-sass package for the Sass preprocessor.
 
-For details about adding a custom preprocessor, see [Add custom CSS preprocessor]({{ page.baseurl }}/frontend-dev-guide/css-topics/custom_preprocess.html).
+For details about adding a custom preprocessor, see [Add custom CSS preprocessor](add.md).
 
 ## Install Gulp and its Sass preprocessor
 
@@ -18,8 +18,8 @@ For details about adding a custom preprocessor, see [Add custom CSS preprocessor
 
    ```json
     {
-      "author": "Magento Commerce Inc.",
-      "description": "Magento node modules dependencies for local development",
+      "author": "Adobe Commerce Inc.",
+      "description": "Node module dependencies for local development",
       "version": "1.0.0",
       "main": "gulpfile.js",
       "dependencies": {
@@ -47,7 +47,7 @@ For details about adding a custom preprocessor, see [Add custom CSS preprocessor
 
 ## Create a theme and add Sass styles
 
-1. Create a theme, as described in [Create a new storefront theme]({{ page.baseurl }}/frontend-dev-guide/themes/theme-create.html).
+1. Create a theme, as described in [Create a new storefront theme](../../themes/create-storefront.md).
 
 1. Set up a Gulp task for Sass compilation by placing the file with the task code in the root of your theme directory (`app/design/frontend/<Vendor>/<theme>`). Create an empty `app/design/frontend/<Vendor>/<theme>/gulpfile.js` file and copy-paste this code into it (no changes needed):
 

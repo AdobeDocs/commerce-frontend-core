@@ -5,7 +5,7 @@ functional_areas:
   - Frontend
   - Theme
 ---
-## What's in this topic {#favicon-intro}
+## What's in this topic
 
 This topic describes how to add custom favicons.
 

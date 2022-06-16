@@ -6,13 +6,14 @@ functional_areas:
   - Theme
 ---
 
-## In this topic {#fedg_css-in-themes_overview}
+## In this topic
 
 In the Magento application, CSS files are included in [layout files].
 
 Technically there is an option to include them in template files, but we strongly recommend avoiding this.
 
-{:.bs-callout-info}
+<InlineAlert variant="info" slots="text"/>
+
 The CSS class names can be assigned in both templates and layouts.
 
 This topic describes how stylesheets are located by default in the Magento application file system, and the recommended way to include CSS files in layouts.
@@ -52,7 +53,7 @@ Contains the following:
 <li><code>/source</code>: this subdirectory contains Less configuration files that invoke mixins from the Magento UI <a href="https://glossary.magento.com/library">library</a>.
 </li>
 <li>
-<code>/source/_theme.less</code>: overrides the default Magento UI library variables values.
+<code>/source/_theme.less</code>: overrides the default UI library variables values.
 </li>
 
   </ul>
@@ -61,12 +62,12 @@ Contains the following:
 
 </table>
 
-## Include CSS {#fedg_css-in-themes_xml}
+## Include CSS
 
 In the Magento application, the recommended way to include stylesheets is to specify them in [layout](https://glossary.magento.com/layout) files.
 
 Usually, the stylesheets you include should be available for all store pages. To achieve this, include your CSS in `default_head_blocks.xml` of the `Magento_Theme` module, which defines the default `<head>` page section for all Magento pages.
-The recommended way to do this is adding an [extending]({{ page.baseurl }}/frontend-dev-guide/layouts/layout-extend.html) `default_head_blocks.xml` in your theme, and including the required stylesheets in this file.
+The recommended way to do this is adding an [extending](../layouts/extend.md) `default_head_blocks.xml` in your theme, and including the required stylesheets in this file.
 
 Your custom `default_head_blocks.xml` should be located as follows:
 
@@ -108,9 +109,10 @@ To include an external CSS file, add `<css src="URL to External Source" src_type
 </page>
 ```
 
-{:.bs-callout-info}
+<InlineAlert variant="info" slots="text"/>
+
 If the system does not find the included CSS files, it searches for the same file names with a `.less` extension. This is part of the built-in preprocessing mechanism. You can find more information about it in the [CSS Preprocessing] topic.
 
-[layout files]: {{page.baseurl}}/frontend-dev-guide/layouts/layout-overview.html
-[theme directory]: {{page.baseurl}}/frontend-dev-guide/themes/theme-structure.html
-[CSS Preprocessing]: {{page.baseurl}}/frontend-dev-guide/css-topics/css-preprocess.html
+[layout files]: ../layouts/index.md
+[theme directory]: ../themes/structure.md
+[CSS Preprocessing]: preprocess.md

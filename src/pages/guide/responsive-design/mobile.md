@@ -10,11 +10,11 @@ The topic describes how to create a responsive mobile-specific theme using the d
 
 ## Creating a mobile-specific theme
 
-To use all the responsive approaches implemented in the Magento out-of-the-box Blank and Luma themes, your theme should declare one of them as a [parent]({{ page.baseurl }}/frontend-dev-guide/themes/theme-inherit.html).
+To use all the responsive approaches implemented in the Magento out-of-the-box Blank and Luma themes, your theme should declare one of them as a [parent](../themes/inherit.md).
 
 To create a mobile-specific theme:
 
-1. Create a theme as described in [Create a theme]({{ page.baseurl }}/frontend-dev-guide/themes/theme-create.html), having specified Blank or Luma as a parent theme.
+1. Create a theme as described in [Create a theme](../themes/create-storefront.md), having specified Blank or Luma as a parent theme.
 1. Add a `<theme_dir>/Magento_Theme/layout/default_head_blocks.xml` [layout](https://glossary.magento.com/layout) file with the following content:
 
 ```xml
@@ -57,7 +57,3 @@ Example of a LESS mixin to target screen width less than 768px:
     // your code
 }
 ```
-
-## Recommended reading
-
-[CSS in Magento responsive design]({{page.baseurl}}/frontend-dev-guide/responsive-web-design/rwd_css.html)

@@ -5,11 +5,12 @@ functional_areas:
   - Frontend
 ---
 
-{:.bs-callout-warning}
+<InlineAlert variant="warning" slots="text"/>
+
 Magento 2.3.4 and above restricts the way that custom variables can be used within email templates.
 See [Migrating custom email templates](template-email-migration.html) for more information.
 
-## Email layout handle {#email-layout-handle}
+## Email layout handle
 
 In sales-related email templates (order, invoice, shipment, and credit memo templates), layout handles are used to render the ordered items and grand total sections.
 
@@ -17,11 +18,9 @@ In sales-related email templates (order, invoice, shipment, and credit memo temp
 
 For example, the `sales_email_order_items` layout handle is specified in `app/code/Magento/Sales/view/frontend/email/order_new.html`:
 
-{% raw %}
 ```html
 {{layout handle="sales_email_order_items" order_id=$order_id area="frontend"}}
 ```
-{% endraw %}
 
 The `sales_email_order_items` handle is an XML file located in `app/code/Magento/Sales/view/frontend/layout/sales_email_order_items.xml`
 
@@ -47,9 +46,3 @@ The `sales_email_order_items` handle is an XML file located in `app/code/Magento
     </body>
 </page>
 ```
-
-{:.ref-header}
-Related topics
-
-*  [Extend a layout]({{ page.baseurl }}/frontend-dev-guide/layouts/layout-extend.html)
-*  [Layout instructions]({{ page.baseurl }}/frontend-dev-guide/layouts/xml-instructions.html)

@@ -19,7 +19,8 @@ When the [locale](https://glossary.magento.com/locale) is changed for a store, M
    1. `<current_theme_dir>/i18n/`
 1. Magento database (translations located in this database take precedence and override translations stored in other locations.)  Refer to the [user guide](https://docs.magento.com/m2/ce/user_guide/system/translate-inline.html) for more information.
 
-{:.bs-callout-info}
+<InlineAlert variant="info" slots="text"/>
+
 Translation priority follows the inverse sequence, with "module translations" having the lowest priority and "magento database" having the highest priority.
 
 If there are competing translations for one string, the theme dictionary translations have priority over the [module](https://glossary.magento.com/module) translations, and child theme translations have priority over parent theme translations.
@@ -28,7 +29,7 @@ If there are competing translations for one string, the theme dictionary transla
 
 The translations priority described earlier is applied for the default `en_US` locale as well. So you can use the `en_US.csv` dictionary to customize the strings used in the default locale.
 
-For example, this approach is used in the Magento Luma theme. It has the [`<Magento_Luma_theme_dir>/i18n/en_US.csv`] file, where the left column contains the default values (keys), and the right column contains the values to be used instead when the Luma theme is applied:
+For example, this approach is used in the Luma theme. It has the [`<Magento_Luma_theme_dir>/i18n/en_US.csv`] file, where the left column contains the default values (keys), and the right column contains the values to be used instead when the Luma theme is applied:
 
 ```text
 "Add to Wish List", "Wish List"
@@ -64,14 +65,8 @@ The locale dictionary would use the default values (keys) in the left column fol
 "Card Verification Number", <translation>
 ```
 
-## Additional information
-
--  [Translations overview]
--  [Example theme translation dictionary]
-
-[translation dictionaries]: {{page.baseurl}}/frontend-dev-guide/translations/xlate.html#translate_terms
-[`<Magento_Luma_theme_dir>/i18n/en_US.csv`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/design/frontend/Magento/luma/i18n/en_US.csv
-[i18n tool]: {{page.baseurl}}/config-guide/cli/config-cli-subcommands-i18n.html#config-cli-subcommands-xlate-dict
-[Generate the dictionary]: {{page.baseurl}}/config-guide/cli/config-cli-subcommands-i18n.html#config-cli-subcommands-xlate-dict
-[Example theme translation dictionary]: {{page.baseurl}}/frontend-dev-guide/translations/translate_practice.html
-[Translations overview]: {{page.baseurl}}/frontend-dev-guide/translations/xlate.html
+[translation dictionaries]: index.md#translation-terms
+[`<Magento_Luma_theme_dir>/i18n/en_US.csv`]: https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/luma/i18n/en_US.csv
+[i18n tool]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-i18n.html#config-cli-subcommands-xlate-dict
+[Generate the dictionary]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-i18n.html#config-cli-subcommands-xlate-dict
+[Example theme translation dictionary]: practice.md

@@ -10,7 +10,8 @@ Bundling accomplishes this by merging multiple JavaScript files together into on
 
 ## Enable JavaScript bundling
 
- {:.bs-callout-info}
+<InlineAlert variant="info" slots="text"/>
+
 JavaScript bundling does not work unless Magento is in [production mode][production-mode]. Once in production mode, JavaScript bundling can only be enabled using the CLI. Follow these steps to setup JavaScript bundling from the CLI.
 
 1. From the Magento root directory, switch to production mode:
@@ -70,8 +71,6 @@ As such, you should exclude the JavaScript files you use for testing or developm
 
 The following code snippet from [Magento's Luma theme][luma-view-xml] shows the types of files you should exclude from the bundling process.
 
-{% collapsible Show example %}
-
 ```xml
 <exclude>
     <item type="file">Lib::jquery/jquery.min.js</item>
@@ -125,8 +124,6 @@ The following code snippet from [Magento's Luma theme][luma-view-xml] shows the 
 </exclude>
 ```
 
-{% endcollapsible %}
-
 ### Setting bundle file size
 
 The `bundle_size` variable controls the file size of the generated bundles.
@@ -148,7 +145,7 @@ As a rule of thumb, each bundle should be at least 100 kB.
 
 There are many ways to tune your theme using the `etc/view.xml` file.
 
-For example, the Magento Luma theme is configured to work well for all pages, but you can maximize browser performance for home, catalog, or product pages by adding items to or removing items from the `<exclude>` node.
+For example, the Luma theme is configured to work well for all pages, but you can maximize browser performance for home, catalog, or product pages by adding items to or removing items from the `<exclude>` node.
 
 Follow these steps to help you identify which JavaScript files to bundle for your theme:
 
@@ -156,7 +153,7 @@ Follow these steps to help you identify which JavaScript files to bundle for you
 1. Compare the JavaScript files loaded in the pages with the JavaScript files in Magento.
 1. Use the results of that comparison to build your exclude list.
 
-[production-mode]:{{ page.baseurl }}/config-guide/bootstrap/magento-modes.html#production-mode
-[static-content]:{{ page.baseurl }}/config-guide/cli/config-cli-subcommands-static-view.html
-[Advanced-JavaScript-Bundling]:{{ page.baseurl }}/performance-best-practices/advanced-js-bundling.html
-[luma-view-xml]:{{ site.mage2bloburl }}/{{ page.guide_version }}/app/design/frontend/Magento/luma/etc/view.xml#L270
+[production-mode]:https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html#production-mode
+[static-content]:https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-static-view.html
+[Advanced-JavaScript-Bundling]:https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/performance-best-practices/advanced-js-bundling.html
+[luma-view-xml]:https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/luma/etc/view.xml#L270

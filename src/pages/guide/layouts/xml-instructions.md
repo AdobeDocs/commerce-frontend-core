@@ -5,7 +5,7 @@ functional_areas:
   - Frontend
 ---
 
-## What's in this topic {#fedg_layout_xml-instruc_overview}
+## What's in this topic
 
 There are two possible ways to customize page layout in Magento:
 
@@ -30,22 +30,22 @@ Use these [layout instructions](https://glossary.magento.com/layout-instructions
 
 The basic set of instructions is the same for all types of layout files. This topic describes these basic instructions. For details about how they are used in a particular layout file type, please refer to the [Layout file types] topic.
 
-## Common layout instructions {#fedg_layout_xml-instruc_ex}
+## Common layout instructions
 
 Use the following layout instructions to customize your layout:
 
--  [`<block>`](#fedg_layout_xml-instruc_ex_block)
--  [`<container>`](#fedg_layout_xml-instruc_ex_cont)
--  [`before` and `after` attributes](#fedg_xml-instrux_before-after)
--  [`<action>`](#fedg_layout_xml-instruc_ex_act)
--  [`<referenceBlock>` and `<referenceContainer>`](#fedg_layout_xml-instruc_ex_ref)
--  [`<move>`](#fedg_layout_xml-instruc_ex_mv)
--  [`<remove>`](#fedg_layout_xml-instruc_ex_rmv)
--  [`<update>`](#fedg_layout_xml-instruc_ex_upd)
+-  [`<block>`](#block)
+-  [`<container>`](#container)
+-  [`before` and `after` attributes](#before-and-after-attributes)
+-  [`<action>`](#action)
+-  [`<referenceBlock>` and `<referenceContainer>`](#referenceblock-and-referencecontainer)
+-  [`<move>`](#move)
+-  [`<remove>`](#remove)
+-  [`<update>`](#update)
 -  [`<argument>`](#argument)
--  [`<block> vs <container>`](#block_vs_container)
+-  [`<block> vs <container>`](#block-vs-container)
 
-### block {#fedg_layout_xml-instruc_ex_block}
+### block
 
 Defines a block.
 
@@ -55,7 +55,8 @@ Blocks are a foundational building unit for layouts in Magento. They are the lin
 
 Blocks employ templates to generate HTML. Examples of blocks include a [category](https://glossary.magento.com/category) list, a mini cart, product tags, and product listing.
 
-{:.bs-callout-info}
+<InlineAlert variant="info" slots="text"/>
+
 We recommend always adding a `name` to blocks. Otherwise, it is given a random name.
 
 | Attribute | Description | Values | Required? |
@@ -63,8 +64,8 @@ We recommend always adding a `name` to blocks. Otherwise, it is given a random n
 | `class` | Name of a class that implements rendering of a particular block. An object of this class is responsible for actual rendering of block output. | A fully-qualified class name, such as `Vendor\Module\Block\Class`. Defaults to `Magento\Framework\View\Element\Template`. | no |
 | `display` | Prevents a block from displaying (the associated PHP classes are still loaded). | `true` or `false`. Defaults to `true`. | no |
 | `name` | Name that can be used to address the block to which this attribute is assigned. The name must be unique per generated page. If not specified, an automatic name will be assigned in the format <code>ANONYMOUS_<em>n</em></code> | 0-9, A-Z, a-z, underscore (_), period (.), dash (-). Should start with a letter. Case-sensitive. | no |
-| `before` | Used to position the block before an element under the same parent. The element name or alias name is specified in the value. Use dash (-) to position the block before all other elements of its level of nesting. See [before and after attributes](#fedg_xml-instrux_before-after) for details. | Element name or dash (-) | no |
-| `after` | Used to position the block after an element under the same parent. The element name or alias name is specified in the value. Use dash (-) to position the block after all other elements of its level of nesting. See [before and after attributes](#fedg_xml-instrux_before-after) for details. | Element name or dash (-) | no |
+| `before` | Used to position the block before an element under the same parent. The element name or alias name is specified in the value. Use dash (-) to position the block before all other elements of its level of nesting. See [before and after attributes](#before-and-after-attributes) for details. | Element name or dash (-) | no |
+| `after` | Used to position the block after an element under the same parent. The element name or alias name is specified in the value. Use dash (-) to position the block after all other elements of its level of nesting. See [before and after attributes](#before-and-after-attributes) for details. | Element name or dash (-) | no |
 | `template` | A template that represents the functionality of the block to which this attribute is assigned. If the attribute is omitted, the block will not render any output unless the block class (or a parent class) has the `$_template` property defined correctly. | `Vendor_Module::path/to/template.phtml` (Scope is already in the `templates` directory of the module) | no |
 | `as` | An alias name that serves as identifier in the scope of the parent element. | 0-9, A-Z, a-z, underscore (_), period (.), dash (-). Case-sensitive. | no |
 | `cacheable` | Defines whether a block element is cacheable. This can be used for development purposes and to make needed elements of the page dynamic. | `true` or `false`. Defaults to `true`. | no |
@@ -78,22 +79,23 @@ Sample of usage in the product listing page layout:
 <block class="Magento\Catalog\Block\Product\ListProduct" name="category.products.list" as="product_list" template="Magento_Catalog::product/list.phtml"/>
 ```
 
-### container {#fedg_layout_xml-instruc_ex_cont}
+### container
 
 A structure without content that holds other layout elements such as blocks and containers.
 
 **Details:**
 A container renders child elements during view output generation. It can be empty or it can contain an arbitrary set of `<container>` and `<block>` elements. If the `<container>` is empty, and there is no child `<block>` available, it will not be displayed in the frontend source code.
 
-{:.bs-callout-info}
+<InlineAlert variant="info" slots="text"/>
+
 We recommend always adding a `name` to containers. Otherwise, it is given a random name.
 
 | Attribute | Description | Values | Required? |
 |:------- |:------ |:------ |:------ |
 | `name` | A name that can be used to address the container in which this attribute is assigned. The name must be unique per generated page. If not specified, it will be auto-generated. | A-Z, a-z, 0-9, underscore (_), period (.), dash (-). Should start with a letter. Case-sensitive. | No |
 | `label` | Describes the purpose of the container. | Any | No |
-| `before` | Used to position the container before an element under the same parent. The element name or alias name is specified in the value. Use dash (-) to position the block before all other elements of its level of nesting. See [before and after attributes](#fedg_xml-instrux_before-after) for details. | Element name or dash (`-`) | No |
-| `after` | Used to position the container after an element under the same parent. The element name or alias name is specified in the value. Use dash (-) to position the block after all other elements of its level of nesting. See [before and after attributes](#fedg_xml-instrux_before-after) for details. | Element name or dash (-). | No |
+| `before` | Used to position the container before an element under the same parent. The element name or alias name is specified in the value. Use dash (-) to position the block before all other elements of its level of nesting. See [before and after attributes](#before-and-after-attributes) for details. | Element name or dash (`-`) | No |
+| `after` | Used to position the container after an element under the same parent. The element name or alias name is specified in the value. Use dash (-) to position the block after all other elements of its level of nesting. See [before and after attributes](#before-and-after-attributes) for details. | Element name or dash (-). | No |
 | `as` | An alias name that serves as identifier in the scope of the parent element. | 0-9, A-Z, a-z, underscore (_), period (.), dash (-). Case-sensitive. | No |
 | `output` | Defines whether to output the root element. If specified, the element will be added to output list. (If not specified, the parent element is responsible for rendering its children.) | Any value except the obsolete `toHtml`. Recommended value is `1`. | No |
 | `htmlTag` | Output parameter. If specified, the output is wrapped into specified HTML tag. | Any of the following: `aside`, `dd`, `div`, `dl`, `fieldset`, `main`, `nav`, `header`, `footer`, `ol`, `p`, `section`, `table`, `tfoot`, `ul` | No, Yes - if `htmlClass` or `htmlId` is specified |
@@ -117,13 +119,13 @@ Set this value to `1` to render children content or `0` to disable the output of
 
 Use this feature to make temporary changes to a store, such as disabling a section of the page for a sales event and re-enabling it after the event ends.
 
-### block vs. container {#block_vs_container}
+### block vs. container
 
 -  Blocks represents the end of the chain in rendering HTML for Magento.
 -  Containers contain blocks and can wrap them in an HTML tag.
 -  Containers do not render any output if there are no children assigned to them.
 
-### before and after attributes {#fedg_xml-instrux_before-after}
+### before and after attributes
 
 To help you to position elements in a specific order suitable for design, SEO, usability, or other requirements, Magento software provides the `before` and `after` layout attributes.
 These optional attributes can be used in layout XML files to control the order of elements in their common parent.
@@ -139,7 +141,7 @@ The following tables give a detailed description of the results you can get usin
 | `after` | [element name] | The block displays after the named element. |
 | `after` | Empty value or [element name] is absent | Use the value of `before`. If that value is empty or absent as well, the block is considered as non-positioned. |
 
-#### Examples {#examples}
+#### Examples
 
 | Situation | Result |
 |:------- |:------ |
@@ -158,10 +160,11 @@ Sample usage in a layout:
 </referenceContainer>
 ```
 
-### action {#fedg_layout_xml-instruc_ex_act}
+### action
 
-{:.bs-callout-warning}
-The `<action>` instruction is deprecated. If the method implementation allows, use the [`<argument>`](#argument) for [`<block>`](#fedg_layout_xml-instruc_ex_block) or [`<referenceBlock>`](#fedg_layout_xml-instruc_ex_ref) to access the block public API.
+<InlineAlert variant="warning" slots="text"/>
+
+The `<action>` instruction is deprecated. If the method implementation allows, use the [`<argument>`](#argument) for [`<block>`](#block) or [`<referenceBlock>`](#referenceblock-and-referencecontainer) to access the block public API.
 
 Calls public methods on the block API.
 
@@ -186,7 +189,7 @@ Calls public methods on the block API.
 
 To pass parameters, use the [`<argument></argument>`](#argument) instruction.
 
-### referenceBlock and referenceContainer {#fedg_layout_xml-instruc_ex_ref}
+### referenceBlock and referenceContainer
 
 Updates in `<referenceBlock>` and `<referenceContainer>` are applied to the corresponding `<block>` or `<container>`.
 
@@ -216,7 +219,7 @@ To pass parameters to a block use the [`<argument></argument>`](#argument) instr
     <referenceContainer name="container.name" display="false" />
     ```
 
-### move {#fedg_layout_xml-instruc_ex_mv}
+### move
 
 Sets the declared block or container element as a child of another element in the specified order.
 
@@ -241,10 +244,10 @@ Sample of usage in the page layout:
 <move element="product.info.options.wrapper" destination="bundle.product.options.wrapper" before="-" />
 ```
 
-### remove {#fedg_layout_xml-instruc_ex_rmv}
+### remove
 
 `<remove>` is used only to remove the static resources linked in a page `<head>` section.
-For removing blocks or containers, use the `remove` attribute for [`<referenceBlock>` and `<referenceContainer>`](#fedg_layout_xml-instruc_ex_ref).
+For removing blocks or containers, use the `remove` attribute for [`<referenceBlock>` and `<referenceContainer>`](#referenceblock-and-referencecontainer).
 
 ```xml
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
@@ -262,7 +265,7 @@ For removing blocks or containers, use the `remove` attribute for [`<referenceBl
 </page>
 ```
 
-### update {#fedg_layout_xml-instruc_ex_upd}
+### update
 
 Includes a certain layout file.
 
@@ -278,9 +281,10 @@ Sample of usage in the page layout:
 <update handle="customer_account"/>
 ```
 
-### argument {#argument}
+### argument
 
- {:.bs-callout-info}
+<InlineAlert variant="info" slots="text"/>
+
 Magento 2.3.2 added the `shared` attribute. Now, instances of the view models are shared by default. If a view model is required to be a new instance each time, you must add the attribute `shared="false"` on the argument node in the layout xml file.
 
 Used to pass an argument. Must be always enclosed in [`<arguments>`](#arguments).
@@ -437,7 +441,7 @@ $shoppingCartUrl = $block->getData('shopping_cart_url'); //or $block->getShoppin
 $helperMethodResult = $block->getData('helper_method_result'); // or $block->getHelperMethodResult()
 ```
 
-### arguments {#arguments}
+### arguments
 
 `<arguments>` is a required container for `<argument>`. It does not have its own attributes.
 
@@ -447,11 +451,11 @@ $helperMethodResult = $block->getData('helper_method_result'); // or $block->get
 </arguments>
 ```
 
-[page layout]: {{page.baseurl}}/frontend-dev-guide/layouts/layout-types.html#layout-types-page
-[page configuration]: {{page.baseurl}}/frontend-dev-guide/layouts/layout-types.html#layout-types-conf
-[generic layout]: {{page.baseurl}}/frontend-dev-guide/layouts/layout-types.html#layout-types-gen
-[handle]: {{page.baseurl}}/frontend-dev-guide/layouts/layout-overview.html#layout-over-terms
-[templates]: {{page.baseurl}}/frontend-dev-guide/templates/template-overview.html
-[app/code/Magento/Theme/view/frontend/layout/default.xml]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Theme/view/frontend/layout/default.xml
-[app/code/Magento/Theme/view/frontend/templates/html/title.phtml]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Theme/view/frontend/templates/html/title.phtml
-[Layout file types]: {{page.baseurl}}/frontend-dev-guide/layouts/layout-types.html
+[page layout]: types.md#page-layout
+[page configuration]: types.md#page-configuration
+[generic layout]: types.md#generic-layout
+[handle]: index.md#layout-handles
+[templates]: ../templates/index.md
+[app/code/Magento/Theme/view/frontend/layout/default.xml]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Theme/view/frontend/layout/default.xml
+[app/code/Magento/Theme/view/frontend/templates/html/title.phtml]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Theme/view/frontend/templates/html/title.phtml
+[Layout file types]: types.md

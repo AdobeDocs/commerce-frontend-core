@@ -9,16 +9,16 @@ functional_areas:
 
 For a particular page, its layout is defined by two major layout components: *page layout* file and *page configuration* file.
 
-A page layout file defines the page wireframe, for example, one-column layout. Technically page layout is an .xml file defining the structure inside the `<body>` section of the HTML page markup. Page layouts feature only [containers]({{ page.baseurl }}/frontend-dev-guide/layouts/xml-instructions.html#fedg_layout_xml-instruc_ex_cont).
+A page layout file defines the page wireframe, for example, one-column layout. Technically page layout is an .xml file defining the structure inside the `<body>` section of the HTML page markup. Page layouts feature only [containers](xml-instructions.md#container).
 All page layouts used for page rendering should be declared in the page layout declaration file.
 
-Page configuration is also an .xml file. It defines the detailed structure (page header, footer, etc.), contents and page meta information, including the page layout used. Page configuration features both main elements, [blocks]({{ page.baseurl }}/frontend-dev-guide/layouts/xml-instructions.html#fedg_layout_xml-instruc_ex_block) and [containers]({{ page.baseurl }}/frontend-dev-guide/layouts/xml-instructions.html#fedg_layout_xml-instruc_ex_cont).
+Page configuration is also an .xml file. It defines the detailed structure (page header, footer, etc.), contents and page meta information, including the page layout used. Page configuration features both main elements, [blocks](xml-instructions.md#block) and [containers](xml-instructions.md#container).
 
 We also distinguish the third type of layout files, *generic layouts*. They are .xml files which define the contents and detailed structure inside the `<body>` section of the HTML page markup. These files are used for pages returned by AJAX requests, emails, HTML snippets and so on.
 
 This article gives a comprehensive description of each layout file type.
 
-## Page layout {#layout-types-page}
+## Page layout
 
 Page layout declares the wireframe of a page inside the `<body>` section. For example, one-column layout or two-column layout.
 
@@ -26,10 +26,10 @@ Allowed layout instructions:
 
 *  `<head>`
 *  `<body>`
-*  [`<container>`]({{ page.baseurl }}/frontend-dev-guide/layouts/xml-instructions.html#fedg_layout_xml-instruc_ex_cont)
-*  [`<referenceContainer>`]({{ page.baseurl }}/frontend-dev-guide/layouts/xml-instructions.html#fedg_layout_xml-instruc_ex_ref)
-*  [`<move>`]({{ page.baseurl }}/frontend-dev-guide/layouts/xml-instructions.html#fedg_layout_xml-instruc_ex_mv)
-*  [`<update>`]({{ page.baseurl }}/frontend-dev-guide/layouts/xml-instructions.html#fedg_layout_xml-instruc_ex_upd)
+*  [`<container>`](xml-instructions.md#container)
+*  [`<referenceContainer>`](xml-instructions.md#referenceblock-and-referencecontainer)
+*  [`<move>`](xml-instructions.md#move)
+*  [`<update>`](xml-instructions.md#update)
 
 Sample page layout:
 
@@ -49,14 +49,14 @@ Sample page layout:
 </layout>
 ```
 
-### Page layout files conventional location {#layout-types-page-conv}
+### Page layout files conventional location
 
 Conventionally page layouts must be located as follows:
 
 *  Module page layouts: `<module_dir>/view/frontend/page_layout`
 *  Theme page layouts: `<theme_dir>/<Namespace>_<Module>/page_layout`
 
-### Page layouts declaration {#layout-types-page-dec}
+### Page layouts declaration
 
 To be able to use a layout for actual page rendering, you need to declare it in `layouts.xml`.
 
@@ -89,7 +89,7 @@ Sample page layout declaration file: `<Magento_Theme_module_dir>/view/frontend/l
 </page_layouts>
 ```
 
-Use the `layout` attribute in the `page` node of a page configuration file to define a layout type for the page. The following example shows how to use the `3 columns` page layout type for the [Wish List Sharing]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Wishlist/view/frontend/layout/wishlist_index_share.xml#L8) page:
+Use the `layout` attribute in the `page` node of a page configuration file to define a layout type for the page. The following example shows how to use the `3 columns` page layout type for the [Wish List Sharing](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Wishlist/view/frontend/layout/wishlist_index_share.xml#L8) page:
 
 Override the default `wishlist_index_share.xml` in any one of the following paths and add the `layout="3columns"` in the `page` node.
 
@@ -116,14 +116,15 @@ Override the default `wishlist_index_share.xml` in any one of the following path
 
 ![Wish List Sharing. 3 columns layout page type](../../_images/frontend/wish-list-sharing.png)
 
-{:.bs-callout-info}
+<InlineAlert variant="info" slots="text"/>
+
 By default, Magento provides 5 page layout types for the frontend (`empty`, `1column`, `2columns-left`, `2columns-right`, and `3columns`) and 3 page layout types for the backend (`admin-empty`, `admin-1column`, and `admin-2columns-left`).
 
-## Page configuration {#layout-types-conf}
+## Page configuration
 
 The page configuration adds content to the wireframe defined in a page layout file. A page configuration also contains page meta-information, and contents of the `<head>` section.
 
-### Page configuration file conventional location {#layout-type-conf-loc}
+### Page configuration file conventional location
 
 Conventionally page configuration files must be located as follows:
 
@@ -132,7 +133,7 @@ Conventionally page configuration files must be located as follows:
 
 ### Page configuration structure and allowed layout instructions
 
-The following table describes the instructions specific for page configuration files. For the descriptions of common layout instructions see the [Layout instructions]({{ page.baseurl }}/frontend-dev-guide/layouts/xml-instructions.html) article.
+The following table describes the instructions specific for page configuration files. For the descriptions of common layout instructions see [Layout instructions](xml-instructions.md).
 
 <table>
   <tbody>
@@ -398,11 +399,11 @@ The following table describes the instructions specific for page configuration f
   </tbody>
 </table>
 
-## Generic layout {#layout-types-gen}
+## Generic layout
 
 Generic layouts define the contents and detailed structure inside the `<body>` section of the HTML page markup.
 
-### Generic layout file conventional location {#layout-type-gen-loc}
+### Generic layout file conventional location
 
 Conventionally generic layout files must be located as follows:
 
@@ -411,7 +412,7 @@ Conventionally generic layout files must be located as follows:
 
 ### Generic layout structure and allowed layout instructions
 
-The following table describes the instructions specific for generic layout files. For the descriptions of common layout instructions see the [Layout instructions]({{ page.baseurl }}/frontend-dev-guide/layouts/xml-instructions.html) article.
+The following table describes the instructions specific for generic layout files. For the descriptions of common layout instructions see [Layout instructions](xml-instructions.md).
 
 <table>
   <tbody>
@@ -463,7 +464,7 @@ none
       <td colspan="1">
 <ul>
 <li><code>name="root"</code></li>
-<li>For complete list of attributes, see <a href="{{ page.baseurl }}/frontend-dev-guide/layouts/xml-instructions.html#fedg_layout_xml-instruc_ex_cont">Layout instructions</a></li>
+<li>For complete list of attributes, see <a href="xml-instructions.md#container">Layout instructions</a></li>
 </ul>
 </td>
       <td colspan="1">

@@ -5,8 +5,6 @@ functional_areas:
   - Frontend
 ---
 
-{% raw %}
-
 ## Remove the legacy variable resolver
 
 With the release of Magento 2.4.4 and 2.4.3-p2, `\Magento\Framework\Filter\VariableResolver\LegacyResolver` and `\Magento\Framework\Filter\VariableResolver\StrategyResolver` have been removed and any legacy templates in the database will only be resolved using strict mode. Database templates can be checked using cli commands to verify
@@ -49,7 +47,8 @@ Note that spaces should be not be used next to the braces:
 We refer to this as 'strict mode' for email templates.
 All default templates have been converted to this strict mode.
 
-{: .bs-callout-info}
+<InlineAlert variant="info" slots="text"/>
+
 All existing custom email templates will continue to work after upgrading to 2.3.4.
 Any new email template created after installing 2.3.4 must be written in strict mode.
 As of 2.4.0, the template filter, specifically anything that uses or extends `\Magento\Framework\Filter\Template`, will use strict mode by default.
@@ -104,7 +103,7 @@ public function send(Invoice $invoice, $forceSyncMode = false)
         $transportObject = new DataObject($transport);
 ```
 
-In this example, the `customer.name` is being computed within the [model][] file.
+In this example, the `customer.name` is being computed within the [model](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Sales/Model/Order/Email/Sender/InvoiceSender.php) file.
 Depending on the particular instance of Magento, this data point can be appended within a custom module, directive or any manner of ways.
 
 ## Create a custom directive
@@ -233,11 +232,13 @@ For example, if we have:
 ```php
 $template->setVariables(['customer_data'=> ['name' => ['first_name' => 'John']]]);
 ```
+
 and in the template:
 
 ```php
 {{mydir test fname=$customer_data.name.first_name}}
 ```
+
 it will resolve to “John”.
 
 This new syntax also works in combination with the `DataObject` exception.
@@ -246,6 +247,7 @@ For example, if we have:
 ```php
 $template->setVariables(['customer_data'=> ['name' => new DataObject('first_name' => 'John')]]);
 ```
+
 and in the template we have:
 
 ```php
@@ -253,11 +255,3 @@ and in the template we have:
 ```
 
 it will resolve to “John”.
-
-{% endraw %}
-
-<!-- Link Definitions -->
-[Insert Variable]: {{ page.baseurl }}/frontend-dev-guide/templates/template-email.html#customize-content
-[New Order email template]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Sales/view/frontend/email/order_new.html
-[model]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Sales/Model/Order/Email/Sender/InvoiceSender.php
-[1]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Email/Model/AbstractTemplate.php

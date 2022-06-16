@@ -6,18 +6,18 @@ functional_areas:
   - Theme
 ---
 
-## What's in this topic {#theme-apply-overview}
+## What's in this topic
 
 The topic describes how to apply a [theme](https://glossary.magento.com/theme) for your store. This is a required step if you want a theme to be used on a [storefront](https://glossary.magento.com/storefront).
 Also, it gives information how to add a theme independent logo for your store.
 
 ## Prerequisites
 
-Make sure that you [set]({{ page.baseurl }}/config-guide/cli/config-cli-subcommands-mode.html) your Magento application to the developer [mode]({{ page.baseurl }}/config-guide/bootstrap/magento-modes.html).
+Make sure that you [set](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html) your Magento application to the developer [mode](https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html).
 
-## Apply a theme {#theme-apply-apply}
+## Apply a theme
 
-After you [add your theme to the file system]({{ page.baseurl }}/frontend-dev-guide/themes/theme-create.html), you can apply it to your store. You apply a theme in [Admin](https://glossary.magento.com/admin).
+After you [add your theme to the file system](create-storefront.md), you can apply it to your store. You apply a theme in [Admin](https://glossary.magento.com/admin).
 
 To apply a theme:
 
@@ -34,7 +34,7 @@ To apply a theme:
 1. If caching is enabled, [clear the cache](#theme-apply-clear).
 1. To see your changes applied, reload the storefront pages.
 
-## Add a design exception {#theme-apply-except}
+## Add a design exception
 
 Design exceptions enable you to specify an alternative theme for particular user-agents, instead of creating a separate store views for them.
 To add a design exception:
@@ -50,7 +50,7 @@ To add a design exception:
 1. If caching is enabled, [clear the cache](#theme-apply-clear).
 1. To see your changes applied, reload the storefront pages.
 
-## Add a theme-independent logo {#theme-apply-logo}
+## Add a theme-independent logo
 
 You might want to set a permanent store logo that displays on the storefront no matter what theme is applied.
 To add a permanent theme-independent logo:
@@ -59,7 +59,7 @@ To add a permanent theme-independent logo:
 1. In the configuration record corresponding to your store view, click **Edit**.
 1. Expand the **Header** tab.
 1. In the **Logo Image** field browse to the logo file saved in your file system.
-1. Upload the file. Allowed file types include .png, .gif, .jpg, and .jpeg. To add an .svg logo, see [Declaring theme logo]({{page.baseurl}}/frontend-dev-guide/themes/theme-create.html#logo_declare).
+1. Upload the file. Allowed file types include .png, .gif, .jpg, and .jpeg. To add an .svg logo, see [Declaring theme logo](create-storefront.md#declaring-theme-logo).
 1. Optionally, specify the desired width, height, and the alternative text for the logo in the corresponding fields.
 1. Click **Save Configuration** or **Save and Continue**.
 1. If caching is enabled, [clear the cache](#theme-apply-clear).
@@ -69,10 +69,11 @@ To add a permanent theme-independent logo:
 
 The logo you add here is stored in the `/pub/media/logo/default/` directory.
 
-{:.bs-callout-warning}
+<InlineAlert variant="warning" slots="text"/>
+
 To delete the permanent logo, go to the same location, and click the "Delete image" icon in the bottom left corner of the logo preview, then click the "Save Configuration button".
 
-## Clear the cache {#theme-apply-clear}
+## Clear the cache
 
 If caching is enabled in Admin, you must clear the cache after you apply the theme, add a design exception, add a logo, and perform other tasks.
 
@@ -85,4 +86,4 @@ A system message notifies you that invalidated cache types must be refreshed.
 
 ## Troubleshooting (if the changes do not get applied)
 
-If the changes you configure in the Admin are not applied after you clear the cache and reload the page, delete all files in the `pub/static/frontend` and `var/view_preprocessed` directories, then reload the pages. You can delete the files manually or run the `grunt clean:<theme_name>` command in CLI. For details about using Grunt in Magento see [Installing and configuring Grunt]({{ page.baseurl }}/frontend-dev-guide/css-topics/css_debug.html#prerequisites).
+If the changes you configure in the Admin are not applied after you clear the cache and reload the page, delete all files in the `pub/static/frontend` and `var/view_preprocessed` directories, then reload the pages. You can delete the files manually or run the `grunt clean:<theme_name>` command in CLI. See [Installing and configuring Grunt](../tools/grunt.md).

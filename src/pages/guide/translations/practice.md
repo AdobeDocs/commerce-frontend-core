@@ -5,11 +5,11 @@ functional_areas:
   - Frontend
 ---
 
-This topic is a step-by-step tutorial to create a default en_US [locale](https://glossary.magento.com/locale) [dictionary] for a custom [theme](https://glossary.magento.com/theme).
+This topic is a step-by-step tutorial to create a default en_US [locale](https://glossary.magento.com/locale) [dictionary](dictionary.md) for a custom [theme](https://glossary.magento.com/theme).
 
-## Changing default strings {#theme}
+## Changing default strings
 
-ExampleCorp created a custom `orange` theme that inherits from the Magento Blank theme. When customizing their theme, they want to rephrase certain strings used in the Blank theme and modules for the default locale.
+ExampleCorp created a custom `orange` theme that inherits from the Blank theme. When customizing their theme, they want to rephrase certain strings used in the Blank theme and modules for the default locale.
 
 Namely, they need the following changes:
 
@@ -23,7 +23,7 @@ The following image shows a page where the current strings are used:
 
 To override the strings, ExampleCorp plans to use the `en_US.csv` dictionary file.
 
-1. Run the [i18n (internationalization) tool] to generate the en_US dictionary for the `orange` theme:
+1. Run the [i18n (internationalization) tool](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-i18n.html#config-cli-subcommands-xlate-dict) to generate the en_US dictionary for the `orange` theme:
 
    ```bash
    bin/magento i18n:collect-phrases --output="app/design/frontend/ExampleCorp/orange/i18n/en_US.csv" app/design/frontend/ExampleCorp/orange
@@ -56,9 +56,3 @@ For example:
 -  [Translations overview]
 -  [Translation dictionaries and language packages]
 -  [Use translation dictionary to customize strings]
-
-[dictionary]: {{ page.baseurl }}/frontend-dev-guide/translations/xlate.html#translate_terms
-[i18n (internationalization) tool]: {{page.baseurl}}/config-guide/cli/config-cli-subcommands-i18n.html#config-cli-subcommands-xlate-dict
-[Translation dictionaries and language packages]: {{page.baseurl}}/config-guide/cli/config-cli-subcommands-i18n.html
-[Use translation dictionary to customize strings]: {{page.baseurl}}/frontend-dev-guide/translations/theme_dictionary.html
-[Translations overview]: {{page.baseurl}}/frontend-dev-guide/translations/xlate.html

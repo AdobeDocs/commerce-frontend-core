@@ -14,9 +14,9 @@ You can use Grunt to automate any tasks you need, but out of the box Magento com
 
 ## Prerequisites
 
-Make sure that you [set]({{ page.baseurl }}/config-guide/cli/config-cli-subcommands-mode.html) your Magento application to the developer or default [mode]({{ page.baseurl }}/config-guide/bootstrap/magento-modes.html).
+Make sure that you [set](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html) your Magento application to the developer or default [mode](https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html).
 
-## Installing and configuring Grunt {#grunt_prereq}
+## Installing and configuring Grunt
 
 Magento has built-in Grunt tasks configured, but there are still several steps you need to take to be able to use it:
 
@@ -50,7 +50,7 @@ Magento has built-in Grunt tasks configured, but there are still several steps y
 
 1. (Optional) If you want to use Grunt for "watching" changes automatically, without reloading pages in a browser each time, install the [LiveReload extension](http://livereload.com/extensions/) in your browser.
 
-## Grunt configuration file {#grunt_config}
+## Grunt configuration file
 
 Copy the contents of `themes.js` into `local-themes.js` in the `dev/tools/grunt/configs/` directory.
 
@@ -75,7 +75,7 @@ Where the following notation is used:
 -  `<theme>`: your theme code, conventionally should correspond to the theme directory name.
 -  `<area>`: area code, can be either `frontend` or `adminhtml`.
 -  `<language>`: specified in the `code_subtag` format, for example `en_US`. Only one locale can be specified here. To debug the theme with another locale, create one more theme declaration, having specified another value for `language`.
--  `<path_to_file>`: path to the root source file, relative to the `app/design/frontend/<Vendor>/<theme>/web` directory. You need to specify all [root source files of the theme]({{ page.baseurl }}/frontend-dev-guide/css-topics/css-preprocess.html#css_preprocess_terms). If your theme [inherits] from a certain theme, and does not contain its own root source files, specify the root source files of the parent theme.
+-  `<path_to_file>`: path to the root source file, relative to the `app/design/frontend/<Vendor>/<theme>/web` directory. You need to specify all [root source files of the theme](../css/preprocess.md). If your theme [inherits] from a certain theme, and does not contain its own root source files, specify the root source files of the parent theme.
 
 Once these are set correctly, run grunt to watch your changes.
 

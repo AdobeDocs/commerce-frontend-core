@@ -11,13 +11,13 @@ This article features a step-by-step illustration of how a real-life layout cust
 
 ## Moving customer account links
 
-In their Orange theme, ExampleCorp wants to transform the header links block to a drop-down, the way it is done in the Magento Luma theme:
+In their Orange theme, ExampleCorp wants to transform the header links block to a drop-down, the way it is done in the Luma theme:
 
 ![layout transform]
 
 To do this, they need to wrap the list of header links with a container and add a greeting with a drop-down arrow before the list.
 
-The Orange theme [inherits]({{ page.baseurl }}/frontend-dev-guide/themes/theme-inherit.html) from Blank, so by default the rendered header links look like following:
+The Orange theme [inherits](../themes/inherit.md) from Blank, so by default the rendered header links look like following:
 
 ```html
 <div class="panel header">
@@ -72,7 +72,7 @@ The markup required for the drop-down is the following:
 
 ### Step 1: Define the layout blocks
 
-ExampleCorp [applies the Luma theme]({{ page.baseurl }}/frontend-dev-guide/themes/theme-apply.html). Using the approach described in [Locate templates, layouts, and styles]({{ page.baseurl }}/frontend-dev-guide/themes/debug-theme.html) they find out that the original block responsible for displaying the header links is defined in
+ExampleCorp [applies the Luma theme](../themes/apply-storefront.md). Using the approach described in [Locate templates, layouts, and styles](../themes/debug.mdl) they find out that the original block responsible for displaying the header links is defined in
 
 `<Magento_Theme_module_dir>/view/frontend/layout/default.xml`:
 
@@ -87,11 +87,11 @@ ExampleCorp [applies the Luma theme]({{ page.baseurl }}/frontend-dev-guide/theme
 </container>
 ```
 
-(See [app/code/Magento/Theme/view/frontend/layout/default.xml]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Theme/view/frontend/layout/default.xml#L43-L47) on GitHub).
+(See [app/code/Magento/Theme/view/frontend/layout/default.xml](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Theme/view/frontend/layout/default.xml#L43-L47) on GitHub).
 
-Other modules use this block to add their specific links to the header using the [referenceBlock]({{ page.baseurl }}/frontend-dev-guide/layouts/xml-instructions.html#fedg_layout_xml-instruc_ex_ref) instruction. For example, see how links are added in the Customer module: [app/code/Magento/Customer/view/frontend/layout/default.xml#L10-L23]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Customer/view/frontend/layout/default.xml#L10-L23)
+Other modules use this block to add their specific links to the header using the [referenceBlock](xml-instructions.md#referenceblock-and-referencecontainer) instruction. For example, see how links are added in the Customer module: [app/code/Magento/Customer/view/frontend/layout/default.xml#L10-L23](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Customer/view/frontend/layout/default.xml#L10-L23)
 
-The Luma theme [moves]({{ page.baseurl }}/frontend-dev-guide/layouts/xml-instructions.html#fedg_layout_xml-instruc_ex_mv) the `top.links` block to the new `customer` block in the extending layout file.
+The Luma theme [moves](xml-instructions.md#move) the `top.links` block to the new `customer` block in the extending layout file.
 
 `<Magento_luma_theme_dir>/Magento_Customer/layout/default.xml`
 
@@ -162,13 +162,13 @@ defines the template which is used as the drop-down container : `<Magento_Custom
     <?php endif; ?>
 ```
 
-See [app/code/Magento/Customer/view/frontend/templates/account/customer.phtml]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Customer/view/frontend/templates/account/customer.phtml).
+See [app/code/Magento/Customer/view/frontend/templates/account/customer.phtml](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Customer/view/frontend/templates/account/customer.phtml).
 
 ### Step 3: Extend the base layout to add a block
 
 ExampleCorp needs to create a new block, say, `header.links`, in the `header.panel` container, to move the links there. As the links can be added to this list by different modules, it is better to add this block to the `default.xml` page configuration of the `Magento_Theme` module.
 
-So the following [extending]({{ page.baseurl }}/frontend-dev-guide/layouts/layout-extend.html) layout is added in the Orange theme:
+So the following [extending](extend.md) layout is added in the Orange theme:
 
 `app/design/frontend/ExampleCorp/orange/Magento_Theme/layout/default.xml`
 
@@ -214,10 +214,10 @@ Now the customer links look like following:
 
 Clicking the **Change** button toggles the `active` CSS class:
 
-To add quick basic styling and visual behavior to the "dropdown" menu, ExampleCorp added  [_extend.less]({{ page.baseurl }}/frontend-dev-guide/css-guide/css_quick_guide_approach.html#simple_extend) to their theme with the following customizations:
+To add quick basic styling and visual behavior to the "dropdown" menu, ExampleCorp added [_extend.less](../css/quickstart/customize-styles.md) to their theme with the following customizations:
 
 *  Redundant elements are hidden with CSS.
-*  The `.lib-dropdown()` mixin from [Magento UI library]({{ page.baseurl }}/frontend-dev-guide/css-topics/theme-ui-lib.html) was applied to the corresponding element.
+*  The `.lib-dropdown()` mixin from [UI library](../css/theme-ui-lib.md) was applied to the corresponding element.
 
 `app/design/frontend/ExampleCorp/orange/web/css/source/_extend.less`
 

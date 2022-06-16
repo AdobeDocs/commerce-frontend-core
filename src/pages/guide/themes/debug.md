@@ -6,11 +6,11 @@ functional_areas:
   - Theme
 ---
 
-## What's in this topic {#debug-theme-intro}
+## What's in this topic
 
 When you create a Magento theme, you might need to create override files for default [theme](https://glossary.magento.com/theme) and [module](https://glossary.magento.com/module) view files. To do so, you must determine which template, layout, and style files Magento uses. This topic describes how to do this.
 
-## Locate templates {#debug-theme-templ}
+## Locate templates
 
 To locate the template that is responsible for a specific part of the [storefront](https://glossary.magento.com/storefront) or Admin, you can use Magento built-in template hints.
 
@@ -25,7 +25,8 @@ To enable template hints:
 
 ![Enabling template hints](../../_images/frontend/fdg_debug_theme_23.png)
 
-{:.bs-callout-info}
+<InlineAlert variant="info" slots="text"/>
+
 You can also use the CLI to enable/disable template hints.
 
 Use the `bin/magento dev:template-hints:enable` command to enable template hints and the `bin/magento dev:template-hints:disable` command to disable them. Do not forget to clear the cache after running the commands. For example:
@@ -63,9 +64,9 @@ For example, using a browser debug tool, you can define that the minicart block 
 
 A search through the app directory for occurrences of "minicart-wrapper" in `.phtml` files returns the `app/code/Magento/Checkout/view/frontend/templates/cart/minicart.phtml` template.
 
-Since it is not recommended to edit the default files, you need to add overriding files if you want to customize the template. For details about overriding templates please refer to [Customizing Theme Template]({{ page.baseurl }}/frontend-dev-guide/templates/template-walkthrough.html).
+Since it is not recommended to edit the default files, you need to add overriding files if you want to customize the template. For details about overriding templates please refer to [Customizing Theme Template](../templates/walkthrough.md).
 
-## Locate layouts {#debug-theme-layout}
+## Locate layouts
 
 Just like templates, layouts are saved on a per-module basis. You can easily locate the [layout](https://glossary.magento.com/layout) file by determining in which module the templates for the element you are interested in reside in.
 
@@ -90,9 +91,9 @@ Let's search for the layout following the fallback scheme:
 1. We can find the info about parent theme in a theme configuration file `theme.xml`, the parent theme name is specified there in the `<parent></parent>` node. In the `app/design/frontend/Magento/blank/theme.xml` there's no `<parent>` node, which means the Blank theme has no parents. So we should search on the next fallback level which is the module layouts.
 1. The Magento_Checkout layouts are located in `app/code/Magento/Checkout/view/frontend/layout/`. After searching this directory for occurrences of "`minicart.phtml`", we define that the layout we are looking for is `app/code/Magento/Checkout/view/frontend/layout/default.xml`.
 
-After you located the necessary layout file, you can create your custom layout file with the corresponding name in your theme folder to add [extending]({{ page.baseurl }}/frontend-dev-guide/layouts/layout-extend.html) or [overriding]({{ page.baseurl }}/frontend-dev-guide/layouts/layout-override.html) content. Please see [Customizing Theme Layouts]({{ page.baseurl }}/frontend-dev-guide/layouts/layout-overview.html) for more details.
+After you located the necessary layout file, you can create your custom layout file with the corresponding name in your theme folder to add [extending](../layouts/extend.md) or [overriding](../layouts/override.md) content. Please see [Customizing Theme Layouts](../layouts/index.md) for more details.
 
-## Locate styles {#debug-theme-style}
+## Locate styles
 
 To locate a CSS rule that is applied to a certain element, find the template for the page that contains the element. Or you can use browser debugging tools, to locate the class name.
 After you find the class name, use text search in the theme and module styles directories to locate the `.less` or `.css` file that defines the class. Perform the search according to the following fallback scheme:
@@ -115,4 +116,4 @@ So, let's search for occurrences of "`minicart-wrapper`" in according to the fal
 1. Search in `app/design/frontend/Magento/blank/web/css`, the search returns no results.
 1. Search in `app/design/frontend/Magento/blank/Magento_Checkout/web/css`.The "`minicart-wrapper`" style is defined in `app/design/frontend/Magento/blank/Magento_Checkout/web/css/source/module/_minicart.less`
 
-After you determine which `.css` or `.less` file defines the class, you can override the default class definition in your custom `.css` or `.less` files.  For details, see [CSS in themes]({{ page.baseurl }}/frontend-dev-guide/css-topics/css-themes.html).
+After you determine which `.css` or `.less` file defines the class, you can override the default class definition in your custom `.css` or `.less` files.  For details, see [CSS in themes](../css/themes.md).

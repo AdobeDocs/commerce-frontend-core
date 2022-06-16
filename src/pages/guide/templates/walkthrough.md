@@ -11,15 +11,15 @@ This topic walks you through how to customize a template.
 
 ## Prerequisites
 
-[Set]({{ page.baseurl }}/config-guide/cli/config-cli-subcommands-mode.html) your Magento application to the developer [mode]({{ page.baseurl }}/config-guide/bootstrap/magento-modes.html). The application mode influences the way [static files](https://glossary.magento.com/static-files) are cached by Magento. The recommendations about [theme](https://glossary.magento.com/theme) development we provide in this chapter are developer/default-mode specific.
+[Set](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html) your Magento application to the developer [mode](https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html). The application mode influences the way [static files](https://glossary.magento.com/static-files) are cached by Magento. The recommendations about [theme](https://glossary.magento.com/theme) development we provide in this chapter are developer/default-mode specific.
 
 ## Template customization walkthrough
 
 To customize a template:
 
-1. Locate the template which is associated with the page/block you want to change using [template hints]({{ page.baseurl }}/frontend-dev-guide/themes/debug-theme.html#debug-theme-templ).
+1. Locate the template which is associated with the page/block you want to change using [template hints](../themes/debug.md#locate-templates).
 
-1. Copy the template to your theme folder according to the [template storing convention]({{ page.baseurl }}/frontend-dev-guide/templates/template-override.html#template-convention).
+1. Copy the template to your theme folder according to the [template storing convention](override.md#template-location).
 
 1. Make the required changes.
 
@@ -27,10 +27,11 @@ To add a new template in a theme:
 
 1. Add a template in your theme directory according to the template storing convention.
 
-1. Assign your template to a block in the [corresponding layout file]({{ page.baseurl }}/frontend-dev-guide/templates/template-override.html#template-layout).
+1. Assign your template to a block in the [corresponding layout file](override.md#how-templates-are-initiated).
 
-{:.bs-callout-tip}
-If you add a new `.html` template, and then edit it, the changes will not apply until you delete all files in the `pub/static/frontend` and `var/view_preprocessed` directories and reload the pages. You can delete the files manually or run the `grunt clean:<theme_name>` command in CLI. For details about using Grunt in Magento see [Installing and configuring Grunt]({{ page.baseurl }}/frontend-dev-guide/css-topics/css_debug.html).
+<InlineAlert variant="success" slots="text"/>
+
+If you add a new `.html` template, and then edit it, the changes will not apply until you delete all files in the `pub/static/frontend` and `var/view_preprocessed` directories and reload the pages. You can delete the files manually or run the `grunt clean:<theme_name>` command in CLI. For details about using Grunt in Magento see [Installing and configuring Grunt](../css/debug.md).
 
 ## Walkthrough illustration: adding a message to the customer review form
 

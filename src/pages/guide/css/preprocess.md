@@ -5,11 +5,11 @@ functional_areas:
   - Frontend
 ---
 
-## What's in this topic {#preproc_over}
+## What's in this topic
 
 The topic describes how stylesheets are preprocessed and compiled to [CSS](https://glossary.magento.com/css) in the Magento application. It provides the theoretical background a [frontend](https://glossary.magento.com/frontend) developer needs to debug stylesheets effectively.
 
-## Terms used {#css_preprocess_terms}
+## Terms used
 
 <table>
     <tr>
@@ -25,7 +25,7 @@ The topic describes how stylesheets are preprocessed and compiled to [CSS](https
             <p>Root source files</p>
         </td>
         <td>
-            The <code>.less</code> files from which the <code>.css</code> files <a href="{{ page.baseurl }}/frontend-dev-guide/css-topics/css-themes.html">included in layout</a> are compiled. For example, in one of the <a href="{{ site.mage2bloburl }}/{{ page.guide_version }}/app/design/frontend/Magento/blank/Magento_Theme/layout/default_head_blocks.xml">layout files of the Magento Blank theme</a>, the following <code>.css</code> files are included in the <code>head</code>:
+            The <code>.less</code> files from which the <code>.css</code> files <a href="themes.md">included in layout</a> are compiled. For example, in one of the <a href="https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/blank/Magento_Theme/layout/default_head_blocks.xml">layout files of the Blank theme</a>, the following <code>.css</code> files are included in the <code>head</code>:
 <pre>
 &lt;head&gt;
     &lt;css src="css/styles-m.css"/&gt;
@@ -35,15 +35,15 @@ The topic describes how stylesheets are preprocessed and compiled to [CSS](https
 </pre>
    The root source files for the Blank theme:
   <ul>
-   <li><a href="{{ site.mage2bloburl }}/{{ page.guide_version }}/app/design/frontend/Magento/blank/web/css/styles-m.less">Magento_Blank_theme_dir/web/css/styles-m.less</a></li>
-   <li><a href="{{ site.mage2bloburl }}/{{ page.guide_version }}/app/design/frontend/Magento/blank/web/css/styles-l.less">Magento_Blank_theme_dir/web/css/styles-l.less</a></li>
-   <li><a href="{{ site.mage2bloburl }}/{{ page.guide_version }}/app/design/frontend/Magento/blank/web/css/print.less">Magento_Blank_theme_dir/web/css/print.less</a></li>
+   <li><a href="https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/blank/web/css/styles-m.less">Magento_Blank_theme_dir/web/css/styles-m.less</a></li>
+   <li><a href="https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/blank/web/css/styles-l.less">Magento_Blank_theme_dir/web/css/styles-l.less</a></li>
+   <li><a href="https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/blank/web/css/print.less">Magento_Blank_theme_dir/web/css/print.less</a></li>
   </ul>
  </td>
  </tr>
 </table>
 
-## Less compilation modes {#less_modes}
+## Less compilation modes
 
 In the Magento application, the following modes of compiling `.less` files to CSS are implemented:
 
@@ -62,7 +62,7 @@ To set the compilation mode, do the following:
 1. Under **Frontend development workflow**, in the **Workflow type** field, select the compilation mode.
 1. To save the settings, click **Save Config**.
 
-### Server-side Less compilation {#server-side}
+### Server-side Less compilation
 
 The following paragraph describes how the Less preprocessor works in server-side compilation mode.
 For each CSS file included in the layouts, Less preprocessor does the following:
@@ -75,7 +75,7 @@ For each CSS file included in the layouts, Less preprocessor does the following:
 
 1. All source files are passed to the PHP Less compiler. The resulting compiled `.css` files are published to `pub/static/frontend/<Vendor>/<theme>/<locale>`.
 
-#### Styles debugging in server-side compilation mode {#css_debug_server}
+#### Styles debugging in server-side compilation mode
 
 In server-side Less compilation mode, to have your changes applied, you need to do the following:
 
@@ -84,7 +84,7 @@ In server-side Less compilation mode, to have your changes applied, you need to 
 1. Trigger [static files](https://glossary.magento.com/static-files) compilation and publication. This can be done in one of the following ways:
 
    -  Reloading the page where the modified styles are applied.
-   -  Running the [static files deployment tool]({{ page.baseurl }}/config-guide/cli/config-cli-subcommands-static-view.html).
+   -  Running the [static files deployment tool](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-static-view.html).
 
 Reloading the page only triggers compilation and publication of the styles used on this very page, and does not give you the information about the errors if any. So if you made changes in `.less` files used on many pages, and want to debug them, using the deployment tool is the better option.
 
@@ -110,12 +110,14 @@ bin/magento setup:static-content:deploy --area adminhtml
 
 The tool pre-processes (including compilation) and publishes the static view files.
 
-{:.bs-callout-info}
-Manual static content deployment is not required in "default" and "developer" modes. If you still want to deploy in these modes, use the -f option: `bin/magento setup:static-content:deploy -f`. Read more about the command in the [Deploy static view files]({{ page.baseurl }}/config-guide/cli/config-cli-subcommands-static-view.html) section.
+<InlineAlert variant="info" slots="text"/>
+
+Manual static content deployment is not required in "default" and "developer" modes. If you still want to deploy in these modes, use the -f option: `bin/magento setup:static-content:deploy -f`. Read more about the command in the [Deploy static view files](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-static-view.html) section.
 
 All errors occurring during `.less` files compilation are handled by the [LESS PHP library][] third party library.
 
-{:.bs-callout-info}
+<InlineAlert variant="info" slots="text"/>
+
 Since Magento 2.3.3, `oyegorge/less.php` has been replaced by `wikimedia/less.php`
 
 Errors are caught as exceptions and written to the system log (by default it is `var/log/system.log`) and displayed on the screen. For each error, the following information is written:
@@ -141,20 +143,21 @@ variable @variable-x is undefined in file /var/www/magento2/var/view_preprocesse
 
 Alternatively, to streamline the process of applying and debugging styles customizations, in server-side compilation mode, you can
 
-See the [Compile LESS with Grunt]({{ page.baseurl }}/frontend-dev-guide/css-topics/css_debug.html) topic for details how to install, configure and use Grunt.
+See the [Compile LESS with Grunt](debug.md) topic for details how to install, configure and use Grunt.
 
-### Client-side LESS compilation {#client-side}
+### Client-side LESS compilation
 
-The client-side compilation flow is similar to [server-side](#server-side). The difference is in the set of files, published to `pub/static` on the last step. In the client-side mode, the following files are published to the `pub/static/frontend/<Vendor>/<theme>/<locale>` directory:
+The client-side compilation flow is similar to [server-side](#server-side-less-compilation). The difference is in the set of files, published to `pub/static` on the last step. In the client-side mode, the following files are published to the `pub/static/frontend/<Vendor>/<theme>/<locale>` directory:
 
 -  root source (.less) files with resolved `@magento_import` directive
 -  [symlinks](http://en.wikipedia.org/wiki/Symbolic_link) to the root source file that do not contain `@magento_import`
 -  symlinks to all other `.less` files imported recursively by the `@magento_import` and `@import` directives
 
-{:.bs-callout-info}
+<InlineAlert variant="info" slots="text"/>
+
 Symlink is not created, and a copy of the processed file is published to `pub/static` instead, if the source file differs from the processed one. One of the reasons of this difference might be the usage of the `@import` directive without file extension in the source file. See [The @import directive usage](#fedg_css-import) for more details.
 
-#### Styles debugging in client-side compilation mode {#css_debug_client}
+#### Styles debugging in client-side compilation mode
 
 Client-side LESS compilation is implemented using the native `less.js` library. The default configuration is set in `lib/web/less/config.less.js`; you can change it as needed.
 
@@ -164,18 +167,18 @@ In client-side compilation mode, most of the stylesheet customizations display i
 
 With client-side compilation mode enabled, LESS files are compiled on every page load. This reduces page-loading performance.
 
-##### When you need to clean static view files {#css_exception}
+##### When you need to clean static view files
 
 There are certain types of changes, that require you to clear the `pub/static/frontend/<Vendor>/<theme>/<locale>` directory and trigger the compilation and [publication] processes anew.
 
 This is required in the following cases:
 
--  If you change the [root source files] that contain the `@magento_import` directive, or the `@import` directive where the imported file is specified without extension.
+-  If you change the [root source files](#terms-used) that contain the `@magento_import` directive, or the `@import` directive where the imported file is specified without extension.
 -  If you rename, remove, or add a `.less` file imported with a `@magento_import` or `@import` directive but you did not correct the directives accordingly.
 
 To clear the `pub/static/frontend/<Vendor>/<theme>/<locale>` directory, delete the directory in the file system, and reload the store pages in a browser to trigger compilation and publication.
 
-## The `@import` directive rules of usage {#fedg_css-import}
+## The `@import` directive rules of usage
 
 You can import local and remote `.less` and `.css` files in your `.less` Magento stylesheets by using the standard LESS [`@import` directive](http://lesscss.org/features/#import-directives-feature).
 According to the `@import` syntax, specifying the file extension for the imported file is not mandatory. For example, the following notation is allowed:
@@ -192,7 +195,7 @@ But in process of resolving the file path, Magento adds the `.less` extension fo
 @import (css) 'styles.less';
 ```
 
-As a result, the processed files are different from the source files. So in the [client-side compilation mode](#client-side) or when using [grunt commands]({{ page.baseurl }}/frontend-dev-guide/css-topics/css_debug.html), Magento cannot use symlinks to the source files. Instead it uses the copies of processed files, and they are published to the `pub/static` directory. In case of importing CSS resources, this also results in not finding and not importing the required files.
+As a result, the processed files are different from the source files. So in the [client-side compilation mode](#client-side-less-compilation-client-side) or when using [grunt commands](debug.md), Magento cannot use symlinks to the source files. Instead it uses the copies of processed files, and they are published to the `pub/static` directory. In case of importing CSS resources, this also results in not finding and not importing the required files.
 
 ### Importing remote CSS files
 
@@ -202,18 +205,18 @@ If you need to import a remote CSS file in your `.less` source, use `url()` nota
 @import url('//fonts.googleapis.com/css?family=Titillium+Web:400,300,200,600.css');
 ```
 
-To [include the font]({{ page.baseurl }}/frontend-dev-guide/css-topics/using-fonts.html) in your theme's CSS files, use the `@font-face` CSS rule for the fastest loading time.
+To [include the font](fonts.md) in your theme's CSS files, use the `@font-face` CSS rule for the fastest loading time.
 
 This way Magento will skip the `@import` directive while resolving paths to the local resources.
 
-## The @magento_import directive {#fedg_css-magento-import}
+## The @magento_import directive
 
 `@magento_import` is a Magento-specific LESS directive that allows including multiple files by a name pattern. It is used to include files with the same name from the different locations, for example, different modules.
 The standard `@import` directive includes a single file, which is found according to the [static files fallback].
 
 `@magento_import` can be used in the root source files of a theme only.
 
-### @magento_import rules of usage {#magento-import-usage}
+### @magento_import rules of usage
 
 To include a `.less` file using the `@magento_import` directive:
 
@@ -241,7 +244,7 @@ To include a `.less` file using the `@magento_import` directive:
 
 1. `@magento_import` must contain the file path. The path is specified relatively to the file, where the directive is called and put in either single ('') or double quotes (""). The best practice is to specify the file extension in the path, though technically you can omit this.
 
-### @magento_import processing {#magento_import_example}
+### @magento_import processing
 
 In the scope of static resources preprocessing, the built-in LESS preprocessor does the following:
 
@@ -278,10 +281,9 @@ Example of how `@magento_import` is used and processed in `<Magento_Blank_theme_
 </table>
 
 <!-- Link definitions -->
-[production application mode]: {{page.baseurl}}/config-guide/bootstrap/magento-modes.html#production-mode
+[production application mode]: https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html#production-mode
 [LESS PHP library]: https://github.com/wikimedia/less.php
 [native `less.js` library]: http://lesscss.org/usage/#using-less-in-the-browser
-[Magento fallback mechanism]: {{page.baseurl}}/frontend-dev-guide/themes/theme-inherit.html#theme-inherit-static
-[publication]: {{page.baseurl}}/config-guide/cli/config-cli-subcommands-static-view.html#config-cli-static-overview
-[root source files]: {{page.baseurl}}/frontend-dev-guide/css-topics/css-preprocess.html#css_preprocess_terms
-[static files fallback]: {{page.baseurl}}/frontend-dev-guide/themes/theme-inherit.html#theme-inherit-static
+[Magento fallback mechanism]: ../themes/inherit.md#override-static-assets
+[publication]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-static-view.html#config-cli-static-overview
+[static files fallback]: ../themes/inherit.md#override-static-assets

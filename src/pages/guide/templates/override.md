@@ -9,7 +9,7 @@ functional_areas:
 
 This topic explains how default templates work in the Magento application.
 
-## How templates are initiated {#template-layout}
+## How templates are initiated
 
 Templates are initiated in [layout](https://glossary.magento.com/layout) files, and
 each layout block has an associated template.
@@ -40,7 +40,7 @@ The template for the `review_view` block is not specified using the `template` a
 protected $_template = 'Magento_Review::view.phtml';
 ```
 
-## Template location {#template-convention}
+## Template location
 
  Templates are stored in the following locations:
 
@@ -54,7 +54,7 @@ Examples:
 *  `app/code/Magento/Catalog/view/frontend/templates/product/widget/new/content/new_grid.phtml`
 *  `app/code/Magento/Checkout/view/frontend/templates/cart.phtml`
 
-## Template overrides {#override}
+## Template overrides
 
 For template files with the same name, the following override rules apply:
 
@@ -66,14 +66,14 @@ This concept is the basis of template customization in Magento.
 
 See [Theme inheritance]
 
-## Root template {#root}
+## Root template
 
 `<Magento_Theme_module_dir>/view/base/templates/root.phtml` is the root template for all storefront pages in the Magento application.
 This file can be overridden in a theme just like any other template file.
 
 Unlike other templates, `root.phtml` contains the `doctype` specification and contributes to `<head>` and `<body>` sections of all pages rendered by Magento application.
 
-## Getting argument values from layout {#getter}
+## Getting argument values from layout
 
 Arguments values set in a layout file are accessed in templates using the block's `get{ArgumentName}()` and `has{ArgumentName}()` methods.
 
@@ -91,7 +91,7 @@ For example, set an argument in the block: `<argument name="store_name" xsi:type
 
 See [Block arguments] for more information.
 
-## Using PHP short tags in template PHTML files {#short-tags}
+## Using PHP short tags in template PHTML files
 
 The `echo` command in PHP can be written using the short tag in Magento templates.
 
@@ -115,11 +115,7 @@ In order to support the translation of content, the text must be wrapped inside 
 <span><?= $escaper->escapeHtml(__('Back to Product Reviews')) ?></span>
 ```
 
-## Related reading
-
-[Set a block's template]({{ page.baseurl }}/frontend-dev-guide/layouts/xml-manage.html#set_template)
-
-[`app/code/Magento/Catalog/view/frontend/layout/catalog_category_view.xml`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Catalog/view/frontend/layout/catalog_category_view.xml
-[Child theme]: {{ page.baseurl }}/frontend-dev-guide/themes/theme-inherit.html
-[Theme inheritance]: {{ page.baseurl }}/frontend-dev-guide/themes/theme-inherit.html#theme-inherit-templates
-[Block arguments]: {{ page.baseurl }}/frontend-dev-guide/layouts/xml-instructions.html#argument
+[`app/code/Magento/Catalog/view/frontend/layout/catalog_category_view.xml`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Catalog/view/frontend/layout/catalog_category_view.xml
+[Child theme]: ../themes/inherit.md
+[Theme inheritance]: ../themes/inherit.md#override-templates
+[Block arguments]: ../layouts/xml-instructions.md#argument

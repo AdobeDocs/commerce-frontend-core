@@ -39,11 +39,19 @@ You can apply these levels of customization to your site, where the levels requi
 
     This requires PHP programming knowledge in addition to knowledge of all of the preceding areas.
 
-## Frontend development prerequisites {#fedg-prereqs}
+## Frontend development prerequisites
 
 To implement what is discussed in this guide, you need a working Magento installation and the following browser versions installed on your device:
 
-{% include browsers/supported-browsers-24.md %}
+Storefront and Admin:
+
+*  Microsoft Edge, latest and previous major version
+*  Firefox latest, latest and previous major version (any operating system)
+*  Chrome latest, latest and previous major version (any operating system)
+*  Safari latest, latest and previous major version (Mac OS only)
+*  Safari Mobile for iPad 2, iPad Mini, iPad with Retina Display (iOS 12 or later), for desktop storefront
+*  Safari Mobile for iPhone 6 or later; iOS 12 or later, for mobile storefront
+*  Chrome for mobile, latest and previous major version (Android 4 or later) for mobile storefront
 
 To use this guide, you must be familiar with:
 
@@ -54,4 +62,4 @@ To use this guide, you must be familiar with:
 *  [JavaScript](https://glossary.magento.com/javascript)
 *  [PHTML](https://glossary.magento.com/phtml)
 *  [PHP (Basic)](https://glossary.magento.com/php)
-*  [Responsive Web Design (RWD)]({{ page.baseurl }}/frontend-dev-guide/responsive-web-design/rwd_overview.html)
+*  [Responsive Web Design (RWD)](responsive-design/index.md)

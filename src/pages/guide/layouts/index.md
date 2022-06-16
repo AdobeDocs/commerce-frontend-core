@@ -37,7 +37,7 @@ These basic page configuration layouts are extended in other Magento modules and
 
 You can also [extend] or [override] these files in your custom theme.
 
-## Layout handles {#layout-over-terms}
+## Layout handles
 
 A *layout handle* is a uniquely identified set of [layout instructions](https://glossary.magento.com/layout-instructions) that serves as a name of a layout file.
 
@@ -63,7 +63,7 @@ For details, refer to [Layout file types].
 
 In this guide we use *layout files* when talking about concepts which are similarly applied to all of these types of layout files.
 
-### Module and theme layout files {#layout-loc}
+### Module and theme layout files
 
 The following terms are used to distinguish layouts provided by different application components:
 
@@ -74,12 +74,12 @@ The following terms are used to distinguish layouts provided by different applic
    *  Page configuration and generic layout files: `<theme_dir>/<Namespace>_<Module>/layout`
    *  Page layout files: `<theme_dir>/<Namespace>_<Module>/page_layout`
 
-## Customize layout {#layout-custom}
+## Customize layout
 
 To ensure stability and secure your customizations from being deleted during upgrade, do not change out-of-the-box Magento [module](https://glossary.magento.com/module) and theme layouts.
 To make the necessary changes, create [extending][extend] and [overriding][override] layout files in your custom theme.
 
-## Layout files processing {#layout_processing}
+## Layout files processing
 
 The Magento application processes layout files in the following order:
 
@@ -95,8 +95,9 @@ The Magento application processes layout files in the following order:
 
 1. Merges all layout files from the list.
 
+<InlineAlert variant="info" slots="text"/>
+
 Layout files that belong to inactive modules or modules with disabled output are ignored.
- {:.bs-callout-info}
 
 ## Layout files validation
 
@@ -108,26 +109,13 @@ Layout validations and error handling depends on the [application mode] in which
 
 *  production or default modes: syntax is validated in `.xml` and `.xsd` files. If validation fails, errors are logged to the `var/log` directory without throwing an exception. The validation according to the xsd schema is not performed.
 
-## Guide contents
-
-*  [Layout instructions][]
-*  [Layout file types][]
-*  [Product layouts][]
-*  [Extend a layout][extend]
-*  [Override a layout][override]
-*  [Common layout customization tasks][]
-*  [Customizing layout - step-by-step illustration][]
-
 <!-- Link definitions -->
-[extend]: {{ page.baseurl }}/frontend-dev-guide/layouts/layout-extend.html
-[override]: {{ page.baseurl }}/frontend-dev-guide/layouts/layout-override.html
-[Layout file types]: {{ page.baseurl }}/frontend-dev-guide/layouts/layout-types.html
-[inherited]: {{ page.baseurl }}/frontend-dev-guide/themes/theme-inherit.html
-[application mode]: {{ page.baseurl }}/config-guide/bootstrap/magento-modes.html
-[Layout instructions]: {{ page.baseurl }}/frontend-dev-guide/layouts/xml-instructions.html
-[Product layouts]: {{ page.baseurl }}/frontend-dev-guide/layouts/product-layouts.html
-[Common layout customization tasks]: {{ page.baseurl }}/frontend-dev-guide/layouts/xml-manage.html
-[Customizing layout - step-by-step illustration]: {{ page.baseurl }}/frontend-dev-guide/layouts/layout-practice.html
+[extend]: extend.md
+[override]: override.md
+[Layout file types]: types.md
+[inherited]: ../themes/inherit.md
+[application mode]: https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html
+[Layout instructions]: xml-instructions.md
 
 <!-- Image Definitions -->
 [layout]: ../../_images/frontend/layouts_block_containers_defn21.png
