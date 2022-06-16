@@ -68,7 +68,7 @@ Conventionally layout declaration file can be located in one of the following lo
 Declare a layout file using the `<layout></layout>` instruction, for which specify the following:
 
 *  `<layout id="layout_file_name">`. For example, the `2columns-left.xml` page layout is declared like following: `<layout id="2columns-left"/>`
-*  `<label translate="true|false">{Label_used_in_Admin}</label>`
+*  `<label translate="true|false">&#123;Label_used_in_admin&#125;</label>`
 
 Sample page layout declaration file: `<Magento_Theme_module_dir>/view/frontend/layouts.xml`
 
@@ -150,10 +150,10 @@ The following table describes the instructions specific for page configuration f
       <td colspan="1">
         <ul>
           <li>
-            <code>layout = {layout}</code>
+            <code>layout = &#123;layout&#125;</code>
           </li>
           <li>
-            <code>xsi:noNamespaceSchemaLocation ="{path_to_schema}"</code>
+            <code>xsi:noNamespaceSchemaLocation = path_to_schema"</code>
           </li>
         </ul>
       </td>
@@ -216,9 +216,9 @@ The following table describes the instructions specific for page configuration f
       <td colspan="1"><code>&lt;attribute&gt;</code></td>
       <td colspan="1">
         <ul>
-          <li><code>name = {arbitrary_name}</code>
+          <li><code>name = &#123;arbitrary_name&#125;</code>
           </li>
-          <li><code>value = {arbitrary_value}</code>
+          <li><code>value = &#123;arbitrary_value&#125;</code>
           </li>
         </ul>
       </td>
@@ -430,7 +430,7 @@ The following table describes the instructions specific for generic layout files
         <ul>
           <li>
             <code>
-              xsi:noNamespaceSchemaLocation="{path_to_schema}"
+              xsi:noNamespaceSchemaLocation="&#123;path_to_schema&#125;"
 </code>
           </li>
         </ul>
@@ -450,7 +450,7 @@ The following table describes the instructions specific for generic layout files
       <td colspan="1">
         <ul>
           <li>
-            <code>handle="{name_of_handle_to_include}"</code>
+            <code>handle="&#123;name_of_the_handle_to_include&#125;"</code>
           </li>
         </ul>
       </td>

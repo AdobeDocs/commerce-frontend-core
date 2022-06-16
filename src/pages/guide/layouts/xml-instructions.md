@@ -1,8 +1,6 @@
 ---
-group: frontend-developer-guide
 title: Layout instructions
-functional_areas:
-  - Frontend
+description:
 ---
 
 ## What's in this topic
@@ -63,7 +61,7 @@ We recommend always adding a `name` to blocks. Otherwise, it is given a random n
 |:------- |:------ |:------ |:------ |
 | `class` | Name of a class that implements rendering of a particular block. An object of this class is responsible for actual rendering of block output. | A fully-qualified class name, such as `Vendor\Module\Block\Class`. Defaults to `Magento\Framework\View\Element\Template`. | no |
 | `display` | Prevents a block from displaying (the associated PHP classes are still loaded). | `true` or `false`. Defaults to `true`. | no |
-| `name` | Name that can be used to address the block to which this attribute is assigned. The name must be unique per generated page. If not specified, an automatic name will be assigned in the format <code>ANONYMOUS_<em>n</em></code> | 0-9, A-Z, a-z, underscore (_), period (.), dash (-). Should start with a letter. Case-sensitive. | no |
+| `name` | Name that can be used to address the block to which this attribute is assigned. The name must be unique per generated page. If not specified, an automatic name will be assigned in the format `ANONYMOUS_n` | 0-9, A-Z, a-z, underscore (_), period (.), dash (-). Should start with a letter. Case-sensitive. | no |
 | `before` | Used to position the block before an element under the same parent. The element name or alias name is specified in the value. Use dash (-) to position the block before all other elements of its level of nesting. See [before and after attributes](#before-and-after-attributes) for details. | Element name or dash (-) | no |
 | `after` | Used to position the block after an element under the same parent. The element name or alias name is specified in the value. Use dash (-) to position the block after all other elements of its level of nesting. See [before and after attributes](#before-and-after-attributes) for details. | Element name or dash (-) | no |
 | `template` | A template that represents the functionality of the block to which this attribute is assigned. If the attribute is omitted, the block will not render any output unless the block class (or a parent class) has the `$_template` property defined correctly. | `Vendor_Module::path/to/template.phtml` (Scope is already in the `templates` directory of the module) | no |
