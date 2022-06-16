@@ -6,22 +6,22 @@ functional_areas:
   - Theme
 ---
 
-Modify default strings in your custom [theme](https://glossary.magento.com/theme) to load and use [translation dictionaries]. Learn more about locales, modifying strings, and how Magento searches and applies translations.
+Modify default strings in your custom [theme](https://glossary.magento.com/theme) to load and use [translation dictionaries]. Learn more about locales, modifying strings, and how the application searches and applies translations.
 
-## How Magento applies locales
+## How the application applies locales
 
-When the [locale](https://glossary.magento.com/locale) is changed for a store, Magento searches and applies translations in the corresponding dictionaries in the following sequence:
+When the [locale](https://glossary.magento.com/locale) is changed for a store, the application searches and applies translations in the corresponding dictionaries in the following sequence:
 
 1. Module translations: `<module_dir>/i18n/`
 1. Translation package: `app/i18n/`
 1. Theme translations:
    1. `<parent_theme_dir>/i18n/` (iterated through all ancestor themes)
    1. `<current_theme_dir>/i18n/`
-1. Magento database (translations located in this database take precedence and override translations stored in other locations.)  Refer to the [user guide](https://docs.magento.com/m2/ce/user_guide/system/translate-inline.html) for more information.
+1. The database (translations located in this database take precedence and override translations stored in other locations.)  Refer to the [user guide](https://docs.magento.com/m2/ce/user_guide/system/translate-inline.html) for more information.
 
 <InlineAlert variant="info" slots="text"/>
 
-Translation priority follows the inverse sequence, with "module translations" having the lowest priority and "magento database" having the highest priority.
+Translation priority follows the inverse sequence, with "module translations" having the lowest priority and  "database" having the highest priority.
 
 If there are competing translations for one string, the theme dictionary translations have priority over the [module](https://glossary.magento.com/module) translations, and child theme translations have priority over parent theme translations.
 

@@ -12,9 +12,9 @@ Bundling accomplishes this by merging multiple JavaScript files together into on
 
 <InlineAlert variant="info" slots="text"/>
 
-JavaScript bundling does not work unless Magento is in [production mode][production-mode]. Once in production mode, JavaScript bundling can only be enabled using the CLI. Follow these steps to setup JavaScript bundling from the CLI.
+JavaScript bundling does not work unless the application is in [production mode][production-mode]. Once in production mode, JavaScript bundling can only be enabled using the CLI. Follow these steps to setup JavaScript bundling from the CLI.
 
-1. From the Magento root directory, switch to production mode:
+1. From the installation directory, switch to production mode:
 
    ```bash
    bin/magento deploy:mode:set production
@@ -44,7 +44,7 @@ JavaScript bundling does not work unless Magento is in [production mode][product
    bin/magento config:set dev/js/merge_files 0
    ```
 
-1. Modifying the settings above when Magento is in production mode will require [static view files deployment][static-content]:
+1. Modifying the settings above when the application is in production mode will require [static view files deployment][static-content]:
 
    ```bash
    bin/magento setup:static-content:deploy
@@ -58,18 +58,18 @@ JavaScript bundling does not work unless Magento is in [production mode][product
 
    For example, when `Sign Static Files` is disabled (which is the default: `config:set dev/static/sign 0`), the URL to a static file might look like this: `/static/frontend/Magento/luma/en_US/mage/dataPost.js`. But when you enable the setting (`config:set dev/static/sign 1`), the same URL might look something like this: `static/version40s2f9ef/frontend/Magento/luma/en_US/mage/dataPost.js`, with a version number added as shown. The next time this file is updated (with `bin/magento setup:static-content:deploy`), a new version will be generated, causing the browser to download a new file from the server, thus busting the browser's cache.
 
-## How bundling works in Magento
+## How bundling works
 
-When you enable bundling, Magento combines hundreds of JavaScript files into just a few JavaScript bundles and downloads those bundles for each page. Because the browser downloads the bundles synchronously, page rendering is blocked until all bundles finish downloading. But the time saved from reducing server requests from hundreds to just a few, usually offsets the cost of downloading the bundles synchronously.
+When you enable bundling, the application combines hundreds of JavaScript files into just a few JavaScript bundles and downloads those bundles for each page. Because the browser downloads the bundles synchronously, page rendering is blocked until all bundles finish downloading. But the time saved from reducing server requests from hundreds to just a few, usually offsets the cost of downloading the bundles synchronously.
 
 ### Excluding files
 
-The `<exclude>` node in the `etc/view.xml` file for a theme specifies the files to exclude from the Magento JavaScript bundling process.
+The `<exclude>` node in the `etc/view.xml` file for a theme specifies the files to exclude from the JavaScript bundling process.
 JavaScript files excluded from bundling are loaded asynchronously by RequireJS as needed.
 
 As such, you should exclude the JavaScript files you use for testing or development so that they are not loaded on every page.
 
-The following code snippet from [Magento's Luma theme][luma-view-xml] shows the types of files you should exclude from the bundling process.
+The following code snippet from [Luma theme][luma-view-xml] shows the types of files you should exclude from the bundling process.
 
 ```xml
 <exclude>
@@ -150,7 +150,7 @@ For example, the Luma theme is configured to work well for all pages, but you ca
 Follow these steps to help you identify which JavaScript files to bundle for your theme:
 
 1. Create a blank page with the layouts you would like to tune.
-1. Compare the JavaScript files loaded in the pages with the JavaScript files in Magento.
+1. Compare the JavaScript files loaded in the pages with the JavaScript files.
 1. Use the results of that comparison to build your exclude list.
 
 [production-mode]:https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html#production-mode

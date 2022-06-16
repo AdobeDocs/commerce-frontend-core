@@ -12,7 +12,7 @@ This topic describes how to apply your custom [theme](https://glossary.magento.c
 
 ## Prerequisites
 
-1. [Set](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html) your Magento application to the developer [mode](https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html). The application mode influences the way [static files](https://glossary.magento.com/static-files) are cached by Magento.
+1. [Set](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html) your application to the developer [mode](https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html). The application mode influences the way [static files](https://glossary.magento.com/static-files) are cached.
 1. [Create a custom theme for the Admin panel](../themes/create-admin.md).
 1. [Add a new custom module](https://developer.adobe.com/commerce/php/development/build/) or decide to use existing custom module. The module must load after the Magento_Theme module. To ensure this, add the following code in `<your_custom_module_dir>/etc/module.xml` (replace placeholders with your [module](https://glossary.magento.com/module) information):
 
@@ -27,7 +27,7 @@ This topic describes how to apply your custom [theme](https://glossary.magento.c
 
 <InlineAlert variant="info" slots="text"/>
 
-If you choose to create a separate dedicated module, you can use the [Magento_SampleMinimal module from the Magento 2 sample modules repository](https://github.com/magento/magento2-samples/tree/master/sample-module-minimal) as example of a minimal module you need. If you will copy and use Magento_SampleMinimal, do not forget to enter your vendor and module naming, instead the ones used in the sample, in the `<your_module_dir>/etc/module.xml`, `<your_module_dir>/registration.php`, `and <your_module_dir>/composer.json` files.
+If you choose to create a separate dedicated module, you can use the [Magento_SampleMinimal module from the sample modules repository](https://github.com/magento/magento2-samples/tree/master/sample-module-minimal) as example of a minimal module you need. If you will copy and use Magento_SampleMinimal, do not forget to enter your vendor and module naming, instead the ones used in the sample, in the `<your_module_dir>/etc/module.xml`, `<your_module_dir>/registration.php`, `and <your_module_dir>/composer.json` files.
 
 If you decide to use the existing module, keep in mind, that theme declaring might be affected when the module is changed.
 
@@ -64,13 +64,13 @@ In `<your_module_dir>/etc/di.xml` add the following (replace the placeholders wi
 
 ## Update components to apply the Admin theme
 
-For your changes to take effect, you need to update Magento components. For this,
+For your changes to take effect, you need to update components. For this,
 run the `bin/magento setup:upgrade` command in your command line. If prompted, also run `bin/magento setup:di:compile`. Then run `bin/magento cache:clean` to clear the cache.
 
 For details about performing command line tasks, view the following topics:
 
 -  [Command line configuration](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli.html)
--  [Uninstall or reinstall Magento: Optionally keeping generated files](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-db-upgr.html)
+-  [Uninstall or reinstall the application: Optionally keeping generated files](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-db-upgr.html)
 
 ## Open Admin in browser
 

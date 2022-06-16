@@ -12,7 +12,7 @@ This chapter combines the topics aiming to help you to quickly start working wit
 
 ## High-level steps to create a theme and change styles
 
-1. [Set] your Magento application to the developer [mode].
+1. [Set] your application to the developer [mode].
 1. In the file system, [add a new theme] inheriting from Blank or Luma.
 1. [Apply your theme]
 1. Decide which CSS compilation mode you will use. Compilation modes are described in the following topics:
@@ -24,7 +24,7 @@ This chapter combines the topics aiming to help you to quickly start working wit
 
 ## Why do you need to create a custom theme?
 
-Magento provides two themes out of the box: Blank and Luma. If Magento is installed with sample data, the theme applied after installation is Luma. If no sample data is installed, the Blank theme is installed by default.
+The application provides two themes out of the box: Blank and Luma. If the application is installed with sample data, the theme applied after installation is Luma. If no sample data is installed, the Blank theme is installed by default.
 
 ![Storefront with Luma applied]
 
@@ -34,7 +34,7 @@ You can use either Luma or Blank for your storeview, if there is literally nothi
 
 But if there is something you want to improve, the only recommended way is creating a new theme. It can inherit from Blank or Luma so you can preserve all you need, and change or add whatever is required.
 
-Making changes in the Magento out-of-the-box themes is a bad idea, because can result in your changes being overwritten during upgrade.
+Making changes in the out-of-the-box themes is a bad idea, because can result in your changes being overwritten during upgrade.
 
 <!-- Link Definitions -->
 [Simple ways to customize a theme's styles]: customize-styles.md

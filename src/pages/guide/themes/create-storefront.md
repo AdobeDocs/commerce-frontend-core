@@ -14,12 +14,12 @@ A new theme you create is not applied for your store automatically. You need to 
 
 ## Prerequisites
 
-1. For the sake of compatibility, upgradability, and easy maintenance, do not modify the out of the box Magento themes. To customize the design of your Magento store, create a new custom [theme](https://glossary.magento.com/theme).
-1. [Set](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html) your Magento application to the developer [mode](https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html). The application mode influences the way [static files](https://glossary.magento.com/static-files) are cached by Magento. The recommendations about theme development we provide in this chapter are developer/default-mode specific.
+1. For the sake of compatibility, upgradability, and easy maintenance, do not modify the out-of-the-box themes. To customize the design of your store, create a new custom [theme](https://glossary.magento.com/theme).
+1. [Set](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html) your application to the developer [mode](https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html). The application mode influences the way [static files](https://glossary.magento.com/static-files) are cached. The recommendations about theme development we provide in this chapter are developer/default-mode specific.
 
 ## Create a storefront theme: walkthrough
 
-The high-level steps required to add a new theme in the Magento system are the following:
+The high-level steps required to add a new theme in the system are the following:
 
 1. Create a directory for the theme under `app/design/frontend/<your_vendor_name>/<your_theme_name>`.
 1. Add a declaration file `theme.xml` and optionally create `etc` directory and create a file named `view.xml` to the theme directory.
@@ -86,7 +86,7 @@ If you change the theme title or parent theme information in `theme.xml` after a
 
 ## Make your theme a Composer package
 
-Magento default themes are distributed as [Composer](https://getcomposer.org/) packages.
+Default themes are distributed as [Composer](https://getcomposer.org/) packages.
 
 To distribute your theme as a package, add a `composer.json` file to the theme directory and register the package on a packaging server. A default public packaging server is [https://packagist.org/](https://packagist.org/).
 
@@ -119,7 +119,7 @@ Example of a theme `composer.json` file:
 }
 ```
 
-You can find details about the Composer integration in the Magento system in [Composer integration](https://developer.adobe.com/commerce/php/development/build/composer-integration/).
+You can find details about the Composer integration in the system in [Composer integration](https://developer.adobe.com/commerce/php/development/build/composer-integration/).
 
 ## Add registration.php
 
@@ -147,7 +147,7 @@ Product image sizes and other properties used on the [storefront](https://glossa
 
 If the product image sizes of your theme differ from those of the parent theme, or if your theme does not inherit from any theme, add `view.xml` using the following steps:
 
-1. Log in to your Magento server as a user with permissions to create directories and files in the Magento installation directory. (Typically, this is the [file system owner](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/apache.html).)
+1. Log in to your application server as a user with permissions to create directories and files in the installation directory. (Typically, this is the [file system owner](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/apache.html).)
 
 1. Create the `etc` directory in your theme folder.
 
@@ -224,7 +224,7 @@ app/design/frontend/&lt;Vendor&gt;/
 
 ## Theme logo
 
-In the Magento application, the default format and name of a logo image is `logo.svg`. When you put a `logo.svg` image in the conventional location, which is the `<theme_dir>/web/images` directory, it is automatically recognized as the theme logo. It is displayed in your store page header once the theme is [applied](apply-storefront.md).
+In the application, the default format and name of a logo image is `logo.svg`. When you put a `logo.svg` image in the conventional location, which is the `<theme_dir>/web/images` directory, it is automatically recognized as the theme logo. It is displayed in your store page header once the theme is [applied](apply-storefront.md).
 
 In your custom theme, you can use a logo file with a different name and format, but you might need to declare it.
 

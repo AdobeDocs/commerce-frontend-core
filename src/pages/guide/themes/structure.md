@@ -8,11 +8,11 @@ functional_areas:
 
 ## What's in this topic
 
-A [design theme](index.md) is an important part of the Magento application. This topic describes the file structure of a Magento [theme](https://glossary.magento.com/theme).
+A [design theme](index.md) is an important part of the application. This topic describes the file structure of a [theme](https://glossary.magento.com/theme).
 
-## Magento theme location
+## Theme location
 
-[Storefront](https://glossary.magento.com/storefront) themes are conventionally located under `app/design/frontend/<Vendor>/`. Though technically they can reside in other directories. For example Magento built-in themes can be located under `vendor/magento/theme-frontend-<theme_code>` when a Magento instance is deployed from the [Composer](https://glossary.magento.com/composer) repository.
+[Storefront](https://glossary.magento.com/storefront) themes are conventionally located under `app/design/frontend/<Vendor>/`. Though technically they can reside in other directories. For example, built-in themes can be located under `vendor/magento/theme-frontend-<theme_code>` when a instance is deployed from the [Composer](https://glossary.magento.com/composer) repository.
 
 Each theme must be stored in a separate directory:
 
@@ -26,7 +26,7 @@ app/design/frontend/<Vendor>/
 
 ## Theme components
 
-The structure of a Magento theme directory typically would be like following:
+The structure of a theme directory typically would be like following:
 
 ```tree
 <theme_dir>/
@@ -250,7 +250,7 @@ The directories and files structure described below is the most extended one. It
       </td>
       <td colspan="1">required</td>
       <td colspan="1">
-        The file is mandatory as it declares a theme as a system component. It contains the basic meta-information, like the theme title and the parent theme name, if the theme is inherited from an existing theme. The file is used by the Magento system to recognize the theme.
+        The file is mandatory as it declares a theme as a system component. It contains the basic meta-information, like the theme title and the parent theme name, if the theme is inherited from an existing theme. The file is used by the system to recognize the theme.
       </td>
     </tr>
   </tbody>

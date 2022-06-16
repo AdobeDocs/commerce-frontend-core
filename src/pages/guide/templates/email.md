@@ -7,14 +7,14 @@ functional_areas:
 
 <InlineAlert variant="warning" slots="text"/>
 
-Magento 2.3.4 restricts the way that custom variables can be used within email templates.
+Adobe Commerce and Magento Open Source 2.3.4 restricts the way that custom variables can be used within email templates.
 See [Migrating custom email templates](template-email-migration.html) for more information.
 
 ## Customize email templates
 
 Email templates are stored in the `<module_dir>/view/<area>/email` directory of their respective modules. For example, the template for the new order transactional email for the Sales module is located in [`<Magento_Sales_module_dir>/view/frontend/email/order_new.html`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Sales/view/frontend/email/order_new.html).
 
-We strongly recommend you not change the default Magento files. If you want to customize the default templates, you should create your custom templates and configure Magento to use them instead of the default templates.
+We strongly recommend you not change the default application files. If you want to customize the default templates, you should create your custom templates and configure the application to use them instead of the default templates.
 
 You can add custom templates as physical files in your custom [theme](https://glossary.magento.com/theme) or create them using the [Admin](https://glossary.magento.com/magento-admin). Both approaches are described in the following sections.
 
@@ -26,7 +26,7 @@ Override email templates by creating templates in a new directory in your custom
 
 ### Customize email templates using the Admin
 
-Any templates configured in the Magento [Admin](https://glossary.magento.com/admin) take precedence over default or theme-based templates.
+Any templates configured in the [Admin](https://glossary.magento.com/admin) take precedence over default or theme-based templates.
 
 1. In the Admin, navigate to **MARKETING** > Communications > **Email Templates**
 1. Click **Add New Template**.
@@ -67,7 +67,7 @@ You can customize header and footer templates using either the [theme](#customiz
 
 <InlineAlert variant="warning" slots="text"/>
 
-Custom variables used within email templates in Magento 2.3.4+ must be written in 'strict mode'.
+Custom variables used within email templates in Adobe Commerce and Magento Open Source 2.3.4+ must be written in 'strict mode'.
 See [Migrating custom email templates](template-email-migration.html) for more information.
 
 To add the store and sales related information to a template, use system variables.
@@ -107,7 +107,7 @@ The `<Magento_Email_module_dir>/view/frontend/email/header.html` file contains a
 {{inlinecss file="css/email-inline.css"}}
 ```
 
-The `inlinecss` directive tells Magento which files to apply as inline styles on the email template.
+The `inlinecss` directive tells the application which files to apply as inline styles on the email template.
 
 For example, say an email is being sent from a store configured with the Luma theme. The `inlinecss` directive first looks for a `email-inline.less` file in `<Magento_Luma_theme_dir>/web/css/email-inline.less`. However because that file does not exist, it will fall back to the `<Magento_Blank_theme_dir>/web/css/email-inline.less` file. The contents of that file will then be compiled and its contents are applied as inline styles to the email template.
 

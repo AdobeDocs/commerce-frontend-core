@@ -7,7 +7,7 @@ functional_areas:
 
 ## What's in this topic
 
-This article features a step-by-step illustration of how a real-life layout customization task is performed. Namely, it illustrates how to change the layout of customer account links in a Magento store page header.
+This article features a step-by-step illustration of how a real-life layout customization task is performed. Namely, it illustrates how to change the layout of customer account links in a store page header.
 
 ## Moving customer account links
 

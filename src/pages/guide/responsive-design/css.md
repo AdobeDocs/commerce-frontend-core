@@ -7,7 +7,7 @@ functional_areas:
 
 ## In this topic
 
-Stylesheets are the main tool in responsive web design (RWD) implementation. This topic describes the mechanisms and approaches to building RWD used in the default Magento themes. To re-use them in your custom theme, make your theme [inherit][theme-inherit] from the Blank theme.
+Stylesheets are the main tool in responsive web design (RWD) implementation. This topic describes the mechanisms and approaches to building RWD used in the default themes. To re-use them in your custom theme, make your theme [inherit][theme-inherit] from the Blank theme.
 
 ## Mobile first
 
@@ -98,7 +98,7 @@ For grouping style rules in certain media queries the `.media-width()` mixin use
 //  Tablet
 //  _____________________________________________
 
-// This will add styles for tablet devices. When using native media-queries, we recommend wrapping your media-queries with media-width Magento mixins or media-target
+// This will add styles for tablet devices. When using native media-queries, we recommend wrapping your media-queries with media-width mixins or media-target
 & when (@media-target = 'desktop'), (@media-target = 'all') {
     @media only screen and (min-width: @screen__m) and (max-width: (@screen__xl - 1)) {
         // styles for breakpoint >= 768px and < 1440px

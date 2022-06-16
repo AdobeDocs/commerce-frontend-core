@@ -59,7 +59,7 @@ The rules and variables declared in `_extend.less` always have precedence over o
 
 ## Simplest way to override parent styles
 
-To override parent styles (that is, override default Magento UI [library](https://glossary.magento.com/library) variables):
+To override parent styles (that is, override default UI [library](https://glossary.magento.com/library) variables):
 
 1. In your theme directory, create a `web/css/source` sub-directory.
 1. Create a `_theme.less` file here. The path to it then looks like following:

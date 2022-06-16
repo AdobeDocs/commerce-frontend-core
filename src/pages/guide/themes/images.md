@@ -61,7 +61,7 @@ The following table describes the attributes in detail:
       </td>
       <td>
         <p>Image identifier. Unique in the scope of theme.</p> <p>
-Can have any value, but in out-of-the- box Magento themes <code>id</code>'s are meaningful and describe the location of an image.</p><p> For example, the <code>id</code> value for images of [cross-sell](https://glossary.magento.com/cross-sell) products displayed in a shopping cart is <code>cart_cross_sell_products</code>.</p> <p><code>id</code>'s are used in <code>.phtml</code> templates for defining the type and properties of images displayed in each particular location on a particular page.</p>
+Can have any value, but in out-of-the-box themes <code>id</code>'s are meaningful and describe the location of an image.</p><p> For example, the <code>id</code> value for images of [cross-sell](https://glossary.magento.com/cross-sell) products displayed in a shopping cart is <code>cart_cross_sell_products</code>.</p> <p><code>id</code>'s are used in <code>.phtml</code> templates for defining the type and properties of images displayed in each particular location on a particular page.</p>
       </td>
     </tr>
     <tr>
@@ -120,7 +120,7 @@ Generally, product images are cached while saving the product. However, the `mag
 *  After you import products, which might have images of various sizes
 *  If images were resized or deleted manually from [cache](https://glossary.magento.com/cache)
 
-Each image assigned to a product must be resized in accordance with image [metadata](https://glossary.magento.com/metadata) defined in a module's [`view.xml`](create-storefront.md#configure-images) configuration file. After resizing an image, its resized copy is stored in the cache (`/pub/media/catalog/product/cache` directory). Magento serves storefront images from cache.
+Each image assigned to a product must be resized in accordance with image [metadata](https://glossary.magento.com/metadata) defined in a module's [`view.xml`](create-storefront.md#configure-images) configuration file. After resizing an image, its resized copy is stored in the cache (`/pub/media/catalog/product/cache` directory). The application serves storefront images from cache.
 
 Command usage:
 
@@ -128,7 +128,7 @@ Command usage:
 bin/magento catalog:images:resize
 ```
 
-This command supports synchronous (default) and asynchronous modes.  Asynchronous means that images will not be processed immediately on command execution. Using the Magento queue functionality, these images will be scheduled for resizing and then processed in the background. To enable asynchronous mode, use the `-a` or `--async` option.
+This command supports synchronous (default) and asynchronous modes.  Asynchronous means that images will not be processed immediately on command execution. Using the queue functionality, these images will be scheduled for resizing and then processed in the background. To enable asynchronous mode, use the `-a` or `--async` option.
 
 The message `Product images resized successfully` displays after the command has finished.
 

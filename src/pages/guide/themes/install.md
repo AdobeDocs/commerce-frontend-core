@@ -8,9 +8,9 @@ functional_areas:
 
 ## What's in this topic
 
-This topic describes how to install a third-party [theme](https://glossary.magento.com/theme) for a Magento 2 store.
+This topic describes how to install a third-party [theme](https://glossary.magento.com/theme) for a store.
 
-To install a theme, you need to add its code to your Magento 2 instance code base, and then register it in the database. The way a theme is distributed determines how to do this:
+To install a theme, you need to add its code to your instance code base, and then register it in the database. The way a theme is distributed determines how to do this:
 
 -  If a theme is just a set of files, for example an archive, add the theme manually.
 -  If a theme is a [Composer](https://glossary.magento.com/composer) package, install it using Composer.
@@ -19,7 +19,7 @@ The following sections contain more information about each installation flow.
 
 ## Prerequisites
 
-[Set](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html) your Magento application to the developer or default [mode](https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html).
+[Set](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html) your application to the developer or default [mode](https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html).
 
 ## Install a theme manually
 
@@ -27,7 +27,7 @@ To install a theme manually:
 
 1. Make sure that the directory structure you are copying is `<VendorName>/<theme>`. And all the [theme files](structure.md) are in the `<theme>` directory.
 
-1. Copy this directory to the `<Magento root dir>/app/design/frontend` directory.
+1. Copy this directory to the `<installation dir>/app/design/frontend` directory.
 
 ## Install a theme as composer package
 
@@ -47,7 +47,7 @@ If a theme is distributed on [Commerce Marketplace](https://marketplace.magento.
 
 ## Register a theme
 
-After you create or install a theme, open the Magento [Admin](https://glossary.magento.com/admin) or reload any Admin page. This way the theme gets registered and added to the database.
+After you create or install a theme, open the [Admin](https://glossary.magento.com/admin) or reload any Admin page. This way the theme gets registered and added to the database.
 
 To make sure the theme is registered, in the Admin navigate to **Content** > **Design** > **Themes**. If a theme is registered, it is displayed in the list of available themes.
 

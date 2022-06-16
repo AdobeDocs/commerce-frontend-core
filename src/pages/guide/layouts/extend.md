@@ -7,7 +7,7 @@ functional_areas:
 
 ## Create a theme extending file
 
-Rather than copy extensive page layout or page configuration code and then modify what you want to change, in the Magento system, you only need to create an *extending layout file* that contains the changes you want.
+Rather than copy extensive page layout or page configuration code and then modify what you want to change, you only need to create an *extending layout file* that contains the changes you want.
 
 To add an extending [page configuration](types.md#page-configuration) or [generic layout](types.md#generic-layout) file:
 
@@ -60,7 +60,7 @@ For example, to customize the page layout defined in `<Magento_Theme_module_dir>
 
 ## Processing extending layouts
 
-Magento merges layout files as follows:
+The application merges layout files as follows:
 
 1. For each layout file in the list:
    1. Loads layout handle declaration and layout instructions.

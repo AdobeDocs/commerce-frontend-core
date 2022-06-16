@@ -149,4 +149,4 @@ If you are using server-side compilation mode, you must [clean generated static 
 
 <InlineAlert variant="info" slots="text"/>
 
-When your Magento instance is in client-side Less compilation mode, simple changes are applied after saving or refreshing the page. For more sophisticated changes, you may need to manually clean the theme sub-directory in the `pub/static/frontend` directory and generate a new deployment. See [Styles debugging](../debug.md).
+When your instance is in client-side Less compilation mode, simple changes are applied after saving or refreshing the page. For more sophisticated changes, you may need to manually clean the theme sub-directory in the `pub/static/frontend` directory and generate a new deployment. See [Styles debugging](../debug.md).

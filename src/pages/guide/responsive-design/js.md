@@ -7,7 +7,7 @@ functional_areas:
 
 ## What's in this topic
 
-This topic describes the JavaScript used in Magento out-of-the-box Blank and Luma themes to relocate certain elements and change their behavior depending on the [breakpoint](index.md#terms-used).
+This topic describes the JavaScript used in out-of-the-box Blank and Luma themes to relocate certain elements and change their behavior depending on the [breakpoint](index.md#terms-used).
 
 ## Scripts general overview
 

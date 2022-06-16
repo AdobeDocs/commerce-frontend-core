@@ -1,6 +1,6 @@
 ---
 group: frontend-developer-guide
-title: Overview of responsive web design in Magento
+title: Overview of responsive web design
 functional_areas:
   - Frontend
 ---
@@ -17,8 +17,8 @@ We recommend using the Blank theme, as a starting point for your customizations.
 
 The articles in this chapter describe the particular approaches used in the Blank theme, and provide practical recommendations on how to use these approaches in your themes:
 
--  [CSS in Magento responsive design]
--  [JavaScript in Magento responsive design]
+-  [CSS in responsive design]
+-  [JavaScript in responsive design]
 -  [Customizing RWD: illustration]
 -  [Create a responsive mobile theme based on Blank]
 
@@ -28,7 +28,7 @@ Term | Description
 ------------ | -------------
 *Breakpoint* | The width of the user's screen that causes your responsive layout to change.
 
-[CSS in Magento responsive design]: css.md
-[JavaScript in Magento responsive design]: js.md
+[CSS in responsive design]: css.md
+[JavaScript in responsive design]: js.md
 [Customizing RWD: illustration]: practice.md
 [Create a responsive mobile theme based on Blank]: mobile.md

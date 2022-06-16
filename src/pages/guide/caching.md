@@ -16,7 +16,7 @@ Retrieving stored ([cached](https://glossary.magento.com/cache)) content from a 
 
 The Adobe Commerce and Magento Open Source page cache library contains a simple PHP reverse proxy that enables full page caching out of the box. A reverse proxy acts as an intermediary between visitors and your application and can reduce the load on your server.
 
-We recommend using [Varnish](https://devdocs.magento.com/guides/v2.4/config-guide/varnish/config-varnish.html), but you can use Magento's default caching mechanism instead, which stores cache files in any of the following:
+We recommend using [Varnish](https://devdocs.magento.com/guides/v2.4/config-guide/varnish/config-varnish.html), but you can use the default caching mechanism instead, which stores cache files in any of the following:
 
 -  File system (You don't need to do anything to use file-based caching.)
 -  [Database](https://developer.adobe.com/commerce/php/development/cache/partial/database-caching/)
@@ -62,7 +62,7 @@ The following cache types mostly have impact on frontend development process:
 |----------------------------|----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Layout                     | `layout`             | Compiled page layouts (that is, the layout components from all components). Clean or flush this cache type after modifying layout files.                                                                                                                                                                                                          |
 | Block HTML output          | `block_html`         | HTML page fragments per block. Clean or flush this cache type after modifying the view layer.                                                                                                                                                                                                                                                     |
-| Page cache                 | `full_page`          | Generated HTML pages. If necessary, Magento cleans up this cache automatically, but third-party developers can put any data in any segment of the cache. Clean or flush this cache type after modifying code level that affects HTML output. It’s recommended to keep this cache enabled because caching HTML improves performance significantly. |
+| Page cache                 | `full_page`          | Generated HTML pages. If necessary, the application cleans up this cache automatically, but third-party developers can put any data in any segment of the cache. Clean or flush this cache type after modifying code level that affects HTML output. It’s recommended to keep this cache enabled because caching HTML improves performance significantly. |
 | Translations               | `translate`          | Merged translations from all modules.                                                                                                                                                                                                                                                                                                             |
 
 <InlineAlert variant="help" slots="text"/>
@@ -92,7 +92,7 @@ You can clean generated static view files in any of the following ways:
 -  In the [Admin](https://glossary.magento.com/magento-admin). Go to **System** > **Tools** > **Cache Management** and click **Flush [Static Files](https://glossary.magento.com/static-files) Cache**.
 
     {:.bs-callout-info}
-   This option is only available in `developer` mode. Refer to the [static view files overview](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-static-view.html#config-cli-static-overview) for more information. For more details about the Magento modes, see [Magento Modes](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html)
+   This option is only available in `developer` mode. Refer to the [static view files overview](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-static-view.html#config-cli-static-overview) for more information. For more details about the application modes, see [application modes](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html)
 
 -  Manually by clearing the `pub/static` and `var/view_preprocessed` directories and subdirectories _except_ for `pub/static/.htaccess`.
 

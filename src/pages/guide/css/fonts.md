@@ -5,13 +5,13 @@ functional_areas:
   - Frontend
 ---
 
-The Magento application contains a set of built-in fonts, but you can easily include custom fonts. This topic describes how to include a locally stored custom font in your Magento [theme](https://glossary.magento.com/theme).
+The application contains a set of built-in fonts, but you can easily include custom fonts. This topic describes how to include a locally stored custom font in your [theme](https://glossary.magento.com/theme).
 
 <InlineAlert variant="success" slots="text"/>
 
 If you are new to theme development, see [themes](../themes/index.md) to get familiar with the basics.
 
-To ensure the stability of your customizations and prevent upgrades from overwriting your customizations, do not change the default Magento theme files. You must include custom fonts in the your theme's stylesheet.
+To ensure the stability of your customizations and prevent upgrades from overwriting your customizations, do not change the default theme files. You must include custom fonts in the your theme's stylesheet.
 
 1. Add font files to your local theme directory. For example, `app/design/frontend/<your_vendor_name>/<your_theme_name>/web/fonts`.
 
@@ -63,14 +63,14 @@ The mixin generates the CSS, which includes the font. The following example show
 
 `@font-display: swap` is declared by default for Blank theme in `app/design/frontend/Magento/blank/web/css/source/_typography.less`.
 
-Fallback web fonts that are used by default in Magento are located in `lib/web/css/source/lib/variables/_typography.less`.
+Fallback web fonts that are used by default are located in `lib/web/css/source/lib/variables/_typography.less`.
 For more information about font-face, refer to this article [Font-face][https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face].
 
 ## `<font>` head type
 
 A `<font>` node is added to HTML `<head>` type for layout in `lib/internal/Magento/Framework/View/Layout/etc/head.xsd`. All resources added with `<font>` node will be downloaded with `preload` html attribute.
 
-## Overview of Magento's Icon CSS
+## Overview of Icon CSS
 
 In addition to including custom fonts in your Blank theme, you also can include custom fonts for any icons in the Blank theme. The icon font files for the Blank theme are located in the `lib/web/fonts/Blank-Theme-Icons` directory. The `lib/web/css/source/lib/variables/_typography.less` file defines the font icon path and name for the icons and the `web/css/source/_icons.less` file uses these files to define the icon font face itself, which should be used in all CSS declarations.
 

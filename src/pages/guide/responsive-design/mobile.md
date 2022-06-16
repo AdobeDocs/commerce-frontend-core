@@ -6,11 +6,11 @@ functional_areas:
 ---
 ## What's in this topic
 
-The topic describes how to create a responsive mobile-specific theme using the default Magento approaches.
+The topic describes how to create a responsive mobile-specific theme using the default approaches.
 
 ## Creating a mobile-specific theme
 
-To use all the responsive approaches implemented in the Magento out-of-the-box Blank and Luma themes, your theme should declare one of them as a [parent](../themes/inherit.md).
+To use all the responsive approaches implemented in the out-of-the-box Blank and Luma themes, your theme should declare one of them as a [parent](../themes/inherit.md).
 
 To create a mobile-specific theme:
 

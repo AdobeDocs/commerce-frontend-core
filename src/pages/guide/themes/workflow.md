@@ -6,12 +6,9 @@ functional_areas:
   - Theme
 ---
 
-Continue From:
-**Install Magento:**
-
 ### Enable development mode
 
-In the Magento root directory, run:
+In the installation directory, run:
 
 ```php
 bin/magento deploy:mode:set developer
@@ -19,12 +16,12 @@ bin/magento deploy:mode:set developer
 
 See:
 
-*  [About Magento modes](https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html)
+*  [About application modes](https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html)
 *  [Get started with command-line configuration](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands.html)
 
 <InlineAlert variant="success" slots="text"/>
 
-To check the current mode of your Magento instance, in the root directory, run: `bin/magento deploy:mode:show`.
+To check the current mode of your instance, in the root directory, run: `bin/magento deploy:mode:show`.
 
 ### Create basic theme files
 
@@ -92,14 +89,14 @@ When you finish developing and your styles are ready to go to production, you ca
 
 ### Switch to production mode
 
-In the Magento root directory, run:
+In the installation directory, run:
 
 ```php
 bin/magento deploy:mode:set production
 ```
 
-See [Magento modes](https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html#production-mode) for details.
+See [application modes](https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html#production-mode) for details.
 
 ### Deploy static content
 
-To publish your static files to the `pub/static` directory when your Magento instance is set to production mode, [run the static content deployment tool](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-static-view.html).
+To publish your static files to the `pub/static` directory when your instance is set to production mode, [run the static content deployment tool](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-static-view.html).

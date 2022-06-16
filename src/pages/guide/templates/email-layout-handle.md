@@ -7,7 +7,7 @@ functional_areas:
 
 <InlineAlert variant="warning" slots="text"/>
 
-Magento 2.3.4 and above restricts the way that custom variables can be used within email templates.
+Adobe Commerce and Magento Open Source 2.3.4 and above restricts the way that custom variables can be used within email templates.
 See [Migrating custom email templates](template-email-migration.html) for more information.
 
 ## Email layout handle

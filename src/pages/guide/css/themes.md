@@ -8,7 +8,7 @@ functional_areas:
 
 ## In this topic
 
-In the Magento application, CSS files are included in [layout files].
+In the application, CSS files are included in [layout files].
 
 Technically there is an option to include them in template files, but we strongly recommend avoiding this.
 
@@ -16,9 +16,9 @@ Technically there is an option to include them in template files, but we strongl
 
 The CSS class names can be assigned in both templates and layouts.
 
-This topic describes how stylesheets are located by default in the Magento application file system, and the recommended way to include CSS files in layouts.
+This topic describes how stylesheets are located by default in the application file system, and the recommended way to include CSS files in layouts.
 
-## How Magento stylesheet files are organized
+## How stylesheet files are organized
 
 Conventionally, CSS and Less files are stored only in themes. [Module](https://glossary.magento.com/module) directories do not contain any default styles.
 
@@ -50,7 +50,7 @@ Contains the following:
 </li>
 <li><code>styles-l.less</code>: used to generate desktop-specific styles, includes <code>_styles.less</code>.
 </li>
-<li><code>/source</code>: this subdirectory contains Less configuration files that invoke mixins from the Magento UI <a href="https://glossary.magento.com/library">library</a>.
+<li><code>/source</code>: this subdirectory contains Less configuration files that invoke mixins from the UI <a href="https://glossary.magento.com/library">library</a>.
 </li>
 <li>
 <code>/source/_theme.less</code>: overrides the default UI library variables values.
@@ -64,9 +64,9 @@ Contains the following:
 
 ## Include CSS
 
-In the Magento application, the recommended way to include stylesheets is to specify them in [layout](https://glossary.magento.com/layout) files.
+In the application, the recommended way to include stylesheets is to specify them in [layout](https://glossary.magento.com/layout) files.
 
-Usually, the stylesheets you include should be available for all store pages. To achieve this, include your CSS in `default_head_blocks.xml` of the `Magento_Theme` module, which defines the default `<head>` page section for all Magento pages.
+Usually, the stylesheets you include should be available for all store pages. To achieve this, include your CSS in `default_head_blocks.xml` of the `Magento_Theme` module, which defines the default `<head>` page section for all pages.
 The recommended way to do this is adding an [extending](../layouts/extend.md) `default_head_blocks.xml` in your theme, and including the required stylesheets in this file.
 
 Your custom `default_head_blocks.xml` should be located as follows:

@@ -7,7 +7,7 @@ functional_areas:
 
 ## What's in this topic
 
-There are two possible ways to customize page layout in Magento:
+There are two possible ways to customize page layout:
 
 -  Changing [layout](https://glossary.magento.com/layout) files.
 -  Altering templates.
@@ -51,7 +51,7 @@ Defines a block.
 
 **Details:** A block is a unit of page output that renders some distinctive content (anything visually tangible for the end-user), such as a piece of information or a user interface element.
 
-Blocks are a foundational building unit for layouts in Magento. They are the link between a PHP block class (which contains logic) and a template (which renders content). Blocks can have children and grandchildren (and so on). Information can be passed from layout XML files to blocks using the `<arguments/>` child node.
+Blocks are a foundational building unit for layouts. They are the link between a PHP block class (which contains logic) and a template (which renders content). Blocks can have children and grandchildren (and so on). Information can be passed from layout XML files to blocks using the `<arguments/>` child node.
 
 Blocks employ templates to generate HTML. Examples of blocks include a [category](https://glossary.magento.com/category) list, a mini cart, product tags, and product listing.
 
@@ -121,13 +121,13 @@ Use this feature to make temporary changes to a store, such as disabling a secti
 
 ### block vs. container
 
--  Blocks represents the end of the chain in rendering HTML for Magento.
+-  Blocks represents the end of the chain in rendering HTML.
 -  Containers contain blocks and can wrap them in an HTML tag.
 -  Containers do not render any output if there are no children assigned to them.
 
 ### before and after attributes
 
-To help you to position elements in a specific order suitable for design, SEO, usability, or other requirements, Magento software provides the `before` and `after` layout attributes.
+To help you to position elements in a specific order suitable for design, SEO, usability, or other requirements, the application provides the `before` and `after` layout attributes.
 These optional attributes can be used in layout XML files to control the order of elements in their common parent.
 
 The following tables give a detailed description of the results you can get using the `before` and `after` attributes. The first table uses a block a as positioned element.
@@ -285,7 +285,7 @@ Sample of usage in the page layout:
 
 <InlineAlert variant="info" slots="text"/>
 
-Magento 2.3.2 added the `shared` attribute. Now, instances of the view models are shared by default. If a view model is required to be a new instance each time, you must add the attribute `shared="false"` on the argument node in the layout xml file.
+Adobe Commerce and Magento Open Source 2.3.2 added the `shared` attribute. Now, instances of the view models are shared by default. If a view model is required to be a new instance each time, you must add the attribute `shared="false"` on the argument node in the layout xml file.
 
 Used to pass an argument. Must be always enclosed in [`<arguments>`](#arguments).
 

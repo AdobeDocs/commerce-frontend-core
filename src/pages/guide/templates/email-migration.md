@@ -7,12 +7,12 @@ functional_areas:
 
 ## Remove the legacy variable resolver
 
-With the release of Magento 2.4.4 and 2.4.3-p2, `\Magento\Framework\Filter\VariableResolver\LegacyResolver` and `\Magento\Framework\Filter\VariableResolver\StrategyResolver` have been removed and any legacy templates in the database will only be resolved using strict mode. Database templates can be checked using cli commands to verify
+With the release of Adobe Commerce and Magento Open Source 2.4.4 and 2.4.3-p2, `\Magento\Framework\Filter\VariableResolver\LegacyResolver` and `\Magento\Framework\Filter\VariableResolver\StrategyResolver` have been removed and any legacy templates in the database will only be resolved using strict mode. Database templates can be checked using cli commands to verify
 compatibility with strict mode.
 
 ## Verify compatibility with strict mode
 
-The following command scans all database email templates overridden using the Magento admin **Marketing** > Communications > **Email Templates** > **Add New Template** area for potential variable usage compatibility issues.
+The following command scans all database email templates overridden using the Admin **Marketing** > Communications > **Email Templates** > **Add New Template** area for potential variable usage compatibility issues.
 
 ```bash
 bin/magento dev:email:override-compatibility-check
@@ -28,12 +28,12 @@ bin/magento dev:email:newsletter-compatibility-check
 
 ## Changes to the custom email template workflow
 
-As of Magento 2.3.4, custom email templates are only allowed to use scalar values for variable data.
+As of Adobe Commerce and Magento Open Source 2.3.4, custom email templates are only allowed to use scalar values for variable data.
 Direct calls to methods are no longer allowed.
 To be more specific, methods can no longer be called from variables from either the `var` directive or when used as parameters.
 For example `{{var order.getEmailCustomerNote()}}` or `{{something myVar=$obj.method()}}` will fail to resolve.
 
-A 'custom email template' is any new template created in the Magento admin **Marketing** > Communications > **Email Templates** > **Add New Template** area.
+A 'custom email template' is any new template created in the Admin **Marketing** > Communications > **Email Templates** > **Add New Template** area.
 Notice in the incorrect example, the `getConfirmationLink()` method is called directly.
 
 -  Old way: `{{var subscriber.getConfirmationLink()}}`
@@ -104,11 +104,11 @@ public function send(Invoice $invoice, $forceSyncMode = false)
 ```
 
 In this example, the `customer.name` is being computed within the [model](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Sales/Model/Order/Email/Sender/InvoiceSender.php) file.
-Depending on the particular instance of Magento, this data point can be appended within a custom module, directive or any manner of ways.
+Depending on the particular instance, this data point can be appended within a custom module, directive or any manner of ways.
 
 ## Create a custom directive
 
-The above examples show changes to default Magento files. We do not recommend editing core files as changes may be lost when upgrading.
+The above examples show changes to default application files. We do not recommend editing core files as changes may be lost when upgrading.
 Instead, if you need to call a method for a custom email template variable, create a custom directive.
 In this example, we will create and pass a `lifetime_spend` custom value.
 

@@ -11,12 +11,12 @@ This topic describes how to add custom favicons.
 
 ## General overview
 
-Magento provides a default 16px x 16px [favicon](https://glossary.magento.com/favicon) that you can override by uploading a custom icon in the Admin, or by adding it manually in a specific location in a [theme](https://glossary.magento.com/theme) directory.
+The applications provides a default 16px x 16px [favicon](https://glossary.magento.com/favicon) that you can override by uploading a custom icon in the Admin, or by adding it manually in a specific location in a [theme](https://glossary.magento.com/theme) directory.
 If both favicons exist, the one you uploaded in the [Admin](https://glossary.magento.com/admin) takes precedence.
 
 If you want to have favicons of different sizes, you need to add them manually in the file system and define in [layout](https://glossary.magento.com/layout).
 
-Magento supports the following file types for favicon: `.ico`, `.png`, `.gif`, `.jpg`, `.jpeg`, `.apng`, `.svg`. Not all browsers support all these formats. The most widely supported file format to use for a favicon is `.ico`.
+The application supports the following file types for favicon: `.ico`, `.png`, `.gif`, `.jpg`, `.jpeg`, `.apng`, `.svg`. Not all browsers support all these formats. The most widely supported file format to use for a favicon is `.ico`.
 
 See the following sections for details about adding favicons.
 

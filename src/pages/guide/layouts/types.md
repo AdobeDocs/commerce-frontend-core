@@ -118,7 +118,7 @@ Override the default `wishlist_index_share.xml` in any one of the following path
 
 <InlineAlert variant="info" slots="text"/>
 
-By default, Magento provides 5 page layout types for the frontend (`empty`, `1column`, `2columns-left`, `2columns-right`, and `3columns`) and 3 page layout types for the backend (`admin-empty`, `admin-1column`, and `admin-2columns-left`).
+By default, the application provides five page layout types for the frontend (`empty`, `1column`, `2columns-left`, `2columns-right`, and `3columns`) and 3 page layout types for the backend (`admin-empty`, `admin-1column`, and `admin-2columns-left`).
 
 ## Page configuration
 

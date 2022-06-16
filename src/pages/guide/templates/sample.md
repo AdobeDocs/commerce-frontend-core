@@ -9,7 +9,7 @@ This topic contains a step-by-step guide to solving a typical design customizati
 
 ## Sample template customization: changing a layout of the mini shopping cart
 
-In the Magento basic Blank theme, in the mini shopping cart, products are listed under the **Go to Checkout** button, like following:
+In the basic Blank theme, in the mini shopping cart, products are listed under the **Go to Checkout** button, like following:
 
 ![An image of a mini shopping cart where products are listed under the Go to Checkout button](../../_images/frontend/inherit_mini121.png)
 

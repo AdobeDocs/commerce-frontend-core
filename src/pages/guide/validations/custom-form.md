@@ -34,7 +34,7 @@ There are several ways to initiate form validation as described in [Initializing
 
 ## Form validation rules
 
-All available Magento validation rules may be found in [validation/rules.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/validation/rules.js).
+All available validation rules may be found in [validation/rules.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/validation/rules.js).
 
 Additionally, you may also use any available [jQuery validation rules](https://jqueryvalidation.org/documentation/#link-list-of-built-in-validation-methods).
 

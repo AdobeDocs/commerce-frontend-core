@@ -9,7 +9,7 @@ functional_areas:
 
 <InlineAlert variant="info" slots="text"/>
 
-To ensure stability and secure your customizations from being deleted during upgrade, do not change out-of-the-box Magento [module](https://glossary.magento.com/module) and [theme](https://glossary.magento.com/theme) layouts. To customize your layout, create extending and overriding layout files in your custom theme.
+To ensure stability and secure your customizations from being deleted during upgrade, do not change out-of-the-box [module](https://glossary.magento.com/module) and [theme](https://glossary.magento.com/theme) layouts. To customize your layout, create extending and overriding layout files in your custom theme.
 
 ## Set the page layout
 
@@ -26,7 +26,7 @@ Change the layout of Advanced Search page from default "1-column" to "2-column w
 
 ## Include static resources (JavaScript, CSS, fonts)
 
-JavaScript, CSS, and other static assets are added in the `<head>` section of a [page configuration] file. The default look of a Magento store page `<head>` is defined by `app/code/Magento/Theme/view/frontend/layout/default_head_blocks.xml`. The recommended way to add CSS and JavaScript is to extend this file in your custom theme, and add the assets there.
+JavaScript, CSS, and other static assets are added in the `<head>` section of a [page configuration] file. The default look of a store page `<head>` is defined by `app/code/Magento/Theme/view/frontend/layout/default_head_blocks.xml`. The recommended way to add CSS and JavaScript is to extend this file in your custom theme, and add the assets there.
 The following file is a sample of a file you must add:
 
 ```xml
@@ -40,7 +40,7 @@ The following file is a sample of a file you must add:
     <script src="Magento_Catalog::js/sample1.js" />
     <script src="Magento_Catalog/js/sample1.js" />
 
-    <!-- Magento support async or defer attribute in script tag -->
+    <!-- The application supports async or defer attribute in script tag -->
     <script async="" src="Magento_Catalog::js/sample1.js" />
     <script defer="" src="Magento_Catalog::js/sample1.js" />
 
@@ -57,7 +57,7 @@ The following file is a sample of a file you must add:
 
 When adding external resources, specifying the `src_type="url"` argument value is a must.
 
-You can use either the `<link src="js/sample.js"/>` or the `<script src="js/sample.js"/>` instruction to add a locally stored JavaScript file to your theme. This way, the path to the javascript file will be `<theme_dir>/web/js/sample.js`. If we use `<link src="sample.js"/>`, Magento will get the javascript file at `<theme_dir>/web/sample.js`
+You can use either the `<link src="js/sample.js"/>` or the `<script src="js/sample.js"/>` instruction to add a locally stored JavaScript file to your theme. This way, the path to the javascript file will be `<theme_dir>/web/js/sample.js`. If we use `<link src="sample.js"/>`, The application will get the javascript file at `<theme_dir>/web/sample.js`
 
 The path to assets is specified relatively to one the following locations:
 
@@ -398,7 +398,7 @@ It means, that if for a certain block, a template is set as an attribute, it wil
 
 <InlineAlert variant="info" slots="text"/>
 
-Magento 2.3.2 added a `shared` attribute. Now, instances of the view models are shared by default. If a view model is required to be a new instance each time, you must add the attribute `shared="false"` on the argument node in the layout xml file.
+Adobe Commerce and Magento Open Source 2.3.2 added a `shared` attribute. Now, instances of the view models are shared by default. If a view model is required to be a new instance each time, you must add the attribute `shared="false"` on the argument node in the layout xml file.
 
 To modify block arguments, use the `<referenceBlock>` instruction.
 
@@ -615,7 +615,7 @@ You can remove navigation links from the 'My Account' dashboard on the storefron
 
 ```xml
 <!-- ################################## -->
-<!-- Magento version: Open Source -->
+<!-- Version: Magento Open Source -->
 <!-- ################################## -->
 
 <!-- File:  app/design/frontend/<Vendor>/<theme>/Magento_Customer/layout/customer_account.xml -->
@@ -657,7 +657,7 @@ You can remove navigation links from the 'My Account' dashboard on the storefron
 <referenceBlock name="customer-account-navigation-wish-list-link" remove="true"/>
 
 <!-- ################################### -->
-<!-- Magento version: Commerce -->
+<!-- Version: Adobe Commerce -->
 <!-- ################################### -->
 
 <!-- File:  app/design/frontend/<Vendor>/<theme>/Magento_AdvancedCheckout/layout/customer_account.xml -->
@@ -691,7 +691,7 @@ You can remove navigation links from the 'My Account' dashboard on the storefron
 
 ## Create cms-page/product/category-specific selectable layouts
 
-As of Magento 2.3.4, merchants can select layout updates to be applied to specific Category/Product/CMS Page pages on the frontend. These layout
+As of Adobe Commerce and Magento Open Source 2.3.4, merchants can select layout updates to be applied to specific Category/Product/CMS Page pages on the frontend. These layout
 updates are made by creating layout XML files following specific naming conventions.
 
 <InlineAlert variant="info" slots="text"/>

@@ -7,7 +7,7 @@ functional_areas:
 
 ## What's in this topic
 
-This topic explains how default templates work in the Magento application.
+This topic explains how default templates work in the application.
 
 ## How templates are initiated
 
@@ -62,16 +62,16 @@ For template files with the same name, the following override rules apply:
 *  [Child theme] templates override parent theme templates
 
 To change the output defined by an existing template, override the template in your custom theme.
-This concept is the basis of template customization in Magento.
+This concept is the basis of template customization.
 
 See [Theme inheritance]
 
 ## Root template
 
-`<Magento_Theme_module_dir>/view/base/templates/root.phtml` is the root template for all storefront pages in the Magento application.
+`<Magento_Theme_module_dir>/view/base/templates/root.phtml` is the root template for all storefront pages in the application.
 This file can be overridden in a theme just like any other template file.
 
-Unlike other templates, `root.phtml` contains the `doctype` specification and contributes to `<head>` and `<body>` sections of all pages rendered by Magento application.
+Unlike other templates, `root.phtml` contains the `doctype` specification and contributes to `<head>` and `<body>` sections of all pages rendered by application.
 
 ## Getting argument values from layout
 
@@ -93,7 +93,7 @@ See [Block arguments] for more information.
 
 ## Using PHP short tags in template PHTML files
 
-The `echo` command in PHP can be written using the short tag in Magento templates.
+The `echo` command in PHP can be written using the short tag in templates.
 
 For example:
 

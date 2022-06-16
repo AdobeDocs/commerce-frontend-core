@@ -8,11 +8,11 @@ functional_areas:
 
 ## What's in this topic
 
-When you create a Magento theme, you might need to create override files for default [theme](https://glossary.magento.com/theme) and [module](https://glossary.magento.com/module) view files. To do so, you must determine which template, layout, and style files Magento uses. This topic describes how to do this.
+When you create a theme, you might need to create override files for default [theme](https://glossary.magento.com/theme) and [module](https://glossary.magento.com/module) view files. To do so, you must determine which template, layout, and style files that the application uses. This topic describes how to do this.
 
 ## Locate templates
 
-To locate the template that is responsible for a specific part of the [storefront](https://glossary.magento.com/storefront) or Admin, you can use Magento built-in template hints.
+To locate the template that is responsible for a specific part of the [storefront](https://glossary.magento.com/storefront) or Admin, you can use built-in template hints.
 
 To enable template hints:
 
@@ -81,7 +81,7 @@ There is no straightforward algorithm how to define at once the exact layout fil
 
 Example:
 
-Let's say you need to locate the layout that is responsible for displaying mini shopping cart on the storefront, when the Blank theme by Magento is applied for the [store view](https://glossary.magento.com/store-view).
+Let's say you need to locate the layout that is responsible for displaying mini shopping cart on the storefront, when the Blank theme is applied for the [store view](https://glossary.magento.com/store-view).
 
 Using the Template Hints we determine that the template is `app/code/Magento/Checkout/view/frontend/templates/cart/minicart.phtml`, and in the path, we see that it belongs to the `Magento_Checkout` module.
 
@@ -107,7 +107,7 @@ After you find the class name, use text search in the theme and module styles di
 
 Example:
 
-Let's find the file defining on the CSS classes used for displaying the mini shopping cart on the storefront, when the Blank theme by Magento is applied for the store view.
+Let's find the file defining on the CSS classes used for displaying the mini shopping cart on the storefront, when the Blank theme is applied for the store view.
 
 In the mini shopping cart template `app/code/Magento/Checkout/view/frontend/templates/cart/minicart.phtml` the top level element has `minicart-wrapper` class.
 

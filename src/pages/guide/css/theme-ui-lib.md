@@ -6,7 +6,7 @@ functional_areas:
   - Theme
 ---
 
-The Magento UI [library](https://glossary.magento.com/library) is a flexible [Less]-based [frontend](https://glossary.magento.com/frontend) library designed to assist [theme](https://glossary.magento.com/theme) developers.
+The [UI library](https://glossary.magento.com/library) is a flexible [Less]-based [frontend](https://glossary.magento.com/frontend) library designed to assist [theme](https://glossary.magento.com/theme) developers.
 It employs a set of mixins for base elements to ease frontend theme development and customization.
 
 This topic describes how the library is organized and how to use it.
@@ -87,7 +87,7 @@ lib/web
 
 ## Predefined variables
 
-If your theme [inherits][] from any Magento out-of-the-box theme, for example Blank, you can easily customize any element of a store page without changing any [CSS](https://glossary.magento.com/css) code or templates.
+If your theme [inherits][] from any out-of-the-box theme, for example Blank, you can easily customize any element of a store page without changing any [CSS](https://glossary.magento.com/css) code or templates.
 Customization can be performed by simply changing in your theme the values of the predefined variables used in the UI library or parent theme mixins.
 
 The complete list of these variables and their default values are stored in [`lib/web/css/source/lib/variables`][].
@@ -108,7 +108,7 @@ The theme customized Blank by redefining variables only.
 
 ## Your custom variables
 
-When naming custom variables, please follow the [Magento naming convention for the Less variables](https://developer.adobe.com/commerce/php/coding-standards/less/#naming).
+When naming custom variables, please follow the [naming convention for the Less variables](https://developer.adobe.com/commerce/php/coding-standards/less/#naming).
 
 ## Using mixins
 
@@ -228,7 +228,7 @@ The detailed information about the UI library is embedded in the code repository
 *  [`lib/web/css/docs`] contains a set of `.html` files with detailed information about the library mixins.
 
 Each file is named after the mixin it describes, and contains detailed mixin description and navigation controls to access documentation for other mixins.
-The generated UI library documentation is provided in a convenient [HTML](https://glossary.magento.com/html) view. It is available in the following location in your Magento installation: `<your_Magento_instance>/pub/static/frontend/Magento/blank/en_US/css/docs/index.html` (view in a browser).
+The generated UI library documentation is provided in a convenient [HTML](https://glossary.magento.com/html) view. It is available in the following location in your installation: `<your_instance>/pub/static/frontend/Magento/blank/en_US/css/docs/index.html` (view in a browser).
 
 <!-- Link definitions -->
 

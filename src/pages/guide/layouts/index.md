@@ -10,7 +10,7 @@ This article describes the basic concepts you need to know to create layouts for
 
 ## Introduction
 
-In Magento, the basic components of page design are layouts, containers, and blocks. A *layout* represents the structure of a web page (1). *Containers* represent the placeholders within that web page structure (2). And *blocks* represent the UI controls or components within the container placeholders (3). These terms are illustrated and defined below.
+The basic components of page design are layouts, containers, and blocks. A *layout* represents the structure of a web page (1). *Containers* represent the placeholders within that web page structure (2). And *blocks* represent the UI controls or components within the container placeholders (3). These terms are illustrated and defined below.
 
 The objective is to create a structured, common set of layout instructions to render pages. Most pages on a website can be categorized as a 1 column, 2 column, or 3 column layout. These page layouts can be applied to a page from within the admin panel.
 
@@ -28,12 +28,12 @@ The purpose of page layouts is to create a structured, common set of layout inst
 
 ## Basic layouts
 
-The basic view of all Magento [storefront](https://glossary.magento.com/storefront) pages is defined in two page configuration layout files located in the Magento_Theme module:
+The basic view of all [storefront](https://glossary.magento.com/storefront) pages is defined in two page configuration layout files located in the Magento_Theme module:
 
 *  `<Magento_Theme_module_dir>/view/frontend/layout/default.xml`: defines the page layout.
 *  `<Magento_Theme_module_dir>/view/frontend/layout/default_head_blocks.xml`: defines the scripts, images, and meta data included in pages' `<head>` section.
 
-These basic page configuration layouts are extended in other Magento modules and in Magento themes.
+These basic page configuration layouts are extended in other modules and in themes.
 
 You can also [extend] or [override] these files in your custom theme.
 
@@ -76,12 +76,12 @@ The following terms are used to distinguish layouts provided by different applic
 
 ## Customize layout
 
-To ensure stability and secure your customizations from being deleted during upgrade, do not change out-of-the-box Magento [module](https://glossary.magento.com/module) and theme layouts.
+To ensure stability and secure your customizations from being deleted during upgrade, do not change out-of-the-box [module](https://glossary.magento.com/module) and theme layouts.
 To make the necessary changes, create [extending][extend] and [overriding][override] layout files in your custom theme.
 
 ## Layout files processing
 
-The Magento application processes layout files in the following order:
+The application processes layout files in the following order:
 
 1. Module base files loaded.
 1. Module area files loaded.
@@ -101,9 +101,9 @@ Layout files that belong to inactive modules or modules with disabled output are
 
 ## Layout files validation
 
-After layouts are merged, Magento validates them.
+After layouts are merged, the application validates them.
 
-Layout validations and error handling depends on the [application mode] in which your Magento instance runs:
+Layout validations and error handling depends on the [application mode] in which your instance runs:
 
 *  developer mode: syntax is validated in `.xml` and `.xsd` files, and `.xml` files are validated according to the xsd schema. If any validation fails, the hard failure with process halt occurs.
 

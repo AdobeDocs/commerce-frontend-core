@@ -23,7 +23,7 @@ bin/magento config:set dev/css/use_css_critical_path 1
 
 Make sure that there is a `critical.css` file for your theme. Other non-critical CSS files will be loaded asynchronously.
 
-## Overview of Magento's critical CSS
+## Overview of critical CSS
 
 The 'critical' CSS file should be located in `app/design/frontend/<your_vendor_name>/<your_theme_name>/web/css/critical.css`
 The default Luma theme critical CSS file is located in `app/design/frontend/Magento/luma/web/css/critical.css`
@@ -43,7 +43,7 @@ After non-critical CSS is loaded and applied, the spinner disappears. The spinne
 
 ## Critical CSS performance improvements
 
-Introducing a critical path CSS to Magento leads to performance improvements:
+Introducing a critical path CSS leads to performance improvements:
 
 -  Eliminated render-blocking CSS resources. As a result, the time for loading render-blocking resources decreases substantially.
 

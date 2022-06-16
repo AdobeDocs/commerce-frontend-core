@@ -5,7 +5,7 @@ functional_areas:
   - Frontend
 ---
 
-The Magento application enables you to localize your store for multiple regions and markets. We improved the localization and customization of Magento instances by making translation dictionaries easier to update and by maintaining a reduced amount of code coupling and duplication.
+The application enables you to localize your store for multiple regions and markets. We improved the localization and customization of instances by making translation dictionaries easier to update and by maintaining a reduced amount of code coupling and duplication.
 
 Also, we accept [Community Engineering contributions](#translations-project) using CrowdIn for translations. The project may include package creation and further support using the contributed translations.
 
@@ -22,7 +22,7 @@ A *translation dictionary* is a comma-separated value (.csv) file with at least 
 "Address %1 of %2","Adresse %1 von %2"
 ```
 
-*UI text strings* are the text elements in the Admin, including field names, instructions, notifications, and table and grid labels. When localizing Magento, you replace these strings with translation dictionary content.
+*UI text strings* are the text elements in the Admin, including field names, instructions, notifications, and table and grid labels. When localizing, you replace these strings with translation dictionary content.
 
 A *language package* is basically a collection of translation dictionaries for a particular language together with meta-information. You can also distribute language packages to other merchants if you wish. [More information about language packages](#m2devgde-xlate-languagepack).
 
@@ -32,25 +32,25 @@ To create a language package, the `.csv` file requires additional columns that s
 
 ## Benefits of Translations
 
-Localizing Magento storefronts and the Admin panel gives your company global presence for support and sales.
+Localizing storefronts and the Admin panel gives your company global presence for support and sales.
 
-*  Magento supports two types of language packages:
+*  The application supports two types of language packages:
 
    *  Translated Module and theme packages.
 
-      Magento auto-discovers packages included in the `i18n` directory of a module or theme. When installing themes and extensions, consider checking for multiple language versions to download and use.
+      The application auto-discovers packages included in the `i18n` directory of a module or theme. When installing themes and extensions, consider checking for multiple language versions to download and use.
 
    *  An entire dictionary in one directory.
 
       Use and distribute the dictionary as a standalone component (similar to modules and themes).
 
-*  Customize the default strings in Magento. For example, changing "Add to Wish List" to "Wish List".
+*  Customize the default strings. For example, changing "Add to Wish List" to "Wish List".
 *  Use ready-to-use language packages prepared by other users or create your own. The [Commerce Marketplace] offers language packs to download and install.
 *  Localize strings based on existing, or parent, translations using [language inheritance].
 *  Customize your translations further by creating more than one version of a translation for the same language to cover dialects and different phrasing.
-*  Contribute to [Magento translations](#translations-project) through [Magento CrowdIn project] with Magento Community Engineering. We encourage translation contributions and efforts in the project for future language packs.
+*  Contribute to [translations](#translations-project) through [CrowdIn project] with Community Engineering. We encourage translation contributions and efforts in the project for future language packs.
 
-Depending on your needs, you can use the existing [language packages](#m2devgde-xlate-languagepack), [translate Magento by yourself](#m2devgde-xlate-translating), or [contribute](#translations-project).
+Depending on your needs, you can use the existing language packages, translate by yourself, or contribute.
 
 ## Programming notes
 
@@ -69,7 +69,7 @@ For an example of creating a dictionary for a theme for both cases, see [Example
 
 ## Manually translate words and phrases
 
-To translate names, titles, and phrases used in Magento:
+To translate names, titles, and phrases:
 
 1. Generate a dictionary of your instance using the [translation dictionary tool]. Fully review [Translation dictionaries and packages] to understand all steps, commands, and best practices for generating the dictionary.
 1. Translate the terms.
@@ -77,7 +77,7 @@ To translate names, titles, and phrases used in Magento:
 
 <InlineAlert variant="info" slots="text"/>
 
-Only one variant of translation can be used for a word or phrase in a package. Otherwise, Magento returns an error.
+Only one variant of translation can be used for a word or phrase in a package. Otherwise, the application returns an error.
 
 Anyone can submit inline translations on the [storefront](https://glossary.magento.com/storefront) using the Text Editor. These inline translations overwrite a dictionary and save to your database (not in an instance's dictionary). Inline translations are theme-specific and do not apply if another theme is assigned.
 
@@ -85,19 +85,19 @@ To save and reuse translations, we recommend localizing in a dictionary.
 
 ## Translation dictionaries
 
-Magento translates words and phrases when all of the following conditions are met:
+The application translates words and phrases when all of the following conditions are met:
 
-*  The Magento code base has the necessary translation dictionaries for a language.
+*  The code base has the necessary translation dictionaries for a language.
 *  This language is configured by the store administrator to be used in specified scope (that is, storefront).
 
-The Magento application automatically assembles translation dictionaries located in the modules' `i18n` directory into a dictionary per language. For example, Brazilian Portuguese (`pt_BR`) translation dictionaries might be located in [module](https://glossary.magento.com/module) and theme directories similar to the following:
+The application automatically assembles translation dictionaries located in the modules' `i18n` directory into a dictionary per language. For example, Brazilian Portuguese (`pt_BR`) translation dictionaries might be located in [module](https://glossary.magento.com/module) and theme directories similar to the following:
 
 *  `<Magento_Checkout_module_dir>/i18n/pt_BR.csv`
 *  `<Magento_Checkout_module_dir>/<theme>/i18n/pt_BR.csv`
 
 <InlineAlert variant="info" slots="text"/>
 
-`<Magento_Checkout_module_dir>` stands for the `Magento_Checkout` module directory. The location of this directory depends on the way Magento was installed. See [Conventional notations for paths to modules and themes] for details.
+`<Magento_Checkout_module_dir>` stands for the `Magento_Checkout` module directory. The location of this directory depends on the way the application was installed. See [Conventional notations for paths to modules and themes] for details.
 
 Assembling the preceding `pt_BR.csv` files across all modules and the current theme results in a Portuguese translation of the entire application area (storefront or the Admin).
 
@@ -111,7 +111,7 @@ You can generate a translation dictionary to use by itself (for example, to tran
 
 Existing language packages can be installed using [Composer](https://devdocs.magento.com/cloud/howtos/install-components.html) like any other extension. You can search for package names on Packagist.
 
-Magento enables you to create the following types of language packages:
+The application enables you to create the following types of language packages:
 
 *  A set of `.csv` files for modules and themes. These packages files are intended to be deployed in modules. For example:
 
@@ -138,7 +138,7 @@ Magento enables you to create the following types of language packages:
 
 *  Language packages that contain a entire dictionary in one directory.
 
-   You can distribute this language package as a standalone component (similar to modules and themes). Interestingly, it violates Magento's modularity principles on purpose; that is, so that a system integrator can translate variations provided by extensions.
+   You can distribute this language package as a standalone component (similar to modules and themes). Interestingly, it violates modularity principles on purpose; that is, so that a system integrator can translate variations provided by extensions.
 
 In addition to the `.csv` file that contains the language dictionary, the language package contains meta-information:
 
@@ -149,14 +149,14 @@ In addition to the `.csv` file that contains the language dictionary, the langua
 
 ## Community Engineering Translations project
 
-Community Engineering accepts translation contributions through the [Magento CrowdIn project] to localize all UI strings. Various Meet Magento and Contribution Day events include developers contributing translations.
+Community Engineering accepts translation contributions through the [CrowdIn project] to localize all UI strings. Various Meet Magento and Contribution Day events include developers contributing translations.
 
-1. Create a [CrowdIn account] and join the [Magento CrowdIn project].
+1. Create a [CrowdIn account] and join the [CrowdIn project].
 1. Browse and select a language. A percentage displays tracking translation progress overall and per section of the Admin.
 1. Expand and locate an area of UI text strings to translate. Strings marked red need a translation, and marked green have existing translations.
 1. Enter or review translations for strings as described in the [CrowdIn knowledge base].
 
-Magento admins will review and approve translations as available. The project may include package creation and further support using the contributed and approved translations.
+Admins will review and approve translations as available. The project may include package creation and further support using the contributed and approved translations.
 
 If you need help understanding the context or meaning of a UI string, or have questions about the project, chat with us in the Community Engineering [Translations Slack channel]. To join, send a request to [engcom@magento.com] or [self signup].
 
@@ -168,7 +168,6 @@ If you need help understanding the context or meaning of a UI string, or have qu
 [language package]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-i18n.html#config-cli-subcommands-xlate-pack
 [dictionary generator tool]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-i18n.html#config-cli-subcommands-xlate-dict
 [Translation dictionaries and packages]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-i18n.html
-[Magento CrowdIn project]: https://crowdin.com/project/magento-2
 [CrowdIn account]: https://crowdin.com/join
 [CrowdIn knowledge base]: https://support.crowdin.com/online-editor
 [engcom@magento.com]: mailto:engcom@magento.com
@@ -177,4 +176,3 @@ If you need help understanding the context or meaning of a UI string, or have qu
 [Commerce Marketplace]: https://marketplace.magento.com/catalogsearch/result/?q=language%20packs#q=language%20pack&idx=m2_cloud_prod_default_products&p=0&nR%5Bvisibility_search%5D%5B%3D%5D%5B0%5D=1
 [Conventional notations for paths to modules and themes]: ../conventions.md
 [Example theme translation dictionary]: practice.md
-[Magento translations GitHub project]: https://github.com/magento-l10n

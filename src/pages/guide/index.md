@@ -5,11 +5,11 @@ description:
 
 # Frontend Developer Guide
 
-This document provides instructions for creating and installing custom [storefront](https://glossary.magento.com/storefront) themes for a Magento application. It describes Magento's content rendering process and explains the view layer of the system to the extent required to build a [theme](https://glossary.magento.com/theme) efficiently. The document also walks through everyday [frontend](https://glossary.magento.com/frontend) developer's tasks.
+This document provides instructions for creating and installing custom [storefront](https://glossary.magento.com/storefront) themes for a application. It describes content rendering process and explains the view layer of the system to the extent required to build a [theme](https://glossary.magento.com/theme) efficiently. The document also walks through everyday [frontend](https://glossary.magento.com/frontend) developer's tasks.
 
 Developing the view part of a custom [module](https://glossary.magento.com/module) and customizing the [Admin](https://glossary.magento.com/magento-admin) panel design is out of the scope of this guide.
 
-Frontend developers can use this guide to create custom themes to tailor the Magento storefront for a specific customer.
+Frontend developers can use this guide to create custom themes to tailor the storefront for a specific customer.
 
 You can apply these levels of customization to your site, where the levels require different development skills:
 
@@ -29,9 +29,9 @@ You can apply these levels of customization to your site, where the levels requi
 
 *  The next level of sophistication is to make structural changes to your site by moving functionality between places on a page or to completely different pages.
 
-    This is achieved using the Magento [layout](https://glossary.magento.com/layout) engine. No PHP coding is required to make layout changes, but the layout engine is moderately sophisticated.
+    This is achieved using the [layout](https://glossary.magento.com/layout) engine. No PHP coding is required to make layout changes, but the layout engine is moderately sophisticated.
 
-*  Finally, you can develop new modules to add new custom functionality to your site or to extend the functionality provided by existing Magento or third party modules.
+*  Finally, you can develop new modules to add new custom functionality to your site or to extend the functionality provided by existing or third-party modules.
 
     This third level of customization is not addressed in this guide.
 
@@ -41,7 +41,7 @@ You can apply these levels of customization to your site, where the levels requi
 
 ## Frontend development prerequisites
 
-To implement what is discussed in this guide, you need a working Magento installation and the following browser versions installed on your device:
+To implement what is discussed in this guide, you need a working installation and the following browser versions installed on your device:
 
 Storefront and Admin:
 

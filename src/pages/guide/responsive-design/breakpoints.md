@@ -7,7 +7,7 @@ functional_areas:
 
 ## What's in this topic
 
-Breakpoints are used in stylesheets to set up the screen width at which the design changes, for example, from the mobile to the desktop version. Themes provided with Magento implement a list of [default breakpoints](css.md#breakpoints). This topic describes how to add a custom breakpoint in your theme.
+Breakpoints are used in stylesheets to set up the screen width at which the design changes, for example, from the mobile to the desktop version. Themes provided with the application implement a list of [default breakpoints](css.md#breakpoints). This topic describes how to add a custom breakpoint in your theme.
 
 ## Overview
 

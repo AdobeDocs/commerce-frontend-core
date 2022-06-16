@@ -11,7 +11,7 @@ This topic features a step-by-step illustration of how to change a theme's color
 
 ## Changing theme color scheme
 
-ExampleCorp created a custom theme that inherits from the Magento basic Blank theme.
+ExampleCorp created a custom theme that inherits from the basic Blank theme.
 The following image illustrates how store pages look when the Blank theme is applied:
 
 ![product page when Blank applied](../../_images/frontend/practice_blank.png)

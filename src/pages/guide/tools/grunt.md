@@ -10,15 +10,15 @@ The topic describes how to install and configure [Grunt JavaScript task runner](
 
 ## Overview
 
-You can use Grunt to automate any tasks you need, but out of the box Magento comes with pre-configured grunt tasks for compiling LESS files.
+You can use Grunt to automate any tasks you need, but out of the box the application comes with pre-configured grunt tasks for compiling LESS files.
 
 ## Prerequisites
 
-Make sure that you [set](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html) your Magento application to the developer or default [mode](https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html).
+Make sure that you [set](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html) your application to the developer or default [mode](https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html).
 
 ## Installing and configuring Grunt
 
-Magento has built-in Grunt tasks configured, but there are still several steps you need to take to be able to use it:
+The application has built-in Grunt tasks configured, but there are still several steps you need to take to be able to use it:
 
 1. Install [node.js](https://nodejs.org/en/download/package-manager/) to any location on your machine.
 
@@ -34,7 +34,7 @@ Magento has built-in Grunt tasks configured, but there are still several steps y
    -  `Gruntfile.js.sample` into `Gruntfile.js`
    -  `grunt-config.json.sample` into `grunt-config.json`
 
-1. Install (or refresh) the `node.js` project dependency, including Grunt, for your Magento instance. To do this, run the following commands in a command prompt:
+1. Install (or refresh) the `node.js` project dependency, including Grunt, for your instance. To do this, run the following commands in a command prompt:
 
    ```bash
    cd your_Magento_instance_directory
@@ -90,8 +90,8 @@ There are several ways to declare a custom configuration file.
 
 To use a custom file for Grunt configuration:
 
-1. Copy the default configuration file to the preferred location in the Magento instance directory. Do not change the file name.
-1. Open the `grunt-config.json` file in the Magento root and set configurations object as follows.
+1. Copy the default configuration file to the preferred location in the instance directory. Do not change the file name.
+1. Open the `grunt-config.json` file in the installation and set configurations object as follows.
 
    -  key: file alias
    -  value: path to your custom file

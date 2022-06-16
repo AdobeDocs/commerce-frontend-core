@@ -7,20 +7,20 @@ functional_areas:
 
 ## Overview
 
-Magento 2 incorporates [Less](http://lesscss.org/), a CSS pre-processor that simplifies the management of complex CSS files.
-To define styles of a Magento store, you can use both - CSS and Less stylesheets.
+The application incorporates [Less](http://lesscss.org/), a CSS pre-processor that simplifies the management of complex CSS files.
+To define styles of a store, you can use both - CSS and Less stylesheets.
 
-Magento application provides a built-in Less UI library, which you can optionally extend.
+application provides a built-in Less UI library, which you can optionally extend.
 
 To customize [storefront](https://glossary.magento.com/storefront) styles, you need to [create a custom design theme](../themes/create-storefront.md). Then you can use one of the following approaches:
 
-*  If your theme [inherits](..//themes/inherit.md) from the Magento out-of-the-box Blank or Luma theme, you can override the default Less files. For example, to [change the values of the variables](theme-ui-lib.md#predefined-variables-fedgusing-ui-libpredef-vars) used in the default files.
+*  If your theme [inherits](..//themes/inherit.md) from the out-of-the-box Blank or Luma theme, you can override the default Less files. For example, to [change the values of the variables](theme-ui-lib.md#predefined-variables-fedgusing-ui-libpredef-vars) used in the default files.
 *  Create your own Less files using the built-in Less preprocessor.
 *  Create your own CSS files, optionally having compiled them using third-party CSS preprocessor.
 
 ## Things to remember when working with styles
 
-*  Make sure that you [set](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html) your Magento application to the developer or default [mode](https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html).
+*  Make sure that you [set](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html) your application to the developer or default [mode](https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html).
 
 *  If your style changes do not apply after refreshing the page, cleaning the static files cache might help. See the [caching](../caching.md#page-caching) for instructions how to do this.
 
