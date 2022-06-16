@@ -251,7 +251,7 @@ In the scope of static resources preprocessing, the built-in LESS preprocessor d
 1. Searches for all `@magento_import` directives.
 1. Replaces the original `@magento_import` directives with the standard `@import` directives. The latter specify the paths to the particular files that correspond to the pattern specified in `@magento_import`.
 
-Example of how `@magento_import` is used and processed in `<Magento_Blank_theme_dir>/web/css/styles-l.less`:
+Example of how `@magento_import` is used and processed in `Magento_Blank_theme_dir/web/css/styles-l.less`:
 
 <table>
    <tbody>
@@ -260,7 +260,7 @@ Example of how `@magento_import` is used and processed in `<Magento_Blank_theme_
          <th>After</th>
       </tr>
       <tr class="even">
-         <td> In <code><Magento_Blank_theme_dir&gt;/web/css/styles-l.less</code> there's a following directive:
+         <td> In <code>`Magento_Blank_theme_dir/web/css/styles-l.less`</code> there's a following directive:
 <pre>
 ..
  //@magento_import 'source/_widgets.less'; // Theme widgets

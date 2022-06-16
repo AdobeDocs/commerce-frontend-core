@@ -15,55 +15,11 @@ Certain product video options can be set in the `config.xml` configuration file.
 
 You can set the following product video options:
 
-<table>
-  <tbody>
-    <tr>
-      <th>Option</th>
-      <th>Description</th>
-      <th colspan="1">Type</th>
-      <th>Default</th>
-    </tr>
-    <tr>
-      <td colspan="1">
-        <code>play_if_base</code>
-      </td>
-      <td colspan="1">Play automatically on page load.</td>
-      <td colspan="1">
-        Boolean
-      </td>
-      <td colspan="1">
-        0 <br />
-(video is not played on page load)
-      </td>
-    </tr>
-    <tr>
-      <td colspan="1">
-        <code>show_related</code>
-      </td>
-      <td colspan="1">Display related videos.</td>
-      <td colspan="1">
-Boolean
-      </td>
-<td>
-0 <br />
-(related videos are not displayed)
-</td>
-    </tr>
-    <tr>
-      <td colspan="1">
-        <code>video_auto_restart</code>
-      </td>
-      <td colspan="1">Auto re-play video.</td>
-      <td colspan="1">
-Boolean
-      </td>
-<td>
-0 <br />
-(video is not automatically replayed)
-</td>
-    </tr>
-  </tbody>
-</table>
+|Option|Description|Type|Default|
+|--- |--- |--- |--- |
+|`play_if_base`|Play automatically on page load.|Boolean|0 (video is not played on page load)|
+|`show_related`|Display related videos.|Boolean|0 (related videos are not displayed)|
+|`video_auto_restart`|Auto re-play video.|Boolean|0 (video is not automatically replayed)|
 
 You can configure these options in your custom [module's](https://glossary.magento.com/module) `config.xml` file.
 
