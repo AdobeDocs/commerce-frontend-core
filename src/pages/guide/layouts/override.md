@@ -1,11 +1,9 @@
 ---
-group: frontend-developer-guide
-title: Override a layout
-functional_areas:
-  - Frontend
+title: Override a Layout | Commerce Frontend Development
+description:
 ---
 
-## What's in this topic
+# Override a layout
 
 Not all layout customizations can be performed by [extending layouts]. If the amount of customizations is large, you can use the overriding function for the needed layout file. This means that the new file that you place in the theme will be used instead of the parent [theme] layout file or [base] layout file.
 
@@ -13,7 +11,7 @@ In this article, [page layouts], [page configurations], and [generic layouts] ar
 
 Layout files with instructions that override the default or parent theme files are referred to as *overriding layout files*.
 
-## Examples of customizations that involve overriding layouts
+## Examples of customizations that override layouts
 
 Examples of customizations that involve overriding layouts:
 

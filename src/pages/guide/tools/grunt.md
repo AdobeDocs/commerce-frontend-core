@@ -1,14 +1,11 @@
 ---
-group: frontend-developer-guide
-title: Using Grunt
-functional_areas:
-  - Frontend
-  - Tools
+title: Grunt | Commerce Frontend Development
+description:
 ---
 
-The topic describes how to install and configure [Grunt JavaScript task runner](http://gruntjs.com/).
+# Grunt
 
-## Overview
+The topic describes how to install and configure [Grunt JavaScript task runner](http://gruntjs.com/).
 
 You can use Grunt to automate any tasks you need, but out of the box the application comes with pre-configured grunt tasks for compiling LESS files.
 
@@ -16,7 +13,7 @@ You can use Grunt to automate any tasks you need, but out of the box the applica
 
 Make sure that you [set](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html) your application to the developer or default [mode](https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html).
 
-## Installing and configuring Grunt
+## Install and configure Grunt
 
 The application has built-in Grunt tasks configured, but there are still several steps you need to take to be able to use it:
 
@@ -50,7 +47,7 @@ The application has built-in Grunt tasks configured, but there are still several
 
 1. (Optional) If you want to use Grunt for "watching" changes automatically, without reloading pages in a browser each time, install the [LiveReload extension](http://livereload.com/extensions/) in your browser.
 
-## Grunt configuration file
+## Configuration file
 
 Copy the contents of `themes.js` into `local-themes.js` in the `dev/tools/grunt/configs/` directory.
 
@@ -82,11 +79,11 @@ Once these are set correctly, run grunt to watch your changes.
 -  Run `grunt exec:<theme>` from the root directory to republish the symlinks.
 -  Run `grunt watch:<theme>` so that grunt will watch for file changes.
 
-## Using custom Grunt configuration files
+## Custom Grunt configuration files
 
 There are several ways to declare a custom configuration file.
 
-### How to declare custom config file: Option 1
+### Declare a custom configuration file (option 1)
 
 To use a custom file for Grunt configuration:
 
@@ -107,7 +104,7 @@ To use a custom file for Grunt configuration:
 
 This path is also added to your .gitignore by default.
 
-### How to declare custom configuration file: Option 2
+### Declare a custom configuration file (option 2)
 
 You can also use the other way to declare a custom config file:
 
@@ -121,7 +118,7 @@ You can also use the other way to declare a custom config file:
 
 1. In the `dev/tools/grunt/configs/` directory, create a copy of the default configuration file. Change its name by adding the ".loc" suffix. For example, your copy of `themes.js` will be `themes.loc.js`.
 
-### How to use custom configuration file
+### How to use a custom configuration file
 
 To tell Grunt to use a custom configuration file, instead of the default one, add the following in your script:
 

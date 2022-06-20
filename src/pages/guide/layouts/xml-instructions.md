@@ -1,9 +1,9 @@
 ---
-title: Layout instructions
+title: Layout Instructions | Commerce Frontend Development
 description:
 ---
 
-## What's in this topic
+# Layout instructions
 
 There are two possible ways to customize page layout:
 

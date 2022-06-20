@@ -1,11 +1,8 @@
 ---
-group: frontend-developer-guide
-title: Create an Admin theme
-functional_areas:
-  - Frontend
-  - Theme
+title: Create an Admin Theme | Commerce Frontend Development
+description:
 ---
-## What's in this topic
+# Create an Admin theme
 
 This topic describes how to create your custom theme for Admin, referencing the similar [flow for creating a custom storefront theme](create-storefront.md).
 

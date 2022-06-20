@@ -1,11 +1,8 @@
 ---
-group: frontend-developer-guide
-title: Adding custom favicons
-functional_areas:
-  - Frontend
-  - Theme
+title: Add Custom Favicons | Commerce Frontend Development
+description:
 ---
-## What's in this topic
+# Add custom favicons
 
 This topic describes how to add custom favicons.
 
@@ -20,7 +17,7 @@ The application supports the following file types for favicon: `.ico`, `.png`, `
 
 See the following sections for details about adding favicons.
 
-## Adding a custom favicon in Admin
+## Add a custom favicon in Admin
 
 To add a custom favicon in the Admin, do the following:
 

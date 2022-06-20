@@ -1,12 +1,9 @@
 ---
-group: frontend-developer-guide
-title: Themes overview
-functional_areas:
-  - Frontend
-  - Theme
+title: Themes | Commerce Frontend Development
+description:
 ---
 
-## Themes overview
+# Themes
 
 A *theme* is a component of application which provides a consistent look and feel (visual design) for entire application area (for example, [storefront](https://glossary.magento.com/storefront) or Sdmin) using a combination of custom templates, layouts, styles or images.
 

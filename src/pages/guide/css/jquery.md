@@ -1,15 +1,13 @@
 ---
-group: frontend-developer-guide
-title: Using jQuery UI styles
-functional_areas:
-  - Frontend
+title: jQuery UI Styles | Commerce Frontend Development
+description:
 ---
 
-## What's in this topic
+# jQuery UI styles
 
 This topic provides an overview of how jQuery UI styles are used and how you can use them in a custom [theme](https://glossary.magento.com/theme).
 
-## jQuery UI styles used on the storefront
+## Styles used on the storefront
 
 By default, certain [storefront](https://glossary.magento.com/storefront) elements are implemented using jQuery UI widgets (like navigation menu, mini [shopping cart](https://glossary.magento.com/shopping-cart) and so on), with the default jQuery classes assigned. But the application does not contain jQuery UI styles in the code base. Styles for the certain default jQuery UI classes are defined by default (in the default storefront and [Admin](https://glossary.magento.com/admin) themes). For other jQuery UI classes styles are not defined.
 

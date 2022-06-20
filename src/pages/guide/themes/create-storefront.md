@@ -1,10 +1,9 @@
 ---
-group: frontend-developer-guide
-title: Create a new storefront theme
-functional_areas:
-  - Frontend
-  - Theme
+title: Create a Storefront Theme | Commerce Frontend Development
+description:
 ---
+
+# Create a storefront theme
 
 This topic discusses how to create the files that make up a theme, how to add a logo to a theme, and how to size images.
 
@@ -17,7 +16,7 @@ A new theme you create is not applied for your store automatically. You need to 
 1. For the sake of compatibility, upgradability, and easy maintenance, do not modify the out-of-the-box themes. To customize the design of your store, create a new custom [theme](https://glossary.magento.com/theme).
 1. [Set](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html) your application to the developer [mode](https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html). The application mode influences the way [static files](https://glossary.magento.com/static-files) are cached. The recommendations about theme development we provide in this chapter are developer/default-mode specific.
 
-## Create a storefront theme: walkthrough
+## Walkthrough
 
 The high-level steps required to add a new theme in the system are the following:
 

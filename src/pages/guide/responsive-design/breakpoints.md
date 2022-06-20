@@ -1,15 +1,11 @@
 ---
-group: frontend-developer-guide
-title: Add a custom breakpoint
-functional_areas:
-  - Frontend
+title: Add a Custom Breakpoint | Commerce Frontend Development
+description:
 ---
 
-## What's in this topic
+# Add a custom breakpoint
 
 Breakpoints are used in stylesheets to set up the screen width at which the design changes, for example, from the mobile to the desktop version. Themes provided with the application implement a list of [default breakpoints](css.md#breakpoints). This topic describes how to add a custom breakpoint in your theme.
-
-## Overview
 
 To add a custom breakpoint in your theme, you need to do the following:
 
@@ -17,7 +13,7 @@ To add a custom breakpoint in your theme, you need to do the following:
 1. Override the library `_responsive.less` file, and add the new rule for the new breakpoint.
 1. Implement the screen changes for the new breakpoint.
 
-## Add a new breakpoint variable
+## Add a breakpoint variable
 
 In your custom theme directory, add a `/web/css/source/_variables.less` in one of the following ways:
 
@@ -67,7 +63,7 @@ Example:
 }
 ```
 
-## Add `.media-width()` calls for the new breakpoint
+## Add `.media-width()` calls
 
 Now you can add a new `.media-width()` mixin call where necessary in your theme `.less` files.
 

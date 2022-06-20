@@ -8,7 +8,7 @@ module.exports = [
       path: "/guide/conventions/"
     },
     {
-      title: "Caching",
+      title: "Page caching",
       path: "/guide/caching/"
     },
     {
@@ -74,7 +74,7 @@ module.exports = [
       ],
     },
     {
-      title: "Layout",
+      title: "Layouts",
       path: "/guide/layout/",
       pages: [
         {
@@ -102,11 +102,11 @@ module.exports = [
           path: "guide/layouts/override/",
         },
         {
-          title: "Common layout customization tasks",
+          title: "Common customization tasks",
           path: "guide/layouts/xml-manage/",
         },
         {
-          title: "Customize layout illustration",
+          title: "Practice customizing layouts",
           path: "guide/layouts/practice/",
         },
       ],
@@ -146,7 +146,7 @@ module.exports = [
           path: "/guide/css/quickstart/",
           pages: [
             {
-              title: "Customize styles",
+              title: "Customize theme styles",
               path: "/guide/css/quickstart/customize-styles/",
             },
             {
@@ -180,7 +180,7 @@ module.exports = [
           path: "/guide/css/practice/",
         },
         {
-          title: "Fonts",
+          title: "Custom fonts",
           path: "/guide/css/fonts/",
         },
         {
@@ -196,7 +196,7 @@ module.exports = [
               path: "/guide/css/custom-preprocessor/add/",
             },
             {
-              title: "Sass preprocessor and Gulp task runner",
+              title: "Use a Sass preprocessor and Gulp task runner",
               path: "/guide/css/custom-preprocessor/gulp-sass/",
             },
           ],
@@ -204,7 +204,7 @@ module.exports = [
       ],
     },
     {
-      title: "Responsive design",
+      title: "Responsive web design",
       path: "/guide/responsive-design/",
       pages: [
         {
@@ -216,11 +216,11 @@ module.exports = [
           path: "/guide/responsive-design/js/",
         },
         {
-          title: "Create a responsive mobile theme based on a default theme",
+          title: "Create a responsive mobile theme",
           path: "/guide/responsive-design/mobile/",
         },
         {
-          title: "Practice",
+          title: "Practice customizing responsive web design",
           path: "/guide/responsive-design/practice/",
         },
         {
@@ -242,7 +242,7 @@ module.exports = [
           path: "/guide/translations/theory/",
         },
         {
-          title: "Example theme translation dictionary",
+          title: "Example dictionary",
           path: "/guide/translations/practice/",
         },
       ],
@@ -266,7 +266,7 @@ module.exports = [
       ],
     },
     {
-      title: "Tools",
+      title: "Developer tools",
       path: "/guide/tools/",
       pages: [
         {

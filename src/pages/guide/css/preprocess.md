@@ -1,11 +1,9 @@
 ---
-group: frontend-developer-guide
-title: How CSS and Less files are preprocessed and how to debug them
-functional_areas:
-  - Frontend
+title: CSS and LESS preprocessing | Commerce Frontend Development
+description:
 ---
 
-## What's in this topic
+# CSS and LESS preprocessing
 
 The topic describes how stylesheets are preprocessed and compiled to [CSS](https://glossary.magento.com/css) in the application. It provides the theoretical background a [frontend](https://glossary.magento.com/frontend) developer needs to debug stylesheets effectively.
 
@@ -43,7 +41,7 @@ The topic describes how stylesheets are preprocessed and compiled to [CSS](https
  </tr>
 </table>
 
-## Less compilation modes
+## LESS compilation modes
 
 In the application, the following modes of compiling `.less` files to CSS are implemented:
 
@@ -62,7 +60,7 @@ To set the compilation mode, do the following:
 1. Under **Frontend development workflow**, in the **Workflow type** field, select the compilation mode.
 1. To save the settings, click **Save Config**.
 
-### Server-side Less compilation
+### Server-side LESS compilation
 
 The following paragraph describes how the Less preprocessor works in server-side compilation mode.
 For each CSS file included in the layouts, Less preprocessor does the following:
@@ -75,7 +73,7 @@ For each CSS file included in the layouts, Less preprocessor does the following:
 
 1. All source files are passed to the PHP Less compiler. The resulting compiled `.css` files are published to `pub/static/frontend/<Vendor>/<theme>/<locale>`.
 
-#### Styles debugging in server-side compilation mode
+#### Debug in server-side compilation mode
 
 In server-side Less compilation mode, to have your changes applied, you need to do the following:
 
@@ -88,7 +86,7 @@ In server-side Less compilation mode, to have your changes applied, you need to 
 
 Reloading the page only triggers compilation and publication of the styles used on this very page, and does not give you the information about the errors if any. So if you made changes in `.less` files used on many pages, and want to debug them, using the deployment tool is the better option.
 
-##### Debugging using the static view files deployment tool
+##### Debug with the static view files deployment tool
 
 Once you save your changes, run the following command from your `<root>` directory:
 
@@ -139,7 +137,7 @@ variable @variable-x is undefined in file /var/www/magento2/var/view_preprocesse
     .menu-wrapper,
 ```
 
-##### Debugging using Grunt
+##### Debug with Grunt
 
 Alternatively, to streamline the process of applying and debugging styles customizations, in server-side compilation mode, you can
 
@@ -157,7 +155,7 @@ The client-side compilation flow is similar to [server-side](#server-side-less-c
 
 Symlink is not created, and a copy of the processed file is published to `pub/static` instead, if the source file differs from the processed one. One of the reasons of this difference might be the usage of the `@import` directive without file extension in the source file. See [The @import directive usage](#importing-remote-css-files) for more details.
 
-#### Styles debugging in client-side compilation mode
+#### Debug in client-side compilation mode
 
 Client-side LESS compilation is implemented using the native `less.js` library. The default configuration is set in `lib/web/less/config.less.js`; you can change it as needed.
 
@@ -167,7 +165,7 @@ In client-side compilation mode, most of the stylesheet customizations display i
 
 With client-side compilation mode enabled, LESS files are compiled on every page load. This reduces page-loading performance.
 
-##### When you need to clean static view files
+##### Clean static view files
 
 There are certain types of changes, that require you to clear the `pub/static/frontend/<Vendor>/<theme>/<locale>` directory and trigger the compilation and [publication] processes anew.
 
@@ -178,7 +176,7 @@ This is required in the following cases:
 
 To clear the `pub/static/frontend/<Vendor>/<theme>/<locale>` directory, delete the directory in the file system, and reload the store pages in a browser to trigger compilation and publication.
 
-## The `@import` directive rules of usage
+## `@import` directive
 
 You can import local and remote `.less` and `.css` files in your `.less` stylesheets by using the standard LESS [`@import` directive](http://lesscss.org/features/#import-directives-feature).
 According to the `@import` syntax, specifying the file extension for the imported file is not mandatory. For example, the following notation is allowed:
@@ -197,7 +195,7 @@ But in process of resolving the file path, the application adds the `.less` exte
 
 As a result, the processed files are different from the source files. So in the [client-side compilation mode](#client-side-less-compilation) or when using [grunt commands](debug.md), the application cannot use symlinks to the source files. Instead it uses the copies of processed files, and they are published to the `pub/static` directory. In case of importing CSS resources, this also results in not finding and not importing the required files.
 
-### Importing remote CSS files
+### Import remote CSS files
 
 If you need to import a remote CSS file in your `.less` source, use `url()` notation. For example, to import a Google font, use the following notation:
 
@@ -209,14 +207,14 @@ To [include the font](fonts.md) in your theme's CSS files, use the `@font-face` 
 
 This way the application will skip the `@import` directive while resolving paths to the local resources.
 
-## The @magento_import directive
+## @magento_import directive
 
 `@magento_import` is an application-specific LESS directive that allows including multiple files by a name pattern. It is used to include files with the same name from the different locations, for example, different modules.
 The standard `@import` directive includes a single file, which is found according to the [static files fallback].
 
 `@magento_import` can be used in the root source files of a theme only.
 
-### @magento_import rules of usage
+### @magento_import rules
 
 To include a `.less` file using the `@magento_import` directive:
 

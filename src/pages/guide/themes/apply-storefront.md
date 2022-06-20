@@ -1,12 +1,9 @@
 ---
-group: frontend-developer-guide
-title: Apply and configure a storefront theme
-functional_areas:
-  - Frontend
-  - Theme
+title: Apply and Configure a Storefront Theme | Commerce Frontend Development
+description:
 ---
 
-## What's in this topic
+# Apply and configure a storefront theme
 
 The topic describes how to apply a [theme](https://glossary.magento.com/theme) for your store. This is a required step if you want a theme to be used on a [storefront](https://glossary.magento.com/storefront).
 Also, it gives information how to add a theme independent logo for your store.
@@ -84,6 +81,6 @@ A system message notifies you that invalidated cache types must be refreshed.
 
 ![Clear the cache from Admin](../../_images/frontend/clear_cache.png)
 
-## Troubleshooting (if the changes do not get applied)
+## Troubleshooting
 
 If the changes you configure in the Admin are not applied after you clear the cache and reload the page, delete all files in the `pub/static/frontend` and `var/view_preprocessed` directories, then reload the pages. You can delete the files manually or run the `grunt clean:<theme_name>` command in CLI. See [Installing and configuring Grunt](../tools/grunt.md).

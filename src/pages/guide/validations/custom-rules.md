@@ -1,9 +1,11 @@
 ---
-group: frontend-developer-guide
-title: Custom validation rules
+title: Custom Form Validation Rules | Commerce Frontend Development
+description:
 contributor_name: Adarsh Manickam
 contributor_link: https://github.com/drpayyne
 ---
+
+# Custom form validation rules
 
 Custom validation rules can be added by creating a Javascript mixin for the `mage/validation` module and calling the `$.validator.addMethod` function with the custom validation rule parameters as described below:
 

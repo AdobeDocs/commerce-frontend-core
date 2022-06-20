@@ -1,11 +1,9 @@
 ---
-group: frontend-developer-guide
-title: Add custom CSS preprocessor
-functional_areas:
-  - Frontend
+title: Add a Custom CSS preprocessor | Commerce Frontend Development
+description:
 ---
 
-## What's in this topic
+# Add a custom CSS preprocessor
 
 This topic describes how to add a custom [CSS](https://glossary.magento.com/css) preprocessor. Adding [Sass](http://sass-lang.com/) support is used as an example.
 
@@ -15,15 +13,13 @@ The application has a sample [module-sample-scss](https://github.com/magento/mag
 
 You can view it as example when adding your custom preprocessor. Or install the module as is if you need to add Sass preprocessing. Installing a module is described in the [repository's Readme file](https://github.com/magento/magento2-samples/blob/master/README.md).
 
-## Adding a custom preprocessor
-
-### Prerequisites
+## Prerequisites
 
 For the sake of compatibility, upgradability and easy maintenance, do not edit the default code. Create a new custom module for your customizations.
 
 For details about creating a module refer to the [PHP Developer Guide](https://developer.adobe.com/commerce/php/development/).
 
-### Step by step instruction
+## Step-by-step instruction
 
 To add a custom preprocessor, take the following steps:
 

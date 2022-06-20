@@ -1,15 +1,13 @@
 ---
-group: frontend-developer-guide
-title: Customizing styles illustration
-functional_areas:
-  - Frontend
+title: Practice customizing styles | Commerce Frontend Development
+description:
 ---
 
-## What is in this topic
+# Practice customizing styles
 
 This topic features a step-by-step illustration of how to change a theme's color scheme using UI library.
 
-## Changing theme color scheme
+## Change theme color scheme
 
 ExampleCorp created a custom theme that inherits from the basic Blank theme.
 The following image illustrates how store pages look when the Blank theme is applied:

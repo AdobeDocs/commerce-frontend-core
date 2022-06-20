@@ -1,16 +1,15 @@
 ---
-group: frontend-developer-guide
-title: Customizing RWD illustration
-functional_areas:
-  - Frontend
+title: Practice Customizing Responsive Web Design | Commerce Frontend Development
+description:
 ---
-## What's in this topic
+
+# Practice customizing responsive web design
 
 This topic features a step-by-step illustration of how to change the number of products displayed in a row on a product page, keeping up with the responsive design approach used by out-of-the-box themes.
 
 The described flow is applicable only for themes that [inherit](../themes/inherit.md) from the out-of-the-box Blank or Luma [theme](https://glossary.magento.com/theme).
 
-## Changing the number of products in a row
+## Change the number of products in a row
 
 ExampleCorp wants to make their products more visible by decreasing the quantity of products in a row displayed on a [catalog](https://glossary.magento.com/catalog) page, so that each product takes more space.
 

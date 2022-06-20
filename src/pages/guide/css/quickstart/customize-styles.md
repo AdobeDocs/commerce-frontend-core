@@ -1,14 +1,12 @@
 ---
-group: frontend-developer-guide
-title: Simple ways to customize a theme's styles
-functional_areas:
-  - Frontend
+title: Customize Theme Styles | Commerce Frontend Development
+description:
 ---
-## What's in this topic
+# Customize theme styles
 
 Let's say you created a new [theme](https://glossary.magento.com/theme) inheriting from Blank or Luma, and chose the [Less compilation mode]. What's next? Where to add the style changes? This topic gives quick answers.
 
-## Simplest way to extend parent styles
+## Extend parent styles
 
 To extend the parent theme's styles in your theme:
 
@@ -57,7 +55,7 @@ Extending a theme using `_extend.less` is the simplest option when you are happy
 
 The rules and variables declared in `_extend.less` always have precedence over ones declared in `_theme.less`.
 
-## Simplest way to override parent styles
+## Override parent styles
 
 To override parent styles (that is, override default UI [library](https://glossary.magento.com/library) variables):
 
@@ -80,11 +78,11 @@ To override parent styles (that is, override default UI [library](https://glossa
 
 The drawback of this approach is that you need to monitor and manually update your files whenever the parent's `_theme.less` is updated.
 
-## Adding structured changes
+## Add structured changes
 
 To make your changes easier to read and support, structure them by adding a separate overriding or extending `.less` files for each [UI library component] you change. Let's use the `button` component implemented in `_button.less` as an illustration.
 
-### Extend component's styles
+### Extend component styles
 
 1. In your theme directory, create a `web/css/source` sub-directory.
 1. Add `_buttons_extend.less` and `_extend.less` here. The path to the files looks like following:
@@ -102,7 +100,7 @@ To make your changes easier to read and support, structure them by adding a sepa
 1. In `_buttons_extend.less` add your styles for the button component.
 1. In `_extend.less` register the `_buttons_extend.less` by adding the following code: `@import '_buttons_extend.less';`
 
-### Override component's styles
+### Override component styles
 
 To override the parent theme's styles for buttons in your theme:
 

@@ -1,9 +1,9 @@
 ---
-group: frontend-developer-guide
-title: Compile LESS using Grunt
-functional_areas:
-  - Frontend
+title: Compile LESS with Grunt | Commerce Frontend Development
+description:
 ---
+
+# Compile LESS with Grunt
 
 The topic describes how to install, configure, and use [Grunt JavaScript task runner](http://gruntjs.com/) to compile `.less` files.
 
@@ -12,7 +12,7 @@ The topic describes how to install, configure, and use [Grunt JavaScript task ru
 -  Make sure that you [set](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html) your application to the developer or default [mode](https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html). The default mode sets the Less compilation mode to Server-side Less compilation.
 -  Install and configure [Grunt](../tools/grunt.md).
 
-## Adding themes to Grunt configuration
+## Add themes to Grunt configuration
 
 To compile `.less` files, add your theme to `module.exports` in the Grunt configuration, either in the default `dev/tools/grunt/configs/themes.js` or in the [custom configuration file](../tools/grunt.md#grunt-configuration-file). For example:
 
@@ -82,7 +82,7 @@ grunt exec | Republishes symlinks to the source files to the `pub/static/fronten
 grunt less | Compiles CSS files using the symlinks published in the `pub/static/frontend/` directory. Use `grunt less:<theme>` to use the symlinks published for a specific theme.
 grunt watch | Tracks the changes in the source files, recompiles `.css` files, and reloads the page in the browser.
 
-## Use cases of tracking changes using Grunt
+## Tracking changes using Grunt
 
 The following shows which Grunt tasks to use for debugging:
 

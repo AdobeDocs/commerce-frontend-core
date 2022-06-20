@@ -1,18 +1,15 @@
 ---
-group: frontend-developer-guide
-title: Configure theme properties
-functional_areas:
-  - Frontend
-  - Theme
+title: Configure Theme Properties | Commerce Frontend Development
+description:
 ---
 
-## What's in this topic
+# Configure theme properties
 
 The properties of product images used on the [storefront](https://glossary.magento.com/storefront) are stored in the `view.xml` configuration file. This topic provides all details about what properties are available and how to configure them.
 
 The properties for the images displayed on the product pages are defined by the gallery widget options. The options of the widget can be configured in the [theme](https://glossary.magento.com/theme) `view.xml` as well. For more details, view the [Gallery widget](https://devdocs.magento.com/guides/v2.4/javascript-dev-guide/widgets/widget_gallery.html) topic.
 
-## Configure image properties in view.xml
+## Configure image properties
 
 The conventional location of `view.xml` for a theme is:
 
@@ -138,7 +135,7 @@ To speed up the job while in asynchronous mode, you may manually run several ins
 bin/magento queue:consumer:start media.storage.catalog.image.resize
 ```
 
-## Configure variables in view.xml
+## Configure variables
 
 The variable properties `vars` are configured for each module individually, defined by `module` name.
 

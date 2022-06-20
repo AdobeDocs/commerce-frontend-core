@@ -1,8 +1,6 @@
 ---
-group: frontend-developer-guide
-title: Email templates layout handle
-functional_areas:
-  - Frontend
+title: Email Templates Layout Handle | Commerce Frontend Development
+description:
 ---
 
 <InlineAlert variant="warning" slots="text"/>
@@ -10,7 +8,7 @@ functional_areas:
 Adobe Commerce and Magento Open Source 2.3.4 and above restricts the way that custom variables can be used within email templates.
 See [Migrating custom email templates](email-migration.md) for more information.
 
-## Email layout handle
+# Email templates layout handle
 
 In sales-related email templates (order, invoice, shipment, and credit memo templates), layout handles are used to render the ordered items and grand total sections.
 

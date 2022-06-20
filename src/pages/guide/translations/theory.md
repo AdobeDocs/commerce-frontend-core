@@ -1,9 +1,9 @@
 ---
-group: frontend-developer-guide
-title: Translate theme strings
-functional_areas:
-  - Frontend
+title: Translate Theme Strings | Commerce Frontend Development
+description:
 ---
+
+# Theme strings
 
 This topic describes how to add theme strings so that the i18n tool can collect and add the strings to the dictionary.
 

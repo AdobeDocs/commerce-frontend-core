@@ -1,12 +1,9 @@
 ---
-group: frontend-developer-guide
-title: Include CSS
-functional_areas:
-  - Frontend
-  - Theme
+title: Include CSS | Commerce Frontend Development
+description:
 ---
 
-## In this topic
+## Include CSS
 
 In the application, CSS files are included in [layout files].
 

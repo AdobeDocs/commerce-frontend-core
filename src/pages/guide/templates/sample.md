@@ -1,13 +1,13 @@
 ---
-group: frontend-developer-guide
-title: Templates customization sample
-functional_areas:
-  - Frontend
+title: Template Customization Example | Commerce Frontend Development
+description:
 ---
+
+# Tempalte customization example
 
 This topic contains a step-by-step guide to solving a typical design customization task using templates.
 
-## Sample template customization: changing a layout of the mini shopping cart
+## Change the mini shopping cart layout
 
 In the basic Blank theme, in the mini shopping cart, products are listed under the **Go to Checkout** button, like following:
 

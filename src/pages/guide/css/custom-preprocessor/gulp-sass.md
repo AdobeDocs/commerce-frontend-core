@@ -1,10 +1,9 @@
 ---
-group: frontend-developer-guide
-title: Use Sass preprocessor and Gulp task runner
-functional_areas:
-  - Frontend
-  - Tools
+title: Use a Sass Preprocessor and Gulp Task Runner | Commerce Frontend Development
+description: Learn how to use a Sass preprocessor and Gulp task runner to automate Adobe Commrce and Magento Open Source frontend development.
 ---
+
+# Use a Sass Preprocessor and Gulp task runner
 
 By default, the application uses [Less](http://lesscss.org/) for themes styling. But you can use other stylesheet languages that can be compiled (processed) to CSS. For example, Sass is a popular alternative.
 

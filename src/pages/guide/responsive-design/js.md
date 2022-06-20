@@ -1,11 +1,9 @@
 ---
-group: frontend-developer-guide
-title: JavaScript in responsive design
-functional_areas:
-  - Frontend
+title: JavaScript in Responsive Design | Commerce Frontend Development
+description:
 ---
 
-## What's in this topic
+# JavaScript in responsive web design
 
 This topic describes the JavaScript used in out-of-the-box Blank and Luma themes to relocate certain elements and change their behavior depending on the [breakpoint](index.md#terms-used).
 

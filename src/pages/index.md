@@ -1,6 +1,6 @@
 ---
 title: Commerce Frontend Development
-description: TBD
+description: Review resources for developing the frontend of Adobe Commerce and Magento Open Source Admin and storefronts.
 ---
 
 <Hero slots="image, heading, text"/>
@@ -9,12 +9,15 @@ description: TBD
 
 # Commerce Frontend Development
 
-Learn how to web-based storefronts for Adobe Commerce and Magento Open Source.
+Learn how to develop web-based storefronts for Adobe Commerce and Magento Open Source.
 
 <Resources slots="heading, links"/>
 
 ## Resources
 
+*  [Commerce open-source projects](https://developer.adobe.com/open/magento)
+*  [Community Slack workspace](https://opensource.magento.com/slack)
+*  [Contributor statistics](https://developer.adobe.com/open/magento/statistic)
 *  [PWA Studio](https://developer.adobe.com/open/magento)
 *  [Page Builder](https://devdocs.magento.com/page-builder/docs/index.html)
 
@@ -26,19 +29,15 @@ This documentation provides resources for developing web-based frontends for Ado
 
 Use these sections to learn about how to develop a web-based frontend.
 
-<!--  <DiscoverBlock slots="heading, link, text"/> -->
+ <DiscoverBlock slots="heading, link, text"/>
 
 ### Sections
 
-Lorem ipsum dolor sit amet
+[Frontend Development](guide/)
+
+Explore core frontend development principles.
 
 <!-- <DiscoverBlock slots="link, text"/>
-
-[Frontend Development](frontend/)
-
-Lorem ipsum dolor sit amet
-
-<DiscoverBlock slots="link, text"/>
 
 [UI Components](ui-components/)
 
@@ -60,9 +59,7 @@ Lorem ipsum dolor sit amet
 
 [Admin Design Patterns](admin/design-patterns/)
 
-Lorem ipsum dolor sit amet
-
--->
+Lorem ipsum dolor sit amet -->
 
 <DiscoverBlock width="100%" slots="heading, text"/>
 

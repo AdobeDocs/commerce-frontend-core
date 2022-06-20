@@ -1,11 +1,9 @@
 ---
-group: frontend-developer-guide
-title: Extend a layout
-functional_areas:
-  - Frontend
+title: Extend a Layout | Commerce Frontend Development
+description:
 ---
 
-## Create a theme extending file
+# Create a theme extending file
 
 Rather than copy extensive page layout or page configuration code and then modify what you want to change, you only need to create an *extending layout file* that contains the changes you want.
 
@@ -58,7 +56,7 @@ For example, to customize the page layout defined in `<Magento_Theme_module_dir>
 </layout>
 ```
 
-## Processing extending layouts
+## Processing extended layouts
 
 The application merges layout files as follows:
 

@@ -1,13 +1,15 @@
 ---
-group: frontend-developer-guide
-title: Migrating custom email templates
-functional_areas:
-  - Frontend
+title: Migrate Custom Email Templates | Commerce Frontend Development
+description:
 ---
+
+# Migrate custom email templates
+
+This topic explains how to migrate custom email templates between versions of Adobe Commerce and Magento Open Source.
 
 ## Remove the legacy variable resolver
 
-With the release of Adobe Commerce and Magento Open Source 2.4.4 and 2.4.3-p2, `\Magento\Framework\Filter\VariableResolver\LegacyResolver` and `\Magento\Framework\Filter\VariableResolver\StrategyResolver` have been removed and any legacy templates in the database will only be resolved using strict mode. Database templates can be checked using cli commands to verify
+With the release of Adobe Commerce and Magento Open Source 2.4.4 and 2.4.3-p2, `\Magento\Framework\Filter\VariableResolver\LegacyResolver` and `\Magento\Framework\Filter\VariableResolver\StrategyResolver` have been removed and any legacy templates in the database will only be resolved using strict mode. Database templates can be checked using CLI commands to verify
 compatibility with strict mode.
 
 ## Verify compatibility with strict mode

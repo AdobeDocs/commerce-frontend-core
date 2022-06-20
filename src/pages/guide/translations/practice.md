@@ -1,13 +1,13 @@
 ---
-group: frontend-developer-guide
-title: Example theme translation dictionary
-functional_areas:
-  - Frontend
+title: Theme Translation Dictionary Exmple | Commerce Frontend Development
+description:
 ---
+
+# Theme translation dictionary example
 
 This topic is a step-by-step tutorial to create a default en_US [locale](https://glossary.magento.com/locale) [dictionary](dictionary.md) for a custom [theme](https://glossary.magento.com/theme).
 
-## Changing default strings
+## Change default strings
 
 ExampleCorp created a custom `orange` theme that inherits from the Blank theme. When customizing their theme, they want to rephrase certain strings used in the Blank theme and modules for the default locale.
 
@@ -50,9 +50,3 @@ When ExampleCorp applies the orange theme, the custom strings are used instead o
 For example:
 
 ![Product page where the customized Compare string is displayed](../../_images/frontend/fdg_trans_bag.png)
-
-## Additional information
-
--  [Translations overview]
--  [Translation dictionaries and language packages]
--  [Use translation dictionary to customize strings]

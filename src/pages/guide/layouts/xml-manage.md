@@ -1,11 +1,9 @@
 ---
-group: frontend-developer-guide
-title: Common layout customization tasks
-functional_areas:
-  - Frontend
+title: Common Customization Tasks | Commerce Frontend Development
+description:
 ---
 
-# Common layout customization tasks
+# Common customization tasks
 
 <InlineAlert variant="info" slots="text"/>
 
@@ -689,7 +687,7 @@ You can remove navigation links from the 'My Account' dashboard on the storefron
 <referenceBlock name="customer-account-navigation-return-history-link" remove="true"/>
 ```
 
-## Create cms-page/product/category-specific selectable layouts
+## Create selectable layouts
 
 As of Adobe Commerce and Magento Open Source 2.3.4, merchants can select layout updates to be applied to specific Category/Product/CMS Page pages on the frontend. These layout
 updates are made by creating layout XML files following specific naming conventions.

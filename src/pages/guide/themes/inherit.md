@@ -1,12 +1,9 @@
 ---
-group: frontend-developer-guide
-title: Theme inheritance
-functional_areas:
-  - Frontend
-  - Theme
+title: Theme Inheritance | Commerce Frontend Development
+description:
 ---
 
-## What's in this topic
+# Theme inheritance
 
 [Theme](https://glossary.magento.com/theme) inheritance enables you to easily extend themes and minimize the maintenance efforts. You can use an existing theme as a basis for customizations, or minor store design updates, like holidays decoration. Rather than copy extensive theme files and modify what you want to change, you can add overriding and extending files.
 

@@ -1,10 +1,9 @@
 ---
-group: frontend-developer-guide
-title: Use translation dictionary to customize strings
-functional_areas:
-  - Frontend
-  - Theme
+title: Use a Dictionary to Customize Strings | Commerce Frontend Development
+description:
 ---
+
+# Use a dictionary to customize strings
 
 Modify default strings in your custom [theme](https://glossary.magento.com/theme) to load and use [translation dictionaries]. Learn more about locales, modifying strings, and how the application searches and applies translations.
 
@@ -25,7 +24,7 @@ Translation priority follows the inverse sequence, with "module translations" ha
 
 If there are competing translations for one string, the theme dictionary translations have priority over the [module](https://glossary.magento.com/module) translations, and child theme translations have priority over parent theme translations.
 
-## Creating a theme dictionary to override parent strings for default locale
+## Ooverride parent strings for default locale
 
 The translations priority described earlier is applied for the default `en_US` locale as well. So you can use the `en_US.csv` dictionary to customize the strings used in the default locale.
 
@@ -50,7 +49,7 @@ The i18n tool does not create a dictionary if the theme files do not contain str
 
 See the [Example theme translation dictionary] topic for the practical illustration of the procedure.
 
-## Creating locale dictionaries
+## Create locale dictionaries
 
 When creating locale dictionaries for your theme, use the default strings as keys. Do not create translations using the custom keys you may have created and overwritten in your default locale dictionary.
 

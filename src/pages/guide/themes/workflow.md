@@ -1,12 +1,11 @@
 ---
-group: frontend-developer-guide
-title: Theme development workflow
-functional_areas:
-  - Frontend
-  - Theme
+title: Theme Development Workflow | Commerce Frontend Development
+description:
 ---
 
-### Enable development mode
+# Theme development workflow
+
+## Enable development mode
 
 In the installation directory, run:
 
@@ -42,7 +41,7 @@ For details, see [Create a new storefront theme](create-storefront.md)
 
 For details, see [Apply and configure a storefront theme](apply-storefront.md)
 
-### Choose .less compilation mode
+### Choose LESS compilation mode
 
 #### Grunt (recommended)
 
@@ -77,7 +76,7 @@ See:
 *  [CSS source maps](../css/debug.md#css-source-maps)
 *  [Track changes using Grunt](../css/debug.md#use-cases-of-tracking-changes-using-grunt)
 
-### Clean cache and/or static files if necessary
+### Clean cache and/or static files
 
 *  Certain changes in styles require cleaning previously pre-processed and published static view files. Run `grunt clean <theme>` or manually clear the `pub/static` and `var/view_preprocessed` directories. Do this after any changes in server-side compilation mode. For the client-side or Grunt compilation, see [Clean static files](../caching.md#clean-static-files) for details.
 

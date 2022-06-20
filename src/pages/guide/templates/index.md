@@ -1,11 +1,9 @@
 ---
-group: frontend-developer-guide
-title: Templates overview
-functional_areas:
-  - Frontend
+title: Templates | Commerce Frontend Development
+description:
 ---
 
-## Introduction to customizing a theme using templates
+# Templates
 
 In application templates are the part of the view layer. Templates define exactly how the content of [layout blocks](../layouts/index.md) is presented on a page: order, [CSS](https://glossary.magento.com/css) classes, elements grouping, and so on.
 In most cases, templates do not contain any logic about whether they will or will not be rendered, this is typically handled by the [layout](https://glossary.magento.com/layout) files. Once a template is called in a layout, it will be displayed.

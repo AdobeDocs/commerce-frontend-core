@@ -1,11 +1,9 @@
 ---
-group: frontend-developer-guide
-title: Templates customization walkthrough
-functional_areas:
-  - Frontend
+title: Template Customization Walkthrough | Commerce Frontend Development
+description:
 ---
 
-## What's in this topic
+# Template customization walkthrough
 
 This topic walks you through how to customize a template.
 

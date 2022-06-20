@@ -1,15 +1,13 @@
 ---
-group: frontend-developer-guide
-title: Customizing layout illustration
-functional_areas:
-  - Frontend
+title: Practice Customizing Layouts | Commerce Frontend Development
+description:
 ---
 
-## What's in this topic
+# Practice customizing layouts
 
 This article features a step-by-step illustration of how a real-life layout customization task is performed. Namely, it illustrates how to change the layout of customer account links in a store page header.
 
-## Moving customer account links
+## Move customer account links
 
 In their Orange theme, ExampleCorp wants to transform the header links block to a drop-down, the way it is done in the Luma theme:
 

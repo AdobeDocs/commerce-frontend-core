@@ -1,15 +1,15 @@
 ---
-group: frontend-developer-guide
-title: Translations overview
-functional_areas:
-  - Frontend
+title: Translations | Commerce Frontend Development
+description:
 ---
+
+# Translations
 
 The application enables you to localize your store for multiple regions and markets. We improved the localization and customization of instances by making translation dictionaries easier to update and by maintaining a reduced amount of code coupling and duplication.
 
 Also, we accept [Community Engineering contributions](#community-engineering-translations-project) using CrowdIn for translations. The project may include package creation and further support using the contributed translations.
 
-## Translations terms
+## Terms
 
 A *translation dictionary* is a comma-separated value (.csv) file with at least two columns: the original phrase in the `en_US` locale and a translation of that phrase in an another locale. Sample translation from English (`en_US`) to German (`de_DE`):
 
@@ -30,7 +30,7 @@ A *language package* is basically a collection of translation dictionaries for a
 
 To create a language package, the `.csv` file requires additional columns that specify the themes or modules in which the translations were found. For more information, see [Generate a translation dictionary].
 
-## Benefits of Translations
+## Benefits
 
 Localizing storefronts and the Admin panel gives your company global presence for support and sales.
 
@@ -67,7 +67,7 @@ You might need to add a dictionary for the default language (en_US) in the follo
 
 For an example of creating a dictionary for a theme for both cases, see [Example theme translation dictionary].
 
-## Manually translate words and phrases
+## Manually translation
 
 To translate names, titles, and phrases:
 
@@ -147,9 +147,9 @@ In addition to the `.csv` file that contains the language dictionary, the langua
 *  `language.xml`, in which you declare a language package.
    [Sample language.xml](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-i18n.html#config-cli-subcommands-xlate-example2).
 
-## Community Engineering Translations project
+## Open-source translations project
 
-Community Engineering accepts translation contributions through the [CrowdIn project] to localize all UI strings. Various Meet Magento and Contribution Day events include developers contributing translations.
+The Community Engineering team accepts translation contributions through the [CrowdIn project] to localize all UI strings. Various Meet Magento and Contribution Day events include developers contributing translations.
 
 1. Create a [CrowdIn account] and join the [CrowdIn project].
 1. Browse and select a language. A percentage displays tracking translation progress overall and per section of the Admin.

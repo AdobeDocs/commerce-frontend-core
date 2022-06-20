@@ -1,9 +1,11 @@
 ---
-group: frontend-developer-guide
-title: Custom form validation
+title: Custom Form Validation | Commerce Frontend Development
+description:
 contributor_name: Atwix
 contributor_link: https://www.atwix.com/
 ---
+
+# Custom form validation
 
 This tutorial shows you how to create custom form validations, using the `mage/validation` library, before submitting it to the server.
 This allows the customer to enforce data validation rules before submission, which improves the user experience and user interface accessibility.

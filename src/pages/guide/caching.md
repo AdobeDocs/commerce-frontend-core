@@ -1,8 +1,6 @@
 ---
-group: frontend-developer-guide
-title: Cache overview
-functional_areas:
-  - Frontend
+title: Page Caching | Commerce Frontend Development
+description:
 ---
 
 # Page caching

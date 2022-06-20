@@ -1,12 +1,9 @@
 ---
-group: frontend-developer-guide
-title: Apply an Admin theme
-functional_areas:
-  - Frontend
-  - Theme
+title: Apply an Admin Theme | Commerce Frontend Development
+description:
 ---
 
-## What's in this topic
+# Apply an Admin theme
 
 This topic describes how to apply your custom [theme](https://glossary.magento.com/theme) for [Admin](https://glossary.magento.com/magento-admin).
 

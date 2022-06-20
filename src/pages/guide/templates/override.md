@@ -1,11 +1,9 @@
 ---
-group: frontend-developer-guide
-title: Templates basic concepts
-functional_areas:
-  - Frontend
+title: Basic Template Concepts | Commerce Frontend Development
+description:
 ---
 
-## What's in this topic
+# Basic concepts
 
 This topic explains how default templates work in the application.
 

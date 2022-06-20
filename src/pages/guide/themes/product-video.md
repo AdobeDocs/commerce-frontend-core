@@ -1,17 +1,14 @@
 ---
-group: frontend-developer-guide
-title: Configure product video
-functional_areas:
-  - Frontend
-  - Theme
+title: Configure Product Video | Commerce Frontend Development
+description:
 ---
 
-## What's in this topic
+# configure product video
 
 You can add video from external resources (currently, from [YouTube](https://youtube.com) and [Vimeo](https://vimeo.com/)) on product pages. Video is [added in Admin]({{ site.user_guide_url }}/catalog/product-video.html) when creating or editing a product.
 Certain product video options can be set in the `config.xml` configuration file. These settings are not theme-specific.
 
-## Configure product video options
+## Programmatic options
 
 You can set the following product video options:
 
@@ -41,7 +38,7 @@ Example:
 
 For the sake of compatibility, upgradability and easy maintenance, do not edit the default code. Instead add your customizations in a separate module.
 
-## Configure product video options from Admin
+## Admin options
 
 1. On the _Admin_ sidebar, go to **Stores** > _Settings_ > **Configuration**.
 

@@ -1,11 +1,9 @@
 ---
-group: frontend-developer-guide
-title: Create a new layout
-functional_areas:
-  - Frontend
+title: Create a New Layout | Commerce Frontend Development
+description:
 ---
 
-## Create a new page layout in custom theme
+# Create a new page layout in a custom theme
 
 When an existing page layout does not meet your requirements, create a new page layout.
 
@@ -36,7 +34,7 @@ To add a block to the container, create the layout:
 </page>
 ```
 
-## Add the new layout to the layouts.xml file
+## Add the layout to the layouts.xml file
 
 Add the newly created page layout to the `layouts.xml` file of the theme directory: `app/design/frontend/<VendorName>/<ThemeName>/Magento_Theme/layouts.xml`.
 

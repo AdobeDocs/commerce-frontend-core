@@ -1,16 +1,13 @@
 ---
-group: frontend-developer-guide
-title: Theme structure
-functional_areas:
-  - Frontend
-  - Theme
+title: Theme Structure | Commerce Frontend Development
+description:
 ---
 
-## What's in this topic
+# Theme structure
 
 A [design theme](index.md) is an important part of the application. This topic describes the file structure of a [theme](https://glossary.magento.com/theme).
 
-## Theme location
+## Location
 
 [Storefront](https://glossary.magento.com/storefront) themes are conventionally located under `app/design/frontend/<Vendor>/`. Though technically they can reside in other directories. For example, built-in themes can be located under `vendor/magento/theme-frontend-<theme_code>` when a instance is deployed from the [Composer](https://glossary.magento.com/composer) repository.
 
@@ -24,7 +21,7 @@ app/design/frontend/<Vendor>/
 ├--...
 ```
 
-## Theme components
+## Components
 
 The structure of a theme directory typically would be like following:
 
@@ -256,7 +253,7 @@ The directories and files structure described below is the most extended one. It
   </tbody>
 </table>
 
-## Theme files
+## Files
 
 Apart from the configuration file and theme [metadata](https://glossary.magento.com/metadata) file, all theme files fall into the following two categories:
 

@@ -1,15 +1,13 @@
 ---
-group: frontend-developer-guide
-title: Product layouts
-functional_areas:
-  - Frontend
+title: Product Layouts | Commerce Frontend Development
+description:
 contributor_name: Atwix
 contributor_link: https://www.atwix.com/
 ---
 
-This topic provides information about product layouts files. The application allows you to customize view pages for all product types in the common layout files. It is also possible to perform the customization for a particular product type or even for a concrete product page by Product Entity ID or SKU.
+# Product layouts
 
-## Product view page
+This topic provides information about product layouts files. The application allows you to customize view pages for all product types in the common layout files. It is also possible to perform the customization for a particular product type or even for a concrete product page by Product Entity ID or SKU.
 
 Layout file | Description
 --- | ---

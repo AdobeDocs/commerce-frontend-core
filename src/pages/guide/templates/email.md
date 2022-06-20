@@ -1,8 +1,6 @@
 ---
-group: frontend-developer-guide
-title: Email templates
-functional_areas:
-  - Frontend
+title: Email Templates | Commerce Frontend Development
+description:
 ---
 
 <InlineAlert variant="warning" slots="text"/>
@@ -10,7 +8,7 @@ functional_areas:
 Adobe Commerce and Magento Open Source 2.3.4 restricts the way that custom variables can be used within email templates.
 See [Migrating custom email templates](email-migration.md) for more information.
 
-## Customize email templates
+# Email templates
 
 Email templates are stored in the `<module_dir>/view/<area>/email` directory of their respective modules. For example, the template for the new order transactional email for the Sales module is located in [`<Magento_Sales_module_dir>/view/frontend/email/order_new.html`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Sales/view/frontend/email/order_new.html).
 
@@ -18,13 +16,13 @@ We strongly recommend you not change the default application files. If you want 
 
 You can add custom templates as physical files in your custom [theme](https://glossary.magento.com/theme) or create them using the [Admin](https://glossary.magento.com/magento-admin). Both approaches are described in the following sections.
 
-### Customize email templates using a theme
+### Theme-based customizations
 
 Override email templates by creating templates in a new directory in your custom theme, using this pattern: `<theme_dir>/<ModuleVendorName>_<ModuleName>/email`. For example, to override the New Order email template, create a template named `order_new.html` in the `<theme_dir>/Magento_Sales/email` directory.
 
 [Template fallback](../themes/inherit.md#) is supported for email templates, so parent themes of your current theme are searched for templates.
 
-### Customize email templates using the Admin
+### Admin-based customizarions
 
 Any templates configured in the [Admin](https://glossary.magento.com/admin) take precedence over default or theme-based templates.
 
@@ -197,7 +195,7 @@ Because email clients do not support vector-based formats such as Scalable Vecto
 
 If you do not have access to a high-resolution version of your logo, you can upload a normal-resolution image. For example, if your logo image is 200px &times; 100px, specify `200` for the width and `100` for the height.
 
-### Customize the email logo using a theme
+### Theme-based customizations
 
 To customize your logo using a theme:
 
@@ -229,7 +227,7 @@ To customize your logo using a theme:
 
    You should leave the if/else conditional statement in place in case you ever want to override these values using the Admin.
 
-### Customize the email logo using the Admin
+### Admin-based customizations
 
 1. In the Admin, navigate to **CONTENT** > Design > **Configuration**. A Design Configuration page opens. It contains a grid with the available configuration scopes.
 1. In the configuration record corresponding to your store view, click **Edit**.
@@ -241,7 +239,7 @@ To customize your logo using a theme:
 
 1. Click the **Save Configuration** button.
 
-## Use contact information in emails
+## Contact information
 
 Emails can output your store name, store email address, store phone number, and store hours of operation if those values are configured in the Admin.
 

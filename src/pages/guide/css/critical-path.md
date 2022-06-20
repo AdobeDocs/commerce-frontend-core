@@ -1,9 +1,9 @@
 ---
-group: frontend-developer-guide
-title: CSS critical path
-functional_areas:
-  - Frontend
+title: CSS Critical Path | Commerce Frontend Development
+description:
 ---
+
+# CSS critical path
 
 All CSS styles loaded from external files are considered as render-blocking. This means that a web page will not be displayed until these files are loaded.
 By using 'CSS critical path', we deliver minified critical CSS inline in `<head>` and defer all non-critical styles that are loaded asynchronously.
@@ -23,7 +23,7 @@ bin/magento config:set dev/css/use_css_critical_path 1
 
 Make sure that there is a `critical.css` file for your theme. Other non-critical CSS files will be loaded asynchronously.
 
-## Overview of critical CSS
+## Overview
 
 The 'critical' CSS file should be located in `app/design/frontend/<your_vendor_name>/<your_theme_name>/web/css/critical.css`
 The default Luma theme critical CSS file is located in `app/design/frontend/Magento/luma/web/css/critical.css`

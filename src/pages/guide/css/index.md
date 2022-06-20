@@ -1,11 +1,9 @@
 ---
-group: frontend-developer-guide
-title: Cascading style sheets (CSS)
-functional_areas:
-  - Frontend
+title: Cascading Style Sheets (CSS) | Commerce Frontend Development
+description:
 ---
 
-## Overview
+# Cascading style sheets (CSS)
 
 The application incorporates [Less](http://lesscss.org/), a CSS pre-processor that simplifies the management of complex CSS files.
 To define styles of a store, you can use both - CSS and Less stylesheets.
@@ -24,7 +22,7 @@ To customize [storefront](https://glossary.magento.com/storefront) styles, you n
 
 *  If your style changes do not apply after refreshing the page, cleaning the static files cache might help. See the [caching](../caching.md#page-caching) for instructions how to do this.
 
-### CSS merging, minification and performance
+### CSS merging, minification, and performance
 
 There are a couple options to help with CSS and site performance.
 
@@ -36,7 +34,7 @@ There are a couple options to help with CSS and site performance.
 
 To enable / disable these settings, go into Admin > **Stores** > Setting > **Configuration** > **Advanced** > **Developer** > **CSS Settings**.
 
-## Change styles: walkthrough
+## Walkthrough
 
 Here is a simple illustration of changing styles using the first approach: changing the color of the buttons of a certain class.
 In the Blank theme, the buttons of the `.action.primary` class, so called *primary* buttons, are blue. The following image illustrates this:

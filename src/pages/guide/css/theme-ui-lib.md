@@ -1,17 +1,16 @@
 ---
-group: frontend-developer-guide
-title: UI library
-functional_areas:
-  - Frontend
-  - Theme
+title: UI Library | Commerce Frontend Development
+description:
 ---
+
+# UI libraary
 
 The [UI library](https://glossary.magento.com/library) is a flexible [Less]-based [frontend](https://glossary.magento.com/frontend) library designed to assist [theme](https://glossary.magento.com/theme) developers.
 It employs a set of mixins for base elements to ease frontend theme development and customization.
 
 This topic describes how the library is organized and how to use it.
 
-## Components provided by the UI library
+## Components
 
 The UI library provides the ability to customize and reuse the following user interface elements and properties:
 
@@ -106,7 +105,7 @@ The theme customized Blank by redefining variables only.
 
 ![*Changing design by redefining variables*][ui_lib2.png]
 
-## Your custom variables
+## Custom variables
 
 When naming custom variables, please follow the [naming convention for the Less variables](https://developer.adobe.com/commerce/php/coding-standards/less/#naming).
 
@@ -139,7 +138,7 @@ To call a mixin with parameter values different from default, set these values w
 Variables starting with `@_` are private mixin variables used only in this mixin.
 Variables starting with `@` (without the underscore) are global, and are listed in [`lib/web/css/source/lib/variables`].
 
-## Tabs and accordions set with CSS
+## Tabs and accordions
 
 Use the accordion style for mobile and tab style for desktop.
 
@@ -167,7 +166,7 @@ To set tabs and accordions using breakpoints, see the following example:
 }
 ```
 
-## Navigation set with CSS
+## Navigation
 
 Use the Navigation style for mobile and tab style for desktop.
 
@@ -191,7 +190,7 @@ To set navigation using breakpoints, see the following example:
 }
 ```
 
-## Tooltip element
+## Tooltips
 
 To create a tooltip element, use the `.lib-tooltip()` mixin.
 

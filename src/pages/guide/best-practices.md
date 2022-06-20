@@ -1,11 +1,9 @@
 ---
-group: frontend-developer-guide
-title: Theme development best practices
-functional_areas:
-  - Frontend
-  - Theme
-  - Standards
+title: Theme Development Best Practices | Commerce Frontend Development
+description:
 ---
+
+# Theme development best practices
 
 Utilizing best practices for theme development give you a better chance of avoiding conflicts and issues with your theme after you update or upgrade your instance or install a custom extension.
 

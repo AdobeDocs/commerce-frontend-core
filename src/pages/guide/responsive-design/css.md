@@ -1,11 +1,9 @@
 ---
-group: frontend-developer-guide
-title: CSS in responsive design
-functional_areas:
-  - Frontend
+title: CSS in Responsive Design | Commerce Frontend Development
+description:
 ---
 
-## In this topic
+# CSS in responsive design
 
 Stylesheets are the main tool in responsive web design (RWD) implementation. This topic describes the mechanisms and approaches to building RWD used in the default themes. To re-use them in your custom theme, make your theme [inherit][theme-inherit] from the Blank theme.
 
@@ -41,7 +39,7 @@ The default breakpoint variables are located in the UI library: `lib/web/css/sou
 
 You can change these breakpoints or add new ones in your custom theme. For instructions see the [Add a new breakpoint][rwd-breakpoints] topic.
 
-## Media queries in default themes
+## Media queries
 
 The Blank and Luma theme styles are based on the [UI library]. The library uses [CSS3 media queries][css3-media-queries-wiki], an extension of the `@media` rule, to adapt the layout to the screen width.
 

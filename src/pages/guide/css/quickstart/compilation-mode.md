@@ -1,9 +1,9 @@
 ---
-group: frontend-developer-guide
-title: Simple style changes with client-side LESS compilation vs. server-side
-functional_areas:
-  - Frontend
+title: Compilation Mode | Commerce Frontend Development
+description:
 ---
+
+# Compilation mode
 
 After you [create a theme](../../themes/create-storefront.md), you need to decide which LESS compilation mode to use before changing styles. You can choose between [two modes](../preprocess.md):
 
@@ -22,7 +22,7 @@ In our examples, we will change the color and font of the primary buttons. The d
 1. [Create a theme](../../themes/create-storefront.md). In your `theme.xml` file, specify Luma or Blank as the parent theme.
 1. [Apply your theme](../../themes/apply-storefront.md) in the [Admin](https://glossary.magento.com/magento-admin).
 
-## Using server-side compilation mode
+## Server-side compilation mode
 
 The following is an illustration of how the process of making simple changes looks like with the server-side LESS compilation mode:
 
@@ -68,7 +68,7 @@ The following is an illustration of how the process of making simple changes loo
 
 If you are using server-side compilation mode, you must [clean generated static view files](../../caching.md#clean-static-files). Continue to the next section to learn how to use Grunt to automate this process.
 
-## Using server-side compilation mode with Grunt
+## Server-side compilation mode with Grunt
 
 1. Navigate to your theme directory and create a `web/css/source/_extend.less` file.
 1. Install Grunt and register your theme as described in [Installing and configuring Grunt](../../tools/grunt.md).
@@ -109,7 +109,7 @@ If you are using server-side compilation mode, you must [clean generated static 
 
    ![Admin login page where the font of the buttons was changed](../../../_images/frontend/extend_less_screenshot221.png)
 
-## Using client-side compilation mode
+## Client-side compilation mode
 
 1. Navigate to your theme directory and create a `web/css/source/_extend.less` file.
 1. Log in to the Admin.

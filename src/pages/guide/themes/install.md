@@ -1,12 +1,9 @@
 ---
-group: frontend-developer-guide
-title: Install a third-party storefront theme
-functional_areas:
-  - Frontend
-  - Theme
+title: Install a Third-Party Storefront Theme | Commerce Frontend Development
+description:
 ---
 
-## What's in this topic
+# Install a third-party storefront theme
 
 This topic describes how to install a third-party [theme](https://glossary.magento.com/theme) for a store.
 
@@ -21,7 +18,7 @@ The following sections contain more information about each installation flow.
 
 [Set](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html) your application to the developer or default [mode](https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html).
 
-## Install a theme manually
+## Manual install
 
 To install a theme manually:
 
@@ -29,7 +26,7 @@ To install a theme manually:
 
 1. Copy this directory to the `<installation dir>/app/design/frontend` directory.
 
-## Install a theme as composer package
+## Composer install
 
 To install the theme as composer package, follow the instructions in the [Install, manage, and upgrade modules](https://devdocs.magento.com/cloud/howtos/install-components.html) topic.
 
@@ -41,7 +38,7 @@ To install the theme as composer package, follow the instructions in the [Instal
 
 Composer-based themes are loaded from external sources and cannot be modified directly, whereas local themes are part of the project source code and therefore can be edited directly.
 
-## Install a theme as an extension
+## Marketplace extension install
 
 If a theme is distributed on [Commerce Marketplace](https://marketplace.magento.com/), see [Install the Extension](https://devdocs.magento.com/extensions/install/).
 

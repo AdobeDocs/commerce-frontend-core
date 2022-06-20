@@ -1,12 +1,9 @@
 ---
-group: frontend-developer-guide
-title: Uninstall a storefront theme
-functional_areas:
-  - Frontend
-  - Theme
+title: Uninstall a Storefront Theme | Commerce Frontend Development
+description:
 ---
 
-## What's in this topic
+# Uninstall a storefront theme
 
 This topic describes how to uninstall a [storefront](https://glossary.magento.com/storefront) [theme](https://glossary.magento.com/theme).
 

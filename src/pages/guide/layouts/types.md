@@ -1,11 +1,9 @@
 ---
-group: frontend-developer-guide
-title: Layout file types
-functional_areas:
-  - Frontend
+title: Layout File Types | Commerce Frontend Development
+description:
 ---
 
-## What's in this topic
+# Layout file types
 
 For a particular page, its layout is defined by two major layout components: *page layout* file and *page configuration* file.
 
@@ -49,7 +47,7 @@ Sample page layout:
 </layout>
 ```
 
-### Page layout files conventional location
+### Conventional file location
 
 Conventionally page layouts must be located as follows:
 
@@ -124,14 +122,14 @@ By default, the application provides five page layout types for the frontend (`e
 
 The page configuration adds content to the wireframe defined in a page layout file. A page configuration also contains page meta-information, and contents of the `<head>` section.
 
-### Page configuration file conventional location
+### Conventional file location
 
 Conventionally page configuration files must be located as follows:
 
 *  Module page configurations: `<module_dir>/view/frontend/layout`
 *  Theme page configurations: `<theme_dir>/<Namespace>_<Module>/layout`
 
-### Page configuration structure and allowed layout instructions
+### Structure and allowed layout instructions
 
 The following table describes the instructions specific for page configuration files. For the descriptions of common layout instructions see [Layout instructions](xml-instructions.md).
 
@@ -403,14 +401,14 @@ The following table describes the instructions specific for page configuration f
 
 Generic layouts define the contents and detailed structure inside the `<body>` section of the HTML page markup.
 
-### Generic layout file conventional location
+### Conventional file location
 
 Conventionally generic layout files must be located as follows:
 
 *  Module generic layouts: `<module_dir>/view/frontend/layout`
 *  Theme generic layouts: `<theme_dir>/<Namespace>_<Module>/layout`
 
-### Generic layout structure and allowed layout instructions
+### Structure and allowed layout instructions
 
 The following table describes the instructions specific for generic layout files. For the descriptions of common layout instructions see [Layout instructions](xml-instructions.md).
 

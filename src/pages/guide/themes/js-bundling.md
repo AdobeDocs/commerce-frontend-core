@@ -1,14 +1,14 @@
 ---
-group: frontend-developer-guide
-title: JavaScript Bundling
-functional_areas:
-  - Frontend
-  - Theme
+title: JavaScript Bundling | Commerce Frontend Development
+description:
 ---
+
+# JavaScript bundling
+
 JavaScript bundling is an optimization technique you can use to reduce the number of server requests for JavaScript files.
 Bundling accomplishes this by merging multiple JavaScript files together into one file to reduce the number of page requests.
 
-## Enable JavaScript bundling
+## Enable bundling
 
 <InlineAlert variant="info" slots="text"/>
 
@@ -141,7 +141,7 @@ Example:
 The goal is to balance the number of bundles to download with the size of each bundle.
 As a rule of thumb, each bundle should be at least 100 kB.
 
-## Fine tuning your theme
+## Fine-tuning your theme
 
 There are many ways to tune your theme using the `etc/view.xml` file.
 

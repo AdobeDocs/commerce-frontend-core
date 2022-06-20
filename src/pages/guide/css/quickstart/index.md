@@ -1,16 +1,16 @@
 ---
-group: frontend-developer-guide
-title: Quick start guide to working with styles for a new theme
-functional_areas:
-  - Frontend
+title: Quickstart | Commerce Frontend Development
+description:
 ---
+
+# Quickstart
 
 This chapter combines the topics aiming to help you to quickly start working with styles of your custom theme:
 
 -  [Simple ways to customize a theme's styles]
 -  [Simple style changes with client-side Less compilation vs. server-side]
 
-## High-level steps to create a theme and change styles
+## Steps to create a theme and change styles
 
 1. [Set] your application to the developer [mode].
 1. In the file system, [add a new theme] inheriting from Blank or Luma.

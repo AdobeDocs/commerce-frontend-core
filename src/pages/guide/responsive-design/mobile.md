@@ -1,14 +1,11 @@
 ---
-group: frontend-developer-guide
-title: Create a responsive mobile theme based on a default theme
-functional_areas:
-  - Frontend
+title: Create a Responsive Mobile Theme | Commerce Frontend Development
+description:
 ---
-## What's in this topic
+
+# Create a responsive mobile theme
 
 The topic describes how to create a responsive mobile-specific theme using the default approaches.
-
-## Creating a mobile-specific theme
 
 To use all the responsive approaches implemented in the out-of-the-box Blank and Luma themes, your theme should declare one of them as a [parent](../themes/inherit.md).
 
@@ -27,7 +24,7 @@ To create a mobile-specific theme:
 
 The `<remove>` instruction removes the desktop-specific files from your theme.
 
-## Applying mobile-specific styles
+## Apply mobile-specific styles
 
 Use `styles-m.less` to generate mobile-specific styles.
 
