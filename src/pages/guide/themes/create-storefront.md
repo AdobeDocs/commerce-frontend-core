@@ -82,7 +82,7 @@ After you create a directory for your theme, you must create `theme.xml` contain
    </theme>
    ```
 
-If you change the theme title or parent theme information in `theme.xml` after a theme was already [registered](#register_theme), you need to open or reload any [Admin](https://glossary.magento.com/magento-admin) page for your changes to be saved in the database.
+If you change the theme title or parent theme information in `theme.xml` after a theme was already [registered](#add-registrationphp), you need to open or reload any [Admin](https://glossary.magento.com/magento-admin) page for your changes to be saved in the database.
 
 ## Make your theme a Composer package
 

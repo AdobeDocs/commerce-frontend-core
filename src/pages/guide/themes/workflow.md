@@ -47,12 +47,12 @@ For details, see [Apply and configure a storefront theme](apply-storefront.md)
 #### Grunt (recommended)
 
 *  [Setup Grunt](../tools/grunt.md)
-*  [Add the theme to Grunt configuration](../css/debug.md#adding-themes-to-grunt-configuration-addtheme)
-*  [Track changes](../css/debug.md#grunt-commands-gruntcommands)
+*  [Add the theme to Grunt configuration](../css/debug.md#adding-themes-to-grunt-configuration)
+*  [Track changes](../css/debug.md#use-cases-of-tracking-changes-using-grunt)
 
 #### Client-side compilation
 
-See [CSS preprocessing#client-side compilation mode](../css/preprocess.md#client-side-less-compilation-client-side)
+See [CSS preprocessing#client-side compilation mode](../css/preprocess.md#client-side-less-compilation)
 
 #### Server-side compilation (default)
 
@@ -74,14 +74,14 @@ See:
 See:
 
 *  [Locate the CSS/Less file you need to change](debug.md)
-*  [CSS source maps](../css/debug.md#css-source-maps-sourcemaps)
-*  [Track changes using Grunt](../css/debug.md#use-cases-of-tracking-changes-using-grunt-usecases)
+*  [CSS source maps](../css/debug.md#css-source-maps)
+*  [Track changes using Grunt](../css/debug.md#use-cases-of-tracking-changes-using-grunt)
 
 ### Clean cache and/or static files if necessary
 
 *  Certain changes in styles require cleaning previously pre-processed and published static view files. Run `grunt clean <theme>` or manually clear the `pub/static` and `var/view_preprocessed` directories. Do this after any changes in server-side compilation mode. For the client-side or Grunt compilation, see [Clean static files](../caching.md#clean-static-files) for details.
 
-*  Changes in layout and templates requires cleaning cache. See [Clean cache](../caching.md#clean-cache-cleancache) for details.
+*  Changes in layout and templates requires cleaning cache. See [Clean cache](../caching.md#clean-cache) for details.
 
 ### Make sure that the same styles are delivered to production (optional)
 

@@ -31,7 +31,7 @@ To apply a theme:
 
 1. On the **Default Theme** tab, in the **Applied Theme** drop-down, select your newly created theme.
 1. Click **Save Configuration**.
-1. If caching is enabled, [clear the cache](#theme-apply-clear).
+1. If caching is enabled, [clear the cache](#clear-the-cache).
 1. To see your changes applied, reload the storefront pages.
 
 ## Add a design exception
@@ -47,7 +47,7 @@ To add a design exception:
 ![Design Exception](../../_images/frontend/user_agent_rule.png)
 
 1. Click **Save Configuration** or **Save and Continue**.
-1. If caching is enabled, [clear the cache](#theme-apply-clear).
+1. If caching is enabled, [clear the cache](#clear-the-cache).
 1. To see your changes applied, reload the storefront pages.
 
 ## Add a theme-independent logo
@@ -62,7 +62,7 @@ To add a permanent theme-independent logo:
 1. Upload the file. Allowed file types include .png, .gif, .jpg, and .jpeg. To add an .svg logo, see [Declaring theme logo](create-storefront.md#declaring-theme-logo).
 1. Optionally, specify the desired width, height, and the alternative text for the logo in the corresponding fields.
 1. Click **Save Configuration** or **Save and Continue**.
-1. If caching is enabled, [clear the cache](#theme-apply-clear).
+1. If caching is enabled, [clear the cache](#clear-the-cache).
 1. To see your changes applied, reload the storefront pages.
 
 ![Set store logo in Admin](../../_images/frontend/logo.png)

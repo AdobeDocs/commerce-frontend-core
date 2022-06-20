@@ -7,7 +7,7 @@ functional_areas:
 
 The application enables you to localize your store for multiple regions and markets. We improved the localization and customization of instances by making translation dictionaries easier to update and by maintaining a reduced amount of code coupling and duplication.
 
-Also, we accept [Community Engineering contributions](#translations-project) using CrowdIn for translations. The project may include package creation and further support using the contributed translations.
+Also, we accept [Community Engineering contributions](#community-engineering-translations-project) using CrowdIn for translations. The project may include package creation and further support using the contributed translations.
 
 ## Translations terms
 
@@ -24,7 +24,7 @@ A *translation dictionary* is a comma-separated value (.csv) file with at least 
 
 *UI text strings* are the text elements in the Admin, including field names, instructions, notifications, and table and grid labels. When localizing, you replace these strings with translation dictionary content.
 
-A *language package* is basically a collection of translation dictionaries for a particular language together with meta-information. You can also distribute language packages to other merchants if you wish. [More information about language packages](#m2devgde-xlate-languagepack).
+A *language package* is basically a collection of translation dictionaries for a particular language together with meta-information. You can also distribute language packages to other merchants if you wish. [More information about language packages](#language-packages).
 
 <InlineAlert variant="info" slots="text"/>
 
@@ -48,7 +48,7 @@ Localizing storefronts and the Admin panel gives your company global presence fo
 *  Use ready-to-use language packages prepared by other users or create your own. The [Commerce Marketplace] offers language packs to download and install.
 *  Localize strings based on existing, or parent, translations using [language inheritance].
 *  Customize your translations further by creating more than one version of a translation for the same language to cover dialects and different phrasing.
-*  Contribute to [translations](#translations-project) through [CrowdIn project] with Community Engineering. We encourage translation contributions and efforts in the project for future language packs.
+*  Contribute to [translations](#community-engineering-translations-project) through [CrowdIn project] with Community Engineering. We encourage translation contributions and efforts in the project for future language packs.
 
 Depending on your needs, you can use the existing language packages, translate by yourself, or contribute.
 

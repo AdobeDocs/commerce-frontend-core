@@ -67,6 +67,6 @@ To do this, they added an overriding `_theme.less` file in the `app/design/front
 @header-icons-color-hover: @color-gray60;
 ```
 
-After the Grey theme is applied (and [static files cache cleared](../caching.md#clean-cache-cleancache)), store pages will look like following:
+After the Grey theme is applied (and [static files cache cleared](../caching.md#clean-cache)), store pages will look like following:
 
 ![product page when Grey applied](../../_images/frontend/css_practice.png)

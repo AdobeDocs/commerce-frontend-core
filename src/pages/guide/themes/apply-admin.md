@@ -35,7 +35,7 @@ If you decide to use the existing module, keep in mind, that theme declaring mig
 
 To apply the [Admin](https://glossary.magento.com/admin) theme, take the following steps:
 
-1. [Specify the new Admin theme in your module's `di.xml`](#specify_di)
+1. [Specify the new Admin theme in your module's `di.xml`](#specify-the-custom-admin-theme-in-dixml)
 1. Update the components by running the [`bin/magento setup:upgrade`](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-uninstall.html#instgde-install-keep) command.
 1. Open the Admin in browser and view the new theme applied.
 

@@ -8,7 +8,7 @@ functional_areas:
 <InlineAlert variant="warning" slots="text"/>
 
 Adobe Commerce and Magento Open Source 2.3.4 restricts the way that custom variables can be used within email templates.
-See [Migrating custom email templates](template-email-migration.html) for more information.
+See [Migrating custom email templates](email-migration.md) for more information.
 
 ## Customize email templates
 
@@ -38,8 +38,8 @@ Any templates configured in the [Admin](https://glossary.magento.com/admin) take
 
 1. In **Template Name**, enter a name to identify the template in the Admin.
 1. In **Template Subject**, add plain text to use as the Subject of the emails sent using the template you create. This field can contain system variables.
-1. Customize template content. For details, see [the section on customizing content](#customize-content).
-1. In **Template Styles**, optionally add CSS styles for the template. These styles are added inside of a `<style>` tag in the `<head>` of the email. Typically, you'll use the [Less files](#email-styles) to make style changes to emails because some email clients don't support styles in `<style>` tags.
+1. Customize template content. For details, see [the section on customizing content](#customize-email-content).
+1. In **Template Styles**, optionally add CSS styles for the template. These styles are added inside of a `<style>` tag in the `<head>` of the email. Typically, you'll use the [Less files](#styles-for-email-templates) to make style changes to emails because some email clients don't support styles in `<style>` tags.
 1. Click **Save Template**.
 1. Now that you have created a template, you must configure that template to be used:
 
@@ -61,14 +61,14 @@ Every frontend email template includes a header and footer template using these 
 *  [`<Magento_Email_module_dir>/view/frontend/email/header.html`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Email/view/frontend/email/header.html)
 *  [`<Magento_Email_module_dir>/view/frontend/email/footer.html`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Email/view/frontend/email/footer.html)
 
-You can customize header and footer templates using either the [theme](#customize-email-theme) or [admin](#customize-email-admin) customization methods discussed previously.
+You can customize header and footer templates using either the [theme](#customize-email-templates) or [admin](#customize-email-content) customization methods discussed previously.
 
 ### Customize email content
 
 <InlineAlert variant="warning" slots="text"/>
 
 Custom variables used within email templates in Adobe Commerce and Magento Open Source 2.3.4+ must be written in 'strict mode'.
-See [Migrating custom email templates](template-email-migration.html) for more information.
+See [Migrating custom email templates](email-migration.md) for more information.
 
 To add the store and sales related information to a template, use system variables.
 

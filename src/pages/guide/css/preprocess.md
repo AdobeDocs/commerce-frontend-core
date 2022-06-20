@@ -69,7 +69,7 @@ For each CSS file included in the layouts, Less preprocessor does the following:
 
 1. Checks if the requested `.css` file is found. If it is found, the preprocessor stops its execution. Otherwise, it proceeds to the next step.
 1. Changes the extension of the requested file to `.less` and tries to find the file using the [fallback mechanism]. If the `.less` file is not found, Less preprocessor stops its execution. Otherwise, it proceeds to the next step.
-1. Reads `.less` file contents and resolves [`@magento_import`](#fedg_css-magento-import) and default Less `@import` directives.
+1. Reads `.less` file contents and resolves [`@magento_import`](#the-magento_import-directive) and default Less `@import` directives.
 
 1. Resolves all paths in `.less` files to relative paths in the system using the fallback mechanism. All files resolved by the Less preprocessor are copied to `var/view_preprocessed/less`. Imported files are processed recursively.
 
@@ -155,7 +155,7 @@ The client-side compilation flow is similar to [server-side](#server-side-less-c
 
 <InlineAlert variant="info" slots="text"/>
 
-Symlink is not created, and a copy of the processed file is published to `pub/static` instead, if the source file differs from the processed one. One of the reasons of this difference might be the usage of the `@import` directive without file extension in the source file. See [The @import directive usage](#fedg_css-import) for more details.
+Symlink is not created, and a copy of the processed file is published to `pub/static` instead, if the source file differs from the processed one. One of the reasons of this difference might be the usage of the `@import` directive without file extension in the source file. See [The @import directive usage](#importing-remote-css-files) for more details.
 
 #### Styles debugging in client-side compilation mode
 
@@ -195,7 +195,7 @@ But in process of resolving the file path, the application adds the `.less` exte
 @import (css) 'styles.less';
 ```
 
-As a result, the processed files are different from the source files. So in the [client-side compilation mode](#client-side-less-compilation-client-side) or when using [grunt commands](debug.md), the application cannot use symlinks to the source files. Instead it uses the copies of processed files, and they are published to the `pub/static` directory. In case of importing CSS resources, this also results in not finding and not importing the required files.
+As a result, the processed files are different from the source files. So in the [client-side compilation mode](#client-side-less-compilation) or when using [grunt commands](debug.md), the application cannot use symlinks to the source files. Instead it uses the copies of processed files, and they are published to the `pub/static` directory. In case of importing CSS resources, this also results in not finding and not importing the required files.
 
 ### Importing remote CSS files
 

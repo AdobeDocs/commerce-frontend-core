@@ -38,7 +38,7 @@ The following is an illustration of how the process of making simple changes loo
    }
    ```
 
-1. [Clean static files cache](../../caching.md#clean-static-files-cache-cleanstaticcache).
+1. [Clean static files cache](../../caching.md#clean-cache).
 1. Refresh the page and verify your changes.
 
    ![Less code redefining the color of the primary buttons](../../../_images/frontend/extend_less_screenshot121.png)

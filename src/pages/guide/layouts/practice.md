@@ -72,7 +72,7 @@ The markup required for the drop-down is the following:
 
 ### Step 1: Define the layout blocks
 
-ExampleCorp [applies the Luma theme](../themes/apply-storefront.md). Using the approach described in [Locate templates, layouts, and styles](../themes/debug.mdl) they find out that the original block responsible for displaying the header links is defined in
+ExampleCorp [applies the Luma theme](../themes/apply-storefront.md). Using the approach described in [Locate templates, layouts, and styles](../themes/debug.md) they find out that the original block responsible for displaying the header links is defined in
 
 `<Magento_Theme_module_dir>/view/frontend/layout/default.xml`:
 
