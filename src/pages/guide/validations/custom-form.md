@@ -85,6 +85,7 @@ There are couple of ways to define validation rules for a form field.
     ...
 </form>
 ```
+
 ### Using `data-mage-init` with arguments
 
 ```html

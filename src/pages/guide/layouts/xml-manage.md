@@ -706,7 +706,7 @@ For Categories:
 where:
 
 -  _Category ID_ is desired category ID
--  _Layout Update Name_ is what is shown as the option for __Custom layout update__ field of __Design__ section on _Category Edit_ page.
+-  _Layout Update Name_ is what is shown as the option for **Custom layout update** field of **Design** section on _Category Edit_ page.
 
 For Products:
 
@@ -716,7 +716,7 @@ where:
 
 -  _Product SKU_ is the desired product's SKU encoded as a URI.
   _example_: "My Product SKU" -> "My%20Product%20SKU"
--  _Layout Update Name_ is what is shown as the option for __Custom layout update__ field of __Design__ section on _Product Edit_ page
+-  _Layout Update Name_ is what is shown as the option for **Custom layout update** field of **Design** section on _Product Edit_ page
 
 For CMS Pages:
 
@@ -725,10 +725,10 @@ For CMS Pages:
 where:
 
 -  _CMS Page Identifier_ is the desired page's _URL Key_ with "/" symbols replaced with "_".
--  _Layout Update Name_ is what is shown as the option for the  __Custom layout update__ field of the __Design__
+-  _Layout Update Name_ is what is shown as the option for the  **Custom layout update** field of the **Design**
   section on the _CMS Page Edit_ page. For example, a layout update for an "About Us" page will be "cms_page_view_selectable_about-us_AboutUs.xml".
 
-These files must be placed in the appropriate folders for layout XML files. They will be available as __Custom Layout Update__ options for Merchants after flushing the cache.
+These files must be placed in the appropriate folders for layout XML files. They will be available as **Custom Layout Update** options for Merchants after flushing the cache.
 
 <!-- Link Definitions -->
 [page configuration]: types.md#page-configuration

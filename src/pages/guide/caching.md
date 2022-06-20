@@ -94,7 +94,7 @@ You can clean generated static view files in any of the following ways:
     {:.bs-callout-info}
    This option is only available in `developer` mode. Refer to the [static view files overview](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-static-view.html#config-cli-static-overview) for more information. For more details about the application modes, see [application modes](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html)
 
--  Manually by clearing the `pub/static` and `var/view_preprocessed` directories and subdirectories _except_ for `pub/static/.htaccess`.
+-  Manually by clearing the `pub/static` and `var/view_preprocessed` directories and subdirectories *except* for `pub/static/.htaccess`.
 
    To clear the `pub/static` directory of all files except `.htaccess` (which is a hidden file), enter the following command:
 
