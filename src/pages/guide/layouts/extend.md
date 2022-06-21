@@ -1,6 +1,6 @@
 ---
 title: Extend a Layout | Commerce Frontend Development
-description:
+description: View code samples for extneding layouts in Adobe Commerce and Magento Open Source themes.
 ---
 
 # Create a theme extending file

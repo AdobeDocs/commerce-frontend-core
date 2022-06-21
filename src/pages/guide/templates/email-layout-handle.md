@@ -1,6 +1,6 @@
 ---
 title: Email Templates Layout Handle | Commerce Frontend Development
-description:
+description: Learn how to use custom variables in email templates for Adobe Commerce and Magento Open Source themes.
 ---
 
 <InlineAlert variant="warning" slots="text"/>

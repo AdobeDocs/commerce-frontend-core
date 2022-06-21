@@ -1,6 +1,6 @@
 ---
 title: Practice Customizing Responsive Web Design | Commerce Frontend Development
-description:
+description: Follow this tutorial to customize the respsonsive design in an Adobe Commerce or Magento Open Source theme.
 ---
 
 # Practice customizing responsive web design

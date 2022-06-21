@@ -1,6 +1,6 @@
 ---
 title: Common Customization Tasks | Commerce Frontend Development
-description:
+description: View code samples for customizing page layouts in Adobe Commerce and Magento Open Source themes.
 ---
 
 # Common customization tasks

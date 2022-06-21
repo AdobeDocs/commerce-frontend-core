@@ -1,11 +1,11 @@
 ---
 title: Conventions | Commerce Frontend Development
-description:
+description: Review standard file naming conventions and locations for Adobe Commerce and Magento Open Source components.
 ---
 
 # Conventional notations for paths to modules and themes
 
-application components, including modules, themes, and language packages technically can be located anywhere under the installation directory. This refers to both, default and custom components.
+Application components, including modules, themes, and language packages technically can be located anywhere under the installation directory. This refers to both, default and custom components.
 
 The following relative paths are used for modules and themes:
 

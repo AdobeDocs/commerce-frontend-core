@@ -1,6 +1,6 @@
 ---
 title: Practice customizing styles | Commerce Frontend Development
-description:
+description: Follow this tutorial to customize the color scheme in an Adobe Commerce or Magento Open Source theme.
 ---
 
 # Practice customizing styles

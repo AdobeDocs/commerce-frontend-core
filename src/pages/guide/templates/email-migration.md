@@ -1,6 +1,6 @@
 ---
 title: Migrate Custom Email Templates | Commerce Frontend Development
-description:
+description: Learn how to migrate custom email templates between versions of Adobe Commerce and Magento Open Source themes.
 ---
 
 # Migrate custom email templates

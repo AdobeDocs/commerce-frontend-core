@@ -1,6 +1,6 @@
 ---
 title: Theme Structure | Commerce Frontend Development
-description:
+description: Use this reference to learn how Adobe Commerce and Magento Open Source themes are structured.
 ---
 
 # Theme structure

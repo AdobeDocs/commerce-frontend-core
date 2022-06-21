@@ -1,6 +1,6 @@
 ---
 title: Custom CSS Preprocessors | Commerce Frontend Development
-description: Explore topics related to using a custom CSS preprocessor with Adobe Commerce and Magento Open Source frontends.
+description: Explore topics related to using a custom CSS preprocessor with Adobe Commerce and Magento Open Source themes.
 ---
 
 # Custom CSS preprocessors

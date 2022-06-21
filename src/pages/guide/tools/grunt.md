@@ -1,6 +1,6 @@
 ---
 title: Grunt | Commerce Frontend Development
-description:
+description: Follow this tutorial to install and configure Grunt for Adobe Commerce and Magento Open Source theme development.
 ---
 
 # Grunt

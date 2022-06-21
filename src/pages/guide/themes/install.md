@@ -1,6 +1,6 @@
 ---
 title: Install a Third-Party Storefront Theme | Commerce Frontend Development
-description:
+description: Learn about the installation methods available for Adobe Commerce and Magento Open Source themes.
 ---
 
 # Install a third-party storefront theme

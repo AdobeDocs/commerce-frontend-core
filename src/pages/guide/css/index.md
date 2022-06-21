@@ -1,6 +1,6 @@
 ---
 title: Cascading Style Sheets (CSS) | Commerce Frontend Development
-description:
+description: Manage CSS and LESS stylesheets when developing Adobe Commerce and Magento Open Source themes.
 ---
 
 # Cascading style sheets (CSS)

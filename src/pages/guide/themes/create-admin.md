@@ -1,6 +1,6 @@
 ---
 title: Create an Admin Theme | Commerce Frontend Development
-description:
+description: View code samples for creating an Adobe Commerce and Magento Open Source Admin theme.
 ---
 # Create an Admin theme
 

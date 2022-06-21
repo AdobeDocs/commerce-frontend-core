@@ -1,6 +1,6 @@
 ---
 title: Email Templates | Commerce Frontend Development
-description:
+description: Use this reference to learn about email templates in Adobe Commerce and Magento Open Source themes.
 ---
 
 <InlineAlert variant="warning" slots="text"/>

@@ -1,6 +1,6 @@
 ---
 title: Layouts | Commerce Frontend Development
-description:
+description: Review introductory information about how layouts work in Adobe Commerce and Magento Open Source themes.
 ---
 
 # Layouts

@@ -1,6 +1,6 @@
 ---
 title: Apply an Admin Theme | Commerce Frontend Development
-description:
+description: View code samples for applying a theme for the Adobe Commerce and Magento Open Source Admin application.
 ---
 
 # Apply an Admin theme

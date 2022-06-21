@@ -1,6 +1,6 @@
 ---
 title: Theme Inheritance | Commerce Frontend Development
-description:
+description: Minimize your Adobe Commerce and Magento Open Source theme maintenance efforts using inheritance.
 ---
 
 # Theme inheritance

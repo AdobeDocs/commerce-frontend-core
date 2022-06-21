@@ -1,6 +1,6 @@
 ---
 title: Create a Storefront Theme | Commerce Frontend Development
-description:
+description: View code samples for creating an Adobe Commerce and Magento Open Source storefront theme.
 ---
 
 # Create a storefront theme

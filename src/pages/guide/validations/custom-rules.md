@@ -1,6 +1,6 @@
 ---
 title: Custom Form Validation Rules | Commerce Frontend Development
-description:
+description: View code samples for creating custom form validation rules for Adobe Commerce and Magento Open Source themes.
 contributor_name: Adarsh Manickam
 contributor_link: https://github.com/drpayyne
 ---

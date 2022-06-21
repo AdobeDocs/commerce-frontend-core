@@ -1,6 +1,6 @@
 ---
 title: Translations | Commerce Frontend Development
-description:
+description: Review introductory information about how translations work in Adobe Commerce and Magento Open Source themes.
 ---
 
 # Translations

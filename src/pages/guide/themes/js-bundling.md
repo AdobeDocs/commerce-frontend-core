@@ -1,6 +1,6 @@
 ---
 title: JavaScript Bundling | Commerce Frontend Development
-description:
+description: Optimize the performance of your Adobe Commerce or Magento Open Source theme with JavaScript bundling. 
 ---
 
 # JavaScript bundling

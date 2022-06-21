@@ -1,6 +1,6 @@
 ---
 title: Frontend Developer Guide | Commerce Frontend Development
-description:
+description: Learn how frontend developers customize the Adobe Commerce and Magento Open Source storefront and Admin applications.
 ---
 
 # Frontend Developer Guide

@@ -1,6 +1,6 @@
 ---
 title: Themes | Commerce Frontend Development
-description:
+description: Review introductory information about how themes work in Adobe Commerce and Magento Open Source.
 ---
 
 # Themes

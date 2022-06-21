@@ -1,7 +1,8 @@
 ---
 title: Customize Theme Styles | Commerce Frontend Development
-description:
+description: Customize Adobe Commerce or Magento Open Source theme styles.
 ---
+
 # Customize theme styles
 
 Let's say you created a new [theme](https://glossary.magento.com/theme) inheriting from Blank or Luma, and chose the [Less compilation mode]. What's next? Where to add the style changes? This topic gives quick answers.

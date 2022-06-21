@@ -1,6 +1,6 @@
 ---
 title: Override a Layout | Commerce Frontend Development
-description:
+description: View code samples for overriding layouts in Adobe Commerce and Magento Open Source themes.
 ---
 
 # Override a layout

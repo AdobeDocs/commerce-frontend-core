@@ -1,7 +1,8 @@
 ---
 title: Add Custom Favicons | Commerce Frontend Development
-description:
+description: Learn how to add favicons to Adobe Commerce and Magento Open Source themes.
 ---
+
 # Add custom favicons
 
 This topic describes how to add custom favicons.

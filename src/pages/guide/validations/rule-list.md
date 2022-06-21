@@ -1,6 +1,6 @@
 ---
 title: Form Validation Rule List | Commerce Frontend Development
-description:
+description: Use this reference to learn about default form validation rules that exist in Adobe Commerce and Magento Open Source themes.
 contributor_name: Goivvy LLC
 contributor_link: https://www.goivvy.com/magento-optimization-service
 ---

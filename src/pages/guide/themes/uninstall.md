@@ -1,6 +1,6 @@
 ---
 title: Uninstall a Storefront Theme | Commerce Frontend Development
-description:
+description: Learn how to uninstall Adobe Commerce and Magento Open Source themes.
 ---
 
 # Uninstall a storefront theme

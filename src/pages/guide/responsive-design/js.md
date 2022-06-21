@@ -1,6 +1,6 @@
 ---
 title: JavaScript in Responsive Design | Commerce Frontend Development
-description:
+description: Learn how respsonsive Adobe Commerce and Magento Open Source themes use JavaScript.
 ---
 
 # JavaScript in responsive web design

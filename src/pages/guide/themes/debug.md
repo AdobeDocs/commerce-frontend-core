@@ -1,6 +1,6 @@
 ---
 title: Locate Templates, Layouts, and Styles | Commerce Frontend Development
-description:
+description: Learn how to debug templates, layouts, and styles for Adobe Commerce and Magento Open Source themes.
 ---
 
 # Locate templates, layouts, and styles

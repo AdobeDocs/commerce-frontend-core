@@ -1,6 +1,6 @@
 ---
 title: Theme Development Workflow | Commerce Frontend Development
-description:
+description: Review the Adobe Commerce and Magento Open Source theme development workflow.
 ---
 
 # Theme development workflow

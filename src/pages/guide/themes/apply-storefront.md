@@ -1,6 +1,6 @@
 ---
 title: Apply and Configure a Storefront Theme | Commerce Frontend Development
-description:
+description: View code samples for applying a theme for the Adobe Commerce and Magento Open Source storefront application.
 ---
 
 # Apply and configure a storefront theme

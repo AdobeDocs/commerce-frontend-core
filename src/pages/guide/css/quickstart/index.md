@@ -1,14 +1,14 @@
 ---
 title: Quickstart | Commerce Frontend Development
-description:
+description: Start customizing your Adobe Commerce or Magento Open Source theme.
 ---
 
 # Quickstart
 
 This chapter combines the topics aiming to help you to quickly start working with styles of your custom theme:
 
--  [Simple ways to customize a theme's styles]
--  [Simple style changes with client-side Less compilation vs. server-side]
+-  Simple ways to customize a theme's styles
+-  Simple style changes with client-side Less compilation vs. server-side
 
 ## Steps to create a theme and change styles
 

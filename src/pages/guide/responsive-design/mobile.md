@@ -1,6 +1,6 @@
 ---
 title: Create a Responsive Mobile Theme | Commerce Frontend Development
-description:
+description: View code samples for creating responsive mobile themes for Adobe Commerce and Magento Open Source.
 ---
 
 # Create a responsive mobile theme

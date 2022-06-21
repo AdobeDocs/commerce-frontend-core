@@ -1,11 +1,11 @@
 ---
 title: Include CSS | Commerce Frontend Development
-description:
+description: Follow these best practices for structuring stylesheets in Adobe Commerce and Magento Open Source themes.
 ---
 
 # Include CSS
 
-In the application, CSS files are included in [layout files].
+In the application, CSS files are included in [layout files](../layouts/index.md).
 
 Technically there is an option to include them in template files, but we strongly recommend avoiding this.
 

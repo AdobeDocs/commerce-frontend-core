@@ -1,6 +1,6 @@
 ---
 title: Compilation Mode | Commerce Frontend Development
-description:
+description: Learn LESS compilation modes for Adobe Commerce and Magento Open Source themes.
 ---
 
 # Compilation mode

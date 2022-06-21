@@ -1,6 +1,6 @@
 ---
 title: Theme Development Best Practices | Commerce Frontend Development
-description:
+description: Use this collection of best practices to avoid commonly reported issues in Adobe Commerce and Magento Open Source theme development.
 ---
 
 # Theme development best practices

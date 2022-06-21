@@ -1,6 +1,6 @@
 ---
 title: Theme Translation Dictionary Exmple | Commerce Frontend Development
-description:
+description: Follow this tutorial to create a translation dictionary for an Adobe Commerce or Magento Open Source theme.
 ---
 
 # Theme translation dictionary example

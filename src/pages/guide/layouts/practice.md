@@ -1,6 +1,6 @@
 ---
 title: Practice Customizing Layouts | Commerce Frontend Development
-description:
+description: Follow this tutorial to customize the page layout in an Adobe Commerce or Magento Open Source theme.
 ---
 
 # Practice customizing layouts

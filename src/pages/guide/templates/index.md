@@ -1,6 +1,6 @@
 ---
 title: Templates | Commerce Frontend Development
-description:
+description: Review introductory information about how templates work in Adobe Commerce and Magento Open Source themes.
 ---
 
 # Templates

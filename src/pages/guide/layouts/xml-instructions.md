@@ -1,6 +1,6 @@
 ---
 title: Layout Instructions | Commerce Frontend Development
-description:
+description: Manage page layouts in Adobe Commerce and Magento Open Source themes.
 ---
 
 # Layout instructions

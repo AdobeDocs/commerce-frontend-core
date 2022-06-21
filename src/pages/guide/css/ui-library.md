@@ -1,6 +1,6 @@
 ---
 title: UI Library | Commerce Frontend Development
-description:
+description: Use mixins to accelerate Adobe Commerce and Magento Open Source theme development.
 ---
 
 # UI libraary

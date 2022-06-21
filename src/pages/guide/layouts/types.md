@@ -1,6 +1,6 @@
 ---
 title: Layout File Types | Commerce Frontend Development
-description:
+description: Use this reference to learn about layout file types in Adobe Commerce and Magento Open Source themes.
 ---
 
 # Layout file types

@@ -1,6 +1,6 @@
 ---
 title: Configure Product Video | Commerce Frontend Development
-description:
+description: Embed videos from external sources in product pages for Adobe Commerce and Magento Open Source themes.
 ---
 
 # Configure product video

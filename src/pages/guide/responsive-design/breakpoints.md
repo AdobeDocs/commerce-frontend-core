@@ -1,6 +1,6 @@
 ---
 title: Add a Custom Breakpoint | Commerce Frontend Development
-description:
+description: View code samples for adding custom breakpoints in Adobe Commerce and Magento Open Source themes.
 ---
 
 # Add a custom breakpoint
