@@ -7,12 +7,12 @@ module.exports = [
       title: "Guide",
       path: "/guide/",
     },
-    {
-      title: "UI Components",
-      path: "/ui-components/",
-    },
-    {
-      title: "JavaScript",
-      path: "/javascript/",
-    },
+    // {
+    //   title: "UI Components",
+    //   path: "/ui-components/",
+    // },
+    // {
+    //   title: "JavaScript",
+    //   path: "/javascript/",
+    // },
   ];
