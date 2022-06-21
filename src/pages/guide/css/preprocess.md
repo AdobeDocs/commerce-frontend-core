@@ -9,37 +9,23 @@ The topic describes how stylesheets are preprocessed and compiled to [CSS](https
 
 ## Terms used
 
-<table>
-    <tr>
-        <th>
-            Term
-        </th>
-        <th>
-            Description
-        </th>
-    </tr>
-    <tr>
-        <td>
-            <p>Root source files</p>
-        </td>
-        <td>
-            The <code>.less</code> files from which the <code>.css</code> files <a href="themes.md">included in layout</a> are compiled. For example, in one of the <a href="https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/blank/Magento_Theme/layout/default_head_blocks.xml">layout files of the Blank theme</a>, the following <code>.css</code> files are included in the <code>head</code>:
-<pre>
-&lt;head&gt;
-    &lt;css src="css/styles-m.css"/&gt;
-    &lt;css src="css/styles-l.css" media="screen and (min-width: 768px)"/&gt;
-    &lt;css src="css/print.css" media="print"/&gt;
-&lt;/head&gt;
-</pre>
-   The root source files for the Blank theme:
-  <ul>
-   <li><a href="https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/blank/web/css/styles-m.less">Magento_Blank_theme_dir/web/css/styles-m.less</a></li>
-   <li><a href="https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/blank/web/css/styles-l.less">Magento_Blank_theme_dir/web/css/styles-l.less</a></li>
-   <li><a href="https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/blank/web/css/print.less">Magento_Blank_theme_dir/web/css/print.less</a></li>
-  </ul>
- </td>
- </tr>
-</table>
+### Root source files
+
+The `.less` files from which the `.css` files [included in layout](themes.md) are compiled. For example, in one of the [layout files of the Blank theme](https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/blank/Magento_Theme/layout/default_head_blocks.xml), the following `.css` files are included in the `head`:
+
+```html
+<head>
+   <css src="css/styles-m.css"/>
+   <css src="css/styles-l.css" media="screen and (min-width: 768px)"/>
+   <css src="css/print.css" media="print"/>
+</head>
+```
+
+The root source files for the Blank theme:
+
+-  [Magento_Blank_theme_dir/web/css/styles-m.less](https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/blank/web/css/styles-m.less)
+-  [Magento_Blank_theme_dir/web/css/styles-l.less](https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/blank/web/css/styles-l.less)
+-  [Magento_Blank_theme_dir/web/css/print.less](https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/blank/web/css/print.less)
 
 ## LESS compilation modes
 
@@ -251,37 +237,32 @@ In the scope of static resources preprocessing, the built-in LESS preprocessor d
 
 Example of how `@magento_import` is used and processed in `Magento_Blank_theme_dir/web/css/styles-l.less`:
 
-<table>
-   <tbody>
-      <tr>
-         <th>Before</th>
-         <th>After</th>
-      </tr>
-      <tr class="even">
-         <td> In <code>`Magento_Blank_theme_dir/web/css/styles-l.less`</code> there's a following directive:
-<pre>
+#### Before
+
+In `Magento_Blank_theme_dir/web/css/styles-l.less` there's a following directive:
+
+```less
 ..
  //@magento_import 'source/_widgets.less'; // Theme widgets
 ..
-</pre>
-   </td>
-   <td> In the processed file, this results in the following:
-<pre>
+```
+
+#### After
+
+In the processed file, this results in the following:
+
+```less
 @import '../Magento_Catalog/css/source/_widgets.less';
 @import '../Magento_Cms/css/source/_widgets.less';
 @import '../Magento_Reports/css/source/_widgets.less';
 @import '../Magento_Sales/css/source/_widgets.less';
  // Theme widgets
-</pre>
-         </td>
-      </tr>
-   </tbody>
-</table>
+```
 
 <!-- Link definitions -->
 [production application mode]: https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html#production-mode
 [LESS PHP library]: https://github.com/wikimedia/less.php
 [native `less.js` library]: http://lesscss.org/usage/#using-less-in-the-browser
-[fallback mechanism]: ../themes/inherit.md#override-static-assets
+[fallback mechanism]: ../themes/inheritance.md#override-static-assets
 [publication]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-static-view.html#config-cli-static-overview
-[static files fallback]: ../themes/inherit.md#override-static-assets
+[static files fallback]: ../themes/inheritance.md#override-static-assets

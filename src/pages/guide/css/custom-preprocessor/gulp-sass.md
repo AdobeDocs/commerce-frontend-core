@@ -7,7 +7,7 @@ description: Learn how to use a Sass preprocessor and Gulp task runner to automa
 
 By default, the application uses [Less](http://lesscss.org/) for themes styling. But you can use other stylesheet languages that can be compiled (processed) to CSS. For example, Sass is a popular alternative.
 
-If you decide not to use Less and the default [UI library](../theme-ui-lib.md), you need to create your own theme from scratch and use an alternative preprocessor. This topic describes how to configure and use the [Gulp](http://gulpjs.com/) task runner and the gulp-sass package for the Sass preprocessor.
+If you decide not to use Less and the default [UI library](../ui-library.md), you need to create your own theme from scratch and use an alternative preprocessor. This topic describes how to configure and use the [Gulp](http://gulpjs.com/) task runner and the gulp-sass package for the Sass preprocessor.
 
 For details about adding a custom preprocessor, see [Add custom CSS preprocessor](add.md).
 

@@ -162,7 +162,7 @@ If you need help understanding the context or meaning of a UI string, or have qu
 
 [Generate a translation dictionary]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-i18n.html#config-cli-subcommands-xlate-dict
 [language inheritance]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-i18n.html#m2devgde-xlate-inheritancework
-[parent theme]: ../themes/inherit.md
+[parent theme]: ../themes/inheritance.md
 [Example theme translation dictionary]: practice.md
 [translation dictionary tool]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-i18n.html#config-cli-subcommands-xlate-dict
 [language package]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-i18n.html#config-cli-subcommands-xlate-pack

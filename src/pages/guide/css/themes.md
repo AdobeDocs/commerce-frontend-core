@@ -3,7 +3,7 @@ title: Include CSS | Commerce Frontend Development
 description:
 ---
 
-## Include CSS
+# Include CSS
 
 In the application, CSS files are included in [layout files].
 

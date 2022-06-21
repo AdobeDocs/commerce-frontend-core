@@ -7,7 +7,7 @@ description:
 
 The topic describes how to create a responsive mobile-specific theme using the default approaches.
 
-To use all the responsive approaches implemented in the out-of-the-box Blank and Luma themes, your theme should declare one of them as a [parent](../themes/inherit.md).
+To use all the responsive approaches implemented in the out-of-the-box Blank and Luma themes, your theme should declare one of them as a [parent](../themes/inheritance.md).
 
 To create a mobile-specific theme:
 

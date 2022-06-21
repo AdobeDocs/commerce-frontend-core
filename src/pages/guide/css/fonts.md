@@ -89,7 +89,7 @@ For Example:
 }
 ```
 
-See the [UI library](theme-ui-lib.md) for an icon list and implementation.
+See the [UI library](ui-library.md) for an icon list and implementation.
 
 To customize a font you import, consider using [IcoMoon](https://icomoon.io/app/). To override Luma or Blank theme icon fonts, change the font path in the `_theme.less` file. For example:
 

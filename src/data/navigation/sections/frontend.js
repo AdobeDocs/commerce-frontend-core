@@ -75,11 +75,11 @@ module.exports = [
     },
     {
       title: "Layouts",
-      path: "/guide/layout/",
+      path: "/guide/layouts/",
       pages: [
         {
           title: "Layout instructions",
-          path: "guide/layouts/wml-instructions/",
+          path: "guide/layouts/xml-instructions/",
         },
         {
           title: "Layout file types",

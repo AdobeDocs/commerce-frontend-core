@@ -30,9 +30,6 @@ Use the `bin/magento dev:template-hints:enable` command to enable template hints
 
 ```bash
 bin/magento dev:template-hints:enable
-```
-
-```terminal
 Template hints enabled.
 ```
 

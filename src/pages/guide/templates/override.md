@@ -114,6 +114,6 @@ In order to support the translation of content, the text must be wrapped inside 
 ```
 
 [`app/code/Magento/Catalog/view/frontend/layout/catalog_category_view.xml`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Catalog/view/frontend/layout/catalog_category_view.xml
-[Child theme]: ../themes/inherit.md
-[Theme inheritance]: ../themes/inherit.md#override-templates
+[Child theme]: ../themes/inheritance.md
+[Theme inheritance]: ../themes/inheritance.md#override-templates
 [Block arguments]: ../layouts/xml-instructions.md#argument

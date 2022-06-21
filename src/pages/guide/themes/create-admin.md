@@ -28,7 +28,7 @@ In the `app/design/adminhtml` directory create a new `<Vendor>/<admin_theme>` di
 
 ## Add a declaration `theme.xml`
 
-In the theme directory, add `theme.xml` containing at least the theme name and the parent theme name (if the theme [inherits](inherit.md) from one). We recommend you to inherit from the default Admin theme: `Magento/backend`.
+In the theme directory, add `theme.xml` containing at least the theme name and the parent theme name (if the theme [inherits](inheritance.md) from one). We recommend you to inherit from the default Admin theme: `Magento/backend`.
 
 Add or copy from an existing `theme.xml` to your theme directory `app/design/adminhtml/<Vendor>/<admin_theme>`.
 

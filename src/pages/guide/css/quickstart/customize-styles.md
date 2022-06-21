@@ -165,4 +165,4 @@ To override module styles in your theme:
 For example, to override the Magento_Review module's style, the directory path should be `<your_theme_dir>/Magento_Review/web/css/source/_module.less`.
 
 [Less compilation mode]: compilation-mode.md
-[UI library component]: ../theme-ui-lib.md#components
+[UI library component]: ../ui-library.md#components

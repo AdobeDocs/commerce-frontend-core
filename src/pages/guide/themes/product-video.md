@@ -3,9 +3,10 @@ title: Configure Product Video | Commerce Frontend Development
 description:
 ---
 
-# configure product video
+# Configure product video
 
-You can add video from external resources (currently, from [YouTube](https://youtube.com) and [Vimeo](https://vimeo.com/)) on product pages. Video is [added in Admin]({{ site.user_guide_url }}/catalog/product-video.html) when creating or editing a product.
+You can add video from external resources (currently, from [YouTube](https://youtube.com) and [Vimeo](https://vimeo.com/)) on product pages. Video is [added in Admin](https://docs.magento.com/user-guide/catalog/product-video.html) when creating or editing a product.
+
 Certain product video options can be set in the `config.xml` configuration file. These settings are not theme-specific.
 
 ## Programmatic options

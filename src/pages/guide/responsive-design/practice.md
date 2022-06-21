@@ -7,7 +7,7 @@ description:
 
 This topic features a step-by-step illustration of how to change the number of products displayed in a row on a product page, keeping up with the responsive design approach used by out-of-the-box themes.
 
-The described flow is applicable only for themes that [inherit](../themes/inherit.md) from the out-of-the-box Blank or Luma [theme](https://glossary.magento.com/theme).
+The described flow is applicable only for themes that [inherit](../themes/inheritance.md) from the out-of-the-box Blank or Luma [theme](https://glossary.magento.com/theme).
 
 ## Change the number of products in a row
 

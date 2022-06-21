@@ -42,19 +42,20 @@ To create the directory for your theme:
 
 1. Under the `<vendor>` directory, create a directory named according to your theme.
 
-   <pre>
-    app/design/frontend/
-    ├──&nbsp;&lt;Vendor&gt;/
-    │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├──...&lt;theme&gt;/
-    │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├──&nbsp;...
-    │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├──&nbsp;...
-   </pre>
+   ```text
+   app/design/frontend/
+   ├── <Vendor>/
+   │   ├──...<theme>/
+   │   │   ├── ...
+   │   │   ├── ...
+   │   │   ├── ...
+   ```
 
 The folder name conventionally matches naming used in the theme's code: any alphanumeric set of characters, as the vendor sees fit, is acceptable. This convention is merely a recommendation, so nothing prevents naming this directory in another way.
 
 ## Declare your theme
 
-After you create a directory for your theme, you must create `theme.xml` containing at least the theme name. Optionally, you can specify the parent theme name (if the theme [inherits](inherit.md) from one) and, if necessary, where the theme preview image is stored.
+After you create a directory for your theme, you must create `theme.xml` containing at least the theme name. Optionally, you can specify the parent theme name (if the theme [inherits](inheritance.md) from one) and, if necessary, where the theme preview image is stored.
 
 1. Add or copy from an existing `theme.xml` file to your theme directory `app/design/frontend/<Vendor>/<theme>`.
 
@@ -161,7 +162,7 @@ If the product image sizes of your theme differ from those of the parent theme, 
      </image>
    ```
 
-For details about images configuration in the `view.xml` file, see the [Configure images properties for a theme](images.md) topic.
+For details about images configuration in the `view.xml` file, see the [Configure images properties for a theme](configure.md) topic.
 
 ## Create directories for static files
 
@@ -174,15 +175,15 @@ Your theme will likely contain several types of static files:
 
 Each type should be stored in a separate sub-directory of `web` in your theme folder:
 
-<pre>
-app/design/&lt;area&gt;/&lt;Vendor&gt;/&lt;theme&gt;/
-├──&nbsp;web/
-│&nbsp;├──&nbsp;css/
-│&nbsp;│&nbsp;├──&nbsp;source/&nbsp;
-│&nbsp;├──&nbsp;fonts/
-│&nbsp;├──&nbsp;images/
-│&nbsp;├──&nbsp;js/
-</pre>
+```text
+app/design/<area>/<Vendor>/<theme>/
+├── web/
+│   ├──css/
+│   │   ├── source/
+│   ├── fonts/
+│   ├── images/
+│   ├── js/
+```
 
 In the `.../<theme>/web/images` directory, you store the general theme-related static files. For example, a theme logo is stored in `...<theme>/web/images`.
 
@@ -208,18 +209,18 @@ rm -r <magento_root>/var/view_preprocessed/*
 
 At this point your theme file structure looks as follows:
 
-<pre>
-app/design/frontend/&lt;Vendor&gt;/
-├──&nbsp;&lt;theme&gt;/
-│&nbsp;&nbsp;&nbsp;├──&nbsp;etc/
-│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├──&nbsp;view.xml
-│&nbsp;&nbsp;&nbsp;├──&nbsp;web/
-│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├──&nbsp;images
-│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├──&nbsp;logo.svg
-│&nbsp;&nbsp;&nbsp;├──&nbsp;registration.php
-│&nbsp;&nbsp;&nbsp;├──&nbsp;theme.xml
-│&nbsp;&nbsp;&nbsp;├──&nbsp;composer.json
-</pre>
+```text
+app/design/frontend/<Vendor>/
+├── <theme>/
+│   ├── etc/
+│   │   ├── view.xml
+│   ├── web/
+│   │   ├── images/
+│   │   │   ├── logo.svg
+│   ├── registration.php
+│   ├── theme.xml
+│   ├── composer.json
+```
 
 ## Theme logo
 
@@ -227,7 +228,7 @@ In the application, the default format and name of a logo image is `logo.svg`. W
 
 In your custom theme, you can use a logo file with a different name and format, but you might need to declare it.
 
-The necessity of declaration depends on whether your theme has a [parent](inherit.md) theme and its logo image. The following cases are possible:
+The necessity of declaration depends on whether your theme has a [parent](inheritance.md) theme and its logo image. The following cases are possible:
 
 *  Your theme does not have a parent theme:
    *  If your logo image name and format uses the default naming convention (`logo.svg`), there is no need to declare it.

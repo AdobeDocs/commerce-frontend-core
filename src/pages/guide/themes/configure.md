@@ -40,49 +40,11 @@ Image properties are configured for each image type defined by the `id` and `typ
 ```
 
 The following table describes the attributes in detail:
-<table>
-  <tbody>
-    <tr>
-      <th>Attribute</th>
-      <th>Type</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <td>
-        <code>
-          id
-        </code>
-      </td>
-      <td>
-        string
-      </td>
-      <td>
-        <p>Image identifier. Unique in the scope of theme.</p> <p>
-Can have any value, but in out-of-the-box themes <code>id</code>'s are meaningful and describe the location of an image.</p><p> For example, the <code>id</code> value for images of [cross-sell](https://glossary.magento.com/cross-sell) products displayed in a shopping cart is <code>cart_cross_sell_products</code>.</p> <p><code>id</code>'s are used in <code>.phtml</code> templates for defining the type and properties of images displayed in each particular location on a particular page.</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <code>
-          type
-        </code>
-      </td>
-      <td>
-        string
-      </td>
-      <td>
-        The type of the images defined by the specified <code>id</code>. Allowed values:
-        <ul>
-        <li><code>image</code> - corresponds to the Base Image role in the Admin</li>
-        <li><code>small_image</code> - corresponds to the Small Image role in the Admin</li>
-        <li><code>swatch_image</code> - corresponds to the Swatch Image role in the Admin</li>
-        <li><code>swatch_thumb</code> - corresponds to the Swatch Image role in the [Admin](https://glossary.magento.com/magento-admin).</li>
-        <li><code>thumbnail</code> - corresponds to the Thumbnail Image role in the Admin</li>
-        </ul>
-      </td>
-    </tr>
-</tbody>
-</table>
+
+|Attribute|Type|Description|
+|--- |--- |--- |
+|`id`|string|Image identifier. Unique in the scope of theme.<br />Can have any value, but in out-of-the-box themes, the `id` is meaningful and describes the location of an image.<br />For example, the `id` value for images of [cross-sell](https://glossary.magento.com/cross-sell) products displayed in a shopping cart is `cart_cross_sell_products`.<br />`id` is used in `.phtml` templates for defining the type and properties of images displayed in each particular location on a particular page.|
+|`type`|string|The type of the images defined by the specified `id`. Allowed values:<br />`image` - corresponds to the Base Image role in the Admin<br />`small_image` - corresponds to the Small Image role in the Admin<br />`swatch_image` - corresponds to the Swatch Image role in the Admin<br />`swatch_thumb` - corresponds to the Swatch Image role in the [Admin](https://glossary.magento.com/magento-admin).<br />`thumbnail` - corresponds to the Thumbnail Image role in the Admin|
 
 The following picture illustrates how image roles for product images are specified in the Admin:
 ![Setting image role in Admin](../../_images/frontend/fdg_theme_bck.png)

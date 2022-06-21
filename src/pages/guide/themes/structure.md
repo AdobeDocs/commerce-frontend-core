@@ -54,204 +54,26 @@ Let's have a closer look at each particular sub-directory.
 
 The directories and files structure described below is the most extended one. It may not coincide with the structure of your store.
 
-<table>
-  <tbody>
-    <tr>
-      <th>Directory</th>
-      <th colspan="1">Required</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <td colspan="1">
-        <code>
-          /&lt;Vendor&gt;_&lt;Module&gt;
-        </code>
-      </td>
-      <td colspan="1">
-        optional
-      </td>
-      <td colspan="1">
-          Module-specific styles, layouts, and templates.
-      </td>
-    </tr>
-    <tr>
-      <td colspan="1">
-        <code>/&lt;Vendor&gt;_&lt;Module&gt;/web/css/</code>
-      </td>
-      <td colspan="1">
-        optional
-      </td>
-      <td colspan="1">
-          Module-specific styles (<code>.css</code> and/or <code>.less</code> files). General styles for the module are in the <code>_module.less</code> file, and styles for widgets are in <code>_widgets.less</code>.
-      </td>
-    </tr>
-    <tr>
-      <td colspan="1">
-        <code>/&lt;Vendor&gt;_&lt;Module&gt;/layout</code>
-      </td>
-      <td colspan="1">
-        optional
-      </td>
-      <td colspan="1">
-        Layout files which extend the default module or parent theme layouts.
-      </td>
-    </tr>
-    <tr>
-      <td colspan="1">
-        <code>/&lt;Vendor&gt;_&lt;Module&gt;/layout/override/base</code>
-      </td>
-      <td colspan="1">
-        optional
-      </td>
-      <td colspan="1">
-        Layouts that override the default module layouts.
-      </td>
-    </tr>
-    <tr>
-      <td colspan="1">
-        <code>/&lt;Vendor&gt;_&lt;Module&gt;/layout/override/&lt;parent_theme&gt;</code>
-      </td>
-      <td colspan="1">optional</td>
-      <td colspan="1">
-        Layouts that override the parent theme layouts for the module.
-      </td>
-    </tr>
-    <tr>
-      <td colspan="1">
-        <code>/&lt;Vendor&gt;_&lt;Module&gt;/templates</code>
-      </td>
-      <td colspan="1">
-        optional
-      </td>
-      <td colspan="1">
-        This directory contains theme templates which override the default module templates or parent theme templates for this module. Custom templates are also stored in this directory.
-      </td>
-    </tr>
-    <tr>
-      <td colspan="1">
-        <code>
-          /etc/view.xml
-        </code>
-      </td>
-      <td colspan="1">required for a theme, but optional if it exists in the parent theme</td>
-      <td colspan="1">
-        This file contains configurations for all storefront product images and thumbnails. It also contains product page, gallery widget configurations such as navigation options, fullscreen options and breakpoint conditions.
-      </td>
-    </tr>
-    <tr>
-      <td colspan="1">
-        <code>/i18n</code>
-      </td>
-      <td colspan="1">optional</td>
-      <td colspan="1">.csv files with translations.</td>
-    </tr>
-    <tr>
-      <td colspan="1">
-        <code>/media</code>
-      </td>
-      <td colspan="1">optional</td>
-      <td colspan="1">
-        This directory contains a theme preview (a screenshot of your theme).
-      </td>
-    </tr>
-    <tr>
-      <td colspan="1">
-        <code>/web</code>
-      </td>
-      <td colspan="1">
-        optional
-      </td>
-      <td colspan="1">Static files that can be loaded directly from the frontend.</td>
-    </tr>
-    <tr>
-      <td colspan="1">
-        <code>/web/css/source</code>
-      </td>
-      <td colspan="1">
-        optional
-      </td>
-      <td colspan="1">This directory contains theme
-        <code>less</code>
-         configuration files that invoke mixins for global elements from the UI library, and
-        <code>theme.less</code>
-         file which overrides the default variables values.
-      </td>
-    </tr>
-    <tr>
-      <td colspan="1">
-        <code>/web/css/source/lib</code>
-      </td>
-      <td colspan="1">
-        optional
-      </td>
-      <td colspan="1">
-        View files that override the UI library files stored in <code>lib/web/css/source/lib</code>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="1">
-        <code>/web/fonts</code>
-      </td>
-      <td colspan="1">
-        optional
-      </td>
-      <td colspan="1">
-        Contains theme fonts and customized icons.
-      </td>
-    </tr>
-    <tr>
-      <td colspan="1">
-        <code>/web/images</code>
-      </td>
-      <td colspan="1">
-        optional
-      </td>
-      <td colspan="1">
-        Images that are used in this theme.
-      </td>
-    </tr>
-    <tr>
-      <td colspan="1">
-        <code>/web/js</code>
-      </td>
-      <td colspan="1">
-        optional
-      </td>
-      <td colspan="1">
-        Theme JavaScript files.
-      </td>
-    </tr>
-    <tr>
-      <td colspan="1">
-        <code>
-          /composer.json
-        </code>
-      </td>
-      <td colspan="1">optional</td>
-      <td colspan="1">
-        Describes the theme dependencies and some meta-information. Will be here if your theme is a Composer package. The "name" field must be in the format <code>"&lt;vendor-name&gt;/theme-&lt;area&gt;-&lt;theme-name&gt;"</code>.
-      </td>
-    </tr>
-    <tr>
-      <td colspan="1">
-        <code>/registration.php</code>
-      </td>
-      <td colspan="1">required</td>
-      <td colspan="1">
-        Required to register your theme in the system.
-      </td>
-    </tr>
-    <tr>
-      <td colspan="1">
-        <code>/theme.xml</code>
-      </td>
-      <td colspan="1">required</td>
-      <td colspan="1">
-        The file is mandatory as it declares a theme as a system component. It contains the basic meta-information, like the theme title and the parent theme name, if the theme is inherited from an existing theme. The file is used by the system to recognize the theme.
-      </td>
-    </tr>
-  </tbody>
-</table>
+|Directory|Required|Description|
+|--- |--- |--- |
+|`/<Vendor>_<Module>`|optional|Module-specific styles, layouts, and templates.|
+|`/<Vendor>_<Module>/web/css/`|optional|Module-specific styles (`.css` and/or `.less` files). General styles for the module are in the _module.less file, and styles for widgets are in `_widgets.less`.|
+|`/<Vendor>_<Module>/layout`|optional|Layout files which extend the default module or parent theme layouts.|
+|`/<Vendor>_<Module>/layout/override/base`|optional|Layouts that override the default module layouts.|
+|`/<Vendor>_<Module>/layout/override/<parent_theme>`|optional|Layouts that override the parent theme layouts for the module.|
+|`<Vendor>_<Module>/templates`|optional|This directory contains theme templates which override the default module templates or parent theme templates for this module. Custom templates are also stored in this directory.|
+|`/etc/view.xml`|required for a theme, but optional if it exists in the parent theme|This file contains configurations for all storefront product images and thumbnails. It also contains product page, gallery widget configurations such as navigation options, fullscreen options and breakpoint conditions.|
+|`/i18n`|optional|`.csv` files with translations.|
+|`/media`|optional|This directory contains a theme preview (a screenshot of your theme).|
+|`/web`|optional|Static files that can be loaded directly from the frontend.|
+|`/web/css/source`|optional|This directory contains theme LESS configuration files that invoke mixins for global elements from the UI library, and `theme.less` file which overrides the default variables values.|
+|`/web/css/source/lib`|optional|View files that override the UI library files stored in `lib/web/css/source/lib`|
+|`/web/fonts`|optional|Contains theme fonts and customized icons.|
+|`/web/images`|optional|Images that are used in this theme.|
+|`/web/js`|optional|Theme JavaScript files.|
+|`/composer.json`|optional|Describes the theme dependencies and some meta-information. Will be here if your theme is a Composer package. The "name" field must be in the format `<vendor-name>/theme-<area>-<theme-name>`.|
+|`/registration.php`|required|Required to register your theme in the system.|
+|`/theme.xml`|required|The file is mandatory as it declares a theme as a system component. It contains the basic meta-information, like the theme title and the parent theme name, if the theme is inherited from an existing theme. The file is used by the system to recognize the theme.|
 
 ## Files
 

@@ -110,7 +110,7 @@ Layout validations and error handling depends on the [application mode] in which
 [extend]: extend.md
 [override]: override.md
 [Layout file types]: types.md
-[inherited]: ../themes/inherit.md
+[inherited]: ../themes/inheritance.md
 [application mode]: https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html
 [Layout instructions]: xml-instructions.md
 

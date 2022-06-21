@@ -65,7 +65,7 @@ To compile `.less` files, add your theme to `module.exports` in the Grunt config
    -  `<theme>`: your theme code, conventionally should correspond to the theme directory name.
    -  `<language>`: specified in the `code_subtag` format, for example `en_US`. Only one locale can be specified here. To debug the theme with another locale, create one more theme declaration, having specified another value for `language`.
    -  `<area>`: area code, can be either `frontend` or `adminhtml`.
-   -  `<path_to_file>`: path to the root source file, relative to the `app/design/frontend/<Vendor>/<theme>/web` directory. You need to specify all [root source files of the theme](../css/preprocess.md#terms-used). If your theme [inherits](../themes/inherit.md) from a certain theme, and does not contain its own root source files, specify the root source files of the parent theme.
+   -  `<path_to_file>`: path to the root source file, relative to the `app/design/frontend/<Vendor>/<theme>/web` directory. You need to specify all [root source files of the theme](../css/preprocess.md#terms-used). If your theme [inherits](../themes/inheritance.md) from a certain theme, and does not contain its own root source files, specify the root source files of the parent theme.
 
    **IMPORTANT NOTE** : If grunt gives the error "Error: Cannot find module ....", check the path in your `grunt-config.json` file and correct as necessary.
 

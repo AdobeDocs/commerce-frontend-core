@@ -15,7 +15,7 @@ In their Orange theme, ExampleCorp wants to transform the header links block to 
 
 To do this, they need to wrap the list of header links with a container and add a greeting with a drop-down arrow before the list.
 
-The Orange theme [inherits](../themes/inherit.md) from Blank, so by default the rendered header links look like following:
+The Orange theme [inherits](../themes/inheritance.md) from Blank, so by default the rendered header links look like following:
 
 ```html
 <div class="panel header">
@@ -215,7 +215,7 @@ Clicking the **Change** button toggles the `active` CSS class:
 To add quick basic styling and visual behavior to the "dropdown" menu, ExampleCorp added [_extend.less](../css/quickstart/customize-styles.md) to their theme with the following customizations:
 
 *  Redundant elements are hidden with CSS.
-*  The `.lib-dropdown()` mixin from [UI library](../css/theme-ui-lib.md) was applied to the corresponding element.
+*  The `.lib-dropdown()` mixin from [UI library](../css/ui-library.md) was applied to the corresponding element.
 
 `app/design/frontend/ExampleCorp/orange/web/css/source/_extend.less`
 
