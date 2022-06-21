@@ -22,7 +22,7 @@ module.exports = [
         {
           title: "Development workflow",
           path: "/guide/themes/workflow/"
-        }
+        },
         {
           title: "Install a third-party storefront theme",
           path: "/guide/themes/install/",
