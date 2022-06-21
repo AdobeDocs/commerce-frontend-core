@@ -46,8 +46,8 @@ For details, see [Apply and configure a storefront theme](apply-storefront.md)
 #### Grunt (recommended)
 
 *  [Setup Grunt](../tools/grunt.md)
-*  [Add the theme to Grunt configuration](../css/debug.md#adding-themes-to-grunt-configuration)
-*  [Track changes](../css/debug.md#use-cases-of-tracking-changes-using-grunt)
+*  [Add the theme to Grunt configuration](../css/debug.md#add-themes-to-grunt-configuration)
+*  [Track changes](../css/debug.md#track-changes-using-grunt)
 
 #### Client-side compilation
 
@@ -74,7 +74,7 @@ See:
 
 *  [Locate the CSS/Less file you need to change](debug.md)
 *  [CSS source maps](../css/debug.md#css-source-maps)
-*  [Track changes using Grunt](../css/debug.md#use-cases-of-tracking-changes-using-grunt)
+*  [Track changes using Grunt](../css/debug.md#track-changes-using-grunt)
 
 ### Clean cache and/or static files
 

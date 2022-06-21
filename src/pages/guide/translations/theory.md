@@ -155,6 +155,6 @@ In this example, the `'Hello %1'` string is added to the dictionary when the i18
 [i18n tool]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-i18n.html
 [generating the dictionary]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-i18n.html#config-cli-subcommands-xlate-dict
 [.phtml template]: ../templates/index.md
-[custom email templates]: ../templates/email.md#customize-email-templates-using-a-theme
+[custom email templates]: ../templates/email.md
 [directive]: ../templates/email.md#localization
-[added using the Admin panel]: ../templates/email.md#customize-email-templates-using-the-admin
+[added using the Admin panel]: ../templates/email.md#admin-based-customizations

@@ -15,7 +15,7 @@ This topic walks you through how to customize a template.
 
 To customize a template:
 
-1. Locate the template which is associated with the page/block you want to change using [template hints](../themes/debug.md#locate-templates).
+1. Locate the template which is associated with the page/block you want to change using [template hints](../themes/debug.md#templates).
 
 1. Copy the template to your theme folder according to the [template storing convention](override.md#template-location).
 

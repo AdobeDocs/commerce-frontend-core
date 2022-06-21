@@ -22,7 +22,7 @@ Override email templates by creating templates in a new directory in your custom
 
 [Template fallback](../themes/inherit.md#) is supported for email templates, so parent themes of your current theme are searched for templates.
 
-### Admin-based customizarions
+### Admin-based customizations
 
 Any templates configured in the [Admin](https://glossary.magento.com/admin) take precedence over default or theme-based templates.
 
@@ -59,7 +59,7 @@ Every frontend email template includes a header and footer template using these 
 *  [`<Magento_Email_module_dir>/view/frontend/email/header.html`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Email/view/frontend/email/header.html)
 *  [`<Magento_Email_module_dir>/view/frontend/email/footer.html`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Email/view/frontend/email/footer.html)
 
-You can customize header and footer templates using either the [theme](#customize-email-templates) or [admin](#customize-email-content) customization methods discussed previously.
+You can customize header and footer templates using either the [theme](#styles-for-email-templates) or [admin](#customize-email-content) customization methods discussed previously.
 
 ### Customize email content
 

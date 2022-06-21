@@ -28,7 +28,7 @@ The UI library provides the ability to customize and reuse the following user in
 *  ratings
 *  sections - tabs and accordions
 *  tables
-*  [tooltips](#tooltip-element)
+*  [tooltips](#tooltips)
 *  typography
 *  list of theme variables
 

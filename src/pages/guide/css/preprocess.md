@@ -67,7 +67,7 @@ For each CSS file included in the layouts, Less preprocessor does the following:
 
 1. Checks if the requested `.css` file is found. If it is found, the preprocessor stops its execution. Otherwise, it proceeds to the next step.
 1. Changes the extension of the requested file to `.less` and tries to find the file using the [fallback mechanism]. If the `.less` file is not found, Less preprocessor stops its execution. Otherwise, it proceeds to the next step.
-1. Reads `.less` file contents and resolves [`@magento_import`](#the-magento_import-directive) and default Less `@import` directives.
+1. Reads `.less` file contents and resolves [`@magento_import`](#magento_import-directive) and default Less `@import` directives.
 
 1. Resolves all paths in `.less` files to relative paths in the system using the fallback mechanism. All files resolved by the Less preprocessor are copied to `var/view_preprocessed/less`. Imported files are processed recursively.
 
@@ -153,7 +153,7 @@ The client-side compilation flow is similar to [server-side](#server-side-less-c
 
 <InlineAlert variant="info" slots="text"/>
 
-Symlink is not created, and a copy of the processed file is published to `pub/static` instead, if the source file differs from the processed one. One of the reasons of this difference might be the usage of the `@import` directive without file extension in the source file. See [The @import directive usage](#importing-remote-css-files) for more details.
+Symlink is not created, and a copy of the processed file is published to `pub/static` instead, if the source file differs from the processed one. One of the reasons of this difference might be the usage of the `@import` directive without file extension in the source file. See [The @import directive usage](#import-remote-css-files) for more details.
 
 #### Debug in client-side compilation mode
 

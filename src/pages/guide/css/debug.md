@@ -14,7 +14,7 @@ The topic describes how to install, configure, and use [Grunt JavaScript task ru
 
 ## Add themes to Grunt configuration
 
-To compile `.less` files, add your theme to `module.exports` in the Grunt configuration, either in the default `dev/tools/grunt/configs/themes.js` or in the [custom configuration file](../tools/grunt.md#grunt-configuration-file). For example:
+To compile `.less` files, add your theme to `module.exports` in the Grunt configuration, either in the default `dev/tools/grunt/configs/themes.js` or in the [custom configuration file](../tools/grunt.md#configuration-file). For example:
 
 1. Install [node.js](https://nodejs.org/en/download/package-manager/) to any location on your machine.
 
@@ -82,20 +82,20 @@ grunt exec | Republishes symlinks to the source files to the `pub/static/fronten
 grunt less | Compiles CSS files using the symlinks published in the `pub/static/frontend/` directory. Use `grunt less:<theme>` to use the symlinks published for a specific theme.
 grunt watch | Tracks the changes in the source files, recompiles `.css` files, and reloads the page in the browser.
 
-## Tracking changes using Grunt
+## Track changes using Grunt
 
 The following shows which Grunt tasks to use for debugging:
 
 -  After you switch the compilation mode from client-side to server-side, run the `exec` command.
 -  After you customize the content of any `.less` file, except the root source files, run the `less` task and reload the page.
--  After you [customize the root source files or move the files included to the root files](../css/preprocess.md#when-you-need-to-clean-static-view-files), run the `exec` command and reload the page.
+-  After you [customize the root source files or move the files included to the root files](../css/preprocess.md#clean-static-view-files), run the `exec` command and reload the page.
 -  After you run `php bin/magento setup:upgrade`, run `exec` command.
 -  After you run the `exec` command, run the `clear` command to `clear` the cache, then run the `watch` command. Running the commands in this order will ensure that any custom jQuery attributes like product sliders, banners, etc are loaded correctly.
 
 If you have LiveReload installed, run the `grunt watch` command, and the flow is even simpler:
 
 -  After you customize the content of any `.less` file, changes are applied and the page reloads automatically. No additional changes
--  After you [customize the root source files or move the files included to the root files](../css/preprocess.md#when-you-need-to-clean-static-view-files), run the `clean` and `exec` commands, which reloads the page in the browser.
+-  After you [customize the root source files or move the files included to the root files](../css/preprocess.md#clean-static-view-files), run the `clean` and `exec` commands, which reloads the page in the browser.
 
 ## CSS source maps
 
