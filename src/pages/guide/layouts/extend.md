@@ -64,22 +64,18 @@ The application merges layout files as follows:
    1. Loads layout handle declaration and layout instructions.
    1. Appends to the result in the following format:
 
-```xml
-<layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <handle id="checkout_cart_index" label="Shopping Cart" type="page" parent="default">
-        <!-- Layout instructions from checkout_cart_index.xml -->
-    </handle>
-    <handle id="checkout_onepage_index" label="One Page Checkout" type="page" parent="default">
-        <!-- Layout instructions from checkout_onepage_index.xml -->
-    </handle>
-    <!-- ... -->
-</layouts>
-```
+   ```xml
+   <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+       <handle id="checkout_cart_index" label="Shopping Cart" type="page" parent="default">
+           <!-- Layout instructions from checkout_cart_index.xml -->
+       </handle>
+       <handle id="checkout_onepage_index" label="One Page Checkout" type="page" parent="default">
+           <!-- Layout instructions from checkout_onepage_index.xml -->
+       </handle>
+       <!-- ... -->
+   </layouts>
+   ```
 
-
-
-<InlineAlert slots="text"/>
-
-Where a `handle ID` is defined by the name of the corresponding layout file, and handle attributes are defined by the attributes of the root layout node of this layout file.
+   Where a `handle ID` is defined by the name of the corresponding layout file, and handle attributes are defined by the attributes of the root layout node of this layout file.
 
 3. Replaces the base URL placeholders in the result.

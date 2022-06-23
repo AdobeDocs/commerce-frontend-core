@@ -21,43 +21,10 @@ Conventionally, CSS and Less files are stored only in themes. [Module](https://g
 
 In a [theme directory][], stylesheets are stored in the following locations:
 
-<table>
-<tr>
-<th>Directory, relative to <code>&lt;theme_dir&gt;</code></th>
-<th>Description</th>
-</tr>
-<tr>
-<td> <code>/&lt;Namespace&gt;_&lt;Module&gt;/web/css</code>
-</td>
-<td> Module-specific styles.
-</td>
-</tr>
-<tr>
-<td> <code>/web/css</code>
-   </td>
-   <td>
-Contains the following:
-<ul>
-<li>
-<code>print.less</code>: used to generate styles for the printed version of store pages.
-</li>
-<li><code>_styles.less</code> - a composite file, which includes all Less files used in the <a href="https://glossary.magento.com/theme">theme</a>. The underscore sign ("_") in a file name conventionally means that a file is not used independently, but is included in other files.
-</li>
-<li><code>styles-m.less</code>: used to generate mobile-specific styles, includes <code>_styles.less</code>.
-</li>
-<li><code>styles-l.less</code>: used to generate desktop-specific styles, includes <code>_styles.less</code>.
-</li>
-<li><code>/source</code>: this subdirectory contains Less configuration files that invoke mixins from the UI <a href="https://glossary.magento.com/library">library</a>.
-</li>
-<li>
-<code>/source/_theme.less</code>: overrides the default UI library variables values.
-</li>
-
-  </ul>
-   </td>
-</tr>
-
-</table>
+Directory relative to `<THEME_DIR>` | Description
+---------|----------
+ `/<Namespace>_<Module>/web/css` | Module-specific styles. |
+ `/web/css` | Contains the following:<br/>`print.less`: Used to generate styles for the printed version of store pages.<br />`_styles.less` - A composite file, which includes all Less files used in the theme. The underscore sign (`_`) in a file name conventionally means that a file is not used independently, but is included in other files.<br />`styles-m.less`: Used to generate mobile-specific styles, includes `_styles.less`.<br />`styles-l.less`: Used to generate desktop-specific styles, includes `_styles.less`.<br />`/source`: This subdirectory contains LESS configuration files that invoke mixins from the UI library.<br />`/source/_theme.less`: Overrides the default UI library variables values.
 
 ## Include CSS
 
