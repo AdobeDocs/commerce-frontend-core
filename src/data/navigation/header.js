@@ -5,18 +5,14 @@ module.exports = [
     },
     {
       title: "Guide",
-      path: "/frontend/",
+      path: "/guide/",
     },
-    {
-      title: "UI Components",
-      path: "/ui-components/",
-    },
-    {
-      title: "Javascript",
-      path: "/javascript/",
-    },
-    {
-      title: "Admin",
-      path: "/admin/",
-    },
+    // {
+    //   title: "UI Components",
+    //   path: "/ui-components/",
+    // },
+    // {
+    //   title: "JavaScript",
+    //   path: "/javascript/",
+    // },
   ];
