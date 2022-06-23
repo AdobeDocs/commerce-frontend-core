@@ -3,7 +3,7 @@ title: Template Customization Example | Commerce Frontend Development
 description: Review an example use case for a custom template in an Adobe Commerce or Magento Open Source theme.
 ---
 
-# Tempalte customization example
+# Template customization example
 
 This topic contains a step-by-step guide to solving a typical design customization task using templates.
 
