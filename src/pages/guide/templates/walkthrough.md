@@ -1,6 +1,6 @@
 ---
 title: Template Customization Walkthrough | Commerce Frontend Development
-description: Follow this tutorial to create a custom template for an Adobe Commerce or Magento Open Source theme.
+description: Learn how to create a custom template for an Adobe Commerce or Magento Open Source theme.
 ---
 
 # Template customization walkthrough

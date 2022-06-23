@@ -473,7 +473,7 @@ put the stock availability and SKU blocks next to the product price on a product
 
 In the Blank theme these elements are located as follows:
 
-](../../_images/frontend/layout_image1.png)
+![](../../_images/frontend/layout_image1.png)
 
 Place the stock availability and SKU blocks after product price block on a product page, and move the review block out of the product-info-price container.
 To do this, add the extending `catalog_product_view.xml` in the `app/design/frontend/ExampleCorp/orange/Magento_Catalog/layout/` directory:

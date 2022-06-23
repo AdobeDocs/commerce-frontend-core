@@ -1,6 +1,6 @@
 ---
 title: Responsive Web Design | Commerce Frontend Development
-description: Review introductory information about respsonsive web design in Adobe Commerce and Magento Open Source themes.
+description: Review the fundamentals of responsive web design in Adobe Commerce and Magento Open Source themes.
 ---
 
 # Responsive web design

@@ -1,6 +1,6 @@
 ---
 title: Page Caching | Commerce Frontend Development
-description: Improve the performance of your Adobe Commerce and Magento Open Source store with page caching.
+description: Learn how to use page caching to improve the performance of your Adobe Commerce and Magento Open Source frontends.
 ---
 
 # Page caching

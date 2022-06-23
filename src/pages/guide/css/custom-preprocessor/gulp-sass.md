@@ -1,6 +1,6 @@
 ---
 title: Use a Sass Preprocessor and Gulp Task Runner | Commerce Frontend Development
-description: Learn how to use a Sass preprocessor and Gulp task runner to automate Adobe Commrce and Magento Open Source theme development.
+description: Learn how to use a Sass preprocessor and Gulp task runner to automate Adobe Commerce and Magento Open Source theme development.
 ---
 
 # Use a Sass Preprocessor and Gulp task runner
@@ -107,5 +107,5 @@ For details about adding a custom preprocessor, see [Add custom CSS preprocessor
 In the source .`scss` files you can use the `@import` directive, to import other `.scss` files. You can put the module-related stylesheets in the module directories in the theme, and then include them in the main `.scss` file. For example, if you create a `_catalogstls.scss` file for styles of the `Magento_Catalog` module and put it in `app/design/frontend/<Vendor>/<theme>/Magento_Catalog/styles`, you can import it using the following notation:
 
 ```css
-@import '../Magento_Theme/styles/module`
+@import '../Magento_Theme/styles/module'
 ```

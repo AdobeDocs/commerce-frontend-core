@@ -1,6 +1,6 @@
 ---
 title: Basic Template Concepts | Commerce Frontend Development
-description: View code samples for overriding ttemplates in Adobe Commerce and Magento Open Source themes.
+description: View code samples for overriding templates in Adobe Commerce and Magento Open Source themes.
 ---
 
 # Basic concepts

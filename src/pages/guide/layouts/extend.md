@@ -1,6 +1,6 @@
 ---
 title: Extend a Layout | Commerce Frontend Development
-description: View code samples for extneding layouts in Adobe Commerce and Magento Open Source themes.
+description: View code samples for extending layouts in Adobe Commerce and Magento Open Source themes.
 ---
 
 # Create a theme extending file
@@ -76,6 +76,10 @@ The application merges layout files as follows:
 </layouts>
 ```
 
+
+
+<InlineAlert slots="text"/>
+
 Where a `handle ID` is defined by the name of the corresponding layout file, and handle attributes are defined by the attributes of the root layout node of this layout file.
 
-1. Replaces the base URL placeholders in the result.
+3. Replaces the base URL placeholders in the result.
