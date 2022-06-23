@@ -137,7 +137,7 @@ module.exports = [
         },
         {
           title: "Email templates layout handle",
-          path: "/guide/templates/email-migration/",
+          path: "/guide/templates/email-layout-handle/",
         },
       ],
     },
