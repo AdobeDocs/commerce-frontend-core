@@ -3,7 +3,7 @@ title: Create a New Layout | Commerce Frontend Development
 description: View code samples for creating new layouts in Adobe Commerce and Magento Open Source themes.
 ---
 
-# Create a new page layout in a custom theme
+# Create a new layout
 
 When an existing page layout does not meet your requirements, create a new page layout.
 
