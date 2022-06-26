@@ -22,7 +22,7 @@ We recommend using [Varnish](https://devdocs.magento.com/guides/v2.4/config-guid
 
 ## Cacheable and uncacheable pages
 
-*Cacheable* and *uncacheable* are terms we use to indicate whether or not a page should be cached at all. (By default, all pages are cacheable.) If any block in a [layout](https://glossary.magento.com/layout) is designated as uncacheable, the entire page is uncacheable.
+*Cacheable* and *uncacheable* are terms we use to indicate whether or not a page should be cached at all. (By default, all pages are cacheable except the checkout pages.) If any block in a [layout](https://glossary.magento.com/layout) is designated as uncacheable, the entire page is uncacheable.
 
 To create an uncacheable page, mark any block on that page as uncacheable in the layout using `cacheable="false"`.
 
@@ -42,7 +42,7 @@ Do not configure content pages (i.e., catalog, product, and CMS pages) to be unc
 
 ## Public and private content
 
-Reverse proxies serve "public" or shared content to more than one user. However, most Adobe Commerce and Magebto Open Source websites generate dynamic and personalized "private" content that should only be served to one user, which presents unique caching challenges. To address these challenges, the application can distinguish between two types of content:
+Reverse proxies serve "public" or shared content to more than one user. However, most Adobe Commerce and Magento Open Source websites generate dynamic and personalized "private" content that should only be served to one user, which presents unique caching challenges. To address these challenges, the application can distinguish between two types of content:
 
 -  **[Public](https://developer.adobe.com/commerce/php/development/cache/page/public-content/)** - Public content is stored server side in your reverse proxy cache storage (e.g., file system, database, Redis, or Varnish) and is available to multiple customers. Examples of public content include header, footer, and category listing.
 
