@@ -22,7 +22,7 @@ We recommend using [Varnish](https://devdocs.magento.com/guides/v2.4/config-guid
 
 ## Cacheable and uncacheable pages
 
-*Cacheable* and *uncacheable* are terms we use to indicate whether or not a page should be cached at all. (By default, all pages are cacheable.) If any block in a [layout](https://glossary.magento.com/layout) is designated as uncacheable, the entire page is uncacheable.
+*Cacheable* and *uncacheable* are terms we use to indicate whether or not a page should be cached at all. (By default, all pages are cacheable except the checkout pages.) If any block in a [layout](https://glossary.magento.com/layout) is designated as uncacheable, the entire page is uncacheable.
 
 To create an uncacheable page, mark any block on that page as uncacheable in the layout using `cacheable="false"`.
 
