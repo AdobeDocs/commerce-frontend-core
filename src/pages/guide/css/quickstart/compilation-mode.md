@@ -9,7 +9,7 @@ After you [create a theme](../../themes/create-storefront.md), you need to decid
 
 -  **Server-side compilation mode (default):** less file is compiled with PHP less library. In developer mode, PHP will generate the CSS files on the fly provided there is not one already. Running static content deploy will compile the stylesheet.
 
--  **Client-side compilation mode (recommended for [theme](https://glossary.magento.com/theme) development):** Less file is compiled client-side on every page load, which results in slow response times and "flash of unstyled text" (FOUT) issues.
+-  **Client-side compilation mode (recommended for [theme](https://glossary.magento.com/theme) development):** Less files are compiled client-side on every page load, which results in slow response times and "flash of unstyled text" (FOUT) issues.
 
 The examples in this topic use the [simple approach](../quickstart/customize-styles.md#) for customizing theme styles. You make changes to the `_extend.less` file.
 
