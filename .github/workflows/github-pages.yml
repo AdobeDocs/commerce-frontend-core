@@ -1,3 +1,4 @@
+---
 name: Github Pages
 on:
   push:
