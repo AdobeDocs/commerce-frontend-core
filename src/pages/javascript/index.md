@@ -1,9 +1,9 @@
 ---
-title: JavaScript Developer Guide | Commerce Frontend Development 
+title: Introduction to JavaScript | Commerce Frontend Development 
 description: placeholder 
 ---
 
-## Introduction {#overview-introduction}
+# Introduction to JavaScript
 
 By default, the Magento application uses the [RequireJS file and module loader] to optimize the time of loading pages with included JavaScript files, and to manage dependencies of JavaScript resources.
 

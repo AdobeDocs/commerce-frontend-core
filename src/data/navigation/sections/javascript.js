@@ -1,64 +1,52 @@
 module.exports = [
     {
-      title: "Overview",
+      title: "Introduction",
       path: "/javascript/",
-      header: true,
-      pages: [
-        {
-          title: "Introduction",
-          path: "/javascript/",
-        },
-        {
-          title: "Conventional notations",
-          path: "/javascript/conventions/",
-        },
-        {
-          title: "JS resources in Commerce",
-          path: "/javascript/resources/",
-        },
-        {
-          title: "RequireJS",
-          path: "/javascript/requirejs/",
-        },
-        {
-          title: "Call and initialize JS",
-          path: "/javascript/init/",
-        },
-        {
-          title: "Frontend product repository",
-          path: "/javascript/frontend-product-repository/",
-        },
-        {
-          title: "Custom JS",
-          path: "/javascript/custom/",
-        },
-        {
-          title: "JS customization tutorial",
-          path: "/javascript/conventions/",
-        },
-        {
-          title: "Locate JS components",
-          path: "/javascript/debug/",
-        },
-        {
-          title: "Mixins",
-          path: "/javascript/mixins/",
-        },
-        {
-          title: "Logger",
-          path: "/javascript/logger/",
-        },
-      ],
+    },
+    {
+      title: "Conventional notations",
+      path: "/javascript/conventions/",
+    },
+    {
+      title: "JS resources in Commerce",
+      path: "/javascript/resources/",
+    },
+    {
+      title: "RequireJS",
+      path: "/javascript/requirejs/",
+    },
+    {
+      title: "Call and initialize JS",
+      path: "/javascript/init/",
+    },
+    {
+      title: "Frontend product repository",
+      path: "/javascript/frontend-product-repository/",
+    },
+    {
+      title: "Custom JS",
+      path: "/javascript/custom/",
+    },
+    {
+      title: "JS customization tutorial",
+      path: "/javascript/practice/",
+    },
+    {
+      title: "Locate JS components",
+      path: "/javascript/debug/",
+    },
+    {
+      title: "Mixins",
+      path: "/javascript/mixins/",
+    },
+    {
+      title: "Logger",
+      path: "/javascript/logger/",
     },
     {
       title: "jQuery widgets",
       path: "/javascript/jquery-widgets/",
-      header: true,
       pages: [
-        {
-          title: "Introduction",
-          path: "/javascript/jquery-widgets/",
-        },
         {
           title: "Accordion",
           path: "/javascript/jquery-widgets/accordion/",
