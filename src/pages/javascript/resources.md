@@ -4,7 +4,7 @@ subgroup: 1_Javascript
 title: JavaScript resources in Commerce
 ---
 
-## Overview {#m2devgde-js-resources-intro}
+## Overview
 
 This topic describes general concepts of how [JavaScript](https://glossary.magento.com/javascript) (JS) components are organized.
 
@@ -12,7 +12,7 @@ To address the problem of slow page loads, we exclude JavaScript from the page h
 
 RequireJS improves the perceived page load time because it allows JavaScript to load in the background; in particular, it enables asynchronous JavaScript loading.
 
-## Explore JavaScript resources {#m2devgde-js-resources-configuring}
+## Explore JavaScript resources
 
 ### JS resources location
 
@@ -70,7 +70,7 @@ JS resources are accessed using relative paths.
 
 Relative paths are also used in for [mapping and setting `paths` in requirejs-config.js configuration files](resources.md).
 
-## Dependencies between JavaScript resources {#m2devgde-js-resources-dependencies}
+## Dependencies between JavaScript resources
 
 To build a dependency on the third-party plugin, specify a [shim](http://requirejs.org/docs/api.html#config-shim) in the following configuration files:
 
@@ -95,7 +95,7 @@ To build a dependency on the third-party plugin, specify a [shim](http://require
 
 ## RequireJS library
 
-### Including RequireJS {#m2devgde-js-resources-configrequirejs}
+### Including RequireJS
 
 To be available for the entire application instance, RequireJS library is included in the following layout files:
 
@@ -205,7 +205,7 @@ We should now be able to use the Slick library, for example, on any list that we
 
 ![Slick Slider](../_images/javascript/slick-slider-result.png)
 
-### Mapping JS resources {#m2devgde-js-resources-mapping}
+### Mapping JS resources
 
 To make configurations more precise and specific to different modules and themes, `requirejs-config.js` files can be placed in different [locations](#m2devgde-js-resources-configuring) depending on your needs.
 

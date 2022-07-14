@@ -24,7 +24,7 @@ The gallery magnifier source is [lib/web/magnifier/magnify.js].
 
 ### Contents
 
-## Initialize the gallery widget {#gallery_init}
+## Initialize the gallery widget
 
 The gallery widget is initialized as described in [JavaScript initialization](../init.md#insert-a-js-component-in-a-phtml-template).
 
@@ -89,7 +89,7 @@ Example of declarative initialization:
 </script>
 ```
 
-## Options {#gallery_options}
+## Options
 
 The following option groups are available for the gallery widget:
 
@@ -100,7 +100,7 @@ The following option groups are available for the gallery widget:
 
 All options for each group are described further.
 
-### `data` {#data}
+### `data`
 
 Array of images to display.
 
@@ -118,7 +118,7 @@ Where `image` is an object with keys:
 
 The `thumb`, `img`, and `full` are full paths to proper image files.
 
-#### `data/caption` {#data_caption}
+#### `data/caption`
 
 Set the caption for a specific image in the `data` field.
 Example of the runtime initialization with the `caption` option specified:
@@ -135,21 +135,23 @@ galleryInstance({
 });
 ```
 
-### `options` {#options}
+### `options`
+
 Set of options available for the Preview region.
 
-#### `options/allowfullscreen` {#gallery_allowfullscreen}
+#### `options/allowfullscreen`
+
 Show the button that toggles full screen view of the gallery.
 
 **Type**: Boolean
 
-#### `options/arrows` {#gallery_arrows}
+#### `options/arrows`
 
 Display navigation arrows on the thumbnails sides.
 
 **Type**: Boolean
 
-#### `options/height` {#gallery_height}
+#### `options/height`
 
 Height of the preview block in pixels or percent.
 
@@ -157,7 +159,7 @@ Height of the preview block in pixels or percent.
 
 **Default value**: null
 
-#### `options/keyboard` {#gallery_keyboard}
+#### `options/keyboard`
 
 Switch on/off the keyboard navigation.
 
@@ -165,7 +167,7 @@ Switch on/off the keyboard navigation.
 
 **Default value**: `false`
 
-#### `options/loop` {#gallery_loop}
+#### `options/loop`
 
 Define whether images are displayed in a loop.
 
@@ -173,7 +175,7 @@ Define whether images are displayed in a loop.
 
 **Default value**: `false`
 
-#### `options/maxheight` {#gallery_maxheight}
+#### `options/maxheight`
 
 Maximum height of the preview block in pixels or percent.
 
@@ -181,7 +183,7 @@ Maximum height of the preview block in pixels or percent.
 
 **Default value**: `null`
 
-#### `options/maxwidth` {#gallery_maxwidth}
+#### `options/maxwidth`
 
 Maximum width of the preview block in pixels or percent.
 
@@ -189,7 +191,7 @@ Maximum width of the preview block in pixels or percent.
 
 **Default value**: 100%
 
-#### `options/minheight` {#gallery_minheight}
+#### `options/minheight`
 
 Minimal height of the preview block in pixels or percent.
 
@@ -197,7 +199,7 @@ Minimal height of the preview block in pixels or percent.
 
 **Default value**: `null`
 
-#### `options/minwidth` {#gallery_minwidth}
+#### `options/minwidth`
 
 Minimal width of the preview block in pixels or percent.
 
@@ -205,7 +207,7 @@ Minimal width of the preview block in pixels or percent.
 
 **Default value**: `null`
 
-#### `options/nav` {#gallery_nav}
+#### `options/nav`
 
 Variation of thumbnails in navigation.
 
@@ -217,7 +219,7 @@ Variation of thumbnails in navigation.
 
 **Default**: `dots`
 
-#### `options/navdir` {#gallery_navdir}
+#### `options/navdir`
 
 Sliding direction of thumbnails.
 
@@ -226,13 +228,13 @@ Sliding direction of thumbnails.
 *  `vertical`
 *  `horizontal`
 
-#### `options/navarrows` {#gallery_navarrows}
+#### `options/navarrows`
 
 Display navigation arrows for thumbnails.
 
 **Type**: Boolean
 
-#### `options/navtype` {#gallery_navtype}
+#### `options/navtype`
 
 Sliding type of thumbnails.
 
@@ -241,7 +243,7 @@ Sliding type of thumbnails.
 *  `slides`: on the arrow button click the thumbs ribbon shifts over several thumbs
 *  `thumb`: on the arrow button click the thumbs ribbon shifts over one thumb
 
-#### `options/ratio` {#gallery_ratio}
+#### `options/ratio`
 
 Width divided by height. Recommended if you set width in percents.
 
@@ -249,13 +251,13 @@ Width divided by height. Recommended if you set width in percents.
 
 **Default value**: calculated from `width` and `height`.
 
-#### `options/showCaption` {#gallery_showcaption}
+#### `options/showCaption`
 
 Enable view of caption in preview. Can be for initialized for specific image. Can work globally.
 
 **Type**: Boolean
 
-#### `options/startindex` {#gallery_startindex}
+#### `options/startindex`
 
 The index number of the image that is displayed once the gallery is initialized.
 
@@ -263,7 +265,7 @@ The index number of the image that is displayed once the gallery is initialized.
 
 **Default value**: `0`
 
-#### `options/swipe` {#gallery_swipe}
+#### `options/swipe`
 
 Moving between preview images by swiping in left and right.
 
@@ -271,19 +273,19 @@ Moving between preview images by swiping in left and right.
 
 **Default value**: `true`
 
-#### `options/thumbwidth` {#gallery_thumbwidth}
+#### `options/thumbwidth`
 
 Width of thumbnails.
 
 **Type**: Number, String
 
-#### `options/thumbheight` {#gallery_thumbheight}
+#### `options/thumbheight`
 
 Height of thumbnails.
 
 **Type**: Number, String
 
-#### `options/transition` {#gallery_transitioneffect}
+#### `options/transition`
 
 Sets the transition effect for slides changing.
 
@@ -293,14 +295,15 @@ Sets the transition effect for slides changing.
 *  `crossfade`
 *  `dissolve`
 
-#### `options/transitionduration` {#gallery_transitionduration}
+#### `options/transitionduration`
+
 Sets transition duration in milliseconds.
 
 **Type**: Number
 
 **Type**: Boolean
 
-#### `options/width` {#gallery_width}
+#### `options/width`
 
 Width of the preview in gallery in pixels or percents.
 
@@ -308,28 +311,29 @@ Width of the preview in gallery in pixels or percents.
 
 **Default value**: `null`
 
-### `fullscreen` {#fullscreen}
+### `fullscreen`
 
 Set of options available for the fullscreen view.
 
-#### `fullscreen/arrows` {#full_arrows}
+#### `fullscreen/arrows`
 
 Display navigation arrows on the sides of previews in the fullscreen view.
 
 **Type**: Boolean
 
-#### `fullscreen/caption` {#full_caption}
+#### `fullscreen/caption`
+
 Display [alt text](https://glossary.magento.com/alt-text) as image title in the fullscreen view.
 
 **Type**: Boolean
 
-#### `fullscreen/keyboard` {#fullscreen_keyboard}
+#### `fullscreen/keyboard`
 
 Switch on/off the keyboard navigation in the fullscreen mode.
 
 **Type**: Boolean
 
-#### `fullscreen/loop` {#full_loop}
+#### `fullscreen/loop`
 
 Define whether images are displayed in a loop.
 
@@ -337,7 +341,7 @@ Define whether images are displayed in a loop.
 
 **Default value**: `false`
 
-#### `fullscreen/nav` {#full_nav}
+#### `fullscreen/nav`
 
 Variation of thumbnails in navigation in the fullscreen view.
 
@@ -347,7 +351,7 @@ Variation of thumbnails in navigation in the fullscreen view.
 *  `thumbs`: thumbnails
 *  `false`: nothing
 
-#### `fullscreen/navdir` {#full_navdir}
+#### `fullscreen/navdir`
 
 Sliding direction of thumbnails in the fullscreen view.
 
@@ -362,7 +366,7 @@ Sliding direction of thumbnails in the fullscreen view.
 </var>
 ```
 
-#### `fullscreen/navarrows` {#full_navarrows}
+#### `fullscreen/navarrows`
 
 Show/hide arrows in thumb navigation.
 
@@ -370,7 +374,7 @@ Show/hide arrows in thumb navigation.
 
 **Default value**: `true`
 
-#### `fullscreen/navtype` {#full_navtype}
+#### `fullscreen/navtype`
 
 Type of navigation.
 
@@ -381,31 +385,31 @@ Type of navigation.
 
 **Default value**: `thumbs`
 
-#### `fullscreen/navigation_carousel` {#full_carousel}
+#### `fullscreen/navigation_carousel`
 
 Display navigation thumbnails as carousel in the fullscreen view.
 
 **Type**: Boolean
 
-#### `fullscreen/showCaption` {#full_showcaption}
+#### `fullscreen/showCaption`
 
 Enable view of caption in the fullscreen mode. Can be for initialized for specific image. Can work globally.
 
 **Type**: Boolean
 
-#### `fullscreen/thumbwidth` {#full_thumbwidth}
+#### `fullscreen/thumbwidth`
 
 Width of thumbnails in the fullscreen view.
 
 **Type**: Number, String
 
-#### `fullscreen/thumbheight` {#full_thumbheight}
+#### `fullscreen/thumbheight`
 
 Height of thumbnails in the fullscreen view.
 
 **Type**: Number, String
 
-#### `fullscreen/transition` {#fullscreen_transitioneffect}
+#### `fullscreen/transition`
 
 Sets the transition effect for slides changing in the fullscreen view.
 
@@ -415,12 +419,14 @@ Sets the transition effect for slides changing in the fullscreen view.
 *  `crossfade`
 *  `dissolve`
 
-#### `fullscreen/transitionduration` {#fullscreen_transitionduration}
+#### `fullscreen/transitionduration`
+
 Sets transition duration in milliseconds in the fullscreen view.
 
 **Type**: Number
 
-### `breakpoints` {#breakpoints}
+### `breakpoints`
+
 Set of options that could be dynamically set while page is resizing.
 
 Set as follows:
@@ -472,7 +478,7 @@ The fullscreen and breakpoints options are set in a similar way:
 
 For illustration of setting gallery option in `view.xml`, you can reference to the [view.xml of the Blank theme](https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/blank/etc/view.xml#L184).
 
-## Gallery API {#gallery_api}
+## Gallery API
 
 Gallery methods are placed in data storage of the `gallery` object. To initialize the API, on the gallery object, call the `data` method with `gallery` as argument. The illustration follows:
 
@@ -503,25 +509,25 @@ api.%method_name%();
 
 All available methods are listed in the following paragraph.
 
-## Methods {#gallery_methods}
+## Methods
 
-*  [first()](#gallery_first)
-*  [last()](#gallery_last)
-*  [next()](#gallery_next)
-*  [prev()](#gallery_prev)
-*  [seek()](#gallery_seek)
-*  [updateData()](#gallery_updateData)
-*  [updateOptions()](#gallery_updateData)
+*  [first()](#first)
+*  [last()](#last)
+*  [next()](#next)
+*  [prev()](#prev)
+*  [seek()](#seek)
+*  [updateData()](#updateData)
+*  [updateOptions()](#updateData)
 
-### `first()` {#gallery_first}
+### `first()`
 
 Displays the first preview image.
 
-### `last()` {#gallery_last}
+### `last()`
 
 Displays the last preview image.
 
-### `next()` {#gallery_next}
+### `next()`
 
 Image ID is passed as an argument. Displays the next preview image.
 
@@ -530,7 +536,7 @@ If the last image ID is passed, the behavior depends on whether [loop](#gallery_
 *  if loop is enabled, the first image is displayed.
 *  if loop is disabled, does not change the displayed image.
 
-### `prev()` {#gallery_prev}
+### `prev()`
 
 Displays the previous preview image.
 
@@ -539,7 +545,7 @@ If the first image ID is passed, the behavior depends on whether [loop](#gallery
 *  if loop is enabled, the last image is displayed.
 *  if loop is disabled, does not change the displayed image.
 
-### `seek()` {#gallery_seek}
+### `seek()`
 
 Displays the image with the specified `index`.
 
@@ -552,7 +558,7 @@ Behavior:
 *  `seek(-1)` displays the last image.
 *  If the argument is a number bigger than the number of items, or less than "-(number of items)" the gallery shows the modulus of the following division: total images number divided by the argument number.
 
-### `updateData()` {#gallery_updateData}
+### `updateData()`
 
 Add new items to the gallery.
 
@@ -566,7 +572,8 @@ api.updateData([{
 }]);
 ```
 
-### `updateOptions()` {#gallery_updateOptions}
+### `updateOptions()`
+
 Updates options of active breakpoint or default gallery options, if there is no active breakpoint.
 
 Example:

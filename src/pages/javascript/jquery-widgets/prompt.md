@@ -12,7 +12,7 @@ The prompt widget source is [`<Magento_Ui_module_dir>/view/base/web/js/modal/pro
 
 The widget can be used for implementing prompt windows for both, admin and [storefront](https://glossary.magento.com/storefront). The design patterns for the modal pop-up windows in the admin are described in the [Admin Pattern Library, the Slide-out Panels, Modal Windows, and Overlays topic.]
 
-## Initialize the prompt widget {#prompt_init}
+## Initialize the prompt widget
 
 The prompt widget can be initialized with or without binding to a certain element.
 
@@ -52,24 +52,25 @@ require([
 
 For details about how to initialize a widget in a `.phtml` template, refer to the [JavaScript initialization] topic.
 
-## Options {#prompt_options}
+## Options
 
--  [actions](#prompt_actions)
--  [autoOpen](#prompt_autoopen)
--  [clickableOverlay](#prompt_clickableOverlay)
--  [content](#prompt_content)
--  [focus](#prompt_focus)
--  [title](#prompt_title)
--  [modalClass](#prompt_modalClass)
--  [promptContentTmpl](#prompt_promptContentTmpl)
--  [value](#prompt_value)
--  [promptField](#prompt_promptField)
--  [attributesForm](#prompt_attributesForm)
--  [attributesField](#prompt_attributesField)
--  [validation](#prompt_validation)
--  [validationRules](#prompt_validationRules)
+-  [actions](#actions)
+-  [autoOpen](#autoopen)
+-  [clickableOverlay](#clickableoverlay)
+-  [content](#content)
+-  [focus](#focus)
+-  [title](#title)
+-  [modalClass](#modalClass)
+-  [promptContentTmpl](#promptcontenttmpl)
+-  [value](#value)
+-  [promptField](#promptfield)
+-  [attributesForm](#attributesform)
+-  [attributesField](#attributesfield)
+-  [validation](#validation)
+-  [validationRules](#validationrules)
 
-### `actions` {#prompt_actions}
+### `actions`
+
 Widget callbacks.
 
 **Type**: Object.
@@ -84,7 +85,7 @@ actions: {
 }
 ```
 
-### autoOpen {#prompt_autoopen}
+### autoOpen
 
 Automatically open the prompt window when the widget is initialized.
 
@@ -92,7 +93,7 @@ Automatically open the prompt window when the widget is initialized.
 
 **Default value**: `false`
 
-### clickableOverlay {#prompt_clickableOverlay}
+### clickableOverlay
 
 Close the prompt window when a user clicks on the overlay.
 
@@ -100,13 +101,14 @@ Close the prompt window when a user clicks on the overlay.
 
 **Default value**: `true`
 
-### `content` {#prompt_content}
+### `content`
 
 The prompt window content.
 
 **Type**: String.
 
-### `focus` {#prompt_focus}
+### `focus`
+
 The selector of the element to be in focus when the prompt window opens.
 If `focus` is not specified or set to empty string, the focus is on the close button. If focusing is not required, set `focus` to `none`.
 
@@ -114,21 +116,24 @@ If `focus` is not specified or set to empty string, the focus is on the close bu
 
 **Default value**: `''`
 
-### `title` {#prompt_title}
+### `title`
+
 The title of the prompt window.
 
 **Type**: String.
 
 **Default value**: `''`
 
-### `modalClass` {#prompt_modalClass}
+### `modalClass`
+
 The CSS class of the prompt window.
 
 **Type**: String.
 
 **Default value**: `'prompt'`
 
-### `promptContentTmpl` {#prompt_promptContentTmpl}
+### `promptContentTmpl`
+
 The template of the prompt popup form.
 
 **Type**: String.
@@ -154,49 +159,55 @@ The template of the prompt popup form.
 
 The file with template [`ui/template/modal/modal-prompt-content.html`].
 
-### `value` {#prompt_value}
+### `value`
+
 The value of the prompt field.
 
 **Type**: String.
 
 **Default value**: `''`
 
-### `promptField` {#prompt_promptField}
+### `promptField`
+
 The prompt field selector.
 
 **Type**: String.
 
 **Default value**: `'[data-role="promptField"]'`
 
-### `attributesForm` {#prompt_attributesForm}
+### `attributesForm`
+
 The attributes for the prompt form.
 
 **Type**: Object.
 
 **Default value**: `{}`
 
-### `attributesField` {#prompt_attributesField}
+### `attributesField`
+
 The attributes for the prompt field.
 
 **Type**: Object.
 
 **Default value**: `{}`
 
-### `validation` {#prompt_validation}
+### `validation`
+
 Specifies if the prompt form should be validated, when the confirmation button is clicked.
 
 **Type**: Boolean
 
 **Default value**: `false`
 
-### `validationRules` {#prompt_validationRules}
+### `validationRules`
+
 The array of validation classes which will be added to prompt field.
 
 **Type**: Array
 
 **Default value**: `[]`
 
-## Events {#prompt_events}
+## Events
 
 The prompt widget implements the following events:
 
@@ -204,7 +215,7 @@ The prompt widget implements the following events:
 -  `cancel` callback: called when the cancel button is clicked.
 -  `always` callback: called when the popup is closed.
 
-## Keyboard navigation {#prompt_key_navigation}
+## Keyboard navigation
 
 -  ESC key: cancel the input and close the current prompt window (the same behavior as for the 'Cancel' button)
 -  ENTER key: confirm the input and close the current prompt window (the same behavior as for the 'OK' button)

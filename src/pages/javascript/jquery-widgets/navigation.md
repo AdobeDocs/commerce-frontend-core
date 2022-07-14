@@ -22,13 +22,13 @@ For information about how to initialize a widget in a JS component or `.phtml` t
 
 The navigation widget has the following options:
 
--  [breakpoint](#n_breakpoint)
--  [container](#n_container)
--  [maxItems](#n_maxItems)
--  [moreText](#n_moreText)
--  [responsiveAction](#n_responsiveAction)
+-  [breakpoint](#breakpoint)
+-  [container](#container)
+-  [maxItems](#maxItems)
+-  [moreText](#moreText)
+-  [responsiveAction](#responsiveAction)
 
-### `breakpoint` {#n_breakpoint}
+### `breakpoint`
 
 Width of user's window in px for which the menu switches between mobile view and desktop view.
 
@@ -36,7 +36,7 @@ Width of user's window in px for which the menu switches between mobile view and
 
 **Default value**: `768`
 
-### `container` {#n_container}
+### `container`
 
 Container's CSS selector to track the menu overflow on responsive navigation.
 
@@ -44,7 +44,7 @@ Container's CSS selector to track the menu overflow on responsive navigation.
 
 **Default value**: `#menu`
 
-### `maxItems` {#n_maxItems}
+### `maxItems`
 
 The number of top level navigational items in main menu.
 
@@ -52,7 +52,7 @@ The number of top level navigational items in main menu.
 
 **Default value**: `null`
 
-### `moreText` {#n_moreText}
+### `moreText`
 
 Set the text for the overflow menu (i.e. more)
 
@@ -60,7 +60,7 @@ Set the text for the overflow menu (i.e. more)
 
 **Default value**: `more`
 
-### `responsiveAction` {#n_responsiveAction}
+### `responsiveAction`
 
 The default responsive handler for the navigation widget.
 
@@ -70,16 +70,16 @@ The default responsive handler for the navigation widget.
 
 **Accepted values**: `wrap`, `onResize`, `onReload`
 
-## Methods {#navigation_methods}
+## Methods
 
--  [setMaxItems()](#nav_setMaxItems)
--  [setupMoreMenu()](#nav_setupMoreMenu)
+-  [setMaxItems()](#setMaxItems)
+-  [setupMoreMenu()](#setupMoreMenu)
 
-### `setMaxItems()` {#nav_setMaxItems}
+### `setMaxItems()`
 
 Moves the list items that are more than the total max item number set by the user option.
 
-### `setupMoreMenu()` {#nav_setupMoreMenu}
+### `setupMoreMenu()`
 
 Builds the more overflowing menu by cloning the main menu items.
 

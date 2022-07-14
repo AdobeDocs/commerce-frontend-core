@@ -19,7 +19,7 @@ The widget uses the following templates:
 
 The design patterns for the modal pop-up windows in the Admin are described in the [Admin Pattern Library, the Slide-out Panels, Modal Windows, and Overlays topic.]
 
-## Initialize the modal widget {#modal_initialize}
+## Initialize the modal widget
 
 To initialize the widget in your script, use the following general notation:
 
@@ -33,37 +33,37 @@ $('#modal_content').modal({
 
 For details about how to initialize the widget in a`.phtml` template, refer to the [JavaScript initialization] topic.
 
-## Options {#modal_options}
+## Options
 
 The modal widget has the following options:
 
--  [appendTo](#modal_appendTo)
--  [autoOpen](#modal_autoopen)
--  [buttons](#modal_buttons)
--  [clickableOverlay](#modal_clickableOverlay)
--  [closeText](#modal_closeText)
--  [customTpl](#modal_customTpl)
--  [focus](#modal_focus)
--  [innerScroll](#modal_innerScroll)
--  [modalAction](#modal_modalAction)
--  [modalClass](#modal_modalClass)
--  [modalCloseBtn](#modal_modalCloseBtn)
--  [modalContent](#modal_modalContent)
--  [modalLeftMargin](#modal_modalLeftMargin)
--  [modalSubTitle](#modal_modalSubTitle)
--  [modalTitle](#modal_modalTitle)
--  [modalVisibleClass](#modal_modalVisibleClass)
--  [outerClickHandler](#modal_outerClickHandler)
--  [parentModalClass](#modal_parentModalClass)
--  [popupTpl](#modal_popupTpl)
--  [responsive](#modal_responsive)
--  [slideTpl](#modal_slideTpl)
--  [subTitle](#modal_subTitle)
--  [title](#modal_title)
--  [trigger](#modal_trigger)
--  [type](#modal_type)
+-  [appendTo](#appendTo)
+-  [autoOpen](#autoopen)
+-  [buttons](#buttons)
+-  [clickableOverlay](#clickableOverlay)
+-  [closeText](#closeText)
+-  [customTpl](#customTpl)
+-  [focus](#focus)
+-  [innerScroll](#innerScroll)
+-  [modalAction](#modalAction)
+-  [modalClass](#modalClass)
+-  [modalCloseBtn](#modalCloseBtn)
+-  [modalContent](#modalContent)
+-  [modalLeftMargin](#modalLeftMargin)
+-  [modalSubTitle](#modalSubTitle)
+-  [modalTitle](#modalTitle)
+-  [modalVisibleClass](#modalVisibleClass)
+-  [outerClickHandler](#outerClickHandler)
+-  [parentModalClass](#parentModalClass)
+-  [popupTpl](#popupTpl)
+-  [responsive](#responsive)
+-  [slideTpl](#slideTpl)
+-  [subTitle](#subTitle)
+-  [title](#title)
+-  [trigger](#trigger)
+-  [type](#type)
 
-### `appendTo` {#modal_appendTo}
+### `appendTo`
 
 The element where the modal should be added.
 
@@ -71,7 +71,7 @@ The element where the modal should be added.
 
 **Default value**: `body`
 
-### `autoOpen` {#modal_autoopen}
+### `autoOpen`
 
 Automatically open the modal window when the widget is initialized.
 
@@ -79,7 +79,7 @@ Automatically open the modal window when the widget is initialized.
 
 **Default value**: `false`
 
-### `buttons` {#modal_buttons}
+### `buttons`
 
 Array of buttons for action pane.
 
@@ -107,7 +107,7 @@ buttons: [{
 }]
 ```
 
-### `clickableOverlay` {#modal_clickableOverlay}
+### `clickableOverlay`
 
 Close the modal window when a user clicks on the overlay.
 
@@ -115,7 +115,7 @@ Close the modal window when a user clicks on the overlay.
 
 **Default value**: `true`
 
-### `closeText` {#modal_closeText}
+### `closeText`
 
 The close button text.
 
@@ -123,7 +123,7 @@ The close button text.
 
 **Default value**: `$.mage.__('Close')`
 
-### `customTpl` {#modal_customTpl}
+### `customTpl`
 
 The template file that is used as content for the `custom` modal type.
 
@@ -131,7 +131,7 @@ The template file that is used as content for the `custom` modal type.
 
 **Default value**: `ui/template/modal/modal-custom.html`
 
-### `focus` {#modal_focus}
+### `focus`
 
 Selector to focusing when a modal window opens or 'none' if focusing is not necessary.
 
@@ -139,7 +139,7 @@ Selector to focusing when a modal window opens or 'none' if focusing is not nece
 
 **Default value**: `[data-role="closeBtn"]`
 
-### `innerScroll` {#modal_innerScroll}
+### `innerScroll`
 
 Modal scroll position.
 
@@ -147,7 +147,7 @@ Modal scroll position.
 
 **Default value**: `false`
 
-### `modalClass` {#modal_modalClass}
+### `modalClass`
 
 Custom classes for modal window.
 
@@ -155,7 +155,7 @@ Custom classes for modal window.
 
 **Default value**: empty
 
-### `modalAction` {#modal_modalAction}
+### `modalAction`
 
 The selector for all the custom action buttons.
 
@@ -163,7 +163,7 @@ The selector for all the custom action buttons.
 
 **Default value**: `[data-role="action"]`
 
-### `modalCloseBtn` {#modal_modalCloseBtn}
+### `modalCloseBtn`
 
 The selector for all the elements that can close the modal.
 
@@ -171,7 +171,7 @@ The selector for all the elements that can close the modal.
 
 **Default value**: `[data-role="closeBtn"]`
 
-### `modalContent` {#modal_modalContent}
+### `modalContent`
 
 The selector for element that is used for the modal's content.
 
@@ -179,7 +179,7 @@ The selector for element that is used for the modal's content.
 
 **Default value**: `[data-role="content"]`
 
-### `modalLeftMargin` {#modal_modalLeftMargin}
+### `modalLeftMargin`
 
 Sets a margin between slide modal windows.
 
@@ -187,7 +187,7 @@ Sets a margin between slide modal windows.
 
 **Default value**: 45
 
-### `modalSubTitle` {#modal_modalSubTitle}
+### `modalSubTitle`
 
 The modal subtitle element selector.
 
@@ -195,7 +195,7 @@ The modal subtitle element selector.
 
 **Default value**: `[data-role="subTitle"]`
 
-### `modalTitle` {#modal_modalTitle}
+### `modalTitle`
 
 The modal title element selector.
 
@@ -203,7 +203,7 @@ The modal title element selector.
 
 **Default value**: `[data-role="title"]`
 
-### `modalVisibleClass` {#modal_modalVisibleClass}
+### `modalVisibleClass`
 
 The class that is assigned to an opened modal.
 
@@ -211,7 +211,7 @@ The class that is assigned to an opened modal.
 
 **Default value**: `_show`
 
-### `parentModalClass` {#modal_parentModalClass}
+### `parentModalClass`
 
 The class that is assigned to parent when the modal is opened.
 
@@ -219,15 +219,15 @@ The class that is assigned to parent when the modal is opened.
 
 **Default value**: `_has-modal`
 
-### `outerClickHandler` {#modal_outerClickHandler}
+### `outerClickHandler`
 
-The function that handles a click outside the modal window. If the `outerClickHandler` option is not specified, the [closeModal()](#modal_close) method is used for handling a click outside the modal window.
+The function that handles a click outside the modal window. If the `outerClickHandler` option is not specified, the [closeModal()](#close) method is used for handling a click outside the modal window.
 
 **Type**: Function
 
 **Default value**: `undefined`
 
-### `popupTpl` {#modal_popupTpl}
+### `popupTpl`
 
 The template file that is used as content for the `popup` modal type.
 
@@ -235,7 +235,7 @@ The template file that is used as content for the `popup` modal type.
 
 **Default value**: `ui/template/modal/modal-popup.html`
 
-### `responsive` {#modal_responsive}
+### `responsive`
 
 Turn popup modal window to slide panel on small screens.
 Available if the type option is set to 'popup'.
@@ -244,7 +244,7 @@ Available if the type option is set to 'popup'.
 
 **Default value**: `false`
 
-### `slideTpl` {#modal_slideTpl}
+### `slideTpl`
 
 The template file that is used as content for the `slide` modal type.
 
@@ -252,7 +252,7 @@ The template file that is used as content for the `slide` modal type.
 
 **Default value**: `ui/template/modal/modal-slide.html`
 
-### `subTitle` {#modal_subTitle}
+### `subTitle`
 
 Translated subTitle for the popup window that will be appended to the title.
 
@@ -260,7 +260,7 @@ Translated subTitle for the popup window that will be appended to the title.
 
 **Default value**: empty
 
-### `title` {#modal_title}
+### `title`
 
 Translated title for popup window.
 
@@ -268,7 +268,7 @@ Translated title for popup window.
 
 **Default value**: empty
 
-### `trigger` {#modal_trigger}
+### `trigger`
 
 The element that triggers the modal.
 
@@ -276,7 +276,7 @@ The element that triggers the modal.
 
 **Default value**: empty
 
-### `type` {#modal_type}
+### `type`
 
 The type of window: 'popup' or 'slide'.
 
@@ -284,16 +284,16 @@ The type of window: 'popup' or 'slide'.
 
 **Default value**: `popup`
 
-## Methods {#modal_methods}
+## Methods
 
 The modal widget has the following methods:
 
--  [closeModal()](#modal_close)
--  [keyEventSwitcher()](#modal_keyEventSwitcher)
--  [openModal()](#modal_open)
--  [toggleModal()](#modal_toggleModal)
+-  [closeModal()](#close)
+-  [keyEventSwitcher()](#keyEventSwitcher)
+-  [openModal()](#open)
+-  [toggleModal()](#toggleModal)
 
-### `openModal()` {#modal_open}
+### `openModal()`
 
 Open the modal window.
 
@@ -301,7 +301,7 @@ Open the modal window.
 $('#css-selector').modal('openModal');
 ```
 
-### `closeModal()` {#modal_close}
+### `closeModal()`
 
 Close the modal window.
 
@@ -309,20 +309,20 @@ Close the modal window.
 $('#css-selector').modal('closeModal');
 ```
 
-### `keyEventSwitcher()` {#modal_keyEventSwitcher}
+### `keyEventSwitcher()`
 
 Listens for key events and calls handler function if it exists.
 
-### `toggleModal()` {#modal_toggleModal}
+### `toggleModal()`
 
 Toggles the modal window.
 
-## Events {#modal_events}
+## Events
 
 The modal widget is subscribed to the following events:
 
--  [closed](#modal_closed)
--  [opened](#modal_opened)
+-  [closed](#closed)
+-  [opened](#opened)
 
 You can listen to these events in two ways:
 
@@ -346,11 +346,11 @@ $('#modal_content').modal({
 });
 ```
 
-### `closed` {#modal_closed}
+### `closed`
 
 Called when the modal window is closed.
 
-### `opened` {#modal_opened}
+### `opened`
 
 Called when the modal window is opened.
 

@@ -22,12 +22,14 @@ The `Logger` class provides logging functionality for an application. It can be 
 -  `entryFactory: LogEntryFactory`: A factory of the `LogEntry` instances.
 
 ### `setDisplayLevel(level)`
+
 Sets the boundary entry level. The entries whose level is lower, than the specified one, are not passed to the output.
 
 **Parameters:**
 `level: number`: Minimum display level for an entry.
 
 ### `addDisplayCriteria(criteria)`
+
 Adds a function that is used to define whether newly created entries should be passed to the output.
 
 **Parameters:**
@@ -41,6 +43,7 @@ Removes the previously added display criteria.
 `criteria: Function`: The display criteria to be removed.
 
 ### `error(message, [messageData])`
+
 Creates a `LogEntry` with the `ERROR` level and passes it to the output, if it matches all current display criteria.
 
 **Parameters:**
@@ -51,6 +54,7 @@ Creates a `LogEntry` with the `ERROR` level and passes it to the output, if it m
 **Returns:** `LogEntry`
 
 ### `warn(message, [messageData])`
+
 Creates a `LogEntry` with the `WARN` level and passes it to the output, if it matches all current display criteria.
 
 **Parameters:**
@@ -61,6 +65,7 @@ Creates a `LogEntry` with the `WARN` level and passes it to the output, if it ma
 **Returns:** `LogEntry`
 
 ### `info(message, [messageData])`
+
 Creates a `LogEntry` with the `INFO` level and passes it to the output if it matches all current display criteria.
 
 **Parameters:**
@@ -71,6 +76,7 @@ Creates a `LogEntry` with the `INFO` level and passes it to the output if it mat
 **Returns:** `LogEntry`
 
 ### `debug(message, [messageData])`
+
 Creates a `LogEntry` with the `DEBUG` level and passes it to the output, if it matches all current display criteria.
 
 **Parameters:**
@@ -81,6 +87,7 @@ Creates a `LogEntry` with the `DEBUG` level and passes it to the output, if it m
 **Returns:** `LogEntry`
 
 ### `getEntries([criteria])`
+
 Returns all available log entries. It can additionally filter out the entries that don't match the provided criteria.
 
 **Parameters:**
@@ -94,6 +101,7 @@ Returns all available log entries. It can additionally filter out the entries th
 `criteria?: Function`: Optional function that accepts an instance of `LogEntry` and implements the filter criteria by which entries are passed to the output handler.
 
 ## `LogEntry`
+
 `LogEntry` is a class that holds the data of log operations, like `error`, `warn`,  `info` and so on.
 
 **Constructor:** `<Magento_Ui_module_dir>/view/base/web/js/lib/logger/entry.js`. [See on GitHub](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/logger/entry.js)
@@ -166,6 +174,7 @@ The `LogFormatter` class is responsible for processing the message of the provid
 -  `template = "[${ $.date }] [${ $.entry.levelName }] ${ $.message }`: Template used to create the resulting message of an entry.
 
 ### `process(entry)`
+
 Creates a text representation of the provided entry. If default settings are used, the resulting string looks like following: `[2017-04-07 01:36:24] [DEBUG] Log message`.
 
 **Parameters:**
@@ -174,6 +183,7 @@ Creates a text representation of the provided entry. If default settings are use
 **Returns:** String
 
 ## `levelsPool`
+
 `levelsPool` is a module that provides log levels and utility methods to work with them.
 
 The following log levels are available (sorted by priority in the descending order):
@@ -188,6 +198,7 @@ The following log levels are available (sorted by priority in the descending ord
 **Path:** `Magento_Ui_module_dir>/view/base/web/js/lib/logger/levels-pool.js` ([See on GitHub](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/logger/levels-pool.js))
 
 ### `getLevels()`
+
 Returns a list of available log levels.
 
 **Returns:** `{[name: string]: number}`
@@ -206,6 +217,7 @@ Implements a collection of predefined messages used by `consoleLogger`.
 **Path:** `<Magento_Ui_module_dir>/view/base/web/js/lib/logger/message-pool.js` ([See on GitHub](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/logger/message-pool.js))
 
 ### `getMessage(code)`
+
 Returns message that matches the provided code.
 
 **Parameters:**
@@ -214,6 +226,7 @@ Returns message that matches the provided code.
 **Returns:** String
 
 ### `addMessage(code, message)`
+
 Adds a new message to the pool.
 
 **Parameters:**
@@ -222,6 +235,7 @@ Adds a new message to the pool.
 `message: string`: Text of the message.
 
 ### `hasMessage(code)`
+
 Checks whether a message with the provided code exists in the pool.
 
 **Parameters:**
@@ -230,6 +244,7 @@ Checks whether a message with the provided code exists in the pool.
 **Returns:** Boolean
 
 ## `consoleLogger`
+
 An instance of the `Logger` class that is configured to display messages in the browser's console with the default format. It also stores the last provided display level in `localStorage` and allows to work with a list of predefined messages instead of passing their text directly:
 
 ```javascript

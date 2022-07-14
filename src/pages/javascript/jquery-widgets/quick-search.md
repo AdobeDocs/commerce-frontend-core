@@ -16,20 +16,20 @@ For information about how to initialize a widget in a JS component or `.phtml` t
 
 ## Options {#quicksearch_options}
 
--  [autocomplete](#q_autocomplete)
--  [destinationSelector](#q_destinationSelector)
--  [isExpandable](#q_isExpandable)
--  [formSelector](#q_formSelector)
--  [minSearchLength](#q_minSearchLength)
--  [responseFieldElements](#q_responseFieldElements)
--  [searchLabel](#q_searchLabel)
--  [selectClass](#q_selectClass)
--  [submitBtn](#q_submitBtn)
--  [suggestionDelay](#q_suggestionDelay)
--  [template](#q_template)
--  [url](#q_url)
+-  [autocomplete](#autocomplete)
+-  [destinationSelector](#destinationselector)
+-  [isExpandable](#isexpandable)
+-  [formSelector](#formselector)
+-  [minSearchLength](#minsearchlength)
+-  [responseFieldElements](#responsefieldelements)
+-  [searchLabel](#searchlabel)
+-  [selectClass](#selectclass)
+-  [submitBtn](#submitbtn)
+-  [suggestionDelay](#suggestiondelay)
+-  [template](#template)
+-  [url](#url)
 
-### `autocomplete` {#q_autocomplete}
+### `autocomplete`
 
 Attaches the `autocomplete` attribute to the search field.
 
@@ -39,7 +39,7 @@ Attaches the `autocomplete` attribute to the search field.
 
 **Accepted values**: `off`, `on`
 
-### `destinationSelector` {#q_destinationSelector}
+### `destinationSelector`
 
 The element's selector where the results will be added.
 
@@ -47,7 +47,7 @@ The element's selector where the results will be added.
 
 **Default value**: `null`
 
-### `isExpandable` {#q_isExpandable}
+### `isExpandable`
 
 The isExpandable option is used to show and hide search input field on devices with max width 768px.
 
@@ -55,7 +55,7 @@ The isExpandable option is used to show and hide search input field on devices w
 
 **Default value**: `null`
 
-### `formSelector` {#q_formSelector}
+### `formSelector`
 
 The form selector containing the search input field.
 
@@ -63,7 +63,7 @@ The form selector containing the search input field.
 
 **Default value**: No form by default.
 
-### `minSearchLength` {#q_minSearchLength}
+### `minSearchLength`
 
 Minimum number of characters required before the auto suggest triggers.
 
@@ -71,7 +71,7 @@ Minimum number of characters required before the auto suggest triggers.
 
 **Default value**: `2`
 
-### `responseFieldElements` {#q_responseFieldElements}
+### `responseFieldElements`
 
 Selector for the response elements.
 
@@ -79,7 +79,7 @@ Selector for the response elements.
 
 **Default Value**: `ul li`
 
-### `searchLabel` {#q_searchLabel}
+### `searchLabel`
 
 Selector of a search input label.
 
@@ -87,7 +87,7 @@ Selector of a search input label.
 
 **Default value**: `[data-role=minisearch-label]`
 
-### `selectClass` {#q_selectClass}
+### `selectClass`
 
 Class assigned to the selected suggested term.
 
@@ -95,7 +95,7 @@ Class assigned to the selected suggested term.
 
 **Default value**: `selected`
 
-### `submitBtn` {#q_submitBtn}
+### `submitBtn`
 
 Disable the submit button.
 
@@ -103,7 +103,7 @@ Disable the submit button.
 
 **Default value**: `button[type="submit"]`
 
-### `suggestionDelay` {#q_suggestionDelay}
+### `suggestionDelay`
 
 The `suggestionDelay` option prevents overloading the server with requests by waiting until the user has stopped typing for the specified period of time.
 
@@ -111,7 +111,7 @@ The `suggestionDelay` option prevents overloading the server with requests by wa
 
 **Default value**: `300`
 
-### `template` {#q_template}
+### `template`
 
 Template responsible for rendering returned data (suggested terms).
 
@@ -130,7 +130,7 @@ Template responsible for rendering returned data (suggested terms).
 </li>
 ```
 
-### `url` {#q_url}
+### `url`
 
 The endpoint URL for processing the search query.
 

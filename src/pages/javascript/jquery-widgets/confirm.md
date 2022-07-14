@@ -10,7 +10,7 @@ The confirmation [widget](https://glossary.magento.com/widget) source is [`<Mage
 
 The widget can be used for implementing confirmation windows for both, Admin and [storefront](https://glossary.magento.com/storefront). The design patterns for the modal pop-up windows in the Admin are described in the [Admin Pattern Library, the Slide-out Panels, Modal Windows, and Overlays topic.]
 
-## Initialize the confirmation widget {#confirm_initialize}
+## Initialize the confirmation widget
 
 The confirmation widget can be initialized with or without binding to a certain element.
 
@@ -50,23 +50,25 @@ require([
 
 For details about how to initialize a widget in a`.phtml` template, refer to the [JavaScript initialization] topic.
 
-## Options {#confirm_options}
+## Options
 
--  [actions](#confirm_actions)
--  [autoOpen](#confirm_autoopen)
--  [clickableOverlay](#confirm_clickableOverlay)
--  [content](#confirm_content)
--  [focus](#confirm_focus)
--  [title](#confirm_title)
--  [modalClass](#confirm_modalClass)
--  [buttons](#confirm_buttons)
+-  [actions](#actions)
+-  [autoOpen](#autoopen)
+-  [clickableOverlay](#clickableOverlay)
+-  [content](#content)
+-  [focus](#focus)
+-  [title](#title)
+-  [modalClass](#modalClass)
+-  [buttons](#buttons)
 
-### `actions` {#confirm_actions}
+### `actions`
+
 Widget callbacks.
 
 **Type**: Object
 
 **Default value**:
+
 ```javascript
 actions: {
     confirm: function(){},
@@ -75,7 +77,7 @@ actions: {
 }
 ```
 
-### `autoOpen` {#confirm_autoopen}
+### `autoOpen`
 
 Automatically open the confirmation window when the widget is initialized.
 
@@ -83,7 +85,8 @@ Automatically open the confirmation window when the widget is initialized.
 
 **Default value**: `false`
 
-### `buttons` {#confirm_buttons}
+### `buttons`
+
 The buttons list.
 
 **Type**: Array of Objects.
@@ -106,7 +109,7 @@ buttons: [{
 }]
 ```
 
-### `clickableOverlay` {#confirm_clickableOverlay}
+### `clickableOverlay`
 
 Close the confirmation window when a user clicks on the overlay.
 
@@ -114,12 +117,14 @@ Close the confirmation window when a user clicks on the overlay.
 
 **Default value**: `true`
 
-### `content` {#confirm_content}
+### `content`
+
 The confirmation window content.
 
 **Type**: String.
 
-### `focus` {#confirm_focus}
+### `focus`
+
 The selector of the element to be in focus when the confirmation window opens.
 If `focus` is not specified or set to empty string, the focus is on close button. If focusing is not required, set `focus` to `none`.
 
@@ -127,14 +132,15 @@ If `focus` is not specified or set to empty string, the focus is on close button
 
 **Default value**: `''`
 
-### `title` {#confirm_title}
+### `title`
+
 The title of the confirmation window.
 
 **Type**: String.
 
 **Default value**: `''`
 
-### `modalClass` {#confirm_modalClass}
+### `modalClass`
 
 The CSS class of the confirm window.
 
@@ -142,7 +148,7 @@ The CSS class of the confirm window.
 
 **Default value**: `'confirm'`
 
-## Events {#confirm_events}
+## Events
 
 The confirmation widget implements the following events:
 
@@ -150,7 +156,7 @@ The confirmation widget implements the following events:
 -  `cancel` callback: called when the cancel button is clicked.
 -  `always` callback: called when the popup is closed.
 
-## Keyboard navigation {#confirm_key_navigation}
+## Keyboard navigation
 
 The keyboard navigation for the alert windows is similar to the [navigation of the modal widget].
 

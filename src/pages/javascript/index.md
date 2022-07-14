@@ -9,7 +9,7 @@ By default, the application uses the [RequireJS file and module loader] to optim
 
 For information about how JS resources are located and configured, see the [JavaScript resources] topic in the Configuration Guide.
 
-## What's in this guide {#js_contents}
+## What's in this guide
 
 Topics of this book describe the following:
 
@@ -21,7 +21,7 @@ Topics of this book describe the following:
 
 JavaScript automatic testing is described in a separate [JavaScript unit testing] topic.
 
-## Terms used {#js_terms}
+## Terms used
 
 | Term                                  | Description                                        |
 | ------------------------------------- |--------------------------------------------------- |

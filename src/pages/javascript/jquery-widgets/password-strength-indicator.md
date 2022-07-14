@@ -53,17 +53,17 @@ The following example shows a PHTML file using the script:
 
 For details about how to initialize the widget in a`.phtml` template, refer to the [JavaScript initialization](../init.md) topic.
 
-## Options {#password_strength_indicator_options}
+## Options
 
 The password strength indicator widget has the following options:
 
--  [passwordSelector](#password_strength_indicator_password_selector)
--  [passwordStrengthMeterSelector](#password_strength_indicator_password_strength_meter_selector)
--  [passwordStrengthMeterLabelSelector](#password_strength_indicator_password_strength_meter_label_selector)
--  [formSelector](#password_strength_indicator_form_selector)
--  [emailSelector](#password_strength_indicator_email_selector)
+-  [passwordSelector](#passwordselector)
+-  [passwordStrengthMeterSelector](#passwordstrengthmeterselector)
+-  [passwordStrengthMeterLabelSelector](#passwordstrengthmeterlabelselector)
+-  [formSelector](#formselector)
+-  [emailSelector](#emailselector)
 
-### passwordSelector {#password_strength_indicator_password_selector}
+### passwordSelector
 
 Selector for the password input.
 
@@ -71,7 +71,7 @@ Selector for the password input.
 
 **Default value**: `[type=password]`
 
-### passwordStrengthMeterSelector {#password_strength_indicator_password_strength_meter_selector}
+### passwordStrengthMeterSelector
 
 Selector for the password strength visualization block.
 
@@ -79,7 +79,7 @@ Selector for the password strength visualization block.
 
 **Default value**: `[data-role=password-strength-meter]`
 
-### passwordStrengthMeterLabelSelector {#password_strength_indicator_password_strength_meter_label_selector}
+### passwordStrengthMeterLabelSelector
 
 Selector for the password strength visualization block label.
 
@@ -87,7 +87,7 @@ Selector for the password strength visualization block label.
 
 **Default value**: `[data-role=password-strength-meter-label]`
 
-### formSelector {#password_strength_indicator_form_selector}
+### formSelector
 
 The selector for the form block.
 
@@ -95,7 +95,7 @@ The selector for the form block.
 
 **Default value**: `form`
 
-### emailSelector {#password_strength_indicator_email_selector}
+### emailSelector
 
 The selector for the email input.
 
@@ -103,7 +103,7 @@ The selector for the email input.
 
 **Default value**: `input[type="email"]`
 
-## Events {#password_strength_indicator_events}
+## Events
 
 The password strength indicator widget listens for `change`, `keyup`, and `paste` events on the password and the email inputs. Listening to the email input is optional.
 

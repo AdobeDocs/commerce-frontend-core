@@ -12,31 +12,31 @@ The dropdownDialog [widget](https://glossary.magento.com/widget) is a customizat
 
 The dropdownDialog widget source is located in [lib/web/mage/dropdown.js].
 
-## Initialize the dropdownDialog widget {#dialog_init}
+## Initialize the dropdownDialog widget
 
 For information about how to initialize a widget in a JS component or `.phtml` template, see the [Initialize JavaScript] topic.
 
-## Options {#dialog_options}
+## Options
 
 The customized Dialog widget has default [jQuery UI Dialog widget](http://api.jqueryui.com/dialog/) options, plus several custom options:
 
--  [autoPosition](#d_autoPosition)
--  [autoSize](#d_autoSize)
--  [autoOpen](#d_autoOpen)
--  [closeOnClickOutside](#d_closeOnClickOutside)
--  [closeOnMouseLeave](#d_closeOnMouseLeave)
--  [createTitleBar](#d_createTitleBar)
--  [defaultDialogClass](#d_defaultDialogClass)
--  [dialogContentClass](#d_dialogContentClass)
--  [parentClass](#d_parentClass)
--  [timeout](#d_timeout)
--  [triggerClass](#d_triggerClass)
--  [triggerEvent](#d_triggerEvent)
--  [triggerTarget](#d_triggerTarget)
+-  [autoPosition](#autoPosition)
+-  [autoSize](#autoSize)
+-  [autoOpen](#autoOpen)
+-  [closeOnClickOutside](#closeOnClickOutside)
+-  [closeOnMouseLeave](#closeOnMouseLeave)
+-  [createTitleBar](#createTitleBar)
+-  [defaultDialogClass](#defaultDialogClass)
+-  [dialogContentClass](#dialogContentClass)
+-  [parentClass](#parentClass)
+-  [timeout](#timeout)
+-  [triggerClass](#triggerClass)
+-  [triggerEvent](#triggerEvent)
+-  [triggerTarget](#triggerTarget)
 
 Description of each option as follows below location.
 
-### `autoPosition`   {#d_autoPosition}
+### `autoPosition`
 
 Specifies if the [`position`] option is used for calculating the drop-down offset.
 
@@ -46,7 +46,7 @@ If set to `false` (default value), then `position` rules are not used and the dr
 
 **Default value**: `false`
 
-### `autoOpen` {#d_autoOpen}
+### `autoOpen`
 
 Specifies if the drop-down should open after page load.
 
@@ -54,7 +54,7 @@ Specifies if the drop-down should open after page load.
 
 **Default value**: `false`
 
-### `autoSize` {#d_autoSize}
+### `autoSize`
 
 Specifies if the size of the drop-down is defined by widget options ([height], [width], [minHeight], [minWidth]).
 
@@ -62,7 +62,7 @@ Specifies if the size of the drop-down is defined by widget options ([height], [
 
 **Default value**: `false`
 
-### `closeOnMouseLeave` {#d_closeOnMouseLeave}
+### `closeOnMouseLeave`
 
 Specifies if the drop-down is closed when mouse pointer is moved out.
 
@@ -70,7 +70,7 @@ Specifies if the drop-down is closed when mouse pointer is moved out.
 
 **Default value**: `true`
 
-### `closeOnClickOutside` {#d_closeOnClickOutside}
+### `closeOnClickOutside`
 
 Specifies if the drop-down is closed on mouse click outside the drop-down.
 
@@ -78,7 +78,7 @@ Specifies if the drop-down is closed on mouse click outside the drop-down.
 
 **Default value**: `true`
 
-### `createTitleBar` {#d_createTitleBar}
+### `createTitleBar`
 
 Defines if the [title] option is used for displaying the title bar.
 
@@ -86,7 +86,7 @@ Defines if the [title] option is used for displaying the title bar.
 
 **Default value**: `false`
 
-### `defaultDialogClass` {#d_defaultDialogClass}
+### `defaultDialogClass`
 
 Class that is added to the drop-down, when it gets initialized.
 
@@ -100,7 +100,7 @@ Class that is added/removed on drop-down content when it gets opened/closed.
 
 **Default value**: `null`
 
-### `parentClass` {#d_parentClass}
+### `parentClass`
 
 Class that is added/removed for the dropdown parent, when the drop-down gets opened/closed.
 
@@ -108,7 +108,7 @@ Class that is added/removed for the dropdown parent, when the drop-down gets ope
 
 **Default value**: `null`
 
-### `triggerClass` {#d_triggerClass}
+### `triggerClass`
 
 Class that is added/removed on the trigger element when the drop-down gets opened/closed.
 
@@ -116,7 +116,7 @@ Class that is added/removed on the trigger element when the drop-down gets opene
 
 **Default value**: `null`
 
-### `triggerEvent` {#d_triggerEvent}
+### `triggerEvent`
 
 Name of the event that triggers the `open()` function for drop-down.
 
@@ -124,7 +124,7 @@ Name of the event that triggers the `open()` function for drop-down.
 
 **Default value**: `click`
 
-### `triggerTarget` {#d_triggerTarget}
+### `triggerTarget`
 
 Element that triggers the drop-down.
 
@@ -135,7 +135,7 @@ Element that triggers the drop-down.
 
 **Default value**: `null`
 
-### `timeout` {#d_timeout}
+### `timeout`
 
 The number of milliseconds until the dropdown is closed after mouse pointer moves out.
 
@@ -143,16 +143,16 @@ The number of milliseconds until the dropdown is closed after mouse pointer move
 
 **Default value**: 500
 
-## Methods {#dialog_methods}
+## Methods
 
 The customized dropdownDialog widget has default [jQuery UI Dialog widget] methods, though some of them are customized.
 
 Customized public methods:
 
--  [open()](#d_open)
--  [close()](#d_close)
+-  [open()](#open)
+-  [close()](#close)
 
-### `open()` {#d_open}
+### `open()`
 
 Beside default functionality, this method calls the `_mouseLeave()` and `_mouseEnter()` functions, adds classes on trigger and drop-down parent, and binds the close on mouse click outside drop-down to the `<body>` element.
 
@@ -162,7 +162,7 @@ Invoke the open method:
 $("#element").dropdownDialog("open");
 ```
 
-### `close()` {#d_close}
+### `close()`
 
 Beside default functionality, this method removes the classes from trigger and drop-down parent.Also clears the timeout if the latter exists.
 

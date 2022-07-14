@@ -227,10 +227,6 @@ The following is a list of files in the [`Magento_CheckoutAgreement`] module tha
 *  [`view/frontend/web/js/model/place-order-mixin.js`]
 *  [`view/frontend/web/js/model/set-payment-information-mixin.js`]
 
-## Related reading
-
-*  [About AMD modules and RequireJS]
-*  [Configure JS resources]
 
 [mixin]: https://en.wikipedia.org/wiki/Mixin
 [application area]: https://developer.adobe.com/commerce/php/architecture/modules/areas/
@@ -242,6 +238,4 @@ The following is a list of files in the [`Magento_CheckoutAgreement`] module tha
 [`view/frontend/web/js/model/place-order-mixin.js`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/CheckoutAgreements/view/frontend/web/js/model/place-order-mixin.js
 [`view/frontend/web/js/model/set-payment-information-mixin.js`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/CheckoutAgreements/view/frontend/web/js/model/set-payment-information-mixin.js
 [`Magento_CheckoutAgreement`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/CheckoutAgreements
-[About AMD modules and RequireJS]: resources.md#requirejs-library
 [modal widget]: jquery-widgets/modal.md
-[Configure JS resources]: resources.md

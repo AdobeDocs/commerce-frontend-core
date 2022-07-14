@@ -8,7 +8,7 @@ The Loader [widget](https://glossary.magento.com/widget) blocks page content (al
 
 The Loader widget source is [lib/web/mage/loader.js].
 
-## Initialize the loader widget {#loader_init}
+## Initialize the loader widget
 
 For information about how to initialize a widget in a JS component or `.phtml` template, see the [Initialize JavaScript][] topic.
 
@@ -36,15 +36,15 @@ require(['jquery', 'loader'], function ($) {
 </script>
 ```
 
-## Options {#loader_options}
+## Options
 
 The loader widget has the following options:
 
--  [icon](#l_icon)
--  [template](#l_template)
--  [texts](#l_texts)
+-  [icon](#icon)
+-  [template](#template)
+-  [texts](#texts)
 
-### `icon` {#l_icon}
+### `icon`
 
 The URL to the loader image. This image is displayed when the widget is active; that is, between the `ajaxSend` and `ajaxComplete` events.
 
@@ -52,7 +52,7 @@ The URL to the loader image. This image is displayed when the widget is active; 
 
 **Default value**: No image by default.
 
-### `template` {#l_template}
+### `template`
 
 HTML wrapper for the output, or a DOM element selector.
 
@@ -67,7 +67,7 @@ HTML wrapper for the output, or a DOM element selector.
 </div>
 ```
 
-### `texts` {#l_texts}
+### `texts`
 
 An object that contains translations for loader text:
 
@@ -76,12 +76,12 @@ An object that contains translations for loader text:
 -  `texts.imgAlt`: The text that is set as the `alt` attribute value of the loader image.
    **Default value**: *'Loading...'*
 
-## Methods {#loader_methods}
+## Methods
 
--  [show()](#method_show)
--  [hide()](#method_hide)
+-  [show()](#show)
+-  [hide()](#hide)
 
-### `show()` {#method_show}
+### `show()`
 
 Show the loader.
 
@@ -91,7 +91,7 @@ Invoke the show method:
 $("#element").loader("show");
 ```
 
-### `hide()` {#method_hide}
+### `hide()`
 
 Hide the loader.
 
@@ -105,10 +105,10 @@ $("#element").loader("hide");
 
 Loader is subscribed to the following events:
 
--  [processStart](#l_processStart)
--  [processStop](#l_processStop)
+-  [processStart](#processStart)
+-  [processStop](#processStop)
 
-### `processStart` {#l_processStart}
+### `processStart`
 
 Display the loader. Can be triggered on any page element.
 
@@ -128,7 +128,8 @@ var callback = function () {
 $("body").on('processStart', callback);
 ```
 
-### `processStop` {#l_processStop}
+### `processStop`
+
 Hide the loader. Can be triggered on any page element.
 
 Stop show loading:

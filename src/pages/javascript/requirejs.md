@@ -26,7 +26,7 @@ var config = {
 }
 ```
 
-### map {#requirejs-config-map}
+### map
 
 The `map` configuration maps (connects) any real AMD modules that calls `define()`, to the specified alias. In the snippet below, `*` means all loaded RequireJS modules can use the specified alias. The second mapping applies only in the context of `Vendor_Module/js/amd-module`. So, both types of contexts can be applied: either a global context, or a module specific context.
 
@@ -58,7 +58,7 @@ map: {
 
 You can also use the `map` configuration to override a JS module with a custom JS module. See [Custom JS component](custom.md#replace-a-default-js-component).
 
-### paths {#requirejs-config-paths}
+### paths
 
 The `paths` configuration, similar to `map`, is used for aliasing not just any real AMD module that calls `define()`, but also any JS file (even from a URL), HTML templates, etc. The application uses this to alias URLs and third-party libraries.
 
@@ -120,7 +120,7 @@ In this example, the `max-length` value of the text-box in the `adminhtml` is al
 
 The path for `Magento_Ui/templates` is set to be `ui/template` in the `requirejs-config.js` module of `module_ui`, hence `ui/template` is used for specifying the path. If no paths are set, `<module_name>/templates` should be used.
 
-### deps {#requirejs-config-deps}
+### deps
 
 The `deps` configuration is used to add a dependency. It can either be used directly under `var config = {}` or under a [shim configuration](#requirejs-config-shim). Adding modules under an independent `deps` configuration will load the specified modules in all pages.
 
@@ -130,7 +130,7 @@ In this snippet, the custom `Vendor_Module/js/module` will be loaded in all page
 deps: ['Vendor_Module/js/module']
 ```
 
-### shim {#requirejs-config-shim}
+### shim
 
 The `shim` configuration is used to build a dependency on a third party library, since we cannot modify it.
 
@@ -152,7 +152,7 @@ shim: {
 }
 ```
 
-### mixins {#requirejs-config-mixin}
+### mixins
 
 The `mixins` configuration is used to overwrite component methods of an AMD module which returns either a UI component, a jQuery widget, or a JS object. Unlike the above configuration properties, the `mixins` property is under the `config` property, apart from the parent object called **config**.
 

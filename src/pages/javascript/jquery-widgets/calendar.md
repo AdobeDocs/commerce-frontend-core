@@ -12,11 +12,11 @@ The Calendar widget is a customized jQuery [Datepicker Widget] that enables sele
 -  Making the calendar initialization easier.
 -  The Calendar widget source is [lib/web/mage/calendar.js].
 
-## Initialize the calendar widget {#fedg_calendar_init}
+## Initialize the calendar widget
 
 For information about how to initialize a widget in a JS component or `.phtml` template, see the [Initialize JavaScript] topic.
 
-## Configure the calendar widget {#fedg_calendar_config}
+## Configure the calendar widget
 
 The calendar widget's *global configuration* is a set of default options that are applied when each calendar instance is initialized. It includes the following:
 
@@ -62,7 +62,7 @@ This example shows how to add date validation for a calendar widget:
 data-validate="{'required-entry': true, 'validate-date': {dateFormat: 'MM/dd/Y'}}"
 ```
 
-## Options, methods, and events {#fedg_calendar_options}
+## Options, methods, and events
 
 Most options, methods, and events for the calendar widget correspond to the jQuery [Datepicker Widget] options.
 

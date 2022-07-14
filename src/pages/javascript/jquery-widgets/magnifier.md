@@ -11,7 +11,7 @@ It is used by the [gallery](gallery.md) widget for zooming the product images on
 
 The Magnifier widget source is located in [lib/web/magnifier/magnify.js](https://github.com/magento/magento2/blob/2.4/lib/web/magnifier/magnify.js).
 
-## Initialize magnifier {#magnifier_init}
+## Initialize magnifier
 
 The magnifier widget is initialized as described in [JavaScript initialization](../init.md#insert-a-js-component-in-a-phtml-template).
 The following is the example of gallery initialization with the magnifier enabled:
@@ -45,19 +45,19 @@ The following is the example of gallery initialization with the magnifier enable
 </script>
 ```
 
-## Options {#magnifier_options}
+## Options
 
-### `enabled` {#opt_enabled}
+### `enabled`
 
 Enables the magnifier.
 
 **Type**: Boolean
 
-### `height` {#opt_height}
+### `height`
 
 Height of the magnifier block in pixels.
 
-### `eventType` {#opt_eventtype}
+### `eventType`
 
 Action that activates zoom.
 
@@ -66,31 +66,31 @@ Possible values:
 *  `hover`
 *  `click`
 
-### `fullscreenzoom` {#opt_fullscreenzoom}
+### `fullscreenzoom`
 
 Zoom step in percents for the fullscreen view.
 
 Type: Integer
 
-### `left` {#opt_left}
+### `left`
 
 The value for the CSS `left` property for the magnifier block positioning.
 
 **Type**: Integer
 
-### `top` {#opt_top}
+### `top`
 
 The value for the CSS `top` property for the magnifier block positioning.
 
 **Type**: Integer
 
-### `width` {#opt_width}
+### `width`
 
 Width of the magnifier block in pixels.
 
 **Type**: Integer
 
-### `mode` {#opt_mode}
+### `mode`
 
 Specifies whether to display magnified image inside / outside lens.
 

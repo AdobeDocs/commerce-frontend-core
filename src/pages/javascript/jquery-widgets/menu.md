@@ -12,7 +12,7 @@ The menu widget is a customized [jQuery UI Menu widget](http://api.jqueryui.com/
 
 The menu [widget](https://glossary.magento.com/widget) source is [lib/web/mage/menu.js].
 
-## Initialize the menu widget {#menu_init}
+## Initialize the menu widget
 
 For information about how to initialize a widget in a JS component or `.phtml` template, see the [Initialize JavaScript] topic.
 
@@ -20,49 +20,54 @@ For information about how to initialize a widget in a JS component or `.phtml` t
 
 Menu widget options mostly coincide with the options of the jQuery UI Menu widget, with addition of the following custom ones:
 
--  [delay](#m_delay)
--  [showDelay](#m_showDelay)
--  [hideDelay](#m_hideDelay)
--  [responsive](#m_responsive)
--  [expanded](#m_expanded)
--  [mediaBreakpoint](#m_mediaBreakpoint)
+-  [delay](#delay)
+-  [showDelay](#showDelay)
+-  [hideDelay](#hideDelay)
+-  [responsive](#responsive)
+-  [expanded](#expanded)
+-  [mediaBreakpoint](#mediaBreakpoint)
 
-### `delay` {#m_delay}
+### `delay`
+
 Set the delay length of opening submenu.
 
 **Type**: Number
 
 **Default value**: `300`
 
-### `showDelay` {#m_showDelay}
+### `showDelay`
+
 Set the delay length of showing menu. Used in `toggle` method of the widget.
 
 **Type**: Number
 
 **Default value**: `42`
 
-### `hideDelay` {#m_hideDelay}
+### `hideDelay`
+
 Set the delay length of closing menu. Used in `toggle` method of the widget.
 
 **Type**: Number
 
 **Default value**: `300`
 
-### `responsive` {#m_responsive}
+### `responsive`
+
 Setting the default responsive handler for the navigation widget.
 
 **Type**: Boolean.
 
 **Default value**: `false`
 
-### `mediaBreakpoint` {#m_mediaBreakpoint}
+### `mediaBreakpoint`
+
 Sets the width of user’s window in pixels for which the menu switches between mobile view and desktop view.
 
 **Type**: String.
 
 **Default value**: `(max-width: 768px)`
 
-### `expanded` {#m_expanded}
+### `expanded`
 
 Display top level navigational items in mobile menu or all items.
 
@@ -70,21 +75,21 @@ Display top level navigational items in mobile menu or all items.
 
 **Default value**: `false`
 
-## Methods and Events {#menu_methods}
+## Methods and Events
 
 The menu widget has all default [jQuery UI menu widget] methods and events,
 plus a couple more.
 
 ### Additional available methods
 
--  [toggle](#m_toggle)
--  [isExpanded](#m_isExpanded)
+-  [toggle](#toggle)
+-  [isExpanded](#isExpanded)
 
-### `toggle()` {#m_toggle}
+### `toggle()`
 
 Toggles website's menu opened state.
 
-### `isExpanded()` {#m_isExpanded}
+### `isExpanded()`
 
 Add class for expanded option.
 
@@ -96,7 +101,7 @@ The following methods from [jQuery UI menu widget] were adjusted in scope of the
 [Initialize JavaScript]: ../init.md
 [jQuery UI menu widget]: http://api.jqueryui.com/menu/
 
-## Code Sample {#menu_code_sample}
+## Code Sample
 
 The following example shows how to initialize the widget and pass options during
 the initialization ([declarative notation] using the `data-mage-init` attribute).

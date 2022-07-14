@@ -17,7 +17,7 @@ The high-level steps for this task are the following:
 
 Let's look at each step in more detail.
 
-### Step 1: Define how the message is output {#define_script1}
+### Step 1: Define how the message is output
 
 ExampleCorp needs to define how the message is output. To do this, they take the following steps:
 
@@ -32,7 +32,7 @@ To be able to extend `gallery.js`, ExampleCorp needs to know the path to it. To 
 
 ![RequireJS config file](../_images/javascript/fdg_pr_2.png)
 
-### Step 2: Add the custom widget extending the gallery widget {#add_code1}
+### Step 2: Add the custom widget extending the gallery widget
 
 In the `app/design/frontend/ExampleCorp/orange/web/js` ExampleCorp adds `orange-gallery.js` with the following content:
 
@@ -53,7 +53,7 @@ define([
 });
 ```
 
-### Step 3: Update the RequireJS configuration {#config1}
+### Step 3: Update the RequireJS configuration
 
 ExampleCorp adds the custom `app/design/ExampleCorp/orange/requirejs-config.js` with the following content:
 
@@ -69,7 +69,7 @@ var config = {
 
 The new behavior is applied once the store pages are reloaded.
 
-## Add and use a custom widget (jCarousel) {#use_custom_widget}
+## Add and use a custom widget (jCarousel)
 
 ExampleCorp wants to use the [jCarousel widget] to display product images on product pages. The high level steps for this task are the following:
 

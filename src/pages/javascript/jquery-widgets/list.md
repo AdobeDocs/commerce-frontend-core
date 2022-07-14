@@ -17,24 +17,24 @@ The list [widget](https://glossary.magento.com/widget) source file is [lib/web/m
 
 For information about how to initialize a widget in a JS component or `.phtml` template, see the [Initialize JavaScript](init.md) topic.
 
-## Options {#list_options}
+## Options
 
 The list widget has the following options:
 
--  [addButton](#l_addButton)
--  [destinationSelector](#l_destinationSelector)
--  [itemCount](#l_itemCount)
--  [itemIndex](#l_itemIndex)
--  [maxItems](#l_maxItems)
--  [maxItemsAlert](#l_maxItemsAlert)
--  [removeButton](#l_removeButton)
--  [template](#l_template)
--  [templateClass](#l_templateClass)
--  [templateWrapper](#l_templateWrapper)
+-  [addButton](#addButton)
+-  [destinationSelector](#destinationSelector)
+-  [itemCount](#itemCount)
+-  [itemIndex](#itemIndex)
+-  [maxItems](#maxItems)
+-  [maxItemsAlert](#maxItemsAlert)
+-  [removeButton](#removeButton)
+-  [template](#template)
+-  [templateClass](#templateClass)
+-  [templateWrapper](#templateWrapper)
 
 Detailed description of each option follows.
 
-### `addButton` {#l_addButton}
+### `addButton`
 
 Selector for the element used for item adding.
 
@@ -42,7 +42,7 @@ Selector for the element used for item adding.
 
 **Default value**: `[data-button=add]`
 
-### `destinationSelector` {#l_destinationSelector}
+### `destinationSelector`
 
 Content destination selector.
 
@@ -50,7 +50,7 @@ Content destination selector.
 
 **Default value**: `[data-role=container]`
 
-### `itemCount` {#l_itemCount}
+### `itemCount`
 
 Number of total items.
 
@@ -58,7 +58,7 @@ Number of total items.
 
 **Default value**: `0`
 
-### `itemIndex` {#l_itemIndex}
+### `itemIndex`
 
 Number of the current item.
 
@@ -66,7 +66,7 @@ Number of the current item.
 
 **Default value**: `0`
 
-### `maxItems` {#l_maxItems}
+### `maxItems`
 
 Number of list items that can be added to the destination.
 
@@ -74,7 +74,7 @@ Number of list items that can be added to the destination.
 
 **Default value**: `null`
 
-### `maxItemsAlert` {#l_maxItemsAlert}
+### `maxItemsAlert`
 
 Alert message displayed when maximum limit is reached.
 
@@ -82,7 +82,7 @@ Alert message displayed when maximum limit is reached.
 
 **Default value**: `null`
 
-### `removeButton` {#l_removeButton}
+### `removeButton`
 
 Selector for the element used for item removing.
 
@@ -90,7 +90,7 @@ Selector for the element used for item removing.
 
 **Default value**: `[data-button=remove]`
 
-### `template` {#l_template}
+### `template`
 
 Template for the added item.
 
@@ -98,7 +98,7 @@ Template for the added item.
 
 **Default value**: `[data-role=item]`
 
-### `templateClass` {#l_templateClass}
+### `templateClass`
 
 Class attached to the template wrapper.
 
@@ -106,7 +106,7 @@ Class attached to the template wrapper.
 
 **Default value**: `null`
 
-### `templateWrapper` {#l_templateWrapper}
+### `templateWrapper`
 
 Element holding the template.
 
@@ -114,7 +114,7 @@ Element holding the template.
 
 **Default value**: `null`
 
-## Methods {#list_methods}
+## Methods
 
 The list widget has the following methods:
 
@@ -123,18 +123,18 @@ The list widget has the following methods:
 -  [handleAdd()](#list_handleAdd)
 -  [removeItem()](#list_removeItem)
 
-### `addItem()` {#list_addItem}
+### `addItem()`
 
 Adds item to the list in the specified order (defined by the index parameter).
 
-### `handleAdd()` {#list_handleAdd}
+### `handleAdd()`
 
 Adds item to the list.
 
-### `checkLimit()` {#list_checkLimit}
+### `checkLimit()`
 
 If the `maxItems` option is set, hides or displays the **Add** button.
 
-### `removeItem()` {#list_removeItem}
+### `removeItem()`
 
 Removes an item from the list.

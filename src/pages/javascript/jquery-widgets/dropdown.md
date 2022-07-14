@@ -101,7 +101,7 @@ If there is a need to customize the button and arrow, the [UI library](../../gui
 
 [LESS mixin `.lib-dropdown()`]: https://github.com/magento/magento2/blob/2.4/lib/web/css/source/lib/_dropdowns.less
 
-## Initialize the dropdown widget {#dropdown_init}
+## Initialize the dropdown widget
 
 The dropdown widget is initialized as described in [JavaScript initialization](../init.md).
 
@@ -125,15 +125,15 @@ The dropdown widget is initialized as described in [JavaScript initialization](.
 $('.magento__dropdown-widget').dropdown();
 ```
 
-## Options {#dropdown_options}
+## Options
 
--  [parent](#d_parent)
--  [autoclose](#d_autoclose)
--  [btnArrow](#d_btnArrow)
--  [menu](#d_menu)
--  [activeClass](#d_activeClass)
+-  [parent](#parent)
+-  [autoclose](#autoclose)
+-  [btnArrow](#btnArrow)
+-  [menu](#menu)
+-  [activeClass](#activeClass)
 
-### `parent` {#d_parent}
+### `parent`
 
 The parent element that initialized the widget. If not specified, the widget locates the element using the `.parent()` jQuery method.
 
@@ -145,7 +145,7 @@ The parent element that initialized the widget. If not specified, the widget loc
 
 **Default value**: `null`
 
-### `autoclose` {#d_autoclose}
+### `autoclose`
 
 Determines whether to close the dropdown menu when the user clicks outside of the dropdown scope.
 
@@ -153,7 +153,7 @@ Determines whether to close the dropdown menu when the user clicks outside of th
 
 **Default value**: `true`
 
-### `btnArrow` {#d_btnArrow}
+### `btnArrow`
 
 (Optional) A jQuery selector that updates the arrow to `+` or `-` based on the state of the dropdown.
 
@@ -161,7 +161,7 @@ Determines whether to close the dropdown menu when the user clicks outside of th
 
 **Default value**: `.arrow`
 
-### `menu` {#d_menu}
+### `menu`
 
 A jQuery selector that represents the dropdown's menu element. `menu` must be inside the `parent` element.
 
@@ -169,7 +169,7 @@ A jQuery selector that represents the dropdown's menu element. `menu` must be in
 
 **Default value**: `[data-target="dropdown"]`
 
-### `activeClass` {#d_activeClass}
+### `activeClass`
 
 Given class is added to the widget element when the menu is visible.
 

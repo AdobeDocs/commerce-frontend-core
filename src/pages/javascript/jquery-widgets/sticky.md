@@ -18,7 +18,7 @@ Widget source file is [lib/web/mage/sticky.js](https://github.com/magento/magent
 -  [Bundle](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Bundle/view/frontend/templates/catalog/product/view/summary.phtml)
 -  [Blank theme](https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/blank/Magento_Theme/web/js/theme.js)
 
-## Initialize the sticky widget {#dropdown_init}
+## Initialize the sticky widget
 
 The sticky widget can be initialized as described in [JavaScript initialization](../init.md).
 
@@ -41,12 +41,12 @@ $('.sticky-element').sticky({
 
 ## Options {#dropdown_options}
 
--  [container](#s_option_container)
--  [spacingTop](#s_option_spacing_top)
--  [stickAfter](#s_option_stick_after)
--  [stickyClass](#s_option_sticky_class)
+-  [container](#container)
+-  [spacingTop](#spacingtop)
+-  [stickAfter](#stickafter)
+-  [stickyClass](#stickyclass)
 
-### `container` {#s_option_container}
+### `container`
 
 Element selector, who's height will be used to restrict the maximum offsetTop
 position of the sticky element. Default uses document `body`.
@@ -55,7 +55,7 @@ position of the sticky element. Default uses document `body`.
 
 **Default value**: `''`
 
-### `spacingTop` {#s_option_spacing_top}
+### `spacingTop`
 
 Spacing in pixels above the sticky element.
 
@@ -66,7 +66,7 @@ Spacing in pixels above the sticky element.
 
 **Default value**: `0`
 
-### `stickAfter` {#s_option_stick_after}
+### `stickAfter`
 
 Allows the postponing of sticking, until element goes off the screen for the number of pixels.
 
@@ -77,7 +77,7 @@ Allows the postponing of sticking, until element goes off the screen for the num
 
 **Default value**: `0`
 
-### `stickyClass` {#s_option_sticky_class}
+### `stickyClass`
 
 CSS class for active sticky state.
 

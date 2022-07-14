@@ -10,7 +10,7 @@ Accordions are generally used to break content into multiple sections that can b
 
 The accordion [widget](https://glossary.magento.com/widget) source is [lib/web/mage/accordion.js].
 
-## Initialize the accordion widget {#accordion_init}
+## Initialize the accordion widget
 
 ### Initialize accordion in JS components
 
@@ -93,7 +93,7 @@ $("#element").accordion({
 
 The accordion widget can be initialized using the `data-mage-init` attribute or `<script>` element, as described in [JavaScript initialization].
 
-## Options {#accordion_options}
+## Option
 
 Accordion options coincide with [tabs options], plus the following custom ones:
 
@@ -101,7 +101,7 @@ Accordion options coincide with [tabs options], plus the following custom ones:
 -  [multipleCollapsible]
 -  [openOnFocus]
 
-### `active` {#collaps_active}
+### `active`
 
 Defines which tab is active when the widget gets instantiated.
 
@@ -116,7 +116,7 @@ $("#element").accordion({ active: "0 1" });
 $("#element").accordion({ active: [0,1] });
 ```
 
-### `multipleCollapsible` {#collaps_multi}
+### `multipleCollapsible`
 
 Defines if multiple panels can be expanded at the same time.
 
@@ -140,7 +140,7 @@ var multipleCollapsible = $("#element").accordion("option", "multipleCollapsible
 $("#element").tabs("option", "multipleCollapsible", false);
 ```
 
-### `openOnFocus` {#collaps_open}
+### `openOnFocus`
 
 For keyboard navigation defines if the accordion expands when the title gets in focus.
 
@@ -148,7 +148,7 @@ For keyboard navigation defines if the accordion expands when the title gets in 
 
 **Default value**: `false`
 
-## Methods {#accordion_methods}
+## Methods
 
 Accordion widget options and keyboard interaction mostly coincide with the tabs widget methods.
 
@@ -157,7 +157,7 @@ The custom accordion methods are the following:
 -  [activate()]
 -  [deactivate()]
 
-### `activate(index)` {#meth_act}
+### `activate(index)`
 
 Activate a tab with the specified `index`.
 
@@ -173,7 +173,7 @@ $( "#element" ).accordion("activate", 1);
 $( "#element" ).accordion("activate", [0,1]);
 ```
 
-### `deactivate(index)` {#meth_deact}
+### `deactivate(index)`
 
 Deactivate a tab with the specified `index`.
 
@@ -189,7 +189,7 @@ $( "#element" ).accordion("deactivate", 1);
 $( "#element" ).accordion("deactivate", [0,1]);
 ```
 
-## Events {#accordion_events}
+## Events
 
 The accordion widget subscribes to the same events as the [Tabs widget](tabs.md):
 

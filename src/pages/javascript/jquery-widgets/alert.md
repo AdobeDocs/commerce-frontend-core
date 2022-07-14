@@ -10,7 +10,7 @@ The alert widget source is [`<Magento_Ui_module_dir>/view/base/web/js/modal/aler
 
 The widget can be used for implementing alert windows for both Admin and [storefront](https://glossary.magento.com/storefront). The design patterns for the pop-up modal windows in the Admin are described in the [Admin Pattern Library, the Slide-out Panels, Modal Windows, and Overlays topic.]
 
-## Initialize the alert widget {#alert_initialize}
+## Initialize the alert widget
 
 The alert widget can be initialized with or without binding to a certain element.
 
@@ -47,7 +47,7 @@ require([
 
 For details about how to initialize a widget in a`.phtml` template, refer to the [JavaScript initialization] topic.
 
-## Options {#alert_options}
+## Options
 
 The alert widget has the following options:
 
@@ -60,7 +60,7 @@ The alert widget has the following options:
 -  [modalClass]
 -  [buttons]
 
-### `actions` {#alert_actions}
+### `actions`
 
 Widget callbacks.
 
@@ -74,7 +74,7 @@ actions: {
 }
 ```
 
-### `autoOpen` {#alert_autoopen}
+### `autoOpen`
 
 Automatically open the alert window when the widget is initialized.
 
@@ -82,7 +82,7 @@ Automatically open the alert window when the widget is initialized.
 
 **Default value**: `false`
 
-### `buttons` {#alert_buttons}
+### `buttons`
 
 The buttons list.
 
@@ -100,7 +100,7 @@ buttons: [{
 }]
 ```
 
-### `clickableOverlay` {#alert_clickableOverlay}
+### `clickableOverlay`
 
 Close the alert window when a user clicks on the overlay.
 
@@ -108,13 +108,14 @@ Close the alert window when a user clicks on the overlay.
 
 **Default value**: `true`
 
-### `content` {#alert_content}
+### `content`
 
 The text displayed in the alert window.
 
 **Type**: String.
 
-### `focus` {#alert_focus}
+### `focus`
+
 The selector of the element to be in focus when the alert window opens.
 If `focus` is not specified or set to empty string, the focus is on the close button. If focusing is not required, set `focus` to `none`.
 
@@ -122,7 +123,7 @@ If `focus` is not specified or set to empty string, the focus is on the close bu
 
 **Default value**: `''`
 
-### `title` {#alert_title}
+### `title`
 
 The title of the alert window.
 
@@ -130,7 +131,7 @@ The title of the alert window.
 
 **Default value**: `''`
 
-### `modalClass` {#alert_modalClass}
+### `modalClass`
 
 The CSS class of the alert window.
 
@@ -138,12 +139,12 @@ The CSS class of the alert window.
 
 **Default value**: `'confirm'`
 
-## Events {#alert_events}
+## Events
 
 The alert widget implements a single event: the `always` callback.
 The `always` callback is invoked when a modal window is closed.
 
-## Keyboard navigation {#alert_key_navigation}
+## Keyboard navigation
 
 The keyboard navigation for the alert windows is similar to the [navigation of the modal widget].
 
@@ -255,12 +256,4 @@ require([
 [`<Magento_Ui_module_dir>/view/base/web/js/modal/alert.js`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/modal/alert.js
 [Admin Pattern Library, the Slide-out Panels, Modal Windows, and Overlays topic.]: https://devdocs.magento.com/guides/v2.4/pattern-library/containers/slideouts-modals-overlays/slideouts-modals-overalys.html#modals
 [JavaScript initialization]: ../init.md
-[actions]: #alert_actions
-[autoOpen]: #alert_autoopen
-[clickableOverlay]: #alert_clickableOverlay
-[content]: #alert_content
-[focus]: #alert_focus
-[title]: #alert_title
-[modalClass]: #alert_modalClass
-[buttons]: #alert_buttons
 [navigation of the modal widget]: modal.md#keyboard-navigation

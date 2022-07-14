@@ -4,7 +4,7 @@ subgroup: 1_Javascript
 title: Calling and initializing JavaScript
 ---
 
-## Overview {#js_init_overview}
+## Overview
 
 This topic describes different ways to call and initialize JavaScript in Adobe Commerce and Magento Open Source:
 
@@ -99,7 +99,7 @@ Use the `data-mage-init` attribute to insert a JS component in a specified HTML 
 
 When the Javascript is inserted into the specified element, the script is called only for this particular element. It is not automatically called for other elements of this type on the page.
 
-#### How `data-mage-init` is processed {#init_process}
+#### How `data-mage-init` is processed
 
 On DOM ready, the `data-mage-init` attribute is parsed to extract component names and configuration to be applied to the element. Depending on the type of the inserted JS component, processing is performed as follows:
 
@@ -140,7 +140,7 @@ Read more about [locate JS components](debug.md).
 
 -  If none of the previous cases is true, the component is executed with no further processing. Such a component does not require either `config` or `element`. The recommended way to declare such components is [using the `<script>` tag](#init_script).
 
-#### Declarative notation using the `<script type="text/x-magento-init">` tag {#decl_tag}
+#### Declarative notation using the `<script type="text/x-magento-init">` tag
 
 To call a JS component on an HTML element without direct access to the element or with no relation to a certain element, use the `<script type="text/x-magento-init">` tag and attribute syntax shown in the following example.
 
@@ -182,7 +182,7 @@ The following example provides a working code sample of a widget call using `<sc
 </script>
 ```
 
-### Imperative notation {#init_script}
+### Imperative notation
 
 Use imperative notation in the PHTML template to include raw JavaScript code on the pages to execute specified business logic. This method uses the `<script>` tag without the `type="text/x-magento-init"` attribute as shown in the following example:
 
@@ -209,7 +209,7 @@ require([
 
 For better control when scripts are executed, use a declarative syntax rather than an imperative syntax. When using imperative syntax, the ability to leverage existing JS classes is lost and can block the rendering of the page.
 
-## Calling JS components requiring initialization in JS files {#js_widget_init}
+## Calling JS components requiring initialization in JS files
 
 To call a widget with JS code, use a notation similar to the ([accordion](jquery-widgets/accordion.md) widget. It is initialized on the `[data-role=example]` element as below):
 
