@@ -129,4 +129,4 @@ the initialization ([declarative notation] using the `data-mage-init` attribute)
 
 The result is a menu with the child items, as shown here:
 
-![Menu Widget]({{ page.baseurl }}/javascript-dev-guide/widgets/images/menu-widget-result.png)
+![Menu Widget](../../_images/javascript/menu-widget-result.png)

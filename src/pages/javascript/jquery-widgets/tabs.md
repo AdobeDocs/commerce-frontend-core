@@ -292,7 +292,7 @@ This example uses the same CSS classes as the tabs on the product page.
 
 The result is three tabs with content, where the last tab is disabled based on initialization options, as shown here:
 
-![Tabs Widget]({{ page.baseurl }}/javascript-dev-guide/widgets/images/tabs-widget-result.png)
+![Tabs Widget](../../_images/javascript/tabs-widget-result.png)
 
 [Magento collapsible widget]: {{page.baseurl}}/javascript-dev-guide/widgets/widget_collapsible.html
 [lib/web/mage/tabs.js]: {{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/mage/tabs.js
