@@ -177,5 +177,5 @@ The result is an input with autocomplete results, where the results will be retu
 
 ![Quick Search Widget](../../_images/javascript/quick-search-result.png)
 
-[`<Magento_Search_module_dir>/view/frontend/web/js/form-mini.js`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Search/view/frontend/web/js/form-mini.js
-[Initialize JavaScript]: {{page.baseurl}}/javascript-dev-guide/javascript/js_init.html
+[`<Magento_Search_module_dir>/view/frontend/web/js/form-mini.js`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Search/view/frontend/web/js/form-mini.js
+[Initialize JavaScript]: ../init.md

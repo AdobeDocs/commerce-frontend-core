@@ -87,11 +87,12 @@ Toggles website's menu opened state.
 
 Add class for expanded option.
 
-{:.bs-callout-info}
+<InlineAlert variant="info" slots="text" />
+
 The following methods from [jQuery UI menu widget] were adjusted in scope of the widget: `expand(event)` and `select(event)`.
 
-[lib/web/mage/menu.js]: {{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/mage/menu.js
-[Initialize JavaScript]: {{page.baseurl}}/javascript-dev-guide/javascript/js_init.html
+[lib/web/mage/menu.js]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/menu.js
+[Initialize JavaScript]: ../init.md
 [jQuery UI menu widget]: http://api.jqueryui.com/menu/
 
 ## Code Sample {#menu_code_sample}
@@ -99,7 +100,7 @@ The following methods from [jQuery UI menu widget] were adjusted in scope of the
 The following example shows how to initialize the widget and pass options during
 the initialization ([declarative notation] using the `data-mage-init` attribute).
 
-[declarative notation]: {{page.baseurl}}/javascript-dev-guide/javascript/js_init.html#declarative-notation
+[declarative notation]: [](../init.md#declarative-notation-using-the-data-mage-init-attribute)
 
 ```html
 <nav class="navigation" data-action="navigation">

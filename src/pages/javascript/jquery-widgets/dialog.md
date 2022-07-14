@@ -244,8 +244,8 @@ The result is a dropdown dialog and a button (_Click Here_) that opens the dialo
 
 ![DropdownDialog Widget](../../_images/javascript/dropdown-dialog-widget-result.png)
 
-[lib/web/mage/dropdown.js]: {{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/mage/dropdown.js
-[Initialize JavaScript]: {{ page.baseurl }}/javascript-dev-guide/javascript/js_init.html
+[lib/web/mage/dropdown.js]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/dropdown.js
+[Initialize JavaScript]: ../init.md
 [`position`]: http://api.jqueryui.com/dialog/#option-position
 [height]: http://api.jqueryui.com/dialog/#option-height
 [width]: http://api.jqueryui.com/dialog/#option-width

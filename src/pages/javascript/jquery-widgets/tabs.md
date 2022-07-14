@@ -33,7 +33,7 @@ The following example shows a PHTML file using the script:
 </script>
 ```
 
-## Options {#fedg_tabs_options}
+## Options
 
 The tabs widget has the following options:
 
@@ -294,8 +294,8 @@ The result is three tabs with content, where the last tab is disabled based on i
 
 ![Tabs Widget](../../_images/javascript/tabs-widget-result.png)
 
-[Magento collapsible widget]: {{page.baseurl}}/javascript-dev-guide/widgets/widget_collapsible.html
-[lib/web/mage/tabs.js]: {{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/mage/tabs.js
-[Initialize JavaScript]: {{page.baseurl}}/javascript-dev-guide/javascript/js_init.html
-[collapsible]: {{page.baseurl}}/javascript-dev-guide/widgets/widget_collapsible.html
+[Magento collapsible widget]: collapsible.md
+[lib/web/mage/tabs.js]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/tabs.js
+[Initialize JavaScript]: ../init.md
+[collapsible]: collapsible.md
 [jQuery.animate()]: http://api.jquery.com/animate/

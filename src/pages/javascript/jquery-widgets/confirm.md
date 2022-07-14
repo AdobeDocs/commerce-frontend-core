@@ -260,9 +260,8 @@ require([
 ## Result
 
 ![Confirmation Widget](../../_images/javascript/confirm-widget-result.png)
-
-[Magento modal widget]: {{page.baseurl}}/javascript-dev-guide/widgets/widget_modal.html
-[`<Magento_Ui_module_dir>/view/base/web/js/modal/confirm.js`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/modal/confirm.js
-[Admin Pattern Library, the Slide-out Panels, Modal Windows, and Overlays topic.]: {{page.baseurl}}/pattern-library/containers/slideouts-modals-overlays/slideouts-modals-overalys.html#modals
-[JavaScript initialization]: {{page.baseurl}}/javascript-dev-guide/javascript/js_init.html
-[navigation of the modal widget]: {{page.baseurl}}/javascript-dev-guide/widgets/widget_modal.html#key_navigation
+[Magento modal widget]: modal.md
+[`<Magento_Ui_module_dir>/view/base/web/js/modal/confirm.js`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/modal/confirm.js
+[Admin Pattern Library, the Slide-out Panels, Modal Windows, and Overlays topic.]: https://devdocs.magento.com/guides/v2.4/pattern-library/containers/slideouts-modals-overlays/slideouts-modals-overalys.html#modals
+[JavaScript initialization]: ../init.md
+[navigation of the modal widget]: modal.md#keyboard-navigation

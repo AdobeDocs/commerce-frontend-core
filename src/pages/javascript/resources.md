@@ -21,9 +21,10 @@ In Magento, you can find Javascript components on the following levels:
 *  [Library](https://glossary.magento.com/library) level (`lib/web`). Resources located here are available in any place within Magento.
 *  Module level (`<module_dir>/view/<areaname>/web`). If the [module](https://glossary.magento.com/module) is enabled, resources added here are available in other modules and themes.
 *  Theme level, for a particular module (`<theme_dir>/<VendorName>_<ModuleName>/web`). Resources added here are available for [inheriting] themes.
-*  Theme level  (`<theme_dir>/web`). Resources added here are available for [inheriting]({{ page.baseurl }}/frontend-dev-guide/themes/theme-inherit.html) themes.
+*  Theme level  (`<theme_dir>/web`). Resources added here are available for [inheriting](../guide/themes/inheritance.md) themes.
 
-{:.bs-callout-info}
+<InlineAlert variant="info" slots="text" />
+
 The library level can only contain core Magento resources. Do not put custom JS files in the \`lib/web\` directory.
 
 ### Specifying JS
@@ -67,7 +68,7 @@ JS resources are accessed using relative paths.
     });
     ```
 
-Relative paths are also used in for [mapping and setting `paths` in requirejs-config.js configuration files]({{ page.baseurl }}/javascript-dev-guide/javascript/js-resources.html).
+Relative paths are also used in for [mapping and setting `paths` in requirejs-config.js configuration files](resources.md).
 
 ## Dependencies between JavaScript resources {#m2devgde-js-resources-dependencies}
 
@@ -98,9 +99,9 @@ To build a dependency on the third-party plugin, specify a [shim](http://require
 
 To be available for the entire Magento instance, RequireJS library is included in the following layout files:
 
-*  For the `adminhtml` [area]({{ page.baseurl }}/architecture/archi_perspectives/components/modules/mod_and_areas.html):
+*  For the `adminhtml` [area](https://developer.adobe.com/commerce/php/architecture/modules/areas/):
 
-   [app/code/Magento/Backend/view/adminhtml/layout/default.xml]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Backend/view/adminhtml/layout/default.xml)
+   [app/code/Magento/Backend/view/adminhtml/layout/default.xml](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Backend/view/adminhtml/layout/default.xml)
 
    ```xml
     <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
@@ -135,7 +136,7 @@ To be available for the entire Magento instance, RequireJS library is included i
     </page>
    ```
 
-*  For the `frontend` area, the equivalent configuration is located in [`app/code/Magento/Theme/view/frontend/layout/default.xml`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Theme/view/frontend/layout/default.xml).
+*  For the `frontend` area, the equivalent configuration is located in [`app/code/Magento/Theme/view/frontend/layout/default.xml`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Theme/view/frontend/layout/default.xml).
 
 ### Including third-party JavaScript libraries
 
@@ -219,13 +220,5 @@ All configurations are collected and executed in the following order:
 
 The `baseUrl` parameter for RequireJS is specified in the following files:
 
-*  For the `frontend` area: [app/code/Magento/Theme/view/frontend/templates/page/js/require_js.phtml]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Theme/view/frontend/templates/page/js/require_js.phtml)
-*  For the `adminhtml` area: [app/code/Magento/Backend/view/adminhtml/templates/page/js/require_js.phtml]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Backend/view/adminhtml/templates/page/js/require_js.phtml)
-
-{:.ref-header}
-Related reading
-
-*  [About AMD modules and RequireJS]({{ page.baseurl }}/javascript-dev-guide/javascript/js-resources.html)
-*  [RequireJS library](http://requirejs.org)
-*  [inheriting]({{ page.baseurl }}/frontend-dev-guide/themes/theme-inherit.html)
-*  [shim](http://requirejs.org/docs/api.html#config-shim)
+*  For the `frontend` area: [app/code/Magento/Theme/view/frontend/templates/page/js/require_js.phtml](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Theme/view/frontend/templates/page/js/require_js.phtml)
+*  For the `adminhtml` area: [app/code/Magento/Backend/view/adminhtml/templates/page/js/require_js.phtml](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Backend/view/adminhtml/templates/page/js/require_js.phtml)

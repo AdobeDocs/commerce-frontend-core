@@ -31,18 +31,17 @@ JavaScript automatic testing is described in a separate [JavaScript unit testing
 | *jQuery widget*                       | Custom widget created using jQuery UI Widget Factory and decorated as AMD module. Many Magento JS components are the jQuery widgets. |
 
 [AMD module]: http://requirejs.org/docs/whyamd.html#amd
-[`Magento_Ui`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui
-[app/code/Magento/Ui/view]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view
-[jQuery UI library used in Magento]: {{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/jquery/jquery-ui-1.9.2.js
+[`Magento_Ui`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui
+[app/code/Magento/Ui/view]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view
+[jQuery UI library used in Magento]: https://github.com/magento/magento2/blob/2.4/lib/web/jquery/jquery-ui-1.9.2.js
 [jQuery Widget]: https://jqueryui.com/widget/
 
 [RequireJS file and module loader]: http://requirejs.org/
-[JavaScript resources]: {{page.baseurl}}/javascript-dev-guide/javascript/js-resources.html
+[JavaScript resources]: resources.md
 
-[JavaScript initialization]: {{page.baseurl}}/javascript-dev-guide/javascript/js_init.html
-[Use custom JavaScript]: {{page.baseurl}}/javascript-dev-guide/javascript/custom_js.html
-[Locate JavaScript]: {{page.baseurl}}/javascript-dev-guide/javascript/js_debug.html
-[Magento jQuery widgets]: {{page.baseurl}}/javascript-dev-guide/widgets/jquery-widgets-about.html
-[Customizing JavaScript illustration]: {{page.baseurl}}/javascript-dev-guide/javascript/js_practice.html
-[JavaScript unit testing]: {{page.baseurl}}/test/js/jasmine.html
-
+[JavaScript initialization]: init.md
+[Use custom JavaScript]: custom.md
+[Locate JavaScript]: debug.md
+[Magento jQuery widgets]: jquery-widgets/index.md
+[Customizing JavaScript illustration]: practice.md
+[JavaScript unit testing]: https://devdocs.magento.com/guides/v2.4/test/js/jasmine.html

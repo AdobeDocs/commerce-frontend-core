@@ -146,5 +146,5 @@ This example shows the text field with the note that shows you a message about t
 ![RemainingCharacters widget example with exceeded text length](../../_images/javascript/remaining-characters-widget-with-exceeded-text-length.png)
 
 <!-- Link Definitions -->
-[`<Magento_Catalog_module_dir>/view/frontend/web/js/product/remaining-characters.js`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Catalog/view/frontend/web/js/product/remaining-characters.js
-[Initialize JavaScript]: {{page.baseurl}}/javascript-dev-guide/javascript/js_init.html
+[`<Magento_Catalog_module_dir>/view/frontend/web/js/product/remaining-characters.js`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Catalog/view/frontend/web/js/product/remaining-characters.js
+[Initialize JavaScript]: ../init.md

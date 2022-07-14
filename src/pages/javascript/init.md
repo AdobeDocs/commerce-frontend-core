@@ -8,12 +8,12 @@ title: Calling and initializing JavaScript
 
 This topic describes different ways to call and initialize JavaScript in Magento 2:
 
--  Insert a [JavaScript component]({{ page.baseurl }}/javascript-dev-guide/bk-javascript-dev-guide.html#js_terms) in `.phtml` page templates.
+-  Insert a JavaScript component in `.phtml` page templates.
 -  Call Javascript components that require initialization in Javascript (`.js`) files.
 
-We strongly recommend that you use the described approaches and do not add inline [JavaScript](https://glossary.magento.com/javascript).
+We strongly recommend that you use the described approaches and do not add inline JavaScript.
 
-## Insert a JS component in a PHTML template {#init_phtml}
+## Insert a JS component in a PHTML template
 
 Depending on your task, you can use declarative or imperative notation to insert a JS component into a PHTML template. Use declarative notation if a component requires initialization and imperative notation in other cases.
 
@@ -89,7 +89,7 @@ You now have two options for specifying declarative notation:
     </script>
     ```
 
-#### Declarative notation using the `data-mage-init` attribute {#data_mage_init}
+#### Declarative notation using the `data-mage-init` attribute
 
 Use the `data-mage-init` attribute to insert a JS component in a specified HTML element. The following example inserts a JS component in the `<nav/>` element:
 
@@ -123,7 +123,7 @@ Or a custom JS component, implemented with a component path: `Vendor_Module/js/c
 <nav data-mage-init='{"Vendor_Module/js/component": {"status":"<?= /* @noEscape */ $block->getStatus(); ?>"}}'></nav>
 ```
 
-Read more about [locate JS components]({{ page.baseurl }}/javascript-dev-guide/javascript/js_debug.html).
+Read more about [locate JS components](debug.md).
 
 -  If a function is returned, the initializer passes the <code>config</code> and <code>element</code> values to this function. For example:
 
@@ -205,12 +205,13 @@ require([
 </script>
 ```
 
-{:.bs-callout-tip}
+<InlineAlert variant="success" slots="text" />
+
 For better control when scripts are executed, use a declarative syntax rather than an imperative syntax. When using imperative syntax, the ability to leverage existing JS classes is lost and can block the rendering of the page.
 
 ## Calling JS components requiring initialization in JS files {#js_widget_init}
 
-To call a widget with JS code, use a notation similar to the ([accordion]({{ page.baseurl }}/javascript-dev-guide/widgets/widget_accordion.html) widget. It is initialized on the `[data-role=example]` element as below):
+To call a widget with JS code, use a notation similar to the ([accordion](jquery-widgets/accordion.md) widget. It is initialized on the `[data-role=example]` element as below):
 
 ```javascript
 $('[data-role=example]').accordion();

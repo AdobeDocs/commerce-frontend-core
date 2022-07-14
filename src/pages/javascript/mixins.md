@@ -22,7 +22,6 @@ The following table maps a directory location to the [application area] a mixin 
 | `view/frontend`  | Storefront                                                           |
 | `view/adminhtml` | Admin panel                                                          |
 | `view/base`      | All areas (unless a specific `frontend` or `adminhtml` entry exists) |
-{:style="table-layout:auto"}
 
 ## Mixin files
 
@@ -234,15 +233,15 @@ The following is a list of files in the [`Magento_CheckoutAgreement`] module tha
 *  [Configure JS resources]
 
 [mixin]: https://en.wikipedia.org/wiki/Mixin
-[application area]: {{ page.baseurl }}/architecture/archi_perspectives/components/modules/mod_and_areas.html
+[application area]: https://developer.adobe.com/commerce/php/architecture/modules/areas/
 [AMD module]: https://en.wikipedia.org/wiki/Asynchronous_module_definition
-[grid column component]: {{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/Ui/view/base/web/js/grid/controls/columns.js
-[step navigator object]: {{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/Checkout/view/frontend/web/js/model/step-navigator.js
-[proceed to checkout function]: {{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/Checkout/view/frontend/web/js/proceed-to-checkout.js
-[`view/frontend/requirejs-config.js`]: {{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/CheckoutAgreements/view/frontend/requirejs-config.js
-[`view/frontend/web/js/model/place-order-mixin.js`]: {{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/CheckoutAgreements/view/frontend/web/js/model/place-order-mixin.js
-[`view/frontend/web/js/model/set-payment-information-mixin.js`]: {{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/CheckoutAgreements/view/frontend/web/js/model/set-payment-information-mixin.js
-[`Magento_CheckoutAgreement`]: {{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/CheckoutAgreements
-[About AMD modules and RequireJS]: {{ page.baseurl }}/javascript-dev-guide/javascript/js-resources.html#requirejs-library
-[modal widget]: {{ page.baseurl }}/javascript-dev-guide/widgets/widget_modal.html
-[Configure JS resources]: {{ page.baseurl }}/javascript-dev-guide/javascript/js-resources.html
+[grid column component]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/controls/columns.js
+[step navigator object]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Checkout/view/frontend/web/js/model/step-navigator.js
+[proceed to checkout function]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Checkout/view/frontend/web/js/proceed-to-checkout.js
+[`view/frontend/requirejs-config.js`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/CheckoutAgreements/view/frontend/requirejs-config.js
+[`view/frontend/web/js/model/place-order-mixin.js`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/CheckoutAgreements/view/frontend/web/js/model/place-order-mixin.js
+[`view/frontend/web/js/model/set-payment-information-mixin.js`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/CheckoutAgreements/view/frontend/web/js/model/set-payment-information-mixin.js
+[`Magento_CheckoutAgreement`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/CheckoutAgreements
+[About AMD modules and RequireJS]: resources.md#requirejs-library
+[modal widget]: jquery-widgets/modal.md
+[Configure JS resources]: resources.md

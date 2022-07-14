@@ -4,7 +4,7 @@ subgroup: 3_Widgets
 title: Navigation widget
 ---
 
-Magento navigation widget is an [extension](https://glossary.magento.com/extension) of the [Magento Menu widget]({{page.baseurl}}/javascript-dev-guide/widgets/widget_menu.html) with the following funcitonalities:
+Magento navigation widget is an [extension](https://glossary.magento.com/extension) of the [Magento Menu widget](menu.md) with the following funcitonalities:
 
 -  Expanding all layers of the menu tree past the second layer.
 -  Limiting the maximum number of list items contained within the main
@@ -81,5 +81,5 @@ Moves the list items that are more than the total max item number set by the use
 ### `setupMoreMenu()` {#nav_setupMoreMenu}
 Builds the more overflowing menu by cloning the main menu items.
 
-[lib/web/mage/menu.js]: {{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/mage/menu.js
-[Initialize JavaScript]: {{page.baseurl}}/javascript-dev-guide/javascript/js_init.html
+[lib/web/mage/menu.js]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/menu.js
+[Initialize JavaScript]: ../init.md

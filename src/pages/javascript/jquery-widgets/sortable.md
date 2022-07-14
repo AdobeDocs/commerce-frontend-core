@@ -123,5 +123,5 @@ As a result, we see the list of sortable items that can be sorted via *Up*, *Dow
 <!-- Link Definitions -->
 
 [Sortable Widget]: https://api.jqueryui.com/sortable/
-[Initialize JavaScript]: {{page.baseurl}}/javascript-dev-guide/javascript/js_init.html
-[`<Magento_Theme_module_dir>/view/adminhtml/web/js/sortable.js`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Theme/view/adminhtml/web/js/sortable.js
+[Initialize JavaScript]: ../init.md
+[`<Magento_Theme_module_dir>/view/adminhtml/web/js/sortable.js`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Theme/view/adminhtml/web/js/sortable.js

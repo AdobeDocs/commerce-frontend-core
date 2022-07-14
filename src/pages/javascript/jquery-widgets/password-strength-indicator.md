@@ -51,7 +51,7 @@ The following example shows a PHTML file using the script:
 </script>
 ```
 
-For details about how to initialize the widget in a`.phtml` template, refer to the [JavaScript initialization]({{ page.baseurl }}/javascript-dev-guide/javascript/js_init.html) topic.
+For details about how to initialize the widget in a`.phtml` template, refer to the [JavaScript initialization](../init.md) topic.
 
 ## Options {#password_strength_indicator_options}
 
@@ -146,7 +146,7 @@ The result is an indication of the strength of the user's password.
 ![Password Strength Indicator Widget](../../_images/javascript/password-strength-indicator-widget-result.png)
 
 <!-- Link Definitions -->
-[`<Magento_Customer_module_dir>/view/frontend/web/js/password-strength-indicator.js`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Customer/view/frontend/web/js/password-strength-indicator.js
-[`<Magento_Customer_module_dir>/view/frontend/templates/form/register.phtml`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Customer/view/frontend/templates/form/register.phtml
-[`<Magento_Customer_module_dir>/view/frontend/templates/form/forgotpassword.phtml`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Customer/view/frontend/templates/form/forgotpassword.phtml
-[`<Magento_Customer_module_dir>/view/frontend/templates/form/edit.phtml`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Customer/view/frontend/templates/form/edit.phtml
+[`<Magento_Customer_module_dir>/view/frontend/web/js/password-strength-indicator.js`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Customer/view/frontend/web/js/password-strength-indicator.js
+[`<Magento_Customer_module_dir>/view/frontend/templates/form/register.phtml`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Customer/view/frontend/templates/form/register.phtml
+[`<Magento_Customer_module_dir>/view/frontend/templates/form/forgotpassword.phtml`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Customer/view/frontend/templates/form/forgotpassword.phtml
+[`<Magento_Customer_module_dir>/view/frontend/templates/form/edit.phtml`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Customer/view/frontend/templates/form/edit.phtml

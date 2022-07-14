@@ -126,13 +126,7 @@ var config = {
 };
 ```
 
-{:.ref-header}
-Recommended reading
-
-[Use custom JavaScript]
-
-[`gallery.js`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/mage/gallery/gallery.js
-[can be reached from the page source view or from the file system]: {{page.baseurl}}/javascript-dev-guide/javascript/custom_js.html#extend_js
+[`gallery.js`]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/gallery/gallery.js
+[can be reached from the page source view or from the file system]: custom.md#extend-a-default-js-component
 [jCarousel widget]: http://sorgalla.com/jcarousel/
-[`gallery.js`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/mage/gallery/gallery.js
-[Use custom JavaScript]: {{page.baseurl}}/javascript-dev-guide/javascript/custom_js.html
+[`gallery.js`]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/gallery/gallery.js

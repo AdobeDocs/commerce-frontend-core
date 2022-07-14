@@ -306,8 +306,8 @@ The prompt widget implements the following events:
 
 ![Prompt Widget](../../_images/javascript/prompt-widget-result.png)
 
-[Magento modal widget]: {{page.baseurl}}/javascript-dev-guide/widgets/widget_modal.html
-[`<Magento_Ui_module_dir>/view/base/web/js/modal/prompt.js`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/modal/prompt.js
-[`ui/template/modal/modal-prompt-content.html`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/modal/modal-prompt-content.html
-[Admin Pattern Library, the Slide-out Panels, Modal Windows, and Overlays topic.]: {{page.baseurl}}/pattern-library/containers/slideouts-modals-overlays/slideouts-modals-overalys.html#modals
-[JavaScript initialization]: {{page.baseurl}}/javascript-dev-guide/javascript/js_init.html
+[Magento modal widget]: modal.md
+[`<Magento_Ui_module_dir>/view/base/web/js/modal/prompt.js`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/modal/prompt.js
+[`ui/template/modal/modal-prompt-content.html`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/modal/modal-prompt-content.html
+[Admin Pattern Library, the Slide-out Panels, Modal Windows, and Overlays topic.]: https://devdocs.magento.com/guides/v2.4/pattern-library/containers/slideouts-modals-overlays/slideouts-modals-overalys.html#modals
+[JavaScript initialization]: ../init.md

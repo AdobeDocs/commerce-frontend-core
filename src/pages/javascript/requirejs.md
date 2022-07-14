@@ -11,7 +11,7 @@ RequireJS is a JavaScript file and module loader. It improves perceived page loa
 
 ## RequireJS configuration in Magento {#requirejs-config}
 
-All configuration is done in the `requirejs-config.js` file. It has a single root object `config` which contains the configuration options described below. All the configuration settings are optional and are used only when required. The following snippet is a sample `requirejs-config.js` describing the structure of the file. Example [`requirejs-config.js` file]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Theme/view/base/requirejs-config.js)
+All configuration is done in the `requirejs-config.js` file. It has a single root object `config` which contains the configuration options described below. All the configuration settings are optional and are used only when required. The following snippet is a sample `requirejs-config.js` describing the structure of the file. Example [`requirejs-config.js` file](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Theme/view/base/requirejs-config.js)
 
 ```javascript
 var config = {
@@ -54,8 +54,9 @@ map: {
 }
 ```
 
-{:.bs-callout-tip}
-You can also use the `map` configuration to override a JS module with a custom JS module. See [Custom JS component]({{ page.baseurl }}/javascript-dev-guide/javascript/custom_js.html#js_replace).
+<InlineAlert variant="success" slots="text" />
+
+You can also use the `map` configuration to override a JS module with a custom JS module. See [Custom JS component](custom.md#replace-a-default-js-component).
 
 ### paths {#requirejs-config-paths}
 
@@ -68,7 +69,8 @@ paths: {
 }
 ```
 
-{:.bs-callout-info}
+<InlineAlert variant="info" slots="text" />
+
 When setting a path to an array with multiple script sources, if the first script fails to load, the next is used as a fallback.
 
 ```javascript
@@ -83,7 +85,7 @@ var config = {
 };
 ```
 
-For external content, resources should be whitelisted; otherwise Magento raises error notices in the browser console. See [Content Security Policies]({{ page.baseurl }}/extension-dev-guide/security/content-security-policies.html).
+For external content, resources should be whitelisted; otherwise Magento raises error notices in the browser console. See [Content Security Policies](https://developer.adobe.com/commerce/php/development/security/content-security-policies/).
 
 Consider the example of overwriting an HTML file in the adminhtml.
 In this example, the `max-length` value of the text-box in the `adminhtml` is altered. The HTML file is located at `vendor/magento/module_ui/view/base/web/templates/form/element/input.html`.
@@ -114,7 +116,8 @@ In this example, the `max-length` value of the text-box in the `adminhtml` is al
 
 1. Confirm the modification by inspecting the element source code and check the `maxlength` value, which should be `512` as specified in the template.
 
-{:.bs-callout-info}
+<InlineAlert variant="info" slots="text" />
+
 The path for `Magento_Ui/templates` is set to be `ui/template` in the `requirejs-config.js` module of `module_ui`, hence `ui/template` is used for specifying the path. If no paths are set, `<module_name>/templates` should be used.
 
 ### deps {#requirejs-config-deps}
@@ -165,11 +168,11 @@ config: {
 }
 ```
 
-The concept of Javascript mixins itself is explained in depth in [Using Javascript Mixins]({{ page.baseurl }}/javascript-dev-guide/javascript/js_mixins.html).
+The concept of Javascript mixins itself is explained in depth in [Using Javascript Mixins](mixins.md).
 
 ### text
 
-The `text` configuration is used to set the security request headers using the [`text.js`]({{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/mage/requirejs/text.js) file.
+The `text` configuration is used to set the security request headers using the [`text.js`](https://github.com/magento/magento2/blob/2.4/lib/web/mage/requirejs/text.js) file.
 
 Without [Cross Origin Resource Sharing (CORS)](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) it is not possible to add the `X-Requested-With` header to a cross domain XHR request. Set this header to tell the server that the request was initiated from the same domain.
 

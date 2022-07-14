@@ -17,10 +17,10 @@ Widget source file is [lib/web/mage/dropdowns.js].
 -  [Customer menu]
 -  [UI tooltip]
 
-[lib/web/mage/dropdowns.js]: {{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/mage/dropdowns.js
-[Shipping policy]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Shipping/view/frontend/web/template/checkout/shipping/shipping-policy.html
-[Customer menu]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Customer/view/frontend/templates/account/customer.phtml
-[UI tooltip]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/frontend/web/templates/form/element/helper/tooltip.html
+[lib/web/mage/dropdowns.js]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/dropdowns.js
+[Shipping policy]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Shipping/view/frontend/web/template/checkout/shipping/shipping-policy.html
+[Customer menu]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Customer/view/frontend/templates/account/customer.phtml
+[UI tooltip]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/frontend/web/templates/form/element/helper/tooltip.html
 
 ### HTML markup
 
@@ -97,13 +97,13 @@ Because the dropdown widget is not formatted by default, use [LESS mixin `.lib-d
 }
 ```
 
-If there is a need to customize the button and arrow, the [Magento UI library]({{ page.baseurl }}/frontend-dev-guide/css-topics/theme-ui-lib.html) provides the ability to do this with ready-made Less mixins.
+If there is a need to customize the button and arrow, the [Magento UI library](../../guide/css/ui-library.md) provides the ability to do this with ready-made Less mixins.
 
-[LESS mixin `.lib-dropdown()`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/css/source/lib/_dropdowns.less
+[LESS mixin `.lib-dropdown()`]: https://github.com/magento/magento2/blob/2.4/lib/web/css/source/lib/_dropdowns.less
 
 ## Initialize the dropdown widget {#dropdown_init}
 
-The dropdown widget is initialized as described in [JavaScript initialization]({{ page.baseurl }}/javascript-dev-guide/javascript/js_init.html).
+The dropdown widget is initialized as described in [JavaScript initialization](../init.md).
 
 ### Initialize with `data-mage-init` attribute
 

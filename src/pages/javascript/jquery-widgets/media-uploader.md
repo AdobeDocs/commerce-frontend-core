@@ -132,5 +132,5 @@ As a result we see the media multi-uploader which allows uploading the files wit
 ![Multiselect Widget Example](../../_images/javascript/media-uploader-widget-result.png)
 
 <!-- Link Definitions -->
-[`<Magento_Backend_module_dir>/view/adminhtml/web/js/media-uploader.js`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Backend/view/adminhtml/web/js/media-uploader.js
-[Initialize JavaScript]: {{page.baseurl}}/javascript-dev-guide/javascript/js_init.html
+[`<Magento_Backend_module_dir>/view/adminhtml/web/js/media-uploader.js`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Backend/view/adminhtml/web/js/media-uploader.js
+[Initialize JavaScript]: ../init.md

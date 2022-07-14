@@ -53,5 +53,5 @@ As a result, we have the text input field and the value of this input will be tr
 
 ![TrimInput Input Example](../../_images/javascript/trimInput-widget-result.png)
 
-[lib/web/mage/trim-input.js]: {{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/mage/trim-input.js
-[Initialize JavaScript]: {{page.baseurl}}/javascript-dev-guide/javascript/js_init.html
+[lib/web/mage/trim-input.js]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/trim-input.js
+[Initialize JavaScript]: ../init.md

@@ -5,15 +5,15 @@ title: Magnifier widget
 ---
 
 Magnifier is a [widget](https://glossary.magento.com/widget) that allows displaying images in 100% scaled size in a separate dedicated layer.
-In Magento it is used by the [gallery]({{ page.baseurl }}/javascript-dev-guide/widgets/widget_gallery.html) widget for zooming the product images on product pages. It must be enabled in your local theme `view.xml` configuration file.
+In Magento it is used by the [gallery](gallery.md) widget for zooming the product images on product pages. It must be enabled in your local theme `view.xml` configuration file.
 
 ![Magnifier widget](../../_images/javascript/magnifier-widget.png)
 
-The Magnifier widget source is located in [lib/web/magnifier/magnify.js]({{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/magnifier/magnify.js).
+The Magnifier widget source is located in [lib/web/magnifier/magnify.js](https://github.com/magento/magento2/blob/2.4/lib/web/magnifier/magnify.js).
 
 ## Initialize magnifier {#magnifier_init}
 
-The magnifier widget is initialized as described in [JavaScript initialization]({{ page.baseurl }}/javascript-dev-guide/javascript/js_init.html#init_phtml).
+The magnifier widget is initialized as described in [JavaScript initialization](../init.md#insert-a-js-component-in-a-phtml-template).
 The following is the example of gallery initialization with the magnifier enabled:
 
 ```javascript
@@ -126,4 +126,4 @@ Several other Magnifier options are set in `view.xml`:
 </var>
 ```
 
-For an example of setting the gallery option, see the [view.xml]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/design/frontend/Magento/blank/etc/view.xml#L225) file in the Blank theme.
+For an example of setting the gallery option, see the [view.xml](https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/blank/etc/view.xml#L225) file in the Blank theme.

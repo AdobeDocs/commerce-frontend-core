@@ -12,7 +12,7 @@ We strongly recommend that you do not change the source code of default Magento 
 To add a custom JS component (module), take the following steps:
 
 1. Place the custom component source file in one of the following locations:
-   -  Your theme JS files: `<theme_dir>/web/js` or `<theme_dir>/<VendorName>_<ModuleName>/web/js`. In this case the component is available in your theme and its [child themes]({{ page.baseurl }}/frontend-dev-guide/themes/theme-inherit.html).
+   -  Your theme JS files: `<theme_dir>/web/js` or `<theme_dir>/<VendorName>_<ModuleName>/web/js`. In this case the component is available in your theme and its [child themes](../guide/themes/inheritance.md).
    -  Your module view JS files: `<module_dir>/view/frontend/web/js`. In this case, the component is available in all modules and themes (if your module is enabled).
 
 1. Optionally, in the corresponding [module](https://glossary.magento.com/module) or theme, create a `requirejs-config.js` configuration file, if it does not yet exist there and set path for your resource. The RequireJS configuration file can be placed in one of the following locations:
@@ -21,7 +21,7 @@ To add a custom JS component (module), take the following steps:
    -  Module within your theme: `<theme_dir>/<module_dir>`
    -  Your module (depending on the needed area - **base**, **frontend**, **adminhtml**): `<module_dir>/view/<area>`
 
-## Replace a default JS component {#js_replace}
+## Replace a default JS component
 
 To use a custom implementation of an existing Magento JS component:
 
@@ -65,7 +65,7 @@ Place your `requirejs-config.js` file in one of the following directories (accor
 
 This way, your custom JS component is used instead of the [Magento component](https://glossary.magento.com/magento-component) in all entries all over the [frontend](https://glossary.magento.com/frontend) area.
 
-## Extend a default JS component {#extend_js}
+## Extend a default JS component
 
 You can add a custom JS component/widget, which will extend a default Magento component/widget.
 
@@ -92,14 +92,16 @@ Where the following notation is used:
 -  `<your_namespace>.<your_widget_name>` - the name of your custom [widget](https://glossary.magento.com/widget). According to the jQuery widgets naming convention, this value must contain a [namespace](https://glossary.magento.com/namespace) and name.
 -  `mage.<widget.name>` - the name of the Magento widget that you extend.
 
-{:.bs-callout-info}
+<InlineAlert variant="info" slots="text" />
+
 When using custom JS, try to keep dependencies to a minimum. Additional dependencies demand more web requests, which can slow rendering.
 
-{:.bs-callout-tip}
+<InlineAlert variant="success" slots="text" />
+
 All jQuery UI components for frontend and base areas are located in `lib/web/jquery/ui-modules` dir. They can be used in JS widgets by `jquery-ui-modules` path mapping like `jquery-ui-modules/widget` and `jquery-ui-modules/slider`.
 Using individual jQuery UI components instead of the monolithic jQuery UI library improves storefront performance.
 
-For information about initializing your custom widget in a `.phtml` template, see the [JavaScript initialization]({{ page.baseurl }}/javascript-dev-guide/javascript/js_init.html) topic.
+For information about initializing your custom widget in a `.phtml` template, see the [JavaScript initialization](init.md) topic.
 
 ### Extend a default Ui component {#extend_js_component}
 
@@ -138,18 +140,10 @@ define([
 });
 ```
 
-For information about initializing your custom JS component in a `.phtml` template, see the [JavaScript initialization]({{ page.baseurl }}/javascript-dev-guide/javascript/js_init.html) topic.
+For information about initializing your custom JS component in a `.phtml` template, see the [JavaScript initialization](init.md) topic.
 
 If you need to enable the loading of default Magento JS components and widget initialization on a certain stage, add the following code in your JS script:
 
 ```javascript
 $(mage.apply);
 ```
-
-{:.ref-header}
-Related topics
-
--  [JavaScript resources in Magento]({{ page.baseurl }}/javascript-dev-guide/javascript/js-resources.html)
--  [About AMD modules and RequireJS]({{ page.baseurl }}/javascript-dev-guide/javascript/js-resources.html)
--  [JavaScript initialization]({{page.baseurl}}/javascript-dev-guide/javascript/js_init.html)
--  [Advanced JavaScript bundling]({{page.baseurl}}/performance-best-practices/advanced-js-bundling.html)

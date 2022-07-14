@@ -354,7 +354,7 @@ Called when the modal window is closed.
 
 Called when the modal window is opened.
 
-## Keyboard navigation {#key_navigation}
+## Keyboard navigation
 
 -  the ESC key: close the current modal window
 -  the TAB key: set focus to the next focusable element (looped inside the modal window)
@@ -432,8 +432,8 @@ The result is a modal and a button (_Click Here_) that opens the modal.
 
 ![Modal Widget](../../_images/javascript/modal-widget-result.png)
 
-[`<Magento_Ui_module_dir>/view/base/web/js/modal/modal.js`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/modal/modal.js
-[`<Magento_Ui_module_dir>/view/base/web/templates/modal/modal-popup.html`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/modal/modal-popup.html
-[`<Magento_Ui_module_dir>/view/base/web/templates/modal/modal-slide.html`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/modal/modal-slide.html
-[Admin Pattern Library, the Slide-out Panels, Modal Windows, and Overlays topic.]: {{page.baseurl}}/pattern-library/containers/slideouts-modals-overlays/slideouts-modals-overalys.html#modals
-[JavaScript initialization]: {{page.baseurl}}/javascript-dev-guide/javascript/js_init.html
+[`<Magento_Ui_module_dir>/view/base/web/js/modal/modal.js`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/modal/modal.js
+[`<Magento_Ui_module_dir>/view/base/web/templates/modal/modal-popup.html`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/modal/modal-popup.html
+[`<Magento_Ui_module_dir>/view/base/web/templates/modal/modal-slide.html`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/modal/modal-slide.html
+[Admin Pattern Library, the Slide-out Panels, Modal Windows, and Overlays topic.]: https://devdocs.magento.com/guides/v2.4/pattern-library/containers/slideouts-modals-overlays/slideouts-modals-overalys.html#modals
+[JavaScript initialization]: ../init.md

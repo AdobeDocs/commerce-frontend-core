@@ -10,7 +10,7 @@ The following picture is an illustration of image displaying on the product page
 
 ![A product page with preview and thumbnails](../../_images/javascript/gallery_scr21.png)
 
-In addition, the [magnifier widget]({{ page.baseurl }}/javascript-dev-guide/widgets/widget_gallery_mg.html) can be used to demonstrate images in 100% scaled size in separate dedicated layer, and the gallery fullscreen mode can be used to navigate the entire full sized photo.
+In addition, the [magnifier widget](magnifier.md) can be used to demonstrate images in 100% scaled size in separate dedicated layer, and the gallery fullscreen mode can be used to navigate the entire full sized photo.
 
 Gallery is displayed consistently across all supported browsers and is responsive --- it sizes correctly on mobile devices and desktops.
 
@@ -26,7 +26,7 @@ The gallery magnifier source is [lib/web/magnifier/magnify.js].
 
 ## Initialize the gallery widget {#gallery_init}
 
-The gallery widget is initialized as described in [JavaScript initialization]({{ page.baseurl }}/javascript-dev-guide/javascript/js_init.html#init_phtml).
+The gallery widget is initialized as described in [JavaScript initialization](../init.md#insert-a-js-component-in-a-phtml-template).
 
 Example of declarative initialization:
 
@@ -470,7 +470,7 @@ The fullscreen and breakpoints options are set in a similar way:
 </var>
 ```
 
-For illustration of setting gallery option in `view.xml`, you can reference to the [view.xml of the Blank theme]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/design/frontend/Magento/blank/etc/view.xml#L184).
+For illustration of setting gallery option in `view.xml`, you can reference to the [view.xml of the Blank theme](https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/blank/etc/view.xml#L184).
 
 ## Gallery API {#gallery_api}
 
@@ -578,8 +578,8 @@ api.updateOptions([{
 ```
 
 [Fotorama widget]: http://fotorama.io/
-[lib/web/mage/gallery/gallery.js]: {{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/mage/gallery/gallery.js
-[lib/web/magnifier/magnify.js]: {{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/magnifier/magnify.js
+[lib/web/mage/gallery/gallery.js]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/gallery/gallery.js
+[lib/web/magnifier/magnify.js]: https://github.com/magento/magento2/blob/2.4/lib/web/magnifier/magnify.js
 
 ## Code sample
 

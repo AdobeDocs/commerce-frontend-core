@@ -250,11 +250,11 @@ require([
 
 ![Alert Widget](../../_images/javascript/alert-widget-result.png)
 
-[Magento confirmation widget]: {{ page.baseurl }}/javascript-dev-guide/widgets/widget_confirm.html
-[Magento modal widget]: {{ page.baseurl }}/javascript-dev-guide/widgets/widget_modal.html
-[`<Magento_Ui_module_dir>/view/base/web/js/modal/alert.js`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/modal/alert.js
-[Admin Pattern Library, the Slide-out Panels, Modal Windows, and Overlays topic.]: {{ page.baseurl }}/pattern-library/containers/slideouts-modals-overlays/slideouts-modals-overalys.html#modals
-[JavaScript initialization]: {{ page.baseurl }}/javascript-dev-guide/javascript/js_init.html
+[Magento confirmation widget]: confirm.md
+[Magento modal widget]: modal.md
+[`<Magento_Ui_module_dir>/view/base/web/js/modal/alert.js`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/modal/alert.js
+[Admin Pattern Library, the Slide-out Panels, Modal Windows, and Overlays topic.]: https://devdocs.magento.com/guides/v2.4/pattern-library/containers/slideouts-modals-overlays/slideouts-modals-overalys.html#modals
+[JavaScript initialization]: ../init.md
 [actions]: #alert_actions
 [autoOpen]: #alert_autoopen
 [clickableOverlay]: #alert_clickableOverlay
@@ -263,4 +263,4 @@ require([
 [title]: #alert_title
 [modalClass]: #alert_modalClass
 [buttons]: #alert_buttons
-[navigation of the modal widget]: {{ page.baseurl }}/javascript-dev-guide/widgets/widget_modal.html#key_navigation
+[navigation of the modal widget]: modal.md#keyboard-navigation

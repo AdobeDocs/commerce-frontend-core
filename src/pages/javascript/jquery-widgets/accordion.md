@@ -191,7 +191,7 @@ $( "#element" ).accordion("deactivate", [0,1]);
 
 ## Events {#accordion_events}
 
-The accordion widget subscribes to the same events as the [Tabs widget]({{page.baseurl}}/javascript-dev-guide/widgets/widget_tabs.html):
+The accordion widget subscribes to the same events as the [Tabs widget](tabs.md):
 
 -  [beforeOpen callback](#beforeopen-callback)
 -  [dimensionsChanged](#dimensionschanged)
@@ -267,10 +267,10 @@ The result is three sections with separate swapped content.
 
 ![Accordion Widget](../../_images/javascript/accordion-widget-result.png)
 
-[Magento Tabs widget]: {{page.baseurl}}/javascript-dev-guide/widgets/widget_tabs.html
-[lib/web/mage/accordion.js]: {{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/mage/accordion.js
-[JavaScript initialization]: {{page.baseurl}}/javascript-dev-guide/javascript/js_init.html#data_mage_init
-[Magento Tabs options]: {{page.baseurl}}/javascript-dev-guide/widgets/widget_tabs.html#fedg_tabs_options
+[Magento Tabs widget]:tabs.md
+[lib/web/mage/accordion.js]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/accordion.js
+[JavaScript initialization]: ../init.md#declarative-notation-using-the-data-mage-init-attribute
+[Magento Tabs options]: tabs.md#options
 [active]: #collaps_active
 [multipleCollapsible]: #collaps_multi
 [openOnFocus]: #collaps_open

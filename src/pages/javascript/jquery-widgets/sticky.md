@@ -18,13 +18,13 @@ Widget source file is [lib/web/mage/sticky.js].
 -  [Magento Bundle]
 -  [Magento Blank theme]
 
-[lib/web/mage/sticky.js]: {{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/mage/sticky.js
-[Magento Bundle]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Bundle/view/frontend/templates/catalog/product/view/summary.phtml
-[Magento Blank theme]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/design/frontend/Magento/blank/Magento_Theme/web/js/theme.js
+[lib/web/mage/sticky.js]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/sticky.js
+[Magento Bundle]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Bundle/view/frontend/templates/catalog/product/view/summary.phtml
+[Magento Blank theme]: https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/blank/Magento_Theme/web/js/theme.js
 
 ## Initialize the sticky widget {#dropdown_init}
 
-The sticky widget can be initialized as described in [JavaScript initialization]({{ page.baseurl }}/javascript-dev-guide/javascript/js_init.html).
+The sticky widget can be initialized as described in [JavaScript initialization](../init.md).
 
 ### Initialize with `data-mage-init` attribute
 
@@ -91,7 +91,8 @@ CSS class for active sticky state.
 
 ## Styles
 
-{:.bs-callout-info}
+<InlineAlert variant="info" slots="text" />
+
 The Sticky widget will not work without basic CSS Styles.
 
 The sticky page element has to have a position relative to the

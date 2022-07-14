@@ -112,6 +112,6 @@ The result is a calendar and a icon(_Click Here_) that opens the calendar.
 
 [Datepicker Widget]: http://api.jQueryui.com/datepicker/
 [global configuration]: #fedg_calendar_config
-[lib/web/mage/calendar.js]: {{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/mage/calendar.js
-[Initialize JavaScript]: {{page.baseurl}}/javascript-dev-guide/javascript/js_init.html
+[lib/web/mage/calendar.js]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/calendar.js
+[Initialize JavaScript]: ../init.md
 [Datepicker Widget]: http://api.jqueryui.com/datepicker/

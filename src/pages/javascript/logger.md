@@ -10,7 +10,7 @@ menu_order: 20
 
 The `Logger` class provides logging functionality for an application. It can be used to  display errors, warnings and debug messages.
 
-**Constructor:** `<Magento_Ui_module_dir>/view/base/web/js/lib/logger/logger.js`. [See on GitHub]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/lib/logger/logger.js)
+**Constructor:** `<Magento_Ui_module_dir>/view/base/web/js/lib/logger/logger.js`. [See on GitHub](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/logger/logger.js)
 
 ## Logger API
 
@@ -96,7 +96,7 @@ Returns all available log entries. It can additionally filter out the entries th
 ## `LogEntry`
 `LogEntry` is a class that holds the data of log operations, like `error`, `warn`,  `info` and so on.
 
-**Constructor:** `<Magento_Ui_module_dir>/view/base/web/js/lib/logger/entry.js`. [See on GitHub]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/lib/logger/entry.js)
+**Constructor:** `<Magento_Ui_module_dir>/view/base/web/js/lib/logger/entry.js`. [See on GitHub](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/logger/entry.js)
 
 ### new LogEntry(message, level, [data])
 
@@ -122,7 +122,7 @@ Returns all available log entries. It can additionally filter out the entries th
 
 The `LogOutputHandler` class responsible for the output of entries passed by `Logger`. Default implementation uses browser's `console` object and invokes methods that correspond to the `level` of an entry. For instance, entry with the `INFO` level will be displayed using the console's `info` method.
 
-**Constructor:** `<Magento_Ui_module_dir>/view/base/web/js/lib/logger/console-output-handler.js` ([See on GitHub]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/lib/logger/entry.js))
+**Constructor:** `<Magento_Ui_module_dir>/view/base/web/js/lib/logger/console-output-handler.js` ([See on GitHub](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/logger/entry.js))
 
 ### new LogOutputHandler(formatter)
 
@@ -156,7 +156,7 @@ The `LogFormatter` class is responsible for processing the message of the provid
 } // => "Foo Bar"
 ```
 
-**Constructor:** `<Magento_Ui_module_dir>/view/base/web/js/lib/logger/formatter.js` ([See on GitHub]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/lib/logger/formatter.js))
+**Constructor:** `<Magento_Ui_module_dir>/view/base/web/js/lib/logger/formatter.js` ([See on GitHub](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/logger/formatter.js))
 
 ### new LogFormatter([dateFormat], [template])
 
@@ -185,7 +185,7 @@ The following log levels are available (sorted by priority in the descending ord
 -  `DEBUG`
 -  `ALL` (allows to display all log entries, unless any other display criteria is present)
 
-**Path:** `Magento_Ui_module_dir>/view/base/web/js/lib/logger/levels-pool.js` ([See on GitHub]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/lib/logger/levels-pool.js))
+**Path:** `Magento_Ui_module_dir>/view/base/web/js/lib/logger/levels-pool.js` ([See on GitHub](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/logger/levels-pool.js))
 
 ### `getLevels()`
 Returns a list of available log levels.
@@ -203,7 +203,7 @@ Returns a list of available log levels.
 
 Implements a collection of predefined messages used by `consoleLogger`.
 
-**Path:** `<Magento_Ui_module_dir>/view/base/web/js/lib/logger/message-pool.js` ([See on GitHub]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/lib/logger/message-pool.js))
+**Path:** `<Magento_Ui_module_dir>/view/base/web/js/lib/logger/message-pool.js` ([See on GitHub](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/logger/message-pool.js))
 
 ### `getMessage(code)`
 Returns message that matches the provided code.
@@ -239,7 +239,7 @@ An instance of the `Logger` class that is configured to display messages in the 
     // console => [2017-04-07 01:36:24] [INFO] Hello World!
 ```
 
-**Path:** `<Magento_Ui_module_dir>/view/base/web/js/lib/logger/console-logger.js` ([See on GitHub]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/lib/logger/console-logger.js))
+**Path:** `<Magento_Ui_module_dir>/view/base/web/js/lib/logger/console-logger.js` ([See on GitHub](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/logger/console-logger.js))
 
 ### Properties
 
