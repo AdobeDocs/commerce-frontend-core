@@ -6,7 +6,7 @@ title: JavaScript resources in Commerce
 
 ## Overview {#m2devgde-js-resources-intro}
 
-This topic describes general concepts of how [JavaScript](https://glossary.magento.com/javascript) (JS) components are organized in Magento.
+This topic describes general concepts of how [JavaScript](https://glossary.magento.com/javascript) (JS) components are organized.
 
 To address the problem of slow page loads, we exclude JavaScript from the page headers and we added the ability to use the [RequireJS library](http://requirejs.org).
 
@@ -16,16 +16,16 @@ RequireJS improves the perceived page load time because it allows JavaScript to 
 
 ### JS resources location
 
-In Magento, you can find Javascript components on the following levels:
+You can find Javascript components on the following levels:
 
-*  [Library](https://glossary.magento.com/library) level (`lib/web`). Resources located here are available in any place within Magento.
+*  [Library](https://glossary.magento.com/library) level (`lib/web`). Resources located here are available in any place within the application.
 *  Module level (`<module_dir>/view/<areaname>/web`). If the [module](https://glossary.magento.com/module) is enabled, resources added here are available in other modules and themes.
 *  Theme level, for a particular module (`<theme_dir>/<VendorName>_<ModuleName>/web`). Resources added here are available for [inheriting] themes.
 *  Theme level  (`<theme_dir>/web`). Resources added here are available for [inheriting](../guide/themes/inheritance.md) themes.
 
 <InlineAlert variant="info" slots="text" />
 
-The library level can only contain core Magento resources. Do not put custom JS files in the \`lib/web\` directory.
+The library level can only contain core application resources. Do not put custom JS files in the \`lib/web\` directory.
 
 ### Specifying JS
 
@@ -97,7 +97,7 @@ To build a dependency on the third-party plugin, specify a [shim](http://require
 
 ### Including RequireJS {#m2devgde-js-resources-configrequirejs}
 
-To be available for the entire Magento instance, RequireJS library is included in the following layout files:
+To be available for the entire application instance, RequireJS library is included in the following layout files:
 
 *  For the `adminhtml` [area](https://developer.adobe.com/commerce/php/architecture/modules/areas/):
 

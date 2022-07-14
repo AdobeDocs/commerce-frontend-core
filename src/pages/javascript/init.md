@@ -6,7 +6,7 @@ title: Calling and initializing JavaScript
 
 ## Overview {#js_init_overview}
 
-This topic describes different ways to call and initialize JavaScript in Magento 2:
+This topic describes different ways to call and initialize JavaScript in Adobe Commerce and Magento Open Source:
 
 -  Insert a JavaScript component in `.phtml` page templates.
 -  Call Javascript components that require initialization in Javascript (`.js`) files.
@@ -21,7 +21,7 @@ Depending on your task, you can use declarative or imperative notation to insert
 
 Using the declarative notation to insert a JS component prepares all the configuration on the [backend](https://glossary.magento.com/backend) and outputs it to page source using standard tools. Use declarative notation if your JavaScript component requires initialization.
 
-In Magento 2, you have two options for specifying declarative notation:
+You have two options for specifying declarative notation:
 
 -  Using the `data-mage-init` attribute
 
@@ -111,7 +111,7 @@ On DOM ready, the `data-mage-init` attribute is parsed to extract component name
   };
   ```
 
-Where `<component_name>` is a native Magento JS component, for example: `menu`, `collapsible`, `tooltip` ...
+Where `<component_name>` is a native JS component, for example: `menu`, `collapsible`, `tooltip` ...
 
 ```html
 <nav data-mage-init='{"tooltip": {"content": "<?= /* @noEscape */ $content ?>"}}'></nav>

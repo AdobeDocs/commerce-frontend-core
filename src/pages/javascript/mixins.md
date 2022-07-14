@@ -8,12 +8,12 @@ A [mixin] is a class whose methods are added to, or mixed in, with another class
 A base class includes the methods from a mixin instead of inheriting from it.
 This allows you to add to or augment the behavior of the base class by adding different mixins to it.
 
-This topic contains information on how you can use JavaScript mixins to overwrite component methods in Magento.
+This topic contains information on how you can use JavaScript mixins to overwrite component methods.
 
 ## Mixin scope
 
 The scope of a module's mixin depends on its directory location under the `view` directory.
-This allows you to target component instances in specific areas in Magento.
+This allows you to target component instances in specific areas.
 
 The following table maps a directory location to the [application area] a mixin affects:
 
@@ -32,7 +32,7 @@ The mixin file can be nested under more directories as long as those directories
 
 ### Format
 
-A mixin in Magento is written as an [AMD module] that returns a callback function.
+A mixin is written as an [AMD module] that returns a callback function.
 This function accepts a target component(module) as an argument and returns a module.
 
 This allows you to return a new instance of the target component with your modifications attached to it before it is used in the application.
@@ -219,7 +219,7 @@ Be sure to add the origin module as the over-written module dependency (use the 
 
 After making changes to the `requirejs-config.js` configuration, you must clean the cache and regenerate static files.
 
-## Mixin examples in Magento
+## Mixin examples
 
 The following is a list of files in the [`Magento_CheckoutAgreement`] module that declare and define mixins that modify checkout behavior:
 

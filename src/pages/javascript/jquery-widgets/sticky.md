@@ -11,16 +11,12 @@ functional_areas:
 
 The sticky widget allows developers to fix a page element on the screen in a specific position while a user scrolls the page.
 
-Widget source file is [lib/web/mage/sticky.js].
+Widget source file is [lib/web/mage/sticky.js](https://github.com/magento/magento2/blob/2.4/lib/web/mage/sticky.js).
 
 **Usages:**
 
--  [Magento Bundle]
--  [Magento Blank theme]
-
-[lib/web/mage/sticky.js]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/sticky.js
-[Magento Bundle]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Bundle/view/frontend/templates/catalog/product/view/summary.phtml
-[Magento Blank theme]: https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/blank/Magento_Theme/web/js/theme.js
+-  [Bundle](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Bundle/view/frontend/templates/catalog/product/view/summary.phtml)
+-  [Blank theme](https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/blank/Magento_Theme/web/js/theme.js)
 
 ## Initialize the sticky widget {#dropdown_init}
 

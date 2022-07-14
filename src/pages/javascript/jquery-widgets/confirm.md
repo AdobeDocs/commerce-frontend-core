@@ -4,7 +4,7 @@ subgroup: 3_Widgets
 title: Confirmation widget
 ---
 
-The Magento confirmation widget implements a modal pop-up window with the cancel and confirmation button.It is an [extension](https://glossary.magento.com/extension) of the [Magento modal widget].
+The confirmation widget implements a modal pop-up window with the cancel and confirmation button.It is an [extension](https://glossary.magento.com/extension) of the [modal widget].
 
 The confirmation [widget](https://glossary.magento.com/widget) source is [`<Magento_Ui_module_dir>/view/base/web/js/modal/confirm.js`].
 
@@ -260,7 +260,7 @@ require([
 ## Result
 
 ![Confirmation Widget](../../_images/javascript/confirm-widget-result.png)
-[Magento modal widget]: modal.md
+[modal widget]: modal.md
 [`<Magento_Ui_module_dir>/view/base/web/js/modal/confirm.js`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/modal/confirm.js
 [Admin Pattern Library, the Slide-out Panels, Modal Windows, and Overlays topic.]: https://devdocs.magento.com/guides/v2.4/pattern-library/containers/slideouts-modals-overlays/slideouts-modals-overalys.html#modals
 [JavaScript initialization]: ../init.md

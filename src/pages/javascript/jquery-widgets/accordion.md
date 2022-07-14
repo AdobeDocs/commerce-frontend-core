@@ -4,7 +4,7 @@ subgroup: 3_Widgets
 title: Accordion widget
 ---
 
-Magento accordion widget is an [extension](https://glossary.magento.com/extension) of the [Magento Tabs widget].
+The accordion widget is an [extension](https://glossary.magento.com/extension) of the [tabs widget].
 
 Accordions are generally used to break content into multiple sections that can be swapped to save space.
 
@@ -95,7 +95,7 @@ The accordion widget can be initialized using the `data-mage-init` attribute or 
 
 ## Options {#accordion_options}
 
-Accordion options coincide with [Magento Tabs options], plus the following custom ones:
+Accordion options coincide with [tabs options], plus the following custom ones:
 
 -  [active]
 -  [multipleCollapsible]
@@ -150,7 +150,7 @@ For keyboard navigation defines if the accordion expands when the title gets in 
 
 ## Methods {#accordion_methods}
 
-Accordion widget options and keyboard interaction mostly coincide with the Magento tabs widget methods.
+Accordion widget options and keyboard interaction mostly coincide with the tabs widget methods.
 
 The custom accordion methods are the following:
 
@@ -267,10 +267,10 @@ The result is three sections with separate swapped content.
 
 ![Accordion Widget](../../_images/javascript/accordion-widget-result.png)
 
-[Magento Tabs widget]:tabs.md
+[tabs widget]:tabs.md
 [lib/web/mage/accordion.js]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/accordion.js
 [JavaScript initialization]: ../init.md#declarative-notation-using-the-data-mage-init-attribute
-[Magento Tabs options]: tabs.md#options
+[tabs options]: tabs.md#options
 [active]: #collaps_active
 [multipleCollapsible]: #collaps_multi
 [openOnFocus]: #collaps_open

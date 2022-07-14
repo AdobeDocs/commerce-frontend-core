@@ -3,11 +3,11 @@ group: javascript-developer-guide
 title: Use custom JavaScript
 ---
 
-This topic discusses how to use custom [JavaScript](https://glossary.magento.com/javascript) components with the components provided by Magento or custom replacement implementations.
+This topic discusses how to use custom [JavaScript](https://glossary.magento.com/javascript) components with the components provided by the application or custom replacement implementations.
 
-We strongly recommend that you do not change the source code of default Magento components and widgets. All customizations must be implemented in custom modules or themes.
+We strongly recommend that you do not change the source code of default components and widgets. All customizations must be implemented in custom modules or themes.
 
-## Add a custom JS component {#custom_js_overview}
+## Add a custom JS component
 
 To add a custom JS component (module), take the following steps:
 
@@ -23,7 +23,7 @@ To add a custom JS component (module), take the following steps:
 
 ## Replace a default JS component
 
-To use a custom implementation of an existing Magento JS component:
+To use a custom implementation of an existing JS component:
 
 Place the custom component source file in one of the following locations:
 
@@ -63,15 +63,15 @@ Place your `requirejs-config.js` file in one of the following directories (accor
 -  Your [theme](https://glossary.magento.com/theme) files: `<theme_dir>`
 -  Your module view files: `<module_dir>/view/frontend`
 
-This way, your custom JS component is used instead of the [Magento component](https://glossary.magento.com/magento-component) in all entries all over the [frontend](https://glossary.magento.com/frontend) area.
+This way, your custom JS component is used instead of the [component](https://glossary.magento.com/magento-component) in all entries all over the [frontend](https://glossary.magento.com/frontend) area.
 
 ## Extend a default JS component
 
-You can add a custom JS component/widget, which will extend a default Magento component/widget.
+You can add a custom JS component/widget, which will extend a default component/widget.
 
-### Extend Magento widget {#extend_js_widget}
+### Extend widget
 
-To extend a default Magento [jQuery](https://glossary.magento.com/jquery) widget, create `<your_widget_name>.js` with contents similar to the following:
+To extend a default [jQuery](https://glossary.magento.com/jquery) widget, create `<your_widget_name>.js` with contents similar to the following:
 
 ```javascript
 define([
@@ -90,7 +90,7 @@ define([
 Where the following notation is used:
 
 -  `<your_namespace>.<your_widget_name>` - the name of your custom [widget](https://glossary.magento.com/widget). According to the jQuery widgets naming convention, this value must contain a [namespace](https://glossary.magento.com/namespace) and name.
--  `mage.<widget.name>` - the name of the Magento widget that you extend.
+-  `mage.<widget.name>` - the name of the widget that you extend.
 
 <InlineAlert variant="info" slots="text" />
 
@@ -103,7 +103,7 @@ Using individual jQuery UI components instead of the monolithic jQuery UI librar
 
 For information about initializing your custom widget in a `.phtml` template, see the [JavaScript initialization](init.md) topic.
 
-### Extend a default Ui component {#extend_js_component}
+### Extend a default Ui component
 
 To extend a default JS Ui component, your custom script must contain the following:
 
@@ -142,7 +142,7 @@ define([
 
 For information about initializing your custom JS component in a `.phtml` template, see the [JavaScript initialization](init.md) topic.
 
-If you need to enable the loading of default Magento JS components and widget initialization on a certain stage, add the following code in your JS script:
+If you need to enable the loading of default JS components and widget initialization on a certain stage, add the following code in your JS script:
 
 ```javascript
 $(mage.apply);

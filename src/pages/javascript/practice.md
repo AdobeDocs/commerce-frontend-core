@@ -3,9 +3,9 @@ group: javascript-developer-guide
 title: Customizing JavaScript illustration
 ---
 
-This topic features a step-by-step illustration of how to customize a [jQuery](https://glossary.magento.com/jquery) [widget](https://glossary.magento.com/widget) and how to use a custom widget instead the default Magento one.
+This topic features a step-by-step illustration of how to customize a [jQuery](https://glossary.magento.com/jquery) [widget](https://glossary.magento.com/widget) and how to use a custom widget instead of the default.
 
-## Customize a default Magento jQuery widget
+## Customize a default jQuery widget
 
 In their Orange theme, ExampleCorp wants to remove the "Click on image to view it full sized" message displayed on the product page.
 

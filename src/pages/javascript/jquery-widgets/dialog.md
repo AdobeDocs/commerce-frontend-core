@@ -4,7 +4,7 @@ subgroup: 3_Widgets
 title: DropdownDialog widget
 ---
 
-Magento dropdownDialog [widget](https://glossary.magento.com/widget) is a customization of the standard [jQuery UI Dialog](http://api.jqueryui.com/dialog/). As extra functionality it implements the following:
+The dropdownDialog [widget](https://glossary.magento.com/widget) is a customization of the standard [jQuery UI Dialog](http://api.jqueryui.com/dialog/). As extra functionality it implements the following:
 
 -  triggering [event](https://glossary.magento.com/event) for opening
 -  delaying to automatically close the drop-down on mouse out
@@ -18,7 +18,7 @@ For information about how to initialize a widget in a JS component or `.phtml` t
 
 ## Options {#dialog_options}
 
-Magento customized Dialog widget has default [jQuery UI Dialog widget](http://api.jqueryui.com/dialog/) options, plus several custom options:
+The customized Dialog widget has default [jQuery UI Dialog widget](http://api.jqueryui.com/dialog/) options, plus several custom options:
 
 -  [autoPosition](#d_autoPosition)
 -  [autoSize](#d_autoSize)
@@ -63,6 +63,7 @@ Specifies if the size of the drop-down is defined by widget options ([height], [
 **Default value**: `false`
 
 ### `closeOnMouseLeave` {#d_closeOnMouseLeave}
+
 Specifies if the drop-down is closed when mouse pointer is moved out.
 
 **Type**: Boolean
@@ -70,6 +71,7 @@ Specifies if the drop-down is closed when mouse pointer is moved out.
 **Default value**: `true`
 
 ### `closeOnClickOutside` {#d_closeOnClickOutside}
+
 Specifies if the drop-down is closed on mouse click outside the drop-down.
 
 **Type**: Boolean
@@ -77,6 +79,7 @@ Specifies if the drop-down is closed on mouse click outside the drop-down.
 **Default value**: `true`
 
 ### `createTitleBar` {#d_createTitleBar}
+
 Defines if the [title] option is used for displaying the title bar.
 
 **Type**: Boolean
@@ -84,13 +87,13 @@ Defines if the [title] option is used for displaying the title bar.
 **Default value**: `false`
 
 ### `defaultDialogClass` {#d_defaultDialogClass}
+
 Class that is added to the drop-down, when it gets initialized.
 
 **Type**: String
 
 **Default value**: `mage-dropdown-dialog`
 
-### `dialogContentClass` {#d_dialogContentClass}
 Class that is added/removed on drop-down content when it gets opened/closed.
 
 **Type**: String
@@ -98,6 +101,7 @@ Class that is added/removed on drop-down content when it gets opened/closed.
 **Default value**: `null`
 
 ### `parentClass` {#d_parentClass}
+
 Class that is added/removed for the dropdown parent, when the drop-down gets opened/closed.
 
 **Type**: String
@@ -105,6 +109,7 @@ Class that is added/removed for the dropdown parent, when the drop-down gets ope
 **Default value**: `null`
 
 ### `triggerClass` {#d_triggerClass}
+
 Class that is added/removed on the trigger element when the drop-down gets opened/closed.
 
 **Type**: String
@@ -112,6 +117,7 @@ Class that is added/removed on the trigger element when the drop-down gets opene
 **Default value**: `null`
 
 ### `triggerEvent` {#d_triggerEvent}
+
 Name of the event that triggers the `open()` function for drop-down.
 
 **Type**: String
@@ -119,6 +125,7 @@ Name of the event that triggers the `open()` function for drop-down.
 **Default value**: `click`
 
 ### `triggerTarget` {#d_triggerTarget}
+
 Element that triggers the drop-down.
 
 **Type**:
@@ -129,6 +136,7 @@ Element that triggers the drop-down.
 **Default value**: `null`
 
 ### `timeout` {#d_timeout}
+
 The number of milliseconds until the dropdown is closed after mouse pointer moves out.
 
 **Type**: Number
@@ -137,7 +145,7 @@ The number of milliseconds until the dropdown is closed after mouse pointer move
 
 ## Methods {#dialog_methods}
 
-Magento customized dropdownDialog widget has default [jQuery UI Dialog widget] methods, though some of them are customized.
+The customized dropdownDialog widget has default [jQuery UI Dialog widget] methods, though some of them are customized.
 
 Customized public methods:
 

@@ -246,15 +246,15 @@ An instance of the `Logger` class that is configured to display messages in the 
 -  `levels: {[name: string]: number}`: Reference to the available log levels.
 -  `messages: messagePool`: Reference to `messagePool` that allows working with a list of predefined messages.
 
-### Usages in Magento
+### Usages
 
-By default, Magento uses `consoleLogger` to display logs in browser console.
+By default, the application uses `consoleLogger` to display logs in browser console.
 
 Example:
 
 ![node declaration autocomplete](../_images/javascript/logger_error.png)
 
-The default level of logs that Magento displays in the console starts from the `WARN` level.
+The default level of logs that display in the console starts from the `WARN` level.
 
 ### Types of logged information
 

@@ -5,11 +5,11 @@ contributor_name: Adarsh Manickam
 contributor_link: https://github.com/drpayyne
 ---
 
-This topic describes general concepts of how the [RequireJS library](http://requirejs.org) is used in Magento, with examples. Please refer to official RequireJS documentation for in-depth explanation.
+This topic describes general concepts of how the [RequireJS library](http://requirejs.org) is used in the application with examples. Please refer to official RequireJS documentation for in-depth explanation.
 
 RequireJS is a JavaScript file and module loader. It improves perceived page load times because it allows JavaScript to load in the background. In particular, it enables asynchronous JavaScript loading.
 
-## RequireJS configuration in Magento {#requirejs-config}
+## RequireJS configuration
 
 All configuration is done in the `requirejs-config.js` file. It has a single root object `config` which contains the configuration options described below. All the configuration settings are optional and are used only when required. The following snippet is a sample `requirejs-config.js` describing the structure of the file. Example [`requirejs-config.js` file](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Theme/view/base/requirejs-config.js)
 
@@ -41,7 +41,7 @@ map: {
 }
 ```
 
-Now we can use our `Vendor_Module/js/complex/path/module` using `alias` in any RequireJS module or config file without needing to type the entire path. For example, in Magento, `catalogAddToCart` is mapped to `Magento_Catalog/js/catalog-add-to-cart` and can be used anywhere as a RequireJS module name. In the next example, `catalogAddToCart` is mapped to `Magento_Catalog/js/catalog-add-to-cart` only in the context of the `discountCode` module.
+Now we can use our `Vendor_Module/js/complex/path/module` using `alias` in any RequireJS module or config file without needing to type the entire path. For example, `catalogAddToCart` is mapped to `Magento_Catalog/js/catalog-add-to-cart` and can be used anywhere as a RequireJS module name. In the next example, `catalogAddToCart` is mapped to `Magento_Catalog/js/catalog-add-to-cart` only in the context of the `discountCode` module.
 
 ```javascript
 map: {
@@ -60,7 +60,7 @@ You can also use the `map` configuration to override a JS module with a custom J
 
 ### paths {#requirejs-config-paths}
 
-The `paths` configuration, similar to `map`, is used for aliasing not just any real AMD module that calls `define()`, but also any JS file (even from a URL), HTML templates, etc. Magento uses this to alias URLs and third party libraries.
+The `paths` configuration, similar to `map`, is used for aliasing not just any real AMD module that calls `define()`, but also any JS file (even from a URL), HTML templates, etc. The application uses this to alias URLs and third-party libraries.
 
 ```javascript
 paths: {
@@ -85,7 +85,7 @@ var config = {
 };
 ```
 
-For external content, resources should be whitelisted; otherwise Magento raises error notices in the browser console. See [Content Security Policies](https://developer.adobe.com/commerce/php/development/security/content-security-policies/).
+For external content, resources should be whitelisted; otherwise the application raises error notices in the browser console. See [Content Security Policies](https://developer.adobe.com/commerce/php/development/security/content-security-policies/).
 
 Consider the example of overwriting an HTML file in the adminhtml.
 In this example, the `max-length` value of the text-box in the `adminhtml` is altered. The HTML file is located at `vendor/magento/module_ui/view/base/web/templates/form/element/input.html`.
@@ -102,7 +102,7 @@ In this example, the `max-length` value of the text-box in the `adminhtml` is al
 
 1. Create an `input.html` file under `app/code/<Vendor_Name>/<Module_Name>/view/base/web/template/form/element/` and copy the contents of the `input.html` file from the `module_ui` template file.
 1. Change the maxlength value to `512`, which was originally set to `256`.
-1. Upgrade the Magento application:
+1. Upgrade the application:
 
    ```bash
    bin/magento setup:upgrade

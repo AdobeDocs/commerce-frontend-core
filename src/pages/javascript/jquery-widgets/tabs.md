@@ -4,7 +4,7 @@ subgroup: 3_Widgets
 title: Tabs widget
 ---
 
-The Magento tabs widget implements single content area with multiple panels, each associated with a header in a list. It uses the [Magento collapsible widget].
+The tabs widget implements single content area with multiple panels, each associated with a header in a list. It uses the [collapsible widget].
 
 The tabs [widget](https://glossary.magento.com/widget) source is [lib/web/mage/tabs.js].
 
@@ -13,6 +13,7 @@ The tabs [widget](https://glossary.magento.com/widget) source is [lib/web/mage/t
 For information about how to initialize a widget in a JS component or `.phtml` template, see the [Initialize JavaScript] topic.
 
 Generally the tabs widget is instantiated like following:
+
 ```javascript
 $("#element").tabs();
 ```
@@ -294,7 +295,7 @@ The result is three tabs with content, where the last tab is disabled based on i
 
 ![Tabs Widget](../../_images/javascript/tabs-widget-result.png)
 
-[Magento collapsible widget]: collapsible.md
+[collapsible widget]: collapsible.md
 [lib/web/mage/tabs.js]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/tabs.js
 [Initialize JavaScript]: ../init.md
 [collapsible]: collapsible.md

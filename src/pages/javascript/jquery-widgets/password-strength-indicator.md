@@ -4,8 +4,8 @@ subgroup: 3_Widgets
 title: PasswordStrengthIndicator widget
 ---
 
-The Magento password strength indicator [widget](https://glossary.magento.com/widget) provides immediate feedback on the validity and strength of a password while it is being typed.
-If the password is not strong enough, Magento prompts the user to choose a new password.
+The password strength indicator [widget](https://glossary.magento.com/widget) provides immediate feedback on the validity and strength of a password while it is being typed.
+If the password is not strong enough, the application prompts the user to choose a new password.
 
 The PasswordStrengthIndicator widget can be used only on the frontend area.
 

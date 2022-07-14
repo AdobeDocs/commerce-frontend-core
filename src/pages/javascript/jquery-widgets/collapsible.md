@@ -4,7 +4,7 @@ subgroup: 3_Widgets
 title: Collapsible widget
 ---
 
-The Magento collapsible widget converts a header/content pair into an accordion, where the content is collapsed or expanded on the header click.
+The collapsible widget converts a header/content pair into an accordion, where the content is collapsed or expanded on the header click.
 
 Unlike the accordion widget which is initialized for a set of title/contents pairs, the collapsible widget is initialized for one title/content pair.
 

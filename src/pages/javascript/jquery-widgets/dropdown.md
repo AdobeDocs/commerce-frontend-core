@@ -97,7 +97,7 @@ Because the dropdown widget is not formatted by default, use [LESS mixin `.lib-d
 }
 ```
 
-If there is a need to customize the button and arrow, the [Magento UI library](../../guide/css/ui-library.md) provides the ability to do this with ready-made Less mixins.
+If there is a need to customize the button and arrow, the [UI library](../../guide/css/ui-library.md) provides the ability to do this with ready-made Less mixins.
 
 [LESS mixin `.lib-dropdown()`]: https://github.com/magento/magento2/blob/2.4/lib/web/css/source/lib/_dropdowns.less
 

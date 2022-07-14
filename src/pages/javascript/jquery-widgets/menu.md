@@ -4,13 +4,13 @@ subgroup: 3_Widgets
 title: Menu widget
 ---
 
-The Magento menu widget is a customized [jQuery UI Menu widget](http://api.jqueryui.com/menu/). Magento menu extends the default functionality with the following:
+The menu widget is a customized [jQuery UI Menu widget](http://api.jqueryui.com/menu/). Menu extends the default functionality with the following:
 
 -  expanding all layers of the menu tree past the second layer
 -  declaring a responsive menu
 -  setting hover delay
 
-The Magento menu [widget](https://glossary.magento.com/widget) source is [lib/web/mage/menu.js].
+The menu [widget](https://glossary.magento.com/widget) source is [lib/web/mage/menu.js].
 
 ## Initialize the menu widget {#menu_init}
 
@@ -63,6 +63,7 @@ Sets the width of user’s window in pixels for which the menu switches between 
 **Default value**: `(max-width: 768px)`
 
 ### `expanded` {#m_expanded}
+
 Display top level navigational items in mobile menu or all items.
 
 **Type**: Boolean.
@@ -71,7 +72,7 @@ Display top level navigational items in mobile menu or all items.
 
 ## Methods and Events {#menu_methods}
 
-The Magento menu widget has all default [jQuery UI menu widget] methods and events,
+The menu widget has all default [jQuery UI menu widget] methods and events,
 plus a couple more.
 
 ### Additional available methods
