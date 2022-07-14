@@ -96,7 +96,7 @@ The Breadcrumb List Items should have the following structure:
 
 The Breadcrumb List Item Options in the [HTML](https://glossary.magento.com/html):
 
-![Breadcrumb List Item Options HTML]({{ site.baseurl }}/common/images/widget/breadcrumb-list-item-html.png)
+![Breadcrumb List Item Options HTML](../../_images/javascript/breadcrumb-list-item-html.png)
 
 ## Code sample
 
@@ -142,7 +142,7 @@ The following example shows how to initialize the Breadcrumb widget and pass bre
 
 The result is the breadcrumbs block with three items.
 
-![Breadcrumb List Item Options HTML]({{ site.baseurl }}/common/images/widget/breadcrumbs-widget-result.png)
+![Breadcrumb List Item Options HTML](../../_images/javascript/breadcrumbs-widget-result.png)
 
 <!-- Link Definitions -->
 [Initialize JavaScript]: {{page.baseurl}}/javascript-dev-guide/javascript/js_init.html

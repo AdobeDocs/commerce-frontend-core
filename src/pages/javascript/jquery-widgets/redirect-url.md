@@ -77,7 +77,7 @@ The following example shows the button and after clicking on this button you wil
 
 ## Result
 
-![RedirectUrl Button Example]({{ site.baseurl }}/common/images/widget/redirectUrl-widget-result.png)
+![RedirectUrl Button Example](../../_images/javascript/redirectUrl-widget-result.png)
 
 <!-- Link Definitions -->
 [lib/web/mage/redirect-url.js]: {{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/mage/redirect-url.js

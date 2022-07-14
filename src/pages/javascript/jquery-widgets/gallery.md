@@ -8,7 +8,7 @@ The gallery jQuery widget implements a content area with images organized into p
 
 The following picture is an illustration of image displaying on the product page using the gallery widget:
 
-![A product page with preview and thumbnails]({{site.baseurl}}/common/images/gallery_scr21.png)
+![A product page with preview and thumbnails](../../_images/javascript/gallery_scr21.png)
 
 In addition, the [magnifier widget]({{ page.baseurl }}/javascript-dev-guide/widgets/widget_gallery_mg.html) can be used to demonstrate images in 100% scaled size in separate dedicated layer, and the gallery fullscreen mode can be used to navigate the entire full sized photo.
 

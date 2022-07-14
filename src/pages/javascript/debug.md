@@ -34,11 +34,11 @@ As we discussed in the preceding section, you use browser debugging tools to def
 
 Using the Inspect Element feature of the browser, define that the menu section `id` is `store.menu`:
 
-![Using the Inspect Element define the id]
+![Using the Inspect Element define the id](../_images/javascript/fdg_js_debug1.png)
 
 Search the page source for `store.menu` (illustration follows):
 
-![Search the page source for the store.menu string]
+![Search the page source for the store.menu string](../_images/javascript/fdg_js_debug2.png)
 
 We can see that there\'s a `data-mage-init` attribute in the scope of the `<div id= "store.menu"></div>`
 
@@ -62,8 +62,7 @@ This means we should check for `mage/menu.js` the following locations, in the fo
 
 There is no `mage/menu.js` in the current theme or parent theme JS files, so the source file for menu component used for the main navigation menu is [`lib/web/mage/menu.js`]
 
-[Using the Inspect Element define the id]: {{site.baseurl}}/common/images/fdg_js_debug1.png
-[Search the page source for the store.menu string]: {{site.baseurl}}/common/images/fdg_js_debug2.png
+
 [assets fallback rules]: {{page.baseurl}}/frontend-dev-guide/themes/theme-inherit.html#theme-inherit-static
 [`lib/web/mage/menu.js`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/mage/menu.js
 [JavaScript initialization]: {{site.baseurl}}/videos/fundamentals/add-a-javascript-module/

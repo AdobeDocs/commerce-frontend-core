@@ -214,7 +214,7 @@ This example shows the *Open Customer Login* link, and after clicking on this li
 
 As a result, we see the *Open Customer Login* link and after clicking on it, the *Customer Login* page is opened in the popup.
 
-![PopupWindow Example]({{ site.baseurl }}/common/images/widget/popupWindow-widget-result.png)
+![PopupWindow Example](../../_images/javascript/popupWindow-widget-result.png)
 
 <!-- Link Definitions -->
 [lib/web/mage/popup-window.js]: {{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/mage/popup-window.js

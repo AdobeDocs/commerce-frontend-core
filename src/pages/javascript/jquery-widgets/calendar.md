@@ -100,15 +100,15 @@ The result is a calendar and a icon(_Click Here_) that opens the calendar.
 
 #### Calendar field initial state
 
-![Calendar Widget]({{ site.baseurl }}/common/images/widget/calendar-widget-initial.png)
+![Calendar Widget](../../_images/javascript/calendar-widget-initial.png)
 
 #### Calendar field opened state
 
-![Calendar Widget]({{ site.baseurl }}/common/images/widget/calendar-widget-open.png)
+![Calendar Widget](../../_images/javascript/calendar-widget-open.png)
 
 #### Calendar field date chosen
 
-![Calendar Widget]({{ site.baseurl }}/common/images/widget/calendar-widget-result.png)
+![Calendar Widget](../../_images/javascript/calendar-widget-result.png)
 
 [Datepicker Widget]: http://api.jQueryui.com/datepicker/
 [global configuration]: #fedg_calendar_config

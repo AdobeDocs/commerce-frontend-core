@@ -344,8 +344,8 @@ This example shows the row builder container, which adds a new row when you clic
 
 As a result, we see the RowBuilder widget example with 5 rows as max.
 
-![RowBuilder widget Example]({{ site.baseurl }}/common/images/widget/row-builder-widget-result.png)
-![RowBuilder widget with warning message Example]({{ site.baseurl }}/common/images/widget/row-builder-widget-warning-message-result.png)
+![RowBuilder widget Example](../../_images/javascript/row-builder-widget-result.png)
+![RowBuilder widget with warning message Example](../../_images/javascript/row-builder-widget-warning-message-result.png)
 
 <!-- Link Definitions -->
 [lib/web/mage/row-builder.js]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Theme/view/frontend/web/js/row-builder.js

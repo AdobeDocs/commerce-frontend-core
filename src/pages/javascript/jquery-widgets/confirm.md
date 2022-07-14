@@ -259,7 +259,7 @@ require([
 
 ## Result
 
-![Confirmation Widget]({{ site.baseurl }}/common/images/widget/confirm-widget-result.png)
+![Confirmation Widget](../../_images/javascript/confirm-widget-result.png)
 
 [Magento modal widget]: {{page.baseurl}}/javascript-dev-guide/widgets/widget_modal.html
 [`<Magento_Ui_module_dir>/view/base/web/js/modal/confirm.js`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/modal/confirm.js

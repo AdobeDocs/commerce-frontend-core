@@ -242,7 +242,7 @@ The following example shows a PHTML file using the script and custom CSS classes
 
 The result is a dropdown dialog and a button (_Click Here_) that opens the dialog.
 
-![DropdownDialog Widget]({{ site.baseurl }}/common/images/widget/dropdown-dialog-widget-result.png)
+![DropdownDialog Widget](../../_images/javascript/dropdown-dialog-widget-result.png)
 
 [lib/web/mage/dropdown.js]: {{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/mage/dropdown.js
 [Initialize JavaScript]: {{ page.baseurl }}/javascript-dev-guide/javascript/js_init.html

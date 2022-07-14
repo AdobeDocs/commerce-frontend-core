@@ -117,8 +117,8 @@ require([
 
 As a result, we see the list of sortable items that can be sorted via *Up*, *Down* buttons or via dragging.
 
-![Sortable widget initial view Example]({{ site.baseurl }}/common/images/widget/sortable-widget-initial-result.png)
-![Sortable widget sorted view Example]({{ site.baseurl }}/common/images/widget/sortable-widget-sorted-result.png)
+![Sortable widget initial view Example](../../_images/javascript/sortable-widget-initial-result.png)
+![Sortable widget sorted view Example](../../_images/javascript/sortable-widget-sorted-result.png)
 
 <!-- Link Definitions -->
 

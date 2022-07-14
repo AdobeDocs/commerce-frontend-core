@@ -304,7 +304,7 @@ The prompt widget implements the following events:
 
 ## Result
 
-![Prompt Widget]({{ site.baseurl }}/common/images/widget/prompt-widget-result.png)
+![Prompt Widget](../../_images/javascript/prompt-widget-result.png)
 
 [Magento modal widget]: {{page.baseurl}}/javascript-dev-guide/widgets/widget_modal.html
 [`<Magento_Ui_module_dir>/view/base/web/js/modal/prompt.js`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/modal/prompt.js

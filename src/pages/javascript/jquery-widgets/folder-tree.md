@@ -13,7 +13,7 @@ The dynamic hierarchical allows us to easily update the folders via [Ajax URL](#
 
 For example: in the Wysiwyg editor, the FolderTree widget is used to represents the structure of media folders on the server. After clicking on one of the folders, an admin is able to see media files within the folder.
 
-![Example of Media Folder Tree]({{ site.baseurl }}/common/images/widget/folder-tree-widget-media-example.png)
+![Example of Media Folder Tree](../../_images/javascript/folder-tree-widget-media-example.png)
 
 The FolderTree widget can be used only in the [adminhtml](https://glossary.magento.com/adminhtml) area.
 
@@ -150,7 +150,7 @@ The following example shows the initialization of FolderTree widget.
 
 ### Result
 
-![FolderTree widget example]({{ site.baseurl }}/common/images/widget/folder-tree-widget.png)
+![FolderTree widget example](../../_images/javascript/folder-tree-widget.png)
 
 <!-- Link Definitions -->
 [`<Magento_Cms_module_dir>/view/adminhtml/web/js/folder-tree.js`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Cms/view/adminhtml/web/js/folder-tree.js

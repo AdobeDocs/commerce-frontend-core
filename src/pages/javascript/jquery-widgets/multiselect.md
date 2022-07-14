@@ -256,7 +256,7 @@ The following example shows the multiselect field with search bar and **Add new 
 As a result, we see the multiselect field with search bar and **Add new value** button.
 You can now search for an option in the search bar and the **Add new value** button allows you to add a new option to the multiselect feature.
 
-![Multiselect Widget Example]({{ site.baseurl }}/common/images/widget/multiselect-widget-result.png)
+![Multiselect Widget Example](../../_images/javascript/multiselect-widget-result.png)
 
 <!-- Link Definitions -->
 [lib/web/mage/multiselect.js]: {{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/mage/multiselect.js

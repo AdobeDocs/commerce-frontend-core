@@ -208,4 +208,4 @@ The following example shows how to initialize the dropdown widget.
 
 The result is a custom select dropdown with custom content as options.
 
-![Dropdown Widget]({{ site.baseurl }}/common/images/widget/dropdown-widget-result.png)
+![Dropdown Widget](../../_images/javascript/dropdown-widget-result.png)

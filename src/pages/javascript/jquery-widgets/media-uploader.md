@@ -129,7 +129,7 @@ The following example shows media multi-uploader.
 
 As a result we see the media multi-uploader which allows uploading the files with the next extensions: **gif**, **jpg**, **jpeg**, **png**
 
-![Multiselect Widget Example]({{ site.baseurl }}/common/images/widget/media-uploader-widget-result.png)
+![Multiselect Widget Example](../../_images/javascript/media-uploader-widget-result.png)
 
 <!-- Link Definitions -->
 [`<Magento_Backend_module_dir>/view/adminhtml/web/js/media-uploader.js`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Backend/view/adminhtml/web/js/media-uploader.js

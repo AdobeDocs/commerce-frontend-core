@@ -137,8 +137,8 @@ The following example shows how to initialize the ToggleAdvanced widget.
 
 The result is two sections with initial content and toggled content.
 
-![Toggle Widget Initial Result]({{ site.baseurl }}/common/images/widget/toggle-widget-initial-result.png)
-![Toggle Widget Toggled Result]({{ site.baseurl }}/common/images/widget/toggle-widget-toggled-result.png)
+![Toggle Widget Initial Result](../../_images/javascript/toggle-widget-initial-result.png)
+![Toggle Widget Toggled Result](../../_images/javascript/toggle-widget-toggled-result.png)
 
 <!-- Link Definitions -->
 [lib/web/mage/toggle.js]: {{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/mage/toggle.js

@@ -119,4 +119,4 @@ beginning of the page.
 
 ## Result
 
-![Sticky Widget in action]({{ site.baseurl }}/common/images/widget/sticky-widget-result.gif)
+![Sticky Widget in action](../../_images/javascript/sticky-widget-result.gif)

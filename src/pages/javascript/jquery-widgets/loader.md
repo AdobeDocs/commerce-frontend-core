@@ -169,7 +169,7 @@ require(['jquery', 'loader', 'domReady!'], function ($) {
 
 The loader shows when a `processStart` event triggers for the `#loader-example` element.
 
-![Loader Widget Example]({{ site.baseurl }}/common/images/widget/loader-widget-result.png)
+![Loader Widget Example](../../_images/javascript/loader-widget-result.png)
 
 [lib/web/mage/loader.js]: {{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/mage/loader.js
 [Initialize JavaScript]: {{page.baseurl}}/javascript-dev-guide/javascript/js_init.html

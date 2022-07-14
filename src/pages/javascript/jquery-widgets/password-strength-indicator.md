@@ -143,7 +143,7 @@ The following example shows how to initialize the password strength indicator wi
 
 The result is an indication of the strength of the user's password.
 
-![Password Strength Indicator Widget]({{ site.baseurl }}/common/images/widget/password-strength-indicator-widget-result.png)
+![Password Strength Indicator Widget](../../_images/javascript/password-strength-indicator-widget-result.png)
 
 <!-- Link Definitions -->
 [`<Magento_Customer_module_dir>/view/frontend/web/js/password-strength-indicator.js`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Customer/view/frontend/web/js/password-strength-indicator.js

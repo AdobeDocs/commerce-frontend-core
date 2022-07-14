@@ -265,7 +265,7 @@ The following example shows how to initialize the accordion widget and pass opti
 
 The result is three sections with separate swapped content.
 
-![Accordion Widget]({{ site.baseurl }}/common/images/widget/accordion-widget-result.png)
+![Accordion Widget](../../_images/javascript/accordion-widget-result.png)
 
 [Magento Tabs widget]: {{page.baseurl}}/javascript-dev-guide/widgets/widget_tabs.html
 [lib/web/mage/accordion.js]: {{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/mage/accordion.js

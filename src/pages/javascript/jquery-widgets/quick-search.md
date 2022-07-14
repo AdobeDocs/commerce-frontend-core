@@ -175,7 +175,7 @@ This example shows how to initialize the quickSearch widget and pass options dur
 
 The result is an input with autocomplete results, where the results will be returned by the `url` option that was provided on initialization, as shown here:
 
-![Quick Search Widget]({{ site.baseurl }}/common/images/widget/quick-search-result.png)
+![Quick Search Widget](../../_images/javascript/quick-search-result.png)
 
 [`<Magento_Search_module_dir>/view/frontend/web/js/form-mini.js`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Search/view/frontend/web/js/form-mini.js
 [Initialize JavaScript]: {{page.baseurl}}/javascript-dev-guide/javascript/js_init.html

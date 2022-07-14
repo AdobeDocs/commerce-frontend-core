@@ -430,7 +430,7 @@ The following example shows a PHTML file using the script:
 
 The result is a modal and a button (_Click Here_) that opens the modal.
 
-![Modal Widget]({{ site.baseurl }}/common/images/widget/modal-widget-result.png)
+![Modal Widget](../../_images/javascript/modal-widget-result.png)
 
 [`<Magento_Ui_module_dir>/view/base/web/js/modal/modal.js`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/modal/modal.js
 [`<Magento_Ui_module_dir>/view/base/web/templates/modal/modal-popup.html`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/modal/modal-popup.html

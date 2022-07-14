@@ -202,7 +202,7 @@ We should now be able to use the Slick library, for example, on any list that we
 </script>
 ```
 
-![Slick Slider]({{ site.baseurl }}/common/images/js/slick-slider-result.png)
+![Slick Slider](../_images/javascript/slick-slider-result.png)
 
 ### Mapping JS resources {#m2devgde-js-resources-mapping}
 

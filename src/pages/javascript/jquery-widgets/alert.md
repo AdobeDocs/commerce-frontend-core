@@ -248,7 +248,7 @@ require([
 
 ## Result
 
-![Alert Widget]({{ site.baseurl }}/common/images/widget/alert-widget-result.png)
+![Alert Widget](../../_images/javascript/alert-widget-result.png)
 
 [Magento confirmation widget]: {{ page.baseurl }}/javascript-dev-guide/widgets/widget_confirm.html
 [Magento modal widget]: {{ page.baseurl }}/javascript-dev-guide/widgets/widget_modal.html

@@ -23,14 +23,14 @@ ExampleCorp needs to define how the message is output. To do this, they take the
 
 1. Open a product page.
 1. Select to view the page source.
-1. Search for the "Click on image to view it full sized" string. The illustration of the search result follows: ![Page source search result]
+1. Search for the "Click on image to view it full sized" string. The illustration of the search result follows: ![Page source search result](../_images/javascript/fdg_js_pr1.png)
 1. View that it is output by [`gallery.js`].
 
 We see that the script which ExampleCorp needs to alter is `gallery.js`.
 
 To be able to extend `gallery.js`, ExampleCorp needs to know the path to it. To get this info, they refer to `requirejs-config.js`, which [can be reached from the page source view or from the file system]. According to the configuration, the path for `gallery` is `mage/gallery`. The illustration follows:
 
-![RequireJS config file]
+![RequireJS config file](../_images/javascript/fdg_pr_2.png)
 
 ### Step 2: Add the custom widget extending the gallery widget {#add_code1}
 
@@ -131,10 +131,8 @@ Recommended reading
 
 [Use custom JavaScript]
 
-[Page source search result]: {{site.baseurl}}/common/images/fdg_js_pr1.png
 [`gallery.js`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/mage/gallery/gallery.js
 [can be reached from the page source view or from the file system]: {{page.baseurl}}/javascript-dev-guide/javascript/custom_js.html#extend_js
-[RequireJS config file]: {{site.baseurl}}/common/images/fdg_pr_2.png
 [jCarousel widget]: http://sorgalla.com/jcarousel/
 [`gallery.js`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/mage/gallery/gallery.js
 [Use custom JavaScript]: {{page.baseurl}}/javascript-dev-guide/javascript/custom_js.html

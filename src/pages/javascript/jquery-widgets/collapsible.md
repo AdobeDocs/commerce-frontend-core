@@ -574,8 +574,8 @@ The following example shows how to initialize the collapsible widget and pass op
 
 The result is two sections with separate collapsible content.
 
-![Collapsible Widget]({{ site.baseurl }}/common/images/widget/collapsible-widget-result-initial.png)
-![Collapsible Widget]({{ site.baseurl }}/common/images/widget/collapsible-widget-result-animate.png)
+![Collapsible Widget](../../_images/javascript/collapsible-widget-result-initial.png)
+![Collapsible Widget](../../_images/javascript/collapsible-widget-result-animate.png)
 
 [`collateral`]: #fedg_collaps_collateral
 [lib/web/mage/collapsible.js]: {{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/mage/collapsible.js
