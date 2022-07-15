@@ -1,8 +1,9 @@
 ---
-group: javascript-developer-guide
-subgroup: 3_Widgets
-title: Modal widget
+title: Modal widget | Commerce Frontend Development
+description:
 ---
+
+# Modal widget
 
 The modal widget implements a secondary window that opens on top of the main window. It contains the overlay and modal content. The modal widget configuration enables the following:
 
@@ -19,7 +20,7 @@ The widget uses the following templates:
 
 The design patterns for the modal pop-up windows in the Admin are described in the [Admin Pattern Library, the Slide-out Panels, Modal Windows, and Overlays topic.]
 
-## Initialize the modal widget
+## Initialize
 
 To initialize the widget in your script, use the following general notation:
 

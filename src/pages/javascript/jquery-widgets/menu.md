@@ -1,8 +1,9 @@
 ---
-group: javascript-developer-guide
-subgroup: 3_Widgets
-title: Menu widget
+title: Menu widget | Commerce Frontend Development
+description:
 ---
+
+# Menu widget
 
 The menu widget is a customized [jQuery UI Menu widget](http://api.jqueryui.com/menu/). Menu extends the default functionality with the following:
 
@@ -12,7 +13,7 @@ The menu widget is a customized [jQuery UI Menu widget](http://api.jqueryui.com/
 
 The menu [widget](https://glossary.magento.com/widget) source is [lib/web/mage/menu.js].
 
-## Initialize the menu widget
+## Initialize
 
 For information about how to initialize a widget in a JS component or `.phtml` template, see the [Initialize JavaScript] topic.
 

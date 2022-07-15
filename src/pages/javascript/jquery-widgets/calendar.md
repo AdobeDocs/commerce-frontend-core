@@ -1,8 +1,9 @@
 ---
-group: javascript-developer-guide
-subgroup: 3_Widgets
-title: Calendar widget
+title: Calendar widget | Commerce Frontend Development 
+description:
 ---
+
+# Calendar widget
 
 The Calendar widget is a customized jQuery [Datepicker Widget] that enables selecting a data using a pop-up or an in-line calendar. Calendar is also responsible for:
 
@@ -12,11 +13,11 @@ The Calendar widget is a customized jQuery [Datepicker Widget] that enables sele
 -  Making the calendar initialization easier.
 -  The Calendar widget source is [lib/web/mage/calendar.js].
 
-## Initialize the calendar widget
+## Initialize
 
 For information about how to initialize a widget in a JS component or `.phtml` template, see the [Initialize JavaScript] topic.
 
-## Configure the calendar widget
+## Configure
 
 The calendar widget's *global configuration* is a set of default options that are applied when each calendar instance is initialized. It includes the following:
 
@@ -41,7 +42,7 @@ require([
 });
 ```
 
-## Validate the calendar widget
+## Validate
 
 To validate the calendar widget, specify the required **dateFormat** parameter:
 

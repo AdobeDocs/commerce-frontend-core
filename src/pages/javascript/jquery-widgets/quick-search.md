@@ -1,16 +1,15 @@
 ---
-group: javascript-developer-guide
-subgroup: 3_Widgets
-title: QuickSearch widget
-functional_areas:
-  - Search
+title: QuickSearch widget | Commerce Frontend Development
+description:
 ---
+
+# QuickSearch widget
 
 The quickSearch [widget](https://glossary.magento.com/widget) is an autocomplete widget that populates a list of suggested search terms for a given field.
 
 The suggest widget source is [`<Magento_Search_module_dir>/view/frontend/web/js/form-mini.js`].
 
-## Initialize the quickSearch widget
+## Initialize
 
 For information about how to initialize a widget in a JS component or `.phtml` template, see the [Initialize JavaScript] topic.
 

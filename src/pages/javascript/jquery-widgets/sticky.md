@@ -1,13 +1,9 @@
 ---
-group: javascript-developer-guide
-subgroup: 3_Widgets
-title: Sticky widget
-functional_areas:
- - Frontend
- - Theme
+title: Sticky widget | Commerce Frontend Development
+description:
 ---
 
-## Overview
+# Sticky widget
 
 The sticky widget allows developers to fix a page element on the screen in a specific position while a user scrolls the page.
 
@@ -18,7 +14,7 @@ Widget source file is [lib/web/mage/sticky.js](https://github.com/magento/magent
 -  [Bundle](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Bundle/view/frontend/templates/catalog/product/view/summary.phtml)
 -  [Blank theme](https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/blank/Magento_Theme/web/js/theme.js)
 
-## Initialize the sticky widget
+## Initialize
 
 The sticky widget can be initialized as described in [JavaScript initialization](../init.md).
 

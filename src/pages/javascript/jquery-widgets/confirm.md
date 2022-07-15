@@ -1,8 +1,9 @@
 ---
-group: javascript-developer-guide
-subgroup: 3_Widgets
-title: Confirmation widget
+title: Confirmation widget | Commerce Frontend Development 
+description:
 ---
+
+# Confirmation widget
 
 The confirmation widget implements a modal pop-up window with the cancel and confirmation button.It is an [extension](https://glossary.magento.com/extension) of the [modal widget].
 
@@ -10,7 +11,7 @@ The confirmation [widget](https://glossary.magento.com/widget) source is [`<Mage
 
 The widget can be used for implementing confirmation windows for both, Admin and [storefront](https://glossary.magento.com/storefront). The design patterns for the modal pop-up windows in the Admin are described in the [Admin Pattern Library, the Slide-out Panels, Modal Windows, and Overlays topic.]
 
-## Initialize the confirmation widget
+## Initialize
 
 The confirmation widget can be initialized with or without binding to a certain element.
 

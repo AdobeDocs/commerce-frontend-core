@@ -1,9 +1,11 @@
 ---
-group: javascript-developer-guide
-title: MediaUploader widget
+title: MediaUploader widget | Commerce Frontend Development
+description:
 contributor_name: Atwix
 contributor_link: https://www.atwix.com/
 ---
+
+# MediUploader widget
 
 This [widget](https://glossary.magento.com/widget/) allows multiple media files uploading with Ajax.
 
@@ -11,7 +13,7 @@ The MediaUploader widget source is the [`<Magento_Backend_module_dir>/view/admin
 
 The MediaUploader widget can be used only on the [adminhtml](https://glossary.magento.com/adminhtml) area.
 
-## Initialize the MediaUploader widget
+## Initialize
 
 For information about how to initialize a widget in a JS component or `.phtml` template, see the [Initialize JavaScript][] topic.
 

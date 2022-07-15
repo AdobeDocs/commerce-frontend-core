@@ -8,7 +8,7 @@ module.exports = [
       path: "/javascript/conventions/",
     },
     {
-      title: "JS resources in Commerce",
+      title: "JavaScript resources in Commerce",
       path: "/javascript/resources/",
     },
     {
@@ -16,7 +16,7 @@ module.exports = [
       path: "/javascript/requirejs/",
     },
     {
-      title: "Call and initialize JS",
+      title: "Call and initialize",
       path: "/javascript/init/",
     },
     {
@@ -24,15 +24,15 @@ module.exports = [
       path: "/javascript/frontend-product-repository/",
     },
     {
-      title: "Custom JS",
+      title: "Custom JavaScript",
       path: "/javascript/custom/",
     },
     {
-      title: "JS customization tutorial",
+      title: "Customization tutorial",
       path: "/javascript/practice/",
     },
     {
-      title: "Locate JS components",
+      title: "Locate components",
       path: "/javascript/debug/",
     },
     {

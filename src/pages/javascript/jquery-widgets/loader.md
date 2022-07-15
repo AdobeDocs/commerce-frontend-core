@@ -1,14 +1,15 @@
 ---
-group: javascript-developer-guide
-subgroup: 3_Widgets
-title: Loader widget
+title: Loader widget | Commerce Frontend Development
+description:
 ---
+
+# Loader widget
 
 The Loader [widget](https://glossary.magento.com/widget) blocks page content (all content or a part of it). Its intended use is blocking content when an Ajax request is being sent, but it can be initialized for non-Ajax tasks as well.
 
 The Loader widget source is [lib/web/mage/loader.js].
 
-## Initialize the loader widget
+## Initialize
 
 For information about how to initialize a widget in a JS component or `.phtml` template, see the [Initialize JavaScript][] topic.
 

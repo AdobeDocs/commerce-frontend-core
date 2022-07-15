@@ -1,11 +1,9 @@
 ---
-group: javascript-developer-guide
-subgroup: 3_Widgets
-title: Dropdown widget
-functional_areas:
- - Frontend
- - Theme
+title: Dropdown widget | Commerce Frontend Development
+description:
 ---
+
+# Dropdown widget
 
 Use the dropdown widget to display custom content on the storefront.
 
@@ -101,7 +99,7 @@ If there is a need to customize the button and arrow, the [UI library](../../gui
 
 [LESS mixin `.lib-dropdown()`]: https://github.com/magento/magento2/blob/2.4/lib/web/css/source/lib/_dropdowns.less
 
-## Initialize the dropdown widget
+## Initialize
 
 The dropdown widget is initialized as described in [JavaScript initialization](../init.md).
 

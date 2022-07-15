@@ -1,8 +1,9 @@
 ---
-group: javascript-developer-guide
-subgroup: 3_Widgets
-title: Magnifier widget
+title: Magnifier widget | Commerce Frontend Development
+description:
 ---
+
+# Magnifier widget
 
 Magnifier is a [widget](https://glossary.magento.com/widget) that allows displaying images in 100% scaled size in a separate dedicated layer.
 It is used by the [gallery](gallery.md) widget for zooming the product images on product pages. It must be enabled in your local theme `view.xml` configuration file.
@@ -11,7 +12,7 @@ It is used by the [gallery](gallery.md) widget for zooming the product images on
 
 The Magnifier widget source is located in [lib/web/magnifier/magnify.js](https://github.com/magento/magento2/blob/2.4/lib/web/magnifier/magnify.js).
 
-## Initialize magnifier
+## Initialize
 
 The magnifier widget is initialized as described in [JavaScript initialization](../init.md#insert-a-js-component-in-a-phtml-template).
 The following is the example of gallery initialization with the magnifier enabled:
@@ -99,9 +100,9 @@ Possible values:
 *  `outside`
 *  `inside`
 
-## Enable Magnifier and configure options in `view.xml`
+## Enable and configure
 
- `view.xml` is a theme configuration file that enables the Magnifier widget. The file is conventionally located in the `<theme_dir>/etc/` directory.
+`view.xml` is a theme configuration file that enables the Magnifier widget. The file is conventionally located in the `<theme_dir>/etc/` directory.
 
 The enabling option is:
 

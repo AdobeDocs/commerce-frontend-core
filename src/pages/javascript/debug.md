@@ -1,16 +1,13 @@
 ---
-group: javascript-developer-guide
-subgroup: 1_Javascript
-title: Locate JavaScript components
-functional_areas:
-  - Testing
+title: Debug JavaScript Components | Commerce Frontend Development 
+description:
 ---
 
-## Overview
+# Debug JavaScript components
 
 This topic discusses how to define which [JavaScript](https://glossary.magento.com/javascript) components and widgets are used on a particular store page.
 
-## Locate JS components: walkthrough
+## Locate components
 
 To locate scripts used for a certain element:
 
@@ -27,7 +24,7 @@ To locate scripts used for a certain element:
       -  If the module context is not specified, the path is relative to `<theme_dir>/web` (current theme). If the file is not found there, according to the assets fallback, it is searched for in the parent theme `web` directory, and then the `lib/web`(library) directory. For example, `knockoutjs/knockout` [script name](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Theme/view/base/requirejs-config.js#L10) resolves to `lib/web/knockoutjs/knockout.js`.
       -  If the module context is specified, the path is relative to `<theme_dir>/<Namespace>_<Module>/web` (current theme module). If the file is not found there, according to the assets fallback, it is searched for in the same location in the parent theme files, and then in the `<module_dir>` (module) directory. For example, `Magento_Catalog/js/list` [script name](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Catalog/view/frontend/requirejs-config.js#L9) resolves to `Magento_Catalog/view/frontend/web/js/list.js`.
 
-## Locate JS component: example
+### Example
 
 As we discussed in the preceding section, you use browser debugging tools to define which JavaScript component or [widget](https://glossary.magento.com/widget) is used for an element. An example follows. To find what JS components are used for displaying the main navigation menu in the Luma theme:
 

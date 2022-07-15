@@ -1,13 +1,15 @@
 ---
-group: javascript-developer-guide
-title: Use custom JavaScript
+title: Custom JavaScript | Commerce Frontend Development 
+description:
 ---
+
+# Custom JavaScript
 
 This topic discusses how to use custom [JavaScript](https://glossary.magento.com/javascript) components with the components provided by the application or custom replacement implementations.
 
 We strongly recommend that you do not change the source code of default components and widgets. All customizations must be implemented in custom modules or themes.
 
-## Add a custom JS component
+## Add a custom component
 
 To add a custom JS component (module), take the following steps:
 
@@ -21,7 +23,7 @@ To add a custom JS component (module), take the following steps:
    -  Module within your theme: `<theme_dir>/<module_dir>`
    -  Your module (depending on the needed area - **base**, **frontend**, **adminhtml**): `<module_dir>/view/<area>`
 
-## Replace a default JS component
+## Replace a default component
 
 To use a custom implementation of an existing JS component:
 
@@ -65,7 +67,7 @@ Place your `requirejs-config.js` file in one of the following directories (accor
 
 This way, your custom JS component is used instead of the [component](https://glossary.magento.com/magento-component) in all entries all over the [frontend](https://glossary.magento.com/frontend) area.
 
-## Extend a default JS component
+## Extend a default component
 
 You can add a custom JS component/widget, which will extend a default component/widget.
 

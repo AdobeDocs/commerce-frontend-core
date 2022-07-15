@@ -1,16 +1,17 @@
 ---
-group: javascript-developer-guide
-subgroup: 3_Widgets
-title: PopupWindow widget
+title: PopupWindow widget | Commerce Frontend Development
+description:
 contributor_name: Atwix
 contributor_link: https://www.atwix.com/
 ---
+
+# PopupWindow widget
 
 The PopupWindow [widget](https://glossary.magento.com/widget/) allows you to open a popup window with content from any URL.
 
 The PopupWindow widget source is [lib/web/mage/popup-window.js][].
 
-## Initialize the PopupWindow widget
+## Initialize
 
 For information about how to initialize a widget in a JS component or `.phtml` template, see the [Initialize JavaScript][] topic.
 

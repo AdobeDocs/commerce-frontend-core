@@ -1,16 +1,17 @@
 ---
-group: javascript-developer-guide
-subgroup: 3_Widgets
-title: TrimInput widget
+title: TrimInput widget | Commerce Frontend Development
+description:
 contributor_name: Atwix
 contributor_link: https://www.atwix.com/
 ---
+
+# TrimInput widget
 
 The TrimInput [widget](https://glossary.magento.com/widget) trims  whitespace in an input field.
 
 The TrimInput widget source is [lib/web/mage/trim-input.js][].
 
-## Initialize the TrimInput widget
+## Initialize
 
 For information about how to initialize a widget in a JS component or `.phtml` template, see the [Initialize JavaScript][] topic.
 

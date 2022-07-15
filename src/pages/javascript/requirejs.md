@@ -1,15 +1,17 @@
 ---
-group: javascript-developer-guide
-title: RequireJS in Commerce
+title: RequireJS | Commerce Frontend Development 
+description:
 contributor_name: Adarsh Manickam
 contributor_link: https://github.com/drpayyne
 ---
+
+# RequireJS in Commerce
 
 This topic describes general concepts of how the [RequireJS library](http://requirejs.org) is used in the application with examples. Please refer to official RequireJS documentation for in-depth explanation.
 
 RequireJS is a JavaScript file and module loader. It improves perceived page load times because it allows JavaScript to load in the background. In particular, it enables asynchronous JavaScript loading.
 
-## RequireJS configuration
+## Configuration
 
 All configuration is done in the `requirejs-config.js` file. It has a single root object `config` which contains the configuration options described below. All the configuration settings are optional and are used only when required. The following snippet is a sample `requirejs-config.js` describing the structure of the file. Example [`requirejs-config.js` file](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Theme/view/base/requirejs-config.js)
 

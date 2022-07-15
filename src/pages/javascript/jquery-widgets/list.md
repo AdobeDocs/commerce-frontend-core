@@ -1,8 +1,9 @@
 ---
-group: javascript-developer-guide
-subgroup: 3_Widgets
-title: List widget
+title: List widget | Commerce Frontend Development
+description:
 ---
+
+# List widget
 
 <InlineAlert variant="warning" slots="text" />
 
@@ -13,7 +14,7 @@ The content can be moved using buttons and links.
 
 The list [widget](https://glossary.magento.com/widget) source file is [lib/web/mage/list.js](https://github.com/magento/magento2/blob/2.4/lib/web/mage/list.js).
 
-## Initialize the list widget {#quicksearch_init}
+## Initialize
 
 For information about how to initialize a widget in a JS component or `.phtml` template, see the [Initialize JavaScript](init.md) topic.
 

@@ -1,9 +1,11 @@
 ---
-group: javascript-developer-guide
-title: Breadcrumbs widget
+title: Breadcrumbs widget | Commerce Frontend Development 
+description:
 contributor_name: Atwix
 contributor_link: https://www.atwix.com/
 ---
+
+# Breadcrumbs widget
 
 The Breadcrumbs [widget](https://glossary.magento.com/widget/) builds a list of links that show users where they are on the site relative to other pages.
 
@@ -13,7 +15,7 @@ The widget source file is [`<Magento_Theme_module_dir>/view/frontend/web/js/view
 
 The Breadcrumbs widget template source file is [`<Magento_Theme_module_dir>/view/frontend/web/templates/breadcrumbs.html`][].
 
-## Initialize the Breadcrumbs widget
+## Initialize
 
 For information about how to initialize a widget in a JS component or `.phtml` template, see the [Initialize JavaScript][] topic.
 
@@ -83,7 +85,7 @@ The following example shows how to add a new breadcrumb item to the breadcrumb l
 </script>
 ```
 
-### Breadcrumb List Item Options
+### Options
 
 The Breadcrumb List Items should have the following structure:
 

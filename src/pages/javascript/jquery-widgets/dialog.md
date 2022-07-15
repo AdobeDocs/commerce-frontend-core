@@ -1,8 +1,9 @@
 ---
-group: javascript-developer-guide
-subgroup: 3_Widgets
-title: DropdownDialog widget
+title: DropdownDialog widget | Commerce Frontend Development 
+description:
 ---
+
+# DropdownDialog widget
 
 The dropdownDialog [widget](https://glossary.magento.com/widget) is a customization of the standard [jQuery UI Dialog](http://api.jqueryui.com/dialog/). As extra functionality it implements the following:
 
@@ -12,7 +13,7 @@ The dropdownDialog [widget](https://glossary.magento.com/widget) is a customizat
 
 The dropdownDialog widget source is located in [lib/web/mage/dropdown.js].
 
-## Initialize the dropdownDialog widget
+## Initialize
 
 For information about how to initialize a widget in a JS component or `.phtml` template, see the [Initialize JavaScript] topic.
 

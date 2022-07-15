@@ -1,10 +1,11 @@
 ---
-group: javascript-developer-guide
-subgroup: 3_Widgets
-title: RemainingCharacters widget
+title: RemainingCharacters widget | Commerce Frontend Development
+description:
 contributor_name: Atwix
 contributor_link: https://www.atwix.com/
 ---
+
+# RemainingCharacters widget
 
 The RemainingCharacters [widget](https://glossary.magento.com/widget/) allows you to display the remaining characters count for a text field.
 
@@ -12,7 +13,7 @@ The RemainingCharacters widget can be used only in the frontend area.
 
 The RemainingCharacters widget source is [`<Magento_Catalog_module_dir>/view/frontend/web/js/product/remaining-characters.js`][].
 
-## Initialize the RemainingCharacters widget
+## Initialize
 
 For information about how to initialize a widget in a JS component or `.phtml` template, see the [Initialize JavaScript][] topic.
 

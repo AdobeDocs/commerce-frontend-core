@@ -1,7 +1,9 @@
 ---
-group: javascript-developer-guide
-title: Customizing JavaScript illustration
+title: JavaScript Customization Tutorial | Commerce Frontend Development 
+description:
 ---
+
+# JavaScript customization tutorial
 
 This topic features a step-by-step illustration of how to customize a [jQuery](https://glossary.magento.com/jquery) [widget](https://glossary.magento.com/widget) and how to use a custom widget instead of the default.
 

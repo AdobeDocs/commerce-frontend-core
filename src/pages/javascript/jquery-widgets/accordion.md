@@ -1,8 +1,9 @@
 ---
-group: javascript-developer-guide
-subgroup: 3_Widgets
-title: Accordion widget
+title: Accordion widget | Commerce Frontend Development 
+description:
 ---
+
+# Accordion widget
 
 The accordion widget is an [extension](https://glossary.magento.com/extension) of the [tabs widget].
 

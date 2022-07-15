@@ -1,10 +1,9 @@
 ---
-group: javascript-developer-guide
-subgroup: 1_Javascript
-title: Calling and initializing JavaScript
+title: Call and Initialize JavaScript | Commerce Frontend Development 
+description:
 ---
 
-## Overview
+# Call and initialize JavaScript
 
 This topic describes different ways to call and initialize JavaScript in Adobe Commerce and Magento Open Source:
 
@@ -13,7 +12,7 @@ This topic describes different ways to call and initialize JavaScript in Adobe C
 
 We strongly recommend that you use the described approaches and do not add inline JavaScript.
 
-## Insert a JS component in a PHTML template
+## Insert a component in a PHTML template
 
 Depending on your task, you can use declarative or imperative notation to insert a JS component into a PHTML template. Use declarative notation if a component requires initialization and imperative notation in other cases.
 
@@ -89,7 +88,7 @@ You now have two options for specifying declarative notation:
     </script>
     ```
 
-#### Declarative notation using the `data-mage-init` attribute
+#### Use the `data-mage-init` attribute
 
 Use the `data-mage-init` attribute to insert a JS component in a specified HTML element. The following example inserts a JS component in the `<nav/>` element:
 
@@ -140,7 +139,7 @@ Read more about [locate JS components](debug.md).
 
 -  If none of the previous cases is true, the component is executed with no further processing. Such a component does not require either `config` or `element`. The recommended way to declare such components is [using the `<script>` tag](#init_script).
 
-#### Declarative notation using the `<script type="text/x-magento-init">` tag
+#### Use the `<script type="text/x-magento-init">` tag
 
 To call a JS component on an HTML element without direct access to the element or with no relation to a certain element, use the `<script type="text/x-magento-init">` tag and attribute syntax shown in the following example.
 
@@ -209,7 +208,7 @@ require([
 
 For better control when scripts are executed, use a declarative syntax rather than an imperative syntax. When using imperative syntax, the ability to leverage existing JS classes is lost and can block the rendering of the page.
 
-## Calling JS components requiring initialization in JS files
+## Calling components that require initialization
 
 To call a widget with JS code, use a notation similar to the ([accordion](jquery-widgets/accordion.md) widget. It is initialized on the `[data-role=example]` element as below):
 

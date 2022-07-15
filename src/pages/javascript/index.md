@@ -1,6 +1,6 @@
 ---
 title: Introduction to JavaScript | Commerce Frontend Development 
-description: placeholder 
+description:  
 ---
 
 # Introduction to JavaScript

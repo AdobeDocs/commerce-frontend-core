@@ -1,9 +1,11 @@
 ---
-group: javascript-developer-guide
-title: RowBuilder widget
+title: RowBuilder widget | Commerce Frontend Development
+description:
 contributor_name: Atwix
 contributor_link: https://www.atwix.com/
 ---
+
+# RowBuilder widget
 
 The RowBuilder [widget](https://glossary.magento.com/widget/) allows you to build a container with rows.
 
@@ -11,7 +13,7 @@ The RowBuilder widget can be used only on the frontend area.
 
 The RowBuilder widget source is [lib/web/mage/row-builder.js][].
 
-## Initialize the RowBuilder widget
+## Initialize
 
 For information about how to initialize a widget in a JS component or `.phtml` template, see the [Initialize JavaScript][] topic.
 

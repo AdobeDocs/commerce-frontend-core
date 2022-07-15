@@ -1,9 +1,11 @@
 ---
-group: javascript-developer-guide
-title: FolderTree widget
+title: FolderTree widget | Commerce Frontend Development
+description:
 contributor_name: Atwix
 contributor_link: https://www.atwix.com/
 ---
+
+# FolderTree widget
 
 The FolderTree [widget](https://glossary.magento.com/widget/) allows creating a dynamic hierarchical tree structure with folders.
 
@@ -19,7 +21,7 @@ The FolderTree widget can be used only in the [adminhtml](https://glossary.magen
 
 The FolderTree widget source is [`<Magento_Cms_module_dir>/view/adminhtml/web/js/folder-tree.js`][].
 
-## Initialize the FolderTree widget
+## Initialize
 
 For information about how to initialize a widget in a JS component or `.phtml` template, see the [Initialize JavaScript][] topic.
 

@@ -1,9 +1,11 @@
 ---
-group: javascript-developer-guide
-title: ToggleAdvanced widget
+title: ToggleAdvanced widget | Commerce Frontend Development
+description:
 contributor_name: Atwix
 contributor_link: https://www.atwix.com/
 ---
+
+# ToggleAdvanced widget
 
 Use the ToggleAdvanced [widget](https://glossary.magento.com/widget/) to toggle the HTML class for selectors by clicking on a toggle element.
 
@@ -11,7 +13,7 @@ The widget also allows toggling a clicked element class and clicked element text
 
 The ToggleAdvanced widget source is [lib/web/mage/toggle.js].
 
-## Initialize the ToggleAdvanced widget
+## Initialize
 
 For information about how to initialize a widget in a JS component or `.phtml` template, see the [Initialize JavaScript] topic.
 

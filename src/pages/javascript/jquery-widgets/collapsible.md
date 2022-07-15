@@ -1,8 +1,9 @@
 ---
-group: javascript-developer-guide
-subgroup: 3_Widgets
-title: Collapsible widget
+title: Collapsible widget | Commerce Frontend Development 
+description:
 ---
+
+# Collapsible widget
 
 The collapsible widget converts a header/content pair into an accordion, where the content is collapsed or expanded on the header click.
 
@@ -14,7 +15,7 @@ Once it is expanded, the content can be updated using Ajax. The collapsed/expand
 
 The collapsible widget source is [lib/web/mage/collapsible.js].
 
-## Initialize collapsible in JS
+## Initialize
 
 Generally the collapsible widget is instantiated like following:
 
@@ -30,7 +31,7 @@ The element's `id` is also used in deep linking: if the `id` of the content or t
 
 Similar to the accordion widget, the header, title and content for collapsible can be defined by the child elements' attributes or passed as widget options. See [Accordion widget initialization] for details.
 
-### Initialize collapsible with header only
+### Header only
 
 You can initialize the collapsible widget without having a container that consists of a header and a content. In this case the initialization is made on the header:
 
@@ -38,7 +39,7 @@ You can initialize the collapsible widget without having a container that consis
 $("#header").collapsible();
 ```
 
-## Initialize collapsible in a template
+## In a template
 
 The collapsible widget can be initialized using the `data-mage-init` attribute or `<script>` tag, as described in [JavaScript initialization].
 

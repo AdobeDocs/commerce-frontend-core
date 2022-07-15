@@ -1,9 +1,9 @@
 ---
-group: javascript-developer-guide
-title: Conventional notations used in this Guide
+title: Conventional Notations | Commerce Frontend Development
+description:
 ---
 
-## Conventional notations for paths to modules and themes
+# Conventional notations
 
 Application components, including modules, themes, and language packages technically can be located anywhere under the application's root directory. This refers to both default and custom components.
 

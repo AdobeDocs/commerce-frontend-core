@@ -1,8 +1,9 @@
 ---
-group: javascript-developer-guide
-subgroup: 3_Widgets
-title: PasswordStrengthIndicator widget
+title: PasswordStrengthIndicator widget | Commerce Frontend Development
+description:
 ---
+
+# PasswordStrengthIndicator widget
 
 The password strength indicator [widget](https://glossary.magento.com/widget) provides immediate feedback on the validity and strength of a password while it is being typed.
 If the password is not strong enough, the application prompts the user to choose a new password.
@@ -17,7 +18,7 @@ The widget is being used in the following templates:
 -  [`<Magento_Customer_module_dir>/view/frontend/templates/form/forgotpassword.phtml`] customer forgot password template.
 -  [`<Magento_Customer_module_dir>/view/frontend/templates/form/edit.phtml`] customer account edit template.
 
-## Initialize the password_strength_indicator widget
+## Initialize
 
 To initialize the widget in your script, use the following general notation:
 

@@ -1,17 +1,16 @@
 ---
-group: javascript-developer-guide
-subgroup: 1_Javascript
-title: Use the Frontend Product Repository
-menu_title: Use the Frontend Product Repository
-menu_order: 10
+title: Frontend Product Repository | Commerce Frontend Development 
+description:
 ---
+
+# Frontend product repository
 
 The frontend product repository is a storage service that uses the local cache to get product information without making additional requests to the server.
 The product information it provides is useful for optimal mini-cart, widgets, and checkout customizations.
 
 This article contains code samples for common tasks when working with the frontend product repository.
 
-## The product data storage
+## Product data storage
 
 The frontend product repository uses the `product_data_storage` section of the data storage cache as its data source.
 This section is responsible for holding all product data that come from the server when a customer visits a product page.

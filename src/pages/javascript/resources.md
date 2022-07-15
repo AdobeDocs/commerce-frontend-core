@@ -1,10 +1,9 @@
 ---
-group: javascript-developer-guide
-subgroup: 1_Javascript
-title: JavaScript resources in Commerce
+title: JavaScript Resources | Commerce Frontend Development 
+description:
 ---
 
-## Overview
+# JavaScript Resources in Commerce
 
 This topic describes general concepts of how [JavaScript](https://glossary.magento.com/javascript) (JS) components are organized.
 
@@ -12,9 +11,9 @@ To address the problem of slow page loads, we exclude JavaScript from the page h
 
 RequireJS improves the perceived page load time because it allows JavaScript to load in the background; in particular, it enables asynchronous JavaScript loading.
 
-## Explore JavaScript resources
+## Explore resources
 
-### JS resources location
+### Location
 
 You can find Javascript components on the following levels:
 
@@ -31,7 +30,7 @@ The library level can only contain core application resources. Do not put custom
 
 We recommend specifying JavaScript resources in the templates rather than in the [layout](https://glossary.magento.com/layout) updates, to ensure that the resources are available for body of a page.
 
-## Accessing JS resources
+## Accessing resources
 
 JS resources are accessed using relative paths.
 
@@ -70,7 +69,7 @@ JS resources are accessed using relative paths.
 
 Relative paths are also used in for [mapping and setting `paths` in requirejs-config.js configuration files](resources.md).
 
-## Dependencies between JavaScript resources
+## Dependencies
 
 To build a dependency on the third-party plugin, specify a [shim](http://requirejs.org/docs/api.html#config-shim) in the following configuration files:
 
@@ -138,7 +137,7 @@ To be available for the entire application instance, RequireJS library is includ
 
 *  For the `frontend` area, the equivalent configuration is located in [`app/code/Magento/Theme/view/frontend/layout/default.xml`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Theme/view/frontend/layout/default.xml).
 
-### Including third-party JavaScript libraries
+### Including third-party libraries
 
 To include a 3rd party library and use it within the entire website (using the [Slick JS Library](https://github.com/kenwheeler/slick/) as an example):
 
@@ -205,7 +204,7 @@ We should now be able to use the Slick library, for example, on any list that we
 
 ![Slick Slider](../_images/javascript/slick-slider-result.png)
 
-### Mapping JS resources
+### Mapping resources
 
 To make configurations more precise and specific to different modules and themes, `requirejs-config.js` files can be placed in different [locations](#m2devgde-js-resources-configuring) depending on your needs.
 

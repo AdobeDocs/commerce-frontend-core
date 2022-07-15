@@ -1,15 +1,17 @@
 ---
-group: javascript-developer-guide
-title: Multiselect widget
+title: Multiselect widget | Commerce Frontend Development
+description:
 contributor_name: Atwix
 contributor_link: https://www.atwix.com/
 ---
+
+# Multiselect widget
 
 This [widget](https://glossary.magento.com/widget/) enables multiple select capability in the search field to help users choose different options.
 
 The Multiselect widget source is the [lib/web/mage/multiselect.js][] file.
 
-## Initialize the Multiselect widget
+## Initialize
 
 For information about how to initialize a widget in a JS component or `.phtml` template, see the [Initialize JavaScript][] topic.
 

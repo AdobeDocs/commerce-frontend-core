@@ -1,14 +1,15 @@
 ---
-group: javascript-developer-guide
-subgroup: 3_Widgets
-title: Tabs widget
+title: Tabs widget | Commerce Frontend Development
+description:
 ---
+
+# Tabs widget
 
 The tabs widget implements single content area with multiple panels, each associated with a header in a list. It uses the [collapsible widget].
 
 The tabs [widget](https://glossary.magento.com/widget) source is [lib/web/mage/tabs.js].
 
-## Initialize the tabs widget
+## Initialize
 
 For information about how to initialize a widget in a JS component or `.phtml` template, see the [Initialize JavaScript] topic.
 

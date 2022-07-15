@@ -1,8 +1,9 @@
 ---
-group: javascript-developer-guide
-subgroup: 3_Widgets
-title: Prompt widget
+title: Prompt widget | Commerce Frontend Development
+description:
 ---
+
+# Prompt widget
 
 The prompt [widget](https://glossary.magento.com/widget) implements a modal pop-up window with an input field, and a cancel and a confirmation button.
 
@@ -12,7 +13,7 @@ The prompt widget source is [`<Magento_Ui_module_dir>/view/base/web/js/modal/pro
 
 The widget can be used for implementing prompt windows for both, admin and [storefront](https://glossary.magento.com/storefront). The design patterns for the modal pop-up windows in the admin are described in the [Admin Pattern Library, the Slide-out Panels, Modal Windows, and Overlays topic.]
 
-## Initialize the prompt widget
+## Initialize
 
 The prompt widget can be initialized with or without binding to a certain element.
 
@@ -209,7 +210,7 @@ The prompt widget implements the following events:
 
 ## Code Sample
 
-### Code sample of initialization on an element
+### Initialization on an element
 
 ```html
 <script>
@@ -251,7 +252,7 @@ The prompt widget implements the following events:
 </script>
 ```
 
-### Code sample of standalone initialization
+### Standalone initialization
 
 ```html
 <div class="prompt-modal-content">

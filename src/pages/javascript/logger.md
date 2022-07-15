@@ -1,12 +1,9 @@
 ---
-group: javascript-developer-guide
-subgroup: 1_Javascript
-title: JavaScript Logger
-menu_title: JavaScript Logger
-menu_order: 20
+title: JavaScript Logger | Commerce Frontend Development 
+description:
 ---
 
-## Logger overview
+# JavaScript Logger
 
 The `Logger` class provides logging functionality for an application. It can be used to  display errors, warnings and debug messages.
 

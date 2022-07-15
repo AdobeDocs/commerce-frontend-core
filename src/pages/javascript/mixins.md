@@ -1,7 +1,9 @@
 ---
-group: javascript-developer-guide
-title: JavaScript mixins
+title: JavaScript Mixins | Commerce Frontend Development 
+description:
 ---
+
+# JavaScript mixins
 
 A [mixin] is a class whose methods are added to, or mixed in, with another class.
 
@@ -39,7 +41,7 @@ This allows you to return a new instance of the target component with your modif
 
 ### Examples
 
-#### Extend UI Component
+#### Extend UI component
 
 The following is an example of a mixin that extends the `target` component with a function that introduces a new `blockVisibility` property to a column element.
 
@@ -66,7 +68,7 @@ define(function () {
 });
 ```
 
-#### Extend jQuery Widget
+#### Extend jQuery widget
 
 The following is an example of a mixin that extends the [modal widget][] with a function that adds confirmation for a modal closing.
 
@@ -104,7 +106,7 @@ define(['jquery'], function ($) {
 });
 ```
 
-#### Extend JS Object
+#### Extend JS object
 
 Another use-case for the JS mixin is when the base Javascript file returns an object. In this case, a wrapper is necessary. The following example mixin extends the `setHash` method of [step navigator object][]. Here, `this._super()` is the base method that can be called if needed.
 
@@ -127,7 +129,7 @@ define([
 });
 ```
 
-#### Extend JS Function
+#### Extend JS function
 
 The following is an example of a mixin that adds additional functionality to the [proceed to checkout function][].
 
@@ -226,7 +228,6 @@ The following is a list of files in the [`Magento_CheckoutAgreement`] module tha
 *  [`view/frontend/requirejs-config.js`]
 *  [`view/frontend/web/js/model/place-order-mixin.js`]
 *  [`view/frontend/web/js/model/set-payment-information-mixin.js`]
-
 
 [mixin]: https://en.wikipedia.org/wiki/Mixin
 [application area]: https://developer.adobe.com/commerce/php/architecture/modules/areas/

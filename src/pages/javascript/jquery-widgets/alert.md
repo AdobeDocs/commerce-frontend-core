@@ -1,8 +1,9 @@
 ---
-group: javascript-developer-guide
-subgroup: 3_Widgets
-title: Alert widget
+title: Alert widget | Commerce Frontend Development 
+description:
 ---
+
+# Alert widget
 
 The alert widget implements a modal pop-up window with a confirmation button. It extends the [confirmation widget] which in turn extends the [modal widget].
 
@@ -10,7 +11,7 @@ The alert widget source is [`<Magento_Ui_module_dir>/view/base/web/js/modal/aler
 
 The widget can be used for implementing alert windows for both Admin and [storefront](https://glossary.magento.com/storefront). The design patterns for the pop-up modal windows in the Admin are described in the [Admin Pattern Library, the Slide-out Panels, Modal Windows, and Overlays topic.]
 
-## Initialize the alert widget
+## Initialize
 
 The alert widget can be initialized with or without binding to a certain element.
 
@@ -53,8 +54,8 @@ For details about how to initialize a widget in a`.phtml` template, refer to the
 
 Widget callbacks.
 
-**Type**: Object.
 
+**Type**: Object.
 **Default value**:
 
 ```javascript
@@ -139,7 +140,7 @@ The keyboard navigation for the alert windows is similar to the [navigation of t
 
 ## Code Sample
 
-### Code sample of standalone initialization
+### Standalone initialization
 
 ```html
 <div class="alert-modal-content">
@@ -188,7 +189,7 @@ require([
 </script>
 ```
 
-### Code sample of initialization on an element
+### Initialization on an element
 
 ```html
 <div class="alert-modal-content">

@@ -1,7 +1,9 @@
 ---
-group: javascript-developer-guide
-title: jQuery widgets
+title: jQuery widgets | Commerce Frontend Development
+description:
 ---
+
+# jQuery widgets
 
 The Adobe Commerce and Magento Open Source applications use a jQuery JavaScript library to implement client functionality. This includes a wide usage of standard, customized, and custom jQuery widgets.
 

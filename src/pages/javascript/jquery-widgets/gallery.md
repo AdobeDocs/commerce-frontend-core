@@ -1,8 +1,9 @@
 ---
-group: javascript-developer-guide
-subgroup: 3_Widgets
-title: Gallery widget
+title: Gallery widget | Commerce Frontend Development
+description:
 ---
+
+# Gallery widget
 
 The gallery jQuery widget implements a content area with images organized into preview and thumbnails blocks.
 
@@ -22,9 +23,7 @@ The gallery widget source code is [lib/web/mage/gallery/gallery.js].
 
 The gallery magnifier source is [lib/web/magnifier/magnify.js].
 
-### Contents
-
-## Initialize the gallery widget
+## Initialize
 
 The gallery widget is initialized as described in [JavaScript initialization](../init.md#insert-a-js-component-in-a-phtml-template).
 
@@ -438,7 +437,7 @@ Where the options are as follows:
 *  `conditions`: compiled in [media query](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) through and operand. For example: `"max-width": "767px"`
 *  `options` - object of options that are applied
 
-## Configure gallery options in `view.xml`
+## Configure options in `view.xml`
 
 Gallery and magnifier options can be set in the `view.xml` configuration file of a theme. The file is conventionally located in `<theme_dir>/etc`.
 

@@ -1,16 +1,17 @@
 ---
-group: javascript-developer-guide
-subgroup: 3_Widgets
-title: RedirectUrl widget
+title: RedirectUrl widget | Commerce Frontend Development
+description:
 contributor_name: Atwix
 contributor_link: https://www.atwix.com/
 ---
+
+# RedirectUrl widget
 
 The RedirectUrl [widget](https://glossary.magento.com/widget) allows redirecting to an URL when an event triggers.
 
 The RedirectUrl widget source is [lib/web/mage/redirect-url.js][].
 
-## Initialize the RedirectUrl widget
+## Initialize
 
 For information about how to initialize a widget in a JS component or `.phtml` template, see the [Initialize JavaScript][] topic.
 
