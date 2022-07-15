@@ -95,11 +95,7 @@ The accordion widget can be initialized using the `data-mage-init` attribute or 
 
 ## Option
 
-Accordion options coincide with [tabs options], plus the following custom ones:
-
--  [active]
--  [multipleCollapsible]
--  [openOnFocus]
+Accordion options coincide with [tabs options] and include the additional custom options.
 
 ### `active`
 

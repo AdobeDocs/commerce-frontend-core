@@ -49,17 +49,6 @@ For details about how to initialize a widget in a`.phtml` template, refer to the
 
 ## Options
 
-The alert widget has the following options:
-
--  [actions]
--  [autoOpen]
--  [clickableOverlay]
--  [content]
--  [focus]
--  [title]
--  [modalClass]
--  [buttons]
-
 ### `actions`
 
 Widget callbacks.

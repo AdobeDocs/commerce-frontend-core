@@ -14,19 +14,11 @@ The navigation widget is an [extension](https://glossary.magento.com/extension) 
 
 The navigation widget source is present in [lib/web/mage/menu.js] along with the menu widget source.
 
-## Initialize the navigation widget {#navigation_init}
+## Initialize the navigation widget
 
 For information about how to initialize a widget in a JS component or `.phtml` template, see the [Initialize JavaScript] topic.
 
-## Options {#navigation_options}
-
-The navigation widget has the following options:
-
--  [breakpoint](#breakpoint)
--  [container](#container)
--  [maxItems](#maxItems)
--  [moreText](#moreText)
--  [responsiveAction](#responsiveAction)
+## Options
 
 ### `breakpoint`
 
@@ -71,9 +63,6 @@ The default responsive handler for the navigation widget.
 **Accepted values**: `wrap`, `onResize`, `onReload`
 
 ## Methods
-
--  [setMaxItems()](#setMaxItems)
--  [setupMoreMenu()](#setupMoreMenu)
 
 ### `setMaxItems()`
 

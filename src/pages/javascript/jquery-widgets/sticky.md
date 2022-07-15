@@ -39,12 +39,7 @@ $('.sticky-element').sticky({
 });
 ```
 
-## Options {#dropdown_options}
-
--  [container](#container)
--  [spacingTop](#spacingtop)
--  [stickAfter](#stickafter)
--  [stickyClass](#stickyclass)
+## Options
 
 ### `container`
 

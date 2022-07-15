@@ -59,23 +59,6 @@ The following example shows a PHTML file using the script:
 
 ## Options
 
-The PopupWindow widget has the following options:
-
--  [centerBrowser](#centerbrowser)
--  [centerScreen](#centerscreen)
--  [height](#height)
--  [left](#left)
--  [location](#location)
--  [menubar](#menubar)
--  [resizable](#resizable)
--  [scrollbars](#scrollbars)
--  [status](#status)
--  [width](#width)
--  [windowName](#windowname)
--  [windowURL](#windowurl)
--  [top](#top)
--  [toolbar](#toolbar)
-
 ### `centerBrowser`
 
 Centers the popup window over a browser window. It overrides the [top](#top) and [left](#left) options.

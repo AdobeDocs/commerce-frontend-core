@@ -51,14 +51,6 @@ The following example shows a PHTML file using the script:
 
 ## Options
 
--  [counterSelector](#counterselector)
--  [errorClass](#errorclass)
--  [maxLength](#maxlength)
--  [noDisplayClass](#nodisplayclass)
--  [noteSelector](#noteselector)
--  [remainingText](#remainingtext)
--  [tooManyText](#toomanytext)
-
 ### `counterSelector`
 
 The selector of counter element.

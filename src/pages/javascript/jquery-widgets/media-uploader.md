@@ -42,14 +42,6 @@ Phtml template file examples using script:
 
 ## Options
 
-The MediaUploader widget has the following options:
-
--  [disabled](#disabled)
--  [isResizeEnabled](#isresizeenabled)
--  [maxFileSize](#maxfilesize)
--  [maxHeight](#maxheight)
--  [maxWidth](#maxwidth)
-
 ### `disabled`
 
 Specifies if the uploader field should be disabled.

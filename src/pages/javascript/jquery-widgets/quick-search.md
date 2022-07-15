@@ -10,24 +10,11 @@ The quickSearch [widget](https://glossary.magento.com/widget) is an autocomplete
 
 The suggest widget source is [`<Magento_Search_module_dir>/view/frontend/web/js/form-mini.js`].
 
-## Initialize the quickSearch widget {#quicksearch_init}
+## Initialize the quickSearch widget
 
 For information about how to initialize a widget in a JS component or `.phtml` template, see the [Initialize JavaScript] topic.
 
-## Options {#quicksearch_options}
-
--  [autocomplete](#autocomplete)
--  [destinationSelector](#destinationselector)
--  [isExpandable](#isexpandable)
--  [formSelector](#formselector)
--  [minSearchLength](#minsearchlength)
--  [responseFieldElements](#responsefieldelements)
--  [searchLabel](#searchlabel)
--  [selectClass](#selectclass)
--  [submitBtn](#submitbtn)
--  [suggestionDelay](#suggestiondelay)
--  [template](#template)
--  [url](#url)
+## Options
 
 ### `autocomplete`
 

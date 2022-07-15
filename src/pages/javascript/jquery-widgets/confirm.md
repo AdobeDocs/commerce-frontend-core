@@ -52,15 +52,6 @@ For details about how to initialize a widget in a`.phtml` template, refer to the
 
 ## Options
 
--  [actions](#actions)
--  [autoOpen](#autoopen)
--  [clickableOverlay](#clickableOverlay)
--  [content](#content)
--  [focus](#focus)
--  [title](#title)
--  [modalClass](#modalClass)
--  [buttons](#buttons)
-
 ### `actions`
 
 Widget callbacks.

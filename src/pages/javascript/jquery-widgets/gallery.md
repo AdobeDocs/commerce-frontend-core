@@ -91,15 +91,6 @@ Example of declarative initialization:
 
 ## Options
 
-The following option groups are available for the gallery widget:
-
-*  [`data`](#data)
-*  [`options`](#options)
-*  [`fullscreen`](#fullscreen)
-*  [`breakpoints`](#breakpoints)
-
-All options for each group are described further.
-
 ### `data`
 
 Array of images to display.
@@ -510,14 +501,6 @@ api.%method_name%();
 All available methods are listed in the following paragraph.
 
 ## Methods
-
-*  [first()](#first)
-*  [last()](#last)
-*  [next()](#next)
-*  [prev()](#prev)
-*  [seek()](#seek)
-*  [updateData()](#updateData)
-*  [updateOptions()](#updateData)
 
 ### `first()`
 

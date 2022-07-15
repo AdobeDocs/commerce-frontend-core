@@ -144,25 +144,6 @@ formDataPost : {"formData": ["field1-name1", "field2-name1", "field3-name1"], "t
 
 ## Options
 
-The PopupWindow widget has the following options:
-
--  [rowTemplate](#rowtemplate)
--  [rowContainer](#rowcontainer)
--  [rowIndex](#rowindex)
--  [rowCount](#rowcount)
--  [rowParentElem](#rowparentelem)
--  [rowContainerClass](#rowcontainerclass)
--  [addRowBtn](#addrowbtn)
--  [btnRemoveIdPrefix](#btnremoveidprefix)
--  [btnRemoveSelector](#btnremoveselector)
--  [rowIdPrefix](#rowidprefix)
--  [additionalRowClass](#additionalrowclass)
--  [addEventSelector](#addeventselector)
--  [remEventSelector](#remeventselector)
--  [hideFirstRowAddSeparator](#hidefirstrowaddseparator)
--  [maxRows](#maxrows)
--  [maxRowsMsg](#maxrowsmsg)
-
 ### `rowTemplate`
 
 The row template selector.

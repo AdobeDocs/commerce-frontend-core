@@ -56,12 +56,6 @@ The following example shows a [PHTML](https://glossary.magento.com/phtml) file u
 
 ## Options
 
--  [currentPath](#currentpath)
--  [root](#root)
--  [rootName](#rootname)
--  [tree](#tree)
--  [url](#url)
-
 ### `currentPath`
 
 This option pre-opens the specified folder path. It is an array of folders IDs which represents the path to the current opened folder.

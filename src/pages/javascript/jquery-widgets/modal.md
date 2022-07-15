@@ -35,34 +35,6 @@ For details about how to initialize the widget in a`.phtml` template, refer to t
 
 ## Options
 
-The modal widget has the following options:
-
--  [appendTo](#appendTo)
--  [autoOpen](#autoopen)
--  [buttons](#buttons)
--  [clickableOverlay](#clickableOverlay)
--  [closeText](#closeText)
--  [customTpl](#customTpl)
--  [focus](#focus)
--  [innerScroll](#innerScroll)
--  [modalAction](#modalAction)
--  [modalClass](#modalClass)
--  [modalCloseBtn](#modalCloseBtn)
--  [modalContent](#modalContent)
--  [modalLeftMargin](#modalLeftMargin)
--  [modalSubTitle](#modalSubTitle)
--  [modalTitle](#modalTitle)
--  [modalVisibleClass](#modalVisibleClass)
--  [outerClickHandler](#outerClickHandler)
--  [parentModalClass](#parentModalClass)
--  [popupTpl](#popupTpl)
--  [responsive](#responsive)
--  [slideTpl](#slideTpl)
--  [subTitle](#subTitle)
--  [title](#title)
--  [trigger](#trigger)
--  [type](#type)
-
 ### `appendTo`
 
 The element where the modal should be added.
@@ -285,13 +257,6 @@ The type of window: 'popup' or 'slide'.
 **Default value**: `popup`
 
 ## Methods
-
-The modal widget has the following methods:
-
--  [closeModal()](#close)
--  [keyEventSwitcher()](#keyEventSwitcher)
--  [openModal()](#open)
--  [toggleModal()](#toggleModal)
 
 ### `openModal()`
 

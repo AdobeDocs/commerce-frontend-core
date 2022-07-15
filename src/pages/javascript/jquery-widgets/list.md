@@ -19,21 +19,6 @@ For information about how to initialize a widget in a JS component or `.phtml` t
 
 ## Options
 
-The list widget has the following options:
-
--  [addButton](#addButton)
--  [destinationSelector](#destinationSelector)
--  [itemCount](#itemCount)
--  [itemIndex](#itemIndex)
--  [maxItems](#maxItems)
--  [maxItemsAlert](#maxItemsAlert)
--  [removeButton](#removeButton)
--  [template](#template)
--  [templateClass](#templateClass)
--  [templateWrapper](#templateWrapper)
-
-Detailed description of each option follows.
-
 ### `addButton`
 
 Selector for the element used for item adding.
@@ -115,13 +100,6 @@ Element holding the template.
 **Default value**: `null`
 
 ## Methods
-
-The list widget has the following methods:
-
--  [addItem()](#list_addItem)
--  [checkLimit()](#list_checkLimit)
--  [handleAdd()](#list_handleAdd)
--  [removeItem()](#list_removeItem)
 
 ### `addItem()`
 

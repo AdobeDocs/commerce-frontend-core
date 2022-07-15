@@ -17,7 +17,7 @@ The widget is being used in the following templates:
 -  [`<Magento_Customer_module_dir>/view/frontend/templates/form/forgotpassword.phtml`] customer forgot password template.
 -  [`<Magento_Customer_module_dir>/view/frontend/templates/form/edit.phtml`] customer account edit template.
 
-## Initialize the password_strength_indicator widget {#password_strength_indicator_initialize}
+## Initialize the password_strength_indicator widget
 
 To initialize the widget in your script, use the following general notation:
 
@@ -54,14 +54,6 @@ The following example shows a PHTML file using the script:
 For details about how to initialize the widget in a`.phtml` template, refer to the [JavaScript initialization](../init.md) topic.
 
 ## Options
-
-The password strength indicator widget has the following options:
-
--  [passwordSelector](#passwordselector)
--  [passwordStrengthMeterSelector](#passwordstrengthmeterselector)
--  [passwordStrengthMeterLabelSelector](#passwordstrengthmeterlabelselector)
--  [formSelector](#formselector)
--  [emailSelector](#emailselector)
 
 ### passwordSelector
 

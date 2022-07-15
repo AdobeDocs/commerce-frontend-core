@@ -36,26 +36,6 @@ The following example shows a PHTML file using the script:
 
 ## Options
 
-The tabs widget has the following options:
-
--  [active](#active)
--  [ajaxUrlElement](#ajaxurlelement)
--  [ajaxContent](#ajaxcontent)
--  [animate](#animate)
--  [closedState](#closedstate)
--  [collapsible](#collapsible)
--  [collapsibleElement](#collapsibleelement)
--  [content](#content)
--  [disabled](#disabled)
--  [disabledState](#disabledstate)
--  [header](#header)
--  [icons](#icons)
--  [loadingClass](#loadingclass)
--  [openedState](#openedstate)
--  [openOnFocus](#openonfocus)
--  [saveState](#savestate)
--  [trigger](#trigger)
-
 ### `active`
 
 Index of the tab, which is active at the moment of initialization. Starts from "0"
@@ -219,13 +199,6 @@ The option of the [collapsible] widget used by tabs.
 
 ## Methods
 
-The tabs widget has the following methods:
-
--  [activate()](#activate)
--  [enable()](#enable)
--  [deactivate()](#deactivate)
--  [disable()](#disable)
-
 ### `activate()`
 
 `activate(index)` displays `content` for the tab with the corresponding `index`.
@@ -244,10 +217,7 @@ The tabs widget has the following methods:
 
 ## Events
 
-Tabs is subscribed to the same events as the [collapsible] widget:
-
--  [beforeOpenCallback](beforeopencallback)
--  [dimensionsChanged](#dimensionschanged)
+Tabs is subscribed to the same events as the [collapsible] widget.
 
 ### `beforeOpenCallback`
 

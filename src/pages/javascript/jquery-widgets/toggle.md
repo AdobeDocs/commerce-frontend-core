@@ -42,15 +42,6 @@ The following example shows a PHTML file using the script:
 
 ## Options
 
-The ToggleAdvanced widget has the following options:
-
--  [baseToggleClass](#basetoggleclass)
--  [selectorsToggleClass](#selectorstoggleclass)
--  [toggleContainers](#togglecontainers)
--  [newLabel](#newlabel)
--  [curLabel](#curlabel)
--  [currentLabelElement](#currentlabelelement)
-
 ### `baseToggleClass`
 
 The class used to toggle on a clicked element.
@@ -100,11 +91,6 @@ Container element of the current label.
 **Default value**: `null`
 
 ## Methods
-
-The ToggleAdvanced widget has the following methods:
-
--  [beforeCreate](#beforecreate)
--  [afterCreate](#aftercreate)
 
 ### `beforeCreate`
 

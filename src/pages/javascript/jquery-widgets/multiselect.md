@@ -38,19 +38,6 @@ The following example shows a PHTML file using the script:
 
 ## Options
 
-The Multiselect widget has the following options:
-
--  [containerClass](#containerclass)
--  [currentPage](#currentpage)
--  [lastAppendValue](#lastappendvalue)
--  [mselectCheckedClass](#mselectcheckedclass)
--  [mselectContainer](#mselectcontainer)
--  [mselectItemsWrapperClass](#mselectitemswrapperclass)
--  [nextPageUrl](#nextpageurl)
--  [searchInputClass](#searchinputclass)
--  [selectedItemsCountClass](#selecteditemscountclass)
--  [updateDelay](#updatedelay)
-
 ### `containerClass`
 
 The class which is attached to the container with [multi-select container selector](#mselectcontainer).
@@ -151,16 +138,6 @@ The search field update delay.
 **Default value**: `0`
 
 ## Methods
-
-The Multiselect methods are the following:
-
--  [appendOptions()](#appendoptions)
--  [clearMultiselectOptions()](#clearmultiselectoptions)
--  [getCurrentPage()](#getcurrentpage)
--  [getSearchCriteria()](#getsearchcriteria)
--  [isOptionsLoaded()](#isoptionsloaded)
--  [loadOptions()](#loadoptions)
--  [setCurrentPage()](#setcurrentpage)
 
 ### `appendOptions`
 

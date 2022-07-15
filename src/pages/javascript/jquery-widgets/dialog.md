@@ -18,23 +18,7 @@ For information about how to initialize a widget in a JS component or `.phtml` t
 
 ## Options
 
-The customized Dialog widget has default [jQuery UI Dialog widget](http://api.jqueryui.com/dialog/) options, plus several custom options:
-
--  [autoPosition](#autoPosition)
--  [autoSize](#autoSize)
--  [autoOpen](#autoOpen)
--  [closeOnClickOutside](#closeOnClickOutside)
--  [closeOnMouseLeave](#closeOnMouseLeave)
--  [createTitleBar](#createTitleBar)
--  [defaultDialogClass](#defaultDialogClass)
--  [dialogContentClass](#dialogContentClass)
--  [parentClass](#parentClass)
--  [timeout](#timeout)
--  [triggerClass](#triggerClass)
--  [triggerEvent](#triggerEvent)
--  [triggerTarget](#triggerTarget)
-
-Description of each option as follows below location.
+The customized Dialog widget has default [jQuery UI Dialog widget](http://api.jqueryui.com/dialog/) options, plus several custom options.
 
 ### `autoPosition`
 

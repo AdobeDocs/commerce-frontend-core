@@ -54,21 +54,6 @@ For details about how to initialize a widget in a `.phtml` template, refer to th
 
 ## Options
 
--  [actions](#actions)
--  [autoOpen](#autoopen)
--  [clickableOverlay](#clickableoverlay)
--  [content](#content)
--  [focus](#focus)
--  [title](#title)
--  [modalClass](#modalClass)
--  [promptContentTmpl](#promptcontenttmpl)
--  [value](#value)
--  [promptField](#promptfield)
--  [attributesForm](#attributesform)
--  [attributesField](#attributesfield)
--  [validation](#validation)
--  [validationRules](#validationrules)
-
 ### `actions`
 
 Widget callbacks.

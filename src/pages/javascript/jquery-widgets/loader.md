@@ -38,12 +38,6 @@ require(['jquery', 'loader'], function ($) {
 
 ## Options
 
-The loader widget has the following options:
-
--  [icon](#icon)
--  [template](#template)
--  [texts](#texts)
-
 ### `icon`
 
 The URL to the loader image. This image is displayed when the widget is active; that is, between the `ajaxSend` and `ajaxComplete` events.
@@ -77,9 +71,6 @@ An object that contains translations for loader text:
    **Default value**: *'Loading...'*
 
 ## Methods
-
--  [show()](#show)
--  [hide()](#hide)
 
 ### `show()`
 

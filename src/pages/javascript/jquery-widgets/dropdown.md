@@ -127,12 +127,6 @@ $('.magento__dropdown-widget').dropdown();
 
 ## Options
 
--  [parent](#parent)
--  [autoclose](#autoclose)
--  [btnArrow](#btnArrow)
--  [menu](#menu)
--  [activeClass](#activeClass)
-
 ### `parent`
 
 The parent element that initialized the widget. If not specified, the widget locates the element using the `.parent()` jQuery method.

@@ -41,11 +41,6 @@ The following example shows a PHTML file using the script:
 
 ## Options
 
-The RedirectUrl widget has the following options:
-
--  [event](#event)
--  [url](#url)
-
 ### `event`
 
 The event of the DOM element for which you want to carry out the redirect.

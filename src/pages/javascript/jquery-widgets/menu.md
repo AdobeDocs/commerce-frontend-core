@@ -16,16 +16,9 @@ The menu [widget](https://glossary.magento.com/widget) source is [lib/web/mage/m
 
 For information about how to initialize a widget in a JS component or `.phtml` template, see the [Initialize JavaScript] topic.
 
-## Options {#menu_options}
+## Options
 
-Menu widget options mostly coincide with the options of the jQuery UI Menu widget, with addition of the following custom ones:
-
--  [delay](#delay)
--  [showDelay](#showDelay)
--  [hideDelay](#hideDelay)
--  [responsive](#responsive)
--  [expanded](#expanded)
--  [mediaBreakpoint](#mediaBreakpoint)
+Menu widget options mostly coincide with the options of the jQuery UI Menu widget, with addition of some custom options.
 
 ### `delay`
 
@@ -81,9 +74,6 @@ The menu widget has all default [jQuery UI menu widget] methods and events,
 plus a couple more.
 
 ### Additional available methods
-
--  [toggle](#toggle)
--  [isExpanded](#isExpanded)
 
 ### `toggle()`
 

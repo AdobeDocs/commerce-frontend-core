@@ -44,25 +44,6 @@ The collapsible widget can be initialized using the `data-mage-init` attribute o
 
 ## Options
 
-The collapsible widget has the following options:
-
--  [active](#active)
--  [ajaxUrlElement](#ajaxUrlElement)
--  [ajaxContent](#ajaxContent)
--  [animate](#animate)
--  [collapsible](#collapsible)
--  [collateral](#collateral)
--  [content](#content)
--  [closedState](#closedState)
--  [disabled](#disabled)
--  [disabledState](#disabledState)
--  [header](#header)
--  [icons](#icons)
--  [loadingClass](#loadingClass)
--  [openedState](#openedState)
--  [saveState](#saveState)
--  [trigger](#trigger)
-
 ### `active`
 
 Specifies if the content should be expanded when the widget gets initialized.
@@ -466,13 +447,6 @@ $("#element").collapsible("option","trigger",".trigger");
 ```
 
 ## Methods
-
--  [activate()](#activate)
--  [deactivate()](#deactivate)
--  [disable()](#disable)
--  [enable()](#collaps_enable)
--  [forceActivate()](#collaps_forceActivate)
--  [forceDeactivate()](#collaps_forceDeactivate)
 
 ### `activate()`
 

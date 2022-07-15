@@ -46,11 +46,6 @@ Most options, methods, and events for the Sortable widget correspond to the jQue
 
 ## Options
 
-The Sortable has only two custom options that are different from default [Sortable Widget] options.
-
--  [moveUpEvent](#moveupevent)
--  [moveDownEvent](#movedownevent)
-
 ### `moveUpEvent`
 
 The name of the event which moves a sortable item up.
