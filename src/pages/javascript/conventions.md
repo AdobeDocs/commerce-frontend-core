@@ -9,7 +9,7 @@ Application components, including modules, themes, and language packages technic
 
 The following relative paths are used for modules and themes:
 
-**- `<theme_dir>`:**
+-  `<theme_dir>`:
 
 [Theme](https://glossary.magento.com/theme) directory. Usually used when talking about custom themes, or any theme in general.
 
