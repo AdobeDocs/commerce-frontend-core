@@ -54,7 +54,6 @@ For details about how to initialize a widget in a`.phtml` template, refer to the
 
 Widget callbacks.
 
-
 **Type**: Object.
 **Default value**:
 

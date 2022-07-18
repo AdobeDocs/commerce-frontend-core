@@ -97,7 +97,7 @@ This example shows how to initialize the calendar widget, including custom param
 
 ### Result
 
-The result is a calendar and a icon(_Click Here_) that opens the calendar.
+The result is a calendar and a icon(*Click Here*) that opens the calendar.
 
 #### Calendar field initial state
 
