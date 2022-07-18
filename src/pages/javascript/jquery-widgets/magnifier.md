@@ -14,7 +14,7 @@ The Magnifier widget source is located in [lib/web/magnifier/magnify.js](https:/
 
 ## Initialize
 
-The magnifier widget is initialized as described in [JavaScript initialization](../init.md#insert-a-js-component-in-a-phtml-template).
+The magnifier widget is initialized as described in [JavaScript initialization](../init.md#insert-a-component-in-a-phtml-template).
 The following is the example of gallery initialization with the magnifier enabled:
 
 ```javascript

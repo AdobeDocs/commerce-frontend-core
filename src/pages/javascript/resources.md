@@ -206,7 +206,7 @@ We should now be able to use the Slick library, for example, on any list that we
 
 ### Mapping resources
 
-To make configurations more precise and specific to different modules and themes, `requirejs-config.js` files can be placed in different [locations](#m2devgde-js-resources-configuring) depending on your needs.
+To make configurations more precise and specific to different modules and themes, `requirejs-config.js` files can be placed in different [locations](#location) depending on your needs.
 
 All configurations are collected and executed in the following order:
 

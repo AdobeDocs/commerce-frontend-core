@@ -58,7 +58,7 @@ map: {
 
 <InlineAlert variant="success" slots="text" />
 
-You can also use the `map` configuration to override a JS module with a custom JS module. See [Custom JS component](custom.md#replace-a-default-js-component).
+You can also use the `map` configuration to override a JS module with a custom JS module. See [Custom JS component](custom.md#replace-a-default-component).
 
 ### paths
 
@@ -124,7 +124,7 @@ The path for `Magento_Ui/templates` is set to be `ui/template` in the `requirejs
 
 ### deps
 
-The `deps` configuration is used to add a dependency. It can either be used directly under `var config = {}` or under a [shim configuration](#requirejs-config-shim). Adding modules under an independent `deps` configuration will load the specified modules in all pages.
+The `deps` configuration is used to add a dependency. It can either be used directly under `var config = {}` or under a [shim configuration](#shim). Adding modules under an independent `deps` configuration will load the specified modules in all pages.
 
 In this snippet, the custom `Vendor_Module/js/module` will be loaded in all pages.
 

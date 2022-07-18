@@ -16,7 +16,7 @@ The list [widget](https://glossary.magento.com/widget) source file is [lib/web/m
 
 ## Initialize
 
-For information about how to initialize a widget in a JS component or `.phtml` template, see the [Initialize JavaScript](init.md) topic.
+For information about how to initialize a widget in a JS component or `.phtml` template, see the [Initialize JavaScript](../init.md) topic.
 
 ## Options
 

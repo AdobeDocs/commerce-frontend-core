@@ -7,7 +7,7 @@ description: Learn how to initialize and configure the Adobe Commerce and Magent
 
 The Calendar widget is a customized jQuery [Datepicker Widget] that enables selecting a data using a pop-up or an in-line calendar. Calendar is also responsible for:
 
--  Merging the [global configuration] with the options that are passed from PHP when Calendar is initialized.
+-  Merging the [global configuration](#configure) with the options that are passed from PHP when Calendar is initialized.
 -  Taking into account server time zone offset.
 -  Converting date and time formats to avoid inconsistency in Zend Date format and Datepicker format.
 -  Making the calendar initialization easier.
@@ -112,7 +112,6 @@ The result is a calendar and a icon(*Click Here*) that opens the calendar.
 ![Calendar Widget](../../_images/javascript/calendar-widget-result.png)
 
 [Datepicker Widget]: http://api.jQueryui.com/datepicker/
-[global configuration]: #fedg_calendar_config
 [lib/web/mage/calendar.js]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/calendar.js
 [Initialize JavaScript]: ../init.md
 [Datepicker Widget]: http://api.jqueryui.com/datepicker/

@@ -97,7 +97,7 @@ The following methods from [jQuery UI menu widget] were adjusted in scope of the
 The following example shows how to initialize the widget and pass options during
 the initialization ([declarative notation] using the `data-mage-init` attribute).
 
-[declarative notation]: [](../init.md#declarative-notation-using-the-data-mage-init-attribute)
+[declarative notation]: ../init.md#use-the-data-mage-init-attribute
 
 ```html
 <nav class="navigation" data-action="navigation">

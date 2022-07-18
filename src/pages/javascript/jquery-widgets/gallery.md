@@ -25,7 +25,7 @@ The gallery magnifier source is [lib/web/magnifier/magnify.js].
 
 ## Initialize
 
-The gallery widget is initialized as described in [JavaScript initialization](../init.md#insert-a-js-component-in-a-phtml-template).
+The gallery widget is initialized as described in [JavaScript initialization](../init.md#insert-a-component-in-a-phtml-template).
 
 Example of declarative initialization:
 
@@ -513,7 +513,7 @@ Displays the last preview image.
 
 Image ID is passed as an argument. Displays the next preview image.
 
-If the last image ID is passed, the behavior depends on whether [loop](#gallery_loop) is enabled:
+If the last image ID is passed, the behavior depends on whether [loop](#optionsloop) is enabled:
 
 *  if loop is enabled, the first image is displayed.
 *  if loop is disabled, does not change the displayed image.
@@ -522,7 +522,7 @@ If the last image ID is passed, the behavior depends on whether [loop](#gallery_
 
 Displays the previous preview image.
 
-If the first image ID is passed, the behavior depends on whether [loop](#gallery_loop) is enabled:
+If the first image ID is passed, the behavior depends on whether [loop](#optionsloop) is enabled:
 
 *  if loop is enabled, the last image is displayed.
 *  if loop is disabled, does not change the displayed image.

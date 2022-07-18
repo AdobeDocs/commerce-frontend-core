@@ -9,7 +9,7 @@ The collapsible widget converts a header/content pair into an accordion, where t
 
 Unlike the accordion widget which is initialized for a set of title/contents pairs, the collapsible widget is initialized for one title/content pair.
 
-To "bind" several instances of a collapsible widget, the [`collateral`] option is used.
+To "bind" several instances of a collapsible widget, the [`collateral`](#collateral) option is used.
 
 Once it is expanded, the content can be updated using Ajax. The collapsed/expanded state can be saved into local storage, or cookies if the browser does not support local storage.
 
@@ -601,7 +601,6 @@ The result is two sections with separate collapsible content.
 ![Collapsible Widget](../../_images/javascript/collapsible-widget-result-initial.png)
 ![Collapsible Widget](../../_images/javascript/collapsible-widget-result-animate.png)
 
-[`collateral`]: #fedg_collaps_collateral
 [lib/web/mage/collapsible.js]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/collapsible.js
 [Accordion widget initialization]: accordion.md
-[JavaScript initialization]: ../init.md#declarative-notation-using-the-data-mage-init-attribute
+[JavaScript initialization]: ../init.md#use-the-data-mage-init-attribute

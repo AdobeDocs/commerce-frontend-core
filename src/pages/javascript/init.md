@@ -137,7 +137,7 @@ Read more about [locate JS components](debug.md).
   return;
   ```
 
--  If none of the previous cases is true, the component is executed with no further processing. Such a component does not require either `config` or `element`. The recommended way to declare such components is [using the `<script>` tag](#init_script).
+-  If none of the previous cases is true, the component is executed with no further processing. Such a component does not require either `config` or `element`. The recommended way to declare such components is [using the `<script>` tag](#use-the-script-typetextx-magento-init-tag).
 
 #### Use the `<script type="text/x-magento-init">` tag
 
@@ -273,5 +273,4 @@ $.ajax({
 });
 ```
 
-[using the \<script\> tag]: #init_script
 [selector]: https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
