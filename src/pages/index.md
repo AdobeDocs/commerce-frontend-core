@@ -41,21 +41,21 @@ Explore core frontend development principles.
 
 [UI Components](ui-components/)
 
-Lorem ipsum dolor sit amet
+Lorem ipsum dolor sit amet -->
 
 <DiscoverBlock slots="link, text"/>
 
 [JavaScript Development](javascript/)
 
-Lorem ipsum dolor sit amet
+Learn about initializing and customizing JavaScript.
 
-<DiscoverBlock slots="link, text"/>
+<!-- <DiscoverBlock slots="link, text"/>
 
 [Admin Style Guide](admin/style-guide/)
 
-Lorem ipsum dolor sit amet
+Lorem ipsum dolor sit amet -->
 
-<DiscoverBlock slots="link, text"/>
+<!-- <DiscoverBlock slots="link, text"/>
 
 [Admin Design Patterns](admin/design-patterns/)
 
