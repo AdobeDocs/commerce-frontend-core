@@ -56,6 +56,7 @@ Blocks employ templates to generate HTML. Examples of blocks include a [category
 <InlineAlert variant="info" slots="text"/>
 
 We recommend always adding a `name` to blocks. Otherwise, it is given a random name.
+To make a block non-cached, a `name` is required.
 
 | Attribute | Description | Values | Required? |
 |:------- |:------ |:------ |:------ |
