@@ -85,7 +85,7 @@ The Sticky widget will not work without basic CSS Styles.
 The sticky page element has to have a position relative to the
 beginning of the page.
 
-```CSS
+```css
 .sticky-element {
     position: relative;
 }

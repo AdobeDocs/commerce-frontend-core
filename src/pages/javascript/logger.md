@@ -7,7 +7,7 @@ description: Display errors, warnings, and debug messages with the `Logger` clas
 
 The `Logger` class provides logging functionality for an application. It can be used to display errors, warnings and debug messages.
 
-**Constructor:** `<Magento_Ui_module_dir>/view/base/web/js/lib/logger/logger.js`. [See on GitHub](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/logger/logger.js)
+**Constructor:** `<Magento_Ui_module_dir>/view/base/web/js/lib/logger/logger.js`. ([See on GitHub](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/logger/logger.js))
 
 ## Logger API
 
@@ -101,7 +101,7 @@ Returns all available log entries. It can additionally filter out the entries th
 
 `LogEntry` is a class that holds the data of log operations, like `error`, `warn`,  `info` and so on.
 
-**Constructor:** `<Magento_Ui_module_dir>/view/base/web/js/lib/logger/entry.js`. [See on GitHub](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/logger/entry.js)
+**Constructor:** `<Magento_Ui_module_dir>/view/base/web/js/lib/logger/entry.js`. ([See on GitHub](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/logger/entry.js))
 
 ### new LogEntry(message, level, [data])
 

@@ -11,7 +11,7 @@ This topic discusses how to define which [JavaScript](https://glossary.magento.c
 
 To locate scripts used for a certain element:
 
-1. Open the store page in a browser, and locate the element\'s `class` or `id` using browser debugging tools, such as Firebug (Firefox) or Inspect Element (Chrome).
+1. Open the store page in a browser, and locate the element's `class` or `id` using browser debugging tools, such as Firebug (Firefox) or Inspect Element (Chrome).
 1. Select to view the page source.
 1. Find the corresponding element in the page source and see if there are `data-mage-init` or `<script type="text/x-magento-init">` calls on this element, its children or parents. The calls contain the names of the scripts, as described in [JavaScript initialization](init.md).
 1. To find the source file of the used script:

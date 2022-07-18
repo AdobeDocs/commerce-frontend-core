@@ -524,7 +524,7 @@ $("#element").collapsible("forceDeactivate");
 
 ## Events
 
-### `beforeOpen callback
+### `beforeOpen` callback
 
 Called before the content is opened.
 

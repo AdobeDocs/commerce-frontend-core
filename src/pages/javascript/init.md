@@ -124,7 +124,7 @@ Or a custom JS component, implemented with a component path: `Vendor_Module/js/c
 
 Read more about [locate JS components](debug.md).
 
--  If a function is returned, the initializer passes the <code>config</code> and <code>element</code> values to this function. For example:
+-  If a function is returned, the initializer passes the `config` and `element` values to this function. For example:
 
   ```javascript
   return function(config, element) { ... };

@@ -141,7 +141,7 @@ To be available for the entire application instance, RequireJS library is includ
 
 To include a 3rd party library and use it within the entire website (using the [Slick JS Library](https://github.com/kenwheeler/slick/) as an example):
 
-1. Download the library and copy `slick.min.js` to the `<theme_path>/web/js` folder
+1. Download the library and copy `slick.min.js` to the `<theme_path>/web/js` folder.
 
 1. Copy `slick.less` and `slick-theme.less` to the `<theme_path>/web/css/source` folder. Also add both files to `<theme_path>/web/css/source/_extend.less`.
 

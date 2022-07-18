@@ -140,9 +140,9 @@ This is provided during widget instantiation. For example:
 formDataPost : {"formData": ["field1-name1", "field2-name1", "field3-name1"], "templateFields":['field1-name','field2-name','field3-name']]}
 ```
 
--`"formData"` is the multi-dimensional array of form field values : [['a','b'],['c','b']] received from the server and encoded
+-  `"formData"` is the multi-dimensional array of form field values : [['a','b'],['c','b']] received from the server and encoded
 
--`"templateFields"` are the input fields in the template with index suffixed after the field name. For example, `field1-name{index}`, `field2-name{index}`, `field3-name{index}`
+-  `"templateFields"` are the input fields in the template with index suffixed after the field name. For example, `field1-name{index}`, `field2-name{index}`, `field3-name{index}`
 
 ## Options
 

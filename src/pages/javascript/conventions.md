@@ -17,8 +17,7 @@ For out-of-the-box [frontend](https://glossary.magento.com/frontend) themes, usu
 
 -  `app/design/frontend/<Vendor>/<theme>`
 -  `vendor/magento/theme-frontend-<theme>`
-
-**- `<module_dir>`:**
+-  `<module_dir>`
 
 Module directory. When talking about a particular module, also notation similar to the following is used: `<Magento_Checkout_module_dir>`
 
