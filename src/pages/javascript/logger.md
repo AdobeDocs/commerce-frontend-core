@@ -1,11 +1,11 @@
 ---
 title: JavaScript Logger | Commerce Frontend Development 
-description:
+description: Display errors, warnings, and debug messages with the `Logger` class.
 ---
 
 # JavaScript Logger
 
-The `Logger` class provides logging functionality for an application. It can be used to  display errors, warnings and debug messages.
+The `Logger` class provides logging functionality for an application. It can be used to display errors, warnings and debug messages.
 
 **Constructor:** `<Magento_Ui_module_dir>/view/base/web/js/lib/logger/logger.js`. [See on GitHub](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/logger/logger.js)
 

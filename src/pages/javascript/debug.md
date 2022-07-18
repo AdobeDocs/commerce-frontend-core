@@ -1,6 +1,6 @@
 ---
 title: Debug JavaScript Components | Commerce Frontend Development 
-description:
+description: Learn how to load JavaScript components on Adobe Commerce and Magento Open Source application pages.
 ---
 
 # Debug JavaScript components

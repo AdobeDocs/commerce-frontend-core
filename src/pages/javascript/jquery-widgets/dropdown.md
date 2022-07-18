@@ -1,6 +1,6 @@
 ---
 title: Dropdown widget | Commerce Frontend Development
-description:
+description: Learn how to initialize and configure the Adobe Commerce and Magento Open Source Dropdown widget.
 ---
 
 # Dropdown widget

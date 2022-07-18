@@ -1,6 +1,6 @@
 ---
 title: jQuery widgets | Commerce Frontend Development
-description:
+description: Review introductory material about how Adobe Commerce and Magento Open Source use jQuery.
 ---
 
 # jQuery widgets

@@ -1,6 +1,6 @@
 ---
 title: Accordion widget | Commerce Frontend Development 
-description:
+description: Learn how to initialize and configure the Adobe Commerce and Magento Open Source Accordion widget.
 ---
 
 # Accordion widget
@@ -148,11 +148,6 @@ For keyboard navigation defines if the accordion expands when the title gets in 
 ## Methods
 
 Accordion widget options and keyboard interaction mostly coincide with the tabs widget methods.
-
-The custom accordion methods are the following:
-
--  [activate()]
--  [deactivate()]
 
 ### `activate(index)`
 

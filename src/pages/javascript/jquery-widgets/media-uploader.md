@@ -1,6 +1,6 @@
 ---
 title: MediaUploader widget | Commerce Frontend Development
-description:
+description: Learn how to initialize and configure the Adobe Commerce and Magento Open Source MediaUploader widget.
 contributor_name: Atwix
 contributor_link: https://www.atwix.com/
 ---

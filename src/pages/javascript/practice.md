@@ -1,6 +1,6 @@
 ---
 title: JavaScript Customization Tutorial | Commerce Frontend Development 
-description:
+description: Follow this tutorial to customize a default Adobe Commerce and Magento Open Source jQuery widget.
 ---
 
 # JavaScript customization tutorial

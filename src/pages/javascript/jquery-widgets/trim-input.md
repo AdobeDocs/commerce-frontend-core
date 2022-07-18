@@ -1,6 +1,6 @@
 ---
 title: TrimInput widget | Commerce Frontend Development
-description:
+description: Learn how to initialize and configure the Adobe Commerce and Magento Open Source TrimInput widget.
 contributor_name: Atwix
 contributor_link: https://www.atwix.com/
 ---

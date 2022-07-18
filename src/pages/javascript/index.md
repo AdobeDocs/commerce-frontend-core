@@ -1,6 +1,6 @@
 ---
 title: Introduction to JavaScript | Commerce Frontend Development 
-description:  
+description: Learn how Adobe Commerce and Magento Open Source frontend developers use JavaScript to customize the storefront and Admin applications.
 ---
 
 # Introduction to JavaScript

@@ -1,6 +1,6 @@
 ---
 title: JavaScript Resources | Commerce Frontend Development 
-description:
+description: Review general information about how Adobe Commerce and Magento Open Source use JavaScript commponents.
 ---
 
 # JavaScript Resources in Commerce

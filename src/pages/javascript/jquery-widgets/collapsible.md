@@ -1,6 +1,6 @@
 ---
 title: Collapsible widget | Commerce Frontend Development 
-description:
+description: Learn how to initialize and configure the Adobe Commerce and Magento Open Source Collapsible widget.
 ---
 
 # Collapsible widget
@@ -186,6 +186,7 @@ $("#element").collapsible({ content: ".content"});
 ```
 
 Get or set the content option, after initialization:
+
 ```javascript
 //getter
 var content = $("#element").collapsible("option","content");
@@ -233,6 +234,7 @@ $("#element").collapsible({ disabled: true});
 ```
 
 Get or set the `disabled` option after initialization:
+
 ```javascript
 //getter
 var disabled = $("#element").collapsible("option","disabled");

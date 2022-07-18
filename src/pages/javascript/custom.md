@@ -1,6 +1,6 @@
 ---
 title: Custom JavaScript | Commerce Frontend Development 
-description:
+description: Learn how to use custom JavaScript components with default Adobe Commerce and Magento Open Source components.
 ---
 
 # Custom JavaScript

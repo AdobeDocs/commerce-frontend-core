@@ -1,6 +1,6 @@
 ---
 title: Frontend Product Repository | Commerce Frontend Development 
-description:
+description: Optimize page performance by using a cache-based storage service to get product information.
 ---
 
 # Frontend product repository

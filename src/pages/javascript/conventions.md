@@ -1,6 +1,6 @@
 ---
 title: Conventional Notations | Commerce Frontend Development
-description:
+description: Review standard file naming conventions and locations for Adobe Commerce and Magento Open Source components.
 ---
 
 # Conventional notations

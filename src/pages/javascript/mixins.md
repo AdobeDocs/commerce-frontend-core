@@ -1,6 +1,6 @@
 ---
 title: JavaScript Mixins | Commerce Frontend Development 
-description:
+description: Learn how to use mixins to overwrite component methods.
 ---
 
 # JavaScript mixins
