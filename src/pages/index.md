@@ -37,11 +37,11 @@ Use these sections to learn about how to develop a web-based frontend.
 
 Explore core frontend development principles.
 
-<!-- <DiscoverBlock slots="link, text"/>
+<DiscoverBlock slots="link, text"/>
 
 [UI Components](ui-components/)
 
-Lorem ipsum dolor sit amet -->
+Render distinct user interface elements, like tables, buttons, and dialogs.
 
 <DiscoverBlock slots="link, text"/>
 
