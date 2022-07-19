@@ -33,9 +33,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@adobe/gatsby-theme-aio@npm:4.3.0":
-  version: 4.3.0
-  resolution: "@adobe/gatsby-theme-aio@npm:4.3.0"
+"@adobe/gatsby-theme-aio@npm:4.3.0-rc6":
+  version: 4.3.0-rc6
+  resolution: "@adobe/gatsby-theme-aio@npm:4.3.0-rc6"
   dependencies:
     "@adobe/focus-ring-polyfill": ^0.1.5
     "@adobe/gatsby-source-github-file-contributors": ^0.3.1
@@ -44,35 +44,33 @@ __metadata:
     "@loadable/component": ^5.14.1
     "@mdx-js/mdx": ^1.6.22
     "@mdx-js/react": ^1.6.22
-    "@spectrum-css/accordion": 3.0.24
-    "@spectrum-css/actionbutton": 2.0.0
-    "@spectrum-css/actiongroup": ^2.0.0
-    "@spectrum-css/assetlist": 3.0.24
-    "@spectrum-css/badge": ^1.0.20
-    "@spectrum-css/breadcrumb": 5.0.0
-    "@spectrum-css/button": 6.0.13
-    "@spectrum-css/card": 5.0.0
-    "@spectrum-css/checkbox": 3.1.3
-    "@spectrum-css/dialog": 6.0.14
-    "@spectrum-css/divider": 1.0.27
-    "@spectrum-css/icon": 3.0.23
-    "@spectrum-css/inlinealert": 4.0.13
-    "@spectrum-css/link": 3.1.23
-    "@spectrum-css/menu": 4.0.4
-    "@spectrum-css/modal": 3.0.23
-    "@spectrum-css/picker": 1.2.10
-    "@spectrum-css/popover": 5.0.17
-    "@spectrum-css/progresscircle": 1.0.23
-    "@spectrum-css/search": 4.2.12
-    "@spectrum-css/sidenav": 3.0.24
-    "@spectrum-css/table": 4.0.19
-    "@spectrum-css/tabs": 3.2.17
-    "@spectrum-css/textfield": 3.2.4
-    "@spectrum-css/tooltip": 3.1.18
-    "@spectrum-css/typography": 4.0.20
-    "@spectrum-css/underlay": 2.0.31
-    "@spectrum-css/vars": 8.0.0
-    "@spectrum-css/well": 3.0.22
+    "@spectrum-css/accordion": 3.0.1
+    "@spectrum-css/actionbutton": 1.0.1
+    "@spectrum-css/assetlist": 3.0.1
+    "@spectrum-css/breadcrumb": 3.0.1
+    "@spectrum-css/button": 3.0.1
+    "@spectrum-css/card": 3.0.1
+    "@spectrum-css/checkbox": 3.0.1
+    "@spectrum-css/dialog": 3.0.1
+    "@spectrum-css/divider": 1.0.1
+    "@spectrum-css/icon": 3.0.1
+    "@spectrum-css/inlinealert": 1.0.0
+    "@spectrum-css/link": 3.1.1
+    "@spectrum-css/menu": 3.0.1
+    "@spectrum-css/modal": 3.0.1
+    "@spectrum-css/picker": 1.0.1
+    "@spectrum-css/popover": 3.0.1
+    "@spectrum-css/progresscircle": 1.0.1
+    "@spectrum-css/search": 3.0.1
+    "@spectrum-css/sidenav": 3.0.1
+    "@spectrum-css/table": 3.0.1
+    "@spectrum-css/tabs": 3.0.1
+    "@spectrum-css/textfield": 3.0.1
+    "@spectrum-css/tooltip": 3.0.1
+    "@spectrum-css/typography": 3.0.1
+    "@spectrum-css/underlay": 2.0.9
+    "@spectrum-css/vars": 3.0.1
+    "@spectrum-css/well": 3.0.1
     algolia-html-extractor: ^0.0.1
     algoliasearch: 4.10.4
     await-exec: ^0.1.2
@@ -121,7 +119,7 @@ __metadata:
     gatsby: ^4.12.1
     react: ^17.0.0
     react-dom: ^17.0.0
-  checksum: 54c29796c3c96c7424cec1f2a4c3103ff1e75eb22be618a799bd3da4d375e8d41c0476745f213bbfa243383e120fd66bc6137a039036d330424cf1e65f59877f
+  checksum: 786c3008aab23a848213ea6a1de007568e877a7d100c087676c8982454d74841053e24caea49aebe5d5e4c6989d909da29f3c229ab4501b12ff34f501c815d85
   languageName: node
   linkType: hard
 
@@ -4326,297 +4324,284 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@spectrum-css/accordion@npm:3.0.24":
-  version: 3.0.24
-  resolution: "@spectrum-css/accordion@npm:3.0.24"
+"@spectrum-css/accordion@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@spectrum-css/accordion@npm:3.0.1"
   peerDependencies:
-    "@spectrum-css/icon": ^3.0.21
-    "@spectrum-css/vars": ^8.0.0
-  checksum: 721cbaf75e623f1d853552573948fc60b574f34688df7ed8f7ba72ceaff28e8c4bba0ec4e21bdbb9ab511a0473827a83bd7d6fcb6c6c72051713c357c7ecde0f
+    "@spectrum-css/icon": ^3.0.0-beta.0
+    "@spectrum-css/vars": ^3.0.0-beta.1
+  checksum: 1ac72ff913a200430df4b0f1735815a35c2e3ad363d8e5f61ae1190a41fe328dbbe0873a3ecf7af76b5274ee7dacc451c0d3c9e3354371be91e90f12fe83e111
   languageName: node
   linkType: hard
 
-"@spectrum-css/actionbutton@npm:2.0.0":
-  version: 2.0.0
-  resolution: "@spectrum-css/actionbutton@npm:2.0.0"
+"@spectrum-css/actionbutton@npm:1.0.1":
+  version: 1.0.1
+  resolution: "@spectrum-css/actionbutton@npm:1.0.1"
   peerDependencies:
-    "@spectrum-css/icon": ^3.0.22
-    "@spectrum-css/tokens": ^1.0.0-beta.2
-  checksum: 89a1c2a1156f866c1eee9812bf8548743e8417a60d0cfcf21e35665ea7e1ae1432f47b423630e10d8b33a1a5eeb8f9558c91bc821848748ff704f10cef8ee9a0
+    "@spectrum-css/vars": ^3.0.0-beta.1
+  checksum: 0d69737cdced08a2fe5a67d2ccc010b7c159c7c1eefc28b8f43c2a9f61e1923d7d7d0c666bfe10a51f800cb5384203bc7dea304a3e8e5fbe22e6dacdf12355b2
   languageName: node
   linkType: hard
 
-"@spectrum-css/actiongroup@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@spectrum-css/actiongroup@npm:2.0.0"
+"@spectrum-css/assetlist@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@spectrum-css/assetlist@npm:3.0.1"
   peerDependencies:
-    "@spectrum-css/actionbutton": ^1.1.13
-    "@spectrum-css/vars": ^8.0.0
-  checksum: 2003d7b911a3b364700e3a9e976799ba3668d9590e9fa2f5ea71e8dd099846d2c17d6f63da86719b4f48630bbdf35a733ce9e4f0cc1b2df9987c1bdbb01cd0b2
+    "@spectrum-css/checkbox": ^3.0.0-beta.0
+    "@spectrum-css/icon": ^3.0.0-beta.0
+    "@spectrum-css/vars": ^3.0.0-beta.1
+  checksum: 3ef43b4274ce7af5a7830b28cc9ad9b90e3d0144c167f3954cd3368b82fe156b6eed70986b3e0373b3b4a1caa39c11fac58753e1e9a087e0f8e7e4ce0a823b0d
   languageName: node
   linkType: hard
 
-"@spectrum-css/assetlist@npm:3.0.24":
-  version: 3.0.24
-  resolution: "@spectrum-css/assetlist@npm:3.0.24"
+"@spectrum-css/breadcrumb@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@spectrum-css/breadcrumb@npm:3.0.1"
   peerDependencies:
-    "@spectrum-css/checkbox": ^3.1.1
-    "@spectrum-css/icon": ^3.0.21
-    "@spectrum-css/vars": ^8.0.0
-  checksum: ce2a73c8e106c6c8c22cd79ee0d1a5156bd93ce972d7826a544e32ec56848d6f7608c2657a4bee8d0286f6ae3b5fb88109f0beafe85f86cfc3b7dc96cfcef16b
+    "@spectrum-css/actionbutton": ^1.0.0-beta.0
+    "@spectrum-css/icon": ^3.0.0-beta.0
+    "@spectrum-css/vars": ^3.0.0-beta.1
+  checksum: 09fdf5c0274dfb8c94d17629ff65c5ce0214558e0218ff4208fa6e3bdb49cd2ca736f9a7adc53bb64d35a722a40fe1ffce1c18ae2abd26ef590d9b61428344ce
   languageName: node
   linkType: hard
 
-"@spectrum-css/badge@npm:^1.0.20":
-  version: 1.0.20
-  resolution: "@spectrum-css/badge@npm:1.0.20"
+"@spectrum-css/button@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@spectrum-css/button@npm:3.0.1"
   peerDependencies:
-    "@spectrum-css/vars": ^8.0.0
-  checksum: 75c9a6272c836ac8317e985598cd8646917420599d2a3b582132cab1cb80a626e4c32492ce009ff9f2f10e3466022c11210082a63b11460faba3209acbff555d
+    "@spectrum-css/vars": ^3.0.0-beta.1
+  checksum: 257c3e2e86e103334f08d3c6360e9dd5a0c5902f22eb95964ccf035a15fb4e8e3c69fe4456d3e13651c370210b4af1ccc73ce165e397fc4fba1a76b77ce1ba89
   languageName: node
   linkType: hard
 
-"@spectrum-css/breadcrumb@npm:5.0.0":
-  version: 5.0.0
-  resolution: "@spectrum-css/breadcrumb@npm:5.0.0"
+"@spectrum-css/card@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@spectrum-css/card@npm:3.0.1"
   peerDependencies:
-    "@spectrum-css/actionbutton": ^1.1.13
-    "@spectrum-css/icon": ^3.0.21
-    "@spectrum-css/vars": ^8.0.0
-  checksum: 4256f46263a8ac5a83670c496a6183cd736c9dc345e2e675cd6833e8347cc5e9671dd1e7de4e2399fa482c9598afbb8285290249e0c88679d58483da716088e1
+    "@spectrum-css/actionbutton": ^1.0.0-beta.0
+    "@spectrum-css/asset": ^3.0.0-beta.0
+    "@spectrum-css/checkbox": ^3.0.0-beta.0
+    "@spectrum-css/icon": ^3.0.0-beta.0
+    "@spectrum-css/quickaction": ^3.0.0-beta.0
+    "@spectrum-css/typography": ^3.0.0-beta.0
+    "@spectrum-css/vars": ^3.0.0-beta.1
+  checksum: ac70c844f8bc4cdace7fc4eda9bd6d3f21c3830a1502323f10243521fcf903c469530c8d43e0204e81e03286485d1ef083abebe5c0c74541d75fbe69ce6e2b86
   languageName: node
   linkType: hard
 
-"@spectrum-css/button@npm:6.0.13":
-  version: 6.0.13
-  resolution: "@spectrum-css/button@npm:6.0.13"
+"@spectrum-css/checkbox@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@spectrum-css/checkbox@npm:3.0.1"
   peerDependencies:
-    "@spectrum-css/vars": ^8.0.0
-  checksum: bae7d865f8fb186ae05ed6cd212c21ee12f6e5f84fa8a0f6a1136e896f5185810bbdd2c48176b0939d58c967b5dd395961f5478659560d05a5d061feac83d78c
+    "@spectrum-css/icon": ^3.0.0-beta.0
+    "@spectrum-css/vars": ^3.0.0-beta.1
+  checksum: 51d9eb393b81e051c65f0554e9d0b454140ffaa47abae55cecfc052d0941455eca162d75ad7778825a7c224ce1d5f68648af2965973f62365d925c4ef02af301
   languageName: node
   linkType: hard
 
-"@spectrum-css/card@npm:5.0.0":
-  version: 5.0.0
-  resolution: "@spectrum-css/card@npm:5.0.0"
+"@spectrum-css/dialog@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@spectrum-css/dialog@npm:3.0.1"
   peerDependencies:
-    "@spectrum-css/actionbutton": ^1.1.13
-    "@spectrum-css/asset": ^3.0.20
-    "@spectrum-css/checkbox": ^3.1.1
-    "@spectrum-css/icon": ^3.0.21
-    "@spectrum-css/quickaction": ^3.0.24
-    "@spectrum-css/typography": ^4.0.18
-    "@spectrum-css/vars": ^8.0.0
-  checksum: 54b70a1427540288ffed46f0e407646db92e810fe2755cc15e0359c7dfc3536799cbfae9d843e0a5262fa6d41418927a17c088d72a45eddf1d267ac77f41805e
+    "@spectrum-css/actionbutton": ^1.0.0-beta.0
+    "@spectrum-css/button": ^3.0.0-beta.3
+    "@spectrum-css/buttongroup": ^3.0.0-beta.4
+    "@spectrum-css/divider": ^1.0.0-beta.0
+    "@spectrum-css/icon": ^3.0.0-beta.0
+    "@spectrum-css/modal": ^3.0.0-beta.0
+    "@spectrum-css/underlay": ^2.0.8-beta.0
+    "@spectrum-css/vars": ^3.0.0-beta.1
+  checksum: 235cc247f30ecae44779412b2ed597f6dee10eccc1d19b2591ee1fe0127dc679b9687a93eeb8e78881404e116f31ceb8ccfa90588704632b7963bbe5f1150679
   languageName: node
   linkType: hard
 
-"@spectrum-css/checkbox@npm:3.1.3":
-  version: 3.1.3
-  resolution: "@spectrum-css/checkbox@npm:3.1.3"
-  peerDependencies:
-    "@spectrum-css/icon": ^3.0.21
-    "@spectrum-css/vars": ^8.0.0
-  checksum: 3dd3c0e205b54734d8726d4dc6c4466e1912ac5756b724804eb50e10f67da3f95950d8431f38ef3980af727c11487f60bec08f90fcdbe20d1aedd6846b5a55a8
-  languageName: node
-  linkType: hard
-
-"@spectrum-css/dialog@npm:6.0.14":
-  version: 6.0.14
-  resolution: "@spectrum-css/dialog@npm:6.0.14"
-  peerDependencies:
-    "@spectrum-css/button": ^6.0.1
-    "@spectrum-css/buttongroup": ^5.0.1
-    "@spectrum-css/closebutton": ^1.2.1
-    "@spectrum-css/divider": ^1.0.14
-    "@spectrum-css/icon": ^3.0.13
-    "@spectrum-css/modal": ^3.0.12
-    "@spectrum-css/underlay": ^2.0.21
-    "@spectrum-css/vars": ^8.0.0
-  checksum: 2cd52b9a4b5522d973987104f68888e7e9d590afa743b4c6c02aebb2541b1a7a4e3c84222562527cf8080e20aea02249628ef0d473ecb6b0621d0a52be0ad666
-  languageName: node
-  linkType: hard
-
-"@spectrum-css/divider@npm:1.0.27":
-  version: 1.0.27
-  resolution: "@spectrum-css/divider@npm:1.0.27"
+"@spectrum-css/divider@npm:1.0.1":
+  version: 1.0.1
+  resolution: "@spectrum-css/divider@npm:1.0.1"
   dependencies:
-    "@spectrum-css/vars": ^8.0.0
-  checksum: b7e4d2343a3b393b9878234459ed9cfbe648bf1e586f4bd96f0806db78544a6445c70217c09f2bf12751a70caaa7fe44474a1ba7c6b071281d057b13139849c2
+    "@spectrum-css/vars": ^3.0.1
+  checksum: 6ec005df176c4bfead8bde4a5aab025b2e37e4d7ae172dee4dc174d3bb893559b90166897fcead6237abb9e155a6d0aa8ceb4e0032fdb77fed4f516cbc370d22
   languageName: node
   linkType: hard
 
-"@spectrum-css/icon@npm:3.0.23":
-  version: 3.0.23
-  resolution: "@spectrum-css/icon@npm:3.0.23"
+"@spectrum-css/icon@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@spectrum-css/icon@npm:3.0.1"
   peerDependencies:
-    "@spectrum-css/vars": ^8.0.0
-  checksum: ce61e6424fbca8b9bd6aed18ec62a41e09aed46fa2abac19d4edb69c53818af818634e6a441313a094181399356358f37aa1658c38f03821d1c07343da8e5001
+    "@spectrum-css/vars": ^3.0.0-beta.1
+  checksum: 4f62e1866435382175524387c20530dc2aa8c16a0d927b336f9dfd7b998a3d1b057b6d1e78bde772676add1cff5a40a58837e790d2ab1e268f3ec03ff2e5bbb7
   languageName: node
   linkType: hard
 
-"@spectrum-css/inlinealert@npm:4.0.13":
-  version: 4.0.13
-  resolution: "@spectrum-css/inlinealert@npm:4.0.13"
+"@spectrum-css/inlinealert@npm:1.0.0":
+  version: 1.0.0
+  resolution: "@spectrum-css/inlinealert@npm:1.0.0"
   peerDependencies:
-    "@spectrum-css/icon": ^3.0.21
-    "@spectrum-css/vars": ^8.0.0
-  checksum: fe04feac72554c602bddf5b82f822eef91425010981b79cd5c0a64b83e9ce098fa0b185d2ca92e27d167021e230c62b2adb2a2c909e965421826824d230af08a
+    "@spectrum-css/icon": ^3.0.1
+    "@spectrum-css/vars": ^3.0.1
+  checksum: e7945fba52464540ae156be5f542a972ad8ae5bc0100a31a13468002d07f1b465f3e6c2ec35d867bcbaf494dd8173398dc187687581254439565a2de8ed5211f
   languageName: node
   linkType: hard
 
-"@spectrum-css/link@npm:3.1.23":
-  version: 3.1.23
-  resolution: "@spectrum-css/link@npm:3.1.23"
+"@spectrum-css/link@npm:3.1.1":
+  version: 3.1.1
+  resolution: "@spectrum-css/link@npm:3.1.1"
   peerDependencies:
-    "@spectrum-css/vars": ^8.0.0
-  checksum: bda69f224ae29d587c5d758b9d0e56ea18204f9db4f53160e9ece2c750a6f25e254f0800c5269d01cf0ad8e1300e3aed96f6f272eb046f1cc5d495290eda5353
+    "@spectrum-css/vars": ^3.0.0-beta.1
+  checksum: 99c795504e9bbd6b6dbf456c7c7ad7c8eb496e2360a9add9ec69d8c1d3fa32df507405d6d18aacdc56bab49f973da3c5841c28dd9278d15f804955cd2f9b172c
   languageName: node
   linkType: hard
 
-"@spectrum-css/menu@npm:4.0.4":
-  version: 4.0.4
-  resolution: "@spectrum-css/menu@npm:4.0.4"
+"@spectrum-css/menu@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@spectrum-css/menu@npm:3.0.1"
   peerDependencies:
-    "@spectrum-css/divider": ^1.0.23
-    "@spectrum-css/icon": ^3.0.21
-    "@spectrum-css/vars": ^8.0.0
-  checksum: f5f9d1ab45de05f53b49c6d090a3077934709325e270b214107c6c08d8786ee23b2ad5f0ea84aa36e73b953ddd7cfe0dc626ade5542f2dcc01212bc22186c7ce
+    "@spectrum-css/icon": ^3.0.0-beta.0
+    "@spectrum-css/vars": ^3.0.0-beta.0
+  checksum: e81a8157c56fc6a63585a6d850236844b0035c098579ea6f011a719fa4781efb5442fa4757f8e52fbe180ee5cfd85adfd74d4a953f7a227c87a3f832e491ef44
   languageName: node
   linkType: hard
 
-"@spectrum-css/modal@npm:3.0.23":
-  version: 3.0.23
-  resolution: "@spectrum-css/modal@npm:3.0.23"
+"@spectrum-css/modal@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@spectrum-css/modal@npm:3.0.1"
   peerDependencies:
-    "@spectrum-css/vars": ^8.0.0
-  checksum: e2ce69d24a8d6bda3a5dd2f9f7a20a5df7f6a55f4ee330ef51c08a73eeda9b6173e80a4b464062983591c816d87c2a227821555b7d0e07a8775b70994efa0683
+    "@spectrum-css/vars": ^3.0.0-beta.1
+  checksum: e56991fa4fdde72c54a0096a59ae439dff6b7c94c832dbf02e99ad3638500df4841a847d3db9d82b228176bb5c46070dc6994561831283e9005f3ed718cae5c9
   languageName: node
   linkType: hard
 
-"@spectrum-css/picker@npm:1.2.10":
-  version: 1.2.10
-  resolution: "@spectrum-css/picker@npm:1.2.10"
+"@spectrum-css/picker@npm:1.0.1":
+  version: 1.0.1
+  resolution: "@spectrum-css/picker@npm:1.0.1"
   peerDependencies:
-    "@spectrum-css/icon": ^3.0.21
-    "@spectrum-css/menu": ^4.0.0
-    "@spectrum-css/popover": ^5.0.0
-    "@spectrum-css/vars": ^8.0.0
-  checksum: 34d11ffc5562e9043dfa26eefd95f5463367c79fe128c61bb1765776891fd87d568692e2ffb0620d224dda8ec8c28615211a47ac2a70581724d4d8777e540704
+    "@spectrum-css/actionbutton": ^1.0.0-beta.0
+    "@spectrum-css/icon": ^3.0.0-beta.0
+    "@spectrum-css/menu": ^3.0.0-beta.0
+    "@spectrum-css/popover": ^3.0.0-beta.0
+    "@spectrum-css/vars": ^3.0.0-beta.1
+  checksum: 578c70c843f994f467b852ca5594225b6c771c161d6b8a2a283856debc3dbd58d79210944079fb2c31140adfffbd81f6f3ec9be3166f2be090748fb2bd35f751
   languageName: node
   linkType: hard
 
-"@spectrum-css/popover@npm:5.0.17":
-  version: 5.0.17
-  resolution: "@spectrum-css/popover@npm:5.0.17"
+"@spectrum-css/popover@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@spectrum-css/popover@npm:3.0.1"
   peerDependencies:
-    "@spectrum-css/dialog": ^6.0.0
-    "@spectrum-css/vars": ^8.0.0
-  checksum: 1e92bbde630421e8756e30cfdb1d5acb785fe8ad79920df4d0f153d9834ca7bad91759e4db4c155bd21521e2d57f564227fadf52d647bdad82ed4c1e8cbf49a1
+    "@spectrum-css/dialog": ^3.0.0-beta.2
+    "@spectrum-css/vars": ^3.0.0-beta.1
+  checksum: 4ded5b3f0ea20425bbc23b5a14d734e1dfdaebad80e95d79b891a9861871dd738ce3ae353a58cae3f01e13720959f4c84958418616cbf217ca7495e61ffc067b
   languageName: node
   linkType: hard
 
-"@spectrum-css/progresscircle@npm:1.0.23":
-  version: 1.0.23
-  resolution: "@spectrum-css/progresscircle@npm:1.0.23"
+"@spectrum-css/progresscircle@npm:1.0.1":
+  version: 1.0.1
+  resolution: "@spectrum-css/progresscircle@npm:1.0.1"
   peerDependencies:
-    "@spectrum-css/vars": ^8.0.0
-  checksum: b28b7438f977a182653a27545c1a6dc254d11afb947ab0e9468dc5561ea706a6981710f5afe7873fb789d7ba593a1848067afcab5668f4c8bfeb9eeeb6648b88
+    "@spectrum-css/vars": ^3.0.0-beta.1
+  checksum: c57f09a0b633e2825c6cd268e0aab48b224a89ea00549c867a03a59a7f563e39db78f045250fc8b72abbbbe9fb62616a453af644223c29d7ab40db99169cc754
   languageName: node
   linkType: hard
 
-"@spectrum-css/search@npm:4.2.12":
-  version: 4.2.12
-  resolution: "@spectrum-css/search@npm:4.2.12"
+"@spectrum-css/search@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@spectrum-css/search@npm:3.0.1"
   peerDependencies:
-    "@spectrum-css/clearbutton": ^1.2.10
-    "@spectrum-css/icon": ^3.0.21
-    "@spectrum-css/textfield": ^3.2.2
-    "@spectrum-css/vars": ^8.0.0
-  checksum: 478e943868f0767588d1d58d5e5c1d8494f58a277b0b2ea6340ddc80445733fb335c1b72ce8de1aa15704776bc3ed1d518b7f60524d555c94244c119f61b50d7
+    "@spectrum-css/button": ^3.0.0-beta.0
+    "@spectrum-css/icon": ^3.0.0-beta.0
+    "@spectrum-css/textfield": ^3.0.0-beta.0
+    "@spectrum-css/vars": ^3.0.0-beta.1
+  checksum: 8c43f924a9d5baa876cf021b733cbdbbbff597986ff7aaab0381f7457d50706a7bffee749d46f1565ee1042f93b6b438d96c4b26dfe42d29fad8978e3e7ad6c8
   languageName: node
   linkType: hard
 
-"@spectrum-css/sidenav@npm:3.0.24":
-  version: 3.0.24
-  resolution: "@spectrum-css/sidenav@npm:3.0.24"
+"@spectrum-css/sidenav@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@spectrum-css/sidenav@npm:3.0.1"
   peerDependencies:
-    "@spectrum-css/vars": ^8.0.0
-  checksum: a3932f6ab74c24ee0a2150a5b2bf41be0b35e27700f1926e31848f17723c3600b8cdafb91bb5acc6407e0f2406260784f881a6e5f464d9b778aa41007d49024e
+    "@spectrum-css/vars": ^3.0.0-beta.1
+  checksum: 357399efee53a11bdd5b7d47d3f6e94676281c0807f39fddfc81236b5d406265fadbef96745b8229337aa3f37411018bfb63343bc958fa206b0f133ffd344c54
   languageName: node
   linkType: hard
 
-"@spectrum-css/table@npm:4.0.19":
-  version: 4.0.19
-  resolution: "@spectrum-css/table@npm:4.0.19"
+"@spectrum-css/table@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@spectrum-css/table@npm:3.0.1"
   peerDependencies:
-    "@spectrum-css/icon": ^3.0.21
-    "@spectrum-css/vars": ^8.0.0
-  checksum: 6d9b1f2a9bf4ed0a4a3e3917b09444582711170ebe59eb04d93d6893a1ffc6506a73d84117fb4110820812776171f3d8fa1587c2f1ef3068bacd716b739584ac
+    "@spectrum-css/icon": ^3.0.0-beta.0
+    "@spectrum-css/vars": ^3.0.0-beta.1
+  checksum: 6755b3796e298a071eb1427b29ee7b36117528eeffa69b79d54726d24908fdae44e3cf3cfd2d9a970f8642712d76f68daec8a9c5fd63ed4bdf44c65cbb773592
   languageName: node
   linkType: hard
 
-"@spectrum-css/tabs@npm:3.2.17":
-  version: 3.2.17
-  resolution: "@spectrum-css/tabs@npm:3.2.17"
+"@spectrum-css/tabs@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@spectrum-css/tabs@npm:3.0.1"
   peerDependencies:
-    "@spectrum-css/menu": ^4.0.0
-    "@spectrum-css/picker": ^1.2.7
-    "@spectrum-css/vars": ^8.0.0
-  checksum: 6d41b8e3000ae2b2eefcbbb1c4569fc31bb54610b64cca6863ea6e55dc822c8c6d13912822c0b32bcdb67beac36f8b59810b15b717190abb6b20b4b340468f63
+    "@spectrum-css/menu": ^3.0.0-beta.0
+    "@spectrum-css/picker": ^1.0.0-beta.0
+    "@spectrum-css/vars": ^3.0.0-beta.1
+  checksum: ad228697dcff41bfcd1798b0f956582d57a03891cd32b600eab895d66571d897eb7be10d4c2e4fa006a7b99e202720db34049fd9490be8c086fd5a1a73b1590d
   languageName: node
   linkType: hard
 
-"@spectrum-css/textfield@npm:3.2.4":
-  version: 3.2.4
-  resolution: "@spectrum-css/textfield@npm:3.2.4"
+"@spectrum-css/textfield@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@spectrum-css/textfield@npm:3.0.1"
   peerDependencies:
-    "@spectrum-css/vars": ^8.0.0
-  checksum: 87581ba368337c438a54cbf9e66f7e34de574cbeea931f5dab244c701d3eaea04de772cf880183d6cac08d8af940fdee982a19a29012f2d0785379c4f424c6bb
+    "@spectrum-css/vars": ^3.0.0-beta.1
+  checksum: 3b062b771ef3993b5438932ef3c48bdc9840f78b44885674f84a6e346a50e69539215afda54387336d460af6706f5afc65adf8e677c08dfb23e8b1aa6726703f
   languageName: node
   linkType: hard
 
-"@spectrum-css/tooltip@npm:3.1.18":
-  version: 3.1.18
-  resolution: "@spectrum-css/tooltip@npm:3.1.18"
+"@spectrum-css/tooltip@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@spectrum-css/tooltip@npm:3.0.1"
   peerDependencies:
-    "@spectrum-css/icon": ^3.0.21
-    "@spectrum-css/vars": ^8.0.0
-  checksum: 8ef3b01978ee4638e3ba0c5cd7a345d783aebe32c27bab9fb9cf255480222ecc404d324b5b4098b1ed69be18cf7bdc73e10e2a1b548c7e30898f1a6a9c2dec7f
+    "@spectrum-css/icon": ^3.0.0-beta.0
+    "@spectrum-css/vars": ^3.0.0-beta.1
+  checksum: 7ce3e9c9fd116f8bd7f5de5f17497268e75b282fc5605bed45b4deac247e8186d9151681e4686e89dcd8df438bd37f0971ea791206cf91f02745affbbf6fd8f5
   languageName: node
   linkType: hard
 
-"@spectrum-css/typography@npm:4.0.20":
-  version: 4.0.20
-  resolution: "@spectrum-css/typography@npm:4.0.20"
+"@spectrum-css/typography@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@spectrum-css/typography@npm:3.0.1"
   peerDependencies:
-    "@spectrum-css/vars": ^8.0.0
-  checksum: 389dbf1ae191cd712c1539a94541b89d32d132b3589f8a0018212ab078266d1c83937101aad7a0868aea58b46ce22b3e00ed9b5ac7bdcf8476c48dabc52c8110
+    "@spectrum-css/vars": ^3.0.0-beta.1
+  checksum: c9789c28971618c211f382b5be0f52e6fc363a0f54e1fb6fc1ff731602bfdb28fc734f909a77569783310390060f888faa347e6b7216d8b8b6213711fa91127c
   languageName: node
   linkType: hard
 
-"@spectrum-css/underlay@npm:2.0.31":
-  version: 2.0.31
-  resolution: "@spectrum-css/underlay@npm:2.0.31"
+"@spectrum-css/underlay@npm:2.0.9":
+  version: 2.0.9
+  resolution: "@spectrum-css/underlay@npm:2.0.9"
   peerDependencies:
-    "@spectrum-css/vars": ^8.0.0
-  checksum: b9c3734b7e8a05851644ab962a998e569e1ad828ceef2a3a6989e2232bdc6d19f93f11ffd273091b39a5de84e9bc478ed20291056a79572957028d4dcce28bdd
+    "@spectrum-css/vars": ^3.0.0-beta.1
+  checksum: b9c2f30ab76cc77a275ef0d4cb8de48db6ddfadcc45ef44fffbb0eaf11b8d973812e22d155563abc533f4fd287c1ee32573d47693a0f1bf53ed2b5244eb46000
   languageName: node
   linkType: hard
 
-"@spectrum-css/vars@npm:8.0.0, @spectrum-css/vars@npm:^8.0.0":
-  version: 8.0.0
-  resolution: "@spectrum-css/vars@npm:8.0.0"
-  checksum: a0639066b21a2300bdc61f567e990960c626d53e2b8966de1174aa42790d29a13da878bf2ace398b875ced2afd622daf3b8bdaecd526e93451d3404f76091378
+"@spectrum-css/vars@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@spectrum-css/vars@npm:3.0.1"
+  checksum: 93845c2005dab8dc9a627d9c76a941e5dd7bdcf06e415b856d0a9f22ad04ecaa5d78b44e4bbd4d569a962b458bc8179189eff72a19ddd4d6d4353de255a5965e
   languageName: node
   linkType: hard
 
-"@spectrum-css/well@npm:3.0.22":
-  version: 3.0.22
-  resolution: "@spectrum-css/well@npm:3.0.22"
+"@spectrum-css/vars@npm:^3.0.1":
+  version: 3.0.2
+  resolution: "@spectrum-css/vars@npm:3.0.2"
+  checksum: 2ab8bacf457031ada3a2dbdee07cb4ab6154e2d1ca5643f8bf3c18a98a382e27c7d1d6a17e33fc08808a497b61ed623f75b582cd67356fba9279636c7762d3bb
+  languageName: node
+  linkType: hard
+
+"@spectrum-css/well@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@spectrum-css/well@npm:3.0.1"
   peerDependencies:
-    "@spectrum-css/vars": ^8.0.0
-  checksum: c1f6cffb17b4911ae0cd6bd497e10d3b04b17e146c502eb4d1d8f5f28de91bd295f1ed973f8b1e935c700ceab59c443791cf186af78e54df2af551420e009e29
+    "@spectrum-css/vars": ^3.0.0-beta.1
+  checksum: b394c148f6ab7a8f0e7e91820463593dee81f88356495125b775878cd900bb10d4b1432bb40296910ca4de45c28b7ded51532508be201a68282f69642cbe1435
   languageName: node
   linkType: hard
 
@@ -8499,7 +8484,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "dev-site-documentation-template@workspace:."
   dependencies:
-    "@adobe/gatsby-theme-aio": 4.3.0
+    "@adobe/gatsby-theme-aio": 4.3.0-rc6
     gatsby: 4.13.0
     react: ^17.0.2
     react-dom: ^17.0.2
