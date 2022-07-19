@@ -73,9 +73,9 @@ jobs:
           cmd: install # will run `yarn install` command
 
       - name: Check internal links
-        run: npm run test:links
+        run: yarn test:links
 
       - name: Build site
         # Run build step only if link check is successful
         if: ${{ success() }}
-        run: npm run build
+        run: yarn build
