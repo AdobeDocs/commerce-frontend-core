@@ -68,9 +68,8 @@ jobs:
           VALIDATE_YAML: true
 
       - name: Install dependencies
-        uses: bahmutov/npm-install@v1
-        with:
-          useLockFile: false
+        uses: bahmutov/npm-install@HEAD
+      - run: npm t
 
       - name: Check internal links
         run: npm run test:links
