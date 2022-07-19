@@ -101,4 +101,4 @@ class Actions extends Column
 
 #### Result
 
-![ActionsColumn Component example]({{ site.baseurl }}/common/images/ui_comps/actions-column-result.png)
+![ActionsColumn Component example](../_images/ui-components/actions-column-result.png)

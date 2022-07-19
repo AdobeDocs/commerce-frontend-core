@@ -119,7 +119,7 @@ This example integrates the MultiselectColumn component with the [Listing]({{ pa
 
 #### Result
 
-![MultiselectColumn Component Example]({{ site.baseurl }}/common/images/ui_comps/ui-multiselectcolumn-result.png)
+![MultiselectColumn Component Example](../_images/ui-components/ui-multiselectcolumn-result.png)
 
 ## Source files
 

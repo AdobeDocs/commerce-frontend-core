@@ -52,4 +52,4 @@ This example integrates the Input component with the [Form]({{ page.baseurl }}/u
 
 #### Result
 
-![Input Component example]({{ site.baseurl }}/common/images/ui_comps/ui-input-result.png)
+![Input Component example](../_images/ui-components/ui-input-result.png)

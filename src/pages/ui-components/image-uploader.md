@@ -55,4 +55,4 @@ Extends [`FileUploader`]({{ page.baseurl }}/ui_comp_guide/components/ui-fileuplo
 
 ## Result
 
-![ImageUploader Component Example]({{ site.baseurl }}/common/images/ui_comps/ui-image-uploader-example.png)
+![ImageUploader Component Example](../_images/ui-components/ui-image-uploader-example.png)

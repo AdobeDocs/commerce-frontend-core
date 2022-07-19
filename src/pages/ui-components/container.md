@@ -71,7 +71,7 @@ The `<container>` node must be located in the scope of the `<fieldset>` node.
 ```
 #### Result
 
-![Container with a field]({{ site.baseurl }}/common/images/ui_comps/container-with-field-result.png)
+![Container with a field](../_images/ui-components/container-with-field-result.png)
 
 ### Container without any fields
 
@@ -103,4 +103,4 @@ The following is an example of the Container component only.
 
 The `text` of this container is styled using the `additionalClasses` value, i.e. `sample-additional-class`.
 
-![Container with out any fields]({{ site.baseurl }}/common/images/ui_comps/container-result.png)
+![Container with out any fields](../_images/ui-components/container-result.png)

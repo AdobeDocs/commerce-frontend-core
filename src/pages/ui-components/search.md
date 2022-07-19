@@ -40,4 +40,4 @@ This is an example of how the Search component integrates with the [Listing]({{ 
 
 #### Result
 
-![Search Component Example]({{ site.baseurl }}/common/images/ui_comps/ui-search-result.png)
+![Search Component Example](../_images/ui-components/ui-search-result.png)

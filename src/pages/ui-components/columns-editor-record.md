@@ -90,7 +90,7 @@ This is an example of how the ColumnsEditorRecord component integrates with the 
 
 #### Result
 
-![ColumnsEditorRecord Component example]({{ site.baseurl }}/common/images/ui_comps/ui-columns-editor-record-result.png)
+![ColumnsEditorRecord Component example](../_images/ui-components/ui-columns-editor-record-result.png)
 
 ### Add custom field type to ColumnsEditorRecord
 
@@ -193,4 +193,4 @@ This is an example of how to add textarea and multi-select editor types to Colum
 
 #### Result
 
-![ColumnsEditorRecord Component example]({{ site.baseurl }}/common/images/ui_comps/ui-columns-editor-record-custom-field-types-result.png)
+![ColumnsEditorRecord Component example](../_images/ui-components/ui-columns-editor-record-custom-field-types-result.png)

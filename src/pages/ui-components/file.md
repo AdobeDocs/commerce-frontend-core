@@ -52,4 +52,4 @@ This is an example of how the File component integrates with the [Form]({{ page.
 
 #### Result
 
-![File Component example]({{ site.baseurl }}/common/images/ui_comps/ui-file-result.png)
+![File Component example](../_images/ui-components/ui-file-result.png)

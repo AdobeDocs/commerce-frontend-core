@@ -93,4 +93,4 @@ Extends [`UiCollection`]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_uicol
 
 ## Result
 
-![Multiline Component Example]({{ site.baseurl }}/common/images/ui_comps/multiline-component-result.png)
+![Multiline Component Example](../_images/ui-components/multiline-component-result.png)

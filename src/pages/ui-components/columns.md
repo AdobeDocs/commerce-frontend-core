@@ -84,7 +84,7 @@ This is an example of how the Columns component integrates with the [Listing]({{
 
 #### Result
 
-![Columns Component Example]({{ site.baseurl }}/common/images/ui_comps/ui-columns-result.png)
+![Columns Component Example](../_images/ui-components/ui-columns-result.png)
 
 ### Integrate the Columns component as a list with the Listing component
 
@@ -136,4 +136,4 @@ This is an example of how the Columns component with the list display mode integ
 
 #### Result
 
-![Columns List Component Example]({{ site.baseurl }}/common/images/ui_comps/ui-columns-list-result.png)
+![Columns List Component Example](../_images/ui-components/ui-columns-list-result.png)

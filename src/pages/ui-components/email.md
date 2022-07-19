@@ -43,4 +43,4 @@ This example integrates the Paging component with the [Form]({{ page.baseurl }}/
 
 ### Result
 
-![Email Component example]({{ site.baseurl }}/common/images/ui_comps/ui-email-result.png)
+![Email Component example](../_images/ui-components/ui-email-result.png)

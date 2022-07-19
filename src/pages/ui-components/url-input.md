@@ -117,6 +117,6 @@ This example integrates the urlInput component with the [Form]({{ page.baseurl }
 
 #### Result
 
-![urlInput Component default link example]({{ site.baseurl }}/common/images/ui_comps/ui-urlinput-default-link-result.png)
-![urlInput Component category link example]({{ site.baseurl }}/common/images/ui_comps/ui-urlinput-category-link-result.png)
-![urlInput Component product link example]({{ site.baseurl }}/common/images/ui_comps/ui-urlinput-product-link-result.png)
+![urlInput Component default link example](../_images/ui-components/ui-urlinput-default-link-result.png)
+![urlInput Component category link example](../_images/ui-components/ui-urlinput-category-link-result.png)
+![urlInput Component product link example](../_images/ui-components/ui-urlinput-product-link-result.png)

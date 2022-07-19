@@ -87,4 +87,4 @@ This is an example of how the ColumnsEditorView component integrates with the [C
 
 #### Result
 
-![ColumnsEditorView Component example]({{ site.baseurl }}/common/images/ui_comps/ui-columns-editor-view-result.png)
+![ColumnsEditorView Component example](../_images/ui-components/ui-columns-editor-view-result.png)

@@ -52,4 +52,4 @@ This example integrates the Textarea component with the [Form]({{ page.baseurl }
 
 #### Result
 
-![Textarea Component example]({{ site.baseurl }}/common/images/ui_comps/ui-textarea-result.png)
+![Textarea Component example](../_images/ui-components/ui-textarea-result.png)

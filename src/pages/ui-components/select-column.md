@@ -68,4 +68,4 @@ This is an example of how the SelectColumn component integrates with the [Listin
 
 #### Result
 
-![SelectColumn Component example]({{ site.baseurl }}/common/images/ui_comps/ui-selectcolumn-result.png)
+![SelectColumn Component example](../_images/ui-components/ui-selectcolumn-result.png)

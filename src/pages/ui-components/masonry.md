@@ -50,4 +50,4 @@ Extends `Listing`:
 
 ## Result
 
-![Masonry Grid]({{ site.baseurl }}/common/images/ui_comps/masonry-grid-result.png)
+![Masonry Grid](../_images/ui-components/masonry-grid-result.png)

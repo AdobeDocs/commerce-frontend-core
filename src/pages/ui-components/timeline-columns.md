@@ -66,4 +66,4 @@ Extends [`Columns`]({{ page.baseurl }}/ui_comp_guide/components/ui-columns.html)
 
 #### Result
 
-![TimelineColumns Component Example]({{ site.baseurl }}/common/images/ui_comps/ui-timeline-columns-result.png)
+![TimelineColumns Component Example](../_images/ui-components/ui-timeline-columns-result.png)

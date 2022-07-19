@@ -43,7 +43,7 @@ This is an example of how to add a date range filter type:
 
 #### Result
 
-![DateRange filter type]({{ site.baseurl }}/common/images/ui_comps/date-range-result.png)
+![DateRange filter type](../_images/ui-components/date-range-result.png)
 
 ### TextRange
 
@@ -64,7 +64,7 @@ This is an example of how to add a text range filter type:
 
 #### Result
 
-![TextRange filter type]({{ site.baseurl }}/common/images/ui_comps/text-range-result.png)
+![TextRange filter type](../_images/ui-components/text-range-result.png)
 
 ### Methods and events
 

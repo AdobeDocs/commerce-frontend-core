@@ -49,7 +49,7 @@ This is an example of how the ColumnsEditingBulk component integrates with the [
 
 #### Result
 
-![ColumnsEditingBulk Component example]({{ site.baseurl }}/common/images/ui_comps/ui-columns-editing-bulk-result.png)
+![ColumnsEditingBulk Component example](../_images/ui-components/ui-columns-editing-bulk-result.png)
 
 ### Disable the ColumnsEditingBulk component on the ColumnsEditor component
 

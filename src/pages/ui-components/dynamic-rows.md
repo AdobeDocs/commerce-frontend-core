@@ -96,4 +96,4 @@ This is an example of how the DynamicRows component integrates with the [Form]({
 
 #### Result
 
-![DynamicRows Component example]({{ site.baseurl }}/common/images/ui_comps/dynamicrows-result.png)
+![DynamicRows Component example](../_images/ui-components/dynamicrows-result.png)

@@ -64,4 +64,4 @@ This is an example of how the Checkboxset component integrates with the [Form]({
 
 #### Result
 
-![Checkboxset Component Example]({{ site.baseurl }}/common/images/ui_comps/ui-checkboxset-result.png)
+![Checkboxset Component Example](../_images/ui-components/ui-checkboxset-result.png)

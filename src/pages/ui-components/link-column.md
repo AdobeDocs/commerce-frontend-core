@@ -87,4 +87,4 @@ class CustomDataProvider extends DataProvider
 
 #### Result
 
-![LinkColumn Component example]({{ site.baseurl }}/common/images/ui_comps/ui-linkcolumn-result.png)
+![LinkColumn Component example](../_images/ui-components/ui-linkcolumn-result.png)

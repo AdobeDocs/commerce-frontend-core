@@ -49,4 +49,4 @@ The following example integrates the Text component with the [Form]({{ page.base
 
 #### Result
 
-![Text Component example]({{ site.baseurl }}/common/images/ui_comps/ui-text-result.png)
+![Text Component example](../_images/ui-components/ui-text-result.png)

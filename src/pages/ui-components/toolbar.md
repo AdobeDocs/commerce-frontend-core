@@ -47,7 +47,7 @@ In the following example, we group the following components:
 
 #### Result
 
-![ListingToolbar UiComponent]({{ site.baseurl }}/common/images/ui_comps/listing-toolbar-component-result.png)
+![ListingToolbar UiComponent](../_images/ui-components/listing-toolbar-component-result.png)
 
 ## Source files
 

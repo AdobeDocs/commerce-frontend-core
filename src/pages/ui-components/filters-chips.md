@@ -44,4 +44,4 @@ This is an example of how the FiltersChips component integrates with the [Filter
 
 #### Result
 
-![FiltersChips Component example]({{ site.baseurl }}/common/images/ui_comps/ui-filterschips-result.png)
+![FiltersChips Component example](../_images/ui-components/ui-filterschips-result.png)

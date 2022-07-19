@@ -64,5 +64,5 @@ Extends [`Abstract`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/M
 
 ## Result
 
-![Select Component Example]({{ site.baseurl }}/common/images/ui_comps/ui-select-result.png)
-![Select Component Options Example]({{ site.baseurl }}/common/images/ui_comps/ui-select-options-result.png)
+![Select Component Example](../_images/ui-components/ui-select-result.png)
+![Select Component Options Example](../_images/ui-components/ui-select-options-result.png)

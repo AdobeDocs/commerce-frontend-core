@@ -70,4 +70,4 @@ return Collection.extend({
 
 #### Result
 
-![ColumnsControls component example]({{ site.baseurl }}/common/images/ui_comps/columns-controls-result.png)
+![ColumnsControls component example](../_images/ui-components/columns-controls-result.png)

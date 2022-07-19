@@ -62,7 +62,7 @@ This example integrates the Checkbox component configured as a toggle element wi
 
 #### Result
 
-![Checkbox Toggle UiComponent]({{ site.baseurl }}/common/images/ui_comps/checkbox-component-result.png)
+![Checkbox Toggle UiComponent](../_images/ui-components/checkbox-component-result.png)
 
 ### Integrate the Checkbox component configured as checkbox element with the Form component
 
@@ -96,7 +96,7 @@ This example integrates the Checkbox component configured as a checkbox element 
 
 #### Result
 
-![Checkbox UiComponent]({{ site.baseurl }}/common/images/ui_comps/ui-checkbox-result.png)
+![Checkbox UiComponent](../_images/ui-components/ui-checkbox-result.png)
 
 ### Integrate the Checkbox component configured as radio element with the Form component
 
@@ -130,4 +130,4 @@ This example integrates the Checkbox component configured as a radio element wit
 
 #### Result
 
-![Checkbox Radio UiComponent]({{ site.baseurl }}/common/images/ui_comps/ui-radio-result.png)
+![Checkbox Radio UiComponent](../_images/ui-components/ui-radio-result.png)

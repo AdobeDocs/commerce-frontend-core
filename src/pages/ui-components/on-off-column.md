@@ -44,4 +44,4 @@ This example integrates the OnOffColumn component with the [Listing]({{ page.bas
 
 #### Result
 
-![OnOffColumn Component example]({{ site.baseurl }}/common/images/ui_comps/ui-onoffcolumn-result.png)
+![OnOffColumn Component example](../_images/ui-components/ui-onoffcolumn-result.png)

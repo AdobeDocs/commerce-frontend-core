@@ -68,4 +68,4 @@ Extends [`UiElement`]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_uielemen
 
 ## Result
 
-![Sortby Component]({{ site.baseurl }}/common/images/ui_comps/ui-sortby-result.png)
+![Sortby Component](../_images/ui-components/ui-sortby-result.png)

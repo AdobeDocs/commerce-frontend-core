@@ -60,7 +60,7 @@ The following example adds a new main fieldset that contains a collapsible field
 
 #### Result
 
-![Checkbox UiComponent]({{ site.baseurl }}/common/images/ui_comps/fieldset-component-result.png)
+![Checkbox UiComponent](../_images/ui-components/fieldset-component-result.png)
 
 ## Source files
 

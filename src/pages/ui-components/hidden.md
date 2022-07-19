@@ -41,4 +41,4 @@ This example integrates the Hidden component with the [Form]({{ page.baseurl }}/
 
 ### Result
 
-![Hidden Component example]({{ site.baseurl }}/common/images/ui_comps/ui-hidden-result.png)
+![Hidden Component example](../_images/ui-components/ui-hidden-result.png)

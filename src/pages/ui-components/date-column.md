@@ -53,4 +53,4 @@ This is an example of how the DateColumn component integrates with the [Listing]
 
 ### Result
 
-![DateColumn Component Example]({{ site.baseurl }}/common/images/ui_comps/ui-date-column-result.png)
+![DateColumn Component Example](../_images/ui-components/ui-date-column-result.png)

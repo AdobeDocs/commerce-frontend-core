@@ -63,4 +63,4 @@ Extends [`Select`]({{ page.baseurl }}/ui_comp_guide/components/ui-select.html)
 
 ## Result
 
-![Multiselect Component Example]({{ site.baseurl }}/common/images/ui_comps/ui-multiselect-result.png)
+![Multiselect Component Example](../_images/ui-components/ui-multiselect-result.png)

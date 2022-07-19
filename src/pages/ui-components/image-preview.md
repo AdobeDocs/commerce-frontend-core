@@ -46,4 +46,4 @@ Extends `Column`:
 
 ### Result
 
-![ImagePreview Component]({{ site.baseurl }}/common/images/ui_comps/image-preview-result.png)
+![ImagePreview Component](../_images/ui-components/image-preview-result.png)

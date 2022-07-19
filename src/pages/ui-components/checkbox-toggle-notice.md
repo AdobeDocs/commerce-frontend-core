@@ -64,5 +64,5 @@ This example integrates the CheckboxToggleNotice component with the [Form]({{ pa
 
 #### Result
 
-![CheckboxToggleNotice with Selected Option #1 Component Example]({{ site.baseurl }}/common/images/ui_comps/checkbox-toggle-notice-1-result.png)
-![CheckboxToggleNotice with Selected Option #2 Component Example]({{ site.baseurl }}/common/images/ui_comps/checkbox-toggle-notice-2-result.png)
+![CheckboxToggleNotice with Selected Option #1 Component Example](../_images/ui-components/checkbox-toggle-notice-1-result.png)
+![CheckboxToggleNotice with Selected Option #2 Component Example](../_images/ui-components/checkbox-toggle-notice-2-result.png)

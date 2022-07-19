@@ -54,7 +54,7 @@ Here is an example of how File Uploader component integrates with [Form]({{ page
 
 ### Result
 
-![FileUploader Component example]({{ site.baseurl }}/common/images/ui_comps/ui-fileuploader-result.png)
+![FileUploader Component example](../_images/ui-components/ui-fileuploader-result.png)
 
 ## Source files
 

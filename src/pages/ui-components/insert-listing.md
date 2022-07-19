@@ -161,7 +161,7 @@ class CustomDataProvider extends DataProvider
 
 #### Result
 
-![InsertListing Component example]({{ site.baseurl }}/common/images/ui_comps/ui-insertlisting-result.png)
+![InsertListing Component example](../_images/ui-components/ui-insertlisting-result.png)
 
 ### Integrate InsertListing component with Modal component
 
@@ -221,5 +221,5 @@ Here is an example of how the InsertListing component integrates with the [Modal
 
 As a result, we see the button which opens the modal pop-up with listing:
 
-![Button that opens the modal pop-up with InsertListing Component]({{ site.baseurl }}/common/images/ui_comps/ui-insertlisting-open-button-result.png)
-![InsertListing Component in the Modal Component example]({{ site.baseurl }}/common/images/ui_comps/ui-insertlisting-modal-result.png)
+![Button that opens the modal pop-up with InsertListing Component](../_images/ui-components/ui-insertlisting-open-button-result.png)
+![InsertListing Component in the Modal Component example](../_images/ui-components/ui-insertlisting-modal-result.png)

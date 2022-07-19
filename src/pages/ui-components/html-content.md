@@ -82,7 +82,7 @@ Template `Vendor/Module/view/adminhtml/templates/template.phtml`:
 
 #### Result
 
-![HtmlContent Component example]({{ site.baseurl }}/common/images/ui_comps/ui-htmlcontent-result.png)
+![HtmlContent Component example](../_images/ui-components/ui-htmlcontent-result.png)
 
 ## Source files
 

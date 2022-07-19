@@ -62,4 +62,4 @@ This is an example of how the Radioset component integrates with the [Form]({{ p
 
 #### Result
 
-![Radioset Component Example]({{ site.baseurl }}/common/images/ui_comps/ui-radioset-result.png)
+![Radioset Component Example](../_images/ui-components/ui-radioset-result.png)

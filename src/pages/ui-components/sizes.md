@@ -56,4 +56,4 @@ This example integrates the Sizes component with the [Paging]({{ page.baseurl }}
 
 #### Result
 
-![Sizes Component example]({{ site.baseurl }}/common/images/ui_comps/ui-sizes-result.png)
+![Sizes Component example](../_images/ui-components/ui-sizes-result.png)

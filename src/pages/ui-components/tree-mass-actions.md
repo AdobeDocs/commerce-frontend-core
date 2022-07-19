@@ -76,4 +76,4 @@ Extends [`MassActions`]({{ page.baseurl }}/ui_comp_guide/components/ui-massactio
 
 ## Result
 
-![TreeMassActions Component Example]({{ site.baseurl }}/common/images/ui_comps/tree-mass-actions-component-result.png)
+![TreeMassActions Component Example](../_images/ui-components/tree-mass-actions-component-result.png)

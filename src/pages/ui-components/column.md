@@ -69,7 +69,7 @@ This is an example of how the Column component integrates with the [Listing]({{ 
 
 #### Result
 
-![Column Component Example]({{ site.baseurl }}/common/images/ui_comps/ui-column-result.png)
+![Column Component Example](../_images/ui-components/ui-column-result.png)
 
 ### Configure Field Action for Column component
 

@@ -45,7 +45,7 @@ This example configures the DragAndDrop component for the [Columns]({{ page.base
 
 #### Result
 
-![DateColumn Component Example]({{ site.baseurl }}/common/images/ui_comps/ui-draganddrop-columns-result.png)
+![DateColumn Component Example](../_images/ui-components/ui-draganddrop-columns-result.png)
 
 ### Disable the DragAndDrop component for the Columns component
 

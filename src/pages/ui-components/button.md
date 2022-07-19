@@ -74,7 +74,7 @@ Here is an example of a Button component ("Test Button") added below a [Listing]
 
 The Button component appears below a Listing component on the page, as follows:
 
-![Listing Button example]({{ site.baseurl }}/common/images/ui_comps/listing_button.png)
+![Listing Button example](../_images/ui-components/listing_button.png)
 
 ### Integrate Button component with Form component
 
@@ -125,4 +125,4 @@ Here is an example of how the Button component integrates with the [Form]({{ pag
 
 #### Result
 
-![Form Buttons example]({{ site.baseurl }}/common/images/ui_comps/ui-form-buttons-example.png)
+![Form Buttons example](../_images/ui-components/ui-form-buttons-example.png)

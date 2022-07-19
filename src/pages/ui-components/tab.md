@@ -75,4 +75,4 @@ This example integrates the Tab component with the [Form]({{ page.baseurl }}/ui_
 
 ## Results
 
-![Ui tab result]({{ site.baseurl }}/common/images/ui_comps/ui-tab-result.png)
+![Ui tab result](../_images/ui-components/ui-tab-result.png)

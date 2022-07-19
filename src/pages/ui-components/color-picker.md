@@ -44,4 +44,4 @@ The ColorPicker component must be a child of the [Listing]({{ page.baseurl }}/ui
 
 ## Result
 
-![Color Picker Component]({{ site.baseurl }}/common/images/ui_comps/color_picker_result.png)
+![Color Picker Component](../_images/ui-components/color_picker_result.png)

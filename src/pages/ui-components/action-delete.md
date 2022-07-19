@@ -60,4 +60,4 @@ This is an example of how ActionDelete component integrates with [DynamicRows]({
 
 #### Result
 
-![ActionDelete Component with Record Component example]({{ site.baseurl }}/common/images/ui_comps/action-delete-result.png)
+![ActionDelete Component with Record Component example](../_images/ui-components/action-delete-result.png)

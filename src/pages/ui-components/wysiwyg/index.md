@@ -150,7 +150,7 @@ Next, create a custom form in the `ModuleName\view\adminhtml\ui_component` direc
 
 #### Result
 
-![Wysiwyg Component example]({{ site.baseurl }}/common/images/ui_comps/ui-wysiwyg-result.png)
+![Wysiwyg Component example](../../_images/ui-components/ui-wysiwyg-result.png)
 
 Last, add your data provider, controller, and routes. Refer to [Creating a Magento admin page]({{ page.baseurl }}/ext-best-practices/extension-coding/example-module-adminpage.html) for more information.
 

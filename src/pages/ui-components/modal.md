@@ -111,7 +111,7 @@ The following sample is an example of the configuration for a simple modal windo
 
 The Button component `Open modal` is added, that onClick, opens a modal window with a `slide` effect.
 
-![Slide Modal]({{ site.baseurl }}/common/images/ui_comps/slide_modal_result.png)
+![Slide Modal](../_images/ui-components/slide_modal_result.png)
 
 ### Component with extended settings
 
@@ -175,7 +175,7 @@ The Button component `Open modal` is added, that onClick, opens a modal window w
 
 As a result, the modal window auto-opens on page load with a `popup` effect.
 
-![Notification Modal]({{ site.baseurl }}/common/images/ui_comps/notification_modal_result.png)
+![Notification Modal](../_images/ui-components/notification_modal_result.png)
 
 ## Source files
 

@@ -33,7 +33,7 @@ This sample shows how the thumbnail column is added into the Product [Listing]({
 
 #### Result
 
-![Thumbnail UiComponent]({{ site.baseurl }}/common/images/ui_comps/thumbnail-component-result.png)
+![Thumbnail UiComponent](../_images/ui-components/thumbnail-component-result.png)
 
 ## Source files
 

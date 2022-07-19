@@ -72,4 +72,4 @@ This example integrates the Filters component with the [Listing]({{ page.baseurl
 
 #### Result
 
-![Filters Component example]({{ site.baseurl }}/common/images/ui_comps/ui-filters-result.png)
+![Filters Component example](../_images/ui-components/ui-filters-result.png)

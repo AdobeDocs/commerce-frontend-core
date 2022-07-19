@@ -91,4 +91,4 @@ Extends [`UiCollection`]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_uicol
 
 ## Result
 
-![DynamicRows Component with Record Component example]({{ site.baseurl }}/common/images/ui_comps/dynamicrows-record-result.png)
+![DynamicRows Component with Record Component example](../_images/ui-components/dynamicrows-record-result.png)

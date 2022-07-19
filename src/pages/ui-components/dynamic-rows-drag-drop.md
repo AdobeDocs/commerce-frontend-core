@@ -73,7 +73,7 @@ This is an example of how the DynamicRowsDragAndDrop component integrates with t
 
 #### Result
 
-![DynamicRowsDragAndDrop Component example]({{ site.baseurl }}/common/images/ui_comps/dynamicrows-dnd-result.png)
+![DynamicRowsDragAndDrop Component example](../_images/ui-components/dynamicrows-dnd-result.png)
 
 ### Disable the DynamicRowsDragAndDrop component on the DynamicRows component
 

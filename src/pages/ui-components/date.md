@@ -79,5 +79,5 @@ The following shows how to add date validation using a calendar widget as an exa
 
 ## Result
 
-![Date Component Example]({{ site.baseurl }}/common/images/ui_comps/ui-date-result.png)
-![Date Component Expanded Example]({{ site.baseurl }}/common/images/ui_comps/ui-date-expanded-result.png)
+![Date Component Example](../_images/ui-components/ui-date-result.png)
+![Date Component Expanded Example](../_images/ui-components/ui-date-expanded-result.png)

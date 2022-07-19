@@ -62,8 +62,8 @@ The component's options are set in the configuration `.xml` file as follows:
 
 #### Result
 
-![Expandable Component example]({{ site.baseurl }}/common/images/ui_comps/ui-expandable-result.png)
-![Expandable Component expanded example]({{ site.baseurl }}/common/images/ui_comps/ui-expandable-expanded-result.png)
+![Expandable Component example](../_images/ui-components/ui-expandable-result.png)
+![Expandable Component expanded example](../_images/ui-components/ui-expandable-expanded-result.png)
 
 ## Dependencies
 

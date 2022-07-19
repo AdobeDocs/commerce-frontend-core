@@ -42,4 +42,4 @@ This is an example of how the Bookmarks component integrates with the [Listing](
 
 #### Result
 
-![Bookmarks Component example]({{ site.baseurl }}/common/images/ui_comps/bookmarks-result.png)
+![Bookmarks Component example](../_images/ui-components/bookmarks-result.png)

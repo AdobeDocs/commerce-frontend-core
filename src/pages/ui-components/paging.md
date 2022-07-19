@@ -41,7 +41,7 @@ This example integrates the Paging component with the [Listing]({{ page.baseurl 
 
 #### Result
 
-![Paging Component example]({{ site.baseurl }}/common/images/ui_comps/ui-paging-result.png)
+![Paging Component example](../_images/ui-components/ui-paging-result.png)
 
 ### Configure page size and options for Paging component
 
@@ -71,4 +71,4 @@ This example configures the Paging component with the page size and options:
 
 ### Result
 
-![Configured Paging Component example]({{ site.baseurl }}/common/images/ui_comps/ui-paging-configured-result.png)
+![Configured Paging Component example](../_images/ui-components/ui-paging-configured-result.png)
