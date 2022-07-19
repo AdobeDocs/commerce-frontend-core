@@ -66,3 +66,14 @@ jobs:
           # https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
           VALIDATE_MARKDOWN: true
           VALIDATE_YAML: true
+
+      - name: Install dependencies
+        uses: bahmutov/npm-install@v1
+
+      - name: Check internal links
+        run: npm run test:links
+
+      - name: Build site
+        # Run build step only if link check is successful
+        if: ${{ success() }}
+        run: npm run build
