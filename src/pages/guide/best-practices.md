@@ -19,8 +19,8 @@ We recommend using the following best practices when developing themes:
 
     See the [Layout chapter of this Guide](layouts/index.md) for more information on working with layouts.
 
-1. Reuse the markup and design patterns from the default application files by referencing the existing `.phtml` templates ([templates hints can help](themes/debug.md#templates) or copy-pasting HTML markup to your custom templates.
-1. Use `<theme_dir>/etc/view.xml` to change image types or sizes, or add your own types. See [Configure images properties](themes/configure.md) for details. Use this file to also [customize the product gallery widget](https://devdocs.magento.com/guides/v2.4/javascript-dev-guide/widgets/widget_gallery.html).
+1. Reuse the markup and design patterns from the default application files by referencing the existing `.phtml` templates ([templates hints can help](themes/debug.md#templates)) or copy-pasting HTML markup to your custom templates.
+1. Use `<theme_dir>/etc/view.xml` to change image types or sizes, or add your own types. See [Configure images properties](themes/configure.md) for details. Use this file to also [customize the product gallery widget](../javascript/jquery-widgets/gallery.md).
 1. If you need to change the wording in the user interface, [add custom CSV dictionary files](translations/dictionary.md) instead of overriding `.phtml` templates.
 1. Use [the CSS critical path](css/critical-path.md) to render the page much faster.
 1. Always keep the text translatable. To ensure text used within your templates can be translated, wrap it within the translate function:
