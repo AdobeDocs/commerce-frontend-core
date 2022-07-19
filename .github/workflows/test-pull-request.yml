@@ -68,7 +68,9 @@ jobs:
           VALIDATE_YAML: true
 
       - name: Install dependencies
-        run: yarn
+        uses: borales/actions-yarn@v3.0.0
+        with:
+          cmd: install # will run `yarn install` command
 
       - name: Check internal links
         run: npm run test:links
