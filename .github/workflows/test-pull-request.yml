@@ -69,7 +69,7 @@ jobs:
 
       - name: Install dependencies
         uses: bahmutov/npm-install@HEAD
-      - run: npm t
+      - run: yarn
 
       - name: Check internal links
         run: npm run test:links
