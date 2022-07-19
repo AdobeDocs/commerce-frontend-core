@@ -69,6 +69,8 @@ jobs:
 
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
+        with:
+          useLockFile: false
 
       - name: Check internal links
         run: npm run test:links
