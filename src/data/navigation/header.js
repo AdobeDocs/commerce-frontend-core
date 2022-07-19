@@ -11,8 +11,8 @@ module.exports = [
     //   title: "UI Components",
     //   path: "/ui-components/",
     // },
-    // {
-    //   title: "JavaScript",
-    //   path: "/javascript/",
-    // },
+    {
+      title: "JavaScript",
+      path: "/javascript/",
+    },
   ];
