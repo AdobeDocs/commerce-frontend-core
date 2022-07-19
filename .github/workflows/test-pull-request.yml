@@ -67,13 +67,19 @@ jobs:
           VALIDATE_MARKDOWN: true
           VALIDATE_YAML: true
 
-      - name: Install dependencies
+      - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: "16"
-          cache: "yarn"
-          architecture: "x64"
-      - run: yarn install --frozen-lockfile
+          node-version: "16.16.0"
+
+      - name: Install yarn
+        run: corepack enable
+
+      - name: Update Yarn
+        run: yarn set version stable
+
+      - name: Install dependencies
+        run: yarn install
 
       - name: Check internal links
         run: yarn test:links
