@@ -68,9 +68,12 @@ jobs:
           VALIDATE_YAML: true
 
       - name: Install dependencies
-        uses: borales/actions-yarn@v3.0.0
+        uses: actions/setup-node@v3
         with:
-          cmd: install # will run `yarn install` command
+          node-version: "16"
+          cache: "yarn"
+          architecture: "x64"
+      - run: yarn install --frozen-lockfile
 
       - name: Check internal links
         run: yarn test:links
