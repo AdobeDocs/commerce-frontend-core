@@ -68,9 +68,6 @@ jobs:
           VALIDATE_YAML: true
 
       - name: Install dependencies
-        uses: bahmutov/npm-install@HEAD
-        with:
-          working-directory: ./
         run: yarn
 
       - name: Check internal links
