@@ -4,15 +4,15 @@ module.exports = [
       path: "/ui-components/",
     },
     {
-      title: "Components",
-      path: "/ui-components/components/",
-    },
-    {
       title: "Concepts",
       path: "/ui-components/concepts/",
     },
     {
-      title: "How tos",
+      title: "Components",
+      path: "/ui-components/components/",
+    },
+    {
+      title: "How to",
       path: "/ui-components/howto/",
     },
     {
