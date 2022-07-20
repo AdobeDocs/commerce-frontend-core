@@ -3,7 +3,7 @@ group: ui-components-guide
 title: HtmlContent component
 ---
 
-The HtmlContent [UI component](https://glossary.magento.com/ui-component) provides the ability to process and render a [layout](https://glossary.magento.com/layout) structure or a Magento block directly inside a UI component configuration. Processing and rendering is executed on the [server side](https://glossary.magento.com/server-side).
+The HtmlContent [UI component](https://glossary.magento.com/ui-component) provides the ability to process and render a [layout](https://glossary.magento.com/layout) structure or a block directly inside a UI component configuration. Processing and rendering is executed on the [server side](https://glossary.magento.com/server-side).
 
 The layout structure inside HtmlContent must contain only one top-level block. The top-level block may contain as many child blocks or containers as required.
 All blocks inside HtmlContent are integrated into the layout, so external blocks can refer to them and vice verse.
@@ -37,7 +37,7 @@ All blocks inside HtmlContent are integrated into the layout, so external blocks
 </form>
 ```
 
-### Render simple Magento block
+### Render simple block
 
 ```xml
 <form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">

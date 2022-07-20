@@ -7,7 +7,7 @@ menu_title: WYSIWYG component
 
 The WYSIWYG component is an [adapter](https://glossary.magento.com/adapter) for [TinyMCE](https://www.tiny.cloud/) that integrates an editor instance with the [form component](form.html). It expects a complete [widget](https://glossary.magento.com/widget) declaration in the `content` option, which should contain both [markup](https://glossary.magento.com/markup) and the script responsible for creating the editor's instance.
 
-Magento supports all selector, plugin, and toolbar/menu configuration options supported by the TinyMCE `tinymce.init()` method. However, Magento doesn't validate TinyMCE configuration options or flag invalid values before adding the editor to a page.
+The application supports all selector, plugin, and toolbar/menu configuration options supported by the TinyMCE `tinymce.init()` method. However, the application doesn't validate TinyMCE configuration options or flag invalid values before adding the editor to a page.
 
 <InlineAlert variant="info" slots="text" />
 
@@ -73,13 +73,13 @@ Extends [`Abstract`](https://github.com/magento/magento2/blob/2.4/app/code/Magen
 
 ## Add a default editor
 
-Adding the default Magento WYSIWYG editor to a page requires the following steps:
+Adding the default WYSIWYG editor to a page requires the following steps:
 
 1. Create a layout
 1. Create a form
 1. Add a data provider, controller, and routes
 
-The following example shows how to integrate the default Magento WYSIWYG editor as a UI component inside a custom form.
+The following example shows how to integrate the default WYSIWYG editor as a UI component inside a custom form.
 
 First, create a layout file in the `ModuleName\view\adminhtml\layout` directory and register the UI component:
 
@@ -151,11 +151,11 @@ Next, create a custom form in the `ModuleName\view\adminhtml\ui_component` direc
 
 ![Wysiwyg Component example](../../_images/ui-components/ui-wysiwyg-result.png)
 
-Last, add your data provider, controller, and routes. Refer to [Creating a Magento admin page](https://developer.adobe.com/commerce/php/tutorials/admin/create-admin-page/) for more information.
+Last, add your data provider, controller, and routes. Refer to [Creating an Admin page](https://developer.adobe.com/commerce/php/tutorials/admin/create-admin-page/) for more information.
 
 ## Modify the default editor
 
-The most common way to configure UI components in Magento is to add a configuration section inside the XMl element when declaring it on a form. If you need to apply dynamic modifications to a UI component, we recommend using PHP modifiers since Magento supports replacing the default WYSIWYG editor with other WYSIWYG libraries.
+The most common way to configure UI components in the application is to add a configuration section inside the XMl element when declaring it on a form. If you need to apply dynamic modifications to a UI component, we recommend using PHP modifiers since the application supports replacing the default WYSIWYG editor with other WYSIWYG libraries.
 
 <InlineAlert variant="info" slots="text" />
 
@@ -275,7 +275,7 @@ class DataProvider extends \Magento\Ui\DataProvider\ModifierPoolDataProvider
 
 After you configure the modifier pool in your data provider, you must create the modifier. This is the code that changes the default configuration defined in `Magento\Cms\Model\Wysiwyg\Config.php`. Modifier values override the default configuration, so they allow you to change default behavior.
 
-The following example shows how to change the default Magento WYSIWYG editor toolbar and plugins configuration:
+The following example shows how to change the default WYSIWYG editor toolbar and plugins configuration:
 
 ### `Test\Module\Ui\DataProvider\Custom\Modifier\WysiwygConfigModifier`
 

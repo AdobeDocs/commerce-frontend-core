@@ -68,7 +68,7 @@ Example of setting `exports` in a component's configuration `.xml` file:
 </argument>
 ```
 
-For an example of `exports` usage in Magento code see [`product_form.xml`, line 76](https://github.com/magento/magento2/blob/2.4/app/code/Magento/CatalogInventory/view/adminhtml/ui_component/product_form.xml#L76)
+For an example of `exports` usage, see [`product_form.xml`, line 76](https://github.com/magento/magento2/blob/2.4/app/code/Magento/CatalogInventory/view/adminhtml/ui_component/product_form.xml#L76)
 
 ## `imports` property
 
@@ -103,7 +103,7 @@ Example of using `imports` in a component's configuration `.xml` file:
 </argument>
 ```
 
-For an example of `imports` usage in Magento code see [`product_form.xml`, line 105](https://github.com/magento/magento2/blob/2.4/app/code/Magento/CatalogInventory/view/adminhtml/ui_component/product_form.xml#L105)
+For an example of `imports` usage, see [`product_form.xml`, line 105](https://github.com/magento/magento2/blob/2.4/app/code/Magento/CatalogInventory/view/adminhtml/ui_component/product_form.xml#L105)
 
 ## `links` property
 
@@ -138,7 +138,7 @@ Example of using `links` in a component's configuration `.xml` file:
 </argument>
 ```
 
-For an example of `links` usage in Magento code see [`text.js`, line 22](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/element/text.js#L22)
+For an example of `links` usage, see [`text.js`, line 22](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/element/text.js#L22)
 
 ## `listens` property
 The `listens` property is used to track the changes of a component's property. `listens`'s value is an object, composed of the following:
@@ -173,7 +173,7 @@ Example of using `listens` in a component's configuration `.xml` file:
 </argument>
 ```
 
-For example of `listens` usage in Magento code see [`new_category_form.xml`, line 84](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Catalog/view/adminhtml/ui_component/new_category_form.xml#L84)
+For an example of `listens` usage, see [`new_category_form.xml`, line 84](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Catalog/view/adminhtml/ui_component/new_category_form.xml#L84)
 
 ## Template strings usage {#string_templ}
 

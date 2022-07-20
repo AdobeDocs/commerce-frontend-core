@@ -11,7 +11,7 @@ As a developer, use this tutorial as a guide for adding your own custom JavaScri
 
 ## Step 1. Make the editor library available
 
-Download and install your editor's library into your module's `view/base/web/js` directory to have Magento publish it under `pub/static`.
+Download and install your editor's library into your module's `view/base/web/js` directory to have the application publish it under `pub/static`.
 
 ## Step 2. Register editor
 
@@ -68,7 +68,7 @@ At minimum your adapter should implement the following methods:
 *  `onFormValidation()`
 *  `encodeContent(content)`
 
-If you are integrating Magento entities such as variable and widget as plugins, your adapter must also implement the following methods:
+If you are integrating entities such as variable and widget as plugins, your adapter must also implement the following methods:
 
 *  `get( id )` - returns the editor by it element id
 *  `getContent()` - returns the content stored in the WYSIWYG field
@@ -350,7 +350,7 @@ define([
 
 ## Step 4. Load editor library
 
-After loading, modifying, and merging all configurations, Magento serializes the result into a JSON object and passes it to the UI component.
+After loading, modifying, and merging all configurations, the application serializes the result into a JSON object and passes it to the UI component.
 
 In your module's `view/base/requirejs-config.js` file, add a shim configuration entry for your editor in order to have RequireJS load it correctly.
 

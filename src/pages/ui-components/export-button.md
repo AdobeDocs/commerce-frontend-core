@@ -54,7 +54,7 @@ The following is an example of configuring the component using the`sales_order_g
 </listing>
 ```
 
-By default Magento allows [CSV](https://glossary.magento.com/csv) and Excel [XML](https://glossary.magento.com/xml) export data formats.
+By default the application allows [CSV](https://glossary.magento.com/csv) and Excel [XML](https://glossary.magento.com/xml) export data formats.
 
 ### Add new export format
 

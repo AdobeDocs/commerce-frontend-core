@@ -3,8 +3,8 @@ group: ui-components-guide
 title: WYSIWYG Extension Points
 ---
 
-This topic goes over the extension points for Magento entities.
-You can use these connection points to integrate Magento entities into third-party WYSIWYG editors.
+This topic goes over the extension points for entities.
+You can use these connection points to integrate entities into third-party WYSIWYG editors.
 
 See [Add a third-party editor] for instructions on how to add a third-party WYSIWYG editor to Magento.
 
@@ -152,16 +152,17 @@ CKEDITOR.plugins.add('variable', {
 });
 ```
 
-To integrate the default Magento UI for variable, you must have access to the following data:
+To integrate the default application UI for variable, you must have access to the following data:
 
 *  backend URL to load the `variable_modal`
 
   **Example:** method that returns this url
+
   ``` js
-public function getVariablesWysiwygActionUrl()
-{
-    return $this->_url->getUrl('mui/index/render', ['namespace' => 'variables_modal']);
-}
+  public function getVariablesWysiwygActionUrl()
+  {
+      return $this->_url->getUrl('mui/index/render', ['namespace' => 'variables_modal']);
+  }
   ```
 
 *  htmlId of the WYSIWYG editor.
@@ -286,7 +287,7 @@ CKEDITOR.plugins.add('widget', {
 });
 ```
 
-To integrate the default Magento UI for widgets, you need access to the following data:
+To integrate the default application UI for widgets, you need access to the following data:
 
 *  The backend `widget_window_url` (`\Magento\Widget\Model\Widget\Config::getWidgetWindowUrl`)
 *  htmlId of the WYSIWYG editor. For CKEditor4, you can get this by calling `editor.element.getId()`.

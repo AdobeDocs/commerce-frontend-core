@@ -3,7 +3,7 @@ group: ui-components-guide
 title: ImageUploader component
 ---
 
-The ImageUploader UI component gives users the ability to upload images to the Magento Media Gallery.
+The ImageUploader UI component gives users the ability to upload images to the Media Gallery.
 
 This component is a variation of the [FileUploader component](fileuploader.html) and uses the same configuration settings.
 

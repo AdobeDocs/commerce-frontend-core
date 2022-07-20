@@ -78,10 +78,7 @@ This topic describes the basic elements used in XML configuration files for decl
       <code>&lt;item name=config&gt;</code> (mandatory)
     </td>
     <td>
-      Introduces the configuration block for UiComponent according
-      to the old structure used in Magento 2.1.x and earlier. In
-      Magento 2.2.x and later only use for options that are not
-      described in XSD.
+      Introduces the configuration block for UiComponent according to the old structure used in 2.1.x and earlier. In 2.2.x and later only use for options that are not described in XSD.
     </td>
   </tr>
   <tr>

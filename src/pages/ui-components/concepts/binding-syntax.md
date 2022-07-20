@@ -5,7 +5,7 @@ title: Binding syntax
 
 ## Overview
 
-Within HTML templates, Magento gives you the option of using a binding syntax that is simpler and easier to read and write than the standard Knockout binding syntax. The following code snippets help make the comparison.
+Within HTML templates, you can use a binding syntax that is simpler and easier to read and write than the standard Knockout binding syntax. The following code snippets help make the comparison.
 
 ### Knockout native syntax
 
@@ -18,7 +18,7 @@ Within HTML templates, Magento gives you the option of using a binding syntax th
 <!-- /ko -->
 ```
 
-### Magento syntax
+### Application syntax
 
 ```html
 <if args="isVisible">
@@ -38,17 +38,17 @@ or
 </div>
 ```
 
-If you use the Magento syntax, the Magento wrapper replaces the Magento syntax with the matching Knockout comments or `data-bind` attributes during the loading of the HTML template.
+If you use the application syntax, the wrapper replaces the syntax with the matching Knockout comments or `data-bind` attributes during the loading of the HTML template.
 
 <InlineAlert variant="info" slots="text" />
 
-For better render performance, we recommend using the Knockout native syntax. Magento syntax can render more slowly than the native knockout syntax. When using the Magento syntax, every time the HTML template is loaded for a component, it gets parsed and adjusted accordingly. KnockoutJS knows exactly which bindings it should update. Test both ways if performance is critical.
+For better render performance, we recommend using the Knockout native syntax. Application syntax can render more slowly than the native knockout syntax. When using the application syntax, every time the HTML template is loaded for a component, it gets parsed and adjusted accordingly. KnockoutJS knows exactly which bindings it should update. Test both ways if performance is critical.
 
 ## Binding map
 
-The table below shows examples of how the Knockout bindings map to their Magento binding counterparts.
+The table below shows examples of how the Knockout bindings map to their application binding counterparts.
 
-|Name| Knockout Syntax | Magento Syntax |
+|Name| Knockout Syntax | Application Syntax |
 |--- | -------- | -------|
 |if             |`<!-- ko if: isVisible--><!-- /ko -->`                                         | `<if args="isVisible"></if>`                                          |
 |               |`<div data-bind="if: isVisible"></div>`                                        | `<div if="isVisible"></div>`

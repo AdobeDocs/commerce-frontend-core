@@ -44,7 +44,8 @@ If the custom component you create is a [basic UI component] (like Form or Listi
 1. Declare the component in a separate `.xml` file using the `<container>` or `<component>` as parent node.
 
 ## Declare a custom secondary component
-**The current version of Magento does not yet support secondary components.**
+
+**The current version of the application does not yet support secondary components.**
 
 <!-- Link Definitions -->
 

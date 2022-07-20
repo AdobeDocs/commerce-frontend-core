@@ -3,11 +3,11 @@ group: ui-components-guide
 title: Using the new structure in UI components XML configuration
 ---
 
-Magento 2.2.0 introduces a new structure for [UI components XML configuration](concepts/xml-declaration.md), aimed at improving configuration semantics.
+Adobe Commerce and Magento Open Source 2.2.0 introduced a new structure for [UI components XML configuration](concepts/xml-declaration.md), aimed at improving configuration semantics.
 
-The arbitrary structure, used in UI components XML configuration in previous Magento 2 versions, is also supported, and during XML files merging, the configuration files that use the arbitrary structure have higher priority.
+The arbitrary structure, used in UI components XML configuration in previous versions, is also supported, and during XML files merging, the configuration files that use the arbitrary structure have higher priority.
 
-Still, using the new structure for your customizations in Magento 2.2.0 and later, is the best practice, because the old "arbitrary" structure will become deprecated at some point.
+Still, using the new structure for your customizations in 2.2.0 and later, is the best practice, because the old "arbitrary" structure will become deprecated at some point.
 
 <InlineAlert variant="info" slots="text" />
 
@@ -55,7 +55,7 @@ All components options are separate nodes, and a node's purpose is defined by it
         <dataType>number</dataType>
         <tooltip>
             <link>https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings</link>
-            <description translate="true">If your Magento installation has multiple websites, you can edit the scope to associate the customer with a specific site.</description>
+            <description translate="true">If your installation has multiple websites, you can edit the scope to associate the customer with a specific site.</description>
         </tooltip>
         <imports>
             <link name="customerId">${ $.provider }:data.customer.entity_id</link>
@@ -76,7 +76,7 @@ When editing XML configuration files in an IDE, the autocomplete feature prompts
 
 ![Attribute declaration autocomplete](../../_images/ui-components/autocomplete1.png)
 
-*  Magento supports autocomplete for all nesting levels of options which have static interface. If an option doesn't have defined interface, the additional property is used to declare option name and type:
+*  The application supports autocomplete for all nesting levels of options which have static interface. If an option doesn't have defined interface, the additional property is used to declare option name and type:
 
 ![no defined interface](../../_images/ui-components/no_type.png)
 

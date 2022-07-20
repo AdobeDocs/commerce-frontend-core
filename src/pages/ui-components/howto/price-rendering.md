@@ -5,11 +5,11 @@ title: Render prices on the frontend
 
 This article shows how templates and UI components work together to render the price for any product listing(e.g. category, widget, etc).
 
-## About Magento price handling
+## About price handling
 
-Magento is able to operate with a variety of prices, taxes, and product types.
+The application is able to operate with a variety of prices, taxes, and product types.
 
-The following is a short list of Magento prices:
+The following is a short list of prices:
 
 1. Special Price.
 1. Tier Price.
@@ -18,12 +18,12 @@ The following is a short list of Magento prices:
 1. Price range of composite products
 1. Manufacturer price (MSRP)
 
-Magento represents these prices as price types (e.g. final price, minimum price, maximum price, regular price) and are separate from the actual price in the code.
+The application represents these prices as price types (e.g. final price, minimum price, maximum price, regular price) and are separate from the actual price in the code.
 For example, Special Price is represented by the final price type in the code.
 
-### Magento taxes classification
+### Taxes classification
 
-Magento handles taxes as price adjustments and has 3 generic types of taxes:
+The application handles taxes as price adjustments and has 3 generic types of taxes:
 
 *  Tax
 *  Fixed Product Tax
@@ -46,7 +46,7 @@ For the purposes of this article, we will use a listing component to render simp
 
 ### XML configuration
 
-The [XML configuration file][ui-component-declaration] for UI components shows the parent-child relationship between different UI components and tells Magento which template files to use when rendering.
+The [XML configuration file][ui-component-declaration] for UI components shows the parent-child relationship between different UI components and tells the application which template files to use when rendering.
 
 ```xml
 <listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
@@ -132,7 +132,7 @@ The [XML configuration file][ui-component-declaration] for UI components shows t
 </listing>
 ```
 
-A good example from the Magento codebase is the Catalog module's [`widget_recently_viewed.xml`][widget-recently-viewed-xml] file.
+A good example from the codebase is the Catalog module's [`widget_recently_viewed.xml`][widget-recently-viewed-xml] file.
 
 ### Price box component
 
@@ -296,7 +296,7 @@ If a product has a special price, it calls `getPrice` to get the value and rende
 </if>
 ```
 
-This example is based on the [`special_price.html` template file][special-price-html] for Magento Catalog.
+This example is based on the [`special_price.html` template file][special-price-html] for Catalog.
 
 ### Tax template
 

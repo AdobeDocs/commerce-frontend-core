@@ -3,19 +3,19 @@ group: ui-components-guide
 title: Custom Knockout.js bindings
 ---
 
-This topic lists the custom [Knockout.js](http://knockoutjs.com/) bindings used in the core Magento files. These bindings can also be used by third-party developers.
+This topic lists the custom [Knockout.js](http://knockoutjs.com/) bindings used in the core application files. These bindings can also be used by third-party developers.
 
 ## General concepts
 
 ### Aliases
 
-The standard way to reference a knockout.js binding is using the `data-bind` attribute: `[data-bind="%binding_name%: %value%"]`. In Magento implementation, you can also use aliases to declare bindings. Some bindings may be defined as attributes (`[%binding_alias%="%value%"]`) or nodes (`%binding_alias% args="%value%">`).
+The standard way to reference a knockout.js binding is using the `data-bind` attribute: `[data-bind="%binding_name%: %value%"]`. You can also use aliases to declare bindings. Some bindings may be defined as attributes (`[%binding_alias%="%value%"]`) or nodes (`%binding_alias% args="%value%">`).
 
 ### Binding values
 
 Apart from the value type specified for each binding, every value may be wrapped in Knockout's observable.
 
-## Custom Magento bindings
+## Custom bindings
 
 ### `afterRender`
 
@@ -39,6 +39,7 @@ Function that is invoked after the element is rendered.
 ```
 
 ### `autoselect`
+
 The `autoselect` binding automatically highlights the text in an input element, when it gets focus.
 
 **Source**: `<Magento_Ui_module_dir>/view/base/web/js/lib/knockout/bindings/autoselect.js`. [See on GitHub](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/knockout/bindings/autoselect.js).
@@ -49,6 +50,7 @@ Defines whether the binding is enabled (`true`) or disabled (`false`).
 **Aliases**: `[autoselect]`
 
 **Usage example**:
+
 ```html
 <!-- as an attribute -->
 <input type="text" autoselect/>
@@ -58,6 +60,7 @@ Defines whether the binding is enabled (`true`) or disabled (`false`).
 ```
 
 ### `bindHtml`
+
 The `bindHtml` binding renders the provided string, as a collection of HTML elements, inside of the associated node.
 
 It also instantiates all bindings defined for the rendered elements in the scope of the current [view model](http://knockoutjs.com/documentation/observables.html).
@@ -77,6 +80,7 @@ It also instantiates all bindings defined for the rendered elements in the scope
 ```
 
 ### `collapsible`
+
 The `collapsible` binding provides methods and properties required for implementing collapsible panels. It can automatically collapse panel when clicking outside of the associated node, toggle optional CSS class when node changes its visibility. It has additional helper bindings: `toggleCollapsible`, `openCollapsible` and `closeCollapsible`.
 
 **Source**: `<Magento_Ui_module_dir>/view/base/web/js/lib/knockout/bindings/collapsible.js`. [See on GitHub](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/knockout/bindings/collapsible.js).
@@ -188,6 +192,7 @@ The `colorPicker` binding is a part of the ColorPicker component.
 **Aliases**: [colorPicker]
 
 **Usage example**:
+
 ```html
 <input type="hidden" data-bind="colorPicker: config">
 
@@ -205,11 +210,13 @@ The `datepicker` binding is an adapter for the [mage/calendar.js](../../javascri
 **Aliases**: -
 
 **Usage example**:
+
 ```html
 <input type="text" data-bind="datepicker: value"/>
 ```
 
 ### `fadeVisible`
+
 The `fadeVisible` binding performs the gradual change of the element's visibility  (with an animation effect).
 
 **Source**: `<Magento_Ui_module_dir>/view/base/web/js/lib/knockout/bindings/fadeVisible.js`. [See on GitHub](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/knockout/bindings/fadeVisible.js).
@@ -221,6 +228,7 @@ Defines whether the element is visible (`true`) or hidden (`false`).
 **Aliases**: -
 
 **Usage example**:
+
 ```html
 <div data-bind="fadeVisible: isVisible">Foo Bar</div>
 <button click="function () { isVisible(!isVisible()); }">Toggle</button>
@@ -435,7 +443,7 @@ The `staticChecked` binding implements the behavior similar to the standard [`ch
 
 ### `template`
 
-Magento `template` binding is a customization of the existing Knockout [`template` binding](http://knockoutjs.com/documentation/template-binding.html). It is used to render a template inside of the associated element. The original Knockout's  implementation was overridden to support asynchronous loading of templates by the provided path, instead of searching for them on the page.
+Application `template` binding is a customization of the existing Knockout [`template` binding](http://knockoutjs.com/documentation/template-binding.html). It is used to render a template inside of the associated element. The original Knockout's  implementation was overridden to support asynchronous loading of templates by the provided path, instead of searching for them on the page.
 
 **Source:** `<Magento_Ui_module_dir>/view/base/web/js/lib/knockout/template/engine.js`. [See on Github](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/knockout/template/engine.js).
 
@@ -459,7 +467,7 @@ Configuration for the `template` binding. If the provided value is a string, it 
 
 ### `tooltip`
 
-Magento custom knockout binding for displaying a tooltip.
+Application custom knockout binding for displaying a tooltip.
 
 **Source:** `<Magento_Ui_module_dir>/view/base/web/js/lib/knockout/bindings/tooltip.js`. [See on Github](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/knockout/bindings/tooltip.js).
 
