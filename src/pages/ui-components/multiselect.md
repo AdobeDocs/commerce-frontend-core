@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: Multiselect component
+title: Multiselect component | Commerce Frontend Development
+decsription:
 ---
+
+# Multiselect component
 
 The Multiselect component provides the interface for a list or a data set. Multiselect allows selecting multiple items.
 

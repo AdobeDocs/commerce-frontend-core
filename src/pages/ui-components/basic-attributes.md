@@ -1,9 +1,9 @@
 ---
-group: ui-components-guide
-title: Basic attributes
+title: Basic attributes | Commerce Frontend Development
+description:
 ---
 
-## Overview
+# Basic attributes
 
 This topic describes the general UI components configuration attributes. There's a set of attributes available for all UI components, and a set of attributes which are specific for [basic components](index.md#general-structure) only.
 

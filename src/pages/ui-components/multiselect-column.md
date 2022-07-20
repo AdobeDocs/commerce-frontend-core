@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: MultiselectColumn component
+title: MultiselectColumn component | Commerce Frontend Development
+decsription:
 ---
+
+# MultiselectColumn component
 
 The MultiselectColumn component implements a column with checkboxes for selecting records. It also provides controls for selecting multiple records.
 

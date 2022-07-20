@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: SelectColumn component
+title: SelectColumn component | Commerce Frontend Development
+decsription:
 ---
+
+# SelectColumn component
 
 The SelectColumn component receives an array of values and displays the column with corresponding labels. The value-label correspondence is set in the component's configuration.
 

@@ -1,9 +1,9 @@
 ---
-group: ui-components-guide
-title: About XML configuration of UI components
+title: XML declaration | Commerce Frontend Development
+description:
 ---
 
-## Overview
+# XML declaration
 
 This topic discusses the [XML](https://glossary.magento.com/xml) declaration of UI components.
 

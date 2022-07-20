@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: OnOffColumn component
+title: OnOffColumn component | Commerce Frontend Development
+decsription:
 ---
+
+# OnOffColumn component
 
 The OnOffColumn component is a decorator for [MultiselectColumn](multiselectcolumn.html). It displays toggle switch elements instead of checkboxes.
 

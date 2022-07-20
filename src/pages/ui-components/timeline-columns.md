@@ -1,9 +1,11 @@
 ---
-group: ui-components-guide
-title: TimelineColumns component
+title: TimelineColumns component | Commerce Frontend Development
+decsription:
 contributor_name: Atwix
 contributor_link: https://www.atwix.com/
 ---
+
+# TimelineColumn component
 
 The TimelineColumns [UI component](https://glossary.magento.com/ui-component) is a collection of columns represented as the timeline.
 

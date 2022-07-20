@@ -1,9 +1,11 @@
 ---
-group: ui-components-guide
-title: ColumnsEditorRecord component
+title: ColumnsEditorRecord component | Commerce Frontend Development
+decsription:
 contributor_name: Atwix
 contributor_link: https://www.atwix.com/
 ---
+
+# ColumnsEditorRecord component
 
 The ColumnsEditorRecord [UI component](https://glossary.magento.com/ui-component) is a container of record fields. The ColumnsEditorRecord should be used as a child of the [ColumnsEditor](columns-editor.html) component.
 
@@ -92,7 +94,7 @@ This is an example of how the ColumnsEditorRecord component integrates with the 
 
 ![ColumnsEditorRecord Component example](../_images/ui-components/ui-columns-editor-record-result.png)
 
-### Add custom field type to ColumnsEditorRecord
+### Add a custom field type
 
 This is an example of how to add textarea and multi-select editor types to ColumnsEditorRecord component.
 

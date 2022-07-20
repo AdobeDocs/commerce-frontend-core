@@ -1,11 +1,9 @@
 ---
-group: ui-components-guide
-title: Overview of UI components
-redirect_from:
-  - /guides/v2.3/ui-components/ui-listing-grid.html
+title: Introduction to UI components | Commerce Frontend Development
+description:
 ---
 
-## Overview of UI components
+# Introduction to UI components
 
 *UI components are used to represent distinct UI elements, such as tables, buttons, dialogs, and others*.
 
@@ -21,7 +19,7 @@ The following XSD file contains rules and limitations shared between all compone
 
 [Extension](https://glossary.magento.com/extension) developers cannot extend this XSD scheme and introduce new components, but can customize existing ones.
 
-### General structure
+## General structure
 
 There are basic and secondary UI components.
 
@@ -41,7 +39,7 @@ All components can be configured both for [Admin](https://glossary.magento.com/a
 
 You need to configure styles manually for components on the storefront.
 
-## When to use UI components?
+## When to use UI components
 
 With Magento, you may apply different approaches to implementing a UI element, and use:
 
@@ -57,9 +55,7 @@ We recommend using UI components as much as possible.
 
 UI components work well together: they communicate with each other via the [uiRegistry service](concepts/registry.md#debug_registry) that tracks their asynchronous initialization. Therefore, if we need to extend something that has already been implemented as a hierarchy of UI components or add a new feature that should interact with other UI components, it's easier and more effective to use a UI component.
 
-## What is a UI component?
-
-UI component is a combination of:
+A UI component is a combination of:
 
 1. **XML declaration** that specifies the component's configuration settings and inner structure.
 
@@ -100,7 +96,7 @@ A particular instance of a UI component is defined primarily by the following:
 1. [Backend/PHP modifiers](concepts/modifier.md).
 1. Configuration inside the JavaScript classes.
 
-## UI component used in the frontend design area
+## Frontend design area
 
 *  Configured through layout XML.
 
@@ -118,7 +114,7 @@ A particular instance of a UI component is defined primarily by the following:
 </block>
 ```
 
-## UI component used in the Adminhtml area
+## Adminhtml area
 
 *  Configured through dedicated XML file (view/adminhtml/ui_component/[ui_component_name.xml]). For example, the Customer grid UI component defined in `<Magento_Customer_module_dir>/view/adminhtml/ui_component/customer_listing.xml`.
 
@@ -135,7 +131,7 @@ A particular instance of a UI component is defined primarily by the following:
   </page>
   ```
 
-## Things to remember when working with UI components
+## Things to remember
 
 **UI components have different settings:**
 

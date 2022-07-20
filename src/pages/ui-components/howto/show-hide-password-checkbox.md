@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: Show or Hide Password Checkbox
+title: Add a show/hide password checkbox | Commerce Frontend Development
+description:
 ---
+
+# Add a show/hide password checkbox
 
 This topic describes how you can implement the "show or hide" password checkbox functionality in custom forms.
 

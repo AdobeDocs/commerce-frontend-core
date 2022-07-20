@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: Button component
+title: Button component | Commerce Frontend Development
+description:
 ---
+
+# Button component
 
 The Button component allows user to perform a list of predefined actions by clicking on the corresponding button. Its default display mode is the [HTML](https://glossary.magento.com/html) `<button>` element, which be configured to display a link.
 

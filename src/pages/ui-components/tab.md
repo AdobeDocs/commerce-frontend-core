@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: Tab component
+title: Tab component | Commerce Frontend Development
+decsription:
 ---
+
+# Tab component
 
 The Tab component implements a tab content area.
 

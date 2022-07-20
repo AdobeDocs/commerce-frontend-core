@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: Modal component
+title: Modal component | Commerce Frontend Development
+decsription:
 ---
+
+# Modal
 
 The Modal [UI component](https://glossary.magento.com/ui-component) implements a secondary window that opens on top of the main window. It uses the [modal widget](../javascript/jquery-widgets/modal.md).
 

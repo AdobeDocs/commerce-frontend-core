@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: InsertListing component
+title: InsertListing component | Commerce Frontend Development
+decsription:
 ---
+
+# InsertListing component
 
 The InsertListing component inserts [Listing](listing-grid.html) into other components.
 

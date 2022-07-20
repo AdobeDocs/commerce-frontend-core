@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: Range component
+title: Range component | Commerce Frontend Development
+decsription:
 ---
+
+# Range component
 
 The Range component implements the range for filtering rows in a grid. Visually, this component represents two input fields of `date` or `text` type, for entering the "from" and "to" range limits.
 

@@ -1,15 +1,15 @@
 ---
-group: ui-components-guide
-title: About the uiClass library
+title: uiClass library | Commerce Frontend Development
+description:
 ---
 
-## What is `uiClass`?
+# `uiClass` library
 
 The `uiClass` is an abstract class from which all components are extended. The `uiClass` is a low-level class and is rarely used as direct parent for UI components' classes.
 
 `uiClass` source code is `<Magento_Ui_module_dir>/view/base/web/js/lib/core/class.js`, in the Magento Open Source GitHub repository: [app/code/Magento/Ui/view/base/web/js/lib/core/class.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/core/class.js)
 
-## Commonly used uiClass methods
+## Commonly used methods
 
 The uiClass class introduces the architecture of UI components through the following methods:
 
@@ -60,7 +60,7 @@ initialize: function () {
 }
 ```
 
-### Commonly used uiClass properties
+### Commonly used properties
 
 The `defaults` property declares the list of properties of a UI component's instance. Also it declares communications between components if needed.
 

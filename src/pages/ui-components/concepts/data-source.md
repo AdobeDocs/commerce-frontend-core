@@ -1,17 +1,17 @@
 ---
-group: ui-components-guide
-title: The DataSource Component
+title: Data sourcing | Commerce Frontend Development
+description:
 contributor_name: SwiftOtter Studios
 contributor_link: https://swiftotter.com/
 ---
 
-## Overview
+# Data sourcing
 
 The application provides the DataSource object, which is designed to interact with data in your [UI component](https://glossary.magento.com/ui-component). Many of the core UI components use this DataSource component. Many UI components require that this object is included. However, there are specific requirements it has in order for it to work correctly.
 
 In this topic, we will explain how to take advantage of the powerful functionality of the data provider in a UI Component.
 
-### Declaring the XML
+## Declaring the XML
 
 The DataSource UI component can be included with the `<dataSource />` node in the component's top-level configuration file. The `name` attribute is recommended and should follow the `%instance_name%_data_source` pattern where `%instance_name%` is the name of the component.
 
@@ -62,7 +62,7 @@ A good way to keep configuration data out of the JavaScript is to declare a "pro
 
 This example declares the name of the data provider class and will be output in the JSON that contains the UI component's configuration. It can then be used to locate the data source component. This is essentially declaring a variable that will be available to a JavaScript class.
 
-## JavaScript Template Literals
+## JavaScript template literals
 
 Throughout Magento's core JavaScript components there are strings like this: `'${ $.provider }:data.totalRecords'`. These are ES2015 [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals). The `${ }` surrounds an expression that will be parsed as JavaScript. `$.provider` is the expression, in this example.
 
@@ -72,7 +72,7 @@ When the component is initialized, it will automatically evaluate all string lit
 
 But, XML is static and while that gets us the name of the data provider component, it still does not actually provide data. There is one more important step in providing data to JavaScript components.
 
-## JavaScript Component Linking
+## JavaScript component linking
 
 Every JavaScript component should extend the core Element class in some way (mapped to [`uiElement`](concepts/element.md) with RequireJS and located in [`Magento/Ui/view/base/web/js/lib/core/element/element.js`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/core/element/element.js).  When this class initializes it runs an `initLinks()` method. That method, in turn, passes a few class properties into a method that handles linking components together. This file (`lib/core/element/link.js`) binds the values of those parameters to actual components.
 

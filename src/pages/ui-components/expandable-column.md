@@ -1,9 +1,11 @@
 ---
-group: ui-components-guide
-title: Expandable Column component
+title: ExpandableColumn component | Commerce Frontend Development
+decsription:
 ---
 
-The Expandable Column [UI component](https://glossary.magento.com/ui-component) is an [extension](https://glossary.magento.com/extension) for [Column](column.html). It alphabetically sorts the options associated with a record/row and renders several options (the number is defined in configuration) into a cell. The full list of options is displayed in a tooltip implemented by the Tooltip UI component `<Magento_Ui_module_dir>/view/base/web/js/lib/knockout/bindings/tooltip.js`.
+# ExpandableColumn component
+
+The ExpandableColumn [UI component](https://glossary.magento.com/ui-component) is an [extension](https://glossary.magento.com/extension) for [Column](column.html). It alphabetically sorts the options associated with a record/row and renders several options (the number is defined in configuration) into a cell. The full list of options is displayed in a tooltip implemented by the Tooltip UI component `<Magento_Ui_module_dir>/view/base/web/js/lib/knockout/bindings/tooltip.js`.
 
 The Expandable Column component can be used in [Admin](https://glossary.magento.com/admin) and the [storefront](https://glossary.magento.com/storefront).
 

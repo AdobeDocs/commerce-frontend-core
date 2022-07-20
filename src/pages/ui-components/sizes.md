@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: Sizes component
+title: Sizes component | Commerce Frontend Development
+decsription:
 ---
+
+# Sizes component
 
 The Sizes component defines the maximum number of displayed records in a table (grid).
 

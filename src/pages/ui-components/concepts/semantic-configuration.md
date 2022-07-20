@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: Using the new structure in UI components XML configuration
+title: Semantic configuration | Commerce Frontend Development
+description:
 ---
+
+# Semantic configuration
 
 Adobe Commerce and Magento Open Source 2.2.0 introduced a new structure for [UI components XML configuration](concepts/xml-declaration.md), aimed at improving configuration semantics.
 

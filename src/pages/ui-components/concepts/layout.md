@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: The uiLayout service object
+title: uiLayout service object | Commerce Frontend Development
+description:
 ---
+
+# `uiLayout` service object
 
 The `uiLayout` service object is a JavaScript function object used for initializing and configuring UI components.
 This object is defined in the [`layout.js`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/core/renderer/layout.js) file in the UI module.

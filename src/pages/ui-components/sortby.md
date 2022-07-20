@@ -1,9 +1,11 @@
 ---
-group: ui-components-guide
-title: Sortby component
+title: Sortby component | Commerce Frontend Development
+decsription:
 contributor_name: Shankar Konar
 contributor_link: https://github.com/konarshankar07
 ---
+
+# Sortby component
 
 The Sortby component allows you to sort the column in ascending or descending order.
 

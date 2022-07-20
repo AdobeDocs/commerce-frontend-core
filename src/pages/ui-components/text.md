@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: Text component
+title: Text component | Commerce Frontend Development
+decsription:
 ---
+
+# Text component
 
 The Text component displays text data in the components like [Form](form.html) and [DynamicRows](dynamicrows.html).
 

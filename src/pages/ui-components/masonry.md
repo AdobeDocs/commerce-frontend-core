@@ -1,9 +1,11 @@
 ---
-group: ui-components-guide
-title: Masonry (grid) component
+title: Masonry (grid) component | Commerce Frontend Development
+decsription:
 contributor_name: Shankar Konar
 contributor_link: https://github.com/konarshankar07
 ---
+
+# Masonry (grid) component
 
 The Masonry component is a collection of columns. It renders the masonry grid layout in the Ui component.
 

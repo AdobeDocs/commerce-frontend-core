@@ -1,12 +1,9 @@
 ---
-group: ui-components-guide
-subgroup: concepts
-title: Configuration flow of UI components
-menu_title: Configuration flow of UI components
-menu_order: 10
+title: Configuration flow of UI components | Commerce Frontend Development
+description:
 ---
 
-## Overview
+# Configuration flow
 
 The following section covers the configuration flow of UI components. Before a [UI component](https://glossary.magento.com/ui-component) is finally displayed on a web page, its configuration undergoes a series of modifications. Starting from the initial reading of the top-level component instance’s [XML](https://glossary.magento.com/xml) declaration, all the way to the merging of module-specific options.
 

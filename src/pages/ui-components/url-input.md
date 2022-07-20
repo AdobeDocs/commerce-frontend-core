@@ -1,9 +1,9 @@
 ---
-group: ui-components-guide
-subgroup: components
-title: urlInput component
-menu_title: urlInput component
+title: urlInput component | Commerce Frontend Development
+decsription:
 ---
+
+# urlInput component
 
 The urlInput component implements the `<urlInput>` form field.
 

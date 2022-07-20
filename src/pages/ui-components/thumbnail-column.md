@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: ThumbnailColumn component
+title: ThumbnailColumn component | Commerce Frontend Development
+decsription:
 ---
+
+# ThumbnailColumn component
 
 The ThumbnailColumn component implements a column containing images associated with records of the table. Each field of this column contains an image preview. When a user click on the preview, a pop up window with the detailed view opens.
 

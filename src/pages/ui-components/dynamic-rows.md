@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: DynamicRows component
+title: DynamicRows component | Commerce Frontend Development
+decsription:
 ---
+
+# DynamicRows component
 
 The DynamicRows component is a dynamic collection of records. The user can edit the records, change their position, and navigate through the collection.
 

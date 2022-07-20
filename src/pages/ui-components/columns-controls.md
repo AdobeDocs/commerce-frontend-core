@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: ColumnsControls component
+title: ColumnsControls component | Commerce Frontend Development
+description:
 ---
+
+# ColumnsControl component
 
 The ColumnsControls component is a collection of columns. It provides an interface for showing and hiding columns. The interface contains:
 
@@ -25,9 +27,9 @@ Extends [`uiCollection`](concepts/collection.md):
 
 ## Example
 
-### Changing "minVisible" and "maxVisible" values in the javascript file.
+### Changing attribute values
 
-To change attribute values, override the vendor JS file in a custom module:
+To change the "minVisible" and "maxVisible" attribute values, override the vendor JS file in a custom module:
 
 `/vendor/magento/module-ui/view/base/web/js/grid/controls/columns.js`
 

@@ -1,13 +1,13 @@
 ---
-group: ui-components-guide
-title: Binding syntax
+title: Binding syntax | Commerce Frontend Development
+description:
 ---
 
-## Overview
+# Binding syntax
 
 Within HTML templates, you can use a binding syntax that is simpler and easier to read and write than the standard Knockout binding syntax. The following code snippets help make the comparison.
 
-### Knockout native syntax
+## Knockout native syntax
 
 ```html
 <!-- ko if: isVisible -->
@@ -18,7 +18,7 @@ Within HTML templates, you can use a binding syntax that is simpler and easier t
 <!-- /ko -->
 ```
 
-### Application syntax
+## Application syntax
 
 ```html
 <if args="isVisible">

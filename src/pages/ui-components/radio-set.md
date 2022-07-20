@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: Radioset component
+title: Radioset component | Commerce Frontend Development
+decsription:
 ---
+
+# Radioset component
 
 The Radioset component is a shortcut for [Checkboxset](checkboxset.html), with the input type set to the radio button.
 

@@ -1,13 +1,13 @@
 ---
-group: ui-components-guide
-title: UI components XML configuration structure
+title: XML configuration | Commerce Frontend Development
+description:
 ---
 
-## Overview
+# XML configuration
 
 This topic describes the basic elements used in XML configuration files for declaring  UI components. These elements core structure is strict and third party developers must follow it when customizing existing UI component configuration or declaring new ones.
 
-## Basic configuration elements
+## Basic elements
 
 <table>
   <tr>
@@ -148,7 +148,7 @@ This topic describes the basic elements used in XML configuration files for decl
   </tr>
 </table>
 
-## Example of the basic UI components configuration structure
+## Example
 
 ```xml
 <form>

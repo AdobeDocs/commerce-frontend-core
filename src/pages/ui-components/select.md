@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: Select component
+title: Select component | Commerce Frontend Development
+decsription:
 ---
+
+# Select component
 
 The Select component provides the interface for a list or a data set. With this component, the user can select only one item.
 

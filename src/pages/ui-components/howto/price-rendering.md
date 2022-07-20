@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: Render prices on the frontend
+title: Render prices on the frontend | Commerce Frontend Development
+description:
 ---
+
+# Render prices on the frontend
 
 This article shows how templates and UI components work together to render the price for any product listing(e.g. category, widget, etc).
 
@@ -36,7 +38,7 @@ Example of pricing strategy for bundled products:
 
 ![](../../_images/ui-components/bundle_prices.png)
 
-## How to render prices with UI Components
+## Render prices with UI components
 
 For pages such as a product page, use a [form component][form-component].
 
@@ -312,12 +314,6 @@ The following is sample template code that is rendered for the tax adjustment co
     </span>
 </if>
 ```
-
-## Related Topics
-
-*  [Form component][form-component]
-*  [Listing component][listing-component]
-*  [Declaring UI Components][ui-component-declaration]
 
 [form-component]: form.html
 [listing-component]: listing-grid.html

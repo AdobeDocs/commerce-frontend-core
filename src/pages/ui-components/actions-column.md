@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: ActionsColumn component
+title: ActionsColumn component | Commerce Frontend Development
+description:
 ---
+
+# ActionsColumn component
 
 The ActionsColumns component implements a table's column responsible for displaying and performing a list of record-related actions.
 

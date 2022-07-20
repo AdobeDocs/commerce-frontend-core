@@ -1,13 +1,15 @@
 ---
-group: ui-components-guide
-title: Add a category attribute
+title: Add a category attribute | Commerce Frontend Development
+description:
 contributor_name: SwiftOtter Studios
 contributor_link: https://swiftotter.com/
 ---
 
+# Add a category attribute
+
 Category attributes were automatically displayed in the [admin](https://glossary.magento.com/admin) panel of Magento 1. In Magento 2, it is necessary to explicitly render it with a [UI Component](https://glossary.magento.com/ui-component). This is quite easy to do and provides a great degree of control over the form input. In the code examples below, replace `attribute_id` and `Your Category Attribute Name` with your own values.
 
-## Step #1: Create the Attribute
+## Step #1: Create the attribute
 
 The following is a full example of an install script that creates a [category](https://glossary.magento.com/category) attribute. If you already have a category attribute, it is not necessary.
 
@@ -51,7 +53,7 @@ class InstallData implements InstallDataInterface
 }
 ```
 
-## Step #2: Display the Attribute
+## Step #2: Display the attribute
 
 The category UI Component is rendered with configuration from the `category_form.xml` file. All files with that name are merged together. As a result, you can add a field by creating a `category_form.xml` file in the `view/adminhtml/ui_component` directory in your [module](https://glossary.magento.com/module).
 
@@ -81,7 +83,7 @@ Here is a full example of adding a field under the "Display Settings" group. It 
 </form>
 ```
 
-## Step #3: Upgrade and Run
+## Step #3: Upgrade and run
 
 [Upgrade the database schema](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-db-upgr.html) to install the attribute [and clear your cache](https://developer.adobe.com/commerce/php/development/components/clear-directories/#how-to-clear-the-directories).
 

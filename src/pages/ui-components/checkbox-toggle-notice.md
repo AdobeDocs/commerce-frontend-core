@@ -1,9 +1,11 @@
 ---
-group: ui-components-guide
-title: CheckboxToggleNotice component
+title: CheckboxToggleNotice component | Commerce Frontend Development
+description:
 contributor_name: Atwix
 contributor_link: https://www.atwix.com/
 ---
+
+# CheckboxToggleNotice component
 
 The CheckboxToggleNotice component implements the [`Checkbox`](checkbox.md) component with the ability to switch notice according to the selected option.
 

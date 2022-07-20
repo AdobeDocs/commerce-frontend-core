@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: DragAndDrop component
+title: DragAndDrop component | Commerce Frontend Development
+decsription:
 ---
+
+# DragAndDrop component
 
 The DragAndDrop component is an [extension](https://glossary.magento.com/extension) for [Columns](columns.md), allowing users to change columns position in the table.
 

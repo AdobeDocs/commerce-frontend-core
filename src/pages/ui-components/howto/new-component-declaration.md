@@ -1,13 +1,15 @@
 ---
-group: ui-components-guide
-title: Declare a custom UI component
+title: Declare a custom UI component | Commerce Frontend Development
+description:
 ---
+
+# Declre a custom UI component
 
 Declaring a custom [UI component](https://glossary.magento.com/ui-component) refers to creating the [XML](https://glossary.magento.com/xml) configuration of your custom component, and is a part of a bigger task of creating a custom UI component.
 
 This topic describes the XML elements that must be used for declaring a custom component and where this declaration should be placed.
 
-## XML elements used for declaring the custom component
+## XML elements
 
 A custom UI component can be declared using one of the following elements: `<component>` or `<container>`.
 
@@ -26,7 +28,7 @@ The `<container>` and `<component>` elements have no mandatory attributes. The f
 -  `sortOrder`: component's sort order
 -  `displayArea`: the placeholder which defines the area for rendering the component in the [layout](https://glossary.magento.com/layout) file.
 
-<InlineAlert variant="warning" slots="text1, text2, text3, text4, text5" />
+<InlineAlert variant="warning" slots="text1, text2, text3" />
 
 If the following elements are used inside `<container>` or `<component>`, they should be specified strictly in the following order:
 

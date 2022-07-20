@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: MassActions component
+title: MassActions component | Commerce Frontend Development
+decsription:
 ---
+
+# MassActions component
 
 The MassActions component allows performing actions with multiple selected items. Must be a child of the [Listing component](listing-grid.html).
 

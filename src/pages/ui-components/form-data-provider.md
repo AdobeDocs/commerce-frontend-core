@@ -1,9 +1,11 @@
 ---
-group: ui-components-guide
-title: FormDataProvider component
+title: FormDataProvider component | Commerce Frontend Development
+decsription:
 contributor_name: Atwix
 contributor_link: https://www.atwix.com/
 ---
+
+# FormDataProvider component
 
 The FormDataProvider [UI component](https://glossary.magento.com/ui-component) is a data provider for the [Form](form.html) component. It stores form data in a specific format that is shared among all UI components in the scope of [Form](form.html) component and provides the functionality for submitting the data.
 

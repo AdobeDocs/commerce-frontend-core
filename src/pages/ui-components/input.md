@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: Input component
+title: Input component | Commerce Frontend Development
+decsription:
 ---
+
+# Input component
 
 The Input component implements the [HTML](https://glossary.magento.com/html) `<input type="text">` field.
 

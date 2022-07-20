@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: Textarea component
+title: Textarea component | Commerce Frontend Development
+decsription:
 ---
+
+# Textarea component
 
 The Textarea component implements the `<textarea>` form field.
 

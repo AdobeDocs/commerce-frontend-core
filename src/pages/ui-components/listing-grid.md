@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: Listing (grid) component
+title: Listing (grid) component | Commerce Frontend Development
+decsription:
 ---
+
+# Listing (grid) component
 
 Listing is a [basic component](index.md#general-structure) that implements grids, lists, and tiles with filtering, pagination, sorting, and other features.
 

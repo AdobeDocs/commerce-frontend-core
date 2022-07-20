@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: Checkboxset component
+title: Checkboxset component | Commerce Frontend Development
+description:
 ---
+
+# Checkboxset component
 
 The Checkboxset component implements a group of `<input type="checkbox">` or `<input type="radio">` selection elements.
 

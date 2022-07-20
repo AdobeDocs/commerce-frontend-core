@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: DateColumn component
+title: DateColumn component | Commerce Frontend Development
+decsription:
 ---
+
+# DateColumn component
 
 The DateColumn component implements a table column that displays dates.
 

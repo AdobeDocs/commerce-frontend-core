@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: Columns component
+title: Columns component | Commerce Frontend Development
+decsription:
 ---
+
+# Columns component
 
 The Columns component is a collection of columns. It renders the `<table>` element and displays the records of the [Listing component](listing-grid.html) in this table.
 

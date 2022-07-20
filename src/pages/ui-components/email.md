@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title:  Email component
+title:  Email component | Commerce Frontend Development
+decsription:
 ---
+
+# Email component
 
 The Email component implements the [HTML](https://glossary.magento.com/html) `<input type="email">` form field.
 

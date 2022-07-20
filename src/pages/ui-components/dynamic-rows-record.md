@@ -1,9 +1,11 @@
 ---
-group: ui-components-guide
-title: DynamicRowsRecord component
+title: DynamicRowsRecord component | Commerce Frontend Development
+decsription:
 contributor_name: Atwix
 contributor_link: https://www.atwix.com/
 ---
+
+# DynamicRowsRecord component
 
 The DynamicRowsRecord component is a container of record fields. The DynamicRowsRecord should be used as a child of the [DynamicRows](dynamicrows.html) component.
 

@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: TreeMassActions component
+title: TreeMassActions component | Commerce Frontend Development
+decsription:
 ---
+
+# TreeMassActions component
 
 The TreeMassActions component is a decorator for [MassActions](massactions.html) that adds the support of nested actions.
 

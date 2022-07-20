@@ -12,6 +12,10 @@ module.exports = [
           path: "/ui-components/concepts/configuration-flow/",
         },
         {
+          title: "XML declaration",
+          path: "/ui-components/concepts/xml-declaration/",
+        },
+        {
           title: "XML configuration",
           path: "/ui-components/concepts/xml-configuration/",
         },

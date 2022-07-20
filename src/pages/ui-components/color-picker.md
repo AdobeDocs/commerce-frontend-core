@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: ColorPicker component
+title: ColorPicker component | Commerce Frontend Development
+description:
 ---
+
+# ColoPicker component
 
 The ColorPicker component uses the [Spectrum](https://bgrins.github.io/spectrum/) and [tinycolor.js](https://bgrins.github.io/TinyColor/) libraries to make it easier to choose and implement color values.
 The ColorPicker component must be a child of the [Listing](listing-grid.md) or [Form](form.md) components.

@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: Search component
+title: Search component | Commerce Frontend Development
+decsription:
 ---
+
+# Search component
 
 The Search component allows searching through the grid records. It is a generic tool for filtering content that aggregates all other filter elements.
 

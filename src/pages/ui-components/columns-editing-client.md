@@ -1,9 +1,11 @@
 ---
-group: ui-components-guide
-title: ColumnsEditingClient component
+title: ColumnsEditingClient component | Commerce Frontend Development
+decsription:
 contributor_name: Atwix
 contributor_link: https://www.atwix.com/
 ---
+
+# ColumnsEditingClient component
 
 The ColumnsEditingClient [UI component](https://glossary.magento.com/ui-component) is an [extension](https://glossary.magento.com/extension) for the [ColumnsEditor](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/editing/editor.js) component. It provides functionality for saving edited data.
 
@@ -48,7 +50,7 @@ This is an example of how the ColumnsEditingClient component integrates with the
 </listing>
 ```
 
-### Disable validation before saving data
+### Disable validation
 
 This is an example of how to disable validation before saving data:
 

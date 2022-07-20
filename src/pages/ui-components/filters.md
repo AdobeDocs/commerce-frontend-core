@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: Filters component
+]title: Filters component | Commerce Frontend Development
+decsription:
 ---
+
+# Filters component
 
 The Filters component renders UI controls for filtering and applies filtering. Must be a child of the [Listing component](listing-grid.html).
 

@@ -1,9 +1,11 @@
 ---
-group: ui-components-guide
-title: Template Literals in UI Components
+title: Template literals | Commerce Frontend Development
+description:
 contributor_name: SwiftOtter Studios
 contributor_link: https://swiftotter.com/
 ---
+
+# Template literals
 
 The application provides for the use of template literals in UI components. Template literals are strings that can contain embedded expressions. They were introduced into JavaScript with ES2015 and were called "template strings" in early editions of the ES2015 / ES6 specification. Since it is a relatively new part of JavaScript, some browsers, such as Internet Explorer 11, do not support the specification. Per the specification standard, back-ticks (`` ` ``) are used instead of a single quote (`'`) or double quote (`"`) to delineate a template string. Due to the lack of browser support, the application has a JavaScript class that will parse certain strings with a single quote (`'`) in the same way a browser that supports the specification would parse one with back-ticks.
 
@@ -11,7 +13,7 @@ Template literals can contain expressions which will be evaluated in the current
 
 Template literals allow UI Components to easily assign dynamic values to class properties. More specifically, they provide an integration layer between a particular KnockoutJS context and a JavaScript class.
 
-## The `defaults` Class Property
+## `defaults` class property
 
 UI Components are [associated with JavaScript classes](concepts/class.md) to handle behavior on the client side. These should extend one of the core classes to provide a base level of functionality. Inside the child class, a `defaults` property can be provided.
 
@@ -36,11 +38,11 @@ They can be used to interact with other UI Component JavaScript classes. While t
 
 As a result, a template literal used in the value of one the objects listed above can be used to succinctly access data from an *entirely different* [UI Component](https://glossary.magento.com/ui-component) JavaScript class.
 
-### Template Literal `$` context
+### Template literal `$` context
 
 Perhaps the most important part of template literals in the application is the `$` object that can be used inside expressions. (Remember an expression is anything within `${ }`.) The `$` provides access to the `this` context in the JavaScript class where the template literals are. To take it a step further, `this` (and the related `$`) is the KnockoutJS context for the template that can be bound to the UI Component. This object should not be confused with the `$` that marks the beginning of an expression. The `$` object can only appear inside of an expression. Here is an example: `${ $.submitUrl }`: the `$` references the current KnockoutJS context, and `.submitUrl` will return the `provider` property from that object.
 
-### The `ignoreTmpls` property
+### `ignoreTmpls` property
 
 The `ignoreTmpls` property is an object that prevents template processing for selected properties.
 

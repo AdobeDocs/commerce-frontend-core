@@ -1,16 +1,16 @@
 ---
-group: ui-components-guide
-title: About the uiElement class
+title: uiElement class | Commerce Frontend Development
+description:
 ---
 
-## What is the `uiElement` class
+# `uiElement` class
 
 The `uiElement` class is a direct successor of the [uiClass library](concepts/class.md).
 When creating a new component, use the `uiElement` class as a direct parent, if your component will be the last in the components hierarchy chain.
 
 `uiElement` source code is `<Magento_Ui_module_dir>/view/base/web/js/lib/core/element/element.js`, in the Magento Open Source GitHub repository: [app/code/Magento/Ui/view/base/web/js/lib/core/element/element.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/core/element/element.js).
 
-## Commonly used `uiElement` methods
+## Commonly used methods
 
 -  The `initLinks()` method implements component communication by using [`links.js`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/core/element/links.js).  `initLinks()` introduces processing of the [`exports`, `imports`, `links` and `listens` properties](concepts/linking.md).
 

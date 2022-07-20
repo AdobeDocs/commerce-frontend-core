@@ -1,15 +1,15 @@
 ---
-group: ui-components-guide
-title: Debug UI components JavaScript
+title: Debug UI components | Commerce Frontend Development
+description:
 ---
 
-## Overview
+# Debug UI components
 
 This article describes how to define what UI components are used on a particular page, their [JavaScript](https://glossary.magento.com/javascript) components and what data they use.
 
 To define the UI components used on a page, you can use browser built-in developer tools, or install additionally a plugin, for example Knockoutjs context debugger for Google Chrome.
 
-## Debugging using Knockout.js plugin
+## Knockout.js plugin
 
 To install the knockout debugging plugin for Google Chrome, take the following steps:
 
@@ -35,7 +35,7 @@ A simple example:
 
 ![Image Example](../_images/ui-components/ui_comp_troubleshoot_chrome1.png)
 
-## Debugging using pure Knockout
+## Pure Knockout
 
 To retrieve the context within markup, you can also use the instance of Knockout:
 
@@ -63,7 +63,7 @@ var fieldName = ko.contextFor($0).$data;
 console.log(fieldName.name); // product_form.product_form.product-details.container_name.name
 ```
 
-## Debugging using Chrome DevTools
+## Chrome DevTools
 
 All modern browsers support “debugging” – a special UI in developer tools that makes finding and fixing errors much easier.
 
@@ -119,8 +119,3 @@ function sum(a, b) {
 Then, just make sure that your method is called and wait until the debugger is paused at the specified point.
 
 ![Debugger](../_images/ui-components/debugger.png)
-
-## See also
-
-[Debug using uiRegistry](concepts/registry.md#debug_registry)
-[DevTools](https://developers.google.com/web/tools/chrome-devtools/javascript/)

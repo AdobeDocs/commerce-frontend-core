@@ -1,17 +1,17 @@
 ---
-group: ui-components-guide
-title: Custom Knockout.js bindings
+title: Custom Knockout.js bindings | Commerce Frontend Development
+description:
 ---
+
+# Custom Knockout.js bindings
 
 This topic lists the custom [Knockout.js](http://knockoutjs.com/) bindings used in the core application files. These bindings can also be used by third-party developers.
 
-## General concepts
-
-### Aliases
+## Aliases
 
 The standard way to reference a knockout.js binding is using the `data-bind` attribute: `[data-bind="%binding_name%: %value%"]`. You can also use aliases to declare bindings. Some bindings may be defined as attributes (`[%binding_alias%="%value%"]`) or nodes (`%binding_alias% args="%value%">`).
 
-### Binding values
+## Binding values
 
 Apart from the value type specified for each binding, every value may be wrapped in Knockout's observable.
 

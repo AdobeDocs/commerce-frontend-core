@@ -1,14 +1,13 @@
 ---
-group: ui-components-guide
-subgroup: concepts
-title: uiRegistry
-menu_title: uiRegistry
-menu_order: 110
+title: uiRegistry library | Commerce Frontend Development
+description:
 ---
 
-`uiRegistry` is a in-memory storage, plain storage of entities by keys. Implements the `get()`, `set()`, and `has()` methods.
+# `uiRegistry` library
 
-## JS debugging using uiRegistry
+`uiRegistry` is in-memory, plain storage of entities by keys. Implements the `get()`, `set()`, and `has()` methods.
+
+## JavaScript debugging
 
 To debug the UI component JS, we first need to get a `uiRegistry` instance from the browser console. To do so, use the [RequireJs ID](../../javascript/resources.md) `uiRegistry`.
 
@@ -37,7 +36,7 @@ To get a list of all components used on the current page, you can use this code:
 require('uiRegistry').get(function(component){console.log(component.name)});
 ```
 
-### Asynchronous method of retrieving UI components from the registry
+### Asynchronously retrieve components from the registry
 
 <InlineAlert variant="info" slots="text" />
 

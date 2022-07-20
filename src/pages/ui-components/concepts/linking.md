@@ -1,9 +1,9 @@
 ---
-group: ui-components-guide
-title: Linking properties of UI components
+title: Linking properties of UI components | Commerce Frontend Development
+description:
 ---
 
-## Overview
+# Linking properties of UI components
 
 The following properties are used for linking observable properties and methods of UI components:
 

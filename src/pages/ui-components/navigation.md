@@ -1,9 +1,11 @@
 ---
-group: ui-components-guide
-title: Nav component
+title: Navigation component | Commerce Frontend Development
+decsription:
 ---
 
-The Nav component implements tabs navigation.
+# Navigation component
+
+The Navigation component implements tabs navigation.
 
 See the [Admin Design Pattern Library (Tabs)](https://devdocs.magento.com/guides/v2.4/pattern-library/containers/tabs/tabs.html) topic for information about the UI design patterns that can be implemented using the Nav component.
 

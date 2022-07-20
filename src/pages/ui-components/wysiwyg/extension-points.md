@@ -1,14 +1,16 @@
 ---
-group: ui-components-guide
-title: WYSIWYG Extension Points
+title: WYSIWYG extension points | Commerce Frontend Development
+description:
 ---
+
+# WYSIWYG extension points
 
 This topic goes over the extension points for entities.
 You can use these connection points to integrate entities into third-party WYSIWYG editors.
 
 See [Add a third-party editor] for instructions on how to add a third-party WYSIWYG editor to Magento.
 
-## Entity Integration
+## Entity integration
 
 The specific steps needed to create an editor plugin vary between different editors, but
 for most editors, it usually involves creating an icon or button for the plugin and executing JavaScript code when clicked.
@@ -34,7 +36,7 @@ For example, in a CKEditor4 plugin, these icons would be added to the following 
 
 ### Step 3. Implement plugin functionality
 
-#### Variable Entity
+#### Variable entity
 
 Use the [`MagentovariablePlugin`] object to implement the plugin functionality for the variable entity.
 
@@ -168,7 +170,7 @@ To integrate the default application UI for variable, you must have access to th
 *  htmlId of the WYSIWYG editor.
   For CKEditor4, you can get this by calling `editor.element.getId()`.
 
-#### Widget Entity
+#### Widget entity
 
 Use the global [`widgetTools`] object to implement the plugin functionality for the widget entity.
 
@@ -292,7 +294,7 @@ To integrate the default application UI for widgets, you need access to the foll
 *  The backend `widget_window_url` (`\Magento\Widget\Model\Widget\Config::getWidgetWindowUrl`)
 *  htmlId of the WYSIWYG editor. For CKEditor4, you can get this by calling `editor.element.getId()`.
 
-#### Media Gallery Entity
+#### Media Gallery entity
 
 Use the global [`MediabrowserUtility`] object to implement or override image browsing functionality in the editor.
 

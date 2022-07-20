@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: FiltersChips component
+title: FiltersChips component | Commerce Frontend Development
+decsription:
 ---
+
+# FiltersChips component
 
 The FiltersChips component provides UI controls that allows users to remove the previously-applied values of the [Filters](filters.html) and [Search](search.html) components.
 

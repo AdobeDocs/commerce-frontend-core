@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: Date component
+title: Date component | Commerce Frontend Development
+decsription:
 ---
+
+# Date component
 
 The Date component implements a custom date input field. It uses a date picker implementation provided by the [calendar widget](../javascript/jquery-widgets/calendar.md).
 

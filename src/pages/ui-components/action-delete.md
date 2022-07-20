@@ -1,13 +1,13 @@
 ---
-group: ui-components-guide
-title: ActionDelete component
+title: ActionDelete component | Commerce Frontend Development
+description:
 ---
 
-## Overview
+# ActionDelete component
 
 The ActionDelete component provides a user interface for deleting records of the [DynamicRows component](dynamic-rows.md).
 
-## ActionDelete options
+## Options
 
 |Option|Description|Type|Default|
 |--- |--- |--- |--- |

@@ -1,9 +1,11 @@
 ---
-group: ui-components-guide
-title: DynamicRowsDragAndDrop component
+title: DynamicRowsDragAndDrop component | Commerce Frontend Development
+decsription:
 contributor_name: Atwix
 contributor_link: https://www.atwix.com/
 ---
+
+# DynamicRowsDragAndDrop component
 
 The DynamicRowsDragAndDrop component is an [extension](https://glossary.magento.com/extension) for [DynamicRows](dynamicrows.html), allowing users to change column position in the table.
 

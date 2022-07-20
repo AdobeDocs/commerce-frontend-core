@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: Column component
+title: Column component | Commerce Frontend Development
+description:
 ---
+
+# Column component
 
 The Column component implements a basic column in [Listing](listing-grid.md).
 

@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: ImageUploader component
+title: ImageUploader component | Commerce Frontend Development
+decsription:
 ---
+
+# ImageUploader component
 
 The ImageUploader UI component gives users the ability to upload images to the Media Gallery.
 

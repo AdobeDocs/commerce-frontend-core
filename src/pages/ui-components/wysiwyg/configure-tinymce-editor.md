@@ -1,8 +1,9 @@
 ---
-subgroup: howtos
-group: ui-components-guide
-title: Configure the TinyMCE editor
+title: Configure the TinyMCE editor | Commerce Frontend Development
+description:
 ---
+
+# Configure the TinyMCE editor
 
 You can extend and fully customize the TinyMCE editor to match the style and look-and-feel of your custom theme.
 This enables richer content editing capabilities and ensures that content created in the Page Builder WYSIWYG or CMS content is seamlessly integrated and consistent with your other content.

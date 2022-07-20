@@ -1,13 +1,10 @@
 ---
-subgroup: howtos
-group: ui-components-guide
-title: Update the page URL type
+title: Update the page URL type | Commerce Frontend Development
+description:
 ---
-## What's in this topic
+# Update the page URL type
 
 This topic describes how to extend the existing [`UrlInput` component](../components/ui-urlinput.html) to implement a new link type, or update an existing one, for your module.
-
-## Overview
 
 To update a page URL type, you must:
 

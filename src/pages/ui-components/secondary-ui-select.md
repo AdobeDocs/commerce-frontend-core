@@ -1,10 +1,9 @@
 ---
-group: ui-components-guide
-subgroup: components
-title: UI-select component
-menu_title: UI-select component
-menu_node:
+title: UI-select component | Commerce Frontend Development
+decsription:
 ---
+
+# UI-select component
 
 The UI-select component is a single select/multiple select component that enables the selection of a collection of items. It extends all `abstract` configuration and can be configured in two modes:
 

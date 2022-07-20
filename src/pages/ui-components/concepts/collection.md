@@ -1,15 +1,15 @@
 ---
-group: ui-components-guide
-title: About the uiCollection class
+title: uiCollection class | Commerce Frontend Development
+description:
 ---
 
-## What is `uiCollection`
+# `uiCollection` class
 
 The `uiCollection` library class should be used as a base class by any components that contain a collection of child UI components.  `uiCollection` inherits from the [uiElement class](concepts/element.md).
 
 `uiCollection` source code is `<Magento_Ui_module_dir>/view/base/web/js/lib/core/collection.js`, in the Magento Open Source GitHub repository: [app/code/Magento/Ui/view/base/web/js/lib/core/collection.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/core/collection.js).
 
-## Commonly used `uiCollection` methods
+## Commonly used methods
 
 The `uiCollection` class implements the following methods:
 
@@ -45,7 +45,7 @@ The `uiCollection` class implements the following methods:
 
    where `childIndex` is the value of the child element's `index` property.
 
-## Commonly used `uiCollection` properties
+## Commonly used properties
 
 *  `elems` is the observable property that contains the collection of child UI components.
 
@@ -80,7 +80,7 @@ The `uiCollection` class implements the following methods:
    </listing>
    ```
 
-## uiCollection template
+## Template
 
 The `uiCollection` template is `<Magento_Ui_module_dir>/view/base/web/templates/collection.html`, in the Magento Open Source GitHub repository: [`app/code/Magento/Ui/view/base/web/templates/collection.html`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/collection.html).
 

@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: Bookmarks component
+title: Bookmarks component | Commerce Frontend Development
+description:
 ---
+
+# Bookmarks component
 
 The Bookmarks component stores active and changed state of a grid implemented using [Listing](listing-grid.md). It includes the state of filters, columns position, applied sorting, pagination, and so on.
 

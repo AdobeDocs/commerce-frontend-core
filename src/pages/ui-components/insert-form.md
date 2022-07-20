@@ -1,7 +1,9 @@
 ---
-group: ui-components-guide
-title: InsertForm component
+title: InsertForm component | Commerce Frontend Development
+decsription:
 ---
+
+# InsertForm component
 
 The InsertForm component inserts the [Form component](form.html) into other components.
 

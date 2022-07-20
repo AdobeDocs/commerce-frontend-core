@@ -1,9 +1,9 @@
 ---
-group: ui-components-guide
-subgroup: components
-title: WYSIWYG component
-menu_title: WYSIWYG component
+title: WYSIWYG component | Commerce Frontend Development
+description:
 ---
+
+# WYSIWYG component
 
 The WYSIWYG component is an [adapter](https://glossary.magento.com/adapter) for [TinyMCE](https://www.tiny.cloud/) that integrates an editor instance with the [form component](form.html). It expects a complete [widget](https://glossary.magento.com/widget) declaration in the `content` option, which should contain both [markup](https://glossary.magento.com/markup) and the script responsible for creating the editor's instance.
 

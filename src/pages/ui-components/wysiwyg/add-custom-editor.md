@@ -1,9 +1,9 @@
 ---
-group: ui-components-guide
-title: Add Custom Editor
+title: Add a custom editor | Commerce Frontend Development
+description:
 ---
 
-## Before you begin...
+# Add a custom editor
 
 This tutorial goes through the process of adding [CKEditor4] as an editor that can be used by the WYSIWYG UI component.
 
