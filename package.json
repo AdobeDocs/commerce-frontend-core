@@ -7,7 +7,7 @@
     "url": "https://github.com/AdobeDocs/commerce-frontend-core"
   },
   "dependencies": {
-    "@adobe/gatsby-theme-aio": "4.3.0",
+    "@adobe/gatsby-theme-aio": "4.3.0-r6",
     "gatsby": "4.19.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
