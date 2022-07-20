@@ -68,7 +68,7 @@ This is an example of how to add a text range filter type:
 
 ![TextRange filter type](../_images/ui-components/text-range-result.png)
 
-### Methods and events
+## Methods and events
 
 The following [API](https://glossary.magento.com/api) methods are available:
 
