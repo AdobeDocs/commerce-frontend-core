@@ -73,8 +73,13 @@ jobs:
       - name: Install Yarn v1
         run: npm install -g yarn
 
+      - name: Enable Corepack for Yarn v3
+        run: corepack enable
+
       - name: Update to Yarn v3
-        run: corepack enable && yarn set version stable
+        uses: borales/actions-yarn@v3.0.0
+        with:
+          cmd: set version stable
 
       - name: Install Dependencies
         uses: borales/actions-yarn@v3.0.0
