@@ -9,7 +9,7 @@ The MultiselectColumn component implements a column with checkboxes for selectin
 
 MultiselectColumn is a child of the [Listing component](listing-grid.html) and is rendered in its view. Like any component, it can hold the sort order value, which influences the order of all its child elements.
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default Value |
 | --- | --- | --- | --- |
@@ -103,7 +103,7 @@ Instance Replacement: One Instance of a Component
 </column>
 ```
 
-### Integrate the MultiselectColumn component with the Listing component
+### Integration
 
 This example integrates the MultiselectColumn component with the [Listing](listing-grid.html) component:
 
@@ -131,6 +131,6 @@ Extends [`Column`](column.html):
 *  [app\code\Magento\Ui\view\base\web\templates\grid\cells\multiselect.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/grid/cells/multiselect.html) - defines each field in the grid; provides the Multiselect component with the checkbox interface for selecting item(s) in the grid and performing actions over them.
 *  [app\code\Magento\Ui\view\base\web\templates\grid\columns\multiselect.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/grid/columns/multiselect.html) - defines the grid header with dropdown lists and Select All, Deselect All, and other options.
 
-### Methods and Events
+## Methods and Events
 
 No events are generated. Any other component that can retrieve access to this component and its properties can get data and track its changes using subscription.

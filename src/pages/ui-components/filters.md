@@ -9,7 +9,7 @@ The Filters component renders UI controls for filtering and applies filtering. M
 
 See the [Admin Design Pattern Library (Filters)](https://devdocs.magento.com/guides/v2.4/pattern-library/filters/data-table-filters/filtering.html) topic for information about the UI design patterns that can be implemented using Filters component.
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default Value |
 | --- | --- | --- | --- |
@@ -39,7 +39,7 @@ To add a new customer attribute to the customer grid and make it filterable, fol
 1. Create `etc/indexer.xml` to add the attribute to the `customer_grid` index and define it as filterable.
 1. Set `is_used_in_grid` to `true` for the attribute.
 
-### Integrate the Filters component with the Listing component
+### Integration
 
 This example integrates the Filters component with the [Listing](listing-grid.html) component:
 

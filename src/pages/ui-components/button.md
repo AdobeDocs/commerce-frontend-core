@@ -7,7 +7,7 @@ description:
 
 The Button component allows user to perform a list of predefined actions by clicking on the corresponding button. Its default display mode is the [HTML](https://glossary.magento.com/html) `<button>` element, which be configured to display a link.
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default |
 | --- | --- | --- | --- |
@@ -42,9 +42,9 @@ Extends [`UiElement`](concepts/element.md):
 
 ## Examples
 
-### Integrate Button component with Listing component
+### Integration (Listing component)
 
-Here is an example of a Button component ("Test Button") added below a [Listing](listing-grid.md) component:
+This is an example of how to integrate the Button component ("Test Button") with the [Listing](listing-grid.md) component:
 
 ```xml
 <listing>
@@ -78,9 +78,9 @@ The Button component appears below a Listing component on the page, as follows:
 
 ![Listing Button example](../_images/ui-components/listing_button.png)
 
-### Integrate Button component with Form component
+### Integration (Form component)
 
-Here is an example of how the Button component integrates with the [Form](form.md) component:
+This is an example of how to integrate the Button component with the [Form](form.md) component:
 
 ```xml
 <form>

@@ -7,7 +7,7 @@ decsription:
 
 The Multiselect component provides the interface for a list or a data set. Multiselect allows selecting multiple items.
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default |
 | --- | --- | --- | --- |

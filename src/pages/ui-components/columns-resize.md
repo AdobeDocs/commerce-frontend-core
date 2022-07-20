@@ -9,7 +9,7 @@ contributor_link: https://www.atwix.com/
 
 The ColumnsResize [UI component](https://glossary.magento.com/ui-component) is an [extension](https://glossary.magento.com/extension) for the [Columns](columns.md) component. It provides columns resizing functionality.
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default Value |
 | --- | --- | --- | --- |
@@ -28,7 +28,7 @@ Extends [`UiElement`](concepts/element.md):
 
 ## Examples
 
-### Integrate the ColumnsResize component with the Columns component
+### Integration
 
 This is an example of how the ColumnsResize component integrates with the [Columns](columns.md) component:
 

@@ -17,7 +17,7 @@ The MassActions component has dependencies on the following components:
 *  Modal window with confirmation: `app\code\Magento\Ui\view\base\web\js\modal\confirm.js`
 *  Modal window with alert: `app\code\Magento\Ui\view\base\web\js\modal\alert.js`
 
-## Configuration options
+## Options
 
 | Option       | Description                                                                                                             | Type           | Default Value                      |
 |--------------|-------------------------------------------------------------------------------------------------------------------------|----------------|------------------------------------|

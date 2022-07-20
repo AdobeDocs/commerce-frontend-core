@@ -7,7 +7,7 @@ decsription:
 
 The Sizes component defines the maximum number of displayed records in a table (grid).
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default Value |
 | --- | --- | --- | --- |
@@ -34,7 +34,7 @@ Extends [`UiElement`](concepts/element.md):
 
 ## Examples
 
-### Integrate the Sizes component with the Paging component
+### Integration
 
 This example integrates the Sizes component with the [Paging](paging.html) component:
 

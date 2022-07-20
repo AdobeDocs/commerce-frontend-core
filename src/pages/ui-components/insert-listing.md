@@ -7,7 +7,7 @@ decsription:
 
 The InsertListing component inserts [Listing](listing-grid.html) into other components.
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default |
 | --- | --- | --- | --- |
@@ -31,7 +31,7 @@ Extends [`Insert`](https://github.com/magento/magento2/blob/2.4/app/code/Magento
 
 ## Examples
 
-### Integrate InsertListing component with Form component
+### Integration (form)
 
 The following example shows how the InsertListing component integrates with the [Form](form.html) component:
 
@@ -165,7 +165,7 @@ class CustomDataProvider extends DataProvider
 
 ![InsertListing Component example](../_images/ui-components/ui-insertlisting-result.png)
 
-### Integrate InsertListing component with Modal component
+### Integration (modal)
 
 Here is an example of how the InsertListing component integrates with the [Modal](modal.html) component:
 

@@ -9,7 +9,7 @@ contributor_link: https://www.atwix.com/
 
 The ColumnsEditingBulk [UI component](https://glossary.magento.com/ui-component) is an [extension](https://glossary.magento.com/extension) for the [ColumnsEditor](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/editing/editor.js) component. It provides the bulk update functionality.
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default Value |
 | --- | --- | --- | --- |
@@ -26,7 +26,7 @@ Extends [`record`](https://github.com/magento/magento2/blob/2.4/app/code/Magento
 
 ## Examples
 
-### Integrate the ColumnsEditingBulk component with the ColumnsEditor component
+### Integration
 
 This is an example of how the ColumnsEditingBulk component integrates with the [ColumnsEditor](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/editing/editor.js) component:
 
@@ -53,7 +53,7 @@ This is an example of how the ColumnsEditingBulk component integrates with the [
 
 ![ColumnsEditingBulk Component example](../_images/ui-components/ui-columns-editing-bulk-result.png)
 
-### Disable the ColumnsEditingBulk component on the ColumnsEditor component
+### Disable
 
 This is an example of how the ColumnsEditingBulk component disables the [ColumnsEditor](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/editing/editor.js) component:
 

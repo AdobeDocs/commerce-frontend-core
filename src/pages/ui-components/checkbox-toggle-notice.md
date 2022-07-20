@@ -9,7 +9,7 @@ contributor_link: https://www.atwix.com/
 
 The CheckboxToggleNotice component implements the [`Checkbox`](checkbox.md) component with the ability to switch notice according to the selected option.
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default |
 | --- | --- | --- | --- |
@@ -25,9 +25,9 @@ Extends the [`Checkbox`](checkbox.md) component:
 
 ## Example
 
-### Integrate the CheckboxToggleNotice component with the Form component
+### Integration
 
-This example integrates the CheckboxToggleNotice component with the [Form](form.md) component:
+This is an example of how to integrate the CheckboxsToggleNotice component with the [Form](form.md) component:
 
 ```xml
 <form>

@@ -7,7 +7,7 @@ decsription:
 
 The Fieldset component implements a container for visually-grouped form elements, such as buttons and form fields.
 
-## Configuration options
+## Options
 
 | Title               | Type    | Default | Description                                                                                                               |
 | ------------------- | ------- | ------- | ------------------------------------------------------------------------------------------------------------------------- |
@@ -27,7 +27,7 @@ The Fieldset component implements a container for visually-grouped form elements
 
 ## Examples
 
-### Integrate the Fieldset component with the Form component
+### Integration
 
 The following example adds a new main fieldset that contains a collapsible fieldset into the [Form](form.html) component:
 

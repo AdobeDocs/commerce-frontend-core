@@ -7,7 +7,7 @@ decsription:
 
 The ListingToolbar component implements a container for the listing-related elements such as paging, mass actions, filters, and bookmarks. It aggregates all elements that serve as tools and renders them at the top of the main table.
 
-## Configuration options
+## Options
 
 | Option  | Description | Type | Default |
 | ------- | ------- | ------- | ------------ |
@@ -18,7 +18,7 @@ The ListingToolbar component implements a container for the listing-related elem
 
 ## Examples
 
-### Integrate the ListingToolbar component with the Listing component
+### Integration
 
 In the following example, we group the following components:
 

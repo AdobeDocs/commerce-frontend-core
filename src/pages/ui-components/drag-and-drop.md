@@ -7,7 +7,7 @@ decsription:
 
 The DragAndDrop component is an [extension](https://glossary.magento.com/extension) for [Columns](columns.md), allowing users to change columns position in the table.
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default Value |
 | --- | --- | --- | --- |
@@ -24,7 +24,7 @@ Extends [`UiCollection`](concepts/collection.md):
 
 ## Examples
 
-### Integrate the DragAndDrop component with the Listing component
+### Integration
 
 This example configures the DragAndDrop component for the [Columns](columns.md) component and integrates it with the [Listing](listing-grid.html) component:
 

@@ -7,7 +7,7 @@ decsription:
 
 The Text component displays text data in the components like [Form](form.html) and [DynamicRows](dynamicrows.html).
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default |
 | --- | --- | --- | --- |
@@ -27,7 +27,7 @@ Extends [`UiElement`](concepts/element.md):
 
 ## Examples
 
-### Integrate Text component with Form component
+### Integration
 
 The following example integrates the Text component with the [Form](form.html) component and displays the customer's first name in the admin, on the Customer Edit page:
 

@@ -7,7 +7,7 @@ decsription:
 
 The Email component implements the [HTML](https://glossary.magento.com/html) `<input type="email">` form field.
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default |
 | --- | --- | --- | --- |
@@ -25,7 +25,7 @@ Extends [`Abstract`](https://github.com/magento/magento2/blob/2.4/app/code/Magen
 
 ## Examples
 
-### Integrate the Email component with the Form component
+### Integration
 
 This example integrates the Paging component with the [Form](form.html) component
 
@@ -43,6 +43,6 @@ This example integrates the Paging component with the [Form](form.html) componen
 </form>
 ```
 
-### Result
+#### Result
 
 ![Email Component example](../_images/ui-components/ui-email-result.png)

@@ -7,7 +7,7 @@ decsription:
 
 The TreeMassActions component is a decorator for [MassActions](massactions.html) that adds the support of nested actions.
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default |
 | --- | --- | --- | --- |

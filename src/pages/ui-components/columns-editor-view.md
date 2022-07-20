@@ -9,7 +9,7 @@ contributor_link: https://www.atwix.com/
 
 The ColumnsEditorView [UI component](https://glossary.magento.com/ui-component) is an [extension](https://glossary.magento.com/extension) for the [ColumnsEditor](columns-editor.md) component. It provides functionality for showing the inline form for editing a selected grid record.
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default Value |
 | --- | --- | --- | --- |
@@ -30,7 +30,7 @@ Extends [`uiClass`](concepts/class.md):
 
 ## Examples
 
-### Integrate the ColumnsEditorView component with the ColumnsEditor component
+### Integration
 
 This is an example of how the ColumnsEditorView component integrates with the [ColumnsEditor](columns-editor.md) component:
 

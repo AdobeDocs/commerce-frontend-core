@@ -7,7 +7,7 @@ decsription:
 
 The Radioset component is a shortcut for [Checkboxset](checkboxset.html), with the input type set to the radio button.
 
-## Configuration options
+## Options
 
 |Option|Description|Type|Default|
 |--- |--- |--- |--- |
@@ -25,7 +25,7 @@ Extends [`Abstract`](https://github.com/magento/magento2/blob/2.4/app/code/Magen
 
 ## Examples
 
-### Integrate the Radioset component with the Form component
+### Integration
 
 This is an example of how the Radioset component integrates with the [Form](form.html) component:
 

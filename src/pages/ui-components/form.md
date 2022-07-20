@@ -32,7 +32,7 @@ The following components can be used in the scope of the Form component:
 *  [Textarea](textarea.html)
 *  [Wysiwyg](https://glossary.magento.com/wysiwyg)
 
-## Configuration options
+## Options
 
 <table>
   <tbody>

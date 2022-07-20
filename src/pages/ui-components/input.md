@@ -7,7 +7,7 @@ decsription:
 
 The Input component implements the [HTML](https://glossary.magento.com/html) `<input type="text">` field.
 
-## Configuration options
+## Options
 
 |Option|Description|Type|Default|
 |--- |--- |--- |--- |
@@ -32,7 +32,7 @@ Extends [`UiElement`](concepts/element.md):
 
 ## Examples
 
-### Integrate the Input component with the Form component
+### Integration
 
 This example integrates the Input component with the [Form](form.html) component.
 

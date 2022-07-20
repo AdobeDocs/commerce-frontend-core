@@ -9,7 +9,7 @@ contributor_link: https://www.atwix.com/
 
 The ColumnsEditingClient [UI component](https://glossary.magento.com/ui-component) is an [extension](https://glossary.magento.com/extension) for the [ColumnsEditor](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/editing/editor.js) component. It provides functionality for saving edited data.
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default Value |
 | --- | --- | --- | --- |
@@ -27,7 +27,7 @@ Extends [`uiClass`](concepts/class.md):
 
 ## Examples
 
-### Integrate the ColumnsEditingClient component with the ColumnsEditor component
+### Integration
 
 This is an example of how the ColumnsEditingClient component integrates with the [ColumnsEditor](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/editing/editor.js) component:
 

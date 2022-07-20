@@ -9,7 +9,7 @@ The Tab component implements a tab content area.
 
 See the [Admin Design Pattern Library (Tabs)](https://devdocs.magento.com/guides/v2.4/pattern-library/containers/tabs/tabs.html) topic for information about the UI design patterns that can be implemented using the Tab component.
 
-## Configuration options
+## Options
 
 <table>
   <tr>
@@ -40,7 +40,7 @@ See the [Admin Design Pattern Library (Tabs)](https://devdocs.magento.com/guides
 
 ## Examples
 
-### Integrate the Tab component with the Form component
+### Integration
 
 This example integrates the Tab component with the [Form](form.html) component.
 
@@ -75,6 +75,6 @@ This example integrates the Tab component with the [Form](form.html) component.
 </form>
 ```
 
-## Results
+#### Results
 
 ![Ui tab result](../_images/ui-components/ui-tab-result.png)

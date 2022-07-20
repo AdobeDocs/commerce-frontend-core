@@ -7,7 +7,7 @@ decsription:
 
 The InsertForm component inserts the [Form component](form.html) into other components.
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default |
 | --- | --- | --- | --- |
@@ -33,7 +33,7 @@ Extends [`Insert`](https://github.com/magento/magento2/blob/2.4/app/code/Magento
 
 ## Examples
 
-### Integrate InsertForm component with Form component
+### Integration (form)
 
 Here is an example of how the InsertForm component integrates with the [Form](form.html) component:
 
@@ -175,7 +175,7 @@ class CustomDataProvider extends AbstractDataProvider
 
 ![InsertForm Component example](../_images/ui-components/ui-insertform-result.png)
 
-### Integrate InsertForm component with Modal component
+### Integration (modal)
 
 Here is an example of how the InsertForm component integrates with the [Modal](modal.html) component:
 

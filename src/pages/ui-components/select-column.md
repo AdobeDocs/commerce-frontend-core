@@ -7,7 +7,7 @@ decsription:
 
 The SelectColumn component receives an array of values and displays the column with corresponding labels. The value-label correspondence is set in the component's configuration.
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default |
 | --- | --- | --- | --- |
@@ -32,7 +32,7 @@ Extends [`Column`](column.html):
 
 ## Examples
 
-### Integrate the SelectColumn component with the Listing component
+### Integration
 
 This is an example of how the SelectColumn component integrates with the [Listing](listing-grid.html) component:
 

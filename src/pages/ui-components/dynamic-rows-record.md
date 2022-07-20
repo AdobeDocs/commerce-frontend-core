@@ -9,7 +9,7 @@ contributor_link: https://www.atwix.com/
 
 The DynamicRowsRecord component is a container of record fields. The DynamicRowsRecord should be used as a child of the [DynamicRows](dynamicrows.html) component.
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default |
 | --- | --- | --- | --- |

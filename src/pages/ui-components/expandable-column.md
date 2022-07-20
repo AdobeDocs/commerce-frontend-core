@@ -9,7 +9,7 @@ The ExpandableColumn [UI component](https://glossary.magento.com/ui-component) i
 
 The Expandable Column component can be used in [Admin](https://glossary.magento.com/admin) and the [storefront](https://glossary.magento.com/storefront).
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default |
 | --- | --- | --- | --- |
@@ -21,7 +21,7 @@ The Expandable Column component can be used in [Admin](https://glossary.magento.
 
 ## Examples
 
-### Integrate the Expandable component with the Listing component
+### Integration
 
 The following example shows how the Expandable component integrates with the [Listing](listing-grid.html) component:
 
@@ -77,7 +77,7 @@ This component has a dependency on the Column component, `<Magento_Ui_module_dir
 -  [`<Magento_Ui_module_dir>/view/base/web/templates/grid/cells/expandable.html`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/grid/cells/expandable.html)
 -  [`<Magento_Ui_module_dir>/view/base/web/templates/grid/cells/expandable/content.html`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/grid/cells/expandable/content.html)
 
-### Methods and events
+## Methods and events
 
 The following [API](https://glossary.magento.com/api) methods are available:
 

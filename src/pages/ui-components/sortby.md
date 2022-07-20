@@ -9,7 +9,7 @@ contributor_link: https://github.com/konarshankar07
 
 The Sortby component allows you to sort the column in ascending or descending order.
 
-## Configuration options
+## Options
 
 |      Option                |   Description                                                                 |      Type      |  Default Value   |
 |----------------------------|-------------------------------------------------------------------------------|----------------| -----------------|

@@ -7,7 +7,7 @@ decsription:
 
 The Range component implements the range for filtering rows in a grid. Visually, this component represents two input fields of `date` or `text` type, for entering the "from" and "to" range limits.
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default Value |
 | -------- | --------------------- | --------------------- | --------------------- |

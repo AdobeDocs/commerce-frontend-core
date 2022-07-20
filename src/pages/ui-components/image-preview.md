@@ -15,7 +15,7 @@ The ImagePreview component has dependencies on the following components:
 
 *  [Column](column.md): `app/code/Magento/Ui/view/base/web/js/grid/columns/column.js`
 
-## Configuration options
+## Options
 
 |      Option                |   Description                                                                                                                                                                                                      |      Type      |  Default Value                           |
 |----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------| -----------------------------------------|
@@ -46,6 +46,6 @@ Extends `Column`:
 *  [app\code\Magento\Ui\view\base\web\js\grid\columns\image-preview.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/columns/image-preview.js)
 *  [app\code\Magento\Ui\view\base\web\templates\grid\columns\image-preview.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/grid/columns/image-preview.html)
 
-### Result
+#### Result
 
 ![ImagePreview Component](../_images/ui-components/image-preview-result.png)

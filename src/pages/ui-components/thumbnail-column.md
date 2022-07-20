@@ -7,7 +7,7 @@ decsription:
 
 The ThumbnailColumn component implements a column containing images associated with records of the table. Each field of this column contains an image preview. When a user click on the preview, a pop up window with the detailed view opens.
 
-## Configuration options
+## Options
 
 | Option       | Description    | Type | Default |
 | ------------ | -------------- | ---- | ------- |
@@ -16,7 +16,7 @@ The ThumbnailColumn component implements a column containing images associated w
 
 ## Examples
 
-### Integrate the ThumbnailColumn component with the Listing component
+### Integration
 
 This sample shows how the thumbnail column is added into the Product [Listing](listing-grid.html) component:
 

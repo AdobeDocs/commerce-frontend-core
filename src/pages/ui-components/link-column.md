@@ -9,7 +9,7 @@ The LinkColumn component implements a column that can display anchor elements in
 
 Constructor: [app/code/Magento/Ui/view/base/web/js/grid/columns/link.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/columns/link.js)
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default |
 | --- | --- | --- | --- |
@@ -25,7 +25,7 @@ Extends [Column component](column.html)
 
 ## Examples
 
-### Integrate the LinkColumn component with the Listing component
+### Integration
 
 This example integrates the LinkColumn component with the [Listing](listing-grid.html) component:
 

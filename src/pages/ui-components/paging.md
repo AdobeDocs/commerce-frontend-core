@@ -7,7 +7,7 @@ decsription:
 
 The Paging component implements pagination in grids implemented using [Listing](listing-grid.html). It also creates an instance of the child Sizes component which allows to define the number of records displayed in the associated table.
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default Value |
 | --- | --- | --- | --- |
@@ -27,7 +27,7 @@ Extends [`UiElement`](concepts/element.md):
 
 ## Examples
 
-### Integrate the Paging component with the Listing component
+### Integration
 
 This example integrates the Paging component with the [Listing](listing-grid.html) component:
 
@@ -45,7 +45,7 @@ This example integrates the Paging component with the [Listing](listing-grid.htm
 
 ![Paging Component example](../_images/ui-components/ui-paging-result.png)
 
-### Configure page size and options for Paging component
+### Configure page size and options
 
 This example configures the Paging component with the page size and options:
 
@@ -71,6 +71,6 @@ This example configures the Paging component with the page size and options:
 </paging>
 ```
 
-### Result
+#### Result
 
 ![Configured Paging Component example](../_images/ui-components/ui-paging-configured-result.png)

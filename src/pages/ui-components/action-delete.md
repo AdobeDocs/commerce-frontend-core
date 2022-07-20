@@ -24,7 +24,7 @@ Extends [`Abstract`](https://github.com/magento/magento2/blob/2.4/app/code/Magen
 
 ## Examples
 
-### Integrate ActionDelete component with DynamicRows component
+### Integration
 
 This is an example of how ActionDelete component integrates with [DynamicRows](dynamic-rows.md) component:
 

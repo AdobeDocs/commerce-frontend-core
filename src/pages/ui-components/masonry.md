@@ -16,7 +16,7 @@ The Masonry component has dependencies on the following components:
 *  Listing: `app/code/Magento/Ui/view/base/web/js/grid/listing.js`
 *  Request Animation Frame: `app/code/Magento/Ui/view/base/web/js/lib/view/utils/raf.js`
 
-## Configuration options
+## Options
 
 |      Option              |   Description                                                                    |      Type      |  Default Value             |
 |--------------------------|----------------------------------------------------------------------------------|----------------| ---------------------------|

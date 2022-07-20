@@ -9,7 +9,7 @@ The ImageUploader UI component gives users the ability to upload images to the M
 
 This component is a variation of the [FileUploader component](fileuploader.html) and uses the same configuration settings.
 
-## Configuration options
+## Options
 
 | Title             | Type   | Default | Description                                                                    |
 | ----------------- | ------ | ------- | ------------------------------------------------------------------------------ |

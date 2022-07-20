@@ -7,7 +7,7 @@ description:
 
 The ActionsColumns component implements a table's column responsible for displaying and performing a list of record-related actions.
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default |
 | --- | --- | --- | --- |
@@ -37,7 +37,9 @@ Extends [`Column`](column.md):
 
 ## Examples
 
-### Integrate ActionsColumns component with Listing component
+### Integration
+
+This is an example of how to integrate the ActionsColumns component with the [Listing](listing.md) component:
 
 ```xml
 <listing>

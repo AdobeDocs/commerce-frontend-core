@@ -7,7 +7,7 @@ description:
 
 The Bookmarks component stores active and changed state of a grid implemented using [Listing](listing-grid.md). It includes the state of filters, columns position, applied sorting, pagination, and so on.
 
-## Configuration options
+## Options
 
 Option | Description | Type | Default Value
 --- | --- | --- | ---
@@ -27,9 +27,9 @@ Extends [`uiCollection`](concepts/collection.md):
 
 ## Examples
 
-### Integrate Bookmarks component with Listing component
+### Integration
 
-This is an example of how the Bookmarks component integrates with the [Listing](listing-grid.md) component:
+This is an example of how to integrate the Bookmarks component with the [Listing](listing-grid.md) component:
 
 ```xml
 <listing>

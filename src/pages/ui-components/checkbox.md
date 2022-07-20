@@ -7,7 +7,7 @@ description:
 
 The Checkbox component implements a form field that is an [HTML](https://glossary.magento.com/html) `<input type="checkbox">` element. It can also be displayed as a "toggle" handler or a radio button element.
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default |
 | --- | --- | --- | --- |
@@ -32,9 +32,9 @@ Extends [`Abstract`](https://github.com/magento/magento2/blob/2.4/app/code/Magen
 
 ## Examples
 
-### Integrate the Checkbox component configured as toggle element with the Form component
+### Integration (toggle element)
 
-This example integrates the Checkbox component configured as a toggle element with the [Form](form.md) component:
+This is an example of how to integrate the Checkbox component with the [Form](form.md) component:
 
 ```xml
 <form>
@@ -66,9 +66,9 @@ This example integrates the Checkbox component configured as a toggle element wi
 
 ![Checkbox Toggle UiComponent](../_images/ui-components/checkbox-component-result.png)
 
-### Integrate the Checkbox component configured as checkbox element with the Form component
+### Integration (checkbox element)
 
-This example integrates the Checkbox component configured as a checkbox element with the [Form](form.md) component:
+This is an example of how to integrate the Checkbox component with the [Form](form.md) component:
 
 ```xml
 <form>
@@ -100,9 +100,9 @@ This example integrates the Checkbox component configured as a checkbox element 
 
 ![Checkbox UiComponent](../_images/ui-components/ui-checkbox-result.png)
 
-### Integrate the Checkbox component configured as radio element with the Form component
+### Integration (radio element)
 
-This example integrates the Checkbox component configured as a radio element with the [Form](form.md) component:
+This is an example of how to integrate the Checkbox component with the [Form](form.md) component:
 
 ```xml
 <form>

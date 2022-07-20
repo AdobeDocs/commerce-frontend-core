@@ -13,7 +13,7 @@ The application supports all selector, plugin, and toolbar/menu configuration op
 
 Refer to [TinyMCE's documentation](https://www.tiny.cloud/docs/) for more information.
 
-## Configuration options
+## Options
 
 Extends all `abstract` configuration.
 

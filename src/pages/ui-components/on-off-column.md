@@ -7,7 +7,7 @@ decsription:
 
 The OnOffColumn component is a decorator for [MultiselectColumn](multiselectcolumn.html). It displays toggle switch elements instead of checkboxes.
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default Value |
 | --- | --- | --- | --- |
@@ -26,7 +26,7 @@ Extends [`MultiselectColumn`](multiselectcolumn.html):
 
 ## Examples
 
-### Integrate the OnOffColumn component with the Listing component
+### Integration
 
 This example integrates the OnOffColumn component with the [Listing](listing-grid.html) component:
 

@@ -10,7 +10,7 @@ The ColumnsControls component is a collection of columns. It provides an interfa
 *  The total number of all available columns in a grid.
 *  The number of columns currently active/displayed.
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default Value |
 | --- | --- | --- | --- |

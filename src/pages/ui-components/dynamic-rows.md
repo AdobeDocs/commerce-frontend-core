@@ -7,7 +7,7 @@ decsription:
 
 The DynamicRows component is a dynamic collection of records. The user can edit the records, change their position, and navigate through the collection.
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default |
 | --- | --- | --- | --- |
@@ -40,7 +40,7 @@ Extends [`UiCollection`](concepts/collection.md):
 
 ## Examples
 
-### Integrate the DynamicRows component with the Form component
+### Integration
 
 This is an example of how the DynamicRows component integrates with the [Form](form.html) component:
 

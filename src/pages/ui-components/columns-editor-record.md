@@ -9,7 +9,7 @@ contributor_link: https://www.atwix.com/
 
 The ColumnsEditorRecord [UI component](https://glossary.magento.com/ui-component) is a container of record fields. The ColumnsEditorRecord should be used as a child of the [ColumnsEditor](columns-editor.html) component.
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default Value |
 | --- | --- | --- | --- |
@@ -32,7 +32,7 @@ Extends [`UiCollection`](concepts/collection.md):
 
 ## Examples
 
-### Integrate the ColumnsEditorRecord component with the ColumnsEditor component
+### Integration
 
 This is an example of how the ColumnsEditorRecord component integrates with the [ColumnsEditor](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/editing/editor.js) component:
 

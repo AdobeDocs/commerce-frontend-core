@@ -10,7 +10,7 @@ The HtmlContent [UI component](https://glossary.magento.com/ui-component) provid
 The layout structure inside HtmlContent must contain only one top-level block. The top-level block may contain as many child blocks or containers as required.
 All blocks inside HtmlContent are integrated into the layout, so external blocks can refer to them and vice verse.
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default |
 | --- | --- | --- | --- |
@@ -49,7 +49,7 @@ All blocks inside HtmlContent are integrated into the layout, so external blocks
 </form>
 ```
 
-### Integrate the HtmlContent component with the Form component
+### Integration
 
 This example integrates the HtmlContent component with the [Form](form.html) component.
 

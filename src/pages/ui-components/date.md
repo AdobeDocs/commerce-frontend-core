@@ -7,7 +7,7 @@ decsription:
 
 The Date component implements a custom date input field. It uses a date picker implementation provided by the [calendar widget](../javascript/jquery-widgets/calendar.md).
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default |
 | --- | --- | --- | --- |

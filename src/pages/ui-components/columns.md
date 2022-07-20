@@ -7,7 +7,7 @@ decsription:
 
 The Columns component is a collection of columns. It renders the `<table>` element and displays the records of the [Listing component](listing-grid.html) in this table.
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default |
 | --- | --- | --- | --- |
@@ -39,7 +39,7 @@ Extends [`uiCollection`](concepts/collection.md):
 
 ## Examples
 
-### Integrate the Columns component as a grid (default) with the Listing component
+### Integration (grid)
 
 This is an example of how the Columns component integrates with the [Listing](listing-grid.html) component:
 
@@ -88,7 +88,7 @@ This is an example of how the Columns component integrates with the [Listing](li
 
 ![Columns Component Example](../_images/ui-components/ui-columns-result.png)
 
-### Integrate the Columns component as a list with the Listing component
+### Integration (list)
 
 This is an example of how the Columns component with the list display mode integrates with the [Listing](listing-grid.html) component:
 

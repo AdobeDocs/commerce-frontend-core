@@ -7,7 +7,7 @@ decsription:
 
 The urlInput component implements the `<urlInput>` form field.
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default |
 | --- | --- | --- | --- |
@@ -95,7 +95,7 @@ The application provides the ability to use two link types by default:
 -  `Magento\Catalog\Ui\Component\UrlInput\Category` for category
 -  `Magento\Catalog\Ui\Component\UrlInput\Product` for product
 
-### Integrate the urlInput component with the Form component
+### Integration
 
 This example integrates the urlInput component with the [Form](form.html) component.
 

@@ -7,7 +7,7 @@ description:
 
 The Column component implements a basic column in [Listing](listing-grid.md).
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default |
 | --- | --- | --- | --- |
@@ -47,7 +47,7 @@ Extends [`UiElement`](concepts/element.md):
 
 ## Examples
 
-### Integrate Column component with Listing component
+### Integration
 
 This is an example of how the Column component integrates with the [Listing](listing-grid.md) component:
 

@@ -7,7 +7,7 @@ description:
 
 The Checkboxset component implements a group of `<input type="checkbox">` or `<input type="radio">` selection elements.
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default |
 | --- | --- | --- | --- |
@@ -27,9 +27,9 @@ Extends [`Abstract`](https://github.com/magento/magento2/blob/2.4/app/code/Magen
 
 ## Examples
 
-### Integrate the Checkboxset component with the Form component
+### Integration
 
-This is an example of how the Checkboxset component integrates with the [Form](form.md) component:
+This is an example of how to integrate the Checkboxset component with the [Form](form.md) component:
 
 ```xml
 <form>

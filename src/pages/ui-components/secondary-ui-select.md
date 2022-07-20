@@ -10,7 +10,7 @@ The UI-select component is a single select/multiple select component that enable
 *  Single - checkbox isn't displayed
 *  Multiple - checkboxes are displayed
 
-## Configuration options
+## Options
 
 <InlineAlert variant="success" slots="text" />
 

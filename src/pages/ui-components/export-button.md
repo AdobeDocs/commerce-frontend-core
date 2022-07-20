@@ -7,7 +7,7 @@ decsription:
 
 The ExportButton component implements the ability to export grid data to the specified data format (csv, xml, and so on).
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default Value |
 | --- | --- | --- | --- |

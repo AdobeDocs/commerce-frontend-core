@@ -7,7 +7,7 @@ decsription:
 
 The Search component allows searching through the grid records. It is a generic tool for filtering content that aggregates all other filter elements.
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default Value |
 | --- | --- | --- | --- |
@@ -25,7 +25,7 @@ Extends [`UiElement`](concepts/element.md):
 
 ## Examples
 
-### Integrate Search component with Listing component
+### Integration
 
 This is an example of how the Search component integrates with the [Listing](listing-grid.html) component:
 

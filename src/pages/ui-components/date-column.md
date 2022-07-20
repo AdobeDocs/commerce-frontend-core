@@ -7,7 +7,7 @@ decsription:
 
 The DateColumn component implements a table column that displays dates.
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default |
 | --- | --- | --- | --- |
@@ -23,7 +23,7 @@ Extends [`Column`](column.html):
 
 ## Examples
 
-### Integrate the DateColumn component with the Listing component
+### Integration
 
 This is an example of how the DateColumn component integrates with the [Listing](listing-grid.html) component:
 
@@ -53,6 +53,6 @@ This is an example of how the DateColumn component integrates with the [Listing]
 </listing>
 ```
 
-### Result
+#### Result
 
 ![DateColumn Component Example](../_images/ui-components/ui-date-column-result.png)

@@ -7,7 +7,7 @@ decsription:
 
 The Select component provides the interface for a list or a data set. With this component, the user can select only one item.
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default |
 | --- | --- | --- | --- |

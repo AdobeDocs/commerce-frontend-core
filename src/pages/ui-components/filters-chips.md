@@ -7,7 +7,7 @@ decsription:
 
 The FiltersChips component provides UI controls that allows users to remove the previously-applied values of the [Filters](filters.html) and [Search](search.html) components.
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default Value |
 | --- | --- | --- | --- |
@@ -24,7 +24,7 @@ Extends [`uiCollection`](concepts/collection.md):
 
 ## Examples
 
-### Integrate the FiltersChips component as a grid (default) with the Filters component
+### Integration
 
 This is an example of how the FiltersChips component integrates with the [Filters](filters.html) component:
 

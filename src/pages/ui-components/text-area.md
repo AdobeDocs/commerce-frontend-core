@@ -7,7 +7,7 @@ decsription:
 
 The Textarea component implements the `<textarea>` form field.
 
-## Configuration options
+## Options
 
 | Option | Description | Type | Default |
 | --- | --- | --- | --- |
@@ -28,7 +28,7 @@ Extends [`Abstract`](https://github.com/magento/magento2/blob/2.4/app/code/Magen
 
 ## Examples
 
-### Integrate the Textarea component with the Form component
+### Integration
 
 This example integrates the Textarea component with the [Form](form.html) component.
 
