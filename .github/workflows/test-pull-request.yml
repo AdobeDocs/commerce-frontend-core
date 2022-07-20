@@ -71,11 +71,11 @@ jobs:
         with:
           node-version: '16.15.0' # Current LTS version
 
-      - name: Enable Corepack for Yarn v3
-        run: corepack enable
-
       - name: Install Yarn v1
         run: npm install -g yarn
+
+      - name: Enable Corepack for Yarn v3
+        run: corepack enable
 
       - name: Install Yarn v3
         uses: borales/actions-yarn@v3.0.0
