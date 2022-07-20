@@ -8558,7 +8558,7 @@ __metadata:
   checksum: 93c40febe714f56711d1fedc2b7a9cc4cbaa0fcddec0509876c46b9dd6099ed6bfd6662a4f35e5fa0301660f48ed516829253ab0fc90b9e79b823dd77786b379
   languageName: node
   linkType: hard
-
+  
 "devcert@npm:^1.2.0":
   version: 1.2.2
   resolution: "devcert@npm:1.2.2"
@@ -10573,8 +10573,8 @@ __metadata:
     "@parcel/transformer-raw": 2.6.2
     "@parcel/transformer-react-refresh-wrap": 2.6.2
   peerDependencies:
-    "@parcel/core": ^2.0.0
-  checksum: 0b01ade71a19044878b247c59297a1173d89c8dba0c1527eeb2283533f6ceb9ca2828c70d2049bc18995c76d009af7179e179b207e6b6c005b4571fb0f0848dd
+    "@parcel/core": 2.6.0
+  checksum: 27a414414c06da5b194ac09caddd4cad0a7180cd2c43c255cae37c038922fbc4f841e340f7482f0f775159218ab28df34ec55e54bf0513bf6e5538e9b5ff1164
   languageName: node
   linkType: hard
 
