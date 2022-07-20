@@ -4,13 +4,13 @@
 ## Pull request testing ##
 ###########################
 ###########################
-name: Test a pull request
+name: Pull Request Test
 
-#
 # Documentation:
-# - Workflow syntax: https://help.github.com/en/articles/workflow-syntax-for-github-actions
+# - Workflow: https://help.github.com/en/articles/workflow-syntax-for-github-actions
 # - SuperLinter: https://github.com/github/super-linter
 # - Markdown linter: https://github.com/DavidAnson/markdownlint
+# - Link validation: https://github.com/remarkjs/remark-validate-links
 
 ######################################################
 # Start the job on a pull request to the main branch #
@@ -43,13 +43,13 @@ jobs:
           fetch-depth: 0
 
       ################################
-      # Run Linter against code base #
+      # Run Linters against code base #
       ################################
       - name: Lint Code Base
         #
         # Use full version number to avoid cases when a next
         # released version is buggy
-        #
+        # About slim image: https://github.com/github/super-linter#slim-image
         uses: github/super-linter/slim@v4.9.2
         env:
           VALIDATE_ALL_CODEBASE: false
@@ -62,23 +62,27 @@ jobs:
           # .github/linters/.markdown-lint.yml
           #
           # Documentation on rules:
+          # https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
           VALIDATE_MARKDOWN: true
           VALIDATE_YAML: true
 
-      - name: Setup Node
+      - name: Setup Node v16 for Yarn v3
         uses: actions/setup-node@v3
         with:
-          node-version: '16.15.0'
+          node-version: '16.15.0' # Current LTS version
 
-      - name: Install yarn
+      - name: Install Yarn v1
+        run: npm install -g yarn
+
+      - name: Update to Yarn v3
         run: corepack enable && yarn set version stable
 
-      - name: Install dependencies
+      - name: Install Dependencies
         uses: borales/actions-yarn@v3.0.0
         env:
           YARN_ENABLE_IMMUTABLE_INSTALLS: false
         with:
-          cmd: install # runs `yarn install` command
+          cmd: install
 
       - name: Check internal links
         run: yarn test:links
