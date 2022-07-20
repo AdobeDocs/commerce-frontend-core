@@ -54,6 +54,7 @@ var context = ko.contextFor($0);
 , where `$0` is a [special variable](https://developers.google.com/web/tools/chrome-devtools/debug/command-line/command-line-reference#section-1) in browser console. It contains a link to a DOM element that is last inspected.
 
 For example:
+
 ```javascript
 // Admin > Products > Catalog > Add Product
 // Inspect "Product Name"

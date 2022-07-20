@@ -69,6 +69,7 @@ The `<container>` node must be located in the scope of the `<fieldset>` node.
     ...
 </fieldset>
 ```
+
 #### Result
 
 ![Container with a field](../_images/ui-components/container-with-field-result.png)

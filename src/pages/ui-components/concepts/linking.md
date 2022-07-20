@@ -141,6 +141,7 @@ Example of using `links` in a component's configuration `.xml` file:
 For an example of `links` usage, see [`text.js`, line 22](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/element/text.js#L22)
 
 ## `listens` property
+
 The `listens` property is used to track the changes of a component's property. `listens`'s value is an object, composed of the following:
 
 -  `key`: name of the observable property or method which is tracked for changes. Can use [string templates](#string_templ).

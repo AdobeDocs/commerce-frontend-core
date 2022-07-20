@@ -363,4 +363,5 @@ var config = {
     }
 };
 ```
+
 [CKEditor4]: https://ckeditor.com/ckeditor-4/
