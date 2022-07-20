@@ -4,9 +4,8 @@
 ## Pull request testing ##
 ###########################
 ###########################
-name: Test a pull request
+name: Pull Request Test
 
-#
 # Documentation:
 # - Workflow syntax: https://help.github.com/en/articles/workflow-syntax-for-github-actions
 # - SuperLinter: https://github.com/github/super-linter
@@ -43,13 +42,12 @@ jobs:
           fetch-depth: 0
 
       ################################
-      # Run Linter against code base #
+      # Run Linters against code base #
       ################################
       - name: Lint Code Base
         #
         # Use full version number to avoid cases when a next
         # released version is buggy
-        #
         # About slim image: https://github.com/github/super-linter#slim-image
         uses: github/super-linter/slim@v4.9.2
         env:
@@ -67,24 +65,34 @@ jobs:
           VALIDATE_MARKDOWN: true
           VALIDATE_YAML: true
 
-      - name: Setup Node
+      - name: Setup Node v16 for Yarn v3
         uses: actions/setup-node@v3
         with:
-          node-version: "16.16.0"
+          node-version: '16.15.0' # Current LTS version
 
-      - name: Install yarn
+      - name: Install Yarn v1
+        run: npm install -g yarn
+
+      - name: Enable Corepack for Yarn v3
         run: corepack enable
 
-      - name: Update Yarn
-        run: yarn set version stable
+      - name: Install Yarn v3
+        uses: borales/actions-yarn@v3.0.0
+        with:
+          cmd: set version stable
 
-      - name: Install dependencies
-        run: yarn install
+      - name: Install Dependencies
+        uses: borales/actions-yarn@v3.0.0
+        env:
+          YARN_ENABLE_IMMUTABLE_INSTALLS: false
+        with:
+          cmd: install
 
       - name: Check internal links
         run: yarn test:links
 
       - name: Build site
-        # Run build step only if link check is successful
         if: ${{ success() }}
-        run: yarn build
+        uses: borales/actions-yarn@v3.0.0
+        with:
+          cmd: build

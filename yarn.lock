@@ -33,9 +33,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@adobe/gatsby-theme-aio@npm:4.3.0-rc6":
-  version: 4.3.0-rc6
-  resolution: "@adobe/gatsby-theme-aio@npm:4.3.0-rc6"
+"@adobe/gatsby-theme-aio@npm:4.3.0":
+  version: 4.3.0
+  resolution: "@adobe/gatsby-theme-aio@npm:4.3.0"
   dependencies:
     "@adobe/focus-ring-polyfill": ^0.1.5
     "@adobe/gatsby-source-github-file-contributors": ^0.3.1
@@ -44,33 +44,35 @@ __metadata:
     "@loadable/component": ^5.14.1
     "@mdx-js/mdx": ^1.6.22
     "@mdx-js/react": ^1.6.22
-    "@spectrum-css/accordion": 3.0.1
-    "@spectrum-css/actionbutton": 1.0.1
-    "@spectrum-css/assetlist": 3.0.1
-    "@spectrum-css/breadcrumb": 3.0.1
-    "@spectrum-css/button": 3.0.1
-    "@spectrum-css/card": 3.0.1
-    "@spectrum-css/checkbox": 3.0.1
-    "@spectrum-css/dialog": 3.0.1
-    "@spectrum-css/divider": 1.0.1
-    "@spectrum-css/icon": 3.0.1
-    "@spectrum-css/inlinealert": 1.0.0
-    "@spectrum-css/link": 3.1.1
-    "@spectrum-css/menu": 3.0.1
-    "@spectrum-css/modal": 3.0.1
-    "@spectrum-css/picker": 1.0.1
-    "@spectrum-css/popover": 3.0.1
-    "@spectrum-css/progresscircle": 1.0.1
-    "@spectrum-css/search": 3.0.1
-    "@spectrum-css/sidenav": 3.0.1
-    "@spectrum-css/table": 3.0.1
-    "@spectrum-css/tabs": 3.0.1
-    "@spectrum-css/textfield": 3.0.1
-    "@spectrum-css/tooltip": 3.0.1
-    "@spectrum-css/typography": 3.0.1
-    "@spectrum-css/underlay": 2.0.9
-    "@spectrum-css/vars": 3.0.1
-    "@spectrum-css/well": 3.0.1
+    "@spectrum-css/accordion": 3.0.24
+    "@spectrum-css/actionbutton": 2.0.0
+    "@spectrum-css/actiongroup": ^2.0.0
+    "@spectrum-css/assetlist": 3.0.24
+    "@spectrum-css/badge": ^1.0.20
+    "@spectrum-css/breadcrumb": 5.0.0
+    "@spectrum-css/button": 6.0.13
+    "@spectrum-css/card": 5.0.0
+    "@spectrum-css/checkbox": 3.1.3
+    "@spectrum-css/dialog": 6.0.14
+    "@spectrum-css/divider": 1.0.27
+    "@spectrum-css/icon": 3.0.23
+    "@spectrum-css/inlinealert": 4.0.13
+    "@spectrum-css/link": 3.1.23
+    "@spectrum-css/menu": 4.0.4
+    "@spectrum-css/modal": 3.0.23
+    "@spectrum-css/picker": 1.2.10
+    "@spectrum-css/popover": 5.0.17
+    "@spectrum-css/progresscircle": 1.0.23
+    "@spectrum-css/search": 4.2.12
+    "@spectrum-css/sidenav": 3.0.24
+    "@spectrum-css/table": 4.0.19
+    "@spectrum-css/tabs": 3.2.17
+    "@spectrum-css/textfield": 3.2.4
+    "@spectrum-css/tooltip": 3.1.18
+    "@spectrum-css/typography": 4.0.20
+    "@spectrum-css/underlay": 2.0.31
+    "@spectrum-css/vars": 8.0.0
+    "@spectrum-css/well": 3.0.22
     algolia-html-extractor: ^0.0.1
     algoliasearch: 4.10.4
     await-exec: ^0.1.2
@@ -119,7 +121,7 @@ __metadata:
     gatsby: ^4.12.1
     react: ^17.0.0
     react-dom: ^17.0.0
-  checksum: 786c3008aab23a848213ea6a1de007568e877a7d100c087676c8982454d74841053e24caea49aebe5d5e4c6989d909da29f3c229ab4501b12ff34f501c815d85
+  checksum: 54c29796c3c96c7424cec1f2a4c3103ff1e75eb22be618a799bd3da4d375e8d41c0476745f213bbfa243383e120fd66bc6137a039036d330424cf1e65f59877f
   languageName: node
   linkType: hard
 
@@ -139,12 +141,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@algolia/cache-browser-local-storage@npm:4.14.0":
-  version: 4.14.0
-  resolution: "@algolia/cache-browser-local-storage@npm:4.14.0"
+"@algolia/cache-browser-local-storage@npm:4.14.1":
+  version: 4.14.1
+  resolution: "@algolia/cache-browser-local-storage@npm:4.14.1"
   dependencies:
-    "@algolia/cache-common": 4.14.0
-  checksum: 7ccd65f02922f1102a4a8d66fb8aec8034430fc9ebdc3a4a49841660e69c82eed0144d7320b400229934516b4f6c34a5ccdd97fa0a0f1073264b2db47bf69772
+    "@algolia/cache-common": 4.14.1
+  checksum: bdfec5286c96e65583de07345b4bd6e2a8025df589c8a806a76ec8dbffeae1bcbd82e9a6319befbb5f2ce2c84aa542d8bfaf4a9ddde548617e154efb1e7b470b
   languageName: node
   linkType: hard
 
@@ -155,10 +157,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@algolia/cache-common@npm:4.14.0":
-  version: 4.14.0
-  resolution: "@algolia/cache-common@npm:4.14.0"
-  checksum: ae712e1894778f2b54c35e55d652061f74abe4460e4e8e0c9243f4b851e090a463574c0141cd6dab4f3b5620fca494276800873f402ea766c9926a685f66d264
+"@algolia/cache-common@npm:4.14.1":
+  version: 4.14.1
+  resolution: "@algolia/cache-common@npm:4.14.1"
+  checksum: 979946e681277d980946de959d4625c404dc284dbf8e9ae7b266af78743a4b23a5a9fc98c27e97644295807fa6f6dd73424b48fe79424120f13f74accc05a3a3
   languageName: node
   linkType: hard
 
@@ -171,12 +173,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@algolia/cache-in-memory@npm:4.14.0":
-  version: 4.14.0
-  resolution: "@algolia/cache-in-memory@npm:4.14.0"
+"@algolia/cache-in-memory@npm:4.14.1":
+  version: 4.14.1
+  resolution: "@algolia/cache-in-memory@npm:4.14.1"
   dependencies:
-    "@algolia/cache-common": 4.14.0
-  checksum: 778160ccce0e51300391299c7e6f119603fba0d95561bbd734cbe54b3b6e0fd6d6b26ba207b496102fa9a890395d25a4ee3ba7474ca542d01c36261b9ebf31a5
+    "@algolia/cache-common": 4.14.1
+  checksum: 81ca5c8d37d1c3207536ae64c3d0265f10a8f894833362ffec2774857253e533c2629f3e999213931d26f456dcbadd77de0d899287999fec1cdc7880491d4d99
   languageName: node
   linkType: hard
 
@@ -191,14 +193,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@algolia/client-account@npm:4.14.0":
-  version: 4.14.0
-  resolution: "@algolia/client-account@npm:4.14.0"
+"@algolia/client-account@npm:4.14.1":
+  version: 4.14.1
+  resolution: "@algolia/client-account@npm:4.14.1"
   dependencies:
-    "@algolia/client-common": 4.14.0
-    "@algolia/client-search": 4.14.0
-    "@algolia/transporter": 4.14.0
-  checksum: 3e02dfd9eee1a8de52edcf5487810e00df35e72e7646b3f60ae2aedf95a91d4b339060767450ca10b4402ace0922da7e6400ff1c1d483b215959548e70677522
+    "@algolia/client-common": 4.14.1
+    "@algolia/client-search": 4.14.1
+    "@algolia/transporter": 4.14.1
+  checksum: 1a1b5f2fd99edc978ee1601e4d488e9c8d47fa607c583f4a459993b2f09168c9ad43be35d510679caebd2337521b61d49b3d698a1e93ce0a450f105e12aec6fa
   languageName: node
   linkType: hard
 
@@ -214,15 +216,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@algolia/client-analytics@npm:4.14.0":
-  version: 4.14.0
-  resolution: "@algolia/client-analytics@npm:4.14.0"
+"@algolia/client-analytics@npm:4.14.1":
+  version: 4.14.1
+  resolution: "@algolia/client-analytics@npm:4.14.1"
   dependencies:
-    "@algolia/client-common": 4.14.0
-    "@algolia/client-search": 4.14.0
-    "@algolia/requester-common": 4.14.0
-    "@algolia/transporter": 4.14.0
-  checksum: 4959c5ff3dd2274dade3b9998831b1079693ef8e99840a611274773c6b5779cf93447717459e82feeec3be5aa07a60b0689c4689a32493eb164d4c51a47fe21a
+    "@algolia/client-common": 4.14.1
+    "@algolia/client-search": 4.14.1
+    "@algolia/requester-common": 4.14.1
+    "@algolia/transporter": 4.14.1
+  checksum: 06f1605cfb6a4f5caf61a90128419f745b683126d34e80cc37d14cb889a8b368a15bb381d2a44ed6776de00592347afddc372a9eec8b3b3f09dec7fd5bc5e9a3
   languageName: node
   linkType: hard
 
@@ -236,13 +238,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@algolia/client-common@npm:4.14.0":
-  version: 4.14.0
-  resolution: "@algolia/client-common@npm:4.14.0"
+"@algolia/client-common@npm:4.14.1":
+  version: 4.14.1
+  resolution: "@algolia/client-common@npm:4.14.1"
   dependencies:
-    "@algolia/requester-common": 4.14.0
-    "@algolia/transporter": 4.14.0
-  checksum: 702ad7ab9a7d616913348e1f7c6cf02eda88d7da1c32101461d87b8cc05a7cd8c7de3d7e259984bbd73623b5994aef4f0357c9bef8782e28fe71ba9b97fb6891
+    "@algolia/requester-common": 4.14.1
+    "@algolia/transporter": 4.14.1
+  checksum: 9ae642d2fe50be7ef23cc7cf93dfda93ea66b2dd1d453dc946f2e115911e14ba552ccb1e23441a1ada8bed7b2dfc3780775cc9bfd4cb3e8385dbf46df4e6df54
   languageName: node
   linkType: hard
 
@@ -257,14 +259,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@algolia/client-personalization@npm:4.14.0":
-  version: 4.14.0
-  resolution: "@algolia/client-personalization@npm:4.14.0"
+"@algolia/client-personalization@npm:4.14.1":
+  version: 4.14.1
+  resolution: "@algolia/client-personalization@npm:4.14.1"
   dependencies:
-    "@algolia/client-common": 4.14.0
-    "@algolia/requester-common": 4.14.0
-    "@algolia/transporter": 4.14.0
-  checksum: a4a73e98dd0a61f6155281c437c5d659e084c8deff02546db402ab625bd89aba0609c3b01bdf7c7f57fc25698bed6002f3180abf2e955e863f0d8a1b125aabe8
+    "@algolia/client-common": 4.14.1
+    "@algolia/requester-common": 4.14.1
+    "@algolia/transporter": 4.14.1
+  checksum: ca48db45ca03a2b8a341e140188a28d69853bf07a62ee02a98a2f669daff75ea126f9511a67999391b6196a908ffa683f5c907c67171ddb383b8f10a15989619
   languageName: node
   linkType: hard
 
@@ -279,14 +281,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@algolia/client-search@npm:4.14.0":
-  version: 4.14.0
-  resolution: "@algolia/client-search@npm:4.14.0"
+"@algolia/client-search@npm:4.14.1":
+  version: 4.14.1
+  resolution: "@algolia/client-search@npm:4.14.1"
   dependencies:
-    "@algolia/client-common": 4.14.0
-    "@algolia/requester-common": 4.14.0
-    "@algolia/transporter": 4.14.0
-  checksum: 784b8d428c0e17f1fc397ff417e442db42c5a8517dde4850f631357dc27c3f313058c580a978000f2d3ebff368f0fd3fec22e8ed90631c96a249d4cb56883792
+    "@algolia/client-common": 4.14.1
+    "@algolia/requester-common": 4.14.1
+    "@algolia/transporter": 4.14.1
+  checksum: 93a332e7f745d74202145ca9a701273eb11f0520aa38ce7fdc0d3764562efc5142b11006064625e01c3b6c436763f02146d261714e61f7302b8e86035f8cc421
   languageName: node
   linkType: hard
 
@@ -297,10 +299,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@algolia/logger-common@npm:4.14.0":
-  version: 4.14.0
-  resolution: "@algolia/logger-common@npm:4.14.0"
-  checksum: ec396dbd34662ea6efde33f18a4f76775019fd68cb4afe53a04fe64dfa44cf4bb1d87f5462173e604bfb956dda3cf50d8e7f0dddd0f44194622ff108b0a2f939
+"@algolia/logger-common@npm:4.14.1":
+  version: 4.14.1
+  resolution: "@algolia/logger-common@npm:4.14.1"
+  checksum: 723ae72a30236f2570b810030430e79fad1eab88d99b940e2677c4c7d33e1f8aeade902db913bf2b487af537548e21e3b8f72405fde7487f64c53df2070c7917
   languageName: node
   linkType: hard
 
@@ -313,12 +315,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@algolia/logger-console@npm:4.14.0":
-  version: 4.14.0
-  resolution: "@algolia/logger-console@npm:4.14.0"
+"@algolia/logger-console@npm:4.14.1":
+  version: 4.14.1
+  resolution: "@algolia/logger-console@npm:4.14.1"
   dependencies:
-    "@algolia/logger-common": 4.14.0
-  checksum: b75020950b6e364bf17383b8ef4966af97485c1ff9c8707372e8f737e7e53c24fcf5af54545697dfbad7ba9f6c506c2f6bbc4812ddf39531f926e1bbfc8c0bed
+    "@algolia/logger-common": 4.14.1
+  checksum: 99245d6384f647f52eba94868c4aab29a43b93d080769c6a7b9f78fe3b430fd66347843227f6606a2eb28c642884736e99e6eb6427d9c6c631e7d0c8c2c6c80e
   languageName: node
   linkType: hard
 
@@ -331,12 +333,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@algolia/requester-browser-xhr@npm:4.14.0":
-  version: 4.14.0
-  resolution: "@algolia/requester-browser-xhr@npm:4.14.0"
+"@algolia/requester-browser-xhr@npm:4.14.1":
+  version: 4.14.1
+  resolution: "@algolia/requester-browser-xhr@npm:4.14.1"
   dependencies:
-    "@algolia/requester-common": 4.14.0
-  checksum: 0482e2f622eac0f7e7278a3d12a91f3ed18c27d78964209c3355efc6aa010b224e2acc917c70082444ce239c372e5260e4c0364efc6c3632409fcf0ead237b80
+    "@algolia/requester-common": 4.14.1
+  checksum: c5b6990be7c7f9635caa6bf5f1c1af1b20ab99e334aa8dc606ef507b53883fe03f246b27a633d799febf5e4677933a380907a037590199e345735594ea792327
   languageName: node
   linkType: hard
 
@@ -347,10 +349,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@algolia/requester-common@npm:4.14.0":
-  version: 4.14.0
-  resolution: "@algolia/requester-common@npm:4.14.0"
-  checksum: 7db4c7680e0fe2d97f3107a7fa92686d186d9e108ab045c76989a32082b495981472a3f2aeaaabd95ccfd95a35c3c2026edf87d4a5e3ebf14b845cff8c22a608
+"@algolia/requester-common@npm:4.14.1":
+  version: 4.14.1
+  resolution: "@algolia/requester-common@npm:4.14.1"
+  checksum: bdf29260f9c630c810e4b00163fe45d134f76e224e59000d3bc2e6ab2bd5849cba3a8db4af6c7d3ea865b455edee801f85062b1ab63f4b85281cfcec7087242b
   languageName: node
   linkType: hard
 
@@ -363,12 +365,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@algolia/requester-node-http@npm:4.14.0":
-  version: 4.14.0
-  resolution: "@algolia/requester-node-http@npm:4.14.0"
+"@algolia/requester-node-http@npm:4.14.1":
+  version: 4.14.1
+  resolution: "@algolia/requester-node-http@npm:4.14.1"
   dependencies:
-    "@algolia/requester-common": 4.14.0
-  checksum: d3544f12ad4f5a0a3a2abe1749b781e7328ff15ba471455784de5064aeb0dfc9ffcea02be9b09ce7f637389a1d0b622c31c86d4d9fd882ba8e0cb27c5ff446f1
+    "@algolia/requester-common": 4.14.1
+  checksum: ee8a28352ea7eb85b9a57611bda247c0d2d849d9c2f0e5bd3538f85251c43db5a1dbd730b79941c7b14ea19495e407a3613c7ba4bd7d7e41d5e58342aa7fccd7
   languageName: node
   linkType: hard
 
@@ -383,14 +385,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@algolia/transporter@npm:4.14.0":
-  version: 4.14.0
-  resolution: "@algolia/transporter@npm:4.14.0"
+"@algolia/transporter@npm:4.14.1":
+  version: 4.14.1
+  resolution: "@algolia/transporter@npm:4.14.1"
   dependencies:
-    "@algolia/cache-common": 4.14.0
-    "@algolia/logger-common": 4.14.0
-    "@algolia/requester-common": 4.14.0
-  checksum: 0401472f052430986161c7d7ad05be794eed3e878231709b8371a86ede76953a88a9b95323223c4f815a0e2ec185f82b0190b3dd1709ac55a578357e49d4f04c
+    "@algolia/cache-common": 4.14.1
+    "@algolia/logger-common": 4.14.1
+    "@algolia/requester-common": 4.14.1
+  checksum: 162524cf71d50d9aeb60f8759e4e3bc959032cab7fdadb223971deb338df8eb89afc83e0fc8616b6415152a56360e22baf34fa608fe4169bd328e7cf091dc78b
   languageName: node
   linkType: hard
 
@@ -2122,7 +2124,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gatsbyjs/parcel-namer-relative-to-cwd@npm:^1.4.0":
+"@gatsbyjs/parcel-namer-relative-to-cwd@npm:1.4.0":
   version: 1.4.0
   resolution: "@gatsbyjs/parcel-namer-relative-to-cwd@npm:1.4.0"
   dependencies:
@@ -2144,8 +2146,8 @@ __metadata:
   linkType: hard
 
 "@gatsbyjs/reach-router@npm:^1.3.6":
-  version: 1.3.7
-  resolution: "@gatsbyjs/reach-router@npm:1.3.7"
+  version: 1.3.8
+  resolution: "@gatsbyjs/reach-router@npm:1.3.8"
   dependencies:
     invariant: ^2.2.3
     prop-types: ^15.6.1
@@ -2153,7 +2155,7 @@ __metadata:
   peerDependencies:
     react: 15.x || 16.x || 17.x || 18.x
     react-dom: 15.x || 16.x || 17.x || 18.x
-  checksum: 7f1392c98d9b5a9fafacafee493b92e5d757320f45dd582d315c018344c602ba3cc9dab9fb1b75f9b7613240d7579fd6d5870b28f345307f9790cde10655d1dd
+  checksum: 17b326267fa349b1eefbfea3fc30ee458078ee8eec22fd5c11bf59d59bec798a2d443a52218e116c32d519e2672f74c52be29cb8809a6a178f13e51ffe5b8cc6
   languageName: node
   linkType: hard
 
@@ -4383,284 +4385,297 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@spectrum-css/accordion@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@spectrum-css/accordion@npm:3.0.1"
+"@spectrum-css/accordion@npm:3.0.24":
+  version: 3.0.24
+  resolution: "@spectrum-css/accordion@npm:3.0.24"
   peerDependencies:
-    "@spectrum-css/icon": ^3.0.0-beta.0
-    "@spectrum-css/vars": ^3.0.0-beta.1
-  checksum: 1ac72ff913a200430df4b0f1735815a35c2e3ad363d8e5f61ae1190a41fe328dbbe0873a3ecf7af76b5274ee7dacc451c0d3c9e3354371be91e90f12fe83e111
+    "@spectrum-css/icon": ^3.0.21
+    "@spectrum-css/vars": ^8.0.0
+  checksum: 721cbaf75e623f1d853552573948fc60b574f34688df7ed8f7ba72ceaff28e8c4bba0ec4e21bdbb9ab511a0473827a83bd7d6fcb6c6c72051713c357c7ecde0f
   languageName: node
   linkType: hard
 
-"@spectrum-css/actionbutton@npm:1.0.1":
-  version: 1.0.1
-  resolution: "@spectrum-css/actionbutton@npm:1.0.1"
+"@spectrum-css/actionbutton@npm:2.0.0":
+  version: 2.0.0
+  resolution: "@spectrum-css/actionbutton@npm:2.0.0"
   peerDependencies:
-    "@spectrum-css/vars": ^3.0.0-beta.1
-  checksum: 0d69737cdced08a2fe5a67d2ccc010b7c159c7c1eefc28b8f43c2a9f61e1923d7d7d0c666bfe10a51f800cb5384203bc7dea304a3e8e5fbe22e6dacdf12355b2
+    "@spectrum-css/icon": ^3.0.22
+    "@spectrum-css/tokens": ^1.0.0-beta.2
+  checksum: 89a1c2a1156f866c1eee9812bf8548743e8417a60d0cfcf21e35665ea7e1ae1432f47b423630e10d8b33a1a5eeb8f9558c91bc821848748ff704f10cef8ee9a0
   languageName: node
   linkType: hard
 
-"@spectrum-css/assetlist@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@spectrum-css/assetlist@npm:3.0.1"
+"@spectrum-css/actiongroup@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@spectrum-css/actiongroup@npm:2.0.0"
   peerDependencies:
-    "@spectrum-css/checkbox": ^3.0.0-beta.0
-    "@spectrum-css/icon": ^3.0.0-beta.0
-    "@spectrum-css/vars": ^3.0.0-beta.1
-  checksum: 3ef43b4274ce7af5a7830b28cc9ad9b90e3d0144c167f3954cd3368b82fe156b6eed70986b3e0373b3b4a1caa39c11fac58753e1e9a087e0f8e7e4ce0a823b0d
+    "@spectrum-css/actionbutton": ^1.1.13
+    "@spectrum-css/vars": ^8.0.0
+  checksum: 2003d7b911a3b364700e3a9e976799ba3668d9590e9fa2f5ea71e8dd099846d2c17d6f63da86719b4f48630bbdf35a733ce9e4f0cc1b2df9987c1bdbb01cd0b2
   languageName: node
   linkType: hard
 
-"@spectrum-css/breadcrumb@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@spectrum-css/breadcrumb@npm:3.0.1"
+"@spectrum-css/assetlist@npm:3.0.24":
+  version: 3.0.24
+  resolution: "@spectrum-css/assetlist@npm:3.0.24"
   peerDependencies:
-    "@spectrum-css/actionbutton": ^1.0.0-beta.0
-    "@spectrum-css/icon": ^3.0.0-beta.0
-    "@spectrum-css/vars": ^3.0.0-beta.1
-  checksum: 09fdf5c0274dfb8c94d17629ff65c5ce0214558e0218ff4208fa6e3bdb49cd2ca736f9a7adc53bb64d35a722a40fe1ffce1c18ae2abd26ef590d9b61428344ce
+    "@spectrum-css/checkbox": ^3.1.1
+    "@spectrum-css/icon": ^3.0.21
+    "@spectrum-css/vars": ^8.0.0
+  checksum: ce2a73c8e106c6c8c22cd79ee0d1a5156bd93ce972d7826a544e32ec56848d6f7608c2657a4bee8d0286f6ae3b5fb88109f0beafe85f86cfc3b7dc96cfcef16b
   languageName: node
   linkType: hard
 
-"@spectrum-css/button@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@spectrum-css/button@npm:3.0.1"
+"@spectrum-css/badge@npm:^1.0.20":
+  version: 1.0.20
+  resolution: "@spectrum-css/badge@npm:1.0.20"
   peerDependencies:
-    "@spectrum-css/vars": ^3.0.0-beta.1
-  checksum: 257c3e2e86e103334f08d3c6360e9dd5a0c5902f22eb95964ccf035a15fb4e8e3c69fe4456d3e13651c370210b4af1ccc73ce165e397fc4fba1a76b77ce1ba89
+    "@spectrum-css/vars": ^8.0.0
+  checksum: 75c9a6272c836ac8317e985598cd8646917420599d2a3b582132cab1cb80a626e4c32492ce009ff9f2f10e3466022c11210082a63b11460faba3209acbff555d
   languageName: node
   linkType: hard
 
-"@spectrum-css/card@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@spectrum-css/card@npm:3.0.1"
+"@spectrum-css/breadcrumb@npm:5.0.0":
+  version: 5.0.0
+  resolution: "@spectrum-css/breadcrumb@npm:5.0.0"
   peerDependencies:
-    "@spectrum-css/actionbutton": ^1.0.0-beta.0
-    "@spectrum-css/asset": ^3.0.0-beta.0
-    "@spectrum-css/checkbox": ^3.0.0-beta.0
-    "@spectrum-css/icon": ^3.0.0-beta.0
-    "@spectrum-css/quickaction": ^3.0.0-beta.0
-    "@spectrum-css/typography": ^3.0.0-beta.0
-    "@spectrum-css/vars": ^3.0.0-beta.1
-  checksum: ac70c844f8bc4cdace7fc4eda9bd6d3f21c3830a1502323f10243521fcf903c469530c8d43e0204e81e03286485d1ef083abebe5c0c74541d75fbe69ce6e2b86
+    "@spectrum-css/actionbutton": ^1.1.13
+    "@spectrum-css/icon": ^3.0.21
+    "@spectrum-css/vars": ^8.0.0
+  checksum: 4256f46263a8ac5a83670c496a6183cd736c9dc345e2e675cd6833e8347cc5e9671dd1e7de4e2399fa482c9598afbb8285290249e0c88679d58483da716088e1
   languageName: node
   linkType: hard
 
-"@spectrum-css/checkbox@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@spectrum-css/checkbox@npm:3.0.1"
+"@spectrum-css/button@npm:6.0.13":
+  version: 6.0.13
+  resolution: "@spectrum-css/button@npm:6.0.13"
   peerDependencies:
-    "@spectrum-css/icon": ^3.0.0-beta.0
-    "@spectrum-css/vars": ^3.0.0-beta.1
-  checksum: 51d9eb393b81e051c65f0554e9d0b454140ffaa47abae55cecfc052d0941455eca162d75ad7778825a7c224ce1d5f68648af2965973f62365d925c4ef02af301
+    "@spectrum-css/vars": ^8.0.0
+  checksum: bae7d865f8fb186ae05ed6cd212c21ee12f6e5f84fa8a0f6a1136e896f5185810bbdd2c48176b0939d58c967b5dd395961f5478659560d05a5d061feac83d78c
   languageName: node
   linkType: hard
 
-"@spectrum-css/dialog@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@spectrum-css/dialog@npm:3.0.1"
+"@spectrum-css/card@npm:5.0.0":
+  version: 5.0.0
+  resolution: "@spectrum-css/card@npm:5.0.0"
   peerDependencies:
-    "@spectrum-css/actionbutton": ^1.0.0-beta.0
-    "@spectrum-css/button": ^3.0.0-beta.3
-    "@spectrum-css/buttongroup": ^3.0.0-beta.4
-    "@spectrum-css/divider": ^1.0.0-beta.0
-    "@spectrum-css/icon": ^3.0.0-beta.0
-    "@spectrum-css/modal": ^3.0.0-beta.0
-    "@spectrum-css/underlay": ^2.0.8-beta.0
-    "@spectrum-css/vars": ^3.0.0-beta.1
-  checksum: 235cc247f30ecae44779412b2ed597f6dee10eccc1d19b2591ee1fe0127dc679b9687a93eeb8e78881404e116f31ceb8ccfa90588704632b7963bbe5f1150679
+    "@spectrum-css/actionbutton": ^1.1.13
+    "@spectrum-css/asset": ^3.0.20
+    "@spectrum-css/checkbox": ^3.1.1
+    "@spectrum-css/icon": ^3.0.21
+    "@spectrum-css/quickaction": ^3.0.24
+    "@spectrum-css/typography": ^4.0.18
+    "@spectrum-css/vars": ^8.0.0
+  checksum: 54b70a1427540288ffed46f0e407646db92e810fe2755cc15e0359c7dfc3536799cbfae9d843e0a5262fa6d41418927a17c088d72a45eddf1d267ac77f41805e
   languageName: node
   linkType: hard
 
-"@spectrum-css/divider@npm:1.0.1":
-  version: 1.0.1
-  resolution: "@spectrum-css/divider@npm:1.0.1"
+"@spectrum-css/checkbox@npm:3.1.3":
+  version: 3.1.3
+  resolution: "@spectrum-css/checkbox@npm:3.1.3"
+  peerDependencies:
+    "@spectrum-css/icon": ^3.0.21
+    "@spectrum-css/vars": ^8.0.0
+  checksum: 3dd3c0e205b54734d8726d4dc6c4466e1912ac5756b724804eb50e10f67da3f95950d8431f38ef3980af727c11487f60bec08f90fcdbe20d1aedd6846b5a55a8
+  languageName: node
+  linkType: hard
+
+"@spectrum-css/dialog@npm:6.0.14":
+  version: 6.0.14
+  resolution: "@spectrum-css/dialog@npm:6.0.14"
+  peerDependencies:
+    "@spectrum-css/button": ^6.0.1
+    "@spectrum-css/buttongroup": ^5.0.1
+    "@spectrum-css/closebutton": ^1.2.1
+    "@spectrum-css/divider": ^1.0.14
+    "@spectrum-css/icon": ^3.0.13
+    "@spectrum-css/modal": ^3.0.12
+    "@spectrum-css/underlay": ^2.0.21
+    "@spectrum-css/vars": ^8.0.0
+  checksum: 2cd52b9a4b5522d973987104f68888e7e9d590afa743b4c6c02aebb2541b1a7a4e3c84222562527cf8080e20aea02249628ef0d473ecb6b0621d0a52be0ad666
+  languageName: node
+  linkType: hard
+
+"@spectrum-css/divider@npm:1.0.27":
+  version: 1.0.27
+  resolution: "@spectrum-css/divider@npm:1.0.27"
   dependencies:
-    "@spectrum-css/vars": ^3.0.1
-  checksum: 6ec005df176c4bfead8bde4a5aab025b2e37e4d7ae172dee4dc174d3bb893559b90166897fcead6237abb9e155a6d0aa8ceb4e0032fdb77fed4f516cbc370d22
+    "@spectrum-css/vars": ^8.0.0
+  checksum: b7e4d2343a3b393b9878234459ed9cfbe648bf1e586f4bd96f0806db78544a6445c70217c09f2bf12751a70caaa7fe44474a1ba7c6b071281d057b13139849c2
   languageName: node
   linkType: hard
 
-"@spectrum-css/icon@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@spectrum-css/icon@npm:3.0.1"
+"@spectrum-css/icon@npm:3.0.23":
+  version: 3.0.23
+  resolution: "@spectrum-css/icon@npm:3.0.23"
   peerDependencies:
-    "@spectrum-css/vars": ^3.0.0-beta.1
-  checksum: 4f62e1866435382175524387c20530dc2aa8c16a0d927b336f9dfd7b998a3d1b057b6d1e78bde772676add1cff5a40a58837e790d2ab1e268f3ec03ff2e5bbb7
+    "@spectrum-css/vars": ^8.0.0
+  checksum: ce61e6424fbca8b9bd6aed18ec62a41e09aed46fa2abac19d4edb69c53818af818634e6a441313a094181399356358f37aa1658c38f03821d1c07343da8e5001
   languageName: node
   linkType: hard
 
-"@spectrum-css/inlinealert@npm:1.0.0":
-  version: 1.0.0
-  resolution: "@spectrum-css/inlinealert@npm:1.0.0"
+"@spectrum-css/inlinealert@npm:4.0.13":
+  version: 4.0.13
+  resolution: "@spectrum-css/inlinealert@npm:4.0.13"
   peerDependencies:
-    "@spectrum-css/icon": ^3.0.1
-    "@spectrum-css/vars": ^3.0.1
-  checksum: e7945fba52464540ae156be5f542a972ad8ae5bc0100a31a13468002d07f1b465f3e6c2ec35d867bcbaf494dd8173398dc187687581254439565a2de8ed5211f
+    "@spectrum-css/icon": ^3.0.21
+    "@spectrum-css/vars": ^8.0.0
+  checksum: fe04feac72554c602bddf5b82f822eef91425010981b79cd5c0a64b83e9ce098fa0b185d2ca92e27d167021e230c62b2adb2a2c909e965421826824d230af08a
   languageName: node
   linkType: hard
 
-"@spectrum-css/link@npm:3.1.1":
-  version: 3.1.1
-  resolution: "@spectrum-css/link@npm:3.1.1"
+"@spectrum-css/link@npm:3.1.23":
+  version: 3.1.23
+  resolution: "@spectrum-css/link@npm:3.1.23"
   peerDependencies:
-    "@spectrum-css/vars": ^3.0.0-beta.1
-  checksum: 99c795504e9bbd6b6dbf456c7c7ad7c8eb496e2360a9add9ec69d8c1d3fa32df507405d6d18aacdc56bab49f973da3c5841c28dd9278d15f804955cd2f9b172c
+    "@spectrum-css/vars": ^8.0.0
+  checksum: bda69f224ae29d587c5d758b9d0e56ea18204f9db4f53160e9ece2c750a6f25e254f0800c5269d01cf0ad8e1300e3aed96f6f272eb046f1cc5d495290eda5353
   languageName: node
   linkType: hard
 
-"@spectrum-css/menu@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@spectrum-css/menu@npm:3.0.1"
+"@spectrum-css/menu@npm:4.0.4":
+  version: 4.0.4
+  resolution: "@spectrum-css/menu@npm:4.0.4"
   peerDependencies:
-    "@spectrum-css/icon": ^3.0.0-beta.0
-    "@spectrum-css/vars": ^3.0.0-beta.0
-  checksum: e81a8157c56fc6a63585a6d850236844b0035c098579ea6f011a719fa4781efb5442fa4757f8e52fbe180ee5cfd85adfd74d4a953f7a227c87a3f832e491ef44
+    "@spectrum-css/divider": ^1.0.23
+    "@spectrum-css/icon": ^3.0.21
+    "@spectrum-css/vars": ^8.0.0
+  checksum: f5f9d1ab45de05f53b49c6d090a3077934709325e270b214107c6c08d8786ee23b2ad5f0ea84aa36e73b953ddd7cfe0dc626ade5542f2dcc01212bc22186c7ce
   languageName: node
   linkType: hard
 
-"@spectrum-css/modal@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@spectrum-css/modal@npm:3.0.1"
+"@spectrum-css/modal@npm:3.0.23":
+  version: 3.0.23
+  resolution: "@spectrum-css/modal@npm:3.0.23"
   peerDependencies:
-    "@spectrum-css/vars": ^3.0.0-beta.1
-  checksum: e56991fa4fdde72c54a0096a59ae439dff6b7c94c832dbf02e99ad3638500df4841a847d3db9d82b228176bb5c46070dc6994561831283e9005f3ed718cae5c9
+    "@spectrum-css/vars": ^8.0.0
+  checksum: e2ce69d24a8d6bda3a5dd2f9f7a20a5df7f6a55f4ee330ef51c08a73eeda9b6173e80a4b464062983591c816d87c2a227821555b7d0e07a8775b70994efa0683
   languageName: node
   linkType: hard
 
-"@spectrum-css/picker@npm:1.0.1":
-  version: 1.0.1
-  resolution: "@spectrum-css/picker@npm:1.0.1"
+"@spectrum-css/picker@npm:1.2.10":
+  version: 1.2.10
+  resolution: "@spectrum-css/picker@npm:1.2.10"
   peerDependencies:
-    "@spectrum-css/actionbutton": ^1.0.0-beta.0
-    "@spectrum-css/icon": ^3.0.0-beta.0
-    "@spectrum-css/menu": ^3.0.0-beta.0
-    "@spectrum-css/popover": ^3.0.0-beta.0
-    "@spectrum-css/vars": ^3.0.0-beta.1
-  checksum: 578c70c843f994f467b852ca5594225b6c771c161d6b8a2a283856debc3dbd58d79210944079fb2c31140adfffbd81f6f3ec9be3166f2be090748fb2bd35f751
+    "@spectrum-css/icon": ^3.0.21
+    "@spectrum-css/menu": ^4.0.0
+    "@spectrum-css/popover": ^5.0.0
+    "@spectrum-css/vars": ^8.0.0
+  checksum: 34d11ffc5562e9043dfa26eefd95f5463367c79fe128c61bb1765776891fd87d568692e2ffb0620d224dda8ec8c28615211a47ac2a70581724d4d8777e540704
   languageName: node
   linkType: hard
 
-"@spectrum-css/popover@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@spectrum-css/popover@npm:3.0.1"
+"@spectrum-css/popover@npm:5.0.17":
+  version: 5.0.17
+  resolution: "@spectrum-css/popover@npm:5.0.17"
   peerDependencies:
-    "@spectrum-css/dialog": ^3.0.0-beta.2
-    "@spectrum-css/vars": ^3.0.0-beta.1
-  checksum: 4ded5b3f0ea20425bbc23b5a14d734e1dfdaebad80e95d79b891a9861871dd738ce3ae353a58cae3f01e13720959f4c84958418616cbf217ca7495e61ffc067b
+    "@spectrum-css/dialog": ^6.0.0
+    "@spectrum-css/vars": ^8.0.0
+  checksum: 1e92bbde630421e8756e30cfdb1d5acb785fe8ad79920df4d0f153d9834ca7bad91759e4db4c155bd21521e2d57f564227fadf52d647bdad82ed4c1e8cbf49a1
   languageName: node
   linkType: hard
 
-"@spectrum-css/progresscircle@npm:1.0.1":
-  version: 1.0.1
-  resolution: "@spectrum-css/progresscircle@npm:1.0.1"
+"@spectrum-css/progresscircle@npm:1.0.23":
+  version: 1.0.23
+  resolution: "@spectrum-css/progresscircle@npm:1.0.23"
   peerDependencies:
-    "@spectrum-css/vars": ^3.0.0-beta.1
-  checksum: c57f09a0b633e2825c6cd268e0aab48b224a89ea00549c867a03a59a7f563e39db78f045250fc8b72abbbbe9fb62616a453af644223c29d7ab40db99169cc754
+    "@spectrum-css/vars": ^8.0.0
+  checksum: b28b7438f977a182653a27545c1a6dc254d11afb947ab0e9468dc5561ea706a6981710f5afe7873fb789d7ba593a1848067afcab5668f4c8bfeb9eeeb6648b88
   languageName: node
   linkType: hard
 
-"@spectrum-css/search@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@spectrum-css/search@npm:3.0.1"
+"@spectrum-css/search@npm:4.2.12":
+  version: 4.2.12
+  resolution: "@spectrum-css/search@npm:4.2.12"
   peerDependencies:
-    "@spectrum-css/button": ^3.0.0-beta.0
-    "@spectrum-css/icon": ^3.0.0-beta.0
-    "@spectrum-css/textfield": ^3.0.0-beta.0
-    "@spectrum-css/vars": ^3.0.0-beta.1
-  checksum: 8c43f924a9d5baa876cf021b733cbdbbbff597986ff7aaab0381f7457d50706a7bffee749d46f1565ee1042f93b6b438d96c4b26dfe42d29fad8978e3e7ad6c8
+    "@spectrum-css/clearbutton": ^1.2.10
+    "@spectrum-css/icon": ^3.0.21
+    "@spectrum-css/textfield": ^3.2.2
+    "@spectrum-css/vars": ^8.0.0
+  checksum: 478e943868f0767588d1d58d5e5c1d8494f58a277b0b2ea6340ddc80445733fb335c1b72ce8de1aa15704776bc3ed1d518b7f60524d555c94244c119f61b50d7
   languageName: node
   linkType: hard
 
-"@spectrum-css/sidenav@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@spectrum-css/sidenav@npm:3.0.1"
+"@spectrum-css/sidenav@npm:3.0.24":
+  version: 3.0.24
+  resolution: "@spectrum-css/sidenav@npm:3.0.24"
   peerDependencies:
-    "@spectrum-css/vars": ^3.0.0-beta.1
-  checksum: 357399efee53a11bdd5b7d47d3f6e94676281c0807f39fddfc81236b5d406265fadbef96745b8229337aa3f37411018bfb63343bc958fa206b0f133ffd344c54
+    "@spectrum-css/vars": ^8.0.0
+  checksum: a3932f6ab74c24ee0a2150a5b2bf41be0b35e27700f1926e31848f17723c3600b8cdafb91bb5acc6407e0f2406260784f881a6e5f464d9b778aa41007d49024e
   languageName: node
   linkType: hard
 
-"@spectrum-css/table@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@spectrum-css/table@npm:3.0.1"
+"@spectrum-css/table@npm:4.0.19":
+  version: 4.0.19
+  resolution: "@spectrum-css/table@npm:4.0.19"
   peerDependencies:
-    "@spectrum-css/icon": ^3.0.0-beta.0
-    "@spectrum-css/vars": ^3.0.0-beta.1
-  checksum: 6755b3796e298a071eb1427b29ee7b36117528eeffa69b79d54726d24908fdae44e3cf3cfd2d9a970f8642712d76f68daec8a9c5fd63ed4bdf44c65cbb773592
+    "@spectrum-css/icon": ^3.0.21
+    "@spectrum-css/vars": ^8.0.0
+  checksum: 6d9b1f2a9bf4ed0a4a3e3917b09444582711170ebe59eb04d93d6893a1ffc6506a73d84117fb4110820812776171f3d8fa1587c2f1ef3068bacd716b739584ac
   languageName: node
   linkType: hard
 
-"@spectrum-css/tabs@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@spectrum-css/tabs@npm:3.0.1"
+"@spectrum-css/tabs@npm:3.2.17":
+  version: 3.2.17
+  resolution: "@spectrum-css/tabs@npm:3.2.17"
   peerDependencies:
-    "@spectrum-css/menu": ^3.0.0-beta.0
-    "@spectrum-css/picker": ^1.0.0-beta.0
-    "@spectrum-css/vars": ^3.0.0-beta.1
-  checksum: ad228697dcff41bfcd1798b0f956582d57a03891cd32b600eab895d66571d897eb7be10d4c2e4fa006a7b99e202720db34049fd9490be8c086fd5a1a73b1590d
+    "@spectrum-css/menu": ^4.0.0
+    "@spectrum-css/picker": ^1.2.7
+    "@spectrum-css/vars": ^8.0.0
+  checksum: 6d41b8e3000ae2b2eefcbbb1c4569fc31bb54610b64cca6863ea6e55dc822c8c6d13912822c0b32bcdb67beac36f8b59810b15b717190abb6b20b4b340468f63
   languageName: node
   linkType: hard
 
-"@spectrum-css/textfield@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@spectrum-css/textfield@npm:3.0.1"
+"@spectrum-css/textfield@npm:3.2.4":
+  version: 3.2.4
+  resolution: "@spectrum-css/textfield@npm:3.2.4"
   peerDependencies:
-    "@spectrum-css/vars": ^3.0.0-beta.1
-  checksum: 3b062b771ef3993b5438932ef3c48bdc9840f78b44885674f84a6e346a50e69539215afda54387336d460af6706f5afc65adf8e677c08dfb23e8b1aa6726703f
+    "@spectrum-css/vars": ^8.0.0
+  checksum: 87581ba368337c438a54cbf9e66f7e34de574cbeea931f5dab244c701d3eaea04de772cf880183d6cac08d8af940fdee982a19a29012f2d0785379c4f424c6bb
   languageName: node
   linkType: hard
 
-"@spectrum-css/tooltip@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@spectrum-css/tooltip@npm:3.0.1"
+"@spectrum-css/tooltip@npm:3.1.18":
+  version: 3.1.18
+  resolution: "@spectrum-css/tooltip@npm:3.1.18"
   peerDependencies:
-    "@spectrum-css/icon": ^3.0.0-beta.0
-    "@spectrum-css/vars": ^3.0.0-beta.1
-  checksum: 7ce3e9c9fd116f8bd7f5de5f17497268e75b282fc5605bed45b4deac247e8186d9151681e4686e89dcd8df438bd37f0971ea791206cf91f02745affbbf6fd8f5
+    "@spectrum-css/icon": ^3.0.21
+    "@spectrum-css/vars": ^8.0.0
+  checksum: 8ef3b01978ee4638e3ba0c5cd7a345d783aebe32c27bab9fb9cf255480222ecc404d324b5b4098b1ed69be18cf7bdc73e10e2a1b548c7e30898f1a6a9c2dec7f
   languageName: node
   linkType: hard
 
-"@spectrum-css/typography@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@spectrum-css/typography@npm:3.0.1"
+"@spectrum-css/typography@npm:4.0.20":
+  version: 4.0.20
+  resolution: "@spectrum-css/typography@npm:4.0.20"
   peerDependencies:
-    "@spectrum-css/vars": ^3.0.0-beta.1
-  checksum: c9789c28971618c211f382b5be0f52e6fc363a0f54e1fb6fc1ff731602bfdb28fc734f909a77569783310390060f888faa347e6b7216d8b8b6213711fa91127c
+    "@spectrum-css/vars": ^8.0.0
+  checksum: 389dbf1ae191cd712c1539a94541b89d32d132b3589f8a0018212ab078266d1c83937101aad7a0868aea58b46ce22b3e00ed9b5ac7bdcf8476c48dabc52c8110
   languageName: node
   linkType: hard
 
-"@spectrum-css/underlay@npm:2.0.9":
-  version: 2.0.9
-  resolution: "@spectrum-css/underlay@npm:2.0.9"
+"@spectrum-css/underlay@npm:2.0.31":
+  version: 2.0.31
+  resolution: "@spectrum-css/underlay@npm:2.0.31"
   peerDependencies:
-    "@spectrum-css/vars": ^3.0.0-beta.1
-  checksum: b9c2f30ab76cc77a275ef0d4cb8de48db6ddfadcc45ef44fffbb0eaf11b8d973812e22d155563abc533f4fd287c1ee32573d47693a0f1bf53ed2b5244eb46000
+    "@spectrum-css/vars": ^8.0.0
+  checksum: b9c3734b7e8a05851644ab962a998e569e1ad828ceef2a3a6989e2232bdc6d19f93f11ffd273091b39a5de84e9bc478ed20291056a79572957028d4dcce28bdd
   languageName: node
   linkType: hard
 
-"@spectrum-css/vars@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@spectrum-css/vars@npm:3.0.1"
-  checksum: 93845c2005dab8dc9a627d9c76a941e5dd7bdcf06e415b856d0a9f22ad04ecaa5d78b44e4bbd4d569a962b458bc8179189eff72a19ddd4d6d4353de255a5965e
+"@spectrum-css/vars@npm:8.0.0, @spectrum-css/vars@npm:^8.0.0":
+  version: 8.0.0
+  resolution: "@spectrum-css/vars@npm:8.0.0"
+  checksum: a0639066b21a2300bdc61f567e990960c626d53e2b8966de1174aa42790d29a13da878bf2ace398b875ced2afd622daf3b8bdaecd526e93451d3404f76091378
   languageName: node
   linkType: hard
 
-"@spectrum-css/vars@npm:^3.0.1":
-  version: 3.0.2
-  resolution: "@spectrum-css/vars@npm:3.0.2"
-  checksum: 2ab8bacf457031ada3a2dbdee07cb4ab6154e2d1ca5643f8bf3c18a98a382e27c7d1d6a17e33fc08808a497b61ed623f75b582cd67356fba9279636c7762d3bb
-  languageName: node
-  linkType: hard
-
-"@spectrum-css/well@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@spectrum-css/well@npm:3.0.1"
+"@spectrum-css/well@npm:3.0.22":
+  version: 3.0.22
+  resolution: "@spectrum-css/well@npm:3.0.22"
   peerDependencies:
-    "@spectrum-css/vars": ^3.0.0-beta.1
-  checksum: b394c148f6ab7a8f0e7e91820463593dee81f88356495125b775878cd900bb10d4b1432bb40296910ca4de45c28b7ded51532508be201a68282f69642cbe1435
+    "@spectrum-css/vars": ^8.0.0
+  checksum: c1f6cffb17b4911ae0cd6bd497e10d3b04b17e146c502eb4d1d8f5f28de91bd295f1ed973f8b1e935c700ceab59c443791cf186af78e54df2af551420e009e29
   languageName: node
   linkType: hard
 
@@ -5676,24 +5691,24 @@ __metadata:
   linkType: hard
 
 "algoliasearch@npm:^4.9.1":
-  version: 4.14.0
-  resolution: "algoliasearch@npm:4.14.0"
+  version: 4.14.1
+  resolution: "algoliasearch@npm:4.14.1"
   dependencies:
-    "@algolia/cache-browser-local-storage": 4.14.0
-    "@algolia/cache-common": 4.14.0
-    "@algolia/cache-in-memory": 4.14.0
-    "@algolia/client-account": 4.14.0
-    "@algolia/client-analytics": 4.14.0
-    "@algolia/client-common": 4.14.0
-    "@algolia/client-personalization": 4.14.0
-    "@algolia/client-search": 4.14.0
-    "@algolia/logger-common": 4.14.0
-    "@algolia/logger-console": 4.14.0
-    "@algolia/requester-browser-xhr": 4.14.0
-    "@algolia/requester-common": 4.14.0
-    "@algolia/requester-node-http": 4.14.0
-    "@algolia/transporter": 4.14.0
-  checksum: c05e04b8756db6b6c9bd68dd84c4391700def0e161405f6abf5190d83a2f6e139dc7cfaa177fea7ce94d357e182f44f7ff9a16b98e7cd4538015a0477d06f992
+    "@algolia/cache-browser-local-storage": 4.14.1
+    "@algolia/cache-common": 4.14.1
+    "@algolia/cache-in-memory": 4.14.1
+    "@algolia/client-account": 4.14.1
+    "@algolia/client-analytics": 4.14.1
+    "@algolia/client-common": 4.14.1
+    "@algolia/client-personalization": 4.14.1
+    "@algolia/client-search": 4.14.1
+    "@algolia/logger-common": 4.14.1
+    "@algolia/logger-console": 4.14.1
+    "@algolia/requester-browser-xhr": 4.14.1
+    "@algolia/requester-common": 4.14.1
+    "@algolia/requester-node-http": 4.14.1
+    "@algolia/transporter": 4.14.1
+  checksum: f0efb84169d525f2eb5d6a17a067ee2a47be8a86bfcd2d8f6ce73f2c40546f1d0e63543fe043fbc862d4ef55c9c7a3ae2df6ee6c1248e53d70712f0e8eb2788f
   languageName: node
   linkType: hard
 
@@ -7480,6 +7495,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"commerce-frontend-core@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "commerce-frontend-core@workspace:."
+  dependencies:
+    "@adobe/gatsby-theme-aio": 4.3.0
+    gatsby: 4.19.0
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    remark-cli: ^10.0.1
+    remark-validate-links: ^11.0.2
+  languageName: unknown
+  linkType: soft
+
 "common-tags@npm:1.8.2, common-tags@npm:^1.8.0, common-tags@npm:^1.8.2":
   version: 1.8.2
   resolution: "common-tags@npm:1.8.2"
@@ -8530,20 +8558,7 @@ __metadata:
   checksum: 93c40febe714f56711d1fedc2b7a9cc4cbaa0fcddec0509876c46b9dd6099ed6bfd6662a4f35e5fa0301660f48ed516829253ab0fc90b9e79b823dd77786b379
   languageName: node
   linkType: hard
-
-"dev-site-documentation-template@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "dev-site-documentation-template@workspace:."
-  dependencies:
-    "@adobe/gatsby-theme-aio": 4.3.0-rc6
-    gatsby: 4.19.0
-    react: ^17.0.2
-    react-dom: ^17.0.2
-    remark-cli: ^10.0.1
-    remark-validate-links: ^11.0.2
-  languageName: unknown
-  linkType: soft
-
+  
 "devcert@npm:^1.2.0":
   version: 1.2.2
   resolution: "devcert@npm:1.2.2"
@@ -8907,9 +8922,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.188":
-  version: 1.4.194
-  resolution: "electron-to-chromium@npm:1.4.194"
-  checksum: faea6fa96a258228a3e2953160aa6ef467bf86c856d8ee1a7c2d4a1c9edaeca51fb2bf3a0cdb17b1b485e7c9d2144fb63079119d6b210e56b370dd819954139b
+  version: 1.4.195
+  resolution: "electron-to-chromium@npm:1.4.195"
+  checksum: 17aa9d834eadba6762dc9e3839a273ad87d82aeda82e6ace7db81829a00a0527c8291179d61b4599fac1c09a982cebd6d3ef68bcef7d07076d957d9ec0991b94
   languageName: node
   linkType: hard
 
@@ -10537,10 +10552,10 @@ __metadata:
   linkType: hard
 
 "gatsby-parcel-config@npm:^0.10.0":
-  version: 0.10.0
-  resolution: "gatsby-parcel-config@npm:0.10.0"
+  version: 0.10.1
+  resolution: "gatsby-parcel-config@npm:0.10.1"
   dependencies:
-    "@gatsbyjs/parcel-namer-relative-to-cwd": ^1.4.0
+    "@gatsbyjs/parcel-namer-relative-to-cwd": 1.4.0
     "@parcel/bundler-default": 2.6.2
     "@parcel/compressor-raw": 2.6.2
     "@parcel/namer-default": 2.6.2
