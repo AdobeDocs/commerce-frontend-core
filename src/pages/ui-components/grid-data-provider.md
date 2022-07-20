@@ -5,7 +5,7 @@ contributor_name: Atwix
 contributor_link: https://www.atwix.com/
 ---
 
-The GridDataProvider [UI component](https://glossary.magento.com/ui-component) is a data provider for the [Listing]({{ page.baseurl }}/ui_comp_guide/components/ui-listing-grid.html) component. It provides data in specific format which is shared among all UI components in the scope of the [Listing]({{ page.baseurl }}/ui_comp_guide/components/ui-listing-grid.html) component.
+The GridDataProvider [UI component](https://glossary.magento.com/ui-component) is a data provider for the [Listing](listing-grid.html) component. It provides data in specific format which is shared among all UI components in the scope of the [Listing](listing-grid.html) component.
 
 ## Configuration options
 
@@ -19,15 +19,15 @@ The GridDataProvider [UI component](https://glossary.magento.com/ui-component) i
 
 ## Sources files
 
-Extends [`UiElement`]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_uielement_concept.html):
+Extends [`UiElement`](concepts/element.md):
 
--  [app/code/Magento/Ui/view/base/web/js/grid/provider.js]({{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/Ui/view/base/web/js/grid/provider.js)
+-  [app/code/Magento/Ui/view/base/web/js/grid/provider.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/provider.js)
 
 ## Examples
 
 ### Integrate the GridDataProvider component with the Listing component
 
-This is an example of how the GridDataProvider component integrates with the [Listing]({{ page.baseurl }}/ui_comp_guide/components/ui-listing-grid.html) component:
+This is an example of how the GridDataProvider component integrates with the [Listing](listing-grid.html) component:
 
 ```xml
 <listing>

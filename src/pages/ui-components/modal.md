@@ -3,13 +3,13 @@ group: ui-components-guide
 title: Modal component
 ---
 
-The Modal [UI component](https://glossary.magento.com/ui-component) implements a secondary window that opens on top of the main window. It uses the [modal widget]({{ page.baseurl }}/javascript-dev-guide/widgets/widget_modal.html).
+The Modal [UI component](https://glossary.magento.com/ui-component) implements a secondary window that opens on top of the main window. It uses the [modal widget](../javascript/jquery-widgets/modal.md).
 
 Similar to the widget's configuration, the component's configuration allows you to set the window type and the behavior of action buttons (including linking action buttons to methods of the other UI components).
 
 The Modal component can be used for both [Admin](https://glossary.magento.com/admin) and storefronts.
 
-For recommendations about modal windows usage from the UX point of view, see the corresponding topic in the [Admin pattern library]({{ page.baseurl }}/pattern-library/containers/slideouts-modals-overlays/slideouts-modals-overalys.html).
+For recommendations about modal windows usage from the UX point of view, see the corresponding topic in the [Admin pattern library](https://devdocs.magento.com/guides/v2.4/pattern-library/containers/slideouts-modals-overlays/slideouts-modals-overalys.html).
 
 ## Configuration options
 
@@ -32,7 +32,7 @@ Component's options are set in the configuration `.xml` file as follows:
 | --- | --- | --- | --- |
 | `modalClass` | CSS class applied to the root node of the component's `.html` template. | String | `modal-component` |
 | `onCancel` | Name of the method invoked when a user attempts to close the modal window. | String | `closeModal` |
-| `options` | Configuration passed to the [modal widget]({{ page.baseurl }}/javascript-dev-guide/widgets/widget_modal.html). | Object | ```{modalClass: '',title: '',subTitle: '',buttons: [],keyEventHandlers: {}}``` |
+| `options` | Configuration passed to the [modal widget](../javascript/jquery-widgets/modal.md). | Object | ```{modalClass: '',title: '',subTitle: '',buttons: [],keyEventHandlers: {}}``` |
 | `subTitle` | Subtitle of the modal window. | String | `''` |
 | `template` | Path to the component's `.html` template. | String | `ui/modal/modal-component` |
 | `title` | Label displayed in the header of the modal window. | String | `''` |
@@ -179,10 +179,10 @@ As a result, the modal window auto-opens on page load with a `popup` effect.
 
 ## Source files
 
-Extends [`uiCollection`]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_uicollection_concept.html):
+Extends [`uiCollection`](concepts/collection.md):
 
--  [`Magento_Ui_module_dir/view/base/web/js/modal/modal-component.js`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/modal/modal-component.js)
--  [`Magento_Ui_module_dir/view/base/web/templates/modal/modal-component.html`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/modal/modal-component.html)
+-  [`Magento_Ui_module_dir/view/base/web/js/modal/modal-component.js`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/modal/modal-component.js)
+-  [`Magento_Ui_module_dir/view/base/web/templates/modal/modal-component.html`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/modal/modal-component.html)
 
 ### Methods and events
 

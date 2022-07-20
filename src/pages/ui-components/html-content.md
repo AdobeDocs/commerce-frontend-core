@@ -49,7 +49,7 @@ All blocks inside HtmlContent are integrated into the layout, so external blocks
 
 ### Integrate the HtmlContent component with the Form component
 
-This example integrates the HtmlContent component with the [Form]({{ page.baseurl }}/ui_comp_guide/components/ui-form.html) component.
+This example integrates the HtmlContent component with the [Form](form.html) component.
 
 ```xml
 <form>
@@ -88,6 +88,6 @@ Template `Vendor/Module/view/adminhtml/templates/template.phtml`:
 
 Extends `uiComponent`:
 
--  [app/code/Magento/Ui/view/base/web/js/form/components/html.js]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/form/components/html.js)
--  [app/code/Magento/Ui/view/base/web/templates/content/content.html]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/content/content.html)
--  [app/code/Magento/Ui/Component/HtmlContent.php]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/Component/HtmlContent.php)
+-  [app/code/Magento/Ui/view/base/web/js/form/components/html.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/components/html.js)
+-  [app/code/Magento/Ui/view/base/web/templates/content/content.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/content/content.html)
+-  [app/code/Magento/Ui/Component/HtmlContent.php](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/Component/HtmlContent.php)

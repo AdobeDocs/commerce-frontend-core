@@ -32,17 +32,17 @@ Option | Description | Type | Required |
 
 ## Source files
 
-Extends [`UiElement`]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_uielement_concept.html):
+Extends [`UiElement`](concepts/element.md):
 
--  [`Magento/Ui/view/base/web/js/form/components/button.js`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/form/components/button.js)
--  [`Magento/Ui/view/base/web/templates/form/components/button/simple.html`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/form/components/button/simple.html)
--  [`Magento/Ui/view/base/web/templates/form/element/button.html`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/form/element/button.html)
+-  [`Magento/Ui/view/base/web/js/form/components/button.js`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/components/button.js)
+-  [`Magento/Ui/view/base/web/templates/form/components/button/simple.html`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/form/components/button/simple.html)
+-  [`Magento/Ui/view/base/web/templates/form/element/button.html`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/form/element/button.html)
 
 ## Examples
 
 ### Integrate Button component with Listing component
 
-Here is an example of a Button component ("Test Button") added below a [Listing]({{ page.baseurl }}/ui_comp_guide/components/ui-listing-grid.html) component:
+Here is an example of a Button component ("Test Button") added below a [Listing](listing-grid.md) component:
 
 ```xml
 <listing>
@@ -78,7 +78,7 @@ The Button component appears below a Listing component on the page, as follows:
 
 ### Integrate Button component with Form component
 
-Here is an example of how the Button component integrates with the [Form]({{ page.baseurl }}/ui_comp_guide/components/ui-form.html) component:
+Here is an example of how the Button component integrates with the [Form](form.md) component:
 
 ```xml
 <form>

@@ -83,7 +83,7 @@ Here is a full example of adding a field under the "Display Settings" group. It 
 
 ## Step #3: Upgrade and Run
 
-[Upgrade the database schema]({{ page.baseurl }}/install-gde/install/cli/install-cli-subcommands-db-upgr.html) to install the attribute [and clear your cache]({{ page.baseurl }}/howdoi/php/php_clear-dirs.html#howdoi-clear-how).
+[Upgrade the database schema](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-db-upgr.html) to install the attribute [and clear your cache](https://developer.adobe.com/commerce/php/development/components/clear-directories/#how-to-clear-the-directories).
 
 ## How it works
 

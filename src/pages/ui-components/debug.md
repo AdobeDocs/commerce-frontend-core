@@ -33,13 +33,13 @@ A simple example:
 1. Navigate to **Products** > **Catalog** and click **Add Product**. The product creation page opens.
 1. Right-click on the **Product Name** field and click **Inspect**. Go to the **Knockout context** tab. Here you can see the full context of the field, where you can find JS component file, component name, etc.
 
-![Image Example]({{ site.baseurl }}/common/images/ui_comp_troubleshoot_chrome1.png)
+![Image Example](../_images/ui-components/ui_comp_troubleshoot_chrome1.png)
 
 ## Debugging using pure Knockout
 
 To retrieve the context within markup, you can also use the instance of Knockout:
 
-At first we need to get a Knockout instance from the browser console. To do so, use the [RequireJS ID]({{ page.baseurl }}/javascript-dev-guide/javascript/js-resources.html) `knockout`.
+At first we need to get a Knockout instance from the browser console. To do so, use the [RequireJS ID](../javascript/resources.md) `knockout`.
 
 ```javascript
 var ko = require('knockout');
@@ -74,7 +74,7 @@ All modern browsers support “debugging” – a special UI in developer tools 
 1. Turn on developer tools with F12 (Windows, Linux) or Cmd+Opt+I (Mac).
 1. Click the `Sources` tab.
 
-![Sources Panel]({{ site.baseurl }}/common/images/debugging-sources-pane.png)
+![Sources Panel](../_images/ui-components/debugging-sources-pane.png)
 
 In the previous image, we can see three zones:
 
@@ -87,18 +87,19 @@ In the previous image, we can see three zones:
 A **breakpoint** is a line of code where the debugger will automatically pause the JavaScript execution process.
 To set a breakpoint, right click on the code line number (as shown in the next image).
 
-![Breakpoints]({{ site.baseurl }}/common/images/debugging-breakpoints.png)
+![Breakpoints](../_images/ui-components/debugging-breakpoints.png)
 
 You can always find a list of breakpoints in the right panel, which is useful when you have many breakpoints in various files.
 
- {:.bs-callout-info}
+<InlineAlert variant="info" slots="text" />
+
 Right-clicking on the line number allows you to create a conditional breakpoint, which triggers only when the given expression is truthy. That’s helpful when you need to stop only for certain function parameters.
 
 ### Execution trace
 
 After setting the breakpoint, refresh the page. Now, let's explore the script tracing. As you can see in the next image, the script execution paused on the given breakpoint.
 
-![Execution Trace]({{ site.baseurl }}/common/images/debugging-execution-trace.png)
+![Execution Trace](../_images/ui-components/debugging-execution-trace.png)
 
 As result, you can see the input parameter values and what the function returns. Moreover, we're also able to change the function's values on the fly.
 
@@ -116,9 +117,9 @@ function sum(a, b) {
 
 Then, just make sure that your method is called and wait until the debugger is paused at the specified point.
 
-![Debugger]({{ site.baseurl }}/common/images/debugger.png)
+![Debugger](../_images/ui-components/debugger.png)
 
 ## See also
 
-[Debug using uiRegistry]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_uiregistry.html#debug_uiregistry)
+[Debug using uiRegistry](concepts/registry.md#debug_registry)
 [DevTools](https://developers.google.com/web/tools/chrome-devtools/javascript/)

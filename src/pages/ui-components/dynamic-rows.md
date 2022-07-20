@@ -31,16 +31,16 @@ The DynamicRows component is a dynamic collection of records. The user can edit 
 
 ## Source files
 
-Extends [`UiCollection`]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_uicollection_concept.html):
+Extends [`UiCollection`](concepts/collection.md):
 
--  [`app/code/Magento/Ui/view/base/web/js/dynamic-rows/dynamic-rows.js`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/dynamic-rows/dynamic-rows.js)
--  [`app/code/Magento/Ui/view/base/web/templates/dynamic-rows/templates/default.html`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/dynamic-rows/templates/default.html)
+-  [`app/code/Magento/Ui/view/base/web/js/dynamic-rows/dynamic-rows.js`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/dynamic-rows/dynamic-rows.js)
+-  [`app/code/Magento/Ui/view/base/web/templates/dynamic-rows/templates/default.html`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/dynamic-rows/templates/default.html)
 
 ## Examples
 
 ### Integrate the DynamicRows component with the Form component
 
-This is an example of how the DynamicRows component integrates with the [Form]({{ page.baseurl }}/ui_comp_guide/components/ui-form.html) component:
+This is an example of how the DynamicRows component integrates with the [Form](form.html) component:
 
 ```xml
 <form>

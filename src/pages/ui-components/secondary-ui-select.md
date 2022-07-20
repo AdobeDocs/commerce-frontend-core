@@ -13,11 +13,9 @@ The UI-select component is a single select/multiple select component that enable
 
 ## Configuration options
 
-{%
-include note.html
-type="tip"
-content="You must create a controller for `searchUrl`. If you'd like to use other data for the request, you can override the `processRequest` method in your component."
-%}
+<InlineAlert variant="success" slots="text" />
+
+You must create a controller for `searchUrl`. If you'd like to use other data for the request, you can override the `processRequest` method in your component.
 
 <table>
   <tr>
@@ -29,20 +27,18 @@ content="You must create a controller for `searchUrl`. If you'd like to use othe
   <tr>
     <td><code>imports</code></td>
     <td>Defines from where the component receives its data</td>
-<td markdown="1">
-```js
+<td><pre><code>
 imports: {
     options: '${ $.optionsConfig.name }:options'
 }
-```
+</code></pre>
 </td>
     <td>Yes</td>
   </tr>
   <tr>
     <td><code>actions</code></td>
     <td>Modifies the default actions by renaming their storefront labels</td>
-<td markdown="1">
-```js
+<td><pre><code>
 actions: [
     {
         value: 'selectAll',
@@ -61,7 +57,7 @@ actions: [
         label: $t('Deselect all on this page')
     }
 ]
-```
+</code></pre>
 </td>
     <td>Yes</td>
   </tr>
@@ -154,7 +150,7 @@ The following configuration can be passed in as arguments:
 
 The following is an example of the configuration of a select component. It is used as a column filter with three levels of options, with no selectable label for every level, without checkboxes:
 
-![view the configuration]({{site.baseurl}}/common/images/ui-select21.jpg)
+![view the configuration](../_images/ui-components/ui-select21.jpg)
 
 ## Navigation
 
@@ -170,6 +166,6 @@ Navigation keys:
 
 ## Source files
 
-*  [app/code/Magento/Ui/view/base/web/js/form/element/ui-select.js]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/form/element/ui-select.js)
-*  [Magento/Ui/view/base/web/js/form/element/abstract.js]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/form/element/abstract.js)
-*  [app/code/Magento/Ui/view/base/web/templates/grid/filters/elements/ui-select.html]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/grid/filters/elements/ui-select.html)
+*  [app/code/Magento/Ui/view/base/web/js/form/element/ui-select.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/element/ui-select.js)
+*  [Magento/Ui/view/base/web/js/form/element/abstract.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/element/abstract.js)
+*  [app/code/Magento/Ui/view/base/web/templates/grid/filters/elements/ui-select.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/grid/filters/elements/ui-select.html)

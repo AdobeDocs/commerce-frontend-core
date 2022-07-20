@@ -16,16 +16,16 @@ The Search component allows searching through the grid records. It is a generic 
 
 ## Source files
 
-Extends [`UiElement`]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_uielement_concept.html):
+Extends [`UiElement`](concepts/element.md):
 
--  [app/code/Magento/Ui/view/base/web/js/grid/search/search.js]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/grid/search/search.js)
--  [app/code/Magento/Ui/view/base/web/templates/grid/search/search.html]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/grid/search/search.html)
+-  [app/code/Magento/Ui/view/base/web/js/grid/search/search.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/search/search.js)
+-  [app/code/Magento/Ui/view/base/web/templates/grid/search/search.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/grid/search/search.html)
 
 ## Examples
 
 ### Integrate Search component with Listing component
 
-This is an example of how the Search component integrates with the [Listing]({{ page.baseurl }}/ui_comp_guide/components/ui-listing-grid.html) component:
+This is an example of how the Search component integrates with the [Listing](listing-grid.html) component:
 
 ```xml
 <listing>

@@ -22,11 +22,11 @@ The Multiline component is a collection of form elements that displays multiple 
 
 ## Source files
 
-Extends [`UiCollection`]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_uicollection_concept.html):
+Extends [`UiCollection`](concepts/collection.md):
 
--  [app/code/Magento/Ui/view/base/web/js/form/components/group.js]({{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/Ui/view/base/web/js/form/components/group.js)
--  [app/code/Magento/Ui/view/base/web/templates/group/group.html]({{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/Ui/view/base/web/templates/group/group.html)
--  [app/code/Magento/Ui/Component/Form/Element/Multiline.php]({{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/Ui/Component/Form/Element/Multiline.php)
+-  [app/code/Magento/Ui/view/base/web/js/form/components/group.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/components/group.js)
+-  [app/code/Magento/Ui/view/base/web/templates/group/group.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/group/group.html)
+-  [app/code/Magento/Ui/Component/Form/Element/Multiline.php](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/Component/Form/Element/Multiline.php)
 
 ## Example
 

@@ -18,17 +18,17 @@ The Textarea component implements the `<textarea>` form field.
 
 ## Source files
 
-Extends [`Abstract`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/form/element/abstract.js):
+Extends [`Abstract`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/element/abstract.js):
 
--  [app/code/Magento/Ui/view/base/web/js/form/element/textarea.js]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/form/element/textarea.js)
--  [app/code/Magento/Ui/view/base/web/templates/form/element/textarea.html]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/form/element/textarea.html)
--  [app/code/Magento/Ui/view/base/web/templates/form/field.html]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/form/field.html)
+-  [app/code/Magento/Ui/view/base/web/js/form/element/textarea.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/element/textarea.js)
+-  [app/code/Magento/Ui/view/base/web/templates/form/element/textarea.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/form/element/textarea.html)
+-  [app/code/Magento/Ui/view/base/web/templates/form/field.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/form/field.html)
 
 ## Examples
 
 ### Integrate the Textarea component with the Form component
 
-This example integrates the Textarea component with the [Form]({{ page.baseurl }}/ui_comp_guide/components/ui-form.html) component.
+This example integrates the Textarea component with the [Form](form.html) component.
 
 ```xml
 <form>

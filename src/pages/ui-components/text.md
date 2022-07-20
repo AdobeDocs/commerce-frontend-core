@@ -3,7 +3,7 @@ group: ui-components-guide
 title: Text component
 ---
 
-The Text component displays text data in the components like [Form]({{ page.baseurl }}/ui_comp_guide/components/ui-form.html) and [DynamicRows]({{ page.baseurl }}/ui_comp_guide/components/ui-dynamicrows.html).
+The Text component displays text data in the components like [Form](form.html) and [DynamicRows](dynamicrows.html).
 
 ## Configuration options
 
@@ -14,20 +14,20 @@ The Text component displays text data in the components like [Form]({{ page.base
 | `disabled` | Initial component's state. When set to `true`, users can't take action on the element. | Boolean | `false` |
 | `elementTmpl` | The path to the `.html` template of the particular field type. | String | `ui/form/element/text` |
 | `label` | Label to be displayed in the field. | String | `''` |
-| `links`.`value` | [Links]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_linking_concept.html) the component's "value" property with provider using the declared in the "dataScope" property of the parent component. | String | `${ $.provider }:${ $.dataScope }` |
+| `links`.`value` | [Links](concepts/linking.md) the component's "value" property with provider using the declared in the "dataScope" property of the parent component. | String | `${ $.provider }:${ $.dataScope }` |
 | `visible` | Initial component's visibility. When set to `false`, the "display: none" CSS style is added to the component's DOM block. | Boolean | `true` |
 
 ## Source files
 
-Extends [`UiElement`]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_uielement_concept.html):
+Extends [`UiElement`](concepts/element.md):
 
--  [app/code/Magento/Ui/view/base/web/js/form/element/text.js]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/form/element/text.js)
+-  [app/code/Magento/Ui/view/base/web/js/form/element/text.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/element/text.js)
 
 ## Examples
 
 ### Integrate Text component with Form component
 
-The following example integrates the Text component with the [Form]({{ page.baseurl }}/ui_comp_guide/components/ui-form.html) component and displays the customer's first name in the admin, on the Customer Edit page:
+The following example integrates the Text component with the [Form](form.html) component and displays the customer's first name in the admin, on the Customer Edit page:
 
 ```xml
 <form>

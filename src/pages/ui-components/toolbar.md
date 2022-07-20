@@ -51,6 +51,6 @@ In the following example, we group the following components:
 
 ## Source files
 
-Extends [`UiCollection`]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_uicollection_concept.html):
+Extends [`UiCollection`](concepts/collection.md):
 
--  [app/code/Magento/Ui/view/base/web/js/grid/toolbar.js]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/grid/toolbar.js)
+-  [app/code/Magento/Ui/view/base/web/js/grid/toolbar.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/toolbar.js)

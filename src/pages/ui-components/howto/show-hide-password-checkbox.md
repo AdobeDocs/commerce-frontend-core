@@ -19,7 +19,7 @@ Below is the HTML code snippet:
 </div>
 ```
 
-For more information about `Scope` binding, refer to [Scope Binding]({{ page.baseurl }}/ui_comp_guide/concepts/knockout-bindings.html#scope)
+For more information about `Scope` binding, refer to [Scope Binding](../concepts/knockout-bindings.md#scope)
 
 ## Step 2: Add the x-magento-init script
 
@@ -97,4 +97,4 @@ This example shows the custom implemented company login form template (PHTML fil
 </script>
 ```
 
-[show-password]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Customer/view/frontend/web/js/show-password.js
+[show-password]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Customer/view/frontend/web/js/show-password.js

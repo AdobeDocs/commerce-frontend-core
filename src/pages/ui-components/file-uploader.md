@@ -22,7 +22,7 @@ The File Uploader component is an [adapter](https://glossary.magento.com/adapter
 
 ### Integrate FileUploader component with Form component
 
-Here is an example of how File Uploader component integrates with [Form]({{ page.baseurl }}/ui_comp_guide/components/ui-form.html) component:
+Here is an example of how File Uploader component integrates with [Form](form.html) component:
 
 ```xml
 <form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
@@ -60,7 +60,7 @@ Here is an example of how File Uploader component integrates with [Form]({{ page
 
 Extends `abstract`:
 
--  [`<Magento_Ui_module_dir>/view/base/web/js/form/element/file-uploader.js`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/form/element/file-uploader.js)
--  [`jquery/fileUploader/jquery.fileupload-fp`]({{ site.mage2bloburl }}/{{ page.guide_version }}/lib/web/jquery/fileUploader/jquery.fileupload-fp.js)
--  [`<Magento_Ui_module_dir>/view/base/web/templates/form/element/uploader/uploader.html`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/form/element/uploader/uploader.html)
--  [`<Magento_Ui_module_dir>/view/base/web/templates/form/element/uploader/preview.html`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/form/element/uploader/preview.html)
+-  [`<Magento_Ui_module_dir>/view/base/web/js/form/element/file-uploader.js`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/element/file-uploader.js)
+-  [`jquery/fileUploader/jquery.fileupload-fp`](https://github.com/magento/magento2/blob/2.4/lib/web/jquery/fileUploader/jquery.fileupload-fp.js)
+-  [`<Magento_Ui_module_dir>/view/base/web/templates/form/element/uploader/uploader.html`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/form/element/uploader/uploader.html)
+-  [`<Magento_Ui_module_dir>/view/base/web/templates/form/element/uploader/preview.html`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/form/element/uploader/preview.html)

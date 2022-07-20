@@ -5,7 +5,7 @@ contributor_name: Atwix
 contributor_link: https://www.atwix.com/
 ---
 
-The ColumnsEditingBulk [UI component](https://glossary.magento.com/ui-component) is an [extension](https://glossary.magento.com/extension) for the [ColumnsEditor]({{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/Ui/view/base/web/js/grid/editing/editor.js) component. It provides the bulk update functionality.
+The ColumnsEditingBulk [UI component](https://glossary.magento.com/ui-component) is an [extension](https://glossary.magento.com/extension) for the [ColumnsEditor](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/editing/editor.js) component. It provides the bulk update functionality.
 
 ## Configuration options
 
@@ -17,16 +17,16 @@ The ColumnsEditingBulk [UI component](https://glossary.magento.com/ui-component)
 
 ## Sources files
 
-Extends [`record`]({{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/Ui/view/base/web/js/grid/editing/record.js):
+Extends [`record`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/editing/record.js):
 
--  [app/code/Magento/Ui/view/base/web/js/grid/editing/bulk.js]({{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/Ui/view/base/web/js/grid/editing/bulk.js)
--  [app/code/Magento/Ui/view/base/web/templates/grid/editing/bulk.html]({{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/Ui/view/base/web/templates/grid/editing/bulk.html)
+-  [app/code/Magento/Ui/view/base/web/js/grid/editing/bulk.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/editing/bulk.js)
+-  [app/code/Magento/Ui/view/base/web/templates/grid/editing/bulk.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/grid/editing/bulk.html)
 
 ## Examples
 
 ### Integrate the ColumnsEditingBulk component with the ColumnsEditor component
 
-This is an example of how the ColumnsEditingBulk component integrates with the [ColumnsEditor]({{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/Ui/view/base/web/js/grid/editing/editor.js) component:
+This is an example of how the ColumnsEditingBulk component integrates with the [ColumnsEditor](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/editing/editor.js) component:
 
 ```xml
 <listing>
@@ -53,7 +53,7 @@ This is an example of how the ColumnsEditingBulk component integrates with the [
 
 ### Disable the ColumnsEditingBulk component on the ColumnsEditor component
 
-This is an example of how the ColumnsEditingBulk component disables the [ColumnsEditor]({{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/Ui/view/base/web/js/grid/editing/editor.js) component:
+This is an example of how the ColumnsEditingBulk component disables the [ColumnsEditor](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/editing/editor.js) component:
 
 ```xml
 <listing>

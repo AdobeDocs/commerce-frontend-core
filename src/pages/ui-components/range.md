@@ -17,10 +17,10 @@ The Range component implements the range for filtering rows in a grid. Visually,
 
 ## Source files
 
-Extends [`Multiline`]({{ page.baseurl }}/ui_comp_guide/components/ui-multiline.html):
+Extends [`Multiline`](multiline.html):
 
--  [app/code/Magento/Ui/view/base/web/js/grid/filters/range.js]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/grid/filters/range.js)
--  [app/code/Magento/Ui/view/base/web/templates/grid/filters/elements/group.html]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/grid/filters/elements/group.html)
+-  [app/code/Magento/Ui/view/base/web/js/grid/filters/range.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/filters/range.js)
+-  [app/code/Magento/Ui/view/base/web/templates/grid/filters/elements/group.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/grid/filters/elements/group.html)
 
 ## Examples
 

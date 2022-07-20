@@ -3,7 +3,7 @@ group: ui-components-guide
 title: DragAndDrop component
 ---
 
-The DragAndDrop component is an [extension](https://glossary.magento.com/extension) for [Columns]({{ page.baseurl }}/ui_comp_guide/components/ui-columns.html), allowing users to change columns position in the table.
+The DragAndDrop component is an [extension](https://glossary.magento.com/extension) for [Columns](columns.md), allowing users to change columns position in the table.
 
 ## Configuration options
 
@@ -16,15 +16,15 @@ The DragAndDrop component is an [extension](https://glossary.magento.com/extensi
 
 ## Source files
 
-Extends [`UiCollection`]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_uicollection_concept.html):
+Extends [`UiCollection`](concepts/collection.md):
 
--  [`app/code/Magento/Ui/view/base/web/js/grid/dnd.js`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/grid/dnd.js)
+-  [`app/code/Magento/Ui/view/base/web/js/grid/dnd.js`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/dnd.js)
 
 ## Examples
 
 ### Integrate the DragAndDrop component with the Listing component
 
-This example configures the DragAndDrop component for the [Columns]({{ page.baseurl }}/ui_comp_guide/components/ui-columns.html) component and integrates it with the [Listing]({{ page.baseurl }}/ui_comp_guide/components/ui-listing-grid.html) component:
+This example configures the DragAndDrop component for the [Columns](columns.md) component and integrates it with the [Listing](listing-grid.html) component:
 
 ```xml
 <listing>
@@ -49,7 +49,7 @@ This example configures the DragAndDrop component for the [Columns]({{ page.base
 
 ### Disable the DragAndDrop component for the Columns component
 
-This example disables the DragAndDrop component for the [Columns]({{ page.baseurl }}/ui_comp_guide/components/ui-columns.html) component and integrates it with the [Listing]({{ page.baseurl }}/ui_comp_guide/components/ui-listing-grid.html) component:
+This example disables the DragAndDrop component for the [Columns](columns.md) component and integrates it with the [Listing](listing-grid.html) component:
 
 ```xml
 <listing>

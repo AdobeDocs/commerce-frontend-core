@@ -45,7 +45,7 @@ This topic describes the basic elements used in XML configuration files for decl
           </p>
         </li>
       </ul>For detailed descriptions of the general attributes see
-      <a href="{{ page.baseurl }}/ui_comp_guide/components/basic-attributes.html">
+      <a href="basic-attributes.html">
       Basic attributes</a>.
     </td>
     <td>
@@ -62,7 +62,7 @@ This topic describes the basic elements used in XML configuration files for decl
       (order matters)
     </td>
     <td>
-      Mandatory root element, the name of the <a href="{{ page.baseurl }}/ui_comp_guide/bk-ui_comps.html#general-structure">
+      Mandatory root element, the name of the <a href="../index.html#general-structure">
       basic UI component</a>: <code>&lt;form&gt;</code>,
       <code>&lt;listing&gt;</code> or custom basic component.
     </td>
@@ -94,7 +94,7 @@ This topic describes the basic elements used in XML configuration files for decl
     <td></td>
     <td>
       Introduces the configuration block for UiComponent according
-      to the <a href="{{ page.baseurl }}/ui_comp_guide/best-practices/semantic_config.html">
+      to the <a href="semantic-configuration.html">
       new structure</a>. Use for configuring all options, except
       those that are not described in XSD.
     </td>
@@ -129,7 +129,7 @@ This topic describes the basic elements used in XML configuration files for decl
           </p>
         </li>
       </ul>For detailed descriptions of the general attributes see
-      <a href="{{ page.baseurl }}/ui_comp_guide/components/basic-attributes.html">
+      <a href="basic-attributes.html">
       Basic attributes</a>
     </td>
     <td>

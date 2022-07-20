@@ -5,7 +5,7 @@ title: ActionDelete component
 
 ## Overview
 
-The ActionDelete component provides a user interface for deleting records of the [DynamicRows component]({{ page.baseurl }}/ui_comp_guide/components/ui-dynamicrows.html).
+The ActionDelete component provides a user interface for deleting records of the [DynamicRows component](dynamic-rows.md).
 
 ## ActionDelete options
 
@@ -17,16 +17,16 @@ The ActionDelete component provides a user interface for deleting records of the
 
 ## Source files
 
-Extends [`Abstract`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/form/element/abstract.js):
+Extends [`Abstract`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/element/abstract.js):
 
--  [`app/code/Magento/Ui/view/base/web/js/dynamic-rows/action-delete.js`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/dynamic-rows/action-delete.js)
--  [`app/code/Magento/Ui/view/base/web/templates/dynamic-rows/cells/action-delete.html`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/dynamic-rows/cells/action-delete.html)
+-  [`app/code/Magento/Ui/view/base/web/js/dynamic-rows/action-delete.js`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/dynamic-rows/action-delete.js)
+-  [`app/code/Magento/Ui/view/base/web/templates/dynamic-rows/cells/action-delete.html`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/dynamic-rows/cells/action-delete.html)
 
 ## Examples
 
 ### Integrate ActionDelete component with DynamicRows component
 
-This is an example of how ActionDelete component integrates with [DynamicRows]({{ page.baseurl }}/ui_comp_guide/components/ui-dynamicrows.html) component:
+This is an example of how ActionDelete component integrates with [DynamicRows](dynamic-rows.md) component:
 
 ```xml
 <form>

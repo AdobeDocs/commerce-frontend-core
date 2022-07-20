@@ -17,9 +17,9 @@ The Select component provides the interface for a list or a data set. With this 
 
 ## Source files
 
-Extends [`Abstract`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/form/element/abstract.js):
+Extends [`Abstract`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/element/abstract.js):
 
--  [app/code/Magento/Ui/view/base/web/js/form/element/select.js]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/form/element/select.js)
+-  [app/code/Magento/Ui/view/base/web/js/form/element/select.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/element/select.js)
 
 ## Example
 

@@ -3,7 +3,7 @@ group: ui-components-guide
 title: FiltersChips component
 ---
 
-The FiltersChips component provides UI controls that allows users to remove the previously-applied values of the [Filters]({{ page.baseurl }}/ui_comp_guide/components/ui-filters.html) and [Search]({{ page.baseurl }}/ui_comp_guide/components/ui-search.html) components.
+The FiltersChips component provides UI controls that allows users to remove the previously-applied values of the [Filters](filters.html) and [Search](search.html) components.
 
 ## Configuration options
 
@@ -15,16 +15,16 @@ The FiltersChips component provides UI controls that allows users to remove the 
 
 ## Source files
 
-Extends [`uiCollection`]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_uicollection_concept.html):
+Extends [`uiCollection`](concepts/collection.md):
 
--  [app/code/Magento/Ui/view/base/web/js/grid/filters/chips.js]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/grid/filters/chips.js)
--  [app/code/Magento/Ui/view/base/web/templates/grid/filters/chips.html]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/grid/filters/chips.html)
+-  [app/code/Magento/Ui/view/base/web/js/grid/filters/chips.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/filters/chips.js)
+-  [app/code/Magento/Ui/view/base/web/templates/grid/filters/chips.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/grid/filters/chips.html)
 
 ## Examples
 
 ### Integrate the FiltersChips component as a grid (default) with the Filters component
 
-This is an example of how the FiltersChips component integrates with the [Filters]({{ page.baseurl }}/ui_comp_guide/components/ui-filters.html) component:
+This is an example of how the FiltersChips component integrates with the [Filters](filters.html) component:
 
 ```xml
 <listing>

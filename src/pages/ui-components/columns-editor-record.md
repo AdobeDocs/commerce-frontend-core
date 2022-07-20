@@ -5,7 +5,7 @@ contributor_name: Atwix
 contributor_link: https://www.atwix.com/
 ---
 
-The ColumnsEditorRecord [UI component](https://glossary.magento.com/ui-component) is a container of record fields. The ColumnsEditorRecord should be used as a child of the [ColumnsEditor]({{ page.baseurl }}/ui_comp_guide/components/ui-columns-editor.html) component.
+The ColumnsEditorRecord [UI component](https://glossary.magento.com/ui-component) is a container of record fields. The ColumnsEditorRecord should be used as a child of the [ColumnsEditor](columns-editor.html) component.
 
 ## Configuration options
 
@@ -22,17 +22,17 @@ The ColumnsEditorRecord [UI component](https://glossary.magento.com/ui-component
 
 ## Sources files
 
-Extends [`UiCollection`]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_uicollection_concept.html):
+Extends [`UiCollection`](concepts/collection.md):
 
--  [app/code/Magento/Ui/view/base/web/js/grid/editing/record.js]({{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/Ui/view/base/web/js/grid/editing/record.js)
--  [app/code/Magento/Ui/view/base/web/templates/grid/editing/row.html]({{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/Ui/view/base/web/templates/grid/editing/row.html)
--  [app/code/Magento/Ui/view/base/web/templates/grid/editing/field.html]({{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/Ui/view/base/web/templates/grid/editing/field.html)
+-  [app/code/Magento/Ui/view/base/web/js/grid/editing/record.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/editing/record.js)
+-  [app/code/Magento/Ui/view/base/web/templates/grid/editing/row.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/grid/editing/row.html)
+-  [app/code/Magento/Ui/view/base/web/templates/grid/editing/field.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/grid/editing/field.html)
 
 ## Examples
 
 ### Integrate the ColumnsEditorRecord component with the ColumnsEditor component
 
-This is an example of how the ColumnsEditorRecord component integrates with the [ColumnsEditor]({{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/Ui/view/base/web/js/grid/editing/editor.js) component:
+This is an example of how the ColumnsEditorRecord component integrates with the [ColumnsEditor](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/editing/editor.js) component:
 
 ```xml
 <listing>

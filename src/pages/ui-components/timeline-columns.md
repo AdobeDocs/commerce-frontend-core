@@ -21,14 +21,14 @@ The TimelineColumns [UI component](https://glossary.magento.com/ui-component) is
 | `maxScale` | The maximum scale in days. | Number | `28` |
 | `displayMode` | Initial display mode. | String | `'timeline'` |
 | `displayModes` | List of available display modes. | Object | `{timeline: {label: 'Timeline',value: 'timeline',template: 'ui/timeline/timeline'}}` |
-| `viewConfig` | Configurations for the [TimelineView]({{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/Ui/view/base/web/js/timeline/timeline-view.js) component. | Object | `{timeline: {label: 'Timeline',value: 'timeline',template: 'ui/timeline/timeline'}}` |
+| `viewConfig` | Configurations for the [TimelineView](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/timeline/timeline-view.js) component. | Object | `{timeline: {label: 'Timeline',value: 'timeline',template: 'ui/timeline/timeline'}}` |
 
 ## Sources files
 
-Extends [`Columns`]({{ page.baseurl }}/ui_comp_guide/components/ui-columns.html):
+Extends [`Columns`](columns.md):
 
--  [app/code/Magento/Ui/view/base/web/js/timeline/timeline.js]({{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/Ui/view/base/web/js/timeline/timeline.js)
--  [app/code/Magento/Ui/view/base/web/templates/timeline/timeline.html]({{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/Ui/view/base/web/templates/timeline/timeline.html)
+-  [app/code/Magento/Ui/view/base/web/js/timeline/timeline.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/timeline/timeline.js)
+-  [app/code/Magento/Ui/view/base/web/templates/timeline/timeline.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/timeline/timeline.html)
 
 ## Examples
 

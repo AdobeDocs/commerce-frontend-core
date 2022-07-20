@@ -3,7 +3,7 @@ group: ui-components-guide
 title: Date component
 ---
 
-The Date component implements a custom date input field. It uses a date picker implementation provided by the [calendar widget]({{ page.baseurl }}/javascript-dev-guide/widgets/widget_calendar.html).
+The Date component implements a custom date input field. It uses a date picker implementation provided by the [calendar widget](../javascript/jquery-widgets/calendar.md).
 
 ## Configuration options
 
@@ -22,9 +22,9 @@ The Date component implements a custom date input field. It uses a date picker i
 
 ## Source files
 
-Extends [`Abstract`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/form/element/abstract.js):
+Extends [`Abstract`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/element/abstract.js):
 
--  [`app/code/Magento/Ui/view/base/web/js/form/element/date.js`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/form/element/date.js)
+-  [`app/code/Magento/Ui/view/base/web/js/form/element/date.js`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/element/date.js)
 
 ## Example
 

@@ -8,6 +8,10 @@ module.exports = [
       path: "/ui-components/concepts/",
       pages: [
         {
+          title: "Basic attributes",
+          path: "/ui-components/concepts/basic-attributes/"
+        },
+        {
           title: "Configuration flow",
           path: "/ui-components/concepts/configuration-flow/",
         },

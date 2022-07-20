@@ -60,12 +60,12 @@ By default Magento allows [CSV](https://glossary.magento.com/csv) and Excel [XML
 
 To add new export format:
 
-*  Add configuration data to ExportButton definition [`Magento/Ui/view/base/ui_component/etc/definition.xml`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/ui_component/etc/definition.xml)
+*  Add configuration data to ExportButton definition [`Magento/Ui/view/base/ui_component/etc/definition.xml`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/ui_component/etc/definition.xml)
 *  Add controller for new format processing `\Magento\Ui\Controller\Adminhtml\Export\GridToFoo`
 *  Add converter `\Magento\Ui\Model\Export\ConvertToFoo`
 
 ## Source files
 
-Extends [`UiElement`]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_uielement_concept.html):
+Extends [`UiElement`](concepts/element.md):
 
-*  [`app/code/Magento/Ui/view/base/web/js/grid/export.js`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/grid/export.js)
+*  [`app/code/Magento/Ui/view/base/web/js/grid/export.js`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/export.js)

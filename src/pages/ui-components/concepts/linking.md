@@ -12,9 +12,9 @@ The following properties are used for linking observable properties and methods 
 -  `links`
 -  `listens`
 
-These properties are processed by the `initLinks()` method of the [`uiElement` class]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_uielement_concept.html) which is called at the moment of a component's instantiation.
+These properties are processed by the `initLinks()` method of the [`uiElement` class](concepts/element.md) which is called at the moment of a component's instantiation.
 
-Linking properties are set in [UI components configuration files]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_config_flow_concept.html): XML, JS or PHP.
+Linking properties are set in [UI components configuration files](configuration-flow.md): XML, JS or PHP.
 
 ## `exports` property
 
@@ -52,7 +52,8 @@ Example of setting `exports` directly using the destination component name:
 
 The syntax for the destination component name is determined by the hierarchy in the XML handle. Separate parent names with a `.` (dot) followed by the component name.
 
-{:.bs-callout-info}
+<InlineAlert variant="info" slots="text" />
+
 To retrieve the full name of the destination component name, open your browser in developer mode, select the element that you want on the **Elements** tab, go to the **Console** tab, and execute the following code: `require('ko').contextFor($0).$data.name`.
 
 Example of setting `exports` in a component's configuration `.xml` file:
@@ -67,7 +68,7 @@ Example of setting `exports` in a component's configuration `.xml` file:
 </argument>
 ```
 
-For an example of `exports` usage in Magento code see [`product_form.xml`, line 76]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/CatalogInventory/view/adminhtml/ui_component/product_form.xml#L76)
+For an example of `exports` usage in Magento code see [`product_form.xml`, line 76](https://github.com/magento/magento2/blob/2.4/app/code/Magento/CatalogInventory/view/adminhtml/ui_component/product_form.xml#L76)
 
 ## `imports` property
 
@@ -102,7 +103,7 @@ Example of using `imports` in a component's configuration `.xml` file:
 </argument>
 ```
 
-For an example of `imports` usage in Magento code see [`product_form.xml`, line 105]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/CatalogInventory/view/adminhtml/ui_component/product_form.xml#L105)
+For an example of `imports` usage in Magento code see [`product_form.xml`, line 105](https://github.com/magento/magento2/blob/2.4/app/code/Magento/CatalogInventory/view/adminhtml/ui_component/product_form.xml#L105)
 
 ## `links` property
 
@@ -137,7 +138,7 @@ Example of using `links` in a component's configuration `.xml` file:
 </argument>
 ```
 
-For an example of `links` usage in Magento code see [`text.js`, line 22]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/form/element/text.js#L22)
+For an example of `links` usage in Magento code see [`text.js`, line 22](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/element/text.js#L22)
 
 ## `listens` property
 The `listens` property is used to track the changes of a component's property. `listens`'s value is an object, composed of the following:
@@ -172,7 +173,7 @@ Example of using `listens` in a component's configuration `.xml` file:
 </argument>
 ```
 
-For example of `listens` usage in Magento code see [`new_category_form.xml`, line 84]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Catalog/view/adminhtml/ui_component/new_category_form.xml#L84)
+For example of `listens` usage in Magento code see [`new_category_form.xml`, line 84](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Catalog/view/adminhtml/ui_component/new_category_form.xml#L84)
 
 ## Template strings usage {#string_templ}
 

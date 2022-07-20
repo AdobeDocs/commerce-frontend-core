@@ -3,7 +3,7 @@ group: ui-components-guide
 title: InsertListing component
 ---
 
-The InsertListing component inserts [Listing]({{ page.baseurl }}/ui_comp_guide/components/ui-listing-grid.html) into other components.
+The InsertListing component inserts [Listing](listing-grid.html) into other components.
 
 ## Configuration options
 
@@ -15,23 +15,23 @@ The InsertListing component inserts [Listing]({{ page.baseurl }}/ui_comp_guide/c
 | `component` | The path to the component’s `.js` file in terms of RequireJS. | String | `'Magento_Ui/js/form/components/insert-listing'` |
 | `dataLinks`.`exports` | Enable exporting from the insertListing's externalValue to the inserted Listing aggregated value. | Boolean | `false` |
 | `dataLinks`.`imports` | Enable importing from the inserted Listing value to the insertListing's externalValue. | Boolean | `true` |
-| `realTimeLink` | Enable the link between insertListing's externalValue and value. Here `link` means the two-way [links property]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_linking_concept.html#links-property) of UI components, which allows immediate update. | Boolean | `true` |
+| `realTimeLink` | Enable the link between insertListing's externalValue and value. Here `link` means the two-way [links property](concepts/linking.md#links-property) of UI components, which allows immediate update. | Boolean | `true` |
 | `render_url` | With default `render_url(mui/index/render)` listing will be without buttons. For get a list with buttons url must be changed to `mui/index/render_handle` and the following GET parameters:<br /> buttons=1 (flag to get buttons)<br /> handle= (buttons scope) | String | `'mui/index/render'` |
 | `update_url` | Where the AJAX request will go to retrieve, foster component update data. It will be in json format by default and will be automatically set into `externalProvider.data` | String | `'mui/index/render'` |
 | `selectionsProvider` | The source selector for Ajax request of the main form through the identifier of the 'selectionColumns' | String | null |
 
 ## Source files
 
-Extends [`Insert`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/form/components/insert.js):
+Extends [`Insert`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/components/insert.js):
 
--  [`app/code/Magento/Ui/view/base/web/js/form/components/insert-listing.js`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/form/components/insert-listing.js)
--  [`app/code/Magento/Ui/Component/Container.php`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/Component/Container.php)
+-  [`app/code/Magento/Ui/view/base/web/js/form/components/insert-listing.js`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/components/insert-listing.js)
+-  [`app/code/Magento/Ui/Component/Container.php`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/Component/Container.php)
 
 ## Examples
 
 ### Integrate InsertListing component with Form component
 
-The following example shows how the InsertListing component integrates with the [Form]({{ page.baseurl }}/ui_comp_guide/components/ui-form.html) component:
+The following example shows how the InsertListing component integrates with the [Form](form.html) component:
 
 ```xml
 <form>
@@ -165,7 +165,7 @@ class CustomDataProvider extends DataProvider
 
 ### Integrate InsertListing component with Modal component
 
-Here is an example of how the InsertListing component integrates with the [Modal]({{ page.baseurl }}/ui_comp_guide/components/ui-modal.html) component:
+Here is an example of how the InsertListing component integrates with the [Modal](modal.html) component:
 
 ```xml
 <form>

@@ -17,17 +17,17 @@ The Checkboxset component implements a group of `<input type="checkbox">` or `<i
 
 ## Source files
 
-Extends [`Abstract`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/form/element/abstract.js):
+Extends [`Abstract`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/element/abstract.js):
 
--  [`app/code/Magento/Ui/view/base/web/js/form/element/checkbox-set.js`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/form/element/checkbox-set.js)
--  [`app/code/Magento/Ui/view/base/web/templates/form/element/checkbox-set.html`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/form/element/checkbox-set.html)
--  [`app/code/Magento/Ui/Component/Form/Element/CheckboxSet.php`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/Component/Form/Element/CheckboxSet.php)
+-  [`app/code/Magento/Ui/view/base/web/js/form/element/checkbox-set.js`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/element/checkbox-set.js)
+-  [`app/code/Magento/Ui/view/base/web/templates/form/element/checkbox-set.html`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/form/element/checkbox-set.html)
+-  [`app/code/Magento/Ui/Component/Form/Element/CheckboxSet.php`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/Component/Form/Element/CheckboxSet.php)
 
 ## Examples
 
 ### Integrate the Checkboxset component with the Form component
 
-This is an example of how the Checkboxset component integrates with the [Form]({{ page.baseurl }}/ui_comp_guide/components/ui-form.html) component:
+This is an example of how the Checkboxset component integrates with the [Form](form.md) component:
 
 ```xml
 <form>

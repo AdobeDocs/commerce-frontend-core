@@ -20,19 +20,19 @@ The Checkbox component implements a form field that is an [HTML](https://glossar
 
 ## Source files
 
-Extends [`Abstract`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/form/element/abstract.js):
+Extends [`Abstract`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/element/abstract.js):
 
--  [app/code/Magento/Ui/view/base/web/js/form/element/single-checkbox.js]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/form/element/single-checkbox.js)
--  [app/code/Magento/Ui/view/base/web/templates/form/components/single/checkbox.html]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/form/components/single/checkbox.html)
--  [app/code/Magento/Ui/view/base/web/templates/form/components/single/radio.html]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/form/components/single/radio.html)
--  [app/code/Magento/Ui/view/base/web/templates/form/components/single/switcher.html]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/form/components/single/switcher.html)
--  [app/code/Magento/Ui/view/base/web/templates/form/field.html]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/form/field.html)
+-  [app/code/Magento/Ui/view/base/web/js/form/element/single-checkbox.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/element/single-checkbox.js)
+-  [app/code/Magento/Ui/view/base/web/templates/form/components/single/checkbox.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/form/components/single/checkbox.html)
+-  [app/code/Magento/Ui/view/base/web/templates/form/components/single/radio.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/form/components/single/radio.html)
+-  [app/code/Magento/Ui/view/base/web/templates/form/components/single/switcher.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/form/components/single/switcher.html)
+-  [app/code/Magento/Ui/view/base/web/templates/form/field.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/form/field.html)
 
 ## Examples
 
 ### Integrate the Checkbox component configured as toggle element with the Form component
 
-This example integrates the Checkbox component configured as a toggle element with the [Form]({{ page.baseurl }}/ui_comp_guide/components/ui-form.html) component:
+This example integrates the Checkbox component configured as a toggle element with the [Form](form.md) component:
 
 ```xml
 <form>
@@ -66,7 +66,7 @@ This example integrates the Checkbox component configured as a toggle element wi
 
 ### Integrate the Checkbox component configured as checkbox element with the Form component
 
-This example integrates the Checkbox component configured as a checkbox element with the [Form]({{ page.baseurl }}/ui_comp_guide/components/ui-form.html) component:
+This example integrates the Checkbox component configured as a checkbox element with the [Form](form.md) component:
 
 ```xml
 <form>
@@ -100,7 +100,7 @@ This example integrates the Checkbox component configured as a checkbox element 
 
 ### Integrate the Checkbox component configured as radio element with the Form component
 
-This example integrates the Checkbox component configured as a radio element with the [Form]({{ page.baseurl }}/ui_comp_guide/components/ui-form.html) component:
+This example integrates the Checkbox component configured as a radio element with the [Form](form.md) component:
 
 ```xml
 <form>

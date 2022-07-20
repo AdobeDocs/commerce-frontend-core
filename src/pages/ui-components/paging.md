@@ -3,7 +3,7 @@ group: ui-components-guide
 title: Paging component
 ---
 
-The Paging component implements pagination in grids implemented using [Listing]({{ page.baseurl }}/ui_comp_guide/components/ui-listing-grid.html). It also creates an instance of the child Sizes component which allows to define the number of records displayed in the associated table.
+The Paging component implements pagination in grids implemented using [Listing](listing-grid.html). It also creates an instance of the child Sizes component which allows to define the number of records displayed in the associated table.
 
 ## Configuration options
 
@@ -17,17 +17,17 @@ The Paging component implements pagination in grids implemented using [Listing](
 
 ## Source files
 
-Extends [`UiElement`]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_uielement_concept.html):
+Extends [`UiElement`](concepts/element.md):
 
--  [app/code/Magento/Ui/view/base/web/js/grid/paging/paging.js]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/grid/paging/paging.js)
--  [app/code/Magento/Ui/view/base/web/templates/grid/paging/paging.html]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/grid/paging/paging.html)
--  [app/code/Magento/Ui/view/base/web/templates/grid/paging-total.html]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/grid/paging-total.html)
+-  [app/code/Magento/Ui/view/base/web/js/grid/paging/paging.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/paging/paging.js)
+-  [app/code/Magento/Ui/view/base/web/templates/grid/paging/paging.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/grid/paging/paging.html)
+-  [app/code/Magento/Ui/view/base/web/templates/grid/paging-total.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/grid/paging-total.html)
 
 ## Examples
 
 ### Integrate the Paging component with the Listing component
 
-This example integrates the Paging component with the [Listing]({{ page.baseurl }}/ui_comp_guide/components/ui-listing-grid.html) component:
+This example integrates the Paging component with the [Listing](listing-grid.html) component:
 
 ```xml
 <listing>

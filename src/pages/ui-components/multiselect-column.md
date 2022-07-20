@@ -5,14 +5,14 @@ title: MultiselectColumn component
 
 The MultiselectColumn component implements a column with checkboxes for selecting records. It also provides controls for selecting multiple records.
 
-MultiselectColumn is a child of the [Listing component]({{ page.baseurl }}/ui_comp_guide/components/ui-listing-grid.html) and is rendered in its view. Like any component, it can hold the sort order value, which influences the order of all its child elements.
+MultiselectColumn is a child of the [Listing component](listing-grid.html) and is rendered in its view. Like any component, it can hold the sort order value, which influences the order of all its child elements.
 
 ## Configuration options
 
 | Option | Description | Type | Default Value |
 | --- | --- | --- | --- |
 | `bodyTmpl` | Path to the template that is used to render a column's field in the table's body. | String | `ui/grid/cells/multiselect` |
-| `controlVisibility` | Whether a user can control column's visibility handled by the [ColumnsControls component]({{ page.baseurl }}/ui_comp_guide/components/ui-columnscontrols.html). | String | `false` |
+| `controlVisibility` | Whether a user can control column's visibility handled by the [ColumnsControls component](columnscontrols.html). | String | `false` |
 | `draggable` | Defines if a user can change column's position in the table by grabbing column's header and dragging it across the table. | Boolean | `false` |
 | `fieldClass` | Additional CSS classes added to the column's field elements. | {[name: string]: boolean} | `{'data-grid-checkbox-cell': true}` |
 | `headerTmpl` | Path to the `.html` template for the column's header. | String | `ui/grid/columns/multiselect` |
@@ -103,7 +103,7 @@ Instance Replacement: One Instance of a Component
 
 ### Integrate the MultiselectColumn component with the Listing component
 
-This example integrates the MultiselectColumn component with the [Listing]({{ page.baseurl }}/ui_comp_guide/components/ui-listing-grid.html) component:
+This example integrates the MultiselectColumn component with the [Listing](listing-grid.html) component:
 
 ```xml
 <listing>
@@ -123,11 +123,11 @@ This example integrates the MultiselectColumn component with the [Listing]({{ pa
 
 ## Source files
 
-Extends [`Column`]({{ page.baseurl }}/ui_comp_guide/components/ui-column.html):
+Extends [`Column`](column.html):
 
-*  [app\code\Magento\Ui\view\base\web\js\grid\columns\multiselect.js]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/grid/columns/multiselect.js)
-*  [app\code\Magento\Ui\view\base\web\templates\grid\cells\multiselect.html]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/grid/cells/multiselect.html) - defines each field in the grid; provides the Multiselect component with the checkbox interface for selecting item(s) in the grid and performing actions over them.
-*  [app\code\Magento\Ui\view\base\web\templates\grid\columns\multiselect.html]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/grid/columns/multiselect.html) - defines the grid header with dropdown lists and Select All, Deselect All, and other options.
+*  [app\code\Magento\Ui\view\base\web\js\grid\columns\multiselect.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/columns/multiselect.js)
+*  [app\code\Magento\Ui\view\base\web\templates\grid\cells\multiselect.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/grid/cells/multiselect.html) - defines each field in the grid; provides the Multiselect component with the checkbox interface for selecting item(s) in the grid and performing actions over them.
+*  [app\code\Magento\Ui\view\base\web\templates\grid\columns\multiselect.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/grid/columns/multiselect.html) - defines the grid header with dropdown lists and Select All, Deselect All, and other options.
 
 ### Methods and Events
 

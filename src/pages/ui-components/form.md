@@ -7,29 +7,29 @@ redirect_from:
 
 The Form component is a collection of fields that can be grouped in tabs and fieldsets. It enables [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) operations.
 
-Form is a [basic component]({{ page.baseurl }}/ui_comp_guide/bk-ui_comps.html#general-structure).
+Form is a [basic component](index.md#general-structure).
 
 ## Related components
 
 The following components can be used in the scope of the Form component:
 
-*  [ActionDelete]({{ page.baseurl }}/ui_comp_guide/components/ui-actiondelete.html)
-*  [Checkbox]({{ page.baseurl }}/ui_comp_guide/components/ui-checkbox.html)
-*  [Checkboxset]({{ page.baseurl }}/ui_comp_guide/components/ui-checkboxset.html)
+*  [ActionDelete](actiondelete.html)
+*  [Checkbox](checkbox.html)
+*  [Checkboxset](checkboxset.html)
 *  DataSource
-*  [Email]({{ page.baseurl }}/ui_comp_guide/components/ui-email.html)
-*  [FieldSet]({{ page.baseurl }}/ui_comp_guide/components/ui-fieldset.html)
-*  [File]({{ page.baseurl }}/ui_comp_guide/components/ui-file.html)
-*  [FileUploader]({{ page.baseurl }}/ui_comp_guide/components/ui-fileuploader.html)
-*  [Hidden]({{ page.baseurl }}/ui_comp_guide/components/ui-hidden.html)
-*  [HtmlContent]({{ page.baseurl }}/ui_comp_guide/components/ui-htmlcontent.html)
-*  [Input]({{ page.baseurl }}/ui_comp_guide/components/ui-input.html)
-*  [Multiline]({{ page.baseurl }}/ui_comp_guide/components/ui-multiline.html)
-*  [Multiselect]({{ page.baseurl }}/ui_comp_guide/components/ui-multiselect.html)
-*  [Radioset]({{ page.baseurl }}/ui_comp_guide/components/ui-radioset.html)
-*  [Select]({{ page.baseurl }}/ui_comp_guide/components/ui-select.html)
-*  [Text]({{ page.baseurl }}/ui_comp_guide/components/ui-text.html)
-*  [Textarea]({{ page.baseurl }}/ui_comp_guide/components/ui-textarea.html)
+*  [Email](email.html)
+*  [FieldSet](fieldset.html)
+*  [File](file.html)
+*  [FileUploader](fileuploader.html)
+*  [Hidden](hidden.html)
+*  [HtmlContent](htmlcontent.html)
+*  [Input](input.html)
+*  [Multiline](multiline.html)
+*  [Multiselect](multiselect.html)
+*  [Radioset](radioset.html)
+*  [Select](select.html)
+*  [Text](text.html)
+*  [Textarea](textarea.html)
 *  [Wysiwyg](https://glossary.magento.com/wysiwyg)
 
 ## Configuration options
@@ -131,7 +131,7 @@ The following components can be used in the scope of the Form component:
           receives the notification. Can use string templates.
           </li>
         </ul>
-For more details see the <a href="{{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_linking_concept.html">Linking properties of UI components</a> topic.
+For more details see the <a href="concepts/linking.md">Linking properties of UI components</a> topic.
       </td>
       <td>
         Object
@@ -192,7 +192,7 @@ For more details see the <a href="{{ page.baseurl }}/ui_comp_guide/concepts/ui_c
           tracked for changes. Can use string templates.
           </li>
         </ul>
-For more details see the <a href="{{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_linking_concept.html">Linking properties of UI components</a> topic.
+For more details see the <a href="concepts/linking.md">Linking properties of UI components</a> topic.
       </td>
       <td>
         Object
@@ -424,7 +424,8 @@ Data Source is another [UI Component](https://glossary.magento.com/ui-component)
 
 ### Replace instances of component
 
- {:.bs-callout-info}
+<InlineAlert variant="info" slots="text" />
+
 Replacing principles are the same for all UI Components.
 
 #### Global replacement
@@ -461,6 +462,6 @@ To replace one instance of a UI Form Component redefine link to a constructor in
 
 ## Source files
 
-Extends [`uiCollection`]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_uicollection_concept.html):
+Extends [`uiCollection`](concepts/collection.md):
 
-*  [app/code/Magento/Ui/view/base/web/js/form/form.js]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/form/form.js)
+*  [app/code/Magento/Ui/view/base/web/js/form/form.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/form.js)

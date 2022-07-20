@@ -61,10 +61,10 @@ The Sortby component allows you to sort the column in ascending or descending or
 
 ## Source files
 
-Extends [`UiElement`]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_uielement_concept.html):
+Extends [`UiElement`](concepts/element.md):
 
-*  [app\code\Magento\Ui\view\base\web\js\grid\sortBy.js]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/grid/sortBy.js)
-*  [app\code\Magento\Ui\view\base\web\templates\grid\sortBy.html]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/grid/sortBy.html)
+*  [app\code\Magento\Ui\view\base\web\js\grid\sortBy.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/sortBy.js)
+*  [app\code\Magento\Ui\view\base\web\templates\grid\sortBy.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/grid/sortBy.html)
 
 ## Result
 

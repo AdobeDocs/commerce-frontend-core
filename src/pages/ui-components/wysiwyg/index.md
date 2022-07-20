@@ -5,12 +5,13 @@ title: WYSIWYG component
 menu_title: WYSIWYG component
 ---
 
-The WYSIWYG component is an [adapter](https://glossary.magento.com/adapter) for [TinyMCE](https://www.tiny.cloud/){:target="_blank"} that integrates an editor instance with the [form component]({{ page.baseurl }}/ui_comp_guide/components/ui-form.html). It expects a complete [widget](https://glossary.magento.com/widget) declaration in the `content` option, which should contain both [markup](https://glossary.magento.com/markup) and the script responsible for creating the editor's instance.
+The WYSIWYG component is an [adapter](https://glossary.magento.com/adapter) for [TinyMCE](https://www.tiny.cloud/) that integrates an editor instance with the [form component](form.html). It expects a complete [widget](https://glossary.magento.com/widget) declaration in the `content` option, which should contain both [markup](https://glossary.magento.com/markup) and the script responsible for creating the editor's instance.
 
 Magento supports all selector, plugin, and toolbar/menu configuration options supported by the TinyMCE `tinymce.init()` method. However, Magento doesn't validate TinyMCE configuration options or flag invalid values before adding the editor to a page.
 
- {:.bs-callout-info}
-Refer to [TinyMCE's documentation](https://www.tiny.cloud/docs/){:target="_blank"} for more information.
+<InlineAlert variant="info" slots="text" />
+
+Refer to [TinyMCE's documentation](https://www.tiny.cloud/docs/) for more information.
 
 ## Configuration options
 
@@ -25,7 +26,7 @@ Wysiwyg-specific options:
 | `content` | Initial WYSIWYG content. | String | `''` |
 | `elementSelector` | The selector of the HTML element that is wrapped by the WYSIWYG editor. | String | `'textarea'` |
 | `elementTmpl` | The path to the template particular field type template, specific for this component. | String | `'ui/form/element/wysiwyg'` |
-| `links`.`value` | [Links]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_linking_concept.html) the component's `value` property with the provider, using the path that is declared in the `dataScope` property. | String | `'${ $.provider }:${ $.dataScope }'` |
+| `links`.`value` | [Links](concepts/linking.md) the component's `value` property with the provider, using the path that is declared in the `dataScope` property. | String | `'${ $.provider }:${ $.dataScope }'` |
 | `template` | The path to the general Field template. | String | `'ui/form/field'` |
 
 ## Events
@@ -63,12 +64,12 @@ The following are available events for use in the WYSIWYG component adapter for 
 
 ## Source files
 
-Extends [`Abstract`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/form/element/abstract.js):
+Extends [`Abstract`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/element/abstract.js):
 
-*  [app/code/Magento/Ui/view/base/web/js/form/element/wysiwyg.js]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/form/element/wysiwyg.js)
-*  [app/code/Magento/Ui/view/base/web/templates/form/field.html]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/form/field.html)
-*  [app/code/Magento/Ui/view/base/web/templates/form/element/wysiwyg.html]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/form/element/wysiwyg.html)
-*  [app/code/Magento/Ui/Component/Form/Element/Wysiwyg.php]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/Component/Form/Element/Wysiwyg.php)
+*  [app/code/Magento/Ui/view/base/web/js/form/element/wysiwyg.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/element/wysiwyg.js)
+*  [app/code/Magento/Ui/view/base/web/templates/form/field.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/form/field.html)
+*  [app/code/Magento/Ui/view/base/web/templates/form/element/wysiwyg.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/form/element/wysiwyg.html)
+*  [app/code/Magento/Ui/Component/Form/Element/Wysiwyg.php](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/Component/Form/Element/Wysiwyg.php)
 
 ## Add a default editor
 
@@ -83,7 +84,6 @@ The following example shows how to integrate the default Magento WYSIWYG editor 
 First, create a layout file in the `ModuleName\view\adminhtml\layout` directory and register the UI component:
 
 ### `ModuleName\view\adminhtml\layout\wysiwyg_on_custom_page.xml`
-{:.no_toc}
 
 ```xml
 <?xml version="1.0"?>
@@ -105,7 +105,6 @@ First, create a layout file in the `ModuleName\view\adminhtml\layout` directory 
 Next, create a custom form in the `ModuleName\view\adminhtml\ui_component` directory:
 
 ### `ModuleName\view\adminhtml\ui_component\wysiwyg_custom_form.xml`
-{:.no_toc}
 
 ```xml
 <?xml version="1.0"?>
@@ -152,19 +151,19 @@ Next, create a custom form in the `ModuleName\view\adminhtml\ui_component` direc
 
 ![Wysiwyg Component example](../../_images/ui-components/ui-wysiwyg-result.png)
 
-Last, add your data provider, controller, and routes. Refer to [Creating a Magento admin page]({{ page.baseurl }}/ext-best-practices/extension-coding/example-module-adminpage.html) for more information.
+Last, add your data provider, controller, and routes. Refer to [Creating a Magento admin page](https://developer.adobe.com/commerce/php/tutorials/admin/create-admin-page/) for more information.
 
 ## Modify the default editor
 
 The most common way to configure UI components in Magento is to add a configuration section inside the XMl element when declaring it on a form. If you need to apply dynamic modifications to a UI component, we recommend using PHP modifiers since Magento supports replacing the default WYSIWYG editor with other WYSIWYG libraries.
 
- {:.bs-callout-info}
-Refer to [About PHP modifiers in UI components]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_modifier_concept.html) for more information.
+<InlineAlert variant="info" slots="text" />
+
+Refer to [About PHP modifiers in UI components](concepts/modifier.md) for more information.
 
 To use PHP modifiers, your data provider must inherit from `ModifierPoolDataProvider`. The following class adds support for modifier pools, which are required when using modifiers. Inheriting from this class allows you to use modifiers.
 
 ### `Magento\Ui\DataProvider\ModifierPoolDataProvider`
-{:.no_toc}
 
 ```php
 <?php
@@ -242,7 +241,6 @@ class ModifierPoolDataProvider extends AbstractDataProvider
 Your form must then use a data provider that inherits from `ModifierPoolDataProvider`. For example:
 
 ### `Test\Module\Model\DataProvider`
-{:.no_toc}
 
 ```php
 <?php
@@ -280,7 +278,6 @@ After you configure the modifier pool in your data provider, you must create the
 The following example shows how to change the default Magento WYSIWYG editor toolbar and plugins configuration:
 
 ### `Test\Module\Ui\DataProvider\Custom\Modifier\WysiwygConfigModifier`
-{:.no_toc}
 
 ```php
 <?php
@@ -332,7 +329,6 @@ The last thing you need to do is configure the data provider's pool and connect 
 Here's an example that connects the data provider and modifier created in the previous steps:
 
 ### `Test\Module\etc\adminhtml\di.xml`
-{:.no_toc}
 
 ```php
 <?xml version="1.0"?>
@@ -361,5 +357,6 @@ Here's an example that connects the data provider and modifier created in the pr
 </config>
 ```
 
- {:.bs-callout-info}
-If your form already uses the [ModifierPool]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_modifier_concept.html), you can continue using it to control the configuration of your WYSIWYG components.
+<InlineAlert variant="info" slots="text" />
+
+If your form already uses the [ModifierPool](concepts/modifier.md), you can continue using it to control the configuration of your WYSIWYG components.

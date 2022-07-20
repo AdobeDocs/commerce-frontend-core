@@ -40,7 +40,8 @@ or
 
 If you use the Magento syntax, the Magento wrapper replaces the Magento syntax with the matching Knockout comments or `data-bind` attributes during the loading of the HTML template.
 
-{:.bs-callout-info}
+<InlineAlert variant="info" slots="text" />
+
 For better render performance, we recommend using the Knockout native syntax. Magento syntax can render more slowly than the native knockout syntax. When using the Magento syntax, every time the HTML template is loaded for a component, it gets parsed and adjusted accordingly. KnockoutJS knows exactly which bindings it should update. Test both ways if performance is critical.
 
 ## Binding map

@@ -5,7 +5,7 @@ contributor_name: Atwix
 contributor_link: https://www.atwix.com/
 ---
 
-The ColumnsResize [UI component](https://glossary.magento.com/ui-component) is an [extension](https://glossary.magento.com/extension) for the [Columns]({{ page.baseurl }}/ui_comp_guide/components/ui-columns.html) component. It provides columns resizing functionality.
+The ColumnsResize [UI component](https://glossary.magento.com/ui-component) is an [extension](https://glossary.magento.com/extension) for the [Columns](columns.md) component. It provides columns resizing functionality.
 
 ## Configuration options
 
@@ -20,15 +20,15 @@ The ColumnsResize [UI component](https://glossary.magento.com/ui-component) is a
 
 ## Sources files
 
-Extends [`UiElement`]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_uielement_concept.html):
+Extends [`UiElement`](concepts/element.md):
 
--  [app/code/Magento/Ui/view/base/web/js/grid/resize.js]({{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/Ui/view/base/web/js/grid/resize.js)
+-  [app/code/Magento/Ui/view/base/web/js/grid/resize.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/resize.js)
 
 ## Examples
 
 ### Integrate the ColumnsResize component with the Columns component
 
-This is an example of how the ColumnsResize component integrates with the [Columns]({{ page.baseurl }}/ui_comp_guide/components/ui-columns.html) component:
+This is an example of how the ColumnsResize component integrates with the [Columns](columns.md) component:
 
 ```xml
 <listing>

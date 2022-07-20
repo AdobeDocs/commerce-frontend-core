@@ -22,7 +22,7 @@ Component options are set in the UI-component's configuration `.xml` file.
 
 ## Source files
 
--  [`Magento/Ui/view/base/web/templates/form/components/complex.html`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/form/components/complex.html)
+-  [`Magento/Ui/view/base/web/templates/form/components/complex.html`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/form/components/complex.html)
 
 ## Examples
 

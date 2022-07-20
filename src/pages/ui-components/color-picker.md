@@ -4,7 +4,7 @@ title: ColorPicker component
 ---
 
 The ColorPicker component uses the [Spectrum](https://bgrins.github.io/spectrum/) and [tinycolor.js](https://bgrins.github.io/TinyColor/) libraries to make it easier to choose and implement color values.
-The ColorPicker component must be a child of the [Listing]({{ page.baseurl }}/ui_comp_guide/components/ui-listing-grid.html) or [Form]({{ page.baseurl }}/ui_comp_guide/components/ui-form.html) components.
+The ColorPicker component must be a child of the [Listing](listing-grid.md) or [Form](form.md) components.
 
 ## Configuration options
 
@@ -17,12 +17,12 @@ The ColorPicker component must be a child of the [Listing]({{ page.baseurl }}/ui
 
 ## Sources files
 
--  [app/code/Magento/Ui/view/base/ui_component/etc/definition/colorPicker.xsd]({{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/Ui/view/base/ui_component/etc/definition/colorPicker.xsd)
--  [app/code/Magento/Ui/view/base/web/js/form/element/color-picker.js]({{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/Ui/view/base/web/js/form/element/color-picker.js)
--  [app/code/Magento/Ui/view/base/web/js/lib/knockout/bindings/color-picker.js]({{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/Ui/view/base/web/js/lib/knockout/bindings/color-picker.js)
--  [app/code/Magento/Ui/view/base/web/templates/form/element/color-picker.html]({{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/Ui/view/base/web/templates/form/element/color-picker.html)
--  [lib/web/jquery/spectrum/spectrum.js]({{ site.mage2bloburl }}/{{page.guide_version}}/lib/web/jquery/spectrum/spectrum.js)
--  [lib/web/jquery/spectrum/tinycolor.js]({{ site.mage2bloburl }}/{{page.guide_version}}/lib/web/jquery/spectrum/tinycolor.js)
+-  [app/code/Magento/Ui/view/base/ui_component/etc/definition/colorPicker.xsd](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/ui_component/etc/definition/colorPicker.xsd)
+-  [app/code/Magento/Ui/view/base/web/js/form/element/color-picker.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/element/color-picker.js)
+-  [app/code/Magento/Ui/view/base/web/js/lib/knockout/bindings/color-picker.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/knockout/bindings/color-picker.js)
+-  [app/code/Magento/Ui/view/base/web/templates/form/element/color-picker.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/form/element/color-picker.html)
+-  [lib/web/jquery/spectrum/spectrum.js](https://github.com/magento/magento2/blob/2.4/lib/web/jquery/spectrum/spectrum.js)
+-  [lib/web/jquery/spectrum/tinycolor.js](https://github.com/magento/magento2/blob/2.4/lib/web/jquery/spectrum/tinycolor.js)
 
 ## Examples
 

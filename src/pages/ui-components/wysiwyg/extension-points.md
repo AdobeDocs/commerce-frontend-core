@@ -400,11 +400,11 @@ These classes are implementations of the following interface:
 The `name` attribute for the configuration provider in the `di.xml` entry must match the editor's registered option value.
 In the example provided, this value is `default`
 
-[`Magento\Cms\Model\Wysiwyg\Config`]: {{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Cms/Model/Wysiwyg/Config.php
-[virtual type]: {{page.baseurl }}/extension-dev-guide/build/di-xml-file.html#virtual-types
-[`di.xml`]: {{page.baseurl }}/extension-dev-guide/build/di-xml-file.html
-[Integrate third-party editors]: {{page.baseurl }}/ui_comp_guide/components/ui-wysiwyg.html#add-a-custom-editor
-[`widgetTools`]: {{ site.mage2bloburl }}/{{page.guide_version}}/lib/web/mage/adminhtml/wysiwyg/tiny_mce/plugins/magentowidget/editor_plugin.js
-[`MagentovariablePlugin`]: {{ site.mage2bloburl }}/{{page.guide_version}}/lib/web/mage/adminhtml/wysiwyg/tiny_mce/plugins/magentovariable/editor_plugin.js
-[`MediabrowserUtility`]: {{ site.mage2bloburl }}/{{page.guide_version}}/lib/web/mage/adminhtml/browser.js
-[Add a third-party editor]: {{page.baseurl }}/ui_comp_guide/components/wysiwyg/add-custom-editor/
+[`Magento\Cms\Model\Wysiwyg\Config`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Cms/Model/Wysiwyg/Config.php
+[virtual type]: https://developer.adobe.com/commerce/php/development/build/dependency-injection-file/#virtual-types
+[`di.xml`]: https://developer.adobe.com/commerce/php/development/build/dependency-injection-file/
+[Integrate third-party editors]: add-custom-editor.md
+[`widgetTools`]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/adminhtml/wysiwyg/tiny_mce/plugins/magentowidget/editor_plugin.js
+[`MagentovariablePlugin`]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/adminhtml/wysiwyg/tiny_mce/plugins/magentovariable/editor_plugin.js
+[`MediabrowserUtility`]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/adminhtml/browser.js
+[Add a third-party editor]: add-custom-editor.md

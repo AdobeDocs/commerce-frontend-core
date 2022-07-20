@@ -5,7 +5,7 @@ contributor_name: Atwix
 contributor_link: https://www.atwix.com/
 ---
 
-The ColumnsEditorView [UI component](https://glossary.magento.com/ui-component) is an [extension](https://glossary.magento.com/extension) for the [ColumnsEditor]({{ page.baseurl }}/ui_comp_guide/components/ui-columns-editor.html) component. It provides functionality for showing the inline form for editing a selected grid record.
+The ColumnsEditorView [UI component](https://glossary.magento.com/ui-component) is an [extension](https://glossary.magento.com/extension) for the [ColumnsEditor](columns-editor.md) component. It provides functionality for showing the inline form for editing a selected grid record.
 
 ## Configuration options
 
@@ -14,23 +14,23 @@ The ColumnsEditorView [UI component](https://glossary.magento.com/ui-component) 
 | `component` | The path to the component's `.js` file, relative to RequireJS. | String | `Magento_Ui/js/grid/editing/editor-view` |
 | `rootSelector` | The CSS selector of a table parent element. | String | `'${ $.columnsProvider }:.admin__data-grid-wrap'` |
 | `tableSelector` | The CSS selector of a table element. | String | `'${ $.rootSelector } -> table'` |
-| `model` | The [uiRegistry]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_uiregistry.html) path to the [ColumnsEditor]({{ page.baseurl }}/ui_comp_guide/components/ui-columns-editor.html) component. | String | `-` |
+| `model` | The [uiRegistry](concepts/registry.md) path to the [ColumnsEditor](columns-editor.md) component. | String | `-` |
 | `rowSelector` | The CSS selector of a row element. | String | `'${ $.tableSelector } tbody tr.data-row'` |
 | `headerButtonsTmpl` | The Knockout template for showing header buttons. | String | `'<!-- ko template: headerButtonsTmpl --><!-- /ko -->'` |
-| `bulkTmpl` | The Knockout template for showing the [ColumnsEditingBulk]({{ page.baseurl }}/ui_comp_guide/components/ui-columns-editing-bulk.html) component. | String | `<!-- ko scope: bulk --><!-- ko template: getTemplate() --><!-- /ko --><!-- /ko -->` |
-| `rowTmpl` | The Knockout template for showing [ColumnsEditorRecord]({{ page.baseurl }}/ui_comp_guide/components/ui-columns-editor-record.html) component. | String | `<!-- ko with: _editor --><!-- ko if: isActive($row()._rowIndex, true) --><!-- ko with: getRecord($row()._rowIndex, true) --><!-- ko template: rowTmpl --><!-- /ko --><!-- /ko --><!-- ko if: isSingleEditing && singleEditingButtons --><!-- ko template: rowButtonsTmpl --><!-- /ko --><!-- /ko --><!-- /ko --><!-- /ko -->` |
+| `bulkTmpl` | The Knockout template for showing the [ColumnsEditingBulk](columns-editing-bulk.md) component. | String | `<!-- ko scope: bulk --><!-- ko template: getTemplate() --><!-- /ko --><!-- /ko -->` |
+| `rowTmpl` | The Knockout template for showing [ColumnsEditorRecord](columns-editor-record.md) component. | String | `<!-- ko with: _editor --><!-- ko if: isActive($row()._rowIndex, true) --><!-- ko with: getRecord($row()._rowIndex, true) --><!-- ko template: rowTmpl --><!-- /ko --><!-- /ko --><!-- ko if: isSingleEditing && singleEditingButtons --><!-- ko template: rowButtonsTmpl --><!-- /ko --><!-- /ko --><!-- /ko --><!-- /ko -->` |
 
 ## Sources files
 
-Extends [`uiClass`]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_uiclass_concept.html):
+Extends [`uiClass`](concepts/class.md):
 
--  [app/code/Magento/Ui/view/base/web/js/grid/editing/editor-view.js]({{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/Ui/view/base/web/js/grid/editing/editor-view.js)
+-  [app/code/Magento/Ui/view/base/web/js/grid/editing/editor-view.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/editing/editor-view.js)
 
 ## Examples
 
 ### Integrate the ColumnsEditorView component with the ColumnsEditor component
 
-This is an example of how the ColumnsEditorView component integrates with the [ColumnsEditor]({{ page.baseurl }}/ui_comp_guide/components/ui-columns-editor.html) component:
+This is an example of how the ColumnsEditorView component integrates with the [ColumnsEditor](columns-editor.md) component:
 
 ```xml
 <listing>

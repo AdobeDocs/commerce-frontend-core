@@ -20,7 +20,7 @@ The ActionsColumns component implements a table's column responsible for display
 
 | Option | Description | Type | Required |
 | --- | --- | --- | --- |
-| `callback` | Custom action's handler. | [ColumnAction]({{ page.baseurl }}/ui_comp_guide/components/ui-column.html#column_action) \| Array &lt;ColumnAction&gt; | Optional |
+| `callback` | Custom action's handler. | [ColumnAction](column.md#columnaction-interface) \| Array &lt;ColumnAction&gt; | Optional |
 | `confirm` | Confirmation message shown before applying the action. | `{title: string, message: string}` | Optional |
 | `href` | The link to open on when the column's element is clicked. | String | Optional |
 | `index` | Action's identifier. | String | Required |
@@ -28,10 +28,10 @@ The ActionsColumns component implements a table's column responsible for display
 
 ## Source files
 
-Extends [`Column`]({{ page.baseurl }}/ui_comp_guide/components/ui-column.html):
+Extends [`Column`](column.md):
 
--  [`app/code/Magento/Ui/view/base/web/js/grid/columns/actions.js`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/grid/columns/actions.js)
--  [`app/code/Magento/Ui/view/base/web/templates/grid/cells/actions.html`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/grid/cells/actions.html)
+-  [`app/code/Magento/Ui/view/base/web/js/grid/columns/actions.js`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/columns/actions.js)
+-  [`app/code/Magento/Ui/view/base/web/templates/grid/cells/actions.html`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/grid/cells/actions.html)
 
 ## Examples
 
@@ -52,7 +52,7 @@ Extends [`Column`]({{ page.baseurl }}/ui_comp_guide/components/ui-column.html):
 </listing>
 ```
 
-The `Vendor\Module\Ui\Component\Listing\Column\Actions` class needs to extend the [`Magento\Ui\Component\Listing\Columns\Column`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/Component/Listing/Columns/Column.php) class and add actions data via `prepareDataSource()` method.
+The `Vendor\Module\Ui\Component\Listing\Column\Actions` class needs to extend the [`Magento\Ui\Component\Listing\Columns\Column`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/Component/Listing/Columns/Column.php) class and add actions data via `prepareDataSource()` method.
 
 ```php
 <?php

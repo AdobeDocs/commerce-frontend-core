@@ -7,7 +7,7 @@ title: LinkColumn component
 
 The LinkColumn component implements a column that can display anchor elements instead of plain text.
 
-Constructor: [app/code/Magento/Ui/view/base/web/js/grid/columns/link.js]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/grid/columns/link.js)
+Constructor: [app/code/Magento/Ui/view/base/web/js/grid/columns/link.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/columns/link.js)
 
 ## LinkColumn configuration
 
@@ -18,16 +18,16 @@ Constructor: [app/code/Magento/Ui/view/base/web/js/grid/columns/link.js]({{ site
 
 ## Source files
 
-Extends [Column component]({{ page.baseurl }}/ui_comp_guide/components/ui-column.html)
+Extends [Column component](column.html)
 
--  [`app/code/Magento/Ui/view/base/web/js/grid/columns/link.js`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/grid/columns/link.js)
--  [`app/code/Magento/Ui/view/base/web/templates/grid/cells/link.html`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/grid/cells/link.html)
+-  [`app/code/Magento/Ui/view/base/web/js/grid/columns/link.js`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/columns/link.js)
+-  [`app/code/Magento/Ui/view/base/web/templates/grid/cells/link.html`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/grid/cells/link.html)
 
 ## Examples
 
 ### Integrate the LinkColumn component with the Listing component
 
-This example integrates the LinkColumn component with the [Listing]({{ page.baseurl }}/ui_comp_guide/components/ui-listing-grid.html) component:
+This example integrates the LinkColumn component with the [Listing](listing-grid.html) component:
 
 ```xml
 <listing>

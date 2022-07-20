@@ -3,9 +3,9 @@ group: ui-components-guide
 title: MassActions component
 ---
 
-The MassActions component allows performing actions with multiple selected items. Must be a child of the [Listing component]({{ page.baseurl }}/ui_comp_guide/components/ui-listing-grid.html).
+The MassActions component allows performing actions with multiple selected items. Must be a child of the [Listing component](listing-grid.html).
 
-See the [Admin Design Pattern Library (MassActions)]({{ page.baseurl }}/pattern-library/displaying-data/datatable/datatable.html#mass-actions) topic for information about the UI design patterns that can be implemented using the MassActions component.
+See the [Admin Design Pattern Library (MassActions)](https://devdocs.magento.com/guides/v2.4/pattern-library/displaying-data/datatable/datatable.html#mass-actions) topic for information about the UI design patterns that can be implemented using the MassActions component.
 
 ## Dependencies
 
@@ -17,79 +17,22 @@ The MassActions component has dependencies on the following components:
 
 ## Configuration options
 
-<table>
-  <tr>
-    <th>Option</th>
-    <th>Description</th>
-    <th>Type</th>
-    <th>Default Value</th>
-  </tr>
-  <tr>
-    <td><code>actions</code></td>
-    <td>A list of available actions.</td>
-    <td><code>MassAction[]</code></td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td><code>noItemsMsg</code></td>
-    <td>Message displayed when a user attempts to perform an action without any selected items.</td>
-    <td>String</td>
-    <td><code>'You haven't selected any items!'</code></td>
-  </tr>
-  <tr>
-    <td><code>stickyTmpl</code></td>
-    <td>Additional component's template that is used when its parent <a href="{{ page.baseurl }}/ui_comp_guide/components/ui-toolbar.html">Toolbar</a> component receives a fixed position.</td>
-    <td>String</td>
-    <td><code>ui/grid/sticky/actions</code></td>
-  </tr>
-  <tr>
-    <td><code>template</code></td>
-    <td>Path to the component’s <code>.html</code> template.</td>
-    <td>String</td>
-    <td><code>ui/grid/paging/sizes</code></td>
-  </tr>
-</table>
+| Option       | Description                                                                                                             | Type           | Default Value                      |
+|--------------|-------------------------------------------------------------------------------------------------------------------------|----------------|------------------------------------|
+| `actions`    | A list of available actions.                                                                                            | `MassAction[]` | -                                  |
+| `noItemsMsg` | Message displayed when a user attempts to perform an action without any selected items.                                 | String         | `'You haven't selected any items!'` |
+| `stickyTmpl` | Additional component's template that is used when its parent [Toolbar](toolbar.md) component receives a fixed position. | String         | `ui/grid/sticky/actions`           |
+| template     | Path to the component’s `.html` template.                                                                               | String         | `ui/grid/paging/sizes`             |
 
 ### MassAction interface
 
-<table>
-  <tr>
-    <th>Option</th>
-    <th>Description</th>
-    <th>Type</th>
-    <th>Required</th>
-  </tr>
-  <tr>
-    <td><code>callback</code></td>
-    <td></td>
-    <td><a href="{{ page.baseurl }}/ui_comp_guide/components/ui-column.html#column_action">ColumnAction</a></td>
-    <td>Optional</td>
-  </tr>
-  <tr>
-    <td><code>confirm</code></td>
-    <td>Confirmation message displayed before applying the action.</td>
-    <td>{<br />title: string;<br />message: string;<br />}</td>
-    <td>Optional</td>
-  </tr>
-  <tr>
-    <td><code>label</code></td>
-    <td>Action's label displayed in the list of actions.</td>
-    <td>String</td>
-    <td>Required</td>
-  </tr>
-  <tr>
-    <td><code>type</code></td>
-    <td>Action's identifier.</td>
-    <td>String</td>
-    <td>Required</td>
-  </tr>
-  <tr>
-    <td><code>url</code></td>
-    <td>Path to the controller responsible for action handling.</td>
-    <td>String</td>
-    <td>Optional</td>
-  </tr>
-</table>
+| Option     | Description                                                | Type                                                       | Required |
+|------------|------------------------------------------------------------|------------------------------------------------------------|----------|
+| `callback` |                                                            | [`ColumnAction`](column.md#columnaction-interface)         | Optional |
+| `confirm`  | Confirmation message displayed before applying the action. | `{`<br />`title: string;`<br />`message: string;`<br />`}` | Optional |
+| `label`    | Action's label displayed in the list of actions.           | String                                                     | Required |
+| `type`     | Action's identifier.                                       | String                                                     | Required |
+| `url`      | Path to the controller responsible for action handling.    | String                                                     | Optional |
 
 ## Examples
 
@@ -170,8 +113,8 @@ Redefine link to constructor:
 
 Extends `Collapsible`:
 
-*  [app\code\Magento\Ui\view\base\web\js\grid\massactions.js]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/grid/massactions.js)
-*  [app\code\Magento\Ui\view\base\web\templates\grid\actions.html]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/grid/actions.html)
+*  [app\code\Magento\Ui\view\base\web\js\grid\massactions.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/massactions.js)
+*  [app\code\Magento\Ui\view\base\web\templates\grid\actions.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/grid/actions.html)
 
 ### Methods and events
 

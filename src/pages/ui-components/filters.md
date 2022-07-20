@@ -3,16 +3,16 @@ group: ui-components-guide
 title: Filters component
 ---
 
-The Filters component renders UI controls for filtering and applies filtering. Must be a child of the [Listing component]({{ page.baseurl }}/ui_comp_guide/components/ui-listing-grid.html).
+The Filters component renders UI controls for filtering and applies filtering. Must be a child of the [Listing component](listing-grid.html).
 
-See the [Admin Design Pattern Library (Filters)]({{ page.baseurl }}/pattern-library/filters/data-table-filters/filtering.html) topic for information about the UI design patterns that can be implemented using Filters component.
+See the [Admin Design Pattern Library (Filters)](https://devdocs.magento.com/guides/v2.4/pattern-library/filters/data-table-filters/filtering.html) topic for information about the UI design patterns that can be implemented using Filters component.
 
 ## Configuration options
 
 | Option | Description | Type | Default Value |
 | --- | --- | --- | --- |
 | `component` | The path to the component’s `.js` file in terms of RequireJS. | String | `''` |
-| `chipsConfig` | Configuration passed to the [`FiltersChips`]({{ page.baseurl }}/ui_comp_guide/components/ui-filterschips.html) component. | Object | `{ name: '${ $.name }_chips', provider: '${ $.chipsConfig.name }', component: 'Magento_Ui/js/grid/filters/chips'}` |
+| `chipsConfig` | Configuration passed to the [`FiltersChips`](filterschips.html) component. | Object | `{ name: '${ $.name }_chips', provider: '${ $.chipsConfig.name }', component: 'Magento_Ui/js/grid/filters/chips'}` |
 | `statefull` |Defines a list of component properties whose values are automatically saved in the configured storage if they change. `key` is the property's name and the `value` defines whether its saved.  | Object | `{applied: true}` |
 | `stickyTmpl` | Additional `.html` template that displays filters when the Toolbar component gets a fixed position. | String | `ui/grid/sticky/filters` |
 | `template` | Path to the component’s `.html` template. | String | `ui/grid/filters/filters` |
@@ -20,11 +20,11 @@ See the [Admin Design Pattern Library (Filters)]({{ page.baseurl }}/pattern-libr
 
 ## Source files
 
-Extends [`uiCollection`]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_uicollection_concept.html):
+Extends [`uiCollection`](concepts/collection.md):
 
--  [app/code/Magento/Ui/view/base/web/js/grid/filters/filters.js]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/grid/filters/filters.js)
--  [app/code/Magento/Ui/view/base/web/templates/grid/sticky/filters.html]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/grid/sticky/filters.html)
--  [app/code/Magento/Ui/view/base/web/templates/grid/filters/filters.html]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/grid/filters/filters.html)
+-  [app/code/Magento/Ui/view/base/web/js/grid/filters/filters.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/filters/filters.js)
+-  [app/code/Magento/Ui/view/base/web/templates/grid/sticky/filters.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/grid/sticky/filters.html)
+-  [app/code/Magento/Ui/view/base/web/templates/grid/filters/filters.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/grid/filters/filters.html)
 
 ## Examples
 
@@ -39,7 +39,7 @@ To add a new customer attribute to the customer grid and make it filterable, fol
 
 ### Integrate the Filters component with the Listing component
 
-This example integrates the Filters component with the [Listing]({{ page.baseurl }}/ui_comp_guide/components/ui-listing-grid.html) component:
+This example integrates the Filters component with the [Listing](listing-grid.html) component:
 
 ```xml
 <listing>

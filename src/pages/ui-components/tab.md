@@ -5,7 +5,7 @@ title: Tab component
 
 The Tab component implements a tab content area.
 
-See the [Admin Design Pattern Library (Tabs)]({{ page.baseurl }}/pattern-library/containers/tabs/tabs.html) topic for information about the UI design patterns that can be implemented using the Tab component.
+See the [Admin Design Pattern Library (Tabs)](https://devdocs.magento.com/guides/v2.4/pattern-library/containers/tabs/tabs.html) topic for information about the UI design patterns that can be implemented using the Tab component.
 
 ## Configuration options
 
@@ -40,7 +40,7 @@ See the [Admin Design Pattern Library (Tabs)]({{ page.baseurl }}/pattern-library
 
 ### Integrate the Tab component with the Form component
 
-This example integrates the Tab component with the [Form]({{ page.baseurl }}/ui_comp_guide/components/ui-form.html) component.
+This example integrates the Tab component with the [Form](form.html) component.
 
 ```xml
 <form>

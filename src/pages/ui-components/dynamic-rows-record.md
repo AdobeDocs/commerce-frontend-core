@@ -5,7 +5,7 @@ contributor_name: Atwix
 contributor_link: https://www.atwix.com/
 ---
 
-The DynamicRowsRecord component is a container of record fields. The DynamicRowsRecord should be used as a child of the [DynamicRows]({{ page.baseurl }}/ui_comp_guide/components/ui-dynamicrows.html) component.
+The DynamicRowsRecord component is a container of record fields. The DynamicRowsRecord should be used as a child of the [DynamicRows](dynamicrows.html) component.
 
 ## Configuration options
 
@@ -18,9 +18,9 @@ The DynamicRowsRecord component is a container of record fields. The DynamicRows
 
 ## Sources files
 
-Extends [`UiCollection`]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_uicollection_concept.html):
+Extends [`UiCollection`](concepts/collection.md):
 
--  [app/code/Magento/Ui/view/base/web/js/dynamic-rows/record.js]({{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/Ui/view/base/web/js/dynamic-rows/record.js)
+-  [app/code/Magento/Ui/view/base/web/js/dynamic-rows/record.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/dynamic-rows/record.js)
 
 ## Examples
 

@@ -8,9 +8,9 @@ menu_order: 110
 
 `uiRegistry` is a in-memory storage, plain storage of entities by keys. Implements the `get()`, `set()`, and `has()` methods.
 
-## JS debugging using uiRegistry {#debug_uiregistry}
+## JS debugging using uiRegistry {#debug_registry}
 
-To debug the UI component JS, we first need to get a `uiRegistry` instance from the browser console. To do so, use the [RequireJs ID]({{ page.baseurl }}/javascript-dev-guide/javascript/js-resources.html) `uiRegistry`.
+To debug the UI component JS, we first need to get a `uiRegistry` instance from the browser console. To do so, use the [RequireJs ID](../../javascript/resources.md) `uiRegistry`.
 
 In the browser console enter the following:
 
@@ -39,7 +39,8 @@ require('uiRegistry').get(function(component){console.log(component.name)});
 
 ### Asynchronous method of retrieving UI components from the registry
 
-{:.bs-callout-info}
+<InlineAlert variant="info" slots="text" />
+
 This is the **recommended** method for best performance.
 
 ```js

@@ -3,7 +3,7 @@ group: ui-components-guide
 title: InsertForm component
 ---
 
-The InsertForm component inserts the [Form component]({{ page.baseurl }}/ui_comp_guide/components/ui-form.html) into other components.
+The InsertForm component inserts the [Form component](form.html) into other components.
 
 ## Configuration options
 
@@ -17,23 +17,23 @@ The InsertForm component inserts the [Form component]({{ page.baseurl }}/ui_comp
 | `externalProvider` | DataSource of the inserted Form. | String | `''` |
 | `formSubmitType` | Expect that Form will save data using AJAX. Links responseData and responseStatus with form. Export to form submit type. | Boolean | `false` |
 | `ns` | Namespace of the inserted form. | String | `''` |
-| `realTimeLink` | Enables a link between the externalValue and value of insertForms. Here 'link' means the two-way [links property]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_linking_concept.html#links-property) of UI components, which allows immediate update. | Boolean | `false` |
+| `realTimeLink` | Enables a link between the externalValue and value of insertForms. Here 'link' means the two-way [links property](concepts/linking.md#links-property) of UI components, which allows immediate update. | Boolean | `false` |
 | `render_url` | With default `render_url(mui/index/render)` form will be without form buttons. To get Form with buttons, url must be changed to `mui/index/render_handle` and next GET parameters: <br/> `buttons=1` (flag to get buttons) <br/> `handle=%layout namespace%/` (buttons scope) | String | `mui/index/render` |
 | `showSpinner` | Show spinner while the Form is rendered. | Boolean | `true` |
 | `toolbarContainer` | Path to component that has toolbarSection property with reference to HTML element. Component will insert Form buttons to this section. | String | `''` |
 
 ## Source files
 
-Extends [`Insert`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/form/components/insert.js):
+Extends [`Insert`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/components/insert.js):
 
--  [`app/code/Magento/Ui/view/base/web/js/form/components/insert-form.js`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/form/components/insert-form.js)
--  [`app/code/Magento/Ui/Component/Container.php`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/Component/Container.php)
+-  [`app/code/Magento/Ui/view/base/web/js/form/components/insert-form.js`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/components/insert-form.js)
+-  [`app/code/Magento/Ui/Component/Container.php`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/Component/Container.php)
 
 ## Examples
 
 ### Integrate InsertForm component with Form component
 
-Here is an example of how the InsertForm component integrates with the [Form]({{ page.baseurl }}/ui_comp_guide/components/ui-form.html) component:
+Here is an example of how the InsertForm component integrates with the [Form](form.html) component:
 
 ```xml
 <form>
@@ -175,7 +175,7 @@ class CustomDataProvider extends AbstractDataProvider
 
 ### Integrate InsertForm component with Modal component
 
-Here is an example of how the InsertForm component integrates with the [Modal]({{ page.baseurl }}/ui_comp_guide/components/ui-modal.html) component:
+Here is an example of how the InsertForm component integrates with the [Modal](modal.html) component:
 
 ```xml
 <form>

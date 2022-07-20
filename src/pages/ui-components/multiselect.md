@@ -16,10 +16,10 @@ The Multiselect component provides the interface for a list or a data set. Multi
 
 ## Source files
 
-Extends [`Select`]({{ page.baseurl }}/ui_comp_guide/components/ui-select.html)
+Extends [`Select`](select.html)
 
--  [app/code/Magento/Ui/view/base/web/js/form/element/multiselect.js]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/form/element/multiselect.js)
--  [app/code/Magento/Ui/view/base/web/templates/form/element/multiselect.html]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/form/element/multiselect.html)
+-  [app/code/Magento/Ui/view/base/web/js/form/element/multiselect.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/element/multiselect.js)
+-  [app/code/Magento/Ui/view/base/web/templates/form/element/multiselect.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/form/element/multiselect.html)
 
 ## Example
 

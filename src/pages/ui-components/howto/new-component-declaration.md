@@ -26,17 +26,15 @@ The `<container>` and `<component>` elements have no mandatory attributes. The f
 -  `sortOrder`: component's sort order
 -  `displayArea`: the placeholder which defines the area for rendering the component in the [layout](https://glossary.magento.com/layout) file.
 
-{%
-include note.html
-type = 'warning'
-content = 'If the following elements are used inside `<container>` or `<component>`, they should be specified strictly in the following order:
+<InlineAlert variant="warning" slots="text1, text2, text3, text4, text5" />
+
+If the following elements are used inside `<container>` or `<component>`, they should be specified strictly in the following order:
 
 1. `<argument>`
 1. `<settings>`
 1. `<childComponent>`
 
-For the component configuration inside `<container>` and `<component>`, [use the "arbitrary" structure].'
-%}
+For the component configuration inside `<container>` and `<component>`, [use the "arbitrary" structure].
 
 ## Declare a custom basic component
 
@@ -50,8 +48,8 @@ If the custom component you create is a [basic UI component] (like Form or Listi
 
 <!-- Link Definitions -->
 
-[uiElement]: {{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_uielement_concept.html
-[uiCollection]: {{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_uicollection_concept.html
-[use the "arbitrary" structure]: {{ page.baseurl }}/ui_comp_guide/best-practices/semantic_config.html#info_structure_except
-[basic UI component]: {{ page.baseurl }}/ui_comp_guide/bk-ui_comps.html#general-structure
-[About XML configuration of UI components]: {{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_xmldeclaration_concept.html#about-the-layout-configuration-file-and-ui-component-declaration
+[uiElement]: concepts/element.md
+[uiCollection]: concepts/collection.md
+[use the "arbitrary" structure]: ../concepts/semantic-configuration.md
+[basic UI component]: ../index.md#general-structure
+[About XML configuration of UI components]: concepts/xml-declaration.md#about-the-layout-configuration-file-and-ui-component-declaration

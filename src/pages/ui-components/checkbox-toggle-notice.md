@@ -5,7 +5,7 @@ contributor_name: Atwix
 contributor_link: https://www.atwix.com/
 ---
 
-The CheckboxToggleNotice component implements the [`Checkbox`]({{ page.baseurl }}/ui_comp_guide/components/ui-checkbox.html) component with the ability to switch notice according to the selected option.
+The CheckboxToggleNotice component implements the [`Checkbox`](checkbox.md) component with the ability to switch notice according to the selected option.
 
 ## Configuration options
 
@@ -17,15 +17,15 @@ The CheckboxToggleNotice component implements the [`Checkbox`]({{ page.baseurl }
 
 ## Source files
 
-Extends the [`Checkbox`]({{ page.baseurl }}/ui_comp_guide/components/ui-checkbox.html) component:
+Extends the [`Checkbox`](checkbox.md) component:
 
--  [app/code/Magento/Ui/view/base/web/js/form/element/single-checkbox-toggle-notice.js]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/form/element/single-checkbox-toggle-notice.js)
+-  [app/code/Magento/Ui/view/base/web/js/form/element/single-checkbox-toggle-notice.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/element/single-checkbox-toggle-notice.js)
 
 ## Example
 
 ### Integrate the CheckboxToggleNotice component with the Form component
 
-This example integrates the CheckboxToggleNotice component with the [Form]({{ page.baseurl }}/ui_comp_guide/components/ui-form.html) component:
+This example integrates the CheckboxToggleNotice component with the [Form](form.md) component:
 
 ```xml
 <form>

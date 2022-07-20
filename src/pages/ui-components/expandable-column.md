@@ -3,7 +3,7 @@ group: ui-components-guide
 title: Expandable Column component
 ---
 
-The Expandable Column [UI component](https://glossary.magento.com/ui-component) is an [extension](https://glossary.magento.com/extension) for [Column]({{ page.baseurl }}/ui_comp_guide/components/ui-column.html). It alphabetically sorts the options associated with a record/row and renders several options (the number is defined in configuration) into a cell. The full list of options is displayed in a tooltip implemented by the Tooltip UI component `<Magento_Ui_module_dir>/view/base/web/js/lib/knockout/bindings/tooltip.js`.
+The Expandable Column [UI component](https://glossary.magento.com/ui-component) is an [extension](https://glossary.magento.com/extension) for [Column](column.html). It alphabetically sorts the options associated with a record/row and renders several options (the number is defined in configuration) into a cell. The full list of options is displayed in a tooltip implemented by the Tooltip UI component `<Magento_Ui_module_dir>/view/base/web/js/lib/knockout/bindings/tooltip.js`.
 
 The Expandable Column component can be used in [Admin](https://glossary.magento.com/admin) and the [storefront](https://glossary.magento.com/storefront).
 
@@ -21,7 +21,7 @@ The Expandable Column component can be used in [Admin](https://glossary.magento.
 
 ### Integrate the Expandable component with the Listing component
 
-The following example shows how the Expandable component integrates with the [Listing]({{ page.baseurl }}/ui_comp_guide/components/ui-listing-grid.html) component:
+The following example shows how the Expandable component integrates with the [Listing](listing-grid.html) component:
 
 The component's options are set in the configuration `.xml` file as follows:
 
@@ -71,9 +71,9 @@ This component has a dependency on the Column component, `<Magento_Ui_module_dir
 
 ## Source files
 
--  [`<Magento_Ui_module_dir>/view/base/web/js/grid/columns/expandable.js`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/grid/columns/expandable.js)
--  [`<Magento_Ui_module_dir>/view/base/web/templates/grid/cells/expandable.html`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/grid/cells/expandable.html)
--  [`<Magento_Ui_module_dir>/view/base/web/templates/grid/cells/expandable/content.html`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/grid/cells/expandable/content.html)
+-  [`<Magento_Ui_module_dir>/view/base/web/js/grid/columns/expandable.js`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/columns/expandable.js)
+-  [`<Magento_Ui_module_dir>/view/base/web/templates/grid/cells/expandable.html`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/grid/cells/expandable.html)
+-  [`<Magento_Ui_module_dir>/view/base/web/templates/grid/cells/expandable/content.html`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/grid/cells/expandable/content.html)
 
 ### Methods and events
 

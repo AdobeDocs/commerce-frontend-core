@@ -3,7 +3,7 @@ group: ui-components-guide
 title: Bookmarks component
 ---
 
-The Bookmarks component stores active and changed state of a grid implemented using [Listing]({{ page.baseurl }}/ui_comp_guide/components/ui-listing-grid.html). It includes the state of filters, columns position, applied sorting, pagination, and so on.
+The Bookmarks component stores active and changed state of a grid implemented using [Listing](listing-grid.md). It includes the state of filters, columns position, applied sorting, pagination, and so on.
 
 ## Configuration options
 
@@ -18,16 +18,16 @@ Option | Description | Type | Default Value
 
 ## Source files
 
-Extends [`uiCollection`]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_uicollection_concept.html):
+Extends [`uiCollection`](concepts/collection.md):
 
--  [`app/code/Magento/Ui/view/base/web/js/grid/controls/bookmarks/bookmarks.js`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/js/grid/controls/bookmarks/bookmarks.js)
--  [`app/code/Magento/Ui/view/base/web/templates/grid/controls/bookmarks/view.html`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/view/base/web/templates/grid/controls/bookmarks/view.html)
+-  [`app/code/Magento/Ui/view/base/web/js/grid/controls/bookmarks/bookmarks.js`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/controls/bookmarks/bookmarks.js)
+-  [`app/code/Magento/Ui/view/base/web/templates/grid/controls/bookmarks/view.html`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/grid/controls/bookmarks/view.html)
 
 ## Examples
 
 ### Integrate Bookmarks component with Listing component
 
-This is an example of how the Bookmarks component integrates with the [Listing]({{ page.baseurl }}/ui_comp_guide/components/ui-listing-grid.html) component:
+This is an example of how the Bookmarks component integrates with the [Listing](listing-grid.md) component:
 
 ```xml
 <listing>

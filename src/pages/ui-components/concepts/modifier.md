@@ -5,7 +5,7 @@ title: About PHP modifiers in UI components
 
 ## What's in this topic
 
-This topic describes how to use [PHP](https://glossary.magento.com/php) modifiers that are the server-side part of [UI components configuration]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_config_flow_concept.html). Using modifiers is optional and might be necessary when [static declaration in XML configuration files]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_xmldeclaration_concept.html) is not suitable for the tasks. For example, in cases when additional data should be loaded from database. Or the other specific example is the [default product creation form]({{ page.baseurl }}/howdoi/customize_product.html), for which the modifier is a place where validations are added to display only certain fields for certain [product types](https://glossary.magento.com/product-types).
+This topic describes how to use [PHP](https://glossary.magento.com/php) modifiers that are the server-side part of [UI components configuration](configuration-flow.md). Using modifiers is optional and might be necessary when [static declaration in XML configuration files](concepts/xml-declaration.md) is not suitable for the tasks. For example, in cases when additional data should be loaded from database. Or the other specific example is the [default product creation form](https://developer.adobe.com/commerce/php/tutorials/admin/custom-product-creation-form/), for which the modifier is a place where validations are added to display only certain fields for certain [product types](https://glossary.magento.com/product-types).
 
 ## General implementation overview
 
@@ -19,7 +19,7 @@ To add a PHP modifier for a UI component, take the following steps:
 
 **Step 1:**
 
-In your custom module, add a class that implements [`\Magento\Ui\DataProvider\Modifier\ModifierInterface`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/DataProvider/Modifier/ModifierInterface.php) with the following methods:
+In your custom module, add a class that implements [`\Magento\Ui\DataProvider\Modifier\ModifierInterface`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/DataProvider/Modifier/ModifierInterface.php) with the following methods:
 
 -  `modifyData()`: for modifying UI component's data (for example, the list of options for a select element)
 -  `modifyMeta()`: for modifying UI component's [metadata](https://glossary.magento.com/metadata) (for example, name, label, description, type)
@@ -97,13 +97,13 @@ Declare your modifier in your module Di configuration `<Your_Module_dir>/etc/adm
 </virtualType>
 ```
 
-where `YourNamespace\YourModule\DataProvider\Modifier\Pool` is a [virtual class]({{ page.baseurl }}/extension-dev-guide/depend-inj.html#dependency-types).
+where `YourNamespace\YourModule\DataProvider\Modifier\Pool` is a [virtual class](https://developer.adobe.com/commerce/php/development/components/dependency-injection/#dependency-types).
 
 (If you want to use this sample in your `di.xml`, replace the sample values with the real names of your entities.)
 
 **Step 3:**
 
-To use your modifier, add a dependency on [`\Magento\Ui\DataProvider\Modifier\PoolInterface`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Ui/DataProvider/Modifier/PoolInterface.php) to your UI component data provider.
+To use your modifier, add a dependency on [`\Magento\Ui\DataProvider\Modifier\PoolInterface`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/DataProvider/Modifier/PoolInterface.php) to your UI component data provider.
 
 Sample dependency injection:
 
@@ -115,9 +115,4 @@ Sample dependency injection:
 </type>
 ```
 
-For illustration see [`\Magento\Catalog\Ui\DataProvider\Product\Form\Modifier\LayoutUpdate`]({{ site.mage2bloburl }}/{{ page.guide_version }}/app/code/Magento/Catalog/Ui/DataProvider/Product/Form/Modifier/LayoutUpdate.php).
-
-## Related reading
-
--  [Dependency injection]( {{ page.baseurl }}/extension-dev-guide/depend-inj.html)
--  [How Do I: Customize product creation form]({{ page.baseurl }}/howdoi/customize_product.html)
+For illustration see [`\Magento\Catalog\Ui\DataProvider\Product\Form\Modifier\LayoutUpdate`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Catalog/Ui/DataProvider/Product/Form/Modifier/LayoutUpdate.php).

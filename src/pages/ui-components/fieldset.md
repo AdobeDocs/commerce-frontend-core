@@ -27,7 +27,7 @@ The Fieldset component implements a container for visually-grouped form elements
 
 ### Integrate the Fieldset component with the Form component
 
-The following example adds a new main fieldset that contains a collapsible fieldset into the [Form]({{ page.baseurl }}/ui_comp_guide/components/ui-form.html) component:
+The following example adds a new main fieldset that contains a collapsible fieldset into the [Form](form.html) component:
 
 ```xml
 <form>
@@ -64,9 +64,9 @@ The following example adds a new main fieldset that contains a collapsible field
 
 ## Source files
 
-Extends [`uiCollection`]({{ page.baseurl }}/ui_comp_guide/concepts/ui_comp_uicollection_concept.html) and `collapsible`:
+Extends [`uiCollection`](concepts/collection.md) and `collapsible`:
 
--  [`Magento/Ui/Component/Form/Fieldset.php`]({{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/Ui/Component/Form/Fieldset.php)
--  [`Magento/Ui/view/base/web/js/form/components/fieldset.js`]({{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/Ui/view/base/web/js/form/components/fieldset.js)
--  [`Magento/Ui/view/base/web/templates/form/fieldset.html`]({{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/Ui/view/base/web/templates/form/fieldset.html)
--  [`Magento/Ui/view/base/ui_component/etc/definition/fieldset.xsd`]({{ site.mage2bloburl }}/{{page.guide_version}}/app/code/Magento/Ui/view/base/ui_component/etc/definition/fieldset.xsd)
+-  [`Magento/Ui/Component/Form/Fieldset.php`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/Component/Form/Fieldset.php)
+-  [`Magento/Ui/view/base/web/js/form/components/fieldset.js`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/components/fieldset.js)
+-  [`Magento/Ui/view/base/web/templates/form/fieldset.html`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/form/fieldset.html)
+-  [`Magento/Ui/view/base/ui_component/etc/definition/fieldset.xsd`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/ui_component/etc/definition/fieldset.xsd)
