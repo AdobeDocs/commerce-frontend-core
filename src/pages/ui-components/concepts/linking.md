@@ -175,7 +175,7 @@ Example of using `listens` in a component's configuration `.xml` file:
 
 For an example of `listens` usage, see [`new_category_form.xml`, line 84](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Catalog/view/adminhtml/ui_component/new_category_form.xml#L84)
 
-## Template strings usage {#string_templ}
+## Template strings usage
 
 The options of linking properties can contain template strings in the `'${...}'` format. During the component’s initialization, values in this format are processed as template strings using [ES6 templates](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Template_literals). In browsers that do not support ES6 templates, these values are processed as underscore templates.
 

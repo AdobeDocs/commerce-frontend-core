@@ -20,7 +20,7 @@ The Columns component is a collection of columns. It renders the `<table>` eleme
 | `componentType` | The type of component. | String | `columns` |
 | `resizeConfig` | Configurations of [`Resize`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/resize.js) component. | Object | `{name: '${ $.name }_resize',columnsProvider: '${ $.name }',component: 'Magento_Ui/js/grid/resize',enabled: false}` |
 
-### DisplayMode interface {#displaymode}
+### DisplayMode interface
 
 | Option | Description | Type | Required |
 | --- | --- | --- | --- |

@@ -18,7 +18,7 @@ The File Uploader component is an [adapter](https://glossary.magento.com/adapter
 | `previewTmpl` | Path to the file's preview `.html` template | String | `ui/form/element/uploader/preview` |
 | `uploaderConfig` | Configuration passed to jquery-file-upload plugin. | Object | `{dataType: 'json', sequentialUploads: true, formData: {'form_key': window.FORM_KEY}}` |
 
-## Examples {#example}
+## Examples
 
 ### Integrate FileUploader component with Form component
 

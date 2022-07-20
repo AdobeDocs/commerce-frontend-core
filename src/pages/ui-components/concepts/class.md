@@ -60,7 +60,7 @@ initialize: function () {
 }
 ```
 
-### Commonly used uiClass properties {#uiclass_properties}
+### Commonly used uiClass properties
 
 The `defaults` property declares the list of properties of a UI component's instance. Also it declares communications between components if needed.
 

@@ -80,7 +80,7 @@ The `uiCollection` class implements the following methods:
    </listing>
    ```
 
-## uiCollection template {#uicollection_template}
+## uiCollection template
 
 The `uiCollection` template is `<Magento_Ui_module_dir>/view/base/web/templates/collection.html`, in the Magento Open Source GitHub repository: [`app/code/Magento/Ui/view/base/web/templates/collection.html`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/collection.html).
 

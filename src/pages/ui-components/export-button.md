@@ -14,7 +14,7 @@ The ExportButton component implements the ability to export grid data to the spe
 | `template` | Path to the component’s `.html` template. | String | `ui/grid/exportButton` |
 | `checked` | The checked data format to export. | String | `''` |
 
-### ExportOption interface {#exportoption}
+### ExportOption interface
 
 | Option | Description | Type | Required |
 | --- | --- | --- | --- |

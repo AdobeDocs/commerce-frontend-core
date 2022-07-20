@@ -17,7 +17,7 @@ To update a page URL type, you must:
 1. [Create a controller to search the page](#search-page).
 1. [Create a controller to return the page or array by `cmsPageId`](#return-page).
 
-## Create the link class {#link-class}
+## Create the link class
 
 Create a `.php` file implementing the new link class in the module directory containing the applicable UI component, such as `<your-module>/Ui/Component/UrlInput/`.
 
@@ -78,7 +78,7 @@ class Page implements \Magento\Ui\Model\UrlInput\ConfigInterface
 }
 ```
 
-## Add the link to the `di.xml` file {#di-xml}
+## Add the link to the `di.xml` file
 
 Add the link class you just created to the `di.xml` file.
 
@@ -92,7 +92,7 @@ Add the link class you just created to the `di.xml` file.
 </type>
 ```
 
-## Create the component's JavaScript implementation {#js-implementation}
+## Create the component's JavaScript implementation
 
 Create the JavaScript implementation for the applicable UI component in your module-specific directory, such as `<your-module>/view/<area>/web/js/form/element/page-ui-select.js`.
 
@@ -195,7 +195,7 @@ define([
 });
 ```
 
-## Create a controller to search the page {#search-page}
+## Create a controller to search the page
 
 Create a controller to search the page using a search key.
 
@@ -277,7 +277,7 @@ class Search extends \Magento\Backend\App\Action implements HttpGetActionInterfa
 }
 ```
 
-## Create a controller to return the page or array {#return-page}
+## Create a controller to return the page or array
 
 Create a controller to return the page, or empty array if the option doesn't exist, by the `cmsPageId`.
 
