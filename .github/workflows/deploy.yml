@@ -82,7 +82,8 @@ jobs:
 
           exit 1
         env:
-          AIO_AZURE_DEV_CONNECTION_STRING: ${{ secrets.AIO_AZURE_DEV_CONNECTION_STRING }}
+          AIO_AZURE_DEV_CONNECTION_STRING:
+            ${{ secrets.AIO_AZURE_DEV_CONNECTION_STRING }}
 
   build-dev:
     defaults:
@@ -118,7 +119,8 @@ jobs:
           PREFIX_PATHS: true # works like --prefix-paths flag for 'gatsby build'
           PATH_PREFIX: ${{ needs.set-state.outputs.path_prefix }}
           GATSBY_ADOBE_LAUNCH_SRC: ${{ secrets.AIO_ADOBE_LAUNCH_DEV_SRC }}
-          GATSBY_ADDITIONAL_ADOBE_ANALYTICS_ACCOUNTS: ${{ secrets.AIO_REPORT_SUITE_DEV}}
+          GATSBY_ADDITIONAL_ADOBE_ANALYTICS_ACCOUNTS:
+            ${{ secrets.AIO_REPORT_SUITE_DEV}}
           GATSBY_ADOBE_ANALYTICS_ENV: 'dev'
           REPO_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO_OWNER: ${{ github.event.repository.owner.login }}
@@ -168,7 +170,8 @@ jobs:
           as AIO_AZURE_PROD_CONNECTION_STRING in Github Secrets"
           exit 1
         env:
-          AIO_AZURE_PROD_CONNECTION_STRING: ${{ secrets.AIO_AZURE_PROD_CONNECTION_STRING }}
+          AIO_AZURE_PROD_CONNECTION_STRING:
+            ${{ secrets.AIO_AZURE_PROD_CONNECTION_STRING }}
 
   build-production:
     defaults:
@@ -202,7 +205,8 @@ jobs:
           PREFIX_PATHS: true # works like --prefix-paths flag for 'gatsby build'
           PATH_PREFIX: ${{ needs.set-state.outputs.path_prefix }}
           GATSBY_ADOBE_LAUNCH_SRC: ${{ secrets.AIO_ADOBE_LAUNCH_PROD_SRC }}
-          GATSBY_ADDITIONAL_ADOBE_ANALYTICS_ACCOUNTS: ${{ secrets.AIO_REPORT_SUITE_PROD }}
+          GATSBY_ADDITIONAL_ADOBE_ANALYTICS_ACCOUNTS:
+            ${{ secrets.AIO_REPORT_SUITE_PROD }}
           GATSBY_ADOBE_ANALYTICS_ENV: 'production'
           REPO_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO_OWNER: ${{ github.event.repository.owner.login }}

@@ -7,10 +7,9 @@
 name: Pull Request Test
 
 # Documentation:
-# - Workflow: https://help.github.com/en/articles/workflow-syntax-for-github-actions
+# - Workflow syntax: https://help.github.com/en/articles/workflow-syntax-for-github-actions
 # - SuperLinter: https://github.com/github/super-linter
 # - Markdown linter: https://github.com/DavidAnson/markdownlint
-# - Link validation: https://github.com/remarkjs/remark-validate-links
 
 ######################################################
 # Start the job on a pull request to the main branch #
@@ -54,6 +53,7 @@ jobs:
         env:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: main
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VALIDATE_GITHUB_ACTIONS: true
           VALIDATE_GITLEAKS: true
           #
@@ -96,4 +96,3 @@ jobs:
         uses: borales/actions-yarn@v3.0.0
         with:
           cmd: build
-
