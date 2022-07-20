@@ -370,24 +370,24 @@ module.exports = [
       path: "/ui-components/howto/add-category-attribute/",
       pages: [
         {
-          title: "Create and display a category attribute",
+          title: "Add a category attribute",
           path: "/ui-components/howto/add-category-attribute/",
         },
         {
-          title: "Update the page URL type",
-          path: "/ui-components/howto/update-url-type/",
-        },
-        {
-          title: "Render prices on the frontend",
-          path: "/ui-components/howto/price-rendering/",
+          title: "Add a show/hide password checkbox",
+          path: "/ui-components/howto/show-hide-password-checkbox/",
         },
         {
           title: "Declare a custom component",
           path: "/ui-components/howto/new-component-declaration/",
         },
         {
-          title: "Add a show/hide password checkbox",
-          path: "/ui-components/howto/show-hide-password-checkbox/",
+          title: "Render prices on the frontend",
+          path: "/ui-components/howto/price-rendering/",
+        },
+        {
+          title: "Update the page URL type",
+          path: "/ui-components/howto/update-url-type/",
         },
       ],
     },
