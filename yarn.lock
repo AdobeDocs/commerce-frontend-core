@@ -7495,6 +7495,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"commerce-frontend-core@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "commerce-frontend-core@workspace:."
+  dependencies:
+    "@adobe/gatsby-theme-aio": 4.3.0
+    gatsby: 4.19.0
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    remark-cli: ^10.0.1
+    remark-validate-links: ^11.0.2
+  languageName: unknown
+  linkType: soft
+
 "common-tags@npm:1.8.2, common-tags@npm:^1.8.0, common-tags@npm:^1.8.2":
   version: 1.8.2
   resolution: "common-tags@npm:1.8.2"
@@ -8545,19 +8558,6 @@ __metadata:
   checksum: 93c40febe714f56711d1fedc2b7a9cc4cbaa0fcddec0509876c46b9dd6099ed6bfd6662a4f35e5fa0301660f48ed516829253ab0fc90b9e79b823dd77786b379
   languageName: node
   linkType: hard
-
-"dev-site-documentation-template@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "dev-site-documentation-template@workspace:."
-  dependencies:
-    "@adobe/gatsby-theme-aio": 4.3.0
-    gatsby: 4.19.0
-    react: ^17.0.2
-    react-dom: ^17.0.2
-    remark-cli: ^10.0.1
-    remark-validate-links: ^11.0.2
-  languageName: unknown
-  linkType: soft
 
 "devcert@npm:^1.2.0":
   version: 1.2.2

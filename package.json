@@ -1,15 +1,10 @@
 {
-  "private": true,
-  "name": "dev-site-documentation-template",
+  "name": "commerce-frontend-core",
   "version": "1.0.0",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AdobeDocs/dev-site-documentation-template"
-  },
-  "author": {
-    "name": "Stephan Ringel",
-    "url": "https://github.com/icaraps"
+    "url": "https://github.com/AdobeDocs/commerce-frontend-core"
   },
   "dependencies": {
     "@adobe/gatsby-theme-aio": "4.3.0",
