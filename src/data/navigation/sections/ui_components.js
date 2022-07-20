@@ -343,7 +343,7 @@ module.exports = [
         },
         {
           title: "UI-select",
-          path: "/ui-components/select/",
+          path: "/ui-components/secondary-ui-select/",
         },
         {
           title: "WYSIWYG",

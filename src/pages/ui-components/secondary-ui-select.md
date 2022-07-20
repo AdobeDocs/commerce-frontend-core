@@ -17,51 +17,10 @@ The UI-select component is a single select/multiple select component that enable
 
 You must create a controller for `searchUrl`. If you'd like to use other data for the request, you can override the `processRequest` method in your component.
 
-<table>
-  <tr>
-    <th>Option</th>
-    <th>Description</th>
-    <th>Default</th>
-    <th>Required</th>
-  </tr>
-  <tr>
-    <td><code>imports</code></td>
-    <td>Defines from where the component receives its data</td>
-<td><pre><code>
-imports: {
-    options: '${ $.optionsConfig.name }:options'
-}
-</code></pre>
-</td>
-    <td>Yes</td>
-  </tr>
-  <tr>
-    <td><code>actions</code></td>
-    <td>Modifies the default actions by renaming their storefront labels</td>
-<td><pre><code>
-actions: [
-    {
-        value: 'selectAll',
-        label: $t('Select all')
-    },
-    {
-        value: 'deselectAll',
-        label: $t('Deselect all')
-    },
-    {
-        value: 'selectPage',
-        label: $t('Select all on this page')
-    },
-    {
-        value: 'deselectPage',
-        label: $t('Deselect all on this page')
-    }
-]
-</code></pre>
-</td>
-    <td>Yes</td>
-  </tr>
-</table>
+| Option    | Description                                                      | Default                                                                                                                                                                                                                                                                                                                                                                                                                                    | Required |
+|-----------|------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+| `imports` | Defines from where the component receives its data.              | `imports: {`<br />   `options: '${ $.optionsConfig.anme }:options'`<br />`}`                                                                                                                                                                                                                                                                                                                                                               | Yes      |
+| `actions` | Modifies the default actions by renaming their storefront labels | `actions: [`<br />    `{`<br />        `value: 'selectAll',`<br />       `label: $t('Select all')`<br />`},`<br />`{`<br />        `value: 'deselectAll',`<br />       `label: $t('Deselect all')`<br />`},`<br />`{`<br />        `value: 'selectPage',`<br />       `label: $t('Select all on this page')`<br />`},`<br />`{`<br />        `value: 'deselectPage',`<br />       `label: $t('Deselect all on this page')`<br />`},`<br /> | Yes      |
 
 ### Optional configuration
 
