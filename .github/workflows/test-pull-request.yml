@@ -76,7 +76,7 @@ jobs:
       - name: Enable Corepack for Yarn v3
         run: corepack enable
 
-      - name: Install Yarn v3
+      - name: Update to Yarn v3
         uses: borales/actions-yarn@v3.0.0
         with:
           cmd: set version stable
