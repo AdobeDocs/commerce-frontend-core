@@ -5,7 +5,7 @@ description: Configure Adobe Commerce and Magento Open Source UI components and 
 
 # MassActions component
 
-The MassActions component allows performing actions with multiple selected items. Must be a child of the [Listing component](listing-grid.html).
+The MassActions component allows performing actions with multiple selected items. Must be a child of the [Listing component](listing-grid.md).
 
 See the [Admin Design Pattern Library (MassActions)](https://devdocs.magento.com/guides/v2.4/pattern-library/displaying-data/datatable/datatable.html#mass-actions) topic for information about the UI design patterns that can be implemented using the MassActions component.
 

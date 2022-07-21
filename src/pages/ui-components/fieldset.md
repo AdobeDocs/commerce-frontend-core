@@ -29,7 +29,7 @@ The Fieldset component implements a container for visually-grouped form elements
 
 ### Integration
 
-The following example adds a new main fieldset that contains a collapsible fieldset into the [Form](form.html) component:
+The following example adds a new main fieldset that contains a collapsible fieldset into the [Form](form.md) component:
 
 ```xml
 <form>

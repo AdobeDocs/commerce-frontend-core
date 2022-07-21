@@ -25,7 +25,7 @@ The Column component implements a basic column in [Listing](listing-grid.md).
 | `sortable` | Whether column's fields can be used to sort records in a table. | Boolean | `true` |
 | `sorting` | Column's sorting order. Can be ascending (`asc`), descending (`desc`) or none (`false`). Setting `sorting` to `false` does not disable sorting, which is defined by the `sortable` option. | String \| Boolean | `false` |
 | `statefull` | Defined in the parent [uiElement class](concepts/element.md). | Object | `{visible: true, sorting: true}` |
-| `templates.fieldAction` | The action performed on the column's field click. | [ColumnAction](#column_action) | `-` |
+| `templates.fieldAction` | The action performed on the column's field click. | [ColumnAction](#columnaction-interface) | `-` |
 | `visible` | Initial component's visibility. When set to `false`, the `display: none` CSS style is added to the component's DOM block. | Boolean | `true` |
 
 ### ColumnAction interface

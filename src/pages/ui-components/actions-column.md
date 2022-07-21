@@ -39,7 +39,7 @@ Extends [`Column`](column.md):
 
 ### Integration
 
-This is an example of how to integrate the ActionsColumns component with the [Listing](listing.md) component:
+This is an example of how to integrate the ActionsColumns component with the [Listing](listing-grid.md) component:
 
 ```xml
 <listing>

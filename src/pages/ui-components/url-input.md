@@ -97,7 +97,7 @@ The application provides the ability to use two link types by default:
 
 ### Integration
 
-This example integrates the urlInput component with the [Form](form.html) component.
+This example integrates the urlInput component with the [Form](form.md) component.
 
 ```xml
 <form>

@@ -5,7 +5,7 @@ description: Configure Adobe Commerce and Magento Open Source UI components and 
 
 # Paging component
 
-The Paging component implements pagination in grids implemented using [Listing](listing-grid.html). It also creates an instance of the child Sizes component which allows to define the number of records displayed in the associated table.
+The Paging component implements pagination in grids implemented using [Listing](listing-grid.md). It also creates an instance of the child Sizes component which allows to define the number of records displayed in the associated table.
 
 ## Options
 
@@ -29,7 +29,7 @@ Extends [`UiElement`](concepts/element.md):
 
 ### Integration
 
-This example integrates the Paging component with the [Listing](listing-grid.html) component:
+This example integrates the Paging component with the [Listing](listing-grid.md) component:
 
 ```xml
 <listing>

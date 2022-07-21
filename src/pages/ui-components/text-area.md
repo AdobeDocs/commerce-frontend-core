@@ -30,7 +30,7 @@ Extends [`Abstract`](https://github.com/magento/magento2/blob/2.4/app/code/Magen
 
 ### Integration
 
-This example integrates the Textarea component with the [Form](form.html) component.
+This example integrates the Textarea component with the [Form](form.md) component.
 
 ```xml
 <form>

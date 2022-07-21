@@ -5,7 +5,7 @@ description: Configure Adobe Commerce and Magento Open Source UI components and 
 
 # InsertForm component
 
-The InsertForm component inserts the [Form component](form.html) into other components.
+The InsertForm component inserts the [Form component](form.md) into other components.
 
 ## Options
 
@@ -35,7 +35,7 @@ Extends [`Insert`](https://github.com/magento/magento2/blob/2.4/app/code/Magento
 
 ### Integration (form)
 
-Here is an example of how the InsertForm component integrates with the [Form](form.html) component:
+Here is an example of how the InsertForm component integrates with the [Form](form.md) component:
 
 ```xml
 <form>
@@ -177,7 +177,7 @@ class CustomDataProvider extends AbstractDataProvider
 
 ### Integration (modal)
 
-Here is an example of how the InsertForm component integrates with the [Modal](modal.html) component:
+Here is an example of how the InsertForm component integrates with the [Modal](modal.md) component:
 
 ```xml
 <form>

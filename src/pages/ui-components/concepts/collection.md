@@ -5,7 +5,7 @@ description: Learn about the methods and properties available for creating a col
 
 # `uiCollection` class
 
-The `uiCollection` library class should be used as a base class by any components that contain a collection of child UI components.  `uiCollection` inherits from the [uiElement class](concepts/element.md).
+The `uiCollection` library class should be used as a base class by any components that contain a collection of child UI components.  `uiCollection` inherits from the [uiElement class](element.md).
 
 `uiCollection` source code is `<Magento_Ui_module_dir>/view/base/web/js/lib/core/collection.js`, in the Magento Open Source GitHub repository: [app/code/Magento/Ui/view/base/web/js/lib/core/collection.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/core/collection.js).
 
@@ -62,9 +62,9 @@ The `uiCollection` class implements the following methods:
    // ]
    ```
 
-*  `childDefaults` can be used to set the children defaults: properties from `childDefaults` are set into child elements' [`defaults` property](concepts/class.md#uiclass_properties).
+*  `childDefaults` can be used to set the children defaults: properties from `childDefaults` are set into child elements' [`defaults` property](class.md#commonly-used-properties).
 
-   This is an example of configuring the provider property by default for all child elements of the [Columns](columns.md) component.
+   This is an example of configuring the provider property by default for all child elements of the [Columns](../columns.md) component.
 
    ```xml
    <listing>

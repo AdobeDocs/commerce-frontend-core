@@ -5,7 +5,7 @@ description: Configure Adobe Commerce and Magento Open Source UI components and 
 
 # FiltersChips component
 
-The FiltersChips component provides UI controls that allows users to remove the previously-applied values of the [Filters](filters.html) and [Search](search.html) components.
+The FiltersChips component provides UI controls that allows users to remove the previously-applied values of the [Filters](filters.md) and [Search](search.md) components.
 
 ## Options
 
@@ -26,7 +26,7 @@ Extends [`uiCollection`](concepts/collection.md):
 
 ### Integration
 
-This is an example of how the FiltersChips component integrates with the [Filters](filters.html) component:
+This is an example of how the FiltersChips component integrates with the [Filters](filters.md) component:
 
 ```xml
 <listing>

@@ -5,7 +5,7 @@ description: Configure Adobe Commerce and Magento Open Source UI components and 
 
 # Radioset component
 
-The Radioset component is a shortcut for [Checkboxset](checkboxset.html), with the input type set to the radio button.
+The Radioset component is a shortcut for [Checkboxset](checkbox-set.md), with the input type set to the radio button.
 
 ## Options
 
@@ -27,7 +27,7 @@ Extends [`Abstract`](https://github.com/magento/magento2/blob/2.4/app/code/Magen
 
 ### Integration
 
-This is an example of how the Radioset component integrates with the [Form](form.html) component:
+This is an example of how the Radioset component integrates with the [Form](form.md) component:
 
 ```xml
 <form>

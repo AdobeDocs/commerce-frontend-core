@@ -7,7 +7,7 @@ contributor_link: https://www.atwix.com/
 
 # GridDataProvider component
 
-The GridDataProvider [UI component](https://glossary.magento.com/ui-component) is a data provider for the [Listing](listing-grid.html) component. It provides data in specific format which is shared among all UI components in the scope of the [Listing](listing-grid.html) component.
+The GridDataProvider [UI component](https://glossary.magento.com/ui-component) is a data provider for the [Listing](listing-grid.md) component. It provides data in specific format which is shared among all UI components in the scope of the [Listing](listing-grid.md) component.
 
 ## Options
 
@@ -29,7 +29,7 @@ Extends [`UiElement`](concepts/element.md):
 
 ### Integration
 
-This is an example of how the GridDataProvider component integrates with the [Listing](listing-grid.html) component:
+This is an example of how the GridDataProvider component integrates with the [Listing](listing-grid.md) component:
 
 ```xml
 <listing>

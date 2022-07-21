@@ -36,7 +36,7 @@ Extends [`UiElement`](concepts/element.md):
 
 ### Integration
 
-This example integrates the Sizes component with the [Paging](paging.html) component:
+This example integrates the Sizes component with the [Paging](paging.md) component:
 
 ```xml
 <listing>

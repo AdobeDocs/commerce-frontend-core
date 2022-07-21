@@ -12,7 +12,7 @@ The ExportButton component implements the ability to export grid data to the spe
 | Option | Description | Type | Default Value |
 | --- | --- | --- | --- |
 | `additionalParams` | List of additional parameters added to each performed request. | {<br />`[name: string]: string`<br />} | `[]` |
-| `options` | List of available formats in which the table's data can be exported. | Array[&lt;`ExportOption`&gt;](#exportoption) | [{<br />`value: "csv",`<br />`label: "CSV"`,<br />`url: "mui/export/gridToCsv"`<br />}, {<br />`value: "xml"`,<br />`label: "Excel XML",`<br />`url: "mui/export/gridToXml"`<br />}] |
+| `options` | List of available formats in which the table's data can be exported. | Array[&lt;`ExportOption`&gt;](#exportoption-interface) | [{<br />`value: "csv",`<br />`label: "CSV"`,<br />`url: "mui/export/gridToCsv"`<br />}, {<br />`value: "xml"`,<br />`label: "Excel XML",`<br />`url: "mui/export/gridToXml"`<br />}] |
 | `template` | Path to the component’s `.html` template. | String | `ui/grid/exportButton` |
 | `checked` | The checked data format to export. | String | `''` |
 

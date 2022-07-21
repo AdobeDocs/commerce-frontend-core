@@ -5,7 +5,7 @@ description: Review best practices for configuring Adobe Commerce and Magento Op
 
 # Semantic configuration
 
-Adobe Commerce and Magento Open Source 2.2.0 introduced a new structure for [UI components XML configuration](concepts/xml-declaration.md), aimed at improving configuration semantics.
+Adobe Commerce and Magento Open Source 2.2.0 introduced a new structure for [UI components XML configuration](xml-declaration.md), aimed at improving configuration semantics.
 
 The arbitrary structure, used in UI components XML configuration in previous versions, is also supported, and during XML files merging, the configuration files that use the arbitrary structure have higher priority.
 

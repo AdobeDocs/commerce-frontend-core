@@ -24,7 +24,7 @@ The File Uploader component is an [adapter](https://glossary.magento.com/adapter
 
 ### Integration
 
-Here is an example of how File Uploader component integrates with [Form](form.html) component:
+Here is an example of how File Uploader component integrates with [Form](form.md) component:
 
 ```xml
 <form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">

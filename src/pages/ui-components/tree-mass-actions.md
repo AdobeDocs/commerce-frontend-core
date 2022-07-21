@@ -5,7 +5,7 @@ description: Configure Adobe Commerce and Magento Open Source UI components and 
 
 # TreeMassActions component
 
-The TreeMassActions component is a decorator for [MassActions](massactions.html) that adds the support of nested actions.
+The TreeMassActions component is a decorator for [MassActions](mass-actions.md) that adds the support of nested actions.
 
 ## Options
 
@@ -25,7 +25,7 @@ The TreeMassActions component is a decorator for [MassActions](massactions.html)
 
 ## Source files
 
-Extends [`MassActions`](massactions.html):
+Extends [`MassActions`](mass-actions.md):
 
 -  [app/code/Magento/Ui/view/base/web/js/grid/tree-massactions.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/tree-massactions.js)
 -  [app/code/Magento/Ui/view/base/web/templates/grid/tree-massactions.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/grid/tree-massactions.html)

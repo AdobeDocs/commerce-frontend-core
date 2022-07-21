@@ -5,7 +5,7 @@ description: Learn about optional server-side configuration for Adobe Commerce a
 
 # PHP modifiers
 
-This topic describes how to use [PHP](https://glossary.magento.com/php) modifiers that are the server-side part of [UI components configuration](configuration-flow.md). Using modifiers is optional and might be necessary when [static declaration in XML configuration files](concepts/xml-declaration.md) is not suitable for the tasks. For example, in cases when additional data should be loaded from database. Or the other specific example is the [default product creation form](https://developer.adobe.com/commerce/php/tutorials/admin/custom-product-creation-form/), for which the modifier is a place where validations are added to display only certain fields for certain [product types](https://glossary.magento.com/product-types).
+This topic describes how to use [PHP](https://glossary.magento.com/php) modifiers that are the server-side part of [UI components configuration](configuration-flow.md). Using modifiers is optional and might be necessary when [static declaration in XML configuration files](xml-declaration.md) is not suitable for the tasks. For example, in cases when additional data should be loaded from database. Or the other specific example is the [default product creation form](https://developer.adobe.com/commerce/php/tutorials/admin/custom-product-creation-form/), for which the modifier is a place where validations are added to display only certain fields for certain [product types](https://glossary.magento.com/product-types).
 
 ## General implementation
 

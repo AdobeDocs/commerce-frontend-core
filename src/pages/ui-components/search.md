@@ -27,7 +27,7 @@ Extends [`UiElement`](concepts/element.md):
 
 ### Integration
 
-This is an example of how the Search component integrates with the [Listing](listing-grid.html) component:
+This is an example of how the Search component integrates with the [Listing](listing-grid.md) component:
 
 ```xml
 <listing>

@@ -5,7 +5,7 @@ description: Configure Adobe Commerce and Magento Open Source UI components and 
 
 # InsertListing component
 
-The InsertListing component inserts [Listing](listing-grid.html) into other components.
+The InsertListing component inserts [Listing](listing-grid.md) into other components.
 
 ## Options
 
@@ -33,7 +33,7 @@ Extends [`Insert`](https://github.com/magento/magento2/blob/2.4/app/code/Magento
 
 ### Integration (form)
 
-The following example shows how the InsertListing component integrates with the [Form](form.html) component:
+The following example shows how the InsertListing component integrates with the [Form](form.md) component:
 
 ```xml
 <form>
@@ -167,7 +167,7 @@ class CustomDataProvider extends DataProvider
 
 ### Integration (modal)
 
-Here is an example of how the InsertListing component integrates with the [Modal](modal.html) component:
+Here is an example of how the InsertListing component integrates with the [Modal](modal.md) component:
 
 ```xml
 <form>

@@ -315,8 +315,8 @@ The following is sample template code that is rendered for the tax adjustment co
 </if>
 ```
 
-[form-component]: form.html
-[listing-component]: listing-grid.html
+[form-component]: ../form.md
+[listing-component]: ../listing-grid.md
 [special-price-html]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Catalog/view/base/web/template/product/price/special_price.html
 [widget-recently-viewed-xml]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Catalog/view/frontend/ui_component/widget_recently_viewed.xml
 [ui-component-declaration]: new-component-declaration.md

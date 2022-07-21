@@ -7,7 +7,7 @@ description: Learn about the configuration lifecycle of Adobe Commerce and Magen
 
 The following section covers the configuration flow of UI components. Before a [UI component](https://glossary.magento.com/ui-component) is finally displayed on a web page, its configuration undergoes a series of modifications. Starting from the initial reading of the top-level component instance’s [XML](https://glossary.magento.com/xml) declaration, all the way to the merging of module-specific options.
 
-When the server generates a page response, the configuration of these components in the [`.xml` declaration files](concepts/xml-declaration.md) is then modified by the [`.php` modifiers](concepts/modifier.md), and then finally this combined configuration is packed into JSON format and added into the HTTP response body.
+When the server generates a page response, the configuration of these components in the [`.xml` declaration files](xml-declaration.md) is then modified by the [`.php` modifiers](modifier.md), and then finally this combined configuration is packed into JSON format and added into the HTTP response body.
 
 On the client-side, this JSON is processed by `Magento_Ui/js/core/app` where `Magento_Ui/js/core/app` is an alias for the [`app.js`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/core/app.js) file. The JSON could be seen in the page source. The `Magento_Ui/js/core/app` creates the UI components instances according to the configuration of the JSON using `uiLayout`.
 

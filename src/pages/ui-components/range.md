@@ -19,7 +19,7 @@ The Range component implements the range for filtering rows in a grid. Visually,
 
 ## Source files
 
-Extends [`Multiline`](multiline.html):
+Extends [`Multiline`](multiline.md):
 
 -  [app/code/Magento/Ui/view/base/web/js/grid/filters/range.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/filters/range.js)
 -  [app/code/Magento/Ui/view/base/web/templates/grid/filters/elements/group.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/grid/filters/elements/group.html)

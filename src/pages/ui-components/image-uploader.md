@@ -7,7 +7,7 @@ description: Configure Adobe Commerce and Magento Open Source UI components and 
 
 The ImageUploader UI component gives users the ability to upload images to the Media Gallery.
 
-This component is a variation of the [FileUploader component](fileuploader.html) and uses the same configuration settings.
+This component is a variation of the [FileUploader component](file-uploader.md) and uses the same configuration settings.
 
 ## Options
 
@@ -17,7 +17,7 @@ This component is a variation of the [FileUploader component](fileuploader.html)
 
 ## Source files
 
-Extends [`FileUploader`](fileuploader.html):
+Extends [`FileUploader`](file-uploader.md):
 
 -  [`app/code/Magento/Ui/view/base/web/js/form/element/image-uploader.js`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/element/image-uploader.js)
 -  [`app/code/Magento/Ui/view/base/web/templates/form/element/uploader/image.html`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/form/element/uploader/image.html)

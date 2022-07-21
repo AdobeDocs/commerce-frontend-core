@@ -5,7 +5,7 @@ description: Configure Adobe Commerce and Magento Open Source UI components and 
 
 # Text component
 
-The Text component displays text data in the components like [Form](form.html) and [DynamicRows](dynamicrows.html).
+The Text component displays text data in the components like [Form](form.md) and [DynamicRows](dynamic-rows.md).
 
 ## Options
 
@@ -29,7 +29,7 @@ Extends [`UiElement`](concepts/element.md):
 
 ### Integration
 
-The following example integrates the Text component with the [Form](form.html) component and displays the customer's first name in the admin, on the Customer Edit page:
+The following example integrates the Text component with the [Form](form.md) component and displays the customer's first name in the admin, on the Customer Edit page:
 
 ```xml
 <form>

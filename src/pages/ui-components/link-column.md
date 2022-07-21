@@ -18,7 +18,7 @@ Constructor: [app/code/Magento/Ui/view/base/web/js/grid/columns/link.js](https:/
 
 ## Source files
 
-Extends [Column component](column.html)
+Extends [Column component](column.md)
 
 -  [`app/code/Magento/Ui/view/base/web/js/grid/columns/link.js`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/columns/link.js)
 -  [`app/code/Magento/Ui/view/base/web/templates/grid/cells/link.html`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/grid/cells/link.html)
@@ -27,7 +27,7 @@ Extends [Column component](column.html)
 
 ### Integration
 
-This example integrates the LinkColumn component with the [Listing](listing-grid.html) component:
+This example integrates the LinkColumn component with the [Listing](listing-grid.md) component:
 
 ```xml
 <listing>

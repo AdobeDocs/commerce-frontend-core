@@ -42,7 +42,7 @@ See the [Admin Design Pattern Library (Tabs)](https://devdocs.magento.com/guides
 
 ### Integration
 
-This example integrates the Tab component with the [Form](form.html) component.
+This example integrates the Tab component with the [Form](form.md) component.
 
 ```xml
 <form>

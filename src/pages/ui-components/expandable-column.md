@@ -5,7 +5,7 @@ description: Configure Adobe Commerce and Magento Open Source UI components and 
 
 # ExpandableColumn component
 
-The ExpandableColumn [UI component](https://glossary.magento.com/ui-component) is an [extension](https://glossary.magento.com/extension) for [Column](column.html). It alphabetically sorts the options associated with a record/row and renders several options (the number is defined in configuration) into a cell. The full list of options is displayed in a tooltip implemented by the Tooltip UI component `<Magento_Ui_module_dir>/view/base/web/js/lib/knockout/bindings/tooltip.js`.
+The ExpandableColumn [UI component](https://glossary.magento.com/ui-component) is an [extension](https://glossary.magento.com/extension) for [Column](column.md). It alphabetically sorts the options associated with a record/row and renders several options (the number is defined in configuration) into a cell. The full list of options is displayed in a tooltip implemented by the Tooltip UI component `<Magento_Ui_module_dir>/view/base/web/js/lib/knockout/bindings/tooltip.js`.
 
 The Expandable Column component can be used in [Admin](https://glossary.magento.com/admin) and the [storefront](https://glossary.magento.com/storefront).
 
@@ -23,7 +23,7 @@ The Expandable Column component can be used in [Admin](https://glossary.magento.
 
 ### Integration
 
-The following example shows how the Expandable component integrates with the [Listing](listing-grid.html) component:
+The following example shows how the Expandable component integrates with the [Listing](listing-grid.md) component:
 
 The component's options are set in the configuration `.xml` file as follows:
 

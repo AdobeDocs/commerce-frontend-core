@@ -42,7 +42,7 @@ Extends [`UiCollection`](concepts/collection.md):
 
 ### Integration
 
-This is an example of how the DynamicRows component integrates with the [Form](form.html) component:
+This is an example of how the DynamicRows component integrates with the [Form](form.md) component:
 
 ```xml
 <form>

@@ -26,7 +26,7 @@ Extends [`UiCollection`](concepts/collection.md):
 
 ### Integration
 
-This example configures the DragAndDrop component for the [Columns](columns.md) component and integrates it with the [Listing](listing-grid.html) component:
+This example configures the DragAndDrop component for the [Columns](columns.md) component and integrates it with the [Listing](listing-grid.md) component:
 
 ```xml
 <listing>
@@ -51,7 +51,7 @@ This example configures the DragAndDrop component for the [Columns](columns.md) 
 
 ### Disable the DragAndDrop component for the Columns component
 
-This example disables the DragAndDrop component for the [Columns](columns.md) component and integrates it with the [Listing](listing-grid.html) component:
+This example disables the DragAndDrop component for the [Columns](columns.md) component and integrates it with the [Listing](listing-grid.md) component:
 
 ```xml
 <listing>

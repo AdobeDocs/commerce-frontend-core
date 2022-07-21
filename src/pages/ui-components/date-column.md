@@ -17,7 +17,7 @@ The DateColumn component implements a table column that displays dates.
 
 ## Source files
 
-Extends [`Column`](column.html):
+Extends [`Column`](column.md):
 
 -  [`app/code/Magento/Ui/view/base/web/js/grid/columns/date.js`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/columns/date.js)
 
@@ -25,7 +25,7 @@ Extends [`Column`](column.html):
 
 ### Integration
 
-This is an example of how the DateColumn component integrates with the [Listing](listing-grid.html) component:
+This is an example of how the DateColumn component integrates with the [Listing](listing-grid.md) component:
 
 ```xml
 <listing>

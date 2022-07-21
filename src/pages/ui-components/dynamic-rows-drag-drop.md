@@ -7,7 +7,7 @@ contributor_link: https://www.atwix.com/
 
 # DynamicRowsDragAndDrop component
 
-The DynamicRowsDragAndDrop component is an [extension](https://glossary.magento.com/extension) for [DynamicRows](dynamicrows.html), allowing users to change column position in the table.
+The DynamicRowsDragAndDrop component is an [extension](https://glossary.magento.com/extension) for [DynamicRows](dynamic-rows.md), allowing users to change column position in the table.
 
 ## Options
 
@@ -21,7 +21,7 @@ The DynamicRowsDragAndDrop component is an [extension](https://glossary.magento.
 | `recordsCache` | The array of cached records. | Array | `[]` |
 | `recordsProvider` | The path in the [registry](concepts/registry.md) to the linked records provider. | String | `'${ $.name }'` |
 | `separatorsClass` | The object with class separators for top and bottom positions. | Object | `{top: '_dragover-top', bottom: '_dragover-bottom'}` |
-| `tableClass` | The selector of the [DynamicRows](dynamicrows.html) table HTML element. | String | `table.admin__dynamic-rows` |
+| `tableClass` | The selector of the [DynamicRows](dynamic-rows.md) table HTML element. | String | `table.admin__dynamic-rows` |
 | `template` | Path to the component’s `.html` template. | String | `'ui/dynamic-rows/cells/dnd'` |
 
 ## Sources files
@@ -35,7 +35,7 @@ Extends [`UiElement`](concepts/element.md):
 
 ### Integration
 
-This is an example of how the DynamicRowsDragAndDrop component integrates with the [DynamicRows](dynamicrows.html) component:
+This is an example of how the DynamicRowsDragAndDrop component integrates with the [DynamicRows](dynamic-rows.md) component:
 
 ```xml
 <dynamicRows name="dynamic_rows">
@@ -79,7 +79,7 @@ This is an example of how the DynamicRowsDragAndDrop component integrates with t
 
 ### Disable
 
-This is an example of how the DynamicRowsDragAndDrop component disables the [DynamicRows](dynamicrows.html) component:
+This is an example of how the DynamicRowsDragAndDrop component disables the [DynamicRows](dynamic-rows.md) component:
 
 ```xml
 <dynamicRows name="dynamic_rows">

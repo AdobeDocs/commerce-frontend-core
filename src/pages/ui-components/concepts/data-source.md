@@ -74,7 +74,7 @@ But, XML is static and while that gets us the name of the data provider componen
 
 ## JavaScript component linking
 
-Every JavaScript component should extend the core Element class in some way (mapped to [`uiElement`](concepts/element.md) with RequireJS and located in [`Magento/Ui/view/base/web/js/lib/core/element/element.js`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/core/element/element.js).  When this class initializes it runs an `initLinks()` method. That method, in turn, passes a few class properties into a method that handles linking components together. This file (`lib/core/element/link.js`) binds the values of those parameters to actual components.
+Every JavaScript component should extend the core Element class in some way (mapped to [`uiElement`](element.md) with RequireJS and located in [`Magento/Ui/view/base/web/js/lib/core/element/element.js`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/core/element/element.js).  When this class initializes it runs an `initLinks()` method. That method, in turn, passes a few class properties into a method that handles linking components together. This file (`lib/core/element/link.js`) binds the values of those parameters to actual components.
 
 The properties that the application will parse are:
 

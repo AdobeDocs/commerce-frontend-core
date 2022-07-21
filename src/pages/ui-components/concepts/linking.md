@@ -12,7 +12,7 @@ The following properties are used for linking observable properties and methods 
 -  `links`
 -  `listens`
 
-These properties are processed by the `initLinks()` method of the [`uiElement` class](concepts/element.md) which is called at the moment of a component's instantiation.
+These properties are processed by the `initLinks()` method of the [`uiElement` class](element.md) which is called at the moment of a component's instantiation.
 
 Linking properties are set in [UI components configuration files](configuration-flow.md): XML, JS, or PHP.
 
@@ -22,7 +22,7 @@ The `exports` property is used to copy a local value to some external entity. If
 If the local value is a ko of io-es5 observable, the external entity will also be updated whenever the local property changes. `exports`'s value is an object, composed of the following:
 
 -  `key`: name of the internal property or method that is tracked for changes.
--  `value`: name of the property or method that receives the value. Can use [string templates](#string_templ).
+-  `value`: name of the property or method that receives the value. Can use [string templates](#template-strings-usage).
 
 Example of setting `exports` in a component's `.js` file:
 
@@ -75,7 +75,7 @@ For an example of `exports` usage, see [`product_form.xml`, line 76](https://git
 The `imports` property is used for tracking changes of an external entity property. `imports`'s value is an object, composed of the following:
 
 -  `key`: name of the internal property or method that receives the value.
--  `value`: name of the property or method that is tracked for changes. Can use [string templates](#string_templ).
+-  `value`: name of the property or method that is tracked for changes. Can use [string templates](#template-strings-usage).
 
 Example of using `imports` in a component's `.js` file:
 
@@ -110,7 +110,7 @@ For an example of `imports` usage, see [`product_form.xml`, line 105](https://gi
 The `links` property is used for cross tracking properties changes: both linked properties are tracked and changing of one results in changing the other. `links`'s value is an object, composed of the following:
 
 -  `key`: name of the internal property or method that sends and receives the notifications.
--  `value`: name of the property or method that sends and receives the value. Can use [string templates](#string_templ).
+-  `value`: name of the property or method that sends and receives the value. Can use [string templates](#template-strings-usage).
 
 Example of using `links` in a component's `.js` file:
 
@@ -144,7 +144,7 @@ For an example of `links` usage, see [`text.js`, line 22](https://github.com/mag
 
 The `listens` property is used to track the changes of a component's property. `listens`'s value is an object, composed of the following:
 
--  `key`: name of the observable property or method which is tracked for changes. Can use [string templates](#string_templ).
+-  `key`: name of the observable property or method which is tracked for changes. Can use [string templates](#template-strings-usage).
 -  `value`: name of the internal method or property which listens to the changes.
 
 Example of using `listens` in a component's `.js` file :

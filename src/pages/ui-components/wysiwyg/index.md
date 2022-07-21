@@ -5,7 +5,7 @@ description: Configure Adobe Commerce and Magento Open Source UI components and 
 
 # WYSIWYG component
 
-The WYSIWYG component is an [adapter](https://glossary.magento.com/adapter) for [TinyMCE](https://www.tiny.cloud/) that integrates an editor instance with the [form component](form.html). It expects a complete [widget](https://glossary.magento.com/widget) declaration in the `content` option, which should contain both [markup](https://glossary.magento.com/markup) and the script responsible for creating the editor's instance.
+The WYSIWYG component is an [adapter](https://glossary.magento.com/adapter) for [TinyMCE](https://www.tiny.cloud/) that integrates an editor instance with the [form component](../form.md). It expects a complete [widget](https://glossary.magento.com/widget) declaration in the `content` option, which should contain both [markup](https://glossary.magento.com/markup) and the script responsible for creating the editor's instance.
 
 The application supports all selector, plugin, and toolbar/menu configuration options supported by the TinyMCE `tinymce.init()` method. However, the application doesn't validate TinyMCE configuration options or flag invalid values before adding the editor to a page.
 
@@ -26,7 +26,7 @@ Wysiwyg-specific options:
 | `content` | Initial WYSIWYG content. | String | `''` |
 | `elementSelector` | The selector of the HTML element that is wrapped by the WYSIWYG editor. | String | `'textarea'` |
 | `elementTmpl` | The path to the template particular field type template, specific for this component. | String | `'ui/form/element/wysiwyg'` |
-| `links`.`value` | [Links](concepts/linking.md) the component's `value` property with the provider, using the path that is declared in the `dataScope` property. | String | `'${ $.provider }:${ $.dataScope }'` |
+| `links`.`value` | [Links](../concepts/linking.md) the component's `value` property with the provider, using the path that is declared in the `dataScope` property. | String | `'${ $.provider }:${ $.dataScope }'` |
 | `template` | The path to the general Field template. | String | `'ui/form/field'` |
 
 ## Events
@@ -159,7 +159,7 @@ The most common way to configure UI components in the application is to add a co
 
 <InlineAlert variant="info" slots="text" />
 
-Refer to [About PHP modifiers in UI components](concepts/modifier.md) for more information.
+Refer to [About PHP modifiers in UI components](../concepts/modifier.md) for more information.
 
 To use PHP modifiers, your data provider must inherit from `ModifierPoolDataProvider`. The following class adds support for modifier pools, which are required when using modifiers. Inheriting from this class allows you to use modifiers.
 
@@ -359,4 +359,4 @@ Here's an example that connects the data provider and modifier created in the pr
 
 <InlineAlert variant="info" slots="text" />
 
-If your form already uses the [ModifierPool](concepts/modifier.md), you can continue using it to control the configuration of your WYSIWYG components.
+If your form already uses the [ModifierPool](../concepts/modifier.md), you can continue using it to control the configuration of your WYSIWYG components.

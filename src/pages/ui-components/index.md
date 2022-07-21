@@ -25,9 +25,9 @@ There are basic and secondary UI components.
 
 Basic components are:
 
-*  [Listing component](listing-grid.html)
+*  [Listing component](listing-grid.md)
 
-*  [Form component](form.html)
+*  [Form component](form.md)
 
 All other UI components are secondary.
 
@@ -53,7 +53,7 @@ With Magento, you may apply different approaches to implementing a UI element, a
 
 We recommend using UI components as much as possible.
 
-UI components work well together: they communicate with each other via the [uiRegistry service](concepts/registry.md#debug_registry) that tracks their asynchronous initialization. Therefore, if we need to extend something that has already been implemented as a hierarchy of UI components or add a new feature that should interact with other UI components, it's easier and more effective to use a UI component.
+UI components work well together: they communicate with each other via the [uiRegistry service](concepts/registry.md#javascript-debugging) that tracks their asynchronous initialization. Therefore, if we need to extend something that has already been implemented as a hierarchy of UI components or add a new feature that should interact with other UI components, it's easier and more effective to use a UI component.
 
 A UI component is a combination of:
 

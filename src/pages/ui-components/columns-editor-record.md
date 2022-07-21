@@ -7,7 +7,7 @@ contributor_link: https://www.atwix.com/
 
 # ColumnsEditorRecord component
 
-The ColumnsEditorRecord [UI component](https://glossary.magento.com/ui-component) is a container of record fields. The ColumnsEditorRecord should be used as a child of the [ColumnsEditor](columns-editor.html) component.
+The ColumnsEditorRecord [UI component](https://glossary.magento.com/ui-component) is a container of record fields. The ColumnsEditorRecord should be used as a child of the [ColumnsEditor](columns-editor.md) component.
 
 ## Options
 

@@ -7,14 +7,14 @@ description: Configure Adobe Commerce and Magento Open Source UI components and 
 
 The MultiselectColumn component implements a column with checkboxes for selecting records. It also provides controls for selecting multiple records.
 
-MultiselectColumn is a child of the [Listing component](listing-grid.html) and is rendered in its view. Like any component, it can hold the sort order value, which influences the order of all its child elements.
+MultiselectColumn is a child of the [Listing component](listing-grid.md) and is rendered in its view. Like any component, it can hold the sort order value, which influences the order of all its child elements.
 
 ## Options
 
 | Option | Description | Type | Default Value |
 | --- | --- | --- | --- |
 | `bodyTmpl` | Path to the template that is used to render a column's field in the table's body. | String | `ui/grid/cells/multiselect` |
-| `controlVisibility` | Whether a user can control column's visibility handled by the [ColumnsControls component](columnscontrols.html). | String | `false` |
+| `controlVisibility` | Whether a user can control column's visibility handled by the [ColumnsControls component](columns-controls.md). | String | `false` |
 | `draggable` | Defines if a user can change column's position in the table by grabbing column's header and dragging it across the table. | Boolean | `false` |
 | `fieldClass` | Additional CSS classes added to the column's field elements. | {[name: string]: boolean} | `{'data-grid-checkbox-cell': true}` |
 | `headerTmpl` | Path to the `.html` template for the column's header. | String | `ui/grid/columns/multiselect` |
@@ -105,7 +105,7 @@ Instance Replacement: One Instance of a Component
 
 ### Integration
 
-This example integrates the MultiselectColumn component with the [Listing](listing-grid.html) component:
+This example integrates the MultiselectColumn component with the [Listing](listing-grid.md) component:
 
 ```xml
 <listing>
@@ -125,7 +125,7 @@ This example integrates the MultiselectColumn component with the [Listing](listi
 
 ## Source files
 
-Extends [`Column`](column.html):
+Extends [`Column`](column.md):
 
 *  [app\code\Magento\Ui\view\base\web\js\grid\columns\multiselect.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/columns/multiselect.js)
 *  [app\code\Magento\Ui\view\base\web\templates\grid\cells\multiselect.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/grid/cells/multiselect.html) - defines each field in the grid; provides the Multiselect component with the checkbox interface for selecting item(s) in the grid and performing actions over them.

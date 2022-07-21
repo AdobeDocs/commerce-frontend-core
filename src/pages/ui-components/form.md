@@ -13,24 +13,24 @@ Form is a [basic component](index.md#general-structure).
 
 The following components can be used in the scope of the Form component:
 
-*  [ActionDelete](actiondelete.html)
-*  [Checkbox](checkbox.html)
-*  [Checkboxset](checkboxset.html)
-*  DataSource
-*  [Email](email.html)
-*  [FieldSet](fieldset.html)
-*  [File](file.html)
-*  [FileUploader](fileuploader.html)
-*  [Hidden](hidden.html)
-*  [HtmlContent](htmlcontent.html)
-*  [Input](input.html)
-*  [Multiline](multiline.html)
-*  [Multiselect](multiselect.html)
-*  [Radioset](radioset.html)
-*  [Select](select.html)
-*  [Text](text.html)
-*  [Textarea](textarea.html)
-*  [Wysiwyg](https://glossary.magento.com/wysiwyg)
+*  [ActionDelete](action-delete.md)
+*  [Checkbox](checkbox.md)
+*  [Checkboxset](checkbox-set.md)
+*  [DataSource](concepts/data-source.md)
+*  [Email](email.md)
+*  [FieldSet](fieldset.md)
+*  [File](file.md)
+*  [FileUploader](file-uploader.md)
+*  [Hidden](hidden.md)
+*  [HtmlContent](html-content.md)
+*  [Input](input.md)
+*  [Multiline](multiline.md)
+*  [Multiselect](multiselect.md)
+*  [Radioset](radio-set.md)
+*  [Select](select.md)
+*  [Text](text.md)
+*  [Textarea](text-area.md)
+*  [Wysiwyg](wysiwyg/index.md)
 
 ## Options
 

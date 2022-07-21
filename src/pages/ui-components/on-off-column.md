@@ -5,7 +5,7 @@ description: Configure Adobe Commerce and Magento Open Source UI components and 
 
 # OnOffColumn component
 
-The OnOffColumn component is a decorator for [MultiselectColumn](multiselectcolumn.html). It displays toggle switch elements instead of checkboxes.
+The OnOffColumn component is a decorator for [MultiselectColumn](multiselect-column.md). It displays toggle switch elements instead of checkboxes.
 
 ## Options
 
@@ -18,7 +18,7 @@ The OnOffColumn component is a decorator for [MultiselectColumn](multiselectcolu
 
 ## Source files
 
-Extends [`MultiselectColumn`](multiselectcolumn.html):
+Extends [`MultiselectColumn`](multiselect-column.md):
 
 -  [app/code/Magento/Ui/view/base/web/js/grid/columns/onoff.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/columns/onoff.js)
 -  [app/code/Magento/Ui/view/base/web/templates/grid/cells/onoff.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/grid/cells/onoff.html)
@@ -28,7 +28,7 @@ Extends [`MultiselectColumn`](multiselectcolumn.html):
 
 ### Integration
 
-This example integrates the OnOffColumn component with the [Listing](listing-grid.html) component:
+This example integrates the OnOffColumn component with the [Listing](listing-grid.md) component:
 
 ```xml
 <listing>

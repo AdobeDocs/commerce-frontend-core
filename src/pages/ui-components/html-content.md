@@ -51,7 +51,7 @@ All blocks inside HtmlContent are integrated into the layout, so external blocks
 
 ### Integration
 
-This example integrates the HtmlContent component with the [Form](form.html) component.
+This example integrates the HtmlContent component with the [Form](form.md) component.
 
 ```xml
 <form>

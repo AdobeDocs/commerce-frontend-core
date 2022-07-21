@@ -34,7 +34,7 @@ Extends [`UiElement`](concepts/element.md):
 
 ### Integration
 
-This example integrates the Input component with the [Form](form.html) component.
+This example integrates the Input component with the [Form](form.md) component.
 
 ```xml
 <form>
