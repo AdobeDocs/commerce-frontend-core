@@ -1,6 +1,6 @@
 ---
 title: Configure the TinyMCE editor | Commerce Frontend Development
-description:
+description: Customize the TinyMCE editor to match your Adobe Commerce or Magento Open Source theme.
 ---
 
 # Configure the TinyMCE editor

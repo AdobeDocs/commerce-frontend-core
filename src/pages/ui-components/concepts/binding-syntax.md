@@ -1,11 +1,11 @@
 ---
 title: Binding syntax | Commerce Frontend Development
-description:
+description: Learn about the default binding syntax for HTML templates in Adobe Commerce and Magento Open Source.
 ---
 
 # Binding syntax
 
-Within HTML templates, you can use a binding syntax that is simpler and easier to read and write than the standard Knockout binding syntax. The following code snippets help make the comparison.
+Within HTML templates, you can use a binding syntax that is simpler and easier to read and write than the standard Knockout.js binding syntax. The following code snippets help make the comparison.
 
 ## Knockout native syntax
 

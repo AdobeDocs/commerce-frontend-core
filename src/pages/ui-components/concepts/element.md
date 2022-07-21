@@ -1,6 +1,6 @@
 ---
 title: uiElement class | Commerce Frontend Development
-description:
+description: Learn about the methods and properties available for creating Adobe Commerce and Magento Open Source UI components that are last in the component hierarchy chain.
 ---
 
 # `uiElement` class

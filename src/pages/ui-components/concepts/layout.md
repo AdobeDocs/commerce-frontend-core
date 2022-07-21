@@ -1,6 +1,6 @@
 ---
 title: uiLayout service object | Commerce Frontend Development
-description:
+description: Learn how to initialize and configure Adobe Commerce and Magento Open Source UI components.
 ---
 
 # `uiLayout` service object

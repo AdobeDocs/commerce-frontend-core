@@ -1,6 +1,6 @@
 ---
 title: Linking properties of UI components | Commerce Frontend Development
-description:
+description: Learn about options for linking properties of Adobe Commerce and Magento Open Source UI components.
 ---
 
 # Linking properties of UI components
@@ -14,7 +14,7 @@ The following properties are used for linking observable properties and methods 
 
 These properties are processed by the `initLinks()` method of the [`uiElement` class](concepts/element.md) which is called at the moment of a component's instantiation.
 
-Linking properties are set in [UI components configuration files](configuration-flow.md): XML, JS or PHP.
+Linking properties are set in [UI components configuration files](configuration-flow.md): XML, JS, or PHP.
 
 ## `exports` property
 

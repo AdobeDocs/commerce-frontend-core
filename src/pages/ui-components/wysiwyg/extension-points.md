@@ -1,6 +1,6 @@
 ---
 title: WYSIWYG extension points | Commerce Frontend Development
-description:
+description: Integrate Adobe Commerce and Magento Open Source entities with third-party editors.
 ---
 
 # WYSIWYG extension points

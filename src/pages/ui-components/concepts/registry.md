@@ -1,6 +1,6 @@
 ---
 title: uiRegistry library | Commerce Frontend Development
-description:
+description: Search for properties of Adobe Commerce and Magento Open Source UI components.
 ---
 
 # `uiRegistry` library

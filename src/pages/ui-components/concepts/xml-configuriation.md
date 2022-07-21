@@ -1,11 +1,11 @@
 ---
 title: XML configuration | Commerce Frontend Development
-description:
+description: Review information about basic configuration elements of Adobe Commerce and Magento Open Source UI components.
 ---
 
 # XML configuration
 
-This topic describes the basic elements used in XML configuration files for declaring  UI components. These elements core structure is strict and third party developers must follow it when customizing existing UI component configuration or declaring new ones.
+This topic describes the basic elements used in XML configuration files for declaring UI components. These elements core structure is strict and third party developers must follow it when customizing existing UI component configuration or declaring new ones.
 
 ## Basic elements
 

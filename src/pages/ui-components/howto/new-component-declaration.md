@@ -1,6 +1,6 @@
 ---
 title: Declare a custom UI component | Commerce Frontend Development
-description:
+description: Follow this tutorial to create the XML configuration required for custom Adobe Commerce and Magento Open Source UI components.
 ---
 
 # Declre a custom UI component

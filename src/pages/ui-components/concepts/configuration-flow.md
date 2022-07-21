@@ -1,6 +1,6 @@
 ---
 title: Configuration flow of UI components | Commerce Frontend Development
-description:
+description: Learn about the configuration lifecycle of Adobe Commerce and Magento Open Source UI components at runtime.
 ---
 
 # Configuration flow

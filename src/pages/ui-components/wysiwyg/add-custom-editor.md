@@ -1,6 +1,6 @@
 ---
 title: Add a custom editor | Commerce Frontend Development
-description:
+description: Change the default editor that the Adobe Commerce and Magento Open Source WYSIWYG UI component uses.
 ---
 
 # Add a custom editor

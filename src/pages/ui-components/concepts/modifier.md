@@ -1,6 +1,6 @@
 ---
 title: PHP modifiers | Commerce Frontend Development
-description:
+description: Learn about optional server-side configuration for Adobe Commerce and Magento Open Source UI components.
 ---
 
 # PHP modifiers

@@ -1,6 +1,6 @@
 ---
 title: Semantic configuration | Commerce Frontend Development
-description:
+description: Review best practices for configuring Adobe Commerce and Magento Open Source UI components.
 ---
 
 # Semantic configuration

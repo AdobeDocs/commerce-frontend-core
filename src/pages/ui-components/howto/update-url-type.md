@@ -1,6 +1,6 @@
 ---
 title: Update the page URL type | Commerce Frontend Development
-description:
+description: Follow this tutorial to create a new link type in Adobe Commerce and Magento Open Source UI components.
 ---
 # Update the page URL type
 

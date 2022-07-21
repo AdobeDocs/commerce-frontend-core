@@ -1,6 +1,6 @@
 ---
 title: Sizes component | Commerce Frontend Development
-decsription:
+description: Configure Adobe Commerce and Magento Open Source UI components and integrate them with other components.
 ---
 
 # Sizes component

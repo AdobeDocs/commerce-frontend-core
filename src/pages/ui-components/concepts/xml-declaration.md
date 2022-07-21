@@ -1,6 +1,6 @@
 ---
 title: XML declaration | Commerce Frontend Development
-description:
+description: Review information about basic configuration elements of Adobe Commerce and Magento Open Source UI components.
 ---
 
 # XML declaration

@@ -1,6 +1,6 @@
 ---
 title: Template literals | Commerce Frontend Development
-description:
+description: Learn how to use strings that contain embedded expressions in Adobe Commerce and Magento Open Source UI components.
 contributor_name: SwiftOtter Studios
 contributor_link: https://swiftotter.com/
 ---

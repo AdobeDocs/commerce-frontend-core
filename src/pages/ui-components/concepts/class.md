@@ -1,6 +1,6 @@
 ---
 title: uiClass library | Commerce Frontend Development
-description:
+description: Learn about the foundational class on which all Adobe Commerce and Magento Open Source UI components are based.
 ---
 
 # `uiClass` library

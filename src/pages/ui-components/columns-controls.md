@@ -1,6 +1,6 @@
 ---
 title: ColumnsControls component | Commerce Frontend Development
-description:
+description: Configure Adobe Commerce and Magento Open Source UI components and integrate them with other components.
 ---
 
 # ColumnsControl component

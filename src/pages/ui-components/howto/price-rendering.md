@@ -1,11 +1,11 @@
 ---
 title: Render prices on the frontend | Commerce Frontend Development
-description:
+description: Follow this tutorial to display product prices with Adobe Commerce and Magento Open Source UI components.
 ---
 
 # Render prices on the frontend
 
-This article shows how templates and UI components work together to render the price for any product listing(e.g. category, widget, etc).
+This article shows how templates and UI components work together to render the price for any product listing (for example, category, widget).
 
 ## About price handling
 
