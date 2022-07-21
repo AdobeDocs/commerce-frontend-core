@@ -93,8 +93,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node v16 for Yarn v3
         uses: actions/setup-node@v3
@@ -135,8 +133,6 @@ jobs:
 
       - name: Build site
         uses: borales/actions-yarn@v3.0.0
-        with:
-          cmd: build
         env:
           PREFIX_PATHS: true # works like --prefix-paths flag for 'gatsby build'
           PATH_PREFIX: ${{ needs.set-state.outputs.path_prefix }}
@@ -160,6 +156,9 @@ jobs:
           GATSBY_ALGOLIA_INDEX_ALL_SRC: ${{ secrets.AIO_ALGOLIA_INDEX_ALL_SRC }}
           GATSBY_ALGOLIA_SEARCH_INDEX: ${{ secrets.AIO_ALGOLIA_SEARCH_INDEX }}
           GATSBY_FEDS_PRIVACY_ID: ${{ secrets.AIO_FEDS_PRIVACY_ID }}
+        with:
+          cmd: build
+
       - name: Deploy
         uses: icaraps/static-website-deploy@master
         with:
