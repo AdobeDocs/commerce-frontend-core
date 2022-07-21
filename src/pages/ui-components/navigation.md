@@ -11,35 +11,9 @@ See the [Admin Design Pattern Library (Tabs)](https://devdocs.magento.com/guides
 
 ## Options
 
-<table>
-  <tr>
-    <th>Option </th>
-    <th>Description</th>
-    <th>Type</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><code>collapsible</code></td>
-    <td>Enables/disables the collapsible functionality.</td>
-    <td>Boolean</td>
-    <td><code>false</code></td>
-  </tr>
-  <tr>
-    <td><code>component</code></td>
-    <td>The path to the component’s JS constructor, in terms of RequireJS.</td>
-    <td>String</td>
-    <td><code>Magento_Ui/js/form/components/tab_group</code></td>
-  </tr>
-  <tr>
-    <td><code>opened</code></td>
-    <td>Initial collapsible state, if the collapsible functionality is enabled.</td>
-    <td>Boolean</td>
-    <td><code>true</code></td>
-  </tr>
-  <tr>
-    <td><code>template</code></td>
-    <td>The path to the component’s <code>.html</code> template.</td>
-    <td>String</td>
-    <td><code>ui/tab</code></td>
-  </tr>
-</table>
+| Option        | Description                                                             | Type    | Default                                   |
+|---------------|-------------------------------------------------------------------------|---------|-------------------------------------------|
+| `collapsible` | Enables/disables the collapsible functionality.                         | Boolean | `false`                                   |
+| `component`   | The path to the component’s JS constructor, in terms of RequireJS.      | String  | `Magento_Ui/js/form/components/tab_group` |
+| `opened`      | Initial collapsible state, if the collapsible functionality is enabled. | Boolean | `true`                                    |
+| `template`    | The path to the component’s `.html` template.                           | String  | `ui/tab`                                  |

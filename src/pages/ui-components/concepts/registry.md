@@ -3,7 +3,7 @@ title: uiRegistry library | Commerce Frontend Development
 description: Search for properties of Adobe Commerce and Magento Open Source UI components.
 ---
 
-# `uiRegistry` library
+# uiRegistry library
 
 `uiRegistry` is in-memory, plain storage of entities by keys. Implements the `get()`, `set()`, and `has()` methods.
 

@@ -89,82 +89,12 @@ The `collapsible` binding provides methods and properties required for implement
 
 Binding's configuration that may include the following properties:
 
-<table>
-  <tr>
-    <th>
-      Property
-    </th>
-    <th>
-      Description
-    </th>
-    <th>
-      Type
-    </th>
-    <th>
-      Default value
-    </th>
-  </tr>
-  <tr>
-    <td>
-      <code>as</code>
-    </td>
-    <td>
-      A key for accessing the binding in the current scope.
-    </td>
-    <td>
-      String
-    </td>
-    <td>
-      <code>$collapsible</code>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <code>closeOnOuter</code>
-    </td>
-    <td>
-      Whether the panel needs to be closed on outside boundaries
-      click.
-    </td>
-    <td>
-      Boolean
-    </td>
-    <td>
-      <code>true</code>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <code>onTarget</code>
-    </td>
-    <td>
-      Toggles panel's visibility on the target node click.
-    </td>
-    <td>
-      Boolean
-    </td>
-    <td>
-      <code>false</code>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <code>openClass</code>
-    </td>
-    <td>
-      CSS class that is added to or removed from the target node,
-      when the panel changes visibility. If the option values is
-      left empty, then the binding does not modify the element's
-      classes.
-    </td>
-    <td>
-      String
-    </td>
-    <td>
-      <code>_active</code>
-    </td>
-  </tr>
-</table>
+| Property       | Description                                                                                                                                                                                | Type    | Default        |
+|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|----------------|
+| `as`           | A key for accessing the binding in the current scope.                                                                                                                                      | String  | `$collapsible` |
+| `closeOnOuter` | Whether the panel needs to be closed on outside boundaries click.                                                                                                                          | Boolean | `true`         |
+| `onTarget`     | Toggles panel's visibility on the target node click.                                                                                                                                       | Boolean | `false`        |
+| `openClass`    | CSS class that is added to or removed from the target node, when the panel changes visibility. If the option values is left empty, then the binding does not modify the element's classes. | String  | `_active`      |
 
 **Aliases**: `[collapsible]`
 
@@ -475,62 +405,16 @@ Application custom knockout binding for displaying a tooltip.
 
 Binding's configuration that may include the following options:
 
-<table>
-  <tr>
-    <th>Option</th>
-    <th>Description</th>
-    <th>Type</th>
-    <th>Default value</th>
-  </tr>
-  <tr>
-    <td><code>action</code></td>
-    <td>An action that triggers displaying a tooltip.</td>
-    <td>String ('click'|'hover')</td>
-    <td>'click'</td>
-  </tr>
-  <tr>
-    <td><code>center</code></td>
-    <td>Center the tooltip relatively to the element it is bound to.</td>
-    <td>Boolean</td>
-    <td><code>false</code></td>
-  </tr>
-  <tr>
-    <td><code>closeButton</code></td>
-    <td>Whether the tooltip has a Close button.</td>
-    <td>Boolean</td>
-    <td><code>false</code></td>
-  </tr>
-  <tr>
-    <td><code>closeOnScroll</code></td>
-    <td>Whether the tooltip closes automatically when user scrolls the page.</td>
-    <td>Boolean</td>
-    <td><code>true</code></td>
-  </tr>
-  <tr>
-    <td><code>delay</code></td>
-    <td>A delay before displaying the tooltip, in seconds.</td>
-    <td>Number</td>
-    <td>0</td>
-  </tr>
-  <tr>
-    <td><code>position</code></td>
-    <td>The priority position for the tooltip.</td>
-    <td>String (<code>'top'/'right'/'left'/'bottom'</code>)</td>
-    <td><code>'top'</code></td>
-  </tr>
-  <tr>
-    <td><code>track</code></td>
-    <td>Whether the tooltip moves together with the pointer</td>
-    <td>Boolean</td>
-    <td><code>false</code></td>
-  </tr>
-  <tr>
-    <td><code>trigger</code></td>
-    <td>The selector's action that triggers displaying a tooltip.</td>
-    <td>String</td>
-    <td>''</td>
-  </tr>
-</table>
+| Property        | Description                                                          | Type                                | Default |
+|-----------------|----------------------------------------------------------------------|-------------------------------------|---------|
+| `action`        | An action that triggers displaying a tooltip.                        | String (`click\|hover`)             | `click` |
+| `center`        | Center the tooltip relatively to the element it is bound to.         | Boolean                             | `false` |
+| `closeButton`   | Whether the tooltip has a Close button.                              | Boolean                             | `false` |
+| `closeOnScroll` | Whether the tooltip closes automatically when user scrolls the page. | Boolean                             | `true`  |
+| `delay`         | A delay before displaying the tooltip, in seconds.                   | Number                              | `0`     |
+| `position`      | The priority position for the tooltip.                               | String (`top\|right\|left\|bottom`) | `top`   |
+| `track`         | Whether the tooltip moves together with the pointer.                 | Boolean                             | `false` |
+| `trigger`       | The selector's action that triggers displaying a tooltip.            | String                              | `''`    |
 
 **Aliases:** `[tooltip]`
 

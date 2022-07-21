@@ -3,7 +3,7 @@ title: uiClass library | Commerce Frontend Development
 description: Learn about the foundational class on which all Adobe Commerce and Magento Open Source UI components are based.
 ---
 
-# `uiClass` library
+# uiClass library
 
 The `uiClass` is an abstract class from which all components are extended. The `uiClass` is a low-level class and is rarely used as direct parent for UI components' classes.
 
@@ -21,46 +21,46 @@ The uiClass class introduces the architecture of UI components through the follo
 
   As an example:
 
-```js
-defaults: {
-    myFirstProperty: 0,
-    mySecondProperty: 1
-}
+  ```js
+  defaults: {
+      myFirstProperty: 0,
+      mySecondProperty: 1
+  }
 
-//Before executing initConfig method:
-console.log(this.myFirstProperty) // Undefined
-console.log(this.mySecondProperty) // Undefined
+  //Before executing initConfig method:
+  console.log(this.myFirstProperty) // Undefined
+  console.log(this.mySecondProperty) // Undefined
 
-//After executing initConfig method:
-console.log(this.myFirstProperty) // 0
-console.log(this.mySecondProperty) // 1
-```
+  //After executing initConfig method:
+  console.log(this.myFirstProperty) // 0
+  console.log(this.mySecondProperty) // 1
+  ```
 
 *  The `initialize()` method is called during instantiation. It can be used to add custom functionality executed only once, during component instance creation.
 
-As an example:
+  As an example:
 
-```js
-initialize: function () {
-    %yourMethodName%();
+  ```js
+  initialize: function () {
+      %yourMethodName%();
 
-    return this;
-}
-```
+      return this;
+  }
+  ```
 
 *  The `_super()` method calls the parent UI component method with the same name as the `_super()` method's caller. If that method does not exists in the parent UI component, then the method tries to find it higher in the inheritance chain.
 
-As an example:
+  As an example:
 
-```js
-initialize: function () {
-    this._super(); //_super will call parent's `initialize` method here
+  ```js
+  initialize: function () {
+      this._super(); //_super will call parent's `initialize` method here
 
-    return this;
-}
-```
+      return this;
+  }
+  ```
 
-### Commonly used properties
+## Commonly used properties
 
 The `defaults` property declares the list of properties of a UI component's instance. Also it declares communications between components if needed.
 

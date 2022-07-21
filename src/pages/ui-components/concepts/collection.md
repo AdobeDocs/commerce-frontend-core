@@ -3,7 +3,7 @@ title: uiCollection class | Commerce Frontend Development
 description: Learn about the methods and properties available for creating a collection of Adobe Commerce and Magento Open Source child UI components.
 ---
 
-# `uiCollection` class
+# uiCollection class
 
 The `uiCollection` library class should be used as a base class by any components that contain a collection of child UI components.  `uiCollection` inherits from the [uiElement class](element.md).
 
@@ -31,9 +31,9 @@ The `uiCollection` class implements the following methods:
 
   Example:
 
-```javascript
-    this.destroy();
-```
+   ```javascript
+   this.destroy();
+   ```
 
 *  The `getChild()` method returns an element from the collection of child UI components.
 
