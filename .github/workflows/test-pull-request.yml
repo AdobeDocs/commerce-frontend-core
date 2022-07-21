@@ -23,7 +23,7 @@ on:
 # Set the Job #
 ###############
 jobs:
-  lint:
+  validate:
     name: Lint Code Base
     # Set the agent to run on
     runs-on: ubuntu-latest
@@ -69,9 +69,6 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "16.15.0" # Current LTS version
-
-      - name: Install Yarn v1
-        run: npm install -g yarn
 
       - name: Enable Corepack for Yarn v3
         run: corepack enable
