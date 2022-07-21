@@ -1,11 +1,11 @@
 module.exports = [
     {
       title: "Introduction",
-      path: "/ui-components/",
+      path: "/ui-components/introduction/",
     },
     {
       title: "Concepts",
-      path: "/ui-components/concepts/configuration-flow/",
+      path: "/ui-components/concepts/",
       pages: [
         {
           title: "Configuration flow",
@@ -67,7 +67,7 @@ module.exports = [
     },
     {
       title: "Components",
-      path: "/ui-components/basic-attributes/",
+      path: "/ui-components/",
       pages: [
         {
           title: "ActionDelete",
@@ -367,7 +367,7 @@ module.exports = [
     },
     {
       title: "How to",
-      path: "/ui-components/howto/add-category-attribute/",
+      path: "/ui-components/howto/",
       pages: [
         {
           title: "Add a category attribute",

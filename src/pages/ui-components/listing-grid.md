@@ -5,7 +5,7 @@ description: Configure Adobe Commerce and Magento Open Source UI components and 
 
 # Listing (grid) component
 
-Listing is a [basic component](index.md#general-structure) that implements grids, lists, and tiles with filtering, pagination, sorting, and other features.
+Listing is a [basic component](introduction/index.md#general-structure) that implements grids, lists, and tiles with filtering, pagination, sorting, and other features.
 
 ## Related components
 

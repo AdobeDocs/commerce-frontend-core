@@ -7,7 +7,7 @@ description: Configure Adobe Commerce and Magento Open Source UI components and 
 
 The Form component is a collection of fields that can be grouped in tabs and fieldsets. It enables [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) operations.
 
-Form is a [basic component](index.md#general-structure).
+Form is a [basic component](introduction/index.md#general-structure).
 
 ## Related components
 

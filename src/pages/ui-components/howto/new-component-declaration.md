@@ -54,5 +54,5 @@ If the custom component you create is a [basic UI component] (like Form or Listi
 [uiElement]: ../concepts/element.md
 [uiCollection]: ../concepts/collection.md
 [use the "arbitrary" structure]: ../concepts/semantic-configuration.md
-[basic UI component]: ../index.md#general-structure
+[basic UI component]: ../introduction/index.md#general-structure
 [About XML configuration of UI components]: ../concepts/xml-declaration.md#about-the-layout-configuration-file-and-ui-component-declaration
