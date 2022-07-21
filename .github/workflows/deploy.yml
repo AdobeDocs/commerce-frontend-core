@@ -125,13 +125,17 @@ jobs:
             github.run_id }}
           restore-keys: |
             ${{ needs.set-state.outputs.branch_short_ref }}-gatsby-cache-
+     
       - name: Clean Cache
         if: needs.set-state.outputs.clean_cache == 'true'
-        run: |
-          yarn clean
-      - name: Build
-        run: |
-          yarn build
+        uses: borales/actions-yarn@v3.0.0
+        with:
+          cmd: clean
+
+      - name: Build site
+        uses: borales/actions-yarn@v3.0.0
+        with:
+          cmd: build
         env:
           PREFIX_PATHS: true # works like --prefix-paths flag for 'gatsby build'
           PATH_PREFIX: ${{ needs.set-state.outputs.path_prefix }}
@@ -200,8 +204,27 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: NPM Install
-        uses: bahmutov/npm-install@v1
+
+      - name: Setup Node v16 for Yarn v3
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16.15.0" # Current LTS version
+
+      - name: Enable Corepack for Yarn v3
+        run: corepack enable
+
+      - name: Install Yarn v3
+        uses: borales/actions-yarn@v3.0.0
+        with:
+          cmd: set version stable
+
+      - name: Install Dependencies
+        uses: borales/actions-yarn@v3.0.0
+        env:
+          YARN_ENABLE_IMMUTABLE_INSTALLS: false
+        with:
+          cmd: install
+
       - name: Gatsby Cache
         uses: actions/cache@v2
         with:
@@ -212,13 +235,17 @@ jobs:
             github.run_id }}
           restore-keys: |
             ${{ needs.set-state.outputs.branch_short_ref }}-gatsby-cache-
+
       - name: Clean Cache
         if: needs.set-state.outputs.clean_cache == 'true'
-        run: |
-          npm run clean
-      - name: Build
-        run: |
-          npm run build
+        uses: borales/actions-yarn@v3.0.0
+        with:
+          cmd: clean
+
+      - name: Build site
+        uses: borales/actions-yarn@v3.0.0
+        with:
+          cmd: build
         env:
           PREFIX_PATHS: true # works like --prefix-paths flag for 'gatsby build'
           PATH_PREFIX: ${{ needs.set-state.outputs.path_prefix }}
