@@ -82,7 +82,6 @@ jobs:
 
           exit 1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           AIO_AZURE_DEV_CONNECTION_STRING: ${{ secrets.AIO_AZURE_DEV_CONNECTION_STRING }}
 
   build-dev:
@@ -94,6 +93,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node v16 for Yarn v3
         uses: actions/setup-node@v3
