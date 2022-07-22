@@ -4,7 +4,7 @@
 ## Pull request testing ##
 ###########################
 ###########################
-name: Pull Request Test
+name: Latest Pull Request
 
 # Documentation:
 # - Workflow: https://help.github.com/en/articles/workflow-syntax-for-github-actions
@@ -49,7 +49,7 @@ jobs:
         # Use full version number to avoid cases when a next
         # released version is buggy
         # About slim image: https://github.com/github/super-linter#slim-image
-        uses: github/super-linter/slim@v4.9.2
+        uses: github/super-linter/slim@v4.9.4
         env:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: main
@@ -68,18 +68,18 @@ jobs:
       - name: Setup Node v16 for Yarn v3
         uses: actions/setup-node@v3
         with:
-          node-version: "16.15.0" # Current LTS version
+          node-version: '16.15.0' # Current LTS version
 
       - name: Enable Corepack for Yarn v3
         run: corepack enable
 
       - name: Install Yarn v3
-        uses: borales/actions-yarn@v3.0.0
+        uses: borales/actions-yarn@v3
         with:
           cmd: set version stable
 
-      - name: Install Dependencies
-        uses: borales/actions-yarn@v3.0.0
+      - name: Install dependencies
+        uses: borales/actions-yarn@v3
         env:
           YARN_ENABLE_IMMUTABLE_INSTALLS: false
         with:
@@ -90,6 +90,6 @@ jobs:
 
       - name: Build site
         if: ${{ success() }}
-        uses: borales/actions-yarn@v3.0.0
+        uses: borales/actions-yarn@v3
         with:
           cmd: build
