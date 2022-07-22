@@ -33,7 +33,7 @@ module.exports = [
         },
         {
           title: "Template literals",
-          path: "/ui-components/concepts/template-literals/",
+          path: "/ui-components/concepts/literals/",
         },
         {
           title: "Binding syntax",
