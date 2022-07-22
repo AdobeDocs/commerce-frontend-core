@@ -21,7 +21,7 @@ jobs:
       deploy_prod: ${{ contains(github.event.inputs.env, 'prod') }}
       deploy_dev: ${{ contains(github.event.inputs.env, 'dev') }}
       clean_cache: ${{ contains(github.event.inputs.clean, 'yes') }}
-      path_prefix: ${{ async steps.extract_path_prefix.outputs.path_prefix }}
+      path_prefix: ${{ steps.extract_path_prefix.outputs.path_prefix }}
       branch_short_ref: ${{ steps.extract_branch.outputs.branch }}
       exclude_subfolder: ${{ github.event.inputs.excludeSubfolder }}
     steps:
@@ -33,18 +33,22 @@ jobs:
         id: extract_path_prefix
         with:
           script: |
-            const {pathPrefix} = await require(`${process.env.GITHUB_WORKSPACE}/gatsby-config.js`)
-            if (!pathPrefix) {
-              core.setFailed('Missing path prefix')
+            async function run() {
+              const {pathPrefix} = await require(`${process.env.GITHUB_WORKSPACE}/gatsby-config.js`)
+                if (!pathPrefix) {
+                  core.setFailed('Missing path prefix')
+                }
+                else if (pathPrefix === '/') {
+                  core.setFailed('Path prefix "/" is not allowed')
+                }
+                else if (!pathPrefix.startsWith('/') || !pathPrefix.endsWith('/')) {
+                  core.setFailed('Path prefix should start and end with "/"')
+                }
+                core.setOutput('path_prefix', pathPrefix)
             }
-            else if (pathPrefix === '/') {
-              core.setFailed('Path prefix "/" is not allowed')
-            }
-            else if (!pathPrefix.startsWith('/') || !pathPrefix.endsWith('/')) {
-              core.setFailed('Path prefix should start and end with "/"')
-            }
-            core.setOutput('path_prefix', pathPrefix)
+            run()
           result-encoding: string
+
       - name: Extract branch name
         shell: bash
         run: echo "##[set-output name=branch;]${GITHUB_REF#refs/heads/}"
