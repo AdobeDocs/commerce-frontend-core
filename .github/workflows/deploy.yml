@@ -21,7 +21,7 @@ jobs:
       deploy_prod: ${{ contains(github.event.inputs.env, 'prod') }}
       deploy_dev: ${{ contains(github.event.inputs.env, 'dev') }}
       clean_cache: ${{ contains(github.event.inputs.clean, 'yes') }}
-      path_prefix: ${{ steps.extract_path_prefix.outputs.path_prefix }}
+      path_prefix: ${{ async steps.extract_path_prefix.outputs.path_prefix }}
       branch_short_ref: ${{ steps.extract_branch.outputs.branch }}
       exclude_subfolder: ${{ github.event.inputs.excludeSubfolder }}
     steps:
@@ -44,10 +44,10 @@ jobs:
               core.setFailed('Path prefix should start and end with "/"')
             }
             core.setOutput('path_prefix', pathPrefix)
-
+          result-encoding: string
       - name: Extract branch name
         shell: bash
-        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+        run: echo "##[set-output name=branch;]${GITHUB_REF#refs/heads/}"
         id: extract_branch
 
   echo-state:
