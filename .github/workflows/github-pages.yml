@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: NPM Install
+      - name: Yarn Install
         uses: bahmutov/npm-install@v1
       - name: Build
         run: |
@@ -18,8 +18,7 @@ jobs:
           PREFIX_PATHS: true # works like --prefix-paths flag for 'gatsby build'
           PATH_PREFIX: ${{ github.event.repository.name }}
           ADOBE_LAUNCH_SRC: ${{ secrets.AIO_ADOBE_LAUNCH_SRC }}
-          ADOBE_LAUNCH_SRC_INCLUDE_IN_DEVELOPMENT:
-            ${{ secrets.ADOBE_LAUNCH_SRC_INCLUDE_IN_DEVELOPMENT }}
+          ADOBE_LAUNCH_SRC_INCLUDE_IN_DEVELOPMENT: ${{ secrets.ADOBE_LAUNCH_SRC_INCLUDE_IN_DEVELOPMENT }}
           REPO_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO_OWNER: ${{ github.event.repository.owner.login }}
           REPO_NAME: ${{ github.event.repository.name }}
@@ -29,9 +28,13 @@ jobs:
           GOOGLE_DOCS_TOKEN: ${{ secrets.GOOGLE_DOCS_TOKEN }}
           GOOGLE_DOCS_FOLDER_ID: ${{ secrets.GOOGLE_DOCS_FOLDER_ID }}
       - name: Deploy to GH Pages
-        uses: JamesIves/github-pages-deploy-action@3.7.1
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: public # The folder the action should deploy.
-          CLEAN: true # Automatically remove deleted files from deploy branch
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages # The branch the action should deploy to.
+          folder: public # The folder the action should deploy.
+          clean: true # Automatically remove deleted files from deploy branch
+      - name: GH Pages URL
+        id: gh-pages-url
+        run: |
+          echo "View GH-Pages: $(https://adobedocs.github.io/${{ github.event.repository.name }})"

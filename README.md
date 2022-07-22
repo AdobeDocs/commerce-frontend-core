@@ -1,3 +1,7 @@
+[![Deployment](https://github.com/bdenham/commerce-frontend-core-fork/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/bdenham/commerce-frontend-core-fork/actions/workflows/deploy.yml)
+[![Github Pages](https://github.com/bdenham/commerce-frontend-core-fork/actions/workflows/github-pages.yml/badge.svg?branch=main)](https://github.com/bdenham/commerce-frontend-core-fork/actions/workflows/github-pages.yml)
+[![Latest Pull Request](https://github.com/bdenham/commerce-frontend-core-fork/actions/workflows/test-pull-request.yml/badge.svg?branch=main)](https://github.com/bdenham/commerce-frontend-core-fork/actions/workflows/test-pull-request.yml)
+
 # Adobe I/O Documentation Template
 
 This is a site template built with the [Adobe I/O Theme](https://github.com/adobe/aio-theme).

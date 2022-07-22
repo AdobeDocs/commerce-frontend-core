@@ -4,7 +4,7 @@
 ## Pull request testing ##
 ###########################
 ###########################
-name: Pull Request Test
+name: Latest Pull Request
 
 # Documentation:
 # - Workflow: https://help.github.com/en/articles/workflow-syntax-for-github-actions
@@ -74,12 +74,12 @@ jobs:
         run: corepack enable
 
       - name: Install Yarn v3
-        uses: borales/actions-yarn@v3.0.0
+        uses: borales/actions-yarn@v3
         with:
           cmd: set version stable
 
-      - name: Install Dependencies
-        uses: borales/actions-yarn@v3.0.0
+      - name: Install dependencies
+        uses: borales/actions-yarn@v3
         env:
           YARN_ENABLE_IMMUTABLE_INSTALLS: false
         with:
@@ -90,6 +90,6 @@ jobs:
 
       - name: Build site
         if: ${{ success() }}
-        uses: borales/actions-yarn@v3.0.0
+        uses: borales/actions-yarn@v3
         with:
           cmd: build
