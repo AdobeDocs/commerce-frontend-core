@@ -1,12 +1,16 @@
 module.exports = [
     {
       title: "Introduction",
-      path: "/ui-components/introduction/",
+      path: "/ui-components/",
     },
     {
       title: "Concepts",
       path: "/ui-components/concepts/",
       pages: [
+        {
+          title: "Basic attributes",
+          path: "/ui-components/concepts/basic-attributes/",
+        },
         {
           title: "Configuration flow",
           path: "/ui-components/concepts/configuration-flow/",
@@ -67,91 +71,91 @@ module.exports = [
     },
     {
       title: "Components",
-      path: "/ui-components/",
+      path: "/ui-components/components/",
       pages: [
         {
           title: "ActionDelete",
-          path: "/ui-components/action-delete/"
+          path: "/ui-components/components/action-delete/"
         },
         {
           title: "ActionsColumn",
-          path: "/ui-components/actions-column/"
+          path: "/ui-components/components/actions-column/"
         },
         {
           title: "Bookmarks",
-          path: "/ui-components/bookmarks/"
+          path: "/ui-components/components/bookmarks/"
         },
         {
           title: "Button",
-          path: "/ui-components/button/"
+          path: "/ui-components/components/button/"
         },
         {
           title: "Checkbox",
-          path: "/ui-components/checkbox/"
+          path: "/ui-components/components/checkbox/"
         },
         {
           title: "CheckboxToggleNotice",
-          path: "/ui-components/checkbox-toggle-notice/"
+          path: "/ui-components/components/checkbox-toggle-notice/"
         },
         {
           title: "Checkboxset",
-          path: "/ui-components/checkbox-set/"
+          path: "/ui-components/components/checkbox-set/"
         },
         {
           title: "ColorPicker",
-          path: "/ui-components/color-picker/"
+          path: "/ui-components/components/color-picker/"
         },
         {
           title: "Column",
-          path: "/ui-components/column/"
+          path: "/ui-components/components/column/"
         },
         {
           title: "Columns",
-          path: "/ui-components/columns/"
+          path: "/ui-components/components/columns/"
         },
         {
           title: "ColumnsEditor",
-          path: "/ui-components/columns-editor/"
+          path: "/ui-components/components/columns-editor/"
         },
         {
           title: "ColumnsEditorRecord",
-          path: "/ui-components/columns-editor-record/"
+          path: "/ui-components/components/columns-editor-record/"
         },
         {
           title: "ColumnsEditorView",
-          path: "/ui-components/columns-editor-view/"
+          path: "/ui-components/components/columns-editor-view/"
         },
         {
           title: "ColumnsEditingBulk",
-          path: "/ui-components/columns-editing-bulk/"
+          path: "/ui-components/components/columns-editing-bulk/"
         },
         {
           title: "ColumnsEDitingClient",
-          path: "/ui-components/columns-editing-client/"
+          path: "/ui-components/components/columns-editing-client/"
         },
         {
           title: "ColumnsResize",
-          path: "/ui-components/columns-resize/"
+          path: "/ui-components/components/columns-resize/"
         },
         {
           title: "ColumnsControls",
-          path: "/ui-components/columns-controls/"
+          path: "/ui-components/components/columns-controls/"
         },
         {
           title: "Container",
-          path: "/ui-components/container/"
+          path: "/ui-components/components/container/"
         },
         {
           title: "Date",
-          path: "/ui-components/date/"
+          path: "/ui-components/components/date/"
         },
         {
           title: "DateColumn",
-          path: "/ui-components/date-column/"
+          path: "/ui-components/components/date-column/"
         },
         {
           title: "DragAndDrop",
-          path: "/ui-components/drag-and-drop/"
+          path: "/ui-components/components/drag-and-drop/"
         },
         {
           title: "DynamicRows",
@@ -159,207 +163,207 @@ module.exports = [
         },
         {
           title: "DynamicRowsDragAndDrop",
-          path: "/ui-components/dynamic-rows-drag-drop/"
+          path: "/ui-components/components/dynamic-rows-drag-drop/"
         },
         {
           title: "DynamicRowsRecord",
-          path: "/ui-components/dynamic-rows-record/"
+          path: "/ui-components/components/dynamic-rows-record/"
         },
         {
           title: "Email",
-          path: "/ui-components/email/"
+          path: "/ui-components/components/email/"
         },
         {
           title: "ExpandableColumn",
-          path: "/ui-components/expandable-column/"
+          path: "/ui-components/components/expandable-column/"
         },
         {
           title: "ExportButton",
-          path: "/ui-components/export-button/"
+          path: "/ui-components/components/export-button/"
         },
         {
           title: "Fieldset",
-          path: "/ui-components/fieldset/"
+          path: "/ui-components/components/fieldset/"
         },
         {
           title: "File",
-          path: "/ui-components/file/"
+          path: "/ui-components/components/file/"
         },
         {
           title: "FileUploader",
-          path: "/ui-components/file-uploader/"
+          path: "/ui-components/components/file-uploader/"
         },
         {
           title: "Filters",
-          path: "/ui-components/filters/"
+          path: "/ui-components/components/filters/"
         },
         {
           title: "FiltersChips",
-          path: "/ui-components/filters-chips/"
+          path: "/ui-components/components/filters-chips/"
         },
         {
           title: "Form",
-          path: "/ui-components/form/"
+          path: "/ui-components/components/form/"
         },
         {
           title: "FormDataProvider",
-          path: "/ui-components/form-data-provider/"
+          path: "/ui-components/components/form-data-provider/"
         },
         {
           title: "GridDataProvider",
-          path: "/ui-components/grid-data-provider/",
+          path: "/ui-components/components/grid-data-provider/",
         },
         {
           title: "Hidden",
-          path: "/ui-components/hidden/",
+          path: "/ui-components/components/hidden/",
         },
         {
           title: "HtmlContent",
-          path: "/ui-components/html-content/",
+          path: "/ui-components/components/html-content/",
         },
         {
           title: "ImagePreview",
-          path: "/ui-components/image-preview/",
+          path: "/ui-components/components/image-preview/",
         },
         {
           title: "ImageUploader",
-          path: "/ui-components/image-uploader/",
+          path: "/ui-components/components/image-uploader/",
         },
         {
           title: "Input",
-          path: "/ui-components/input/",
+          path: "/ui-components/components/input/",
         },
         {
           title: "InsertForm",
-          path: "/ui-components/insert-form/",
+          path: "/ui-components/components/insert-form/",
         },
         {
           title: "InsertListing",
-          path: "/ui-components/insert-listing/",
+          path: "/ui-components/components/insert-listing/",
         },
         {
           title: "LinkColumn",
-          path: "/ui-components/link-column/",
+          path: "/ui-components/components/link-column/",
         },
         {
           title: "Listing (grid)",
-          path: "/ui-components/listing-grid/",
+          path: "/ui-components/components/listing-grid/",
         },
         {
           title: "Masonry (grid)",
-          path: "/ui-components/masonry/",
+          path: "/ui-components/components/masonry/",
         },
         {
           title: "MassActions",
-          path: "/ui-components/mass-actions/",
+          path: "/ui-components/components/mass-actions/",
         },
         {
           title: "Modal",
-          path: "/ui-components/modal/",
+          path: "/ui-components/components/modal/",
         },
         {
           title: "Multiline",
-          path: "/ui-components/multiline/",
+          path: "/ui-components/components/multiline/",
         },
         {
           title: "Multiselect",
-          path: "/ui-components/multiselect/",
+          path: "/ui-components/components/multiselect/",
         },
         {
           title: "MultiselectColumn",
-          path: "/ui-components/multiselect-column/",
+          path: "/ui-components/components/multiselect-column/",
         },
         {
           title: "Navigation",
-          path: "/ui-components/navigation/",
+          path: "/ui-components/components/navigation/",
         },
         {
           title: "OnOffColumn",
-          path: "/ui-components/on-off-column/",
+          path: "/ui-components/components/on-off-column/",
         },
         {
           title: "Paging",
-          path: "/ui-components/paging/",
+          path: "/ui-components/components/paging/",
         },
         {
           title: "Radioset",
-          path: "/ui-components/radio-set/",
+          path: "/ui-components/components/radio-set/",
         },
         {
           title: "Range",
-          path: "/ui-components/range/",
+          path: "/ui-components/components/range/",
         },
         {
           title: "Search",
-          path: "/ui-components/search/",
+          path: "/ui-components/components/search/",
         },
         {
           title: "Select",
-          path: "/ui-components/select/",
+          path: "/ui-components/components/select/",
         },
         {
           title: "SelectColumn",
-          path: "/ui-components/select-column/",
+          path: "/ui-components/components/select-column/",
         },
         {
           title: "Sizes",
-          path: "/ui-components/sizes/",
+          path: "/ui-components/components/sizes/",
         },
         {
           title: "SortBy",
-          path: "/ui-components/sortby/",
+          path: "/ui-components/components/sortby/",
         },
         {
           title: "Tab",
-          path: "/ui-components/tab/",
+          path: "/ui-components/components/tab/",
         },
         {
           title: "Text",
-          path: "/ui-components/text/",
+          path: "/ui-components/components/text/",
         },
         {
           title: "Textarea",
-          path: "/ui-components/text-area/",
+          path: "/ui-components/components/text-area/",
         },
         {
           title: "ThumbnailColumn",
-          path: "/ui-components/thumbnail-column/",
+          path: "/ui-components/components/thumbnail-column/",
         },
         {
           title: "TimelineColumns",
-          path: "/ui-components/timeline-columns/",
+          path: "/ui-components/components/timeline-columns/",
         },
         {
           title: "ListingToolbar",
-          path: "/ui-components/toolbar/",
+          path: "/ui-components/components/toolbar/",
         },
         {
           title: "TreeMassActions",
-          path: "/ui-components/tree-mass-actions/",
+          path: "/ui-components/components/tree-mass-actions/",
         },
         {
           title: "UrlInput",
-          path: "/ui-components/url-input/",
+          path: "/ui-components/components/url-input/",
         },
         {
           title: "UI-select",
-          path: "/ui-components/secondary-ui-select/",
+          path: "/ui-components/components/secondary-ui-select/",
         },
         {
           title: "WYSIWYG",
-          path: "/ui-components/wysiwyg/",
+          path: "/ui-components/components/wysiwyg/",
           pages: [
             {
               title: "Add custom editor",
-              path: "/ui-components/wysiwyg/add-custom-editor/",
+              path: "/ui-components/components/wysiwyg/add-custom-editor/",
             },
             {
               title: "Configure TinyMCE editor",
-              path: "/ui-components/wysiwyg/configure-tinymce-editor/",
+              path: "/ui-components/components/wysiwyg/configure-tinymce-editor/",
             },
             {
               title: "Extension points",
-              path: "/ui-components/wysiwyg/extension-points/",
+              path: "/ui-components/components/wysiwyg/extension-points/",
             },
           ],
         },

@@ -4,7 +4,7 @@ description: Follow this tutorial to create a new link type in Adobe Commerce an
 ---
 # Update the page URL type
 
-This topic describes how to extend the existing [`UrlInput` component](../url-input.md) to implement a new link type, or update an existing one, for your module.
+This topic describes how to extend the existing [`UrlInput` component](../components/url-input.md) to implement a new link type, or update an existing one, for your module.
 
 ## Create the link class
 
