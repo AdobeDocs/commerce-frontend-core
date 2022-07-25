@@ -34,7 +34,7 @@ jobs:
         id: get_path_prefix
         with:
           script: |
-            const script = require('./.github/scripts/get-path-prefix.js');
+            const script = require('.github/scripts/get-path-prefix.js');
             await script({core});
           result-encoding: string
 
