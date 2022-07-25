@@ -5,7 +5,9 @@
 // Documentation for the actions/github-script:
 // https://github.com/actions/github-script#run-a-separate-file
 
-module.exports = async (pathPrefix, { core }) => {
+module.exports = async ({ core }) => {
+  const { pathPrefix } = require('./gatsby-config.js');
+
   if (!pathPrefix) {
     core.setFailed(
       `The pathPrefix in the site's gatsby-config.js file is missing.
