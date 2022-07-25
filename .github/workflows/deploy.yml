@@ -32,7 +32,7 @@ jobs:
         id: get_path_prefix
         with:
           script: |
-            const script = require(./.github/scripts/get-path-prefix.js);
+            const script = require('./.github/scripts/get-path-prefix.js');
             await script({github, context, core});
           result-encoding: string
       - name: Get branch name
