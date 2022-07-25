@@ -34,8 +34,9 @@ jobs:
         id: get_path_prefix
         with:
           script: |
+            const { pathPrefix } = require('./gatsby-config.js');
             const script = require('./.github/scripts/get-path-prefix.js');
-            await script({core});
+            script(pathPrefix, {core});
           result-encoding: string
       - name: Get branch name
         shell: bash
