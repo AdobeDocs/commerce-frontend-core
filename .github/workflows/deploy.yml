@@ -26,14 +26,16 @@ jobs:
       branch_short_ref: ${{ steps.get_branch.outputs.branch }}
       exclude_subfolder: ${{ github.event.inputs.excludeSubfolder }}
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/github-script@v6
-        name: Get Path Prefix
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Get pathPrefix
+        uses: actions/github-script@v6
         id: get_path_prefix
         with:
           script: |
-            const script = require('./.github/workflows/get-path-prefix.js');
-            script({ core });
+            const script = require('./.github/scripts/get-path-prefix.js');
+            await script({core});
           result-encoding: string
       - name: Get branch name
         shell: bash

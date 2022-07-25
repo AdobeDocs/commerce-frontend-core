@@ -5,8 +5,8 @@
 // Documentation for the actions/github-script:
 // https://github.com/actions/github-script#run-a-separate-file
 
-module.exports = ({ core }) => {
-  const { pathPrefix } = require('./gatsby-config.js');
+module.exports = async ({ core }) => {
+  const { pathPrefix } = await require('../../gatsby-config.js');
 
   if (!pathPrefix) {
     core.setFailed(
