@@ -5,11 +5,8 @@
 // Documentation for the actions/github-script:
 // https://github.com/actions/github-script#run-a-separate-file
 
-module.exports = async ({ github, context, core }) => {
-  console.log('github', github);
-  console.log('context', context);
-  console.log('core', core);
-  const { pathPrefix } = await require('../../gatsby-config.js');
+module.exports = ({ core }) => {
+  const { pathPrefix } = require('../../gatsby-config.js');
   console.log("🚀 pathPrefix", pathPrefix)
 
   if (!pathPrefix) {
@@ -49,5 +46,5 @@ module.exports = async ({ github, context, core }) => {
       );
     }
   }
-  return pathPrefix;
+  core.exportVariable('path-prefix', pathPrefix);
 };

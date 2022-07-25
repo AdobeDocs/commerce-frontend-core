@@ -35,7 +35,7 @@ jobs:
         with:
           script: |
             const script = require('./.github/scripts/get-path-prefix.js');
-            await script({github, context, core});
+            script({ core });
           result-encoding: string
       - name: Get branch name
         shell: bash
