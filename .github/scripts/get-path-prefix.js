@@ -6,7 +6,7 @@
 // https://github.com/actions/github-script#run-a-separate-file
 
 module.exports = async ({ core }) => {
-  const { pathPrefix } = await require('../../gatsby-config.js');
+  const { pathPrefix } = await require('./gatsby-config.js');
 
   if (!pathPrefix) {
     core.setFailed(
@@ -34,7 +34,7 @@ module.exports = async ({ core }) => {
   } else {
     if (!pathPrefix.startsWith('/') || !pathPrefix.endsWith('/')) {
       core.setFailed(
-        `The pathPrefix in the site's gatsby-config.js file does not start or end with "/".
+          `The pathPrefix in the site's gatsby-config.js file does not start or end with "/".
 
         To fix this, change the pathPrefix to include a name that starts and ends with "/".
         For example: "/document-services/" or "/commerce/cloud-tools/".
@@ -45,5 +45,5 @@ module.exports = async ({ core }) => {
       );
     }
   }
-  core.setOutput('path_prefix', pathPrefix);
+  return pathPrefix;
 };
