@@ -35,3 +35,6 @@ cypress/screenshots
 
 # lerna
 lerna-debug.log
+
+# local actions
+.actrc
