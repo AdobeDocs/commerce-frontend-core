@@ -1,6 +1,6 @@
-[![Deployment](https://github.com/bdenham/commerce-frontend-core/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/bdenham/commerce-frontend-core-fork/actions/workflows/deploy.yml)
-[![Github Pages](https://github.com/bdenham/commerce-frontend-core/actions/workflows/github-pages.yml/badge.svg?branch=main)](https://github.com/bdenham/commerce-frontend-core-fork/actions/workflows/github-pages.yml)
-[![Latest Pull Request](https://github.com/bdenham/commerce-frontend-core/actions/workflows/test-pull-request.yml/badge.svg?branch=main)](https://github.com/bdenham/commerce-frontend-core-fork/actions/workflows/test-pull-request.yml)
+[![Deployment](https://github.com/AdobeDocs/commerce-frontend-core/actions/workflows/deploy.yml/badge.svg)](https://github.com/AdobeDocs/commerce-frontend-core/actions/workflows/deploy.yml)
+[![Github Pages](https://github.com/AdobeDocs/commerce-frontend-core/actions/workflows/github-pages.yml/badge.svg)](https://github.com/AdobeDocs/commerce-frontend-core/actions/workflows/github-pages.yml)
+[![Latest Pull Request](https://github.com/AdobeDocs/commerce-frontend-core/actions/workflows/test-pull-request.yml/badge.svg)](https://github.com/AdobeDocs/commerce-frontend-core/actions/workflows/test-pull-request.yml)
 
 # Adobe I/O Documentation Template
 
