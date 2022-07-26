@@ -1,6 +1,6 @@
 [![Deployment](https://github.com/AdobeDocs/commerce-frontend-core/actions/workflows/deploy.yml/badge.svg)](https://github.com/AdobeDocs/commerce-frontend-core/actions/workflows/deploy.yml)
 [![Github Pages](https://github.com/AdobeDocs/commerce-frontend-core/actions/workflows/github-pages.yml/badge.svg)](https://github.com/AdobeDocs/commerce-frontend-core/actions/workflows/github-pages.yml)
-[![Latest Pull Request](https://github.com/AdobeDocs/commerce-frontend-core/actions/workflows/test-pull-request.yml/badge.svg)](https://github.com/AdobeDocs/commerce-frontend-core/actions/workflows/test-pull-request.yml)
+[![Latest Pull Request](https://github.com/AdobeDocs/commerce-frontend-core/actions/workflows/pull_request/badge.svg?branch=main&event=pull_request)](https://github.com/AdobeDocs/commerce-frontend-core/actions/workflows/test-pull-request.yml)
 
 # Adobe I/O Documentation Template
 
