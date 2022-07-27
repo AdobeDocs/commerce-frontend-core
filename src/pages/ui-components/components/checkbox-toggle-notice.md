@@ -27,7 +27,7 @@ Extends the [`Checkbox`](checkbox.md) component:
 
 ### Integration
 
-This is an example of how to integrate the CheckboxsToggleNotice component with the [Form](form.md) component:
+This is an example of how to integrate the CheckboxToggleNotice component with the [Form](form.md) component:
 
 ```xml
 <form>
