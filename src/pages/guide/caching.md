@@ -72,7 +72,7 @@ The full list of cache types can be found in the [Overview of cache types](https
 To clean cache, run
 
 ```bash
-bin/magento cache:clean <type> ... <type>
+bin/magento cache:clean <type> <type>
 ```
 
 To view the status of the cache, run:
