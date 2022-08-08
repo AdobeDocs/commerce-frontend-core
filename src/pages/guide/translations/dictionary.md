@@ -24,7 +24,7 @@ Translation priority follows the inverse sequence, with "module translations" ha
 
 If there are competing translations for one string, the theme dictionary translations have priority over the [module](https://glossary.magento.com/module) translations, and child theme translations have priority over parent theme translations.
 
-## Ooverride parent strings for default locale
+## Override parent strings for default locale
 
 The translations priority described earlier is applied for the default `en_US` locale as well. So you can use the `en_US.csv` dictionary to customize the strings used in the default locale.
 
