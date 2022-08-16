@@ -3,7 +3,7 @@ title: UI Library | Commerce Frontend Development
 description: Use mixins to accelerate Adobe Commerce and Magento Open Source theme development.
 ---
 
-# UI libraary
+# UI library
 
 The [UI library](https://glossary.magento.com/library) is a flexible [Less]-based [frontend](https://glossary.magento.com/frontend) library designed to assist [theme](https://glossary.magento.com/theme) developers.
 It employs a set of mixins for base elements to ease frontend theme development and customization.
