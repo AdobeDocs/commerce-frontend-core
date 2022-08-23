@@ -18,7 +18,7 @@ To customize [storefront](https://glossary.magento.com/storefront) styles, you n
 
 ## Things to remember when working with styles
 
-*  Make sure that you [set](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html) your application to the developer or default [mode](https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html).
+*  Make sure that you [set](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) your application to the developer or default [mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html).
 
 *  If your style changes do not apply after refreshing the page, cleaning the static files cache might help. See the [caching](../caching.md#page-caching) for instructions how to do this.
 

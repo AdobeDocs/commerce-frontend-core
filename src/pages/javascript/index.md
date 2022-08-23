@@ -44,4 +44,4 @@ JavaScript automatic testing is described in a separate [JavaScript unit testing
 [Locate JavaScript]: debug.md
 [jQuery widgets]: jquery-widgets/index.md
 [Customizing JavaScript illustration]: practice.md
-[JavaScript unit testing]: https://devdocs.magento.com/guides/v2.4/test/js/jasmine.html
+[JavaScript unit testing]: https://developer.adobe.com/commerce/testing/guide/js/

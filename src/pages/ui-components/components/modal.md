@@ -11,7 +11,7 @@ Similar to the widget's configuration, the component's configuration allows you 
 
 The Modal component can be used for both [Admin](https://glossary.magento.com/admin) and storefronts.
 
-For recommendations about modal windows usage from the UX point of view, see the corresponding topic in the [Admin pattern library](https://devdocs.magento.com/guides/v2.4/pattern-library/containers/slideouts-modals-overlays/slideouts-modals-overalys.html).
+For recommendations about modal windows usage from the UX point of view, see the corresponding topic in the [Admin pattern library](https://developer.adobe.com/commerce/admin-developer/pattern-library/containers/slideouts-modals-overlays/).
 
 ## Options
 

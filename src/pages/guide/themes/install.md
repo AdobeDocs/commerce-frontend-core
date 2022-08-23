@@ -16,7 +16,7 @@ The following sections contain more information about each installation flow.
 
 ## Prerequisites
 
-[Set](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html) your application to the developer or default [mode](https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html).
+[Set](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) your application to the developer or default [mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html).
 
 ## Manual install
 

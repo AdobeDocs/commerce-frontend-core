@@ -13,7 +13,7 @@ Thus we can significantly improve the time to first render of our pages.
 
 <InlineAlert variant="info" slots="text"/>
 
-CSS critical path configuration is located on the **Stores** > Settings > **Configuration** > **ADVANCED** > **Developer** tab. However, the **Developer** tab is hidden in [production mode](https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html). Once in production mode, CSS critical path can only be enabled using the CLI.
+CSS critical path configuration is located on the **Stores** > Settings > **Configuration** > **ADVANCED** > **Developer** tab. However, the **Developer** tab is hidden in [production mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html). Once in production mode, CSS critical path can only be enabled using the CLI.
 
 To enable the CSS critical path:
 

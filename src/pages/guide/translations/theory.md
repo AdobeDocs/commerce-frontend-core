@@ -152,8 +152,8 @@ To ensure that the text you add in a `.js` file is collected by the i18n tool an
 
 In this example, the `'Hello %1'` string is added to the dictionary when the i18n tool is run.
 
-[i18n tool]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-i18n.html
-[generating the dictionary]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-i18n.html#config-cli-subcommands-xlate-dict
+[i18n tool]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/localization.html
+[generating the dictionary]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/localization.html
 [.phtml template]: ../templates/index.md
 [custom email templates]: ../templates/email.md
 [directive]: ../templates/email.md#localization

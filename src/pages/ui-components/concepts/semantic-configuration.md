@@ -110,4 +110,4 @@ To use the autocomplete and validation features in your IDE, generate the URN as
 <!--Link Declarations -->
 
 [declaring a custom UI component]: ../howto/new-component-declaration.md
-[URN highlighter]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-urn.html
+[URN highlighter]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/urn-highlighter.html
