@@ -7,7 +7,7 @@ description: Configure Adobe Commerce and Magento Open Source UI components and 
 
 The Filters component renders UI controls for filtering and applies filtering. Must be a child of the [Listing component](listing-grid.md).
 
-See the [Admin Design Pattern Library (Filters)](https://devdocs.magento.com/guides/v2.4/pattern-library/filters/data-table-filters/filtering.html) topic for information about the UI design patterns that can be implemented using Filters component.
+See the [Admin Design Pattern Library (Filters)](https://developer.adobe.com/commerce/admin-developer/pattern-library/displaying-data/filters/) topic for information about the UI design patterns that can be implemented using Filters component.
 
 ## Options
 

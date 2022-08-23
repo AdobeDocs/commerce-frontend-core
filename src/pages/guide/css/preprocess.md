@@ -68,7 +68,7 @@ In server-side Less compilation mode, to have your changes applied, you need to 
 1. Trigger [static files](https://glossary.magento.com/static-files) compilation and publication. This can be done in one of the following ways:
 
    -  Reloading the page where the modified styles are applied.
-   -  Running the [static files deployment tool](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-static-view.html).
+   -  Running the [static files deployment tool](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/static-view/static-view-file-deployment.html).
 
 Reloading the page only triggers compilation and publication of the styles used on this very page, and does not give you the information about the errors if any. So if you made changes in `.less` files used on many pages, and want to debug them, using the deployment tool is the better option.
 
@@ -96,7 +96,7 @@ The tool pre-processes (including compilation) and publishes the static view fil
 
 <InlineAlert variant="info" slots="text"/>
 
-Manual static content deployment is not required in "default" and "developer" modes. If you still want to deploy in these modes, use the -f option: `bin/magento setup:static-content:deploy -f`. Read more about the command in the [Deploy static view files](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-static-view.html) section.
+Manual static content deployment is not required in "default" and "developer" modes. If you still want to deploy in these modes, use the -f option: `bin/magento setup:static-content:deploy -f`. Read more about the command in the [Deploy static view files](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/static-view/static-view-file-deployment.html) section.
 
 All errors occurring during `.less` files compilation are handled by the [LESS PHP library][] third party library.
 
@@ -260,9 +260,9 @@ In the processed file, this results in the following:
 ```
 
 <!-- Link definitions -->
-[production application mode]: https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html#production-mode
+[production application mode]:https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#production-mode
 [LESS PHP library]: https://github.com/wikimedia/less.php
 [native `less.js` library]: http://lesscss.org/usage/#using-less-in-the-browser
 [fallback mechanism]: ../themes/inheritance.md#override-static-assets
-[publication]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-static-view.html#config-cli-static-overview
+[publication]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/static-view/static-view-file-deployment.html
 [static files fallback]: ../themes/inheritance.md#override-static-assets

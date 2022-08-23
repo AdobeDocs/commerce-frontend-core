@@ -8,7 +8,7 @@ This topic describes how to create your custom theme for Admin, referencing the 
 
 ## Prerequisites
 
-[Set](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html) your application to the developer [mode](https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html). The application mode influences the way [static files](https://glossary.magento.com/static-files) are cached.
+[Set](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) your application to the developer [mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html). The application mode influences the way [static files](https://glossary.magento.com/static-files) are cached.
 
 ## Overview
 
