@@ -30,7 +30,7 @@ However, the above only works if the theme's parent is a Blank. Consider a Theme
 In case of subsequent descendants of the child theme, you can avoid this behavior by following these steps:
 
 1. Create a `_extend-child.less` in both your parent and child themes.
-1. Keep `_extend-child.less` empty in your parent theme and add it too your parent theme's `_extend.less` file.
+1. Keep `_extend-child.less` empty in your parent theme and add it to your parent theme's `_extend.less` file.
 1. Add a `@import '_extend-child.less'` rule to the end of your parent's theme's `_extend.less` file.
 1. In your child theme, add `@import` or style rules in `_extend-child.less` to extend parent theme's CSS.
 
