@@ -345,7 +345,7 @@ The visibility can also be adjusted using the [ACL Resource](https://developer.a
 
 In the admin area, this is implemented for [global search](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Backend/view/adminhtml/layout/default.xml) and for [admin notification list](https://github.com/magento/magento2/blob/2.4/app/code/Magento/AdminNotification/view/adminhtml/layout/default.xml).
 
-## Set the template used by a bloc
+## Set the template used by a block
 
 There are three ways to set the template for a block:
 
