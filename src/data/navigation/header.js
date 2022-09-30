@@ -15,4 +15,8 @@ module.exports = [
       title: "JavaScript",
       path: "/javascript/",
     },
+    {
+      title: "Page Builder",
+      path: "/page-builder/",
+    },
   ];
