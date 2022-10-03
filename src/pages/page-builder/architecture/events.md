@@ -30,11 +30,11 @@ The following table lists the Page Builder events you can bind to and handle wit
 | [contentType:duplicateAfter](#contenttypeduplicateafter)            | [stage:interactionStart](#stageinteractionstart)                                                 |
 | [contentType:mountAfter](#contenttypemountafter)                    | [stage:interactionStop](#stageinteractionstop)                                                   |
 | [contentType:moveAfter](#contenttypemoveafter)                      | [stage:error](#stageerror)                                                                       |
-| [contentType:moveBefore](#contenttypemovebefore)                    | [stage:{{preview.contentType.stageId}}:masterFormatRenderAfter](#stageidmasterformatrenderafter) |
-| [contentType:redrawAfter](#contenttyperedrawafter)                  | [stage:{{preview.contentType.stageId}}:readyAfter](#stageidreadyafter)                           |
-| [contentType:removeAfter](#contenttyperemoveafter)                  | [stage:{{preview.contentType.stageId}}:renderAfter](#stagepreviewrenderafter)                    |
-| [contentType:renderAfter](#contenttyperenderafter)                  | [stage:{{preview.contentType.stageId}}:fullScreenModeChangeAfter](#stageidtogglefullscreen)      |
-| [contentType:renderAfter](#contenttyperenderafter)                  | [stage:{{preview.contentType.stageId}}:viewportChangeAfter](#stageidviewportchangeafter)         |
+| [contentType:moveBefore](#contenttypemovebefore)                    | [stage:{{preview.contentType.stageId}}:masterFormatRenderAfter](#stagepreviewcontenttypestageidmasterformatrenderafter) |
+| [contentType:redrawAfter](#contenttyperedrawafter)                  | [stage:{{preview.contentType.stageId}}:readyAfter](#stagepreviewcontenttypestageidreadyafter)                           |
+| [contentType:removeAfter](#contenttyperemoveafter)                  | [stage:{{preview.contentType.stageId}}:renderAfter](#stagepreviewcontenttypestageidrenderafter)                    |
+| [contentType:renderAfter](#contenttyperenderafter)                  | [stage:{{preview.contentType.stageId}}:fullScreenModeChangeAfter](#stagepreviewcontenttypestageidfullscreenmodechangeafter)      |
+| [contentType:renderAfter](#contenttyperenderafter)                  | [stage:{{preview.contentType.stageId}}:viewportChangeAfter](#stagepreviewcontenttypestageidviewportchangeafter)         |
 | [contentType:renderAfter](#contenttyperenderafter)                  | [stage:viewportChangeAfter](#stageviewportchangeafter)                                           |
 |                                                                     | [stage:updateAfter](#stageupdateafter)                                                           |
 |                                                                     |                                                                                                  |
@@ -44,9 +44,9 @@ The following table lists the Page Builder events you can bind to and handle wit
 | [column:initializeAfter](#columninitializeafter)                    |                                                                                                  |
 |                                                                     |                                                                                                  |
 | **Image Events**                                                    | **Other Events**                                                                                 |
-| [image:{{preview.contentType.id}}:assignAfter](#imageidassignafter) | [googleMaps:authFailure](#googlemapsauthfailure)                                                 |
+| [image:{{preview.contentType.id}}:assignAfter](#imagepreviewcontenttypeidassignafter) | [googleMaps:authFailure](#googlemapsauthfailure)                                                 |
 | [image:mountAfter](#imagemountafter)                                | [state](#state)                                                                                  |
-| [image:uploadAfter](#imageuploadafter)                              | [{{config.name}}:{{preview.contentType.id}}:updateAfter](#confignameidupdateafter)               |
+| [image:uploadAfter](#imageuploadafter)                              | [{{config.name}}:{{preview.contentType.id}}:updateAfter](#confignamepreviewcontenttypeidupdateafter)               |
 
 ## Event details
 
@@ -248,7 +248,7 @@ events.on("column:initializeAfter", function (params) {});
 
 [Back to top]
 
-### `image:{{preview.contentType.id}}:assignAfter` {#imageidassignafter}
+### `image:{{preview.contentType.id}}:assignAfter`
 
 ```js
 events.on(`image:${this.contentType.id}:assignAfter`, function (params) {});
@@ -298,7 +298,7 @@ events.on(`stage:${this.contentType.stageId}:readyAfter`, function (params) {});
 
 [Back to top]
 
-### `stage:{{preview.contentType.stageId}}:renderAfter` {#stagepreviewrenderafter}
+### `stage:{{preview.contentType.stageId}}:renderAfter`
 
 ```js
 events.on(`stage:${this.contentType.stageId}:renderAfter`, function (params) {});
@@ -334,7 +334,7 @@ events.on("stage:interactionStop", function (params) {});
 
 [Back to top]
 
-### `stage:{{preview.contentType.stageId}}:fullScreenModeChangeAfter` {#stageidtogglefullscreen}
+### `stage:{{preview.contentType.stageId}}:fullScreenModeChangeAfter`
 
 ```js
 events.on(`stage:${this.contentType.stageId}:fullScreenModeChangeAfter`, function (params) {});
@@ -388,7 +388,7 @@ events.on("stage:error", function (params) {});
 
 [Back to top]
 
-### `stage:{{preview.contentType.stageId}}:readyAfter` {#stageidreadyafter}
+### `stage:{{preview.contentType.stageId}}:readyAfter`
 
 ```js
 events.on(`stage:${this.contentType.stageId}:readyAfter`, function (params) {});
@@ -400,7 +400,7 @@ events.on(`stage:${this.contentType.stageId}:readyAfter`, function (params) {});
 
 [Back to top]
 
-### `stage:{{preview.contentType.stageId}}:masterFormatRenderAfter` {#stageidmasterformatrenderafter}
+### `stage:{{preview.contentType.stageId}}:masterFormatRenderAfter`
 
 ```js
 events.on(`stage:${this.contentType.stageId}:masterFormatRenderAfter`, function (params) {});
@@ -448,7 +448,7 @@ events.on("stage:childFocusStop", function () {});
 
 [Back to top]
 
-### `stage:viewportChangeAfter` {#stageviewportchangeafter}
+### `stage:viewportChangeAfter`
 
 Triggered on viewport changes in the Admin stage.
 Handle this event to control in your content type's widget (`widget.js`) for cases in which your content type is rendered on the Admin stage from within a Block or Dynamic Block.
@@ -465,7 +465,7 @@ events.on(`stage:viewportChangeAfter`, function (args) {});
 
 [Back to top]
 
-### `stage:{{preview.contentType.stageId}}:viewportChangeAfter` {#stageidviewportchangeafter}
+### `stage:{{preview.contentType.stageId}}:viewportChangeAfter`
 
 Triggered on viewport changes in the Admin stage.
 Handle this event to control responsive changes to your content type from within your `preview` component.
@@ -493,7 +493,7 @@ events.on("state", function (params) {});
 
 [Back to top]
 
-### `{{config.name}}:{{preview.contentType.id}}:updateAfter` {#confignameidupdateafter}
+### `{{config.name}}:{{preview.contentType.id}}:updateAfter`
 
 ```js
 events.on(`${this.config.name}:${this.contentType.id}:updateAfter`, function (params) {});

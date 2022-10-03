@@ -101,7 +101,7 @@ The following diagram shows how these files interact to make viewports work.
 
 -  [Button icons](#button-icons)—SVG images for the viewport buttons.
 
--  [Stage events](#stage-event-triggers)—The events triggered from the `toggleViewport()` function—[`stage:viewportChangeAfter`](../architecture/events.md#stageviewportchangeafter) and [`stage:${this.id}:viewportChangeAfter`](../architecture/events.md#stageidviewportchangeafter). Content type JavaScript components (`preview.ts` and `widget.js`) can listen for these events and make responsive changes as needed.
+-  [Stage events](#stage-event-triggers)—The events triggered from the `toggleViewport()` function—[`stage:viewportChangeAfter`](../architecture/events.md#stageviewportchangeafter) and [`stage:${this.id}:viewportChangeAfter`](../architecture/events.md#stagepreviewcontenttypestageidviewportchangeafter). Content type JavaScript components (`preview.ts` and `widget.js`) can listen for these events and make responsive changes as needed.
 
 ## Viewport bindings and events
 
