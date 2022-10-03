@@ -62,9 +62,9 @@ This means you don't have to change your custom extensions if you're using UI co
 ![Page Builder data flow](../../_images/page-builder/data-flow.png)
 The following is a simple overview of the data flow:
 
-1. Page Builder's reader() reads the data from associated elements in the persisted rendered output of the master format. It does this by traversing through the content type's DOM tree and searching for the associated elements declared in the content types definition XML. Then it uses the various attributes, styles, and other configurations to read the data from the specific area of the DOM element.
+1. Page Builder's reader reads the data from associated elements in the persisted rendered output of the master format. It does this by traversing through the content type's DOM tree and searching for the associated elements declared in the content types definition XML. Then it uses the various attributes, styles, and other configurations to read the data from the specific area of the DOM element.
 
-1. Page Builder's element converters convert the data for each data mapping entry () to an internal supported format if required, this ensures the data collected from the DOM nodes is compatible with Page Builder's internal data store and UI component fields.
+1. Page Builder's element converters convert the data for each data mapping entry to an internal supported format if required, this ensures the data collected from the DOM nodes is compatible with Page Builder's internal data store and UI component fields.
 
 1. Page Builder's mass converters can change data for all content type elements, not just one. For more details, see [converter interface](configurations.md).
 
