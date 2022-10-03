@@ -132,7 +132,7 @@ In our example, we added the following viewport data to the `table` and `mobile-
 </view>
 ```
 
-Details for these viewport elements are in the [Viewport configurations section](../index.md#viewport-configurations), but let's quickly summarize them:
+Details for these viewport elements are in the [Viewport configurations section](index.md#viewport-configurations), but let's quickly summarize them:
 
 -  `label` — for adding the viewport name to the tooltip.
 
