@@ -123,6 +123,6 @@ To prevent your form field from switching or using Page Builder, set the `is_pag
 ```
 
 [Catalog Input Type]: ../_images/page-builder/catalog-input-type.png
-[Page Builder button]:/../_images/page-builder/pagebuilder-button.png
+[Page Builder button]:../_images/page-builder/pagebuilder-button.png
 [WYSIWYG UI Component]: https://developer.adobe.com/commerce/frontend-core/ui-components/components/wysiwyg/
 [UI Component configuration file]: https://developer.adobe.com/commerce/frontend-core/ui-components/concepts/xml-declaration/
