@@ -57,7 +57,7 @@ module.exports = [
     },
     {
       title: "Content types",
-      path: "/page-builder/content-types/create/",
+      path: "/page-builder/content-types/",
       pages: [
         {
           title: "Create",
