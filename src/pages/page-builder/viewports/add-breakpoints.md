@@ -3,7 +3,7 @@ title: Add breakpoints
 description: Add breakpoints by copying and pasting an existing breakpoint from Page Builder's view.xml file.
 ---
 
-## Add breakpoints
+# Add breakpoints
 
 Adding new breakpoints is as easy as copying and pasting an existing breakpoint from Page Builder's `view.xml` file (`Magento/PageBuilder/etc/view.xml`) to the `view.xml` file in your Admin theme or module, then changing its `min-width` and `max-width` as needed.
 
