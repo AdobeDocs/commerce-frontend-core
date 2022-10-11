@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="275" viewBox="0 0 850 275">
+  <g fill="none" fill-rule="evenodd">
+    <rect width="850" height="275" fill="#FFF"/>
+    <rect width="131" height="31" x="12" y="25" fill="#E3E3E3" stroke="#ADADAD"/>
+    <text fill="#333" font-family="Helvetica" font-size="14" letter-spacing=".2">
+      <tspan x="28" y="46">Insert Widget…</tspan>
+    </text>
+    <rect width="124" height="31" x="152" y="25" fill="#E3E3E3" stroke="#ADADAD"/>
+    <text fill="#333" font-family="Helvetica" font-size="14" letter-spacing=".2">
+      <tspan x="168" y="46">Insert Image…</tspan>
+    </text>
+    <rect width="139" height="31" x="286" y="25" fill="#E3E3E3" stroke="#ADADAD"/>
+    <text fill="#333" font-family="Helvetica" font-size="14" letter-spacing=".2">
+      <tspan x="302" y="46">Insert Variable…</tspan>
+    </text>
+    <text fill="#333" font-family="CourierNewPSMT, Courier New" font-size="14">
+      <tspan x="22" y="95">Enter HTML, CSS or JavaScript code</tspan>
+    </text>
+    <rect width="825" height="167" x="12" y="73" stroke="#ADADAD"/>
+    <rect width="849" height="274" x=".5" y=".5" stroke="#999"/>
+    <text fill="#747474" font-family="Helvetica" font-size="12">
+      <tspan x="13" y="263">HTML code must be valid. All CSS &amp; JavaScript must be wrapped in their HTML elements.</tspan>
+    </text>
+  </g>
+</svg>

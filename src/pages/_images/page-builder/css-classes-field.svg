@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="164" viewBox="0 0 740 164">
+  <g fill="none" fill-rule="evenodd">
+    <rect width="740" height="164" fill="#FFF"/>
+    <rect width="739" height="163" x=".5" y=".5" stroke="#999"/>
+    <text fill="#8F8E8F" font-family="Helvetica" font-size="14">
+      <tspan x="146.207" y="66">Other fields</tspan>
+    </text>
+    <text fill="#000" font-family="Helvetica" font-size="14">
+      <tspan x="141.766" y="112">CSS Classes</tspan>
+    </text>
+    <text fill="#000" font-family="Helvetica" font-size="12">
+      <tspan x="252.289" y="147">Space separated list of classes</tspan>
+    </text>
+    <rect width="465" height="32" x="252" y="43" fill="#FFF" stroke="#979797"/>
+    <rect width="465" height="32" x="252" y="92" fill="#FFF" stroke="#017BDB"/>
+    <text fill="#000" font-family="Helvetica" font-size="18">
+      <tspan x="10.47" y="25">Advanced</tspan>
+    </text>
+    <text fill="#000" font-family="Helvetica" font-size="14">
+      <tspan x="260.8" y="113">theme-headings</tspan>
+    </text>
+  </g>
+</svg>
