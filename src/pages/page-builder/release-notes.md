@@ -1,12 +1,12 @@
 ---
 title: Release notes
-description: This page redirects to the Page Builder release notes on ExL. 
+description: This page links to the Page Builder release notes on ExL. 
 ---
 
-<script>
-window.location.href = "https://experienceleague.adobe.com/docs/commerce-admin/page-builder/release-notes.html?lang=en";
-</script>
+# Release notes for Page Builder
 
-Redirecting to https://experienceleague.adobe.com/docs/commerce-admin/page-builder/release-notes.html?lang=en
+The Release notes for Page Builder are hosted on Adobe Experience League as part of the Page Builder User Guide.
 
-[Click here](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/release-notes.html?lang=en) if you are not automatically redirected.
+Follow the link below to open the Page Builder release notes in a new window:
+
+[Release notes for Page Builder](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/release-notes.html)
