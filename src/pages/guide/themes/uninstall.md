@@ -16,7 +16,7 @@ The following sections describe the flow for uninstalling themes in each case.
 
 ## Prerequisites
 
-1. [Set your application to the developer or default mode](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html).
+1. [Set your application to the developer or default mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html).
 1. Make sure that the theme is not applied on the storefront. To do this, in the [Admin](https://glossary.magento.com/admin) panel navigate to **Content** > Design > **Configuration** and make sure that your custom theme is not applied for any [store view](https://glossary.magento.com/store-view).
 1. Make sure that the theme is not defined as a parent for any registered theme. To do this, in the Admin panel, navigate to **Content** > Design > **Themes**. Make sure that your theme is not mentioned in the **Parent Theme** column. If it is mentioned, you need to uninstall the child theme first.
 

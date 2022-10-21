@@ -66,6 +66,6 @@ The locale dictionary would use the default values (keys) in the left column fol
 
 [translation dictionaries]: index.md#terms
 [`<Magento_Luma_theme_dir>/i18n/en_US.csv`]: https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/luma/i18n/en_US.csv
-[i18n tool]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-i18n.html#config-cli-subcommands-xlate-dict
-[Generate the dictionary]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-i18n.html#config-cli-subcommands-xlate-dict
+[i18n tool]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/localization.html
+[Generate the dictionary]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/localization.html
 [Example theme translation dictionary]: practice.md

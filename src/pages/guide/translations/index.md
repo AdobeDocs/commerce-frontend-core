@@ -145,7 +145,7 @@ In addition to the `.csv` file that contains the language dictionary, the langua
 *  `composer.json` that contains any dependencies for the language package and a mapping to its defined [locale](https://glossary.magento.com/locale). [Sample composer.json](https://developer.adobe.com/commerce/php/development/package/component/#sample-composerjson-file).
 
 *  `language.xml`, in which you declare a language package.
-   [Sample language.xml](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-i18n.html#config-cli-subcommands-xlate-example2).
+   [Sample language.xml](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/localization.html#example%3A-create-a-language-package).
 
 ## Open-source translations project
 
@@ -160,14 +160,14 @@ Admins will review and approve translations as available. The project may includ
 
 If you need help understanding the context or meaning of a UI string, or have questions about the project, chat with us in the Community Engineering [Translations Slack channel]. To join, send a request to [engcom@magento.com] or [self signup].
 
-[Generate a translation dictionary]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-i18n.html#config-cli-subcommands-xlate-dict
-[language inheritance]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-i18n.html#m2devgde-xlate-inheritancework
+[Generate a translation dictionary]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/localization.html
+[language inheritance]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/localization.html#create-directories-and-files
 [parent theme]: ../themes/inheritance.md
 [Example theme translation dictionary]: practice.md
-[translation dictionary tool]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-i18n.html#config-cli-subcommands-xlate-dict
-[language package]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-i18n.html#config-cli-subcommands-xlate-pack
-[dictionary generator tool]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-i18n.html#config-cli-subcommands-xlate-dict
-[Translation dictionaries and packages]: https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-i18n.html
+[translation dictionary tool]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/localization.html
+[language package]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/localization.html#create-a-language-package
+[dictionary generator tool]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/localization.html
+[Translation dictionaries and packages]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/localization.html
 [CrowdIn account]: https://crowdin.com/join
 [CrowdIn knowledge base]: https://support.crowdin.com/online-editor
 [engcom@magento.com]: mailto:engcom@magento.com

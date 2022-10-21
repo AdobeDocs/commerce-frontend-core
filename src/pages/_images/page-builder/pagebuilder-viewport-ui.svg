@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="157" viewBox="0 0 850 157">
+  <g fill="none" fill-rule="evenodd">
+    <rect width="850" height="157" fill="#FFF"/>
+    <rect width="850" height="49" y="20" fill="#373331"/>
+    <polygon fill="#F7F3EB" fill-rule="nonzero" points="815.73 49.567 818.295 47 820 48.703 817.435 51.269 819.168 53 814 53 814 47.84" transform="rotate(180 817 50)"/>
+    <polygon fill="#F7F3EB" fill-rule="nonzero" points="825.723 39.578 828.297 37 830 38.695 827.427 41.273 829.162 43 824 43 824 37.863"/>
+    <g transform="translate(628 30)">
+      <rect width="145" height="31" fill="#E3E3E3" stroke="#ADADAD"/>
+      <text fill="#333" font-family="Helvetica-Bold, Helvetica" font-size="14" font-weight="bold">
+        <tspan x="14.228" y="21">Save as Template</tspan>
+      </text>
+    </g>
+    <g transform="translate(490 30)">
+      <rect width="132" height="31" fill="#E3E3E3" stroke="#ADADAD"/>
+      <text fill="#333" font-family="Helvetica-Bold, Helvetica" font-size="14" font-weight="bold">
+        <tspan x="14.319" y="21">Apply Template</tspan>
+      </text>
+    </g>
+    <rect width="108" height="49" x="303" y="20" fill="#373331"/>
+    <rect width="54" height="48" x="303" y="20" fill="#000"/>
+    <path fill="#FFF" fill-rule="nonzero" d="M342.962076,53.0598881 L340.110485,45.4283919 L340.110485,34.7138817 C340.115567,34.3249467 339.792487,34.005516 339.388447,34 L320.611553,34 C320.207513,34.005516 319.884433,34.3249467 319.889515,34.7138817 L319.889515,45.4283919 L317.037924,53.0598881 C317.01318,53.1329493 317.000406,53.2092735 317,53.2861183 C316.994977,53.6750533 317.318057,53.994484 317.722097,54 L342.277903,54 C342.681943,53.994484 343.005023,53.6750533 343,53.2861183 C342.999594,53.2092735 342.98682,53.1329493 342.962076,53.0598881 Z M326,52 L326.888353,49 L333.111647,49 L334,51.9960457 L326,52 Z M339,46 L321,46 L321,36 L338.998644,36 L339,46 Z"/>
+    <path fill="#9A9997" fill-rule="nonzero" d="M387.9,34 L379.1,34 C378.492487,34 378,34.4924868 378,35.1 L378,52.7 C378,53.3075132 378.492487,53.8 379.1,53.8 L387.9,53.8 C388.507513,53.8 389,53.3075132 389,52.7 L389,35.1 C389,34.4924868 388.507513,34 387.9,34 Z M382.95,35.1 L384.05,35.1 C384.348954,35.1112932 384.588707,35.3510461 384.6,35.65 C384.588707,35.9489539 384.348954,36.1887068 384.05,36.2 L382.95,36.2 C382.64894,36.1935861 382.406414,35.9510599 382.4,35.65 C382.406972,35.3491784 382.649178,35.1069716 382.95,35.1 Z M383.5,53.305 C382.862111,53.305 382.345,52.7878889 382.345,52.15 C382.345,51.5121111 382.862111,50.995 383.5,50.995 C384.137889,50.995 384.655,51.5121111 384.655,52.15 C384.655,52.456325 384.533313,52.7501038 384.316708,52.9667083 C384.100104,53.1833128 383.806325,53.305 383.5,53.305 Z M387.9,50.5 L379.1,50.5 L379.1,37.3 L387.9,37.3 L387.9,50.5 Z"/>
+    <rect width="180" height="62" x="162" y="75" fill="#5A5956" rx="3"/>
+    <polygon fill="#5A5956" points="330 70 334 75 326 75"/>
+    <text fill="#FFF" font-family="Helvetica-Bold, Helvetica" font-size="12" font-weight="bold">
+      <tspan x="172.328" y="94">Desktop</tspan>
+    </text>
+    <text fill="#FFF" font-family="Helvetica" font-size="12">
+      <tspan x="172.5" y="110">View your content for desktop</tspan>
+    </text>
+    <text fill="#FFF" font-family="Helvetica" font-size="12">
+      <tspan x="172.5" y="127">Minimum Width: 1024px</tspan>
+    </text>
+    <rect width="180" height="62" x="367" y="75" fill="#5A5956" rx="3"/>
+    <polygon fill="#5A5956" points="383 70 387 75 379 75"/>
+    <text fill="#FFF" font-family="Helvetica-Bold, Helvetica" font-size="12" font-weight="bold">
+      <tspan x="377" y="94">Mobile</tspan>
+    </text>
+    <text fill="#FFF" font-family="Helvetica" font-size="12">
+      <tspan x="377.5" y="110">View your content for mobile</tspan>
+    </text>
+    <text fill="#FFF" font-family="Helvetica" font-size="12">
+      <tspan x="377.5" y="127">Width: 768px</tspan>
+    </text>
+    <rect width="849" height="156" x=".5" y=".5" stroke="#999"/>
+  </g>
+</svg>

@@ -10,7 +10,7 @@ Also, it gives information how to add a theme independent logo for your store.
 
 ## Prerequisites
 
-Make sure that you [set](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html) your application to the developer [mode](https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html).
+Make sure that you [set](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) your application to the developer [mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html).
 
 ## Apply a theme
 

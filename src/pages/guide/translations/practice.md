@@ -23,7 +23,7 @@ The following image shows a page where the current strings are used:
 
 To override the strings, ExampleCorp plans to use the `en_US.csv` dictionary file.
 
-1. Run the [i18n (internationalization) tool](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-i18n.html#config-cli-subcommands-xlate-dict) to generate the en_US dictionary for the `orange` theme:
+1. Run the [i18n (internationalization) tool](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/localization.html) to generate the en_US dictionary for the `orange` theme:
 
    ```bash
    bin/magento i18n:collect-phrases --output="app/design/frontend/ExampleCorp/orange/i18n/en_US.csv" app/design/frontend/ExampleCorp/orange

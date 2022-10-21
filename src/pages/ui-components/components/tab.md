@@ -7,7 +7,7 @@ description: Configure Adobe Commerce and Magento Open Source UI components and 
 
 The Tab component implements a tab content area.
 
-See the [Admin Design Pattern Library (Tabs)](https://devdocs.magento.com/guides/v2.4/pattern-library/containers/tabs/tabs.html) topic for information about the UI design patterns that can be implemented using the Tab component.
+See the [Admin Design Pattern Library (Tabs)](https://developer.adobe.com/commerce/admin-developer/pattern-library/containers/tabs/) topic for information about the UI design patterns that can be implemented using the Tab component.
 
 ## Options
 

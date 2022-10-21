@@ -7,7 +7,7 @@ description: Learn how to initialize and configure the Adobe Commerce and Magent
 
 <InlineAlert variant="warning" slots="text" />
 
-The list widget is deprecated since version 2.2.0. As an alternative component for the admin area, use [DynamicRows](https://devdocs.magento.com/guides/v2.4/ui_comp_guide/components/ui-dynamicrows.html).
+The list widget is deprecated since version 2.2.0. As an alternative component for the admin area, use [DynamicRows](https://developer.adobe.com/commerce/frontend-core/ui-components/components/dynamic-rows/).
 
 Provides a way to move items, typically a list, from one content section to another.
 The content can be moved using buttons and links.

@@ -9,7 +9,7 @@ This topic describes how to apply your custom [theme](https://glossary.magento.c
 
 ## Prerequisites
 
-1. [Set](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html) your application to the developer [mode](https://devdocs.magento.com/guides/v2.4/config-guide/bootstrap/magento-modes.html). The application mode influences the way [static files](https://glossary.magento.com/static-files) are cached.
+1. [Set](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) your application to the developer [mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html). The application mode influences the way [static files](https://glossary.magento.com/static-files) are cached.
 1. [Create a custom theme for the Admin panel](../themes/create-admin.md).
 1. [Add a new custom module](https://developer.adobe.com/commerce/php/development/build/) or decide to use existing custom module. The module must load after the Magento_Theme module. To ensure this, add the following code in `<your_custom_module_dir>/etc/module.xml` (replace placeholders with your [module](https://glossary.magento.com/module) information):
 
@@ -66,7 +66,7 @@ run the `bin/magento setup:upgrade` command in your command line. If prompted, a
 
 For details about performing command line tasks, view the following topics:
 
--  [Command line configuration](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli.html)
+-  [Command line configuration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/config-cli.html)
 -  [Uninstall or reinstall the application: Optionally keeping generated files](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-db-upgr.html)
 
 ## Open Admin in browser
