@@ -5,10 +5,9 @@ description: Manage CSS and LESS stylesheets when developing Adobe Commerce and 
 
 # Cascading style sheets (CSS)
 
-The application incorporates [Less](http://lesscss.org/), a CSS pre-processor that simplifies the management of complex CSS files.
-To define styles of a store, you can use both - CSS and Less stylesheets.
+The Adobe Commerce and Magento Source applications incorporate [Less](http://lesscss.org/), a CSS pre-processor that simplifies the management of complex CSS files. To define styles for a store, you can use both CSS and Less stylesheets.
 
-application provides a built-in Less UI library, which you can optionally extend.
+The Commerce application provides a built-in Less UI library, which you can optionally extend.
 
 To customize [storefront](https://glossary.magento.com/storefront) styles, you need to [create a custom design theme](../themes/create-storefront.md). Then you can use one of the following approaches:
 
