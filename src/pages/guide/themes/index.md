@@ -5,7 +5,7 @@ description: Review introductory information about how themes work in Adobe Comm
 
 # Themes
 
-A *theme* is a component of application which provides a consistent look and feel (visual design) for entire application area (for example, [storefront](https://glossary.magento.com/storefront) or Sdmin) using a combination of custom templates, layouts, styles or images.
+A *theme* is a component of application which provides a consistent look and feel (visual design) for entire application area (for example, [storefront](https://glossary.magento.com/storefront) or Admin) using a combination of custom templates, layouts, styles or images.
 
 Themes are designed to override or customize view layer resources, provided initially by modules or libraries.
 
