@@ -18,7 +18,7 @@ module.exports = {
   siteMetadata: {
     "home": {
       "title": "Commerce",
-      "path": "https://developer.adobe.com/commerce/docs"
+      "path": "/commerce/docs"
     },
     pages: pages,
     subPages: subPages,
