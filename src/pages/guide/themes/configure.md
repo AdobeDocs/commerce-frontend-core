@@ -72,6 +72,10 @@ All image properties used in `view.xml` should be listed in the order shown here
 | `transparency` | boolean | If set to `true`, the transparent background of images is saved. If is set to `false`, images have the white background (by default). You can set the color for the background using the `background` parameter. Default value: `true`. | Optional |
 | `background` | string | The color for the images background. Not applied to images with transparency, if `transparency` is set to `true`. Format: "[, ,]", e.g.: "[255, 255, 255]". | Optional |
 
+<InlineAlert variant="warning" slots="text"/>
+
+Due to area emulation, emails will ignore `etc/view.xml` configuration files in themes - instead only `etc/view.xml` configurations defined in modules are applied to emails.
+
 ### Resize catalog images
 
 Generally, product images are cached while saving the product. However, the `magento catalog:images:resize` command enables you to resize all images for display on your storefront. Situations where this could be necessary might be:
