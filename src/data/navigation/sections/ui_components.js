@@ -159,7 +159,7 @@ module.exports = [
         },
         {
           title: "DynamicRows",
-          path: "/ui-components/dynamic-rows/"
+          path: "/ui-components/components/dynamic-rows/"
         },
         {
           title: "DynamicRowsDragAndDrop",

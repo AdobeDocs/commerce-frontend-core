@@ -16,6 +16,10 @@ const { pages, subPages } = require("./src/data/navigation");
 module.exports = {
   pathPrefix: process.env.PATH_PREFIX || `/commerce/frontend-core/`,
   siteMetadata: {
+    "home": {
+      "title": "Commerce",
+      "path": "/commerce/docs"
+    },
     pages: pages,
     subPages: subPages,
   },

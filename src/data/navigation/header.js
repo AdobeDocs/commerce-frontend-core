@@ -1,6 +1,6 @@
 module.exports = [
     {
-      title: "Commerce Frontend Development",
+      title: "Frontend Development",
       path: "/",
     },
     {
