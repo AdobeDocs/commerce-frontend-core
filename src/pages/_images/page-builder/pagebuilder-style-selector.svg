@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="218" viewBox="0 0 750 218">
+  <g fill="none" fill-rule="evenodd">
+    <rect width="750" height="218" fill="#FFF"/>
+    <text fill="#D0021B" font-family="Helvetica" font-size="26">
+      <tspan x="15" y="132">#html-body</tspan>
+    </text>
+    <g font-family="Helvetica" font-size="26" transform="translate(168 106)">
+      <text fill="#06C">
+        <tspan x="0" y="25">[ data-pb-style =</tspan>
+      </text>
+      <text fill="#417505">
+        <tspan x="195" y="27">W3M3WHX</tspan>
+      </text>
+    </g>
+    <path stroke="#D0021B" stroke-dasharray="2 4" stroke-linecap="square" stroke-width="2" d="M15,96 L15,79 L145,79 L145,96"/>
+    <path stroke="#06C" stroke-dasharray="2 4" stroke-linecap="square" stroke-width="2" d="M166,98 L166,79 L342,79 L342,98"/>
+    <path stroke="#417505" stroke-dasharray="2 4" stroke-linecap="square" stroke-width="2" d="M361,96 L361,79 L500,79 L500,96"/>
+    <text fill="#D0021B" font-family="Helvetica" font-size="14">
+      <tspan x="39.417" y="38">Page Builder </tspan> <tspan x="46.045" y="57">ID selector </tspan>
+    </text>
+    <text fill="#D0021B" font-family="Helvetica" font-size="14">
+      <tspan x="42.652" y="173">Same for all </tspan> <tspan x="38.362" y="192">content types </tspan>
+    </text>
+    <text fill="#D0021B" font-family="Helvetica" font-size="14">
+      <tspan x="551.707" y="161">1 ID selector </tspan>
+    </text>
+    <text fill="#06C" font-family="Helvetica" font-size="14">
+      <tspan x="590.414" y="196">1 attribute selector </tspan>
+    </text>
+    <text fill="#06C" font-family="Helvetica" font-size="14">
+      <tspan x="220.652" y="173">Same for all </tspan> <tspan x="216.362" y="192">content types </tspan>
+    </text>
+    <text fill="#417505" font-family="Helvetica" font-size="14">
+      <tspan x="388.983" y="173">Different for all </tspan> <tspan x="392.862" y="192">content types </tspan>
+    </text>
+    <text fill="#06C" font-family="Helvetica" font-size="14">
+      <tspan x="217.917" y="38">Page Builder </tspan> <tspan x="189.914" y="57">style attribute selector </tspan>
+    </text>
+    <text fill="#417505" font-family="Helvetica" font-size="14">
+      <tspan x="393.917" y="38">Page Builder </tspan> <tspan x="362.018" y="57">dynamic attribute value </tspan>
+    </text>
+    <text fill="#000" font-family="Helvetica-Bold, Helvetica" font-size="16" font-weight="bold">
+      <tspan x="605.5" y="48">Specificity</tspan>
+    </text>
+    <g transform="translate(567 76)">
+      <circle cx="24" cy="24" r="24" fill="#E86764"/>
+      <path fill="#FFF" fill-rule="nonzero" d="M18.4615385,19.9308894 L18.4615385,17.3076923 C19.6784917,17.2536055 20.5303461,17.1724765 21.0171274,17.0643029 C21.7923717,16.893028 22.423375,16.5504833 22.9101562,16.0366587 C23.2436916,15.6850944 23.4960929,15.2163491 23.6673678,14.6304087 C23.7665269,14.2788444 23.8161058,14.0174287 23.8161058,13.8461538 L27.0207332,13.8461538 L27.0207332,33.452524 L23.0724159,33.452524 L23.0724159,19.9308894 L18.4615385,19.9308894 Z"/>
+    </g>
+    <g transform="translate(622 76)">
+      <circle cx="24" cy="24" r="24" fill="#60A1E3"/>
+      <path fill="#FFF" fill-rule="nonzero" d="M18.4615385,19.9308894 L18.4615385,17.3076923 C19.6784917,17.2536055 20.5303461,17.1724765 21.0171274,17.0643029 C21.7923717,16.893028 22.423375,16.5504833 22.9101562,16.0366587 C23.2436916,15.6850944 23.4960929,15.2163491 23.6673678,14.6304087 C23.7665269,14.2788444 23.8161058,14.0174287 23.8161058,13.8461538 L27.0207332,13.8461538 L27.0207332,33.452524 L23.0724159,33.452524 L23.0724159,19.9308894 L18.4615385,19.9308894 Z"/>
+    </g>
+    <g transform="translate(679 78)">
+      <circle cx="24" cy="24" r="24" fill="#BE74FF"/>
+      <path fill="#FFF" fill-rule="nonzero" d="M21.2626953,23.9716797 C21.2626953,26.4130981 21.4628886,28.2807552 21.8632812,29.574707 C22.2636739,30.8686588 23.0839782,31.515625 24.3242188,31.515625 C25.5644593,31.515625 26.3774395,30.8686588 26.7631836,29.574707 C27.1489277,28.2807552 27.3417969,26.4130981 27.3417969,23.9716797 C27.3417969,21.4130731 27.1489277,19.5185608 26.7631836,18.2880859 C26.3774395,17.057611 25.5644593,16.4423828 24.3242188,16.4423828 C23.0839782,16.4423828 22.2636739,17.057611 21.8632812,18.2880859 C21.4628886,19.5185608 21.2626953,21.4130731 21.2626953,23.9716797 Z M24.3242188,13 C27.0293104,13 28.9262641,13.9521389 30.0151367,15.8564453 C31.1040094,17.7607517 31.6484375,20.4658028 31.6484375,23.9716797 C31.6484375,27.4775566 31.1040094,30.1777249 30.0151367,32.0722656 C28.9262641,33.9668063 27.0293104,34.9140625 24.3242188,34.9140625 C21.6191271,34.9140625 19.7221734,33.9668063 18.6333008,32.0722656 C17.5444281,30.1777249 17,27.4775566 17,23.9716797 C17,20.4658028 17.5444281,17.7607517 18.6333008,15.8564453 C19.7221734,13.9521389 21.6191271,13 24.3242188,13 Z"/>
+    </g>
+    <line x1="591.5" x2="591.5" y1="128.5" y2="147.5" stroke="#D0021B" stroke-linecap="square"/>
+    <line x1="647.5" x2="647.5" y1="128.5" y2="178.5" stroke="#06C" stroke-linecap="square"/>
+    <polygon fill="#06C" fill-rule="nonzero" points="511.472 136.116 511.472 112.224 506.597 112.224 506.597 114.09 509.301 114.09 509.301 134.25 506.597 134.25 506.597 136.116"/>
+    <rect width="749" height="217" x=".5" y=".5" stroke="#999"/>
+  </g>
+</svg>
