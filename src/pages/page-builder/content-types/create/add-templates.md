@@ -79,7 +79,7 @@ The Quote `preview_template`  (`preview.html`) is shown here in full, followed b
      class="pagebuilder-content-type"
      css="data.main.css"
      event="{ mouseover: onMouseOver, mouseout: onMouseOut }, mouseoverBubble: false">
-    <render args="getOptions().template" />
+    <render args="getOptions().template" ></render>
     <blockquote attr="data.quote.attributes"
               ko-style="data.quote.style"
               css="data.quote.css"
