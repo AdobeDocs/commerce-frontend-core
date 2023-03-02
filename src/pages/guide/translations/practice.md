@@ -11,15 +11,15 @@ This topic is a step-by-step tutorial to create a default en_US [locale](https:/
 
 ExampleCorp created a custom `orange` theme that inherits from the Blank theme. When customizing their theme, they want to rephrase certain strings used in the Blank theme and modules for the default locale.
 
-Namely, they need the following changes:
+The following image shows a page with the default string values.
+
+![Product page where the Add to Compare string is displayed](../../_images/frontend/fdg_translations_bag2.png)
+
+ExampleCorp wants to customize these values to make the following changes:
 
 -  Change **Add to Cart** label to **Purchase**.
 -  Change **Add to Compare** label to **Compare**.
 -  Change **Add to Wish List** label to **Wishlist**.
-
-The following image shows a page where the current strings are used:
-
-![Product page where the Add to Compare string is displayed](../../_images/frontend/fdg_translations_bag2.png)
 
 To override the strings, ExampleCorp plans to use the `en_US.csv` dictionary file.
 
