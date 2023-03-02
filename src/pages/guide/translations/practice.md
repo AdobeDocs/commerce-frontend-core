@@ -15,7 +15,7 @@ The following image shows a page with the default string values.
 
 ![Product page where the customized Compare string is displayed](../../_images/frontend/fdg_trans_bag.png)
 
-ExampleCorp wants to customize these values to make the following changes:
+ExampleCorp has a requirement to change the default strings to the following values:
 
 -  Change **Add to Cart** label to **Purchase**.
 -  Change **Add to Compare** label to **Compare**.
