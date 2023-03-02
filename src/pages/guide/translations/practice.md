@@ -11,9 +11,9 @@ This topic is a step-by-step tutorial to create a default en_US [locale](https:/
 
 ExampleCorp created a custom `orange` theme that inherits from the Blank theme. When customizing their theme, they want to rephrase certain strings used in the Blank theme and modules for the default locale.
 
-The following image shows a page with the default string values.
+The following image shows a  product view with default string values for .
 
-![Product page where the customized Compare string is displayed](../../_images/frontend/fdg_trans_bag.png)
+![Product page with default string values](../../_images/frontend/fdg_trans_bag.png)
 
 ExampleCorp has a requirement to change the default strings to the following values:
 
@@ -49,4 +49,4 @@ When ExampleCorp applies the orange theme, the custom strings are used instead o
 
 For example:
 
-![Product page where the Add to Compare string is displayed](../../_images/frontend/fdg_translations_bag2.png)
+![Product page after applying theme with custom strings](../../_images/frontend/fdg_translations_bag2.png)
