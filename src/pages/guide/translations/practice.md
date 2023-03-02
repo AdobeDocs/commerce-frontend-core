@@ -13,7 +13,7 @@ ExampleCorp created a custom `orange` theme that inherits from the Blank theme. 
 
 The following image shows a page with the default string values.
 
-![Product page where the Add to Compare string is displayed](../../_images/frontend/fdg_translations_bag2.png)
+![Product page where the customized Compare string is displayed](../../_images/frontend/fdg_trans_bag.png)
 
 ExampleCorp wants to customize these values to make the following changes:
 
@@ -49,4 +49,4 @@ When ExampleCorp applies the orange theme, the custom strings are used instead o
 
 For example:
 
-![Product page where the customized Compare string is displayed](../../_images/frontend/fdg_trans_bag.png)
+![Product page where the Add to Compare string is displayed](../../_images/frontend/fdg_translations_bag2.png)
