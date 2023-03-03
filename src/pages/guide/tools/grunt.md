@@ -45,8 +45,6 @@ The application has built-in Grunt tasks configured, but there are still several
    npm update
    ```
 
-1. (Optional) If you want to use Grunt for "watching" changes automatically, without reloading pages in a browser each time, install the [LiveReload extension](http://livereload.com/extensions/) in your browser.
-
 ## Configuration file
 
 Copy the contents of `themes.js` into `local-themes.js` in the `dev/tools/grunt/configs/` directory.
