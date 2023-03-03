@@ -25,12 +25,12 @@ These steps describe the basic process for adding new style properties to existi
 
 ### Step 1: Create a Page Builder extension module
 
-Use the [PB Modules CLI](https://github.com/magento-devdocs/pbmodules) to create the starting directory structure and files for a Banner extension. Instructions for using PB Modules can be found in the repo [`README.md`](https://github.com/magento-devdocs/pbmodules#pb-modules) file.
+Use the [PB Modules CLI](https://github.com/commerce-docs/pbmodules) to create the starting directory structure and files for a Banner extension. Instructions for using PB Modules can be found in the repo [`README.md`](https://github.com/commerce-docs/pbmodules#pb-modules) file.
 
 1. Navigate to your `<magento-instance-root>/app/code/` directory and run the following command:
 
     ```terminal
-    npx https://github.com/magento-devdocs/pbmodules.git
+    npx https://github.com/commerce-docs/pbmodules.git
     ```
 
 1. Extend the `Banner` and complete the remaining prompts. When finished, you should have a complete directory structure and all the files you need (plus extras) to start extending the Banner.
@@ -171,7 +171,7 @@ Explaining UI component form fields is beyond the scope of this topic, but a few
 
 | Elements            | Description                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `fieldset`          | The fieldset `name` should match the name of the fieldset from the Banner's form. The `appearance_fieldset` is common to all the content type forms and, by default, appears at the top of the forms using the `sortOrder` of 10. If you used [PB Modules](https://github.com/magento-devdocs/pbmodules/), the `fieldset` node names were copied from the Banner's form, so you're all set.                                                            |
+| `fieldset`          | The fieldset `name` should match the name of the fieldset from the Banner's form. The `appearance_fieldset` is common to all the content type forms and, by default, appears at the top of the forms using the `sortOrder` of 10. If you used [PB Modules](https://github.com/commerce-docs/pbmodules/), the `fieldset` node names were copied from the Banner's form, so you're all set.                                                            |
 | `field`             | The field `name` should match your `style` node name in your `banner.xml` config file. The same is true if you are adding `attribute`, `css`, `html`, or `tag` nodes; their names should match the field names that supply their values. Fields also have a `sortOrder` you can use to place your field above or below existing fields. The `formElement` for a field describes the HTML form type, such as input, wysiwyg, select, checkbox and more. |
 | `argument > config` | Provides the initial configuration for the field, including the `default` value. We set our default `max_height` field to `400` (px).                                                                                                                                                                                                                                                                                                                  |
 | `settings`          | Provides the field with a label, CSS styling, validation, and other properties as needed.                                                                                                                                                                                                                                                                                                                                                              |

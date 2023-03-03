@@ -81,7 +81,7 @@ define([
 
 ## Step 3: Add toolbar markup
 
-Within your `preview.html` template, use a `div` element (with CSS class and events) to wrap whichever element in your template you want the toolbar to act on. For example, the custom [Quote content type](https://github.com/magento-devdocs/pagebuilder-examples/blob/master/Quote/Custom/view/adminhtml/web/template/content-type/custom-quote/default/preview.html) wraps its `<blockquote>` element within a `div` with the toolbar's CSS class and event binding, as shown here:
+Within your `preview.html` template, use a `div` element (with CSS class and events) to wrap whichever element in your template you want the toolbar to act on. For example, the custom [Quote content type](https://github.com/commerce-docs/pagebuilder-examples/blob/master/Quote/Custom/view/adminhtml/web/template/content-type/custom-quote/default/preview.html) wraps its `<blockquote>` element within a `div` with the toolbar's CSS class and event binding, as shown here:
 
 ```html
 <!--preview.html-->

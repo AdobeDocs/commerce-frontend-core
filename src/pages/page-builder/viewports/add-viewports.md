@@ -11,11 +11,11 @@ By default, Page Builder defines four responsive breakpoints, but only uses two 
 
 <InlineAlert variant="info" slots="text"/>
 
-**Example available**. An example for adding additional viewports is available for viewing and installing from: [https://github.com/magento-devdocs/pagebuilder-theme](https://github.com/magento-devdocs/pagebuilder-theme). This example uses an Admin theme, which is typically a best practice for production releases. But during development, you might find that using a module helps simplify your daily workflow. Especially if you're starting from scratch. Then you can even use the [PB Modules CLI](https://github.com/magento-devdocs/pbmodules) to create a starting module.
+**Example available**. An example for adding additional viewports is available for viewing and installing from: [https://github.com/commerce-docs/pagebuilder-theme](https://github.com/commerce-docs/pagebuilder-theme). This example uses an Admin theme, which is typically a best practice for production releases. But during development, you might find that using a module helps simplify your daily workflow. Especially if you're starting from scratch. Then you can even use the [PB Modules CLI](https://github.com/commerce-docs/pbmodules) to create a starting module.
 
 ## Steps for adding viewports
 
-1. Create an Admin theme or [Create a module](https://github.com/magento-devdocs/pbmodules). Of course you can skip this step if you already have either one.
+1. Create an Admin theme or [Create a module](https://github.com/commerce-docs/pbmodules). Of course you can skip this step if you already have either one.
 
 1. Add a view.xml file. Use this file to define your configuration data for the additional viewports.
 
@@ -156,7 +156,7 @@ So let's add a button icon and CSS for the stage width to make the button look g
 
 Page Builder uses SVG images for its existing viewport button icons. And while you _can_ use other image formats (like .png), we recommend using SVG icons that match Page Builder's existing icons.
 
-For this exercise, you can [download the `switcher-tablet.svg` and `switcher-mobile-small.svg` images](https://github.com/magento-devdocs/pagebuilder-examples/tree/master/Columns/Extension/view/adminhtml/web/css/images/switcher) from our example repo.
+For this exercise, you can [download the `switcher-tablet.svg` and `switcher-mobile-small.svg` images](https://github.com/commerce-docs/pagebuilder-examples/tree/master/Columns/Extension/view/adminhtml/web/css/images/switcher) from our example repo.
 
 After downloading, add the files to your theme or module's `web/css/images/switcher/` directory to match the URLs we set for our viewport `icon` nodes in `view.xml`.
 
