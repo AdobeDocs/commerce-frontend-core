@@ -5,7 +5,7 @@ description: Learn how to initialize and configure the Adobe Commerce and Magent
 
 # Magnifier widget
 
-Magnifier is a [widget](https://glossary.magento.com/widget) that allows displaying images in 100% scaled size in a separate dedicated layer.
+Magnifier is a widget that allows displaying images in 100% scaled size in a separate dedicated layer.
 It is used by the [gallery](gallery.md) widget for zooming the product images on product pages. It must be enabled in your local theme `view.xml` configuration file.
 
 ![Magnifier widget](../../_images/javascript/magnifier-widget.png)

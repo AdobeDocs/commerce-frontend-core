@@ -7,7 +7,7 @@ contributor_link: https://www.atwix.com/
 
 # Multiselect widget
 
-This [widget](https://glossary.magento.com/widget/) enables multiple select capability in the search field to help users choose different options.
+This widget enables multiple select capability in the search field to help users choose different options.
 
 The Multiselect widget source is the [lib/web/mage/multiselect.js][] file.
 

@@ -5,7 +5,7 @@ description: Learn how to load JavaScript components on Adobe Commerce and Magen
 
 # Debug JavaScript components
 
-This topic discusses how to define which [JavaScript](https://glossary.magento.com/javascript) components and widgets are used on a particular store page.
+This topic discusses how to define which JavaScript components and widgets are used on a particular store page.
 
 ## Locate components
 
@@ -15,18 +15,18 @@ To locate scripts used for a certain element:
 1. Select to view the page source.
 1. Find the corresponding element in the page source and see if there are `data-mage-init` or `<script type="text/x-magento-init">` calls on this element, its children or parents. The calls contain the names of the scripts, as described in [JavaScript initialization](init.md).
 1. To find the source file of the used script:
-   1. In the `<head></head>` section of the page source, click link to `requirejs-config.js` file. The file contains the RequireJS configuration, collected from all modules of the current [theme](https://glossary.magento.com/theme).
+   1. In the `<head></head>` section of the page source, click link to `requirejs-config.js` file. The file contains the RequireJS configuration, collected from all modules of the current theme.
 
       Alternatively, you can open the `requirejs-config.js` file from the file system: `pub/static/frontend/<Vendor>/<theme>/<locale>/requirejs-config.js`
 
-   1. In the `var config = {...}` section of `requirejs-config.js`, find the required script name, and view the path to its source file. This path is relative to certain directories, depending on whether it contains [module](https://glossary.magento.com/module) reference:
+   1. In the `var config = {...}` section of `requirejs-config.js`, find the required script name, and view the path to its source file. This path is relative to certain directories, depending on whether it contains module reference:
 
       -  If the module context is not specified, the path is relative to `<theme_dir>/web` (current theme). If the file is not found there, according to the assets fallback, it is searched for in the parent theme `web` directory, and then the `lib/web`(library) directory. For example, `knockoutjs/knockout` [script name](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Theme/view/base/requirejs-config.js#L10) resolves to `lib/web/knockoutjs/knockout.js`.
       -  If the module context is specified, the path is relative to `<theme_dir>/<Namespace>_<Module>/web` (current theme module). If the file is not found there, according to the assets fallback, it is searched for in the same location in the parent theme files, and then in the `<module_dir>` (module) directory. For example, `Magento_Catalog/js/list` [script name](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Catalog/view/frontend/requirejs-config.js#L9) resolves to `Magento_Catalog/view/frontend/web/js/list.js`.
 
 ### Example
 
-As we discussed in the preceding section, you use browser debugging tools to define which JavaScript component or [widget](https://glossary.magento.com/widget) is used for an element. An example follows. To find what JS components are used for displaying the main navigation menu in the Luma theme:
+As we discussed in the preceding section, you use browser debugging tools to define which JavaScript component or widget is used for an element. An example follows. To find what JS components are used for displaying the main navigation menu in the Luma theme:
 
 Using the Inspect Element feature of the browser, define that the menu section `id` is `store.menu`:
 

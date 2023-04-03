@@ -35,7 +35,7 @@ Extends [`uiCollection`](../concepts/collection.md):
 To add a new customer attribute to the customer grid and make it filterable, follow these steps:
 
 1. Create `view/adminhtml/ui_component/customer_listing.xml` to add a column component.
-1. Create the column component [PHP](https://glossary.magento.com/php) class which extends `Magento\Ui\Component\Listing\Columns\Column`.
+1. Create the column component PHP class which extends `Magento\Ui\Component\Listing\Columns\Column`.
 1. Create `etc/indexer.xml` to add the attribute to the `customer_grid` index and define it as filterable.
 1. Set `is_used_in_grid` to `true` for the attribute.
 

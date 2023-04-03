@@ -5,7 +5,7 @@ description: Configure Adobe Commerce and Magento Open Source UI components and 
 
 # Hidden component
 
-The Hidden component is a form element that implements the [HTML](https://glossary.magento.com/html) `<input type="hidden">` field.
+The Hidden component is a form element that implements the HTML `<input type="hidden">` field.
 
 ## Options
 

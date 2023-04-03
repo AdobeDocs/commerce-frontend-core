@@ -5,15 +5,15 @@ description: Review information about basic configuration elements of Adobe Comm
 
 # XML declaration
 
-This topic discusses the [XML](https://glossary.magento.com/xml) declaration of UI components.
+This topic discusses the XML declaration of UI components.
 
 ## About the layout configuration file and UI component declaration
 
-Every [module](https://glossary.magento.com/module) that has view representation contains the directory named `layout`. In this directory, the `.xml` declarations of the pages are stored. These `.xml` declarations are, in fact, the pages' [markup](https://glossary.magento.com/markup).
+Every module that has view representation contains the directory named `layout`. In this directory, the `.xml` declarations of the pages are stored. These `.xml` declarations are, in fact, the pages' markup.
 
 In a typical `.xml` layout file we see a `<head/>` node, `<title/>` node with the name of the page, and sometimes [links to CSS and JS files](../../guide/layouts/xml-manage.md#include-static-resources-javascript-css-fonts). There are other nodes as well, the most important for us now is the [`<referenceContainer/>` node](../../guide/layouts/xml-instructions.md#referenceblock-and-referencecontainer). (The `name` attribute in this node is responsible for the position of the container on the page.). [Basic](../index.md#general-structure) UI components are declared in this node. All nested components are declared in the basic components' instances configuration files (not in the page layouts).
 
-Example of a basic [UI component](https://glossary.magento.com/ui-component) declaration:
+Example of a basic UI component declaration:
 
 ```xml
 <referenceContainer name="page-container">
@@ -25,12 +25,12 @@ A UI component is declared using the `<uiComponent/>` node. The `name` attribute
 
 ## About the basic component configuration file
 
-The instance configuration file name is the name of instance (`%instance_name%`). The [namespace](https://glossary.magento.com/namespace) of the names is global; meaning that if the file names in different modules are the same, they are merged into a single configuration for the particular instance.
+The instance configuration file name is the name of instance (`%instance_name%`). The namespace of the names is global; meaning that if the file names in different modules are the same, they are merged into a single configuration for the particular instance.
 
 Following are the rules for the instance configuration files:
 
 *  The top node must have the name of one of the basic UI components. <!-- need to mention or link what components -->
-*  The top node must contain a link to the [XSD](https://glossary.magento.com/xsd) schema.
+*  The top node must contain a link to the XSD schema.
 
 In the top node, there can be an `<argument/>` node. The `<argument/>` node contains the configuration for that basic UI component. The `<argument/>` node's `name` attribute value must be `data`. The child nodes of the `<argument>` node will be the argument properties that will be passed in to the component.
 

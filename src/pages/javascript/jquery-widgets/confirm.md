@@ -5,11 +5,11 @@ description: Learn how to initialize and configure the Adobe Commerce and Magent
 
 # Confirmation widget
 
-The confirmation widget implements a modal pop-up window with the cancel and confirmation button.It is an [extension](https://glossary.magento.com/extension) of the [modal widget].
+The confirmation widget implements a modal pop-up window with the cancel and confirmation button.It is an extension of the [modal widget].
 
-The confirmation [widget](https://glossary.magento.com/widget) source is [`<Magento_Ui_module_dir>/view/base/web/js/modal/confirm.js`].
+The confirmation widget source is [`<Magento_Ui_module_dir>/view/base/web/js/modal/confirm.js`].
 
-The widget can be used for implementing confirmation windows for both, Admin and [storefront](https://glossary.magento.com/storefront). The design patterns for the modal pop-up windows in the Admin are described in the [Admin Pattern Library, the Slide-out Panels, Modal Windows, and Overlays topic.]
+The widget can be used for implementing confirmation windows for both, Admin and storefront. The design patterns for the modal pop-up windows in the Admin are described in the [Admin Pattern Library, the Slide-out Panels, Modal Windows, and Overlays topic.]
 
 ## Initialize
 

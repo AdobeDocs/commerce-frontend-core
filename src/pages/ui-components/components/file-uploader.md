@@ -5,7 +5,7 @@ description: Configure Adobe Commerce and Magento Open Source UI components and 
 
 # FileUploader component
 
-The File Uploader component is an [adapter](https://glossary.magento.com/adapter) for the [jQuery-File-Upload](https://github.com/blueimp/jQuery-File-Upload/wiki) plugin used in Magento. This component integrates file upload functionality with UI components.
+The File Uploader component is an adapter for the [jQuery-File-Upload](https://github.com/blueimp/jQuery-File-Upload/wiki) plugin used in Magento. This component integrates file upload functionality with UI components.
 
 ## Options
 

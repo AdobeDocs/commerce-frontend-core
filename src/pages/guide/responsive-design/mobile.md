@@ -12,7 +12,7 @@ To use all the responsive approaches implemented in the out-of-the-box Blank and
 To create a mobile-specific theme:
 
 1. Create a theme as described in [Create a theme](../themes/create-storefront.md), having specified Blank or Luma as a parent theme.
-1. Add a `<theme_dir>/Magento_Theme/layout/default_head_blocks.xml` [layout](https://glossary.magento.com/layout) file with the following content:
+1. Add a `<theme_dir>/Magento_Theme/layout/default_head_blocks.xml` layout file with the following content:
 
 ```xml
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">

@@ -9,7 +9,7 @@ This topic explains how default templates work in the application.
 
 ## How templates are initiated
 
-Templates are initiated in [layout](https://glossary.magento.com/layout) files, and
+Templates are initiated in layout files, and
 each layout block has an associated template.
 
 The template is specified in the `template` attribute of the `<block>` layout instruction.
@@ -20,7 +20,7 @@ Take this example from [`app/code/Magento/Catalog/view/frontend/layout/catalog_c
 <block class="Magento\Catalog\Block\Category\View" name="category.image" template="Magento_Catalog::category/image.phtml">
 ```
 
-The `category.image` block is rendered by the `image.phtml` template in the `category` subdirectory of the `Magento_Catalog` [module](https://glossary.magento.com/module) templates directory.
+The `category.image` block is rendered by the `image.phtml` template in the `category` subdirectory of the `Magento_Catalog` module templates directory.
 
 The templates directory of `Magento_Catalog` is `app/code/Magento/Catalog/view/frontend/templates`.
 

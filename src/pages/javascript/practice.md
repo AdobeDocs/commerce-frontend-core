@@ -5,7 +5,7 @@ description: Follow this tutorial to customize a default Adobe Commerce and Mage
 
 # JavaScript customization tutorial
 
-This topic features a step-by-step illustration of how to customize a [jQuery](https://glossary.magento.com/jquery) [widget](https://glossary.magento.com/widget) and how to use a custom widget instead of the default.
+This topic features a step-by-step illustration of how to customize a jQuery widget and how to use a custom widget instead of the default.
 
 ## Customize a default jQuery widget
 

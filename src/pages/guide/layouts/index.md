@@ -5,7 +5,7 @@ description: Review introductory information about how layouts work in Adobe Com
 
 # Layouts
 
-This article describes the basic concepts you need to know to create layouts for your custom [theme](https://glossary.magento.com/theme).
+This article describes the basic concepts you need to know to create layouts for your custom theme.
 
 The basic components of page design are layouts, containers, and blocks. A *layout* represents the structure of a web page (1). *Containers* represent the placeholders within that web page structure (2). And *blocks* represent the UI controls or components within the container placeholders (3). These terms are illustrated and defined below.
 
@@ -17,7 +17,7 @@ The objective is to create a structured, common set of layout instructions to re
 
 (2) *Containers* assign content structure to a page using container tags within a layout XML file. A container has no additional content except the content of included elements. Examples of containers include the header, left column, main column, and footer.
 
-(3) *Blocks* render the UI elements on a page using block tags within a layout XML file. Blocks use templates to generate the [HTML](https://glossary.magento.com/html) to insert into its parent structural block. Examples of blocks include a [category](https://glossary.magento.com/category) list, a mini cart, product tags, and product listing.
+(3) *Blocks* render the UI elements on a page using block tags within a layout XML file. Blocks use templates to generate the HTML to insert into its parent structural block. Examples of blocks include a category list, a mini cart, product tags, and product listing.
 
 ## Purpose of page layouts
 
@@ -25,7 +25,7 @@ The purpose of page layouts is to create a structured, common set of layout inst
 
 ## Basic layouts
 
-The basic view of all [storefront](https://glossary.magento.com/storefront) pages is defined in two page configuration layout files located in the Magento_Theme module:
+The basic view of all storefront pages is defined in two page configuration layout files located in the Magento_Theme module:
 
 *  `<Magento_Theme_module_dir>/view/frontend/layout/default.xml`: defines the page layout.
 *  `<Magento_Theme_module_dir>/view/frontend/layout/default_head_blocks.xml`: defines the scripts, images, and meta data included in pages' `<head>` section.
@@ -36,7 +36,7 @@ You can also [extend] or [override] these files in your custom theme.
 
 ## Layout handles
 
-A *layout handle* is a uniquely identified set of [layout instructions](https://glossary.magento.com/layout-instructions) that serves as a name of a layout file.
+A *layout handle* is a uniquely identified set of layout instructions that serves as a name of a layout file.
 
 There are three kinds of layout handles:
 
@@ -73,7 +73,7 @@ The following terms are used to distinguish layouts provided by different applic
 
 ## Customize layout
 
-To ensure stability and secure your customizations from being deleted during upgrade, do not change out-of-the-box [module](https://glossary.magento.com/module) and theme layouts.
+To ensure stability and secure your customizations from being deleted during upgrade, do not change out-of-the-box module and theme layouts.
 To make the necessary changes, create [extending][extend] and [overriding][override] layout files in your custom theme.
 
 ## Layout files processing

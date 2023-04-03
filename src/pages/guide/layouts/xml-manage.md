@@ -7,7 +7,7 @@ description: View code samples for customizing page layouts in Adobe Commerce an
 
 <InlineAlert variant="info" slots="text"/>
 
-To ensure stability and secure your customizations from being deleted during upgrade, do not change out-of-the-box [module](https://glossary.magento.com/module) and [theme](https://glossary.magento.com/theme) layouts. To customize your layout, create extending and overriding layout files in your custom theme.
+To ensure stability and secure your customizations from being deleted during upgrade, do not change out-of-the-box module and theme layouts. To customize your layout, create extending and overriding layout files in your custom theme.
 
 ## Set the page layout
 
@@ -216,7 +216,7 @@ To remove a container from the layout:
 
 Blocks are created (declared) using the `<block>` instruction.
 
-Example: add a block with a product [SKU](https://glossary.magento.com/sku) information.
+Example: add a block with a product SKU information.
 
 ```xml
 <block class="Magento\Catalog\Block\Product\View\Description" name="product.info.sku" template="Magento_Catalog::product/view/attribute.phtml" after="product.info.type">

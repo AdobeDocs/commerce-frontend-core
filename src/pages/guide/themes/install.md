@@ -5,12 +5,12 @@ description: Learn about the installation methods available for Adobe Commerce a
 
 # Install a third-party storefront theme
 
-This topic describes how to install a third-party [theme](https://glossary.magento.com/theme) for a store.
+This topic describes how to install a third-party theme for a store.
 
 To install a theme, you need to add its code to your instance code base, and then register it in the database. The way a theme is distributed determines how to do this:
 
 -  If a theme is just a set of files, for example an archive, add the theme manually.
--  If a theme is a [Composer](https://glossary.magento.com/composer) package, install it using Composer.
+-  If a theme is a Composer package, install it using Composer.
 
 The following sections contain more information about each installation flow.
 
@@ -44,7 +44,7 @@ If a theme is distributed on [Commerce Marketplace](https://marketplace.magento.
 
 ## Register a theme
 
-After you create or install a theme, open the [Admin](https://glossary.magento.com/admin) or reload any Admin page. This way the theme gets registered and added to the database.
+After you create or install a theme, open the Admin or reload any Admin page. This way the theme gets registered and added to the database.
 
 To make sure the theme is registered, in the Admin navigate to **Content** > **Design** > **Themes**. If a theme is registered, it is displayed in the list of available themes.
 

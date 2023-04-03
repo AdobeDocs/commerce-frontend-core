@@ -5,13 +5,13 @@ description: Learn about optional server-side configuration for Adobe Commerce a
 
 # PHP modifiers
 
-This topic describes how to use [PHP](https://glossary.magento.com/php) modifiers that are the server-side part of [UI components configuration](configuration-flow.md). Using modifiers is optional and might be necessary when [static declaration in XML configuration files](xml-declaration.md) is not suitable for the tasks. For example, in cases when additional data should be loaded from database. Or the other specific example is the [default product creation form](https://developer.adobe.com/commerce/php/tutorials/admin/custom-product-creation-form/), for which the modifier is a place where validations are added to display only certain fields for certain [product types](https://glossary.magento.com/product-types).
+This topic describes how to use PHP modifiers that are the server-side part of [UI components configuration](configuration-flow.md). Using modifiers is optional and might be necessary when [static declaration in XML configuration files](xml-declaration.md) is not suitable for the tasks. For example, in cases when additional data should be loaded from database. Or the other specific example is the [default product creation form](https://developer.adobe.com/commerce/php/tutorials/admin/custom-product-creation-form/), for which the modifier is a place where validations are added to display only certain fields for certain product types.
 
 ## General implementation
 
 `DataProvider()` is a PHP part of a UI component, a class responsible for the component's data and metadata preparation. The pool of modifiers (virtual type) is injected to this data provider using the `__construct()` method. The pool's preference is defined in `di.xml`.
 
-So in runtime, the component structure set in the modifier is merged with the configuration that comes from the [XML](https://glossary.magento.com/xml) configuration.
+So in runtime, the component structure set in the modifier is merged with the configuration that comes from the XML configuration.
 
 ## Add a custom PHP modifier
 
@@ -22,7 +22,7 @@ To add a PHP modifier for a UI component, take the following steps:
 In your custom module, add a class that implements [`\Magento\Ui\DataProvider\Modifier\ModifierInterface`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/DataProvider/Modifier/ModifierInterface.php) with the following methods:
 
 -  `modifyData()`: for modifying UI component's data (for example, the list of options for a select element)
--  `modifyMeta()`: for modifying UI component's [metadata](https://glossary.magento.com/metadata) (for example, name, label, description, type)
+-  `modifyMeta()`: for modifying UI component's metadata (for example, name, label, description, type)
 
 Sample modifier:
 

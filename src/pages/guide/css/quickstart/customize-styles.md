@@ -5,7 +5,7 @@ description: Customize Adobe Commerce or Magento Open Source theme styles.
 
 # Customize theme styles
 
-Let's say you created a new [theme](https://glossary.magento.com/theme) inheriting from Blank or Luma, and chose the [Less compilation mode]. What's next? Where to add the style changes? This topic gives quick answers.
+Let's say you created a new theme inheriting from Blank or Luma, and chose the [Less compilation mode]. What's next? Where to add the style changes? This topic gives quick answers.
 
 ## Extend parent styles
 
@@ -58,7 +58,7 @@ The rules and variables declared in `_extend.less` always have precedence over o
 
 ## Override parent styles
 
-To override parent styles (that is, override default UI [library](https://glossary.magento.com/library) variables):
+To override parent styles (that is, override default UI library variables):
 
 1. In your theme directory, create a `web/css/source` sub-directory.
 1. Create a `_theme.less` file here. The path to it then looks like following:

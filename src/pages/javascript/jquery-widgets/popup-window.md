@@ -7,7 +7,7 @@ contributor_link: https://www.atwix.com/
 
 # PopupWindow widget
 
-The PopupWindow [widget](https://glossary.magento.com/widget/) allows you to open a popup window with content from any URL.
+The PopupWindow widget allows you to open a popup window with content from any URL.
 
 The PopupWindow widget source is [lib/web/mage/popup-window.js][].
 

@@ -5,7 +5,7 @@ description: Configure Adobe Commerce and Magento Open Source UI components and 
 
 # WYSIWYG component
 
-The WYSIWYG component is an [adapter](https://glossary.magento.com/adapter) for [TinyMCE](https://www.tiny.cloud/) that integrates an editor instance with the [form component](../form.md). It expects a complete [widget](https://glossary.magento.com/widget) declaration in the `content` option, which should contain both [markup](https://glossary.magento.com/markup) and the script responsible for creating the editor's instance.
+The WYSIWYG component is an adapter for [TinyMCE](https://www.tiny.cloud/) that integrates an editor instance with the [form component](../form.md). It expects a complete widget declaration in the `content` option, which should contain both markup and the script responsible for creating the editor's instance.
 
 The application supports all selector, plugin, and toolbar/menu configuration options supported by the TinyMCE `tinymce.init()` method. However, the application doesn't validate TinyMCE configuration options or flag invalid values before adding the editor to a page.
 

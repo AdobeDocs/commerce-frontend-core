@@ -18,7 +18,7 @@ Depending on your task, you can use declarative or imperative notation to insert
 
 ### Declarative notation
 
-Using the declarative notation to insert a JS component prepares all the configuration on the [backend](https://glossary.magento.com/backend) and outputs it to page source using standard tools. Use declarative notation if your JavaScript component requires initialization.
+Using the declarative notation to insert a JS component prepares all the configuration on the backend and outputs it to page source using standard tools. Use declarative notation if your JavaScript component requires initialization.
 
 You have two options for specifying declarative notation:
 
@@ -216,7 +216,7 @@ To call a widget with JS code, use a notation similar to the ([accordion](jquery
 $('[data-role=example]').accordion();
 ```
 
-To initialize a [widget](https://glossary.magento.com/widget) with options, use notation similar to the following:
+To initialize a widget with options, use notation similar to the following:
 
 ```javascript
 $(function () { // to ensure that code evaluates on page load
