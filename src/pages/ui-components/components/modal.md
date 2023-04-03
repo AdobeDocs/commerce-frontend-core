@@ -5,11 +5,11 @@ description: Configure Adobe Commerce and Magento Open Source UI components and 
 
 # Modal
 
-The Modal [UI component](https://glossary.magento.com/ui-component) implements a secondary window that opens on top of the main window. It uses the [modal widget](../../javascript/jquery-widgets/modal.md).
+The Modal UI component implements a secondary window that opens on top of the main window. It uses the [modal widget](../../javascript/jquery-widgets/modal.md).
 
 Similar to the widget's configuration, the component's configuration allows you to set the window type and the behavior of action buttons (including linking action buttons to methods of the other UI components).
 
-The Modal component can be used for both [Admin](https://glossary.magento.com/admin) and storefronts.
+The Modal component can be used for both Admin and storefronts.
 
 For recommendations about modal windows usage from the UX point of view, see the corresponding topic in the [Admin pattern library](https://developer.adobe.com/commerce/admin-developer/pattern-library/containers/slideouts-modals-overlays/).
 

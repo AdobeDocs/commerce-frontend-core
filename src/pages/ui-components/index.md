@@ -7,9 +7,9 @@ description: Configure Adobe Commerce and Magento Open Source UI components and 
 
 *UI components are used to represent distinct UI elements, such as tables, buttons, dialogs, and others*.
 
-They are designed for simple and flexible user interface (UI) rendering. Components are responsible for rendering result page fragments and providing/supporting further interactions of [JavaScript](https://glossary.magento.com/javascript) components and server.
+They are designed for simple and flexible user interface (UI) rendering. Components are responsible for rendering result page fragments and providing/supporting further interactions of JavaScript components and server.
 
-UI components are implemented as a standard [module](https://glossary.magento.com/module) named Magento_UI.
+UI components are implemented as a standard module named Magento_UI.
 
 To use UI components in your custom module, you need to add a dependency for the Magento_UI module in [your component's composer.json file](https://developer.adobe.com/commerce/php/development/build/composer-integration/).
 
@@ -17,7 +17,7 @@ The following XSD file contains rules and limitations shared between all compone
 
 `<your module root dir>/Magento/Ui/etc/ui_definition.xsd`
 
-[Extension](https://glossary.magento.com/extension) developers cannot extend this XSD scheme and introduce new components, but can customize existing ones.
+Extension developers cannot extend this XSD scheme and introduce new components, but can customize existing ones.
 
 ## General structure
 
@@ -33,7 +33,7 @@ All other UI components are secondary.
 
 Basic components are declared in the [page layout files](../guide/layouts/types.md#page-layout); secondary components are declared in the top-level components’ instances configuration files.
 
-All components can be configured both for [Admin](https://glossary.magento.com/admin) and [storefront](https://glossary.magento.com/storefront).
+All components can be configured both for Admin and storefront.
 
 <InlineAlert variant="info" slots="text" />
 
@@ -43,13 +43,13 @@ You need to configure styles manually for components on the storefront.
 
 With Magento, you may apply different approaches to implementing a UI element, and use:
 
-*  [PHTML](https://glossary.magento.com/phtml) template with inline JavaScript
+*  PHTML template with inline JavaScript
 
-*  PHTML template with declaration of related JavaScript file via [XML](https://glossary.magento.com/xml) [layout](https://glossary.magento.com/layout)
+*  PHTML template with declaration of related JavaScript file via XML layout
 
-*  [jQuery](https://glossary.magento.com/jquery) [widget](https://glossary.magento.com/widget)
+*  jQuery widget
 
-*  [UI component](https://glossary.magento.com/ui-component)
+*  UI component
 
 We recommend using UI components as much as possible.
 
@@ -85,7 +85,7 @@ The picture below shows how the JavaScript class of a UI component is implemente
 
 ### Templates
 
-A UI component can be bound to one or more [HTML](https://glossary.magento.com/html) templates using the KnockoutJS bindings.
+A UI component can be bound to one or more HTML templates using the KnockoutJS bindings.
 
 ## Configuring a UI component
 

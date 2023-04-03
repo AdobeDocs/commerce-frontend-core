@@ -7,9 +7,9 @@ contributor_link: https://www.atwix.com/
 
 # Sortable widget
 
-The Sortable [widget](https://glossary.magento.com/widget/) is a customized jQuery [Sortable Widget][] that allows you to reorder sortable items using *Up* and *Down* buttons.
+The Sortable widget is a customized jQuery [Sortable Widget][] that allows you to reorder sortable items using *Up* and *Down* buttons.
 
-The Sortable widget is only available in the [adminhtml](https://glossary.magento.com/adminhtml) area.
+The Sortable widget is only available in the adminhtml area.
 
 The widget source file is [`<Magento_Theme_module_dir>/view/adminhtml/web/js/sortable.js`][].
 

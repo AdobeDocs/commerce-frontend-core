@@ -7,13 +7,13 @@ contributor_link: https://www.atwix.com/
 
 # FormDataProvider component
 
-The FormDataProvider [UI component](https://glossary.magento.com/ui-component) is a data provider for the [Form](form.md) component. It stores form data in a specific format that is shared among all UI components in the scope of [Form](form.md) component and provides the functionality for submitting the data.
+The FormDataProvider UI component is a data provider for the [Form](form.md) component. It stores form data in a specific format that is shared among all UI components in the scope of [Form](form.md) component and provides the functionality for submitting the data.
 
 ## Options
 
 | Option | Description | Type | Default Value |
 | --- | --- | --- | --- |
-| `class` | Path to the [PHP](https://glossary.magento.com/php) class responsible for the [backend](https://glossary.magento.com/backend) implementation of the component | String | `Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider` |
+| `class` | Path to the PHP class responsible for the backend implementation of the component | String | `Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider` |
 | `component` | The path to the component's `.js` file, relative to RequireJS. | String | `Magento_Ui/js/form/provider` |
 | `clientConfig` | Configuration of the [FormClient](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/client.js) component. | Object | `urls: {save: '${ $.submit_url }',beforeSave: '${ $.validate_url }'}` |
 | `submit_url` | Path to controller that will process the form data submitting request. | String | `-` |

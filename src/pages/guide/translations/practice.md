@@ -5,7 +5,7 @@ description: Follow this tutorial to create a translation dictionary for an Adob
 
 # Theme translation dictionary example
 
-This topic is a step-by-step tutorial to create a default en_US [locale](https://glossary.magento.com/locale) [dictionary](dictionary.md) for a custom [theme](https://glossary.magento.com/theme).
+This topic is a step-by-step tutorial to create a default en_US locale [dictionary](dictionary.md) for a custom theme.
 
 ## Change default strings
 

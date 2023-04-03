@@ -5,11 +5,11 @@ description: Learn how to initialize and configure the Adobe Commerce and Magent
 
 # Accordion widget
 
-The accordion widget is an [extension](https://glossary.magento.com/extension) of the [tabs widget].
+The accordion widget is an extension of the [tabs widget].
 
 Accordions are generally used to break content into multiple sections that can be swapped to save space.
 
-The accordion [widget](https://glossary.magento.com/widget) source is [lib/web/mage/accordion.js].
+The accordion widget source is [lib/web/mage/accordion.js].
 
 ## Initialize the accordion widget
 

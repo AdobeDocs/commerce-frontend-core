@@ -7,11 +7,11 @@ contributor_link: https://www.atwix.com/
 
 # MediUploader widget
 
-This [widget](https://glossary.magento.com/widget/) allows multiple media files uploading with Ajax.
+This widget allows multiple media files uploading with Ajax.
 
 The MediaUploader widget source is the [`<Magento_Backend_module_dir>/view/adminhtml/web/js/media-uploader.js`][] file.
 
-The MediaUploader widget can be used only on the [adminhtml](https://glossary.magento.com/adminhtml) area.
+The MediaUploader widget can be used only on the adminhtml area.
 
 ## Initialize
 

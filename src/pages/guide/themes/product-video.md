@@ -19,7 +19,7 @@ You can set the following product video options:
 |`show_related`|Display related videos.|Boolean|0 (related videos are not displayed)|
 |`video_auto_restart`|Auto re-play video.|Boolean|0 (video is not automatically replayed)|
 
-You can configure these options in your custom [module's](https://glossary.magento.com/module) `config.xml` file.
+You can configure these options in your custom module's `config.xml` file.
 
 Example:
 

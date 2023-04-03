@@ -5,11 +5,11 @@ description: Use this reference to learn how Adobe Commerce and Magento Open Sou
 
 # Theme structure
 
-A [design theme](index.md) is an important part of the application. This topic describes the file structure of a [theme](https://glossary.magento.com/theme).
+A [design theme](index.md) is an important part of the application. This topic describes the file structure of a theme.
 
 ## Location
 
-[Storefront](https://glossary.magento.com/storefront) themes are conventionally located under `app/design/frontend/<Vendor>/`. Though technically they can reside in other directories. For example, built-in themes can be located under `vendor/magento/theme-frontend-<theme_code>` when a instance is deployed from the [Composer](https://glossary.magento.com/composer) repository.
+Storefront themes are conventionally located under `app/design/frontend/<Vendor>/`. Though technically they can reside in other directories. For example, built-in themes can be located under `vendor/magento/theme-frontend-<theme_code>` when a instance is deployed from the Composer repository.
 
 Each theme must be stored in a separate directory:
 
@@ -77,7 +77,7 @@ The directories and files structure described below is the most extended one. It
 
 ## Files
 
-Apart from the configuration file and theme [metadata](https://glossary.magento.com/metadata) file, all theme files fall into the following two categories:
+Apart from the configuration file and theme metadata file, all theme files fall into the following two categories:
 
 *  Static view files
 *  Dynamic view files
@@ -86,7 +86,7 @@ Apart from the configuration file and theme [metadata](https://glossary.magento.
 
 A set of theme files that are returned by the server to a browser as is, without any processing, are called the *static files* of a theme.
 
-[Static files](https://glossary.magento.com/static-files) can be located in a theme directory as follows:
+Static files can be located in a theme directory as follows:
 
 ```tree
 <theme_dir>/

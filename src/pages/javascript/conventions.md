@@ -11,9 +11,9 @@ The following relative paths are used for modules and themes:
 
 -  `<theme_dir>`:
 
-[Theme](https://glossary.magento.com/theme) directory. Usually used when talking about custom themes, or any theme in general.
+Theme directory. Usually used when talking about custom themes, or any theme in general.
 
-For out-of-the-box [frontend](https://glossary.magento.com/frontend) themes, usually one of the following:
+For out-of-the-box frontend themes, usually one of the following:
 
 -  `app/design/frontend/<Vendor>/<theme>`
 -  `vendor/magento/theme-frontend-<theme>`

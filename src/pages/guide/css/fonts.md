@@ -5,7 +5,7 @@ description: Add custom fonts to your Adobe Commerce and Magento Open Source the
 
 # Custom fonts
 
-The application contains a set of built-in fonts, but you can easily include custom fonts. This topic describes how to include a locally stored custom font in your [theme](https://glossary.magento.com/theme).
+The application contains a set of built-in fonts, but you can easily include custom fonts. This topic describes how to include a locally stored custom font in your theme.
 
 <InlineAlert variant="success" slots="text"/>
 
@@ -17,7 +17,7 @@ To ensure the stability of your customizations and prevent upgrades from overwri
 
     To add _external_ fonts, add font references to the page configuration file as described in [Include static resources (JavaScript, CSS, fonts)](../layouts/xml-manage.md#include-static-resources-javascript-css-fonts).
 
-1. If you build a theme using the UI library, declare the custom font by adding the `.lib-font-face` [mixin](https://glossary.magento.com/mixin) to the `app/design/frontend/<your_vendor_name>/<your_theme_name>/web/css/source/_typography.less` file:
+1. If you build a theme using the UI library, declare the custom font by adding the `.lib-font-face` mixin to the `app/design/frontend/<your_vendor_name>/<your_theme_name>/web/css/source/_typography.less` file:
 
    ```less
    .lib-font-face(

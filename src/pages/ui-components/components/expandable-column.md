@@ -5,9 +5,9 @@ description: Configure Adobe Commerce and Magento Open Source UI components and 
 
 # ExpandableColumn component
 
-The ExpandableColumn [UI component](https://glossary.magento.com/ui-component) is an [extension](https://glossary.magento.com/extension) for [Column](column.md). It alphabetically sorts the options associated with a record/row and renders several options (the number is defined in configuration) into a cell. The full list of options is displayed in a tooltip implemented by the Tooltip UI component `<Magento_Ui_module_dir>/view/base/web/js/lib/knockout/bindings/tooltip.js`.
+The ExpandableColumn UI component is an extension for [Column](column.md). It alphabetically sorts the options associated with a record/row and renders several options (the number is defined in configuration) into a cell. The full list of options is displayed in a tooltip implemented by the Tooltip UI component `<Magento_Ui_module_dir>/view/base/web/js/lib/knockout/bindings/tooltip.js`.
 
-The Expandable Column component can be used in [Admin](https://glossary.magento.com/admin) and the [storefront](https://glossary.magento.com/storefront).
+The Expandable Column component can be used in Admin and the storefront.
 
 ## Options
 
@@ -79,7 +79,7 @@ This component has a dependency on the Column component, `<Magento_Ui_module_dir
 
 ## Methods and events
 
-The following [API](https://glossary.magento.com/api) methods are available:
+The following API methods are available:
 
 -  `getFullLabel()` - gets a label from a full list of options.
 -  `getShortLabel()` - gets a label from a list of options limited by `visibeItemsLimit` value.

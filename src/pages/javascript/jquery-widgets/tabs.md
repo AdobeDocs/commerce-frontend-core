@@ -7,7 +7,7 @@ description: Learn how to initialize and configure the Adobe Commerce and Magent
 
 The tabs widget implements single content area with multiple panels, each associated with a header in a list. It uses the [collapsible widget].
 
-The tabs [widget](https://glossary.magento.com/widget) source is [lib/web/mage/tabs.js].
+The tabs widget source is [lib/web/mage/tabs.js].
 
 ## Initialize
 

@@ -5,7 +5,7 @@ description: Configure Adobe Commerce and Magento Open Source UI components and 
 
 # Input component
 
-The Input component implements the [HTML](https://glossary.magento.com/html) `<input type="text">` field.
+The Input component implements the HTML `<input type="text">` field.
 
 ## Options
 

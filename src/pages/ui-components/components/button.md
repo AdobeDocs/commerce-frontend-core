@@ -5,7 +5,7 @@ description: Configure Adobe Commerce and Magento Open Source UI components and 
 
 # Button component
 
-The Button component allows user to perform a list of predefined actions by clicking on the corresponding button. Its default display mode is the [HTML](https://glossary.magento.com/html) `<button>` element, which be configured to display a link.
+The Button component allows user to perform a list of predefined actions by clicking on the corresponding button. Its default display mode is the HTML `<button>` element, which be configured to display a link.
 
 ## Options
 
@@ -13,7 +13,7 @@ The Button component allows user to perform a list of predefined actions by clic
 | --- | --- | --- | --- |
 | `actions` | A list of actions that are performed when a user clicks on the element. | `ButtonAction[]` | - |
 | `additionalClasses` | Sets custom classes to the component's DOM block. | Object | `{}` |
-| `buttonClasses` | Sets custom classes to the [HTML](https://glossary.magento.com/html) `<button>` element. | Object | `{}` |
+| `buttonClasses` | Sets custom classes to the HTML `<button>` element. | Object | `{}` |
 | `class` | The path to the component class. | String | `Magento\Ui\Component\Container` |
 | `component` | The path to the component’s JS constructor in terms of RequireJS. | String | `Magento_Ui/js/form/components/button` |
 | `disabled` | Initial component's state. When set to `true`, users can't take action on the element. | Boolean | `false` |

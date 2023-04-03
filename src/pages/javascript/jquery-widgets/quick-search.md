@@ -5,7 +5,7 @@ description: Learn how to initialize and configure the Adobe Commerce and Magent
 
 # QuickSearch widget
 
-The quickSearch [widget](https://glossary.magento.com/widget) is an autocomplete widget that populates a list of suggested search terms for a given field.
+The quickSearch widget is an autocomplete widget that populates a list of suggested search terms for a given field.
 
 The suggest widget source is [`<Magento_Search_module_dir>/view/frontend/web/js/form-mini.js`].
 

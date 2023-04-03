@@ -5,13 +5,13 @@ description: Learn how to apply an Admin theme to the Adobe Commerce and Magento
 
 # Apply an Admin theme
 
-This topic describes how to apply your custom [theme](https://glossary.magento.com/theme) for [Admin](https://glossary.magento.com/magento-admin).
+This topic describes how to apply your custom theme for Admin.
 
 ## Prerequisites
 
-1. [Set](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) your application to the developer [mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html). The application mode influences the way [static files](https://glossary.magento.com/static-files) are cached.
+1. [Set](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) your application to the developer [mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html). The application mode influences the way static files are cached.
 1. [Create a custom theme for the Admin panel](../themes/create-admin.md).
-1. [Add a new custom module](https://developer.adobe.com/commerce/php/development/build/) or decide to use existing custom module. The module must load after the Magento_Theme module. To ensure this, add the following code in `<your_custom_module_dir>/etc/module.xml` (replace placeholders with your [module](https://glossary.magento.com/module) information):
+1. [Add a new custom module](https://developer.adobe.com/commerce/php/development/build/) or decide to use existing custom module. The module must load after the Magento_Theme module. To ensure this, add the following code in `<your_custom_module_dir>/etc/module.xml` (replace placeholders with your module information):
 
    ```xml
    <module name="%YourVendor_YourModule%" setup_version="2.0.1"> <!-- Example: "Magento_Backend" -->
@@ -30,7 +30,7 @@ If you decide to use the existing module, keep in mind, that theme declaring mig
 
 ## Apply a custom theme in Admin: Overview
 
-To apply the [Admin](https://glossary.magento.com/admin) theme, take the following steps:
+To apply the Admin theme, take the following steps:
 
 1. [Specify the new Admin theme in your module's `di.xml`](#specify-the-custom-admin-theme-in-dixml)
 1. Update the components by running the [`bin/magento setup:upgrade`](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-uninstall.html#instgde-install-keep) command.

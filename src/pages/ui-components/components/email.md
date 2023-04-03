@@ -5,7 +5,7 @@ description: Configure Adobe Commerce and Magento Open Source UI components and 
 
 # Email component
 
-The Email component implements the [HTML](https://glossary.magento.com/html) `<input type="email">` form field.
+The Email component implements the HTML `<input type="email">` form field.
 
 ## Options
 

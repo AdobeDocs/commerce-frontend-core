@@ -7,7 +7,7 @@ contributor_link: https://swiftotter.com/
 
 # Data sourcing
 
-The application provides the DataSource object, which is designed to interact with data in your [UI component](https://glossary.magento.com/ui-component). Many of the core UI components use this DataSource component. Many UI components require that this object is included. However, there are specific requirements it has in order for it to work correctly.
+The application provides the DataSource object, which is designed to interact with data in your UI component. Many of the core UI components use this DataSource component. Many UI components require that this object is included. However, there are specific requirements it has in order for it to work correctly.
 
 In this topic, we will explain how to take advantage of the powerful functionality of the data provider in a UI Component.
 
@@ -28,11 +28,11 @@ The component's data provider class is declared inside `<dataSource />`. The fol
 
 In the block of code above, [YourNameSpace]\[YourModule] would be the directory that contains all of the module's files and directories. [YourComponentName] is the name of this instance of a component, which should be the file name as well.
 
-The main node of interest is `<argument name="class" />.` This references a PHP class that must implement `\Magento\Framework\View\Element\UiComponent\DataProvider\DataProviderInterface`. To meet that requirement, it can extend or implement the [`\Magento\Ui\DataProvider\ModifierPoolDataProvider`] class which inherits the [`\Magento\Ui\DataProvider\AbstractDataProvider`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/DataProvider/AbstractDataProvider.php). The `AbstractDataProvider` class implements all of the required methods in the `DataProviderInterface`. The DataProvider class is the primary source of any data or [metadata](https://glossary.magento.com/metadata) that the component needs or will use.
+The main node of interest is `<argument name="class" />.` This references a PHP class that must implement `\Magento\Framework\View\Element\UiComponent\DataProvider\DataProviderInterface`. To meet that requirement, it can extend or implement the [`\Magento\Ui\DataProvider\ModifierPoolDataProvider`] class which inherits the [`\Magento\Ui\DataProvider\AbstractDataProvider`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/DataProvider/AbstractDataProvider.php). The `AbstractDataProvider` class implements all of the required methods in the `DataProviderInterface`. The DataProvider class is the primary source of any data or metadata that the component needs or will use.
 
-While the [XML](https://glossary.magento.com/xml) tells the application about the component's data provider, the application does not do anything in particular with that unless you hook it up to the component's main PHP class. To make the data available in JavaScript, add a `getDataSourceData()` method to the UI component's PHP class and return `$this->getContext()->getDataProvider()->getData()`. This will output the result of the data provider's `getData()` method into the JSON that is sent to the browser along with the rest of the UI component's configuration.
+While the XML tells the application about the component's data provider, the application does not do anything in particular with that unless you hook it up to the component's main PHP class. To make the data available in JavaScript, add a `getDataSourceData()` method to the UI component's PHP class and return `$this->getContext()->getDataProvider()->getData()`. This will output the result of the data provider's `getData()` method into the JSON that is sent to the browser along with the rest of the UI component's configuration.
 
-Declare a `getData()` method in the data provider class that was referenced in the XML and return a value. Since that output will be part of the JSON rendered on the page, it is accessible via the [JavaScript](https://glossary.magento.com/JavaScript) class that is associated with the UI component and handles its behavior. Magento's Form Provider JavaScript class is often a good place to start.
+Declare a `getData()` method in the data provider class that was referenced in the XML and return a value. Since that output will be part of the JSON rendered on the page, it is accessible via the JavaScript class that is associated with the UI component and handles its behavior. Magento's Form Provider JavaScript class is often a good place to start.
 
 <InlineAlert variant="info" slots="text" />
 

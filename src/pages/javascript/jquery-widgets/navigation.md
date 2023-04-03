@@ -5,7 +5,7 @@ description: Learn how to initialize and configure the Adobe Commerce and Magent
 
 # Navigation widget
 
-The navigation widget is an [extension](https://glossary.magento.com/extension) of the [menu widget](menu.md) with the following funcitonalities:
+The navigation widget is an extension of the [menu widget](menu.md) with the following funcitonalities:
 
 -  Expanding all layers of the menu tree past the second layer.
 -  Limiting the maximum number of list items contained within the main

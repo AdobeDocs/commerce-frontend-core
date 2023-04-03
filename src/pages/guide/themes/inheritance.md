@@ -5,11 +5,11 @@ description: Minimize your Adobe Commerce and Magento Open Source theme maintena
 
 # Theme inheritance
 
-[Theme](https://glossary.magento.com/theme) inheritance enables you to easily extend themes and minimize the maintenance efforts. You can use an existing theme as a basis for customizations, or minor store design updates, like holidays decoration. Rather than copy extensive theme files and modify what you want to change, you can add overriding and extending files.
+Theme inheritance enables you to easily extend themes and minimize the maintenance efforts. You can use an existing theme as a basis for customizations, or minor store design updates, like holidays decoration. Rather than copy extensive theme files and modify what you want to change, you can add overriding and extending files.
 
 The level of theme inheritance is not limited.
 
-Theme inheritance is based on the fallback mechanism, which guarantees that if a view file is not found in the current theme, the system searches in the ancestor themes, [module](https://glossary.magento.com/module) view files or [library](https://glossary.magento.com/library).
+Theme inheritance is based on the fallback mechanism, which guarantees that if a view file is not found in the current theme, the system searches in the ancestor themes, module view files or library.
 
 The fallback order is slightly different for static assets (CSS, JavaScript, fonts and images) and other theme files, layouts and templates. The article describes the fallback for each type of theme files, and provides an overview of how to override ancestor themes and module designs.
 
@@ -58,7 +58,7 @@ The particular directories, where the system searches in the course of the fallb
 
 If module context is not defined for a file:
 
-1. Current theme [static files](https://glossary.magento.com/static-files) for a specific locale (the locale set for the storefront): `<theme_dir>/web/i18n/<locale>`
+1. Current theme static files for a specific locale (the locale set for the storefront): `<theme_dir>/web/i18n/<locale>`
 1. Current theme static files: `<theme_dir>/web/`
 1. Ancestor's static files, recursively, until a theme with no parent is reached:
 
@@ -89,9 +89,9 @@ In the Orange theme there is a footer background image located at `app/design/fr
 
 ![](../../_images/frontend/inh-background1.jpg)
 
-SampleCompany wants it to be replaced with a holiday one, so it places a new background image with exactly the same name and [extension](https://glossary.magento.com/extension) in `app/design/frontend/SampleCompany/orange_winter/web/images/background.jpg`
+SampleCompany wants it to be replaced with a holiday one, so it places a new background image with exactly the same name and extension in `app/design/frontend/SampleCompany/orange_winter/web/images/background.jpg`
 
-Once the Orange Winter theme is [applied](apply-storefront.md), the new holiday image overrides the one from Orange, so on [storefront](https://glossary.magento.com/storefront) the holiday background is visible.
+Once the Orange Winter theme is [applied](apply-storefront.md), the new holiday image overrides the one from Orange, so on storefront the holiday background is visible.
 
 ![](../../_images/frontend/inh-background2.jpg)
 
@@ -108,7 +108,7 @@ So if you need to customize a certain template, you need to create an overriding
 For example, if you must override the `<Magento_Catalog_module_dir>/view/frontend/templates/category/widget/link/link_block.phtml` template, the `<path_to_template>` is `category/widget/link/`
 
 **Example:**
-By default, according to the module template, in the mini [shopping cart](https://glossary.magento.com/shopping-cart) products are listed under the Go to [Checkout](https://glossary.magento.com/checkout) button:
+By default, according to the module template, in the mini shopping cart products are listed under the Go to Checkout button:
 
 ![In the minishopping cart products are listed under the Go to Checkout button](../../_images/frontend/inherit_mini1.png)
 
@@ -125,7 +125,7 @@ You can find out what exactly code changes are required to perform this and othe
 
 ## Extend layouts
 
-The layouts processing mechanism does not involve fallback. The system collects [layout](https://glossary.magento.com/layout) files in the following order:
+The layouts processing mechanism does not involve fallback. The system collects layout files in the following order:
 
 1. Current theme layouts: `<theme_dir>/<Vendor>_<Module>/layout/`
 
@@ -163,7 +163,7 @@ To override the instructions from an ancestor theme layout file:
 
 *  Create a layout file with the same name in the `<theme_dir>/<Vendor>_<Module>/layout/override/theme/<Vendor>/<ancestor_theme>` directory.
 
-To override module [layout instructions](https://glossary.magento.com/layout-instructions) (base layout):
+To override module layout instructions (base layout):
 
 *  Create a layout file with the same name in the `<theme_dir>/<Vendor>_<Module>/layout/override/base` directory.
 

@@ -70,7 +70,7 @@ This is an example of how to add a text range filter type:
 
 ## Methods and events
 
-The following [API](https://glossary.magento.com/api) methods are available:
+The following API methods are available:
 
 -  `buildChildren()` - create a configuration for the child components.
 -  `clear()` - clear child elements data.

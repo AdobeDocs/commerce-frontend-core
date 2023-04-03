@@ -14,7 +14,7 @@ Email templates are stored in the `<module_dir>/view/<area>/email` directory of 
 
 We strongly recommend you not change the default application files. If you want to customize the default templates, you should create your custom templates and configure the application to use them instead of the default templates.
 
-You can add custom templates as physical files in your custom [theme](https://glossary.magento.com/theme) or create them using the [Admin](https://glossary.magento.com/magento-admin). Both approaches are described in the following sections.
+You can add custom templates as physical files in your custom theme or create them using the Admin. Both approaches are described in the following sections.
 
 ### Theme-based customizations
 
@@ -24,7 +24,7 @@ Override email templates by creating templates in a new directory in your custom
 
 ### Admin-based customizations
 
-Any templates configured in the [Admin](https://glossary.magento.com/admin) take precedence over default or theme-based templates.
+Any templates configured in the Admin take precedence over default or theme-based templates.
 
 1. In the Admin, navigate to **MARKETING** > Communications > **Email Templates**
 1. Click **Add New Template**.

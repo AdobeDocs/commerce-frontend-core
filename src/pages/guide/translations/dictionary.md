@@ -5,11 +5,11 @@ description: Learn how Adobe Commerce and Magento Open Source themes search for 
 
 # Use a dictionary to customize strings
 
-Modify default strings in your custom [theme](https://glossary.magento.com/theme) to load and use [translation dictionaries]. Learn more about locales, modifying strings, and how the application searches and applies translations.
+Modify default strings in your custom theme to load and use [translation dictionaries]. Learn more about locales, modifying strings, and how the application searches and applies translations.
 
 ## How the application applies locales
 
-When the [locale](https://glossary.magento.com/locale) is changed for a store, the application searches and applies translations in the corresponding dictionaries in the following sequence:
+When the locale is changed for a store, the application searches and applies translations in the corresponding dictionaries in the following sequence:
 
 1. Module translations: `<module_dir>/i18n/`
 1. Translation package: `app/i18n/`
@@ -22,7 +22,7 @@ When the [locale](https://glossary.magento.com/locale) is changed for a store, t
 
 Translation priority follows the inverse sequence, with "module translations" having the lowest priority and  "database" having the highest priority.
 
-If there are competing translations for one string, the theme dictionary translations have priority over the [module](https://glossary.magento.com/module) translations, and child theme translations have priority over parent theme translations.
+If there are competing translations for one string, the theme dictionary translations have priority over the module translations, and child theme translations have priority over parent theme translations.
 
 ## Override parent strings for default locale
 
