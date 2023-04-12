@@ -7,7 +7,7 @@ contributor_link: https://www.atwix.com/
 
 # FolderTree widget
 
-The FolderTree [widget](https://glossary.magento.com/widget/) allows creating a dynamic hierarchical tree structure with folders.
+The FolderTree widget allows creating a dynamic hierarchical tree structure with folders.
 
 The main purpose of this widget is to represent a folder structure from the server, database or another resource and to allow the users to browse that structure.
 
@@ -17,7 +17,7 @@ For example: in the Wysiwyg editor, the FolderTree widget is used to represents 
 
 ![Example of Media Folder Tree](../../_images/javascript/folder-tree-widget-media-example.png)
 
-The FolderTree widget can be used only in the [adminhtml](https://glossary.magento.com/adminhtml) area.
+The FolderTree widget can be used only in the adminhtml area.
 
 The FolderTree widget source is [`<Magento_Cms_module_dir>/view/adminhtml/web/js/folder-tree.js`][].
 
@@ -37,7 +37,7 @@ Where:
 
 -  `#folder-tree` is the selector of the element which will display FolderTree.
 
-The following example shows a [PHTML](https://glossary.magento.com/phtml) file using the script:
+The following example shows a PHTML file using the script:
 
 ```html
 <script>
@@ -68,7 +68,7 @@ This option pre-opens the specified folder path. It is an array of folders IDs w
 
 ### `root`
 
-The id for the root folder [HTML](https://glossary.magento.com/html) element.
+The id for the root folder HTML element.
 
 **Type**: String
 

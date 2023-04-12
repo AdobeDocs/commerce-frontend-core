@@ -7,7 +7,7 @@ contributor_link: https://www.atwix.com/
 
 # RedirectUrl widget
 
-The RedirectUrl [widget](https://glossary.magento.com/widget) allows redirecting to an URL when an event triggers.
+The RedirectUrl widget allows redirecting to an URL when an event triggers.
 
 The RedirectUrl widget source is [lib/web/mage/redirect-url.js][].
 

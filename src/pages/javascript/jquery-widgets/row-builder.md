@@ -7,7 +7,7 @@ contributor_link: https://www.atwix.com/
 
 # RowBuilder widget
 
-The RowBuilder [widget](https://glossary.magento.com/widget/) allows you to build a container with rows.
+The RowBuilder widget allows you to build a container with rows.
 
 The RowBuilder widget can be used only on the frontend area.
 

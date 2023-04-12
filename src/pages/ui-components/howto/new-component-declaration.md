@@ -5,7 +5,7 @@ description: Follow this tutorial to create the XML configuration required for c
 
 # Declare a custom UI component
 
-Declaring a custom [UI component](https://glossary.magento.com/ui-component) refers to creating the [XML](https://glossary.magento.com/xml) configuration of your custom component, and is a part of a bigger task of creating a custom UI component.
+Declaring a custom UI component refers to creating the XML configuration of your custom component, and is a part of a bigger task of creating a custom UI component.
 
 This topic describes the XML elements that must be used for declaring a custom component and where this declaration should be placed.
 
@@ -21,12 +21,12 @@ The `<container>` element is typically used for declaring custom components that
 
 The `<container>` and `<component>` elements have no mandatory attributes. The following optional attributes are available for both these elements:
 
--  `component`: link to the component's [JavaScript](https://glossary.magento.com/javascript) constructor.
--  `class`: link to the component's [PHP](https://glossary.magento.com/php) class.
+-  `component`: link to the component's JavaScript constructor.
+-  `class`: link to the component's PHP class.
 -  `template`: link to component's `.html` template.
 -  `provider`: link to component's data provider.
 -  `sortOrder`: component's sort order
--  `displayArea`: the placeholder which defines the area for rendering the component in the [layout](https://glossary.magento.com/layout) file.
+-  `displayArea`: the placeholder which defines the area for rendering the component in the layout file.
 
 <InlineAlert variant="warning" slots="text1, text2, text3" />
 

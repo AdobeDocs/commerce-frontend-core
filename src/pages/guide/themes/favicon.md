@@ -9,10 +9,10 @@ This topic describes how to add custom favicons.
 
 ## General overview
 
-The applications provides a default 16px x 16px [favicon](https://glossary.magento.com/favicon) that you can override by uploading a custom icon in the Admin, or by adding it manually in a specific location in a [theme](https://glossary.magento.com/theme) directory.
-If both favicons exist, the one you uploaded in the [Admin](https://glossary.magento.com/admin) takes precedence.
+The applications provides a default 16px x 16px favicon that you can override by uploading a custom icon in the Admin, or by adding it manually in a specific location in a theme directory.
+If both favicons exist, the one you uploaded in the Admin takes precedence.
 
-If you want to have favicons of different sizes, you need to add them manually in the file system and define in [layout](https://glossary.magento.com/layout).
+If you want to have favicons of different sizes, you need to add them manually in the file system and define in layout.
 
 The application supports the following file types for favicon: `.ico`, `.png`, `.gif`, `.jpg`, `.jpeg`, `.apng`, `.svg`. Not all browsers support all these formats. The most widely supported file format to use for a favicon is `.ico`.
 
@@ -34,7 +34,7 @@ To add a custom favicon in the Admin, do the following:
 
 1. Click **Save Configuration** in the upper right corner to save the changes.
 
-If caching is enabled in your Admin, you get a notification that refreshing certain [cache](https://glossary.magento.com/cache) types is required. Click the link provided in the notification, and then click **Flush Magento Cache**. You can also navigate to **System** > Tools > **Cache Management** and click **Flush Magento Cache**, or run `bin/magento cache:flush`.
+If caching is enabled in your Admin, you get a notification that refreshing certain cache types is required. Click the link provided in the notification, and then click **Flush Magento Cache**. You can also navigate to **System** > Tools > **Cache Management** and click **Flush Magento Cache**, or run `bin/magento cache:flush`.
 
 ## Add custom favicons manually
 

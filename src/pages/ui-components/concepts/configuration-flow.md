@@ -5,13 +5,13 @@ description: Learn about the configuration lifecycle of Adobe Commerce and Magen
 
 # Configuration flow
 
-The following section covers the configuration flow of UI components. Before a [UI component](https://glossary.magento.com/ui-component) is finally displayed on a web page, its configuration undergoes a series of modifications. Starting from the initial reading of the top-level component instance’s [XML](https://glossary.magento.com/xml) declaration, all the way to the merging of module-specific options.
+The following section covers the configuration flow of UI components. Before a UI component is finally displayed on a web page, its configuration undergoes a series of modifications. Starting from the initial reading of the top-level component instance’s XML declaration, all the way to the merging of module-specific options.
 
 When the server generates a page response, the configuration of these components in the [`.xml` declaration files](xml-declaration.md) is then modified by the [`.php` modifiers](modifier.md), and then finally this combined configuration is packed into JSON format and added into the HTTP response body.
 
 On the client-side, this JSON is processed by `Magento_Ui/js/core/app` where `Magento_Ui/js/core/app` is an alias for the [`app.js`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/core/app.js) file. The JSON could be seen in the page source. The `Magento_Ui/js/core/app` creates the UI components instances according to the configuration of the JSON using `uiLayout`.
 
-The [JavaScript](https://glossary.magento.com/javascript) application bounds these instances to the corresponding `.html` templates, if there are any `.html` templates declared in JSON for that particular component. The top-level UI component is bound to the page by the `scope` Knockout binding.
+The JavaScript application bounds these instances to the corresponding `.html` templates, if there are any `.html` templates declared in JSON for that particular component. The top-level UI component is bound to the page by the `scope` Knockout binding.
 
 ## Implementation details
 
@@ -19,9 +19,9 @@ This section provides more detailed steps about the configuration flow.
 
 Lets consider an example with the top-level UI component, `form`.
 
-Lets imagine we have the following file structure in our [module](https://glossary.magento.com/module) `<My_Module>`:
+Lets imagine we have the following file structure in our module `<My_Module>`:
 
--  [layout](https://glossary.magento.com/layout) `.xml` file of the Module’s page: `my_page.xml`
+-  layout `.xml` file of the Module’s page: `my_page.xml`
 -  top-level UI Component (form or listing) configuration: `my_form.xml`
 -  `.php` modifiers that are specific to the module
 

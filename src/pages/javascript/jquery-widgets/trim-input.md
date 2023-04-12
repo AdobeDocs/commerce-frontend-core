@@ -7,7 +7,7 @@ contributor_link: https://www.atwix.com/
 
 # TrimInput widget
 
-The TrimInput [widget](https://glossary.magento.com/widget) trims  whitespace in an input field.
+The TrimInput widget trims  whitespace in an input field.
 
 The TrimInput widget source is [lib/web/mage/trim-input.js][].
 

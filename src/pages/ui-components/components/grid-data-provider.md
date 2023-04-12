@@ -7,13 +7,13 @@ contributor_link: https://www.atwix.com/
 
 # GridDataProvider component
 
-The GridDataProvider [UI component](https://glossary.magento.com/ui-component) is a data provider for the [Listing](listing-grid.md) component. It provides data in specific format which is shared among all UI components in the scope of the [Listing](listing-grid.md) component.
+The GridDataProvider UI component is a data provider for the [Listing](listing-grid.md) component. It provides data in specific format which is shared among all UI components in the scope of the [Listing](listing-grid.md) component.
 
 ## Options
 
 | Option | Description | Type | Default Value |
 | --- | --- | --- | --- |
-| `class` | Path to the [PHP](https://glossary.magento.com/php) class responsible for the [backend](https://glossary.magento.com/backend) implementation of the component | String | `Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider` |
+| `class` | Path to the PHP class responsible for the backend implementation of the component | String | `Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider` |
 | `component` | The path to the component's `.js` file, relative to RequireJS. | String | `Magento_Ui/js/grid/provider` |
 | `firstLoad` | Defines the first loading of data. The value changes to `false` if data reloads. | Boolean | `true` |
 | `lastError` | Defines if an error occurred for the latest data reloading. | Boolean | `false` |

@@ -8,11 +8,11 @@ This topic describes how to create your custom theme for Admin, referencing the 
 
 ## Prerequisites
 
-[Set](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) your application to the developer [mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html). The application mode influences the way [static files](https://glossary.magento.com/static-files) are cached.
+[Set](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) your application to the developer [mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html). The application mode influences the way static files are cached.
 
 ## Overview
 
-To create a custom [Admin](https://glossary.magento.com/admin) theme, take the following steps:
+To create a custom Admin theme, take the following steps:
 
 1. [Create a theme directory.](#create-a-theme-directory)
 1. [Add a declaration `theme.xml`.](#add-a-declaration-themexml)
@@ -32,7 +32,7 @@ In the theme directory, add `theme.xml` containing at least the theme name and t
 
 Add or copy from an existing `theme.xml` to your theme directory `app/design/adminhtml/<Vendor>/<admin_theme>`.
 
-Configure it using the following example (replace placeholders with your [theme](https://glossary.magento.com/theme) information):
+Configure it using the following example (replace placeholders with your theme information):
 
 ```xml
 <theme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/theme.xsd">
@@ -41,7 +41,7 @@ Configure it using the following example (replace placeholders with your [theme]
 </theme>
 ```
 
-If you change the theme title or parent theme information in `theme.xml` after a theme was already [registered](#theme-registration), you need to open or reload any [Admin](https://glossary.magento.com/magento-admin) page for your changes to be saved in the database.
+If you change the theme title or parent theme information in `theme.xml` after a theme was already [registered](#theme-registration), you need to open or reload any Admin page for your changes to be saved in the database.
 
 ## Add `registration.php`
 

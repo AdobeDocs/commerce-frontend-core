@@ -5,7 +5,7 @@ description: Configure Adobe Commerce and Magento Open Source UI components and 
 
 # File component
 
-The File component implements the [HTML](https://glossary.magento.com/html) `<input type="file">` form field.
+The File component implements the HTML `<input type="file">` form field.
 
 ## Options
 

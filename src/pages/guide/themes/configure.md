@@ -5,9 +5,9 @@ description: View code samples for configuring properties of an Adobe Commerce a
 
 # Configure theme properties
 
-The properties of product images used on the [storefront](https://glossary.magento.com/storefront) are stored in the `view.xml` configuration file. This topic provides all details about what properties are available and how to configure them.
+The properties of product images used on the storefront are stored in the `view.xml` configuration file. This topic provides all details about what properties are available and how to configure them.
 
-The properties for the images displayed on the product pages are defined by the gallery widget options. The options of the widget can be configured in the [theme](https://glossary.magento.com/theme) `view.xml` as well. For more details, view the [Gallery widget](../../javascript/jquery-widgets/gallery.md) topic.
+The properties for the images displayed on the product pages are defined by the gallery widget options. The options of the widget can be configured in the theme `view.xml` as well. For more details, view the [Gallery widget](../../javascript/jquery-widgets/gallery.md) topic.
 
 ## Configure image properties
 
@@ -43,8 +43,8 @@ The following table describes the attributes in detail:
 
 |Attribute|Type|Description|
 |--- |--- |--- |
-|`id`|string|Image identifier. Unique in the scope of theme.<br />Can have any value, but in out-of-the-box themes, the `id` is meaningful and describes the location of an image.<br />For example, the `id` value for images of [cross-sell](https://glossary.magento.com/cross-sell) products displayed in a shopping cart is `cart_cross_sell_products`.<br />`id` is used in `.phtml` templates for defining the type and properties of images displayed in each particular location on a particular page.|
-|`type`|string|The type of the images defined by the specified `id`. Allowed values:<br />`image` - corresponds to the Base Image role in the Admin<br />`small_image` - corresponds to the Small Image role in the Admin<br />`swatch_image` - corresponds to the Swatch Image role in the Admin<br />`swatch_thumb` - corresponds to the Swatch Image role in the [Admin](https://glossary.magento.com/magento-admin).<br />`thumbnail` - corresponds to the Thumbnail Image role in the Admin|
+|`id`|string|Image identifier. Unique in the scope of theme.<br />Can have any value, but in out-of-the-box themes, the `id` is meaningful and describes the location of an image.<br />For example, the `id` value for images of cross-sell products displayed in a shopping cart is `cart_cross_sell_products`.<br />`id` is used in `.phtml` templates for defining the type and properties of images displayed in each particular location on a particular page.|
+|`type`|string|The type of the images defined by the specified `id`. Allowed values:<br />`image` - corresponds to the Base Image role in the Admin<br />`small_image` - corresponds to the Small Image role in the Admin<br />`swatch_image` - corresponds to the Swatch Image role in the Admin<br />`swatch_thumb` - corresponds to the Swatch Image role in the Admin.<br />`thumbnail` - corresponds to the Thumbnail Image role in the Admin|
 
 The following picture illustrates how image roles for product images are specified in the Admin:
 ![Setting image role in Admin](../../_images/frontend/fdg_theme_bck.png)
@@ -77,9 +77,9 @@ All image properties used in `view.xml` should be listed in the order shown here
 Generally, product images are cached while saving the product. However, the `magento catalog:images:resize` command enables you to resize all images for display on your storefront. Situations where this could be necessary might be:
 
 *  After you import products, which might have images of various sizes
-*  If images were resized or deleted manually from [cache](https://glossary.magento.com/cache)
+*  If images were resized or deleted manually from cache
 
-Each image assigned to a product must be resized in accordance with image [metadata](https://glossary.magento.com/metadata) defined in a module's [`view.xml`](create-storefront.md#configure-images) configuration file. After resizing an image, its resized copy is stored in the cache (`/pub/media/catalog/product/cache` directory). The application serves storefront images from cache.
+Each image assigned to a product must be resized in accordance with image metadata defined in a module's [`view.xml`](create-storefront.md#configure-images) configuration file. After resizing an image, its resized copy is stored in the cache (`/pub/media/catalog/product/cache` directory). The application serves storefront images from cache.
 
 Command usage:
 

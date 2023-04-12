@@ -5,7 +5,7 @@ description: Learn how to use custom JavaScript components with default Adobe Co
 
 # Custom JavaScript
 
-This topic discusses how to use custom [JavaScript](https://glossary.magento.com/javascript) components with the components provided by the application or custom replacement implementations.
+This topic discusses how to use custom JavaScript components with the components provided by the application or custom replacement implementations.
 
 We strongly recommend that you do not change the source code of default components and widgets. All customizations must be implemented in custom modules or themes.
 
@@ -17,7 +17,7 @@ To add a custom JS component (module), take the following steps:
    -  Your theme JS files: `<theme_dir>/web/js` or `<theme_dir>/<VendorName>_<ModuleName>/web/js`. In this case the component is available in your theme and its [child themes](../guide/themes/inheritance.md).
    -  Your module view JS files: `<module_dir>/view/frontend/web/js`. In this case, the component is available in all modules and themes (if your module is enabled).
 
-1. Optionally, in the corresponding [module](https://glossary.magento.com/module) or theme, create a `requirejs-config.js` configuration file, if it does not yet exist there and set path for your resource. The RequireJS configuration file can be placed in one of the following locations:
+1. Optionally, in the corresponding module or theme, create a `requirejs-config.js` configuration file, if it does not yet exist there and set path for your resource. The RequireJS configuration file can be placed in one of the following locations:
 
    -  Your theme: `<theme_dir>`
    -  Module within your theme: `<theme_dir>/<module_dir>`
@@ -62,10 +62,10 @@ var config = {
 
 Place your `requirejs-config.js` file in one of the following directories (according to the location of your custom script, see step 1 of this procedure):
 
--  Your [theme](https://glossary.magento.com/theme) files: `<theme_dir>`
+-  Your theme files: `<theme_dir>`
 -  Your module view files: `<module_dir>/view/frontend`
 
-This way, your custom JS component is used instead of the [component](https://glossary.magento.com/magento-component) in all entries all over the [frontend](https://glossary.magento.com/frontend) area.
+This way, your custom JS component is used instead of the component in all entries all over the frontend area.
 
 ## Extend a default component
 
@@ -73,7 +73,7 @@ You can add a custom JS component/widget, which will extend a default component/
 
 ### Extend widget
 
-To extend a default [jQuery](https://glossary.magento.com/jquery) widget, create `<your_widget_name>.js` with contents similar to the following:
+To extend a default jQuery widget, create `<your_widget_name>.js` with contents similar to the following:
 
 ```javascript
 define([
@@ -91,7 +91,7 @@ define([
 
 Where the following notation is used:
 
--  `<your_namespace>.<your_widget_name>` - the name of your custom [widget](https://glossary.magento.com/widget). According to the jQuery widgets naming convention, this value must contain a [namespace](https://glossary.magento.com/namespace) and name.
+-  `<your_namespace>.<your_widget_name>` - the name of your custom widget. According to the jQuery widgets naming convention, this value must contain a namespace and name.
 -  `mage.<widget.name>` - the name of the widget that you extend.
 
 <InlineAlert variant="info" slots="text" />

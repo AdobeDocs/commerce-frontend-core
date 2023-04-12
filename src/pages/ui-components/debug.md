@@ -5,7 +5,7 @@ description: Configure Adobe Commerce and Magento Open Source UI components and 
 
 # Debug UI components
 
-This article describes how to define what UI components are used on a particular page, their [JavaScript](https://glossary.magento.com/javascript) components and what data they use.
+This article describes how to define what UI components are used on a particular page, their JavaScript components and what data they use.
 
 To define the UI components used on a page, you can use browser built-in developer tools, or install additionally a plugin, for example Knockoutjs context debugger for Google Chrome.
 
@@ -19,9 +19,9 @@ To install the knockout debugging plugin for Google Chrome, take the following s
 1. In left pane, select **Extensions**.
 1. Scroll to end of the page and click **Get more extensions** link.
 1. In the **Search** field write **Knockoutjs context debugger** and press the **Enter** key.
-1. In the result, find the [extension](https://glossary.magento.com/extension) named **Knockoutjs context debugger** (usually the first result), and click **Add to Chrome**.
+1. In the result, find the extension named **Knockoutjs context debugger** (usually the first result), and click **Add to Chrome**.
 
-To define the [UI component](https://glossary.magento.com/ui-component) using the plugin:
+To define the UI component using the plugin:
 
 1. Open the required page in Chrome.
 1. Point to the required element on the page, right-click and select **Inspect**. The developer tools panel opens.
@@ -29,7 +29,7 @@ To define the [UI component](https://glossary.magento.com/ui-component) using th
 
 A simple example:
 
-1. Launch [Admin](https://glossary.magento.com/magento-admin).
+1. Launch Admin.
 1. Navigate to **Products** > **Catalog** and click **Add Product**. The product creation page opens.
 1. Right-click on the **Product Name** field and click **Inspect**. Go to the **Knockout context** tab. Here you can see the full context of the field, where you can find JS component file, component name, etc.
 

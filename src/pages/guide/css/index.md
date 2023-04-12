@@ -9,7 +9,7 @@ The Adobe Commerce and Magento Source applications incorporate [Less](http://les
 
 The Commerce application provides a built-in Less UI library, which you can optionally extend.
 
-To customize [storefront](https://glossary.magento.com/storefront) styles, you need to [create a custom design theme](../themes/create-storefront.md). Then you can use one of the following approaches:
+To customize storefront styles, you need to [create a custom design theme](../themes/create-storefront.md). Then you can use one of the following approaches:
 
 *  If your theme [inherits](..//themes/inheritance.md) from the out-of-the-box Blank or Luma theme, you can override the default Less files. For example, to [change the values of the variables](ui-library.md#predefined-variables) used in the default files.
 *  Create your own Less files using the built-in Less preprocessor.
@@ -42,7 +42,7 @@ In the Blank theme, the buttons of the `.action.primary` class, so called *prima
 
 ExampleCorp wants to change the color of the primary buttons to orange. To achieve this, they do the following:
 
-1. Create a new Orange theme, which inherits from the Blank [theme](https://glossary.magento.com/theme).
+1. Create a new Orange theme, which inherits from the Blank theme.
 1. In the Orange theme directory add the overriding `app/design/frontend/ExampleCorp/orange/web/css/source/_theme.less` file with the following code:
 
    ```less

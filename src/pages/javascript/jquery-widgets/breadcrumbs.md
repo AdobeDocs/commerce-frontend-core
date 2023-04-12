@@ -7,7 +7,7 @@ contributor_link: https://www.atwix.com/
 
 # Breadcrumbs widget
 
-The Breadcrumbs [widget](https://glossary.magento.com/widget/) builds a list of links that show users where they are on the site relative to other pages.
+The Breadcrumbs widget builds a list of links that show users where they are on the site relative to other pages.
 
 The Breadcrumbs widget can be used only on the frontend area.
 
@@ -96,7 +96,7 @@ The Breadcrumb List Items should have the following structure:
 | `title` | The title option of a breadcrumb item is used as the `<a>` tag title attribute. | String |
 | `label` | The label option of a breadcrumb item is used as the text of `<a>` tag. | String |
 
-The Breadcrumb List Item Options in the [HTML](https://glossary.magento.com/html):
+The Breadcrumb List Item Options in the HTML:
 
 ![Breadcrumb List Item Options HTML](../../_images/javascript/breadcrumb-list-item-html.png)
 

@@ -7,7 +7,7 @@ description: Manage page layouts in Adobe Commerce and Magento Open Source theme
 
 There are two possible ways to customize page layout:
 
--  Changing [layout](https://glossary.magento.com/layout) files.
+-  Changing layout files.
 -  Altering templates.
 
 To change the page wireframe, modify the [page layout] files; all other customizations are performed in the [page configuration] or [generic layout] files.
@@ -19,7 +19,7 @@ For example, layout changes added to `app/code/Vendor/Module/view/frontend/layou
 To add layout changes to a specific page, use a layout file that corresponds to the page's path.
 For example, changes to the `app/code/Vendor/Module/view/frontend/layout/catalog_product_view.xml` page are loaded on the product details page.
 
-Use these [layout instructions](https://glossary.magento.com/layout-instructions) to:
+Use these layout instructions to:
 
 -  Move a page element to another parent element.
 -  Add content.
@@ -51,7 +51,7 @@ Defines a block.
 
 Blocks are a foundational building unit for layouts. They are the link between a PHP block class (which contains logic) and a template (which renders content). Blocks can have children and grandchildren (and so on). Information can be passed from layout XML files to blocks using the `<arguments/>` child node.
 
-Blocks employ templates to generate HTML. Examples of blocks include a [category](https://glossary.magento.com/category) list, a mini cart, product tags, and product listing.
+Blocks employ templates to generate HTML. Examples of blocks include a category list, a mini cart, product tags, and product listing.
 
 <InlineAlert variant="info" slots="text"/>
 

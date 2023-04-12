@@ -9,7 +9,7 @@ The alert widget implements a modal pop-up window with a confirmation button. It
 
 The alert widget source is [`<Magento_Ui_module_dir>/view/base/web/js/modal/alert.js`].
 
-The widget can be used for implementing alert windows for both Admin and [storefront](https://glossary.magento.com/storefront). The design patterns for the pop-up modal windows in the Admin are described in the [Admin Pattern Library, the Slide-out Panels, Modal Windows, and Overlays topic.]
+The widget can be used for implementing alert windows for both Admin and storefront. The design patterns for the pop-up modal windows in the Admin are described in the [Admin Pattern Library, the Slide-out Panels, Modal Windows, and Overlays topic.]
 
 ## Initialize
 

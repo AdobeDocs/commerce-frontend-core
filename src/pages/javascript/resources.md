@@ -5,7 +5,7 @@ description: Review general information about how Adobe Commerce and Magento Ope
 
 # JavaScript Resources in Commerce
 
-This topic describes general concepts of how [JavaScript](https://glossary.magento.com/javascript) (JS) components are organized.
+This topic describes general concepts of how JavaScript (JS) components are organized.
 
 To address the problem of slow page loads, we exclude JavaScript from the page headers and we added the ability to use the [RequireJS library](http://requirejs.org).
 
@@ -17,8 +17,8 @@ RequireJS improves the perceived page load time because it allows JavaScript to 
 
 You can find Javascript components on the following levels:
 
-*  [Library](https://glossary.magento.com/library) level (`lib/web`). Resources located here are available in any place within the application.
-*  Module level (`<module_dir>/view/<areaname>/web`). If the [module](https://glossary.magento.com/module) is enabled, resources added here are available in other modules and themes.
+*  Library level (`lib/web`). Resources located here are available in any place within the application.
+*  Module level (`<module_dir>/view/<areaname>/web`). If the module is enabled, resources added here are available in other modules and themes.
 *  Theme level, for a particular module (`<theme_dir>/<VendorName>_<ModuleName>/web`). Resources added here are available for [inheriting] themes.
 *  Theme level  (`<theme_dir>/web`). Resources added here are available for [inheriting](../guide/themes/inheritance.md) themes.
 
@@ -28,7 +28,7 @@ The library level can only contain core application resources. Do not put custom
 
 ### Specifying JS
 
-We recommend specifying JavaScript resources in the templates rather than in the [layout](https://glossary.magento.com/layout) updates, to ensure that the resources are available for body of a page.
+We recommend specifying JavaScript resources in the templates rather than in the layout updates, to ensure that the resources are available for body of a page.
 
 ## Accessing resources
 
@@ -37,7 +37,7 @@ JS resources are accessed using relative paths.
 **Example 1:**
 
 *  File actual location: `app/code/Magento/ConfigurableProduct/view/frontend/web/js/configurable.js`
-*  File published to `pub/static`: `pub/static/frontend/<Vendor>/<theme>/<locale>/Magento_ConfigurableProduct/js/configurable.js`. Here `<theme>` and `<locale>` are the currently applied in your instance [theme](https://glossary.magento.com/theme) and [locale](https://glossary.magento.com/locale).
+*  File published to `pub/static`: `pub/static/frontend/<Vendor>/<theme>/<locale>/Magento_ConfigurableProduct/js/configurable.js`. Here `<theme>` and `<locale>` are the currently applied in your instance theme and locale.
 *  Called in script:
 
     ```javascript

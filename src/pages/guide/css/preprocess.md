@@ -5,7 +5,7 @@ description: Learn how Adobe Commerce and Magento Open Source preprocess and com
 
 # CSS and LESS preprocessing
 
-The topic describes how stylesheets are preprocessed and compiled to [CSS](https://glossary.magento.com/css) in the application. It provides the theoretical background a [frontend](https://glossary.magento.com/frontend) developer needs to debug stylesheets effectively.
+The topic describes how stylesheets are preprocessed and compiled to CSS in the application. It provides the theoretical background a frontend developer needs to debug stylesheets effectively.
 
 ## Terms used
 
@@ -65,7 +65,7 @@ In server-side Less compilation mode, to have your changes applied, you need to 
 
 1. Clear `pub/static/frontend/<Vendor>/<theme>/<locale>` by deleting the directory in the file system (excluding .htaccess).
 1. Clear the `var/cache` and `var/view_preprocessed` directories by deleting the directory in the file system. (if they already existed there).
-1. Trigger [static files](https://glossary.magento.com/static-files) compilation and publication. This can be done in one of the following ways:
+1. Trigger static files compilation and publication. This can be done in one of the following ways:
 
    -  Reloading the page where the modified styles are applied.
    -  Running the [static files deployment tool](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/static-view/static-view-file-deployment.html).
