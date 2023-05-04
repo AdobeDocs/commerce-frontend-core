@@ -86,7 +86,7 @@ lib/web
 
 ## Predefined variables
 
-If your theme [inherits][] from any out-of-the-box theme, for example Blank, you can easily customize any element of a store page without changing any CSS code or templates.
+If your theme [inherits] from any out-of-the-box theme, for example Blank, you can easily customize any element of a store page without changing any CSS code or templates.
 Customization can be performed by simply changing in your theme the values of the predefined variables used in the UI library or parent theme mixins.
 
 The complete list of these variables and their default values are stored in [`lib/web/css/source/lib/variables`][].
@@ -230,6 +230,8 @@ Each file is named after the mixin it describes, and contains detailed mixin des
 The generated UI library documentation is provided in a convenient HTML view. It is available in the following location in your installation: `<your_instance>/pub/static/frontend/Magento/blank/en_US/css/docs/index.html` (view in a browser).
 
 <!-- Link definitions -->
+
+[inherits]: https://developer.adobe.com/commerce/frontend-core/guide/themes/inheritance/
 
 [`lib/web/css/docs/source/README.md`]: https://github.com/magento/magento2/blob/2.4/lib/web/css/docs/source/README.md
 
