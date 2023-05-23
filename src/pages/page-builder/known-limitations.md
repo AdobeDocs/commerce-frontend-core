@@ -1,10 +1,9 @@
 ---
 title: Known limitations
-description: This page links to the Page Builder known limitations on ExL. 
 ---
 
 # Known limitations
 
-Known limitations for Page Builder are hosted on Adobe Experience League as part of the Page Builder User Guide. Follow the link below to open the Page Builder known limitations in a new window:
+The following items are known limitations to the Page Builder content types:
 
-### [Known limitations for Page Builder](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/known-limitations.html)
+- **Preview and New Relic** - New Relic service workers are not supported in the Page Builder preview mode resulting in a ServiceWorker console error and no functional impact for the Page Builder itself.
