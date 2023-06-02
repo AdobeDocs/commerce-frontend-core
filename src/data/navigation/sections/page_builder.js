@@ -8,6 +8,10 @@ module.exports = [
       path: "/page-builder/release-notes.md"
     },
     {
+      title: "Known limitations",
+      path: "/page-builder/known-limitations/"
+    },
+    {
       title: "Example code",
       path: "/page-builder/pagebuilder-examples.md"
     },
