@@ -111,7 +111,7 @@ Initialize the collapsible with the animate option specified:
 
 ```javascript
 $("#element").collapsible({ animate: 1000});
-$("#element").collapsible({ animate: {duration:1000,easing:"easeOutCubic"});
+$("#element").collapsible({ animate: {duration:1000,easing:"easeOutCubic"}});
 ```
 
 Get or set the animate option, after initialization:
