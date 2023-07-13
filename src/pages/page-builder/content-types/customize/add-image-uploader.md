@@ -53,7 +53,7 @@ The first step is to customize the image uploader to suit your needs. To do this
 To create an instance of the image uploader in your preview component (`preview.js`), import the `Magento_PageBuilder/js/content-type/uploader` component as a dependency and call the uploader constructor, passing in your content type's configuration options (added in step 1) and the other required arguments, as shown here :
 
 ```js
-define(['Magento_PageBuilder/js/content-type/uploader'], function (Uploader) {
+define(['Magento_PageBuilder/js/uploader'], function (Uploader) {
 
     Preview.prototype.getUploader = function () {
         var initialImageValue = this.contentType.dataStore
