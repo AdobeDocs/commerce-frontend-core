@@ -55,7 +55,7 @@ Depending on your needs, you can use the existing language packages, translate b
 ## Programming notes
 
 *  It is recommended, but not enforced, that you do not place variables inside `__()` functions or `new Phrase()` calls. The scanner that collects the phrases from the code cannot interpret and collect the value of the variable when it is in these locations. Instead, you should place the full text in the `__()` function or `new Phrase()` call. If you need to specify a variable in these cases, ensure that it is translated correctly wherever it is defined as a string literal.
-*  The [language package](https://glossary.magento.com/language-package) (`i18n` directory) can be saved to any directory of your [extension](https://glossary.magento.com/extension).
+*  The language package (`i18n` directory) can be saved to any directory of your extension.
 *  The phrases for translations are enabled in the [Phrase] class.
 
 ## Theme dictionaries
@@ -63,7 +63,7 @@ Depending on your needs, you can use the existing language packages, translate b
 You might need to add a dictionary for the default language (en_US) in the following cases:
 
 *  To replace or customize strings in the [parent theme]. For example, use "Compare" instead of "Add to Compare".
-*  To prepare your [theme](https://glossary.magento.com/theme) for localization. More merchants may use your theme if it supports localization.
+*  To prepare your theme for localization. More merchants may use your theme if it supports localization.
 
 For an example of creating a dictionary for a theme for both cases, see [Example theme translation dictionary].
 
@@ -79,7 +79,7 @@ To translate names, titles, and phrases:
 
 Only one variant of translation can be used for a word or phrase in a package. Otherwise, the application returns an error.
 
-Anyone can submit inline translations on the [storefront](https://glossary.magento.com/storefront) using the Text Editor. These inline translations overwrite a dictionary and save to your database (not in an instance's dictionary). Inline translations are theme-specific and do not apply if another theme is assigned.
+Anyone can submit inline translations on the storefront using the Text Editor. These inline translations overwrite a dictionary and save to your database (not in an instance's dictionary). Inline translations are theme-specific and do not apply if another theme is assigned.
 
 To save and reuse translations, we recommend localizing in a dictionary.
 
@@ -90,7 +90,7 @@ The application translates words and phrases when all of the following condition
 *  The code base has the necessary translation dictionaries for a language.
 *  This language is configured by the store administrator to be used in specified scope (that is, storefront).
 
-The application automatically assembles translation dictionaries located in the modules' `i18n` directory into a dictionary per language. For example, Brazilian Portuguese (`pt_BR`) translation dictionaries might be located in [module](https://glossary.magento.com/module) and theme directories similar to the following:
+The application automatically assembles translation dictionaries located in the modules' `i18n` directory into a dictionary per language. For example, Brazilian Portuguese (`pt_BR`) translation dictionaries might be located in module and theme directories similar to the following:
 
 *  `<Magento_Checkout_module_dir>/i18n/pt_BR.csv`
 *  `<Magento_Checkout_module_dir>/<theme>/i18n/pt_BR.csv`
@@ -103,7 +103,7 @@ Assembling the preceding `pt_BR.csv` files across all modules and the current th
 
 ### Dictionary generator tool
 
-You can generate a translation dictionary to use by itself (for example, to translate words and phrases in a custom module) or for use by a [language package](https://glossary.magento.com/language-package). For more information, see [dictionary generator tool - We intend to publish more information on this technique at a later time].
+You can generate a translation dictionary to use by itself (for example, to translate words and phrases in a custom module) or for use by a language package. For more information, see [dictionary generator tool - We intend to publish more information on this technique at a later time].
 
 ## Language packages
 
@@ -142,7 +142,7 @@ The application enables you to create the following types of language packages:
 
 In addition to the `.csv` file that contains the language dictionary, the language package contains meta-information:
 
-*  `composer.json` that contains any dependencies for the language package and a mapping to its defined [locale](https://glossary.magento.com/locale). [Sample composer.json](https://developer.adobe.com/commerce/php/development/package/component/#sample-composerjson-file).
+*  `composer.json` that contains any dependencies for the language package and a mapping to its defined locale. [Sample composer.json](https://developer.adobe.com/commerce/php/development/package/component/#sample-composerjson-file).
 
 *  `language.xml`, in which you declare a language package.
    [Sample language.xml](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/localization.html#example%3A-create-a-language-package).

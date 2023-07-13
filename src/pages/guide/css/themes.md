@@ -17,7 +17,7 @@ This topic describes how stylesheets are located by default in the application f
 
 ## How stylesheet files are organized
 
-Conventionally, CSS and Less files are stored only in themes. [Module](https://glossary.magento.com/module) directories do not contain any default styles.
+Conventionally, CSS and Less files are stored only in themes. Module directories do not contain any default styles.
 
 In a [theme directory][], stylesheets are stored in the following locations:
 
@@ -28,7 +28,7 @@ Directory relative to `<THEME_DIR>` | Description
 
 ## Include CSS
 
-In the application, the recommended way to include stylesheets is to specify them in [layout](https://glossary.magento.com/layout) files.
+In the application, the recommended way to include stylesheets is to specify them in layout files.
 
 Usually, the stylesheets you include should be available for all store pages. To achieve this, include your CSS in `default_head_blocks.xml` of the `Magento_Theme` module, which defines the default `<head>` page section for all pages.
 The recommended way to do this is adding an [extending](../layouts/extend.md) `default_head_blocks.xml` in your theme, and including the required stylesheets in this file.

@@ -28,7 +28,7 @@ The script files are located in the file system as follows:
 In a mobile view, on the 768px breakpoint, `menu.js` changes the navigation menu look and behavior the following way:
 
 -  Category menu items are not displayed, but are accessible after clicking the menu icon.
--  The behavior of a [category](https://glossary.magento.com/category) link depends on whether the category has sub-categories:
+-  The behavior of a category link depends on whether the category has sub-categories:
    -  If sub-categories exist, the category link behaves as collapsible block. Clicking a category link does not redirect to the category page immediately. Instead it opens a list of sub-categories, including the **All category products** option.
    -  If there are no sub-categories, the category link behaves as usual.
 

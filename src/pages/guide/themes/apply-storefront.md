@@ -5,7 +5,7 @@ description: Learn how to apply and configure storefront themes in Adobe Commerc
 
 # Apply and configure a storefront theme
 
-The topic describes how to apply a [theme](https://glossary.magento.com/theme) for your store. This is a required step if you want a theme to be used on a [storefront](https://glossary.magento.com/storefront).
+The topic describes how to apply a theme for your store. This is a required step if you want a theme to be used on a storefront.
 Also, it gives information how to add a theme independent logo for your store.
 
 ## Prerequisites
@@ -14,7 +14,7 @@ Make sure that you [set](https://experienceleague.adobe.com/docs/commerce-operat
 
 ## Apply a theme
 
-After you [add your theme to the file system](create-storefront.md), you can apply it to your store. You apply a theme in [Admin](https://glossary.magento.com/admin).
+After you [add your theme to the file system](create-storefront.md), you can apply it to your store. You apply a theme in Admin.
 
 To apply a theme:
 

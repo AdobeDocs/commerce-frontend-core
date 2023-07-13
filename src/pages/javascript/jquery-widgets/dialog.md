@@ -5,9 +5,9 @@ description: Learn how to initialize and configure the Adobe Commerce and Magent
 
 # DropdownDialog widget
 
-The dropdownDialog [widget](https://glossary.magento.com/widget) is a customization of the standard [jQuery UI Dialog](http://api.jqueryui.com/dialog/). As extra functionality it implements the following:
+The dropdownDialog widget is a customization of the standard [jQuery UI Dialog](http://api.jqueryui.com/dialog/). As extra functionality it implements the following:
 
--  triggering [event](https://glossary.magento.com/event) for opening
+-  triggering event for opening
 -  delaying to automatically close the drop-down on mouse out
 -  clicking outside the area closes the drop-down
 

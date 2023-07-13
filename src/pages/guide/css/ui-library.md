@@ -5,7 +5,7 @@ description: Use mixins to accelerate Adobe Commerce and Magento Open Source the
 
 # UI library
 
-The [UI library](https://glossary.magento.com/library) is a flexible [Less]-based [frontend](https://glossary.magento.com/frontend) library designed to assist [theme](https://glossary.magento.com/theme) developers.
+The UI library is a flexible [Less]-based frontend library designed to assist theme developers.
 It employs a set of mixins for base elements to ease frontend theme development and customization.
 
 This topic describes how the library is organized and how to use it.
@@ -20,7 +20,7 @@ The UI library provides the ability to customize and reuse the following user in
 *  drop-downs
 *  forms
 *  icons
-*  [layout](https://glossary.magento.com/layout)
+*  layout
 *  loaders
 *  messages
 *  pagination
@@ -32,7 +32,7 @@ The UI library provides the ability to customize and reuse the following user in
 *  typography
 *  list of theme variables
 
-The following illustration shows a [storefront](https://glossary.magento.com/storefront) product page containing some of the preceding elements:
+The following illustration shows a storefront product page containing some of the preceding elements:
 
 ![*A product page with user interface elements specified*][ui_lib1.png]
 
@@ -86,12 +86,12 @@ lib/web
 
 ## Predefined variables
 
-If your theme [inherits][] from any out-of-the-box theme, for example Blank, you can easily customize any element of a store page without changing any [CSS](https://glossary.magento.com/css) code or templates.
+If your theme [inherits] from any out-of-the-box theme, for example Blank, you can easily customize any element of a store page without changing any CSS code or templates.
 Customization can be performed by simply changing in your theme the values of the predefined variables used in the UI library or parent theme mixins.
 
 The complete list of these variables and their default values are stored in [`lib/web/css/source/lib/variables`][].
 This directory contains a set of files, corresponding to the set of UI library elements, and each of the files lists element-specific variables.
-For example, [`lib/web/css/source/lib/variables/_breadcrumbs.less`][] contains variables used in the `breadcrumbs()` [mixin](https://glossary.magento.com/mixin).
+For example, [`lib/web/css/source/lib/variables/_breadcrumbs.less`][] contains variables used in the `breadcrumbs()` mixin.
 
 To change the default library variables values, specify the new values for the required variables in the `<theme_dir>/web/css/source/_theme.less` file.
 
@@ -227,9 +227,11 @@ The detailed information about the UI library is embedded in the code repository
 *  [`lib/web/css/docs`] contains a set of `.html` files with detailed information about the library mixins.
 
 Each file is named after the mixin it describes, and contains detailed mixin description and navigation controls to access documentation for other mixins.
-The generated UI library documentation is provided in a convenient [HTML](https://glossary.magento.com/html) view. It is available in the following location in your installation: `<your_instance>/pub/static/frontend/Magento/blank/en_US/css/docs/index.html` (view in a browser).
+The generated UI library documentation is provided in a convenient HTML view. It is available in the following location in your installation: `<your_instance>/pub/static/frontend/Magento/blank/en_US/css/docs/index.html` (view in a browser).
 
 <!-- Link definitions -->
+
+[inherits]: https://developer.adobe.com/commerce/frontend-core/guide/themes/inheritance/
 
 [`lib/web/css/docs/source/README.md`]: https://github.com/magento/magento2/blob/2.4/lib/web/css/docs/source/README.md
 

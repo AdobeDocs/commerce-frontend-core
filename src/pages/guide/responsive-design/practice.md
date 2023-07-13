@@ -7,11 +7,11 @@ description: Learn how to customize the responsive stylesheets used in Adobe Com
 
 This topic features a step-by-step illustration of how to change the number of products displayed in a row on a product page, keeping up with the responsive design approach used by out-of-the-box themes.
 
-The described flow is applicable only for themes that [inherit](../themes/inheritance.md) from the out-of-the-box Blank or Luma [theme](https://glossary.magento.com/theme).
+The described flow is applicable only for themes that [inherit](../themes/inheritance.md) from the out-of-the-box Blank or Luma theme.
 
 ## Change the number of products in a row
 
-ExampleCorp wants to make their products more visible by decreasing the quantity of products in a row displayed on a [catalog](https://glossary.magento.com/catalog) page, so that each product takes more space.
+ExampleCorp wants to make their products more visible by decreasing the quantity of products in a row displayed on a catalog page, so that each product takes more space.
 
 In the basic Blank theme, the number of products in a row for each breakpoint is the following (for the [2-column page layout](../layouts/types.md#page-layout)):
 

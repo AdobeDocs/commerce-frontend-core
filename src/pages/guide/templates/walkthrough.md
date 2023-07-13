@@ -9,7 +9,7 @@ This topic walks you through how to customize a template.
 
 ## Prerequisites
 
-[Set](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) your application to the developer [mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html). The application mode influences the way [static files](https://glossary.magento.com/static-files) are cached by the application. The recommendations about [theme](https://glossary.magento.com/theme) development we provide in this chapter are developer/default-mode specific.
+[Set](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) your application to the developer [mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html). The application mode influences the way static files are cached by the application. The recommendations about theme development we provide in this chapter are developer/default-mode specific.
 
 ## Template customization walkthrough
 

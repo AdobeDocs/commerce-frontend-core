@@ -13,8 +13,8 @@ A new theme you create is not applied for your store automatically. You need to 
 
 ## Prerequisites
 
-1. For the sake of compatibility, upgradability, and easy maintenance, do not modify the out-of-the-box themes. To customize the design of your store, create a new custom [theme](https://glossary.magento.com/theme).
-1. [Set](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) your application to the developer [mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html). The application mode influences the way [static files](https://glossary.magento.com/static-files) are cached. The recommendations about theme development we provide in this chapter are developer/default-mode specific.
+1. For the sake of compatibility, upgradability, and easy maintenance, do not modify the out-of-the-box themes. To customize the design of your store, create a new custom theme.
+1. [Set](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) your application to the developer [mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html). The application mode influences the way static files are cached. The recommendations about theme development we provide in this chapter are developer/default-mode specific.
 
 ## Walkthrough
 
@@ -25,7 +25,7 @@ The high-level steps required to add a new theme in the system are the following
 1. Add a `composer.json` file (Optional).
 1. Add `registration.php`.
 1. Create directories for CSS, JavaScript, images, and fonts.
-1. Configure your theme in the [Admin](https://glossary.magento.com/admin) panel.
+1. Configure your theme in the Admin panel.
 
 ## Recommended reading
 
@@ -82,7 +82,7 @@ After you create a directory for your theme, you must create `theme.xml` contain
    </theme>
    ```
 
-If you change the theme title or parent theme information in `theme.xml` after a theme was already [registered](#add-registrationphp), you need to open or reload any [Admin](https://glossary.magento.com/magento-admin) page for your changes to be saved in the database.
+If you change the theme title or parent theme information in `theme.xml` after a theme was already [registered](#add-registrationphp), you need to open or reload any Admin page for your changes to be saved in the database.
 
 ## Make your theme a Composer package
 
@@ -143,7 +143,7 @@ For illustration, see the [registration.php](https://github.com/magento/magento2
 
 ## Configure images
 
-Product image sizes and other properties used on the [storefront](https://glossary.magento.com/storefront) are configured in a `view.xml` configuration file. It is required for a theme, but is optional if exists in the parent theme.
+Product image sizes and other properties used on the storefront are configured in a `view.xml` configuration file. It is required for a theme, but is optional if exists in the parent theme.
 
 If the product image sizes of your theme differ from those of the parent theme, or if your theme does not inherit from any theme, add `view.xml` using the following steps:
 
@@ -153,7 +153,7 @@ If the product image sizes of your theme differ from those of the parent theme, 
 
 1. Copy the `view.xml` file from the `etc` directory of the parent theme or copy it from the Blank theme. For example, copy `theme-frontend-blank/etc/view.xml` to your theme's `etc` directory.
 
-1. Configure all storefront product image sizes in the `view.xml` file. For example, you can make the [category](https://glossary.magento.com/category) grid view product images square by specifying a size of 250 x 250 pixels:
+1. Configure all storefront product image sizes in the `view.xml` file. For example, you can make the category grid view product images square by specifying a size of 250 x 250 pixels:
 
    ```xml
      <image id="category_page_grid" type="small_image">
@@ -170,7 +170,7 @@ Your theme will likely contain several types of static files:
 
 *  Styles
 *  Fonts
-*  [JavaScript](https://glossary.magento.com/javascript)
+*  JavaScript
 *  Images
 
 Each type should be stored in a separate sub-directory of `web` in your theme folder:
@@ -235,7 +235,7 @@ The necessity of declaration depends on whether your theme has a [parent](inheri
    *  If your logo image name or format does not use the default naming convention, you need to [declare it in layout](#declaring-theme-logo).
 *  Your theme has a parent theme:
    *  If your theme logo image has the same name and format as the parent's theme logo, there is no need to declare it.
-   *  If your logo image has a different name or format, declare it in the [layout](https://glossary.magento.com/layout).
+   *  If your logo image has a different name or format, declare it in the layout.
 
 ## Declaring theme logo
 

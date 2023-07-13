@@ -313,7 +313,7 @@ Display navigation arrows on the sides of previews in the fullscreen view.
 
 #### `fullscreen/caption`
 
-Display [alt text](https://glossary.magento.com/alt-text) as image title in the fullscreen view.
+Display alt text as image title in the fullscreen view.
 
 **Type**: Boolean
 
@@ -480,9 +480,9 @@ var api = $(element).data('gallery');
 var api = $('[data-gallery-role="gallery"]').data('gallery');
 ```
 
-This method returns JS object that contains [API](https://glossary.magento.com/api) functions.
+This method returns JS object that contains API functions.
 
-To ensure that the gallery is fully formed, wrap your code with [event](https://glossary.magento.com/event) handler function and add it to the `gallery:loaded` event:
+To ensure that the gallery is fully formed, wrap your code with event handler function and add it to the `gallery:loaded` event:
 
 ```javascript
 $(element).on('gallery:loaded', function () {
