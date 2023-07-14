@@ -112,7 +112,7 @@ Depending on the particular instance, this data point can be appended within a c
 
 The above examples show changes to default application files. We do not recommend editing core files as changes may be lost when upgrading.
 Instead, if you need to call a method for a custom email template variable, create a custom directive.
-In this example, we will create and pass a `lifetime_spend` custom value.
+In this example, we will create and pass a `lifetimespend` custom value.
 
 1. Create a class that implements `Magento\Framework\Filter\SimpleDirective\ProcessorInterface`:
 
@@ -142,7 +142,7 @@ In this example, we will create and pass a `lifetime_spend` custom value.
         */
         public function getName(): string
         {
-            return 'lifetime_spend';
+            return 'lifetimespend';
         }
         /**
         * @inheritDoc
@@ -183,16 +183,16 @@ In this example, we will create and pass a `lifetime_spend` custom value.
     <type name="Magento\Framework\Filter\SimpleDirective\ProcessorPool">
         <arguments>
             <argument name="processors" xsi:type="array">
-                <item name="lifetime_spend" xsi:type="object">GadgetCorp\CustomEmailDirective\Model\LifetimeSpendDirective</item>
+                <item name="lifetimespend" xsi:type="object">GadgetCorp\CustomEmailDirective\Model\LifetimeSpendDirective</item>
             </argument>
         </arguments>
     </type>
    </config>
    ```
 
-The new variable is now available within the email template as `{{lifetime_spend}}`.
-Note in the class above, we also defined the parameter `shouldBold`. We can use that with `{{lifetime_spend should_bold=1}}`.
-You may also use multiple filters within a var statement: `{{lifetime_spend should_bold=1 |escape|nl2br}}`.
+The new variable is now available within the email template as `{{lifetimespend}}`.
+Note in the class above, we also defined the parameter `shouldBold`. We can use that with `{{lifetimespend should_bold=1}}`.
+You may also use multiple filters within a var statement: `{{lifetimespend should_bold=1 |escape|nl2br}}`.
 
 ## Data objects and getUrl
 
