@@ -16,6 +16,10 @@ module.exports = [
           path: "/ui-components/concepts/configuration-flow/",
         },
         {
+          title: "Semantic configuration",
+          path: "/ui-components/concepts/semantic-configuration/",
+        },
+        {
           title: "XML declaration",
           path: "/ui-components/concepts/xml-declaration/",
         },
