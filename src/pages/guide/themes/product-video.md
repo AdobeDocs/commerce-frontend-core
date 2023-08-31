@@ -56,4 +56,3 @@ For the sake of compatibility, upgradability and easy maintenance, do not edit t
 <InlineAlert variant="info" slots="text"/>
 
 If the **Autostart base video** configuration option is set to `Yes` but the video does not begin to play automatically, it could be due to the autoplay policies that are enforced by the browser and cannot be controlled by Adobe Commerce. Each supported browser has its own autoplay policies that can change over time and your video may not autoplay in the future. As a recommended best practice, you should not rely on autoplay for business critical functionality and should test the video autoplay behavior in your store with each supported browser.
-Note that each supported browser has its own autoplay policies that changes over time and your video may not autoplay in the future. We recommend that you do not rely on autoplay for business critical functionality and test the video autoplay behavior in your store with each supported browser.
