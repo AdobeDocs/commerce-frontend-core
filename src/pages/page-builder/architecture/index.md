@@ -11,7 +11,7 @@ Use the TypeScript components in the module as a reference to understand the flo
 
 <InlineAlert variant="info" slots="text"/>
 
-You need not use TypeScript in your module to work with the Page Builder code.
+You do not need to utilise TypeScript in your module to work with the Page Builder code.
 
 Page Builder also uses core Adobe Commerce technologies such as jQuery, Knockout, and UI Components, along with additional libraries to help with various content types shipped with the module.
 
