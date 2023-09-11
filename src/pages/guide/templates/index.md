@@ -1,6 +1,10 @@
 ---
 title: Templates | Commerce Frontend Development
 description: Review introductory information about how templates work in Adobe Commerce and Magento Open Source themes.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Templates

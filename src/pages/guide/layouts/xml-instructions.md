@@ -1,6 +1,10 @@
 ---
 title: Layout Instructions | Commerce Frontend Development
 description: Manage page layouts in Adobe Commerce and Magento Open Source themes.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Layout instructions

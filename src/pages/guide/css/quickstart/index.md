@@ -1,6 +1,10 @@
 ---
 title: Quickstart | Commerce Frontend Development
 description: Start customizing your Adobe Commerce or Magento Open Source theme.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Quickstart

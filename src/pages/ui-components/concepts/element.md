@@ -1,6 +1,10 @@
 ---
 title: uiElement class | Commerce Frontend Development
 description: Learn about the methods and properties available for creating Adobe Commerce and Magento Open Source UI components.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # uiElement class

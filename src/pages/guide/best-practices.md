@@ -1,6 +1,10 @@
 ---
 title: Development Best Practices | Commerce Frontend Development
 description: Use this collection of best practices to avoid commonly reported issues in Adobe Commerce and Magento Open Source theme development.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Theme development best practices

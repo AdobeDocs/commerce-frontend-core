@@ -1,6 +1,8 @@
 ---
 title: Troubleshooting
 description: Troubleshoot adding content types.
+keywords:
+  - Page Builder
 ---
 
 # Troubleshooting

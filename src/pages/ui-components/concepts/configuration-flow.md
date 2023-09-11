@@ -1,6 +1,11 @@
 ---
 title: UI component configuration | Commerce Frontend Development
 description: Learn about the configuration lifecycle of Adobe Commerce and Magento Open Source UI components at runtime.
+keywords:
+  - Configuration
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Configuration flow

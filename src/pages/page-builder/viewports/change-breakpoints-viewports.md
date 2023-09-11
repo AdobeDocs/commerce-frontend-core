@@ -1,6 +1,8 @@
 ---
 title: Change breakpoints and viewports
 description: Change Page Builder's default min-width and max-width values to match your responsive design needs.
+keywords:
+  - Page Builder
 ---
 
 # Change breakpoints and viewports

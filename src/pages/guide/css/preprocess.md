@@ -1,6 +1,10 @@
 ---
 title: CSS and LESS preprocessing | Commerce Frontend Development
 description: Learn how Adobe Commerce and Magento Open Source preprocess and compile CSS stylesheets.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # CSS and LESS preprocessing

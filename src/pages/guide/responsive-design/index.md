@@ -1,6 +1,10 @@
 ---
 title: Responsive Web Design | Commerce Frontend Development
 description: Review the fundamentals of responsive web design in Adobe Commerce and Magento Open Source themes.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Responsive web design

@@ -1,6 +1,10 @@
 ---
 title: Custom JavaScript | Commerce Frontend Development 
 description: Learn how to use custom JavaScript components with default Adobe Commerce and Magento Open Source components.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Custom JavaScript

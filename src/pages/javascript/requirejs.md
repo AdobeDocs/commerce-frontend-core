@@ -3,6 +3,10 @@ title: RequireJS | Commerce Frontend Development
 description: Learn about how Adobe Commerce and Magento Open Source use the RequireJS library.
 contributor_name: Adarsh Manickam
 contributor_link: https://github.com/drpayyne
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # RequireJS in Commerce

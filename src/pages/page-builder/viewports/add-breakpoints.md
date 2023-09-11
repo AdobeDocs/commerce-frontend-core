@@ -1,6 +1,8 @@
 ---
 title: Add breakpoints
 description: Add breakpoints by copying and pasting an existing breakpoint from Page Builder's view.xml file.
+keywords:
+  - Page Builder
 ---
 
 # Add breakpoints

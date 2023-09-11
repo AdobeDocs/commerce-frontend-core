@@ -1,6 +1,9 @@
 ---
 title: Install Page Builder
 description: Install Page Builder and its dependencies as a contributor.
+keywords:
+  - Install
+  - Page Builder
 ---
 
 # Install Page Builder

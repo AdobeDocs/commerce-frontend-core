@@ -1,6 +1,10 @@
 ---
 title: Custom Fonts | Commerce Frontend Development
 description: Add custom fonts to your Adobe Commerce and Magento Open Source theme.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Custom fonts

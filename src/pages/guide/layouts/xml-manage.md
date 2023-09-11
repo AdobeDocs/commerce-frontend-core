@@ -1,6 +1,10 @@
 ---
 title: Common Customization Tasks | Commerce Frontend Development
 description: View code samples for customizing page layouts in Adobe Commerce and Magento Open Source themes.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Common customization tasks

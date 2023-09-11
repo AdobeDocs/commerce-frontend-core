@@ -1,6 +1,8 @@
 ---
 title: What is Page Builder?
 description: An overview of Page Builder, a Adobe extension for creating content by dragging-and-dropping pre-built controls.
+keywords:
+  - Page Builder
 ---
 
 # What is Page Builder?

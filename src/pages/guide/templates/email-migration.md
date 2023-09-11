@@ -1,6 +1,10 @@
 ---
 title: Custom Email Templates | Commerce Frontend Development
 description: Learn how to migrate custom email templates between versions of Adobe Commerce and Magento Open Source themes.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Migrate custom email templates

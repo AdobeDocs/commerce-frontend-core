@@ -1,6 +1,10 @@
 ---
 title: Frontend Product Repository | Commerce Frontend Development 
 description: Optimize page performance by using a cache-based storage service to get product information.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Frontend product repository

@@ -1,6 +1,10 @@
 ---
 title: Extend a Layout | Commerce Frontend Development
 description: View code samples for extending layouts in Adobe Commerce and Magento Open Source themes.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Extend a layout

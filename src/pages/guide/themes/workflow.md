@@ -1,6 +1,10 @@
 ---
 title: Theme Development Workflow | Commerce Frontend Development
 description: Review the Adobe Commerce and Magento Open Source theme development workflow.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Theme development workflow

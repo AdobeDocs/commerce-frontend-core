@@ -3,6 +3,10 @@ title: Form Validation | Commerce Frontend Development
 description: Review introductory information about form validation in Adobe Commerce and Magento Open Source themes.
 contributor_name: Adarsh Manickam
 contributor_link: https://github.com/drpayyne
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Form validation

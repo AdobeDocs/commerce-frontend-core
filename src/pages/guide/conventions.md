@@ -1,6 +1,10 @@
 ---
 title: Conventions | Commerce Frontend Development
 description: Review standard file naming conventions and locations for Adobe Commerce and Magento Open Source components.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Conventional notations for paths to modules and themes

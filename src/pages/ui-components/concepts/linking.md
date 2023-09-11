@@ -1,6 +1,10 @@
 ---
 title: UI component properties | Commerce Frontend Development
 description: Learn about options for linking properties of Adobe Commerce and Magento Open Source UI components.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Linking properties of UI components

@@ -1,6 +1,10 @@
 ---
 title: Binding syntax | Commerce Frontend Development
 description: Learn about the default binding syntax for HTML templates in Adobe Commerce and Magento Open Source.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Binding syntax

@@ -3,6 +3,10 @@ title: Custom Form Validation | Commerce Frontend Development
 description: View code samples for creating custom form validations for Adobe Commerce and Magento Open Source themes.
 contributor_name: Atwix
 contributor_link: https://www.atwix.com/
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Custom form validation

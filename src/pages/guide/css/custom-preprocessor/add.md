@@ -1,6 +1,10 @@
 ---
 title: Custom CSS preprocessor | Commerce Frontend Development
 description: View code samples for creating custom CSS preprocessors for Adobe Commerce and Magento Open Source themes.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Add a custom CSS preprocessor

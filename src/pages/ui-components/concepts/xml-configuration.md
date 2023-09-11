@@ -1,6 +1,11 @@
 ---
 title: XML configuration | Commerce Frontend Development
 description: Review information about basic configuration elements of Adobe Commerce and Magento Open Source UI components.
+keywords:
+  - Configuration
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # XML configuration

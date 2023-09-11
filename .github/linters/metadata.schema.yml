@@ -24,11 +24,17 @@ properties:
         - Extensions
         - GraphQL
         - Integration
+        - Install
         - Inventory
+        - Logs
+        - Native Luma Frontend Development
+        - Page Builder
         - Payments
         - Performance
         - REST
         - Security
+        - Storefront
+        - Themes
         - Tools
         - Upgrade
 

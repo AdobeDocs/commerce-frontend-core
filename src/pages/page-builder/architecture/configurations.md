@@ -1,6 +1,8 @@
 ---
 title: Content type configurations
 description: Define content types to Page Builder.
+keywords:
+  - Page Builder
 ---
 
 # Content type configurations

@@ -1,6 +1,10 @@
 ---
 title: Show/hide password checkbox | Commerce Frontend Development
 description: Follow this tutorial to create a show/hide option in Adobe Commerce and Magento Open Source UI components.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Add a show/hide password checkbox

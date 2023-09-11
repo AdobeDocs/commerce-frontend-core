@@ -3,6 +3,10 @@ title: Custom Form Validation Rules | Commerce Frontend Development
 description: View code samples for creating custom form validation rules for Adobe Commerce and Magento Open Source themes.
 contributor_name: Adarsh Manickam
 contributor_link: https://github.com/drpayyne
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Custom form validation rules

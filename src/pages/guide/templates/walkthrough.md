@@ -1,6 +1,10 @@
 ---
 title: Template Customization | Commerce Frontend Development
 description: Learn how to create a custom template for an Adobe Commerce or Magento Open Source theme.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Template customization walkthrough

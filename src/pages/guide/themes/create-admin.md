@@ -1,6 +1,10 @@
 ---
 title: Create an Admin Theme | Commerce Frontend Development
 description: View code samples for creating an Adobe Commerce and Magento Open Source Admin theme.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 # Create an Admin theme
 
@@ -51,7 +55,7 @@ In this file, add the following code, having replaced placeholders with your the
 ```php
 <?php
 /**
- * Copyright © Magento, Inc. All rights reserved.
+ * Copyright &copy; Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
 use \Magento\Framework\Component\ComponentRegistrar;

@@ -1,6 +1,10 @@
 ---
 title: Theme Inheritance | Commerce Frontend Development
 description: Minimize your Adobe Commerce and Magento Open Source theme maintenance efforts using inheritance.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Theme inheritance

@@ -1,6 +1,8 @@
 ---
 title: How content migration works
 description: Convert the old BlueFoot JSON structure into the new PageBuilder format.
+keywords:
+  - Page Builder
 ---
 
 # How content migration works
@@ -81,7 +83,7 @@ To learn more about renderers, let's look at the Heading renderer code, then dis
 
 ```php
 /**
- * Copyright © Adobe, Inc. All rights reserved.
+ * Copyright &copy; Adobe, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
 declare(strict_types=1);

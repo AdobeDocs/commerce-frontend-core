@@ -1,6 +1,10 @@
 ---
 title: Create a Storefront Theme | Commerce Frontend Development
 description: View code samples for creating an Adobe Commerce and Magento Open Source storefront theme.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Create a storefront theme
@@ -128,7 +132,7 @@ To register your theme in the system, add a `registration.php` file in your them
 ```php
 <?php
 /**
- * Copyright © Magento, Inc. All rights reserved.
+ * Copyright &copy; Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
 

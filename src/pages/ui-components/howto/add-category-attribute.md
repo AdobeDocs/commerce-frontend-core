@@ -3,6 +3,10 @@ title: Add a category attribute | Commerce Frontend Development
 description: Follow this tutorial to render a new category attribute with Adobe Commerce and Magento Open Source UI components.
 contributor_name: SwiftOtter Studios
 contributor_link: https://swiftotter.com/
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Add a category attribute

@@ -1,6 +1,10 @@
 ---
 title: Email Templates | Commerce Frontend Development
 description: Use this reference to learn about email templates in Adobe Commerce and Magento Open Source themes.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 <InlineAlert variant="warning" slots="text"/>

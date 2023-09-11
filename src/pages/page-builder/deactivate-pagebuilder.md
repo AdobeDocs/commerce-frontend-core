@@ -1,6 +1,8 @@
 ---
 title: Deactivate Page Builder
 description: Deactivate the Page Builder editor through the Admin UI.
+keywords:
+  - Page Builder
 ---
 
 # Deactivate Page Builder

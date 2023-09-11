@@ -1,6 +1,10 @@
 ---
 title: Custom Knockout.js bindings | Commerce Frontend Development
 description: Learn about the Knockout.js binding syntax for HTML templates in Adobe Commerce and Magento Open Source.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Custom Knockout.js bindings

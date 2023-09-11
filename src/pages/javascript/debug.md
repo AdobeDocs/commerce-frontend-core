@@ -1,6 +1,10 @@
 ---
 title: Debug JavaScript Components | Commerce Frontend Development 
 description: Learn how to load JavaScript components on Adobe Commerce and Magento Open Source application pages.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Debug JavaScript components

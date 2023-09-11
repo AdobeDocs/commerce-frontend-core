@@ -1,6 +1,10 @@
 ---
 title: Compilation Mode | Commerce Frontend Development
 description: Learn how to use LESS compilation modes for Adobe Commerce and Magento Open Source themes.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Compilation mode

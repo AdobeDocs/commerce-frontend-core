@@ -1,6 +1,10 @@
 ---
 title: Render prices | Commerce Frontend Development
 description: Follow this tutorial to display product prices with Adobe Commerce and Magento Open Source UI components.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Render prices on the frontend

@@ -1,6 +1,10 @@
 ---
 title: UI components | Commerce Frontend Development
 description: Configure Adobe Commerce and Magento Open Source UI components and integrate them with other components.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Introduction to UI components

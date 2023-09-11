@@ -1,6 +1,8 @@
 ---
 title: Add a storefront widget
 description: Add a storefront widget to handle the behavior of a content type after Page Builder renders it on the storefront.
+keywords:
+  - Page Builder
 ---
 
 # Add a storefront widget
