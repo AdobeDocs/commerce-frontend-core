@@ -1,5 +1,5 @@
 ---
-title: Practice Customizing Responsive Web Design | Commerce Frontend Development
+title: Responsive Web Design | Commerce Frontend Development
 description: Learn how to customize the responsive stylesheets used in Adobe Commerce and Magento Open Source themes.
 ---
 

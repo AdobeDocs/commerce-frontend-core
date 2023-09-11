@@ -1,5 +1,5 @@
 ---
-title: ToggleAdvanced widget | Commerce Frontend Development
+title: ToggleAdvanced | Commerce Frontend Development
 description: Learn how to initialize and configure the Adobe Commerce and Magento Open Source Toggle widget.
 contributor_name: Atwix
 contributor_link: https://www.atwix.com/

@@ -1,5 +1,5 @@
 ---
-title: Linking properties of UI components | Commerce Frontend Development
+title: UI component properties | Commerce Frontend Development
 description: Learn about options for linking properties of Adobe Commerce and Magento Open Source UI components.
 ---
 
@@ -178,9 +178,9 @@ For an example of `listens` usage, see [`new_category_form.xml`, line 84](https:
 
 ## Template strings usage
 
-The options of linking properties can contain template strings in the `'${...}'` format. During the component’s initialization, values in this format are processed as template strings using [ES6 templates](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Template_literals). In browsers that do not support ES6 templates, these values are processed as underscore templates.
+The options of linking properties can contain template strings in the `'${...}'` format. During the component's initialization, values in this format are processed as template strings using [ES6 templates](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Template_literals). In browsers that do not support ES6 templates, these values are processed as underscore templates.
 
-So if we put a variable name in `'${...}'`, it is processed into a string representation of the variable’s value.
+So if we put a variable name in `'${...}'`, it is processed into a string representation of the variable's value.
 
 When working with UI components, we often need to use the string representation of a certain property of the UI component. To address a property of the UI component in the scope of this component, the `$.someProperty` syntax is used.
 

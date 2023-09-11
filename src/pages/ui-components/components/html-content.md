@@ -1,5 +1,5 @@
 ---
-title: HtmlContent component | Commerce Frontend Development
+title: HtmlContent |
 description: Configure Adobe Commerce and Magento Open Source UI components and integrate them with other components.
 ---
 

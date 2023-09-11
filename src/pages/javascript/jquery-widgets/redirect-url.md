@@ -1,5 +1,5 @@
 ---
-title: RedirectUrl widget | Commerce Frontend Development
+title: RedirectUrl | Commerce Frontend Development
 description: Learn how to initialize and configure the Adobe Commerce and Magento Open Source RedirectUrl widget.
 contributor_name: Atwix
 contributor_link: https://www.atwix.com/

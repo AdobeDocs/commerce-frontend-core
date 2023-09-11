@@ -1,5 +1,5 @@
 ---
-title: Container component | Commerce Frontend Development
+title: Container |
 description: Configure Adobe Commerce and Magento Open Source UI components and integrate them with other components.
 contributor_name: Jehangir Wahid
 contributor_link: https://github.com/Jehangir-Wahid

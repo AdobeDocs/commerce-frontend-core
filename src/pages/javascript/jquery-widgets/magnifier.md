@@ -1,5 +1,5 @@
 ---
-title: Magnifier widget | Commerce Frontend Development
+title: Magnifier | Commerce Frontend Development
 description: Learn how to initialize and configure the Adobe Commerce and Magento Open Source Magnifier widget.
 ---
 

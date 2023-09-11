@@ -1,5 +1,5 @@
 ---
-title: Add a Custom CSS preprocessor | Commerce Frontend Development
+title: Custom CSS preprocessor | Commerce Frontend Development
 description: View code samples for creating custom CSS preprocessors for Adobe Commerce and Magento Open Source themes.
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Email Templates Layout Handle | Commerce Frontend Development
+title: Email Template Variables | Commerce Frontend Development
 description: Learn how to use custom variables in email templates for Adobe Commerce and Magento Open Source themes.
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: PopupWindow widget | Commerce Frontend Development
+title: PopupWindow | Commerce Frontend Development
 description: Learn how to initialize and configure the Adobe Commerce and Magento Open Source PopupWindow widget.
 contributor_name: Atwix
 contributor_link: https://www.atwix.com/

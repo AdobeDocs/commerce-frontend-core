@@ -1,5 +1,5 @@
 ---
-title: Use a Sass Preprocessor and Gulp Task Runner | Commerce Frontend Development
+title: Sass Preprocessor and Gulp | Commerce Frontend Development
 description: Learn how to use a Sass preprocessor and Gulp task runner to automate Adobe Commerce and Magento Open Source theme development.
 ---
 

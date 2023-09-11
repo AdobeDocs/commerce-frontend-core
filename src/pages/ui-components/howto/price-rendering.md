@@ -1,5 +1,5 @@
 ---
-title: Render prices on the frontend | Commerce Frontend Development
+title: Render prices | Commerce Frontend Development
 description: Follow this tutorial to display product prices with Adobe Commerce and Magento Open Source UI components.
 ---
 

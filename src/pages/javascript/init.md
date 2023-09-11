@@ -1,5 +1,5 @@
 ---
-title: Call and Initialize JavaScript | Commerce Frontend Development 
+title: Initialize JavaScript | Commerce Frontend Development 
 description: Learn about the methods for calling and initializing JavaScript components in Adobe Commerce and Magento Open Source.
 ---
 
