@@ -9,7 +9,7 @@ The Adobe Commerce and Magento Open Source applications use a jQuery JavaScript 
 
 <InlineAlert variant="info" slots="text" />
 
-The application supports [jQuery UI 1.9.2](http://blog.jqueryui.com/2012/11/jquery-ui-1-9-2/), widget options added in later versions might be unavailable.
+The application supports [jQuery UI 1.13.2](https://blog.jqueryui.com/2022/07/jquery-ui-1-13-2-released/), widget options added in later versions might be unavailable.
 
 <InlineAlert variant="info" slots="text" />
 
