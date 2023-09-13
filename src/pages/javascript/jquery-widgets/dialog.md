@@ -1,5 +1,5 @@
 ---
-title: DropdownDialog widget | Commerce Frontend Development 
+title: DropdownDialog | Commerce Frontend Development 
 description: Learn how to initialize and configure the Adobe Commerce and Magento Open Source DropdownDialog widget.
 ---
 

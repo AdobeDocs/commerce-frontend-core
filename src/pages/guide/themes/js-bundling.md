@@ -1,6 +1,10 @@
 ---
 title: JavaScript Bundling | Commerce Frontend Development
 description: Optimize the performance of your Adobe Commerce or Magento Open Source theme with JavaScript bundling. 
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # JavaScript bundling

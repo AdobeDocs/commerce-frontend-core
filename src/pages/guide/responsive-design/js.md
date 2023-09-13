@@ -1,6 +1,10 @@
 ---
-title: JavaScript in Responsive Design | Commerce Frontend Development
+title: JS in Responsive Design | Commerce Frontend Development
 description: Learn how responsive Adobe Commerce and Magento Open Source themes use JavaScript.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # JavaScript in responsive web design

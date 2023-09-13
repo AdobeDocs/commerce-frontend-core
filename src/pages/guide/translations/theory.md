@@ -1,6 +1,10 @@
 ---
 title: Translate Theme Strings | Commerce Frontend Development
 description: View code samples for adding strings to a theme so that the Adobe Commerce and Magento Open Source i18n tool can add them to the translation dictionary.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Theme strings

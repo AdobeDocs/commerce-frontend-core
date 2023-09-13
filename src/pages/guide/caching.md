@@ -1,6 +1,11 @@
 ---
 title: Page Caching | Commerce Frontend Development
 description: Learn how to use page caching to improve the performance of your Adobe Commerce and Magento Open Source frontends.
+keywords:
+  - Cache
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Page caching
@@ -60,7 +65,7 @@ The following cache types mostly have impact on frontend development process:
 |----------------------------|----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Layout                     | `layout`             | Compiled page layouts (that is, the layout components from all components). Clean or flush this cache type after modifying layout files.                                                                                                                                                                                                          |
 | Block HTML output          | `block_html`         | HTML page fragments per block. Clean or flush this cache type after modifying the view layer.                                                                                                                                                                                                                                                     |
-| Page cache                 | `full_page`          | Generated HTML pages. If necessary, the application cleans up this cache automatically, but third-party developers can put any data in any segment of the cache. Clean or flush this cache type after modifying code level that affects HTML output. It’s recommended to keep this cache enabled because caching HTML improves performance significantly. |
+| Page cache                 | `full_page`          | Generated HTML pages. If necessary, the application cleans up this cache automatically, but third-party developers can put any data in any segment of the cache. Clean or flush this cache type after modifying code level that affects HTML output. It's recommended to keep this cache enabled because caching HTML improves performance significantly. |
 | Translations               | `translate`          | Merged translations from all modules.                                                                                                                                                                                                                                                                                                             |
 
 <InlineAlert variant="help" slots="text"/>

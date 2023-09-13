@@ -1,6 +1,8 @@
 ---
 title: Page Builder Architecture
 description: Describes the architecture of Page Builder
+keywords:
+  - Page Builder
 ---
 
 # Page Builder Architecture

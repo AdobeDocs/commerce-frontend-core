@@ -1,5 +1,5 @@
 ---
-title: Confirmation widget | Commerce Frontend Development 
+title: Confirmation | Commerce Frontend Development 
 description: Learn how to initialize and configure the Adobe Commerce and Magento Open Source Confirmation widget.
 ---
 

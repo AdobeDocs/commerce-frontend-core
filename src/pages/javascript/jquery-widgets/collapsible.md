@@ -1,5 +1,5 @@
 ---
-title: Collapsible widget | Commerce Frontend Development 
+title: Collapsible | Commerce Frontend Development 
 description: Learn how to initialize and configure the Adobe Commerce and Magento Open Source Collapsible widget.
 ---
 

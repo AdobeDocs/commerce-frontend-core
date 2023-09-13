@@ -1,6 +1,10 @@
 ---
-title: Locate Templates, Layouts, and Styles | Commerce Frontend Development
+title: Override default files | Commerce Frontend Development
 description: Learn how to debug templates, layouts, and styles for Adobe Commerce and Magento Open Source themes.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Locate templates, layouts, and styles

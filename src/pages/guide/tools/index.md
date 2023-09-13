@@ -1,6 +1,11 @@
 ---
 title: Developer Tools | Commerce Frontend Development
 description: Review tools for Adobe Commerce and Magento Open Source theme developers.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
+  - Tools
 ---
 
 # Developer tools

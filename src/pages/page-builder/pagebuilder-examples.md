@@ -1,6 +1,8 @@
 ---
 title: Install Page Builder example modules
 description: Install Page Builder example modules necessary for learning purposes.
+keywords:
+  - Page Builder
 ---
 
 # Install Page Builder example modules

@@ -1,6 +1,10 @@
 ---
 title: Themes | Commerce Frontend Development
 description: Review introductory information about how themes work in Adobe Commerce and Magento Open Source.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Themes

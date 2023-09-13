@@ -3,6 +3,10 @@ title: Product Layouts | Commerce Frontend Development
 description: Use this reference to learn about product layout files in Adobe Commerce and Magento Open Source themes.
 contributor_name: Atwix
 contributor_link: https://www.atwix.com/
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Product layouts

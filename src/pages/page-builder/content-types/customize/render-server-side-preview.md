@@ -1,6 +1,8 @@
 ---
 title: Render server-side previews
 description: How to use the RenderPool on the stage to render a backend preview.
+keywords:
+  - Page Builder
 ---
 
 # Render server-side previews

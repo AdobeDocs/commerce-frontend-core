@@ -1,6 +1,10 @@
 ---
-title: Apply and Configure a Storefront Theme | Commerce Frontend Development
+title: Apply and Configure a Theme | Commerce Frontend Development
 description: Learn how to apply and configure storefront themes in Adobe Commerce and Magento Open Source.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Apply and configure a storefront theme

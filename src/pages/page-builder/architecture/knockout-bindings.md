@@ -1,6 +1,8 @@
 ---
 title: Page Builder Knockout bindings
 description: Add more functionality to certain content types through Knockouts binding syntax.
+keywords:
+  - Page Builder
 ---
 
 # Page Builder Knockout bindings

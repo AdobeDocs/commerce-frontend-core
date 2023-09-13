@@ -1,6 +1,10 @@
 ---
 title: CSS in Responsive Design | Commerce Frontend Development
 description: Learn how to create responsive stylesheets when developing Adobe Commerce and Magento Open Source themes.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # CSS in responsive design

@@ -1,5 +1,5 @@
 ---
-title: ActionDelete component | Commerce Frontend Development
+title: ActionDelete |
 description: Configure Adobe Commerce and Magento Open Source UI components and integrate them with other components.
 ---
 
@@ -11,9 +11,9 @@ The ActionDelete component provides a user interface for deleting records of the
 
 |Option|Description|Type|Default|
 |--- |--- |--- |--- |
-|`component`|The path to the component’s `.js` file in terms of RequireJS.|String|`Magento_Ui/js/dynamic-rows/action-delete`|
+|`component`|The path to the component's `.js` file in terms of RequireJS.|String|`Magento_Ui/js/dynamic-rows/action-delete`|
 |`links`.`value`|Breaks the link established in the `link` property of the parent (abstract) component.|Boolean|`false`|
-|`template`|The path to the component’s `.html` template.|String|`ui/dynamic-rows/cells/action-delete`|
+|`template`|The path to the component's `.html` template.|String|`ui/dynamic-rows/cells/action-delete`|
 
 ## Source files
 

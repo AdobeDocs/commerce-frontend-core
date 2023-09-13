@@ -1,5 +1,5 @@
 ---
-title: Modal widget | Commerce Frontend Development
+title: Modal | Commerce Frontend Development
 description: Learn how to initialize and configure the Adobe Commerce and Magento Open Source Modal widget.
 ---
 

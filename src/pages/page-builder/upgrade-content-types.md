@@ -1,6 +1,8 @@
 ---
 title: Upgrade content types
 description: Upgrade content types and convert existing content to map to the new configuration.
+keywords:
+  - Page Builder
 ---
 
 # Upgrade content types
@@ -38,7 +40,7 @@ Our converter class for fixing a row padding problem might be called `FixFullWid
 ```php
 <?php
 /**
- * Copyright © Adobe, Inc. All rights reserved.
+ * Copyright &copy; Adobe, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
 
@@ -105,7 +107,7 @@ For our Data Patch, we'll create a class called `UpgradeFullWidthPadding`, which
 ```php
 <?php
 /**
- * Copyright © Adobe, Inc. All rights reserved.
+ * Copyright &copy; Adobe, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
 namespace Magento\PageBuilder\Setup\Patch\Data;

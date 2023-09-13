@@ -1,6 +1,10 @@
 ---
 title: JavaScript Resources | Commerce Frontend Development 
 description: Review general information about how Adobe Commerce and Magento Open Source use JavaScript commponents.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # JavaScript Resources in Commerce

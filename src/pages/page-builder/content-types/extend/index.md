@@ -1,6 +1,8 @@
 ---
 title: Introduction to extending content types
 description: Introduction on how to extend content types.
+keywords:
+  - Page Builder
 ---
 
 # Introduction to extending content types

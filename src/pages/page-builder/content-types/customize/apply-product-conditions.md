@@ -1,6 +1,8 @@
 ---
 title: Apply product conditions
 description: Set product conditions to define which products you want to display based on a variety of product attributes.
+keywords:
+  - Page Builder
 ---
 
 # Apply product conditions

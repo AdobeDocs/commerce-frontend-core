@@ -1,6 +1,10 @@
 ---
-title: Introduction to UI components | Commerce Frontend Development
+title: UI components | Commerce Frontend Development
 description: Configure Adobe Commerce and Magento Open Source UI components and integrate them with other components.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Introduction to UI components
@@ -31,7 +35,7 @@ Basic components are:
 
 All other UI components are secondary.
 
-Basic components are declared in the [page layout files](../guide/layouts/types.md#page-layout); secondary components are declared in the top-level components’ instances configuration files.
+Basic components are declared in the [page layout files](../guide/layouts/types.md#page-layout); secondary components are declared in the top-level components' instances configuration files.
 
 All components can be configured both for Admin and storefront.
 

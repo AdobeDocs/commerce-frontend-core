@@ -1,6 +1,10 @@
 ---
 title: uiClass library | Commerce Frontend Development
 description: Learn about the foundational class on which all Adobe Commerce and Magento Open Source UI components are based.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # uiClass library

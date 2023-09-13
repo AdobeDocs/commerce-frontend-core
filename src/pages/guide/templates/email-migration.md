@@ -1,6 +1,10 @@
 ---
-title: Migrate Custom Email Templates | Commerce Frontend Development
+title: Custom Email Templates | Commerce Frontend Development
 description: Learn how to migrate custom email templates between versions of Adobe Commerce and Magento Open Source themes.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Migrate custom email templates
@@ -213,10 +217,10 @@ and in the template where we have
 {{somedir mydir mydir=$customer_data.getMyKey()}}
 ```
 
-the directive will resolve to “foo”.
+the directive will resolve to "foo".
 
 The same is true for `{{directive foo foo=$customer_data.my_key()}}`.
-But note that in both cases the DataObject will not have `getMyKey` invoked but rather `getData(‘my_key’)` is invoked instead.
+But note that in both cases the DataObject will not have `getMyKey` invoked but rather `getData('my_key')` is invoked instead.
 
 The second exception is for `getUrl`.
 Directives that use the format `{{var this.getUrl(params)}}` will still continue to work for now.
@@ -241,7 +245,7 @@ and in the template:
 {{mydir test fname=$customer_data.name.first_name}}
 ```
 
-it will resolve to “John”.
+it will resolve to "John".
 
 This new syntax also works in combination with the `DataObject` exception.
 For example, if we have:
@@ -256,4 +260,4 @@ and in the template we have:
 {{mydir dir fname=$customer_data.name.first_name}}
 ```
 
-it will resolve to “John”.
+it will resolve to "John".

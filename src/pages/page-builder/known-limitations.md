@@ -1,6 +1,8 @@
 ---
-title: Known limitations | 
+title: Known limitations
 description: Learn about known limitations for Page Builder on Adobe Commerce and Magento Open Source frontends.
+keywords:
+  - Page Builder
 ---
 
 # Known limitations

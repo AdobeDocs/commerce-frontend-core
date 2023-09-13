@@ -1,5 +1,5 @@
 ---
-title: List widget | Commerce Frontend Development
+title: List | Commerce Frontend Development
 description: Learn how to initialize and configure the Adobe Commerce and Magento Open Source List widget.
 ---
 

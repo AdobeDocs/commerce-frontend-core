@@ -1,6 +1,10 @@
 ---
 title: Apply an Admin Theme | Commerce Frontend Development
 description: Learn how to apply an Admin theme to the Adobe Commerce and Magento Open Source Admin user interfaces.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Apply an Admin theme

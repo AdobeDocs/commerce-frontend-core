@@ -1,6 +1,10 @@
 ---
 title: Configure Product Video | Commerce Frontend Development
 description: Embed videos from external sources in product pages for Adobe Commerce and Magento Open Source themes.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Configure product video

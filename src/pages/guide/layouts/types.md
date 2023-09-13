@@ -1,6 +1,10 @@
 ---
 title: Layout File Types | Commerce Frontend Development
 description: Use this reference to learn about layout file types in Adobe Commerce and Magento Open Source themes.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Layout file types
@@ -98,7 +102,7 @@ Override the default `wishlist_index_share.xml` in any one of the following path
 <?xml version="1.0"?>
 <!--
 /**
- * Copyright © Magento, Inc. All rights reserved.
+ * Copyright &copy; Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
 -->

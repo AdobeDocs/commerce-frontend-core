@@ -1,6 +1,10 @@
 ---
 title: Frontend Developer Guide | Commerce Frontend Development
 description: Learn how frontend developers customize the Adobe Commerce and Magento Open Source storefront and Admin applications.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Frontend Developer Guide

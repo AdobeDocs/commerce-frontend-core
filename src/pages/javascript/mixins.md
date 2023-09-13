@@ -1,6 +1,10 @@
 ---
 title: JavaScript Mixins | Commerce Frontend Development 
 description: Learn how to use mixins to overwrite component methods.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # JavaScript mixins

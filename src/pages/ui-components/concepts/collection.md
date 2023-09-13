@@ -1,6 +1,10 @@
 ---
 title: uiCollection class | Commerce Frontend Development
 description: Learn about the methods and properties available for creating a collection of Adobe Commerce and Magento Open Source child UI components.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # uiCollection class

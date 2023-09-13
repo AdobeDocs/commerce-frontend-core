@@ -1,6 +1,8 @@
 ---
 title: Migrate content from custom blocks
 description: Migrate content from your custom BlueFoot blocks to Page Builder custom content types.
+keywords:
+  - Page Builder
 ---
 
 # Migrate content from custom blocks

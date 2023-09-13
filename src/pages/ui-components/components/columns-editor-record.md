@@ -1,5 +1,5 @@
 ---
-title: ColumnsEditorRecord component | Commerce Frontend Development
+title: ColumnsEditorRecord | Commerce Frontend Development
 description: Configure Adobe Commerce and Magento Open Source UI components and integrate them with other components.
 contributor_name: Atwix
 contributor_link: https://www.atwix.com/
@@ -14,8 +14,8 @@ The ColumnsEditorRecord UI component is a container of record fields. The Column
 | Option | Description | Type | Default Value |
 | --- | --- | --- | --- |
 | `component` | The path to the component's `.js` file, relative to RequireJS. | String | `Magento_Ui/js/grid/editing/record` |
-| `fieldTmpl` | The path to the component’s `.html` field template. | String | `'ui/grid/editing/field'` |
-| `rowTmpl` | The path to the component’s `.html` row template. | String | `'ui/grid/editing/row'` |
+| `fieldTmpl` | The path to the component's `.html` field template. | String | `'ui/grid/editing/field'` |
+| `rowTmpl` | The path to the component's `.html` row template. | String | `'ui/grid/editing/row'` |
 | `templates`.`fields` | The object that contains the configurations for field types. | Object | `{base: {...},text: {...},date: {...},select: {...}}` |
 | `templates`.`fields`.`base` | The base configurations of a record field. | Object | `{parent: '${ $.$data.record.name }',name: '${ $.$data.column.index }',provider: '${ $.$data.record.name }',dataScope: 'data.${ $.$data.column.index }',imports: {disabled: '${ $.$data.record.parentName }:fields.${ $.$data.column.index }.disabled'},isEditor: true}` |
 | `templates`.`fields`.`date` | The date record field configurations. | Object | `{component: 'Magento_Ui/js/form/element/date',template: 'ui/form/element/date',dateFormat: 'MMM d, y h:mm:ss a'}` |

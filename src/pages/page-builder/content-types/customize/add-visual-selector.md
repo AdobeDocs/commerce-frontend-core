@@ -1,6 +1,8 @@
 ---
 title: Add a visual selector
 description: Add a UI select control that makes its options visually clear to end users.
+keywords:
+  - Page Builder
 ---
 
 # Add a visual selector

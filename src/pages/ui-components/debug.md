@@ -1,6 +1,10 @@
 ---
 title: Debug UI components | Commerce Frontend Development
 description: Configure Adobe Commerce and Magento Open Source UI components and integrate them with other components.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Debug UI components
@@ -65,7 +69,7 @@ console.log(fieldName.name); // product_form.product_form.product-details.contai
 
 ## Chrome DevTools
 
-All modern browsers support “debugging” – a special UI in developer tools that makes finding and fixing errors much easier.
+All modern browsers support "debugging" – a special UI in developer tools that makes finding and fixing errors much easier.
 
 ### Sources panel UI
 
@@ -94,7 +98,7 @@ You can always find a list of breakpoints in the right panel, which is useful wh
 
 <InlineAlert variant="info" slots="text" />
 
-Right-clicking on the line number allows you to create a conditional breakpoint, which triggers only when the given expression is truthy. That’s helpful when you need to stop only for certain function parameters.
+Right-clicking on the line number allows you to create a conditional breakpoint, which triggers only when the given expression is truthy. That's helpful when you need to stop only for certain function parameters.
 
 ### Execution trace
 

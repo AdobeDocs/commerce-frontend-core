@@ -1,6 +1,10 @@
 ---
 title: uiLayout service object | Commerce Frontend Development
 description: Learn how to initialize and configure Adobe Commerce and Magento Open Source UI components.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # uiLayout service object

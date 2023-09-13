@@ -1,5 +1,5 @@
 ---
-title: Tabs widget | Commerce Frontend Development
+title: Tabs | Commerce Frontend Development
 description: Learn how to initialize and configure the Adobe Commerce and Magento Open Source Tabs widget.
 ---
 

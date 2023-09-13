@@ -1,6 +1,8 @@
 ---
 title: Use Page Builder for product attributes
 description: Change a custom product attribute's input type using the Admin UI.
+keywords:
+  - Page Builder
 ---
 
 # Use Page Builder for product attributes

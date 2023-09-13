@@ -1,6 +1,10 @@
 ---
 title: PHP modifiers | Commerce Frontend Development
 description: Learn about optional server-side configuration for Adobe Commerce and Magento Open Source UI components.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # PHP modifiers

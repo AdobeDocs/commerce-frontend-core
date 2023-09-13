@@ -1,6 +1,8 @@
 ---
 title: Add viewports
 description: Add viewport previews to breakpoints and customize them as needed.
+keywords:
+  - Page Builder
 ---
 
 # Add viewports

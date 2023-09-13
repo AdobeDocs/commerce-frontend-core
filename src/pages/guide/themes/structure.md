@@ -1,6 +1,10 @@
 ---
 title: Theme Structure | Commerce Frontend Development
 description: Use this reference to learn how Adobe Commerce and Magento Open Source themes are structured.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Theme structure
