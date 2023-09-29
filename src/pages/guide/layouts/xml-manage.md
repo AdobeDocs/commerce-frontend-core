@@ -156,6 +156,62 @@ Use the following examples to include in your own layout themes.
 </page>
 ```
 
+## Add or change itemprop global attribute for products
+
+To add `itemprop` attribute to another product attribute displayed in the `<body>` element of your layout on product page, create a theme-extending file similar to: `app/design/frontend/<Vendor>/<theme>/Magento_Catalog/layout/catalog_product_view.xml`.
+
+By default, `itemprop=description` is added for `short_description` attribute of a product.
+
+```xml
+<block class="Magento\Catalog\Block\Product\View\Description" name="product.info.overview" template="Magento_Catalog::product/view/attribute.phtml" group="detailed_info" after="product.info.extrahint">
+    <arguments>
+        <argument name="at_call" xsi:type="string">getShortDescription</argument>
+        <argument name="at_code" xsi:type="string">short_description</argument>
+        <argument name="css_class" xsi:type="string">overview</argument>
+        <argument name="at_label" xsi:type="string">none</argument>
+        <argument name="title" translate="true" xsi:type="string">Overview</argument>
+        <argument name="add_attribute" xsi:type="string">itemprop="description"</argument>
+    </arguments>
+</block>
+```
+
+```html
+<div class="product attribute overview">
+        <div class="value" itemprop="description">
+          <p>The instructors and routines featured in LifeLong Fitness IV provide safe options to serve all types of physical conditions and abilities. Range of motion, body awareness and breathing practices are essential tools of yogic self-care, essential for maintaining alertness, health, and dignity over a lifetime. The LifeLong Fitness series acknowledges that as we age, the safety and sustainability of our exercise become as important as pushing our limits.</p>
+        </div>
+</div>
+```
+
+To generate `itemprop=description` for `description` attribute, move the `add_attribute` argument from `short_description` to `description` xml configuration:
+
+```xml
+<block class="Magento\Catalog\Block\Product\View\Description" name="product.info.description" as="description" template="Magento_Catalog::product/view/attribute.phtml" group="detailed_info">
+      <arguments>
+          <argument name="at_call" xsi:type="string">getDescription</argument>
+          <argument name="at_code" xsi:type="string">description</argument>
+          <argument name="css_class" xsi:type="string">description</argument>
+          <argument name="at_label" xsi:type="string">none</argument>
+          <argument name="title" translate="true" xsi:type="string">Details</argument>
+          <argument name="sort_order" xsi:type="string">10</argument>
+          <argument name="add_attribute" xsi:type="string">itemprop="description"</argument>
+      </arguments>
+</block>
+```
+```html
+<div class="product attribute description">
+  <div class="value" itemprop="description">
+    <p>Luma LifeLong Fitness Series is a world recognized, evidence based exercise program designed specifically for individuals focused on staying active their whole lives. If followed regularly, participants will see improved heart rate and blood pressure, increased mobility, reduced joint pain and overall improvement in functional fitness and health.</p>
+    <ul>
+      <li>10 minute warm up.</li>
+      <li>30 minutes of mild aerobics.</li>
+      <li>20 minutes of strength, stretch and balance.</li>
+      <li>Extensive modifications for varying fitness levels.</li>
+    </ul>
+  </div>
+</div>
+```
+
 ## Create a container
 
 Use the following sample to create (declare) a container:
