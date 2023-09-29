@@ -198,6 +198,7 @@ To generate `itemprop=description` for `description` attribute, move the `add_at
       </arguments>
 </block>
 ```
+
 ```html
 <div class="product attribute description">
   <div class="value" itemprop="description">
