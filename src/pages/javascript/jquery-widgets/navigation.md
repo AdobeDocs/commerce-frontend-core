@@ -1,5 +1,5 @@
 ---
-title: Navigation widget | Commerce Frontend Development
+title: Navigation | Commerce Frontend Development
 description: Learn how to initialize and configure the Adobe Commerce and Magento Open Source Navigation widget.
 ---
 

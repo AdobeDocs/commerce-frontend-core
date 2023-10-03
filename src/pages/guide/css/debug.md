@@ -1,6 +1,10 @@
 ---
 title: Compile LESS with Grunt | Commerce Frontend Development
 description: Learn how to compile LESS files with Grunt for Adobe Commerce and Magento Open Source themes.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Compile LESS with Grunt

@@ -1,5 +1,5 @@
 ---
-title: Masonry (grid) component | Commerce Frontend Development
+title: Masonry (grid) |
 description: Configure Adobe Commerce and Magento Open Source UI components and integrate them with other components.
 contributor_name: Shankar Konar
 contributor_link: https://github.com/konarshankar07

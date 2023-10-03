@@ -1,6 +1,10 @@
 ---
-title: Template Customization Example | Commerce Frontend Development
+title: Template Customization | Commerce Frontend Development
 description: Review an example use case for a custom template in an Adobe Commerce or Magento Open Source theme.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Template customization example

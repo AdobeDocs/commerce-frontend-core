@@ -1,6 +1,10 @@
 ---
 title: Override a Layout | Commerce Frontend Development
 description: View code samples for overriding layouts in Adobe Commerce and Magento Open Source themes.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Override a layout

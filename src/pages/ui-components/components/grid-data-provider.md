@@ -1,5 +1,5 @@
 ---
-title: GridDataProvider component | Commerce Frontend Development
+title: GridDataProvider |
 description: Configure Adobe Commerce and Magento Open Source UI components and integrate them with other components.
 contributor_name: Atwix
 contributor_link: https://www.atwix.com/

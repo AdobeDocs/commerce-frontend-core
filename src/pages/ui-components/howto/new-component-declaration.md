@@ -1,6 +1,10 @@
 ---
-title: Declare a custom UI component | Commerce Frontend Development
+title: Custom UI |
 description: Follow this tutorial to create the XML configuration required for custom Adobe Commerce and Magento Open Source UI components.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Declare a custom UI component

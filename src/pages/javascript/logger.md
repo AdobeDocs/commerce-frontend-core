@@ -1,6 +1,11 @@
 ---
 title: JavaScript Logger | Commerce Frontend Development 
 description: Display errors, warnings, and debug messages with the `Logger` class.
+keywords:
+  - Logs
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # JavaScript Logger

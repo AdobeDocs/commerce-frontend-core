@@ -1,6 +1,10 @@
 ---
 title: Practice Customizing Layouts | Commerce Frontend Development
 description: Follow this tutorial to customize the page layout in an Adobe Commerce or Magento Open Source theme.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Practice customizing layouts

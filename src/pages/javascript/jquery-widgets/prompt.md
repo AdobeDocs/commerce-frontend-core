@@ -1,5 +1,5 @@
 ---
-title: Prompt widget | Commerce Frontend Development
+title: Prompt | Commerce Frontend Development
 description: Learn how to initialize and configure the Adobe Commerce and Magento Open Source Prompt widget.
 ---
 

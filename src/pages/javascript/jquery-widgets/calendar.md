@@ -1,5 +1,5 @@
 ---
-title: Calendar widget | Commerce Frontend Development 
+title: Calendar | Commerce Frontend Development 
 description: Learn how to initialize and configure the Adobe Commerce and Magento Open Source Calendar widget.
 ---
 

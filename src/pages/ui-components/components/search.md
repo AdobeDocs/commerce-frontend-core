@@ -1,5 +1,5 @@
 ---
-title: Search component | Commerce Frontend Development
+title: Search |
 description: Configure Adobe Commerce and Magento Open Source UI components and integrate them with other components.
 ---
 

@@ -1,6 +1,10 @@
 ---
 title: Basic Template Concepts | Commerce Frontend Development
 description: View code samples for overriding templates in Adobe Commerce and Magento Open Source themes.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Basic concepts

@@ -1,6 +1,10 @@
 ---
 title: uiRegistry library | Commerce Frontend Development
 description: Search for properties of Adobe Commerce and Magento Open Source UI components.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # uiRegistry library

@@ -1,6 +1,10 @@
 ---
 title: Basic attributes | Commerce Frontend Development
 description: Configure Adobe Commerce and Magento Open Source UI components and integrate them with other components.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Basic attributes
@@ -14,10 +18,10 @@ The following attributes are available for all UI components, including the basi
 | Option        | Description                                                                                                                                  | Type    |
 |---------------|----------------------------------------------------------------------------------------------------------------------------------------------|---------|
 | `class`       | The name of associated PHP interface.                                                                                                        | String  |
-| `component`   | The path to the component’s `.js` file.                                                                                                      | String  |
+| `component`   | The path to the component's `.js` file.                                                                                                      | String  |
 | `displayArea` | The name of parent component's template region where component needs to be rendered (the list of available regions defined by the template). | String  |
 | `sortOrder`   | Component's sort order.                                                                                                                      | Integer |
-| `template`    | The path to the component’s `.html` template.                                                                                                | String  |
+| `template`    | The path to the component's `.html` template.                                                                                                | String  |
 
 ## Basic component options
 

@@ -1,6 +1,11 @@
 ---
 title: Semantic configuration | Commerce Frontend Development
 description: Review best practices for configuring Adobe Commerce and Magento Open Source UI components.
+keywords:
+  - Configuration
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Semantic configuration

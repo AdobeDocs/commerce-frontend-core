@@ -3,6 +3,10 @@ title: Data sourcing | Commerce Frontend Development
 description: Learn how to pass data to Adobe Commerce and Magento Open Source UI components.
 contributor_name: SwiftOtter Studios
 contributor_link: https://swiftotter.com/
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Data sourcing

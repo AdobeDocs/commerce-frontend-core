@@ -1,5 +1,5 @@
 ---
-title: Button component | Commerce Frontend Development
+title: Button |
 description: Configure Adobe Commerce and Magento Open Source UI components and integrate them with other components.
 ---
 

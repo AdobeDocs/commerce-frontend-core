@@ -1,6 +1,11 @@
 ---
 title: Grunt | Commerce Frontend Development
 description: Follow this tutorial to install and configure Grunt for Adobe Commerce and Magento Open Source theme development.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
+  - Tools
 ---
 
 # Grunt

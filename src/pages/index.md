@@ -1,6 +1,10 @@
 ---
 title: Commerce Frontend Development
 description: Review resources for developing the frontend of Adobe Commerce and Magento Open Source Admin and storefronts.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 <Hero slots="image, heading, text"/>

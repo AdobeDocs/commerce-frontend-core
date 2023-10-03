@@ -1,5 +1,5 @@
 ---
-title: Alert widget | Commerce Frontend Development 
+title: Alert | Commerce Frontend Development 
 description: Learn how to initialize and configure the Adobe Commerce and Magento Open Source Alert widget.
 ---
 

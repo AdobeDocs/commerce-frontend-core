@@ -1,6 +1,8 @@
 ---
 title: Add icon
 description: Create a panel icon for a unique but visually consistent identity alongside Page Builder's native font icons.
+keywords:
+  - Page Builder
 ---
 
 # Add icon

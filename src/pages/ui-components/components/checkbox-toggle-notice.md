@@ -1,5 +1,5 @@
 ---
-title: CheckboxToggleNotice component | Commerce Frontend Development
+title: CheckboxToggleNotice | Commerce Frontend Development
 description: Configure Adobe Commerce and Magento Open Source UI components and integrate them with other components.
 contributor_name: Atwix
 contributor_link: https://www.atwix.com/
@@ -13,7 +13,7 @@ The CheckboxToggleNotice component implements the [`Checkbox`](checkbox.md) comp
 
 | Option | Description | Type | Default |
 | --- | --- | --- | --- |
-| `component` | The path to the component’s JS constructor in terms of RequireJS. | String | `Magento_Ui/js/form/element/single-checkbox-toggle-notice` |
+| `component` | The path to the component's JS constructor in terms of RequireJS. | String | `Magento_Ui/js/form/element/single-checkbox-toggle-notice` |
 | `notices` | The array of notices that should be associated by key with selected option value. | Array | `[]` |
 | `tracks`.`notice` | Flags that enable tracking for the `notice` option. By default, the `notice` option is tracked to allow updating the notice message in the template. | Boolean | `true` |
 

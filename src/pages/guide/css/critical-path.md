@@ -1,6 +1,10 @@
 ---
 title: CSS Critical Path | Commerce Frontend Development
 description: Optimize the time-to-first-render in Adobe Commerce and Magento Open Source themes.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # CSS critical path

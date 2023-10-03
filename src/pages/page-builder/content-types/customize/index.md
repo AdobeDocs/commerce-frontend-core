@@ -1,6 +1,8 @@
 ---
 title: Add additional data
 description: Extend and configure Page Builder content types to accommodate any preferred setting that is not addressed in our existing schema definition.
+keywords:
+  - Page Builder
 ---
 
 # Add additional data
@@ -51,7 +53,7 @@ Object content types, `xsi:type="object"`, must implement `ProviderInterface` in
 ```php
 <?php
 /**
- * Copyright © Adobe, Inc. All rights reserved.
+ * Copyright &copy; Adobe, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
 

@@ -1,6 +1,11 @@
 ---
 title: XML declaration | Commerce Frontend Development
 description: Review information about basic configuration elements of Adobe Commerce and Magento Open Source UI components.
+keywords:
+  - Configuration
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # XML declaration
@@ -42,7 +47,7 @@ The top node can have nested nodes. Every nested node is regarded as a separate 
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 /**
- * Copyright © Magento, Inc. All rights reserved.
+ * Copyright &copy; Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
 -->

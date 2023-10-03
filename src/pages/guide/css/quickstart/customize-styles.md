@@ -1,6 +1,10 @@
 ---
 title: Customize Theme Styles | Commerce Frontend Development
 description: Customize Adobe Commerce or Magento Open Source theme styles.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Customize theme styles

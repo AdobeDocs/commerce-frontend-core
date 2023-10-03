@@ -1,6 +1,10 @@
 ---
 title: Update the page URL type | Commerce Frontend Development
 description: Follow this tutorial to create a new link type in Adobe Commerce and Magento Open Source UI components.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 # Update the page URL type
 
@@ -13,7 +17,7 @@ Create a `.php` file implementing the new link class in the module directory con
 ```php
 <?php
 /**
- * Copyright © Magento, Inc. All rights reserved.
+ * Copyright &copy; Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
 
@@ -89,7 +93,7 @@ Create the JavaScript implementation for the applicable UI component in your mod
 
 ```js
 /**
- * Copyright © Magento, Inc. All rights reserved.
+ * Copyright &copy; Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
 
@@ -191,7 +195,7 @@ Create a controller to search the page using a search key.
 ```php
 <?php
 /**
- * Copyright © Magento, Inc. All rights reserved.
+ * Copyright &copy; Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
 
@@ -273,7 +277,7 @@ Create a controller to return the page, or empty array if the option doesn't exi
 ```php
 <?php
 /**
- * Copyright © Magento, Inc. All rights reserved.
+ * Copyright &copy; Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
 

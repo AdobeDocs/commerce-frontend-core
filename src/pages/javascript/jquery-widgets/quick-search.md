@@ -1,5 +1,5 @@
 ---
-title: QuickSearch widget | Commerce Frontend Development
+title: QuickSearch | Commerce Frontend Development
 description: Learn how to initialize and configure the Adobe Commerce and Magento Open Source QuickSearch widget.
 ---
 

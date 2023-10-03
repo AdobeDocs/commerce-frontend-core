@@ -1,6 +1,8 @@
 ---
 title: Install the migration module
 description: Install the migration module composer package.
+keywords:
+  - Page Builder
 ---
 
 # Install the migration module

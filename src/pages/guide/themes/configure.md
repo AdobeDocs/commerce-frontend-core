@@ -1,6 +1,10 @@
 ---
 title: Configure Theme Properties | Commerce Frontend Development
 description: View code samples for configuring properties of an Adobe Commerce and Magento Open Source theme.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Configure theme properties

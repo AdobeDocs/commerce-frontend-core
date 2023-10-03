@@ -1,6 +1,10 @@
 ---
 title: jQuery UI Styles | Commerce Frontend Development
 description: Review high-level details about how Adobe Commerce and Magento Open Source themes use jQuery UI styles.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # jQuery UI styles

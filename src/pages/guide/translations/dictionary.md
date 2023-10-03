@@ -1,6 +1,10 @@
 ---
-title: Use a Dictionary to Customize Strings | Commerce Frontend Development
+title: Custom String Dictionary | Commerce Frontend Development
 description: Learn how Adobe Commerce and Magento Open Source themes search for strings and translate them.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Use a dictionary to customize strings

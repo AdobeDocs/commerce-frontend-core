@@ -1,6 +1,8 @@
 ---
 title: Page Builder events
 description: How to consume and bind Page Builder events in JavaScript.
+keywords:
+  - Page Builder
 ---
 
 # Page Builder events

@@ -1,6 +1,10 @@
 ---
 title: Include CSS | Commerce Frontend Development
 description: Follow these best practices for structuring stylesheets in Adobe Commerce and Magento Open Source themes.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Include CSS

@@ -1,6 +1,10 @@
 ---
 title: UI Library | Commerce Frontend Development
 description: Use mixins to accelerate Adobe Commerce and Magento Open Source theme development.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # UI library
@@ -98,7 +102,7 @@ To change the default library variables values, specify the new values for the r
 <InlineAlert variant="info" slots="text"/>
 
 Please mind, that your `<theme_dir>/web/css/source/_theme.less` file overrides `_theme.less` of the parent theme (if your theme has a parent).
-So if you want to inherit the parent theme's variable values additionally to your changes, add the content of parent’s `_theme.less` to your file as well.
+So if you want to inherit the parent theme's variable values additionally to your changes, add the content of parent's `_theme.less` to your file as well.
 
 The following figure shows the product page shown earlier in this topic, after a custom theme was applied.
 The theme customized Blank by redefining variables only.

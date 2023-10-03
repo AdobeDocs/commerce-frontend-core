@@ -1,6 +1,10 @@
 ---
-title: Add a show/hide password checkbox | Commerce Frontend Development
+title: Show/hide password checkbox | Commerce Frontend Development
 description: Follow this tutorial to create a show/hide option in Adobe Commerce and Magento Open Source UI components.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Add a show/hide password checkbox
@@ -46,7 +50,7 @@ Initialize the "show or hide" password checkbox using the `text/x-magento-init` 
 
 |Option|Description|Type|
 |--- |--- |--- |
-|`component`|The path to the component’s `.js` file, relative to RequireJS. Here the component path value is `Magento_Customer/js/show-password`|String|
+|`component`|The path to the component's `.js` file, relative to RequireJS. Here the component path value is `Magento_Customer/js/show-password`|String|
 |`passwordSelector`|The id of the password input field, such as `#pass`.|String|
 
 The RequireJS file path for the "show or hide" password checkbox is `Magento_Customer/js/show-password`. It is defined in [`app/code/Magento/Customer/view/frontend/web/js/show-password.js`][show-password].

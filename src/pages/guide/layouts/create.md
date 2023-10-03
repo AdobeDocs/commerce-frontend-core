@@ -1,6 +1,10 @@
 ---
 title: Create a New Layout | Commerce Frontend Development
 description: View code samples for creating new layouts in Adobe Commerce and Magento Open Source themes.
+keywords:
+  - Native Luma Frontend Development
+  - Storefront
+  - Themes
 ---
 
 # Create a new layout

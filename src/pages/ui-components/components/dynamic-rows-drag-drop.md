@@ -1,5 +1,5 @@
 ---
-title: DynamicRowsDragAndDrop component | Commerce Frontend Development
+title: DynamicRowsDragAndDrop | Commerce Frontend Development
 description: Configure Adobe Commerce and Magento Open Source UI components and integrate them with other components.
 contributor_name: Atwix
 contributor_link: https://www.atwix.com/
@@ -13,7 +13,7 @@ The DynamicRowsDragAndDrop component is an extension for [DynamicRows](dynamic-r
 
 | Option | Description | Type | Default Value |
 | --- | --- | --- | --- |
-| `component` | The path to the component’s `.js` file in terms of RequireJS. | String | `'Magento_Ui/js/dynamic-rows/dnd'` |
+| `component` | The path to the component's `.js` file in terms of RequireJS. | String | `'Magento_Ui/js/dynamic-rows/dnd'` |
 | `draggableElement` | The dragged HTML element. | Object | `{}` |
 | `draggableElementClass` | The class adds to the dragged element. | String | `'_dragged'` |
 | `enabled` | Whether the component is allowed to change the position of columns. | Boolean | `true` |
@@ -22,7 +22,7 @@ The DynamicRowsDragAndDrop component is an extension for [DynamicRows](dynamic-r
 | `recordsProvider` | The path in the [registry](../concepts/registry.md) to the linked records provider. | String | `'${ $.name }'` |
 | `separatorsClass` | The object with class separators for top and bottom positions. | Object | `{top: '_dragover-top', bottom: '_dragover-bottom'}` |
 | `tableClass` | The selector of the [DynamicRows](dynamic-rows.md) table HTML element. | String | `table.admin__dynamic-rows` |
-| `template` | Path to the component’s `.html` template. | String | `'ui/dynamic-rows/cells/dnd'` |
+| `template` | Path to the component's `.html` template. | String | `'ui/dynamic-rows/cells/dnd'` |
 
 ## Sources files
 
