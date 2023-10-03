@@ -79,8 +79,10 @@ If module context is defined for a file:
    *  `<parent_theme_dir>/web/i18n/<locale>/<Namespace>_<Module>`
    *  `<parent_theme_dir>/<Namespace>_<Module>/web/`
 
-1. Module static view files for the `frontend` area: `<module_dir>/view/frontend/web/`
-1. Module static view files for the `base` area: `<module_dir>/view/base/web/`
+1. Module static view files for an appropriate area: `<module_dir>/view/<area>/web/`. Example:
+
+   * For frontend area: `<module_dir>/view/frontend/web/`
+   * For base area: `<module_dir>/view/base/web/`
 
 **Example:**
 
