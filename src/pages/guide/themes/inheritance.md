@@ -81,8 +81,8 @@ If module context is defined for a file:
 
 1. Module static view files for an appropriate area: `<module_dir>/view/<area>/web/`. Example:
 
-   * for frontend area: `<module_dir>/view/frontend/web/`
-   * for base area: `<module_dir>/view/base/web/`
+   * For frontend area: `<module_dir>/view/frontend/web/`
+   * For base area: `<module_dir>/view/base/web/`
 
 **Example:**
 
