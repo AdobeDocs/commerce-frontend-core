@@ -158,7 +158,29 @@ Use the following examples to include in your own layout themes.
 
 ## Add or change itemprop global attribute for products
 
-To add `itemprop` attribute to another product attribute displayed in the `<body>` element of your layout on product page, create a theme-extending file similar to: `app/design/frontend/<Vendor>/<theme>/Magento_Catalog/layout/catalog_product_view.xml`.
+By default, `itemprop=description` is an argument on the `short_description` attribute of a product, as shown here:
+
+```xml
+<!-- short_description attribute block -->
+<block class="Magento\Catalog\Block\Product\View\Description" name="product.info.overview"
+       template="Magento_Catalog::product/view/attribute.phtml" group="detailed_info" after="product.info.extrahint">
+  <arguments>
+    <argument name="at_call" xsi:type="string">getShortDescription</argument>
+    <argument name="at_code" xsi:type="string">short_description</argument>
+    <argument name="css_class" xsi:type="string">overview</argument>
+    <argument name="at_label" xsi:type="string">none</argument>
+    <argument name="title" translate="true" xsi:type="string">Overview</argument>
+    <argument name="add_attribute" xsi:type="string">itemprop="description"</argument>
+  </arguments>
+</block>
+
+<!-- Example usage -->
+<div class="product attribute overview">
+  <div class="value" itemprop="description">
+    <p>The instructors and routines featured in LifeLong Fitness IV provide safe options to serve all types of physical conditions and abilities. Range of motion, body awareness and breathing practices are essential tools of yogic self-care, essential for maintaining alertness, health, and dignity over a lifetime. The LifeLong Fitness series acknowledges that as we age, the safety and sustainability of our exercise become as important as pushing our limits.
+    </p>
+  </div>
+</div>
 
 By default, `itemprop=description` is added for `short_description` attribute of a product.
 
