@@ -182,7 +182,37 @@ By default, `itemprop=description` is an argument on the `short_description` att
   </div>
 </div>
 
-By default, `itemprop=description` is added for `short_description` attribute of a product.
+To add the `itemprop` attribute to another product attribute displayed in the `<body>` of your product page layout:
+
+1. Create a new theme-extension file similar to the `catalog_product_view.xml` found here: `app/design/frontend/<Vendor>/<theme>/Magento_Catalog/layout/catalog_product_view.xml`.
+2. Within the new file, remove the `add_attribute` argument from the `short_description` attribute block and add it to the `description` attribute block, as shown here:
+
+```xml
+<!-- description attribute block -->
+<block class="Magento\Catalog\Block\Product\View\Description" name="product.info.description" as="description" template="Magento_Catalog::product/view/attribute.phtml" group="detailed_info">
+      <arguments>
+          <argument name="at_call" xsi:type="string">getDescription</argument>
+          <argument name="at_code" xsi:type="string">description</argument>
+          <argument name="css_class" xsi:type="string">description</argument>
+          <argument name="at_label" xsi:type="string">none</argument>
+          <argument name="title" translate="true" xsi:type="string">Details</argument>
+          <argument name="sort_order" xsi:type="string">10</argument>
+          <argument name="add_attribute" xsi:type="string">itemprop="description"</argument>
+      </arguments>
+</block>
+
+<!-- Example usage -->
+<div class="product attribute description">
+  <div class="value" itemprop="description">
+    <p>Luma LifeLong Fitness Series is a world recognized, evidence based exercise program designed specifically for individuals focused on staying active their whole lives. If followed regularly, participants will see improved heart rate and blood pressure, increased mobility, reduced joint pain and overall improvement in functional fitness and health.</p>
+    <ul>
+      <li>10 minute warm up.</li>
+      <li>30 minutes of mild aerobics.</li>
+      <li>20 minutes of strength, stretch and balance.</li>
+      <li>Extensive modifications for varying fitness levels.</li>
+    </ul>
+  </div>
+</div>
 
 ```xml
 <block class="Magento\Catalog\Block\Product\View\Description" name="product.info.overview" template="Magento_Catalog::product/view/attribute.phtml" group="detailed_info" after="product.info.extrahint">
