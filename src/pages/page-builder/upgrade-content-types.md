@@ -193,7 +193,7 @@ For example, if you have created a blog entity that stores Page Builder content,
 <type name="Magento\PageBuilder\Model\UpgradableEntitiesPool">
     <arguments>
         <argument name="entities" xsi:type="array">
-            <item name="cms_blog" xsi:type="array">
+            <item name="cms_block" xsi:type="array">
                 <item name="identifier" xsi:type="string">blog_id</item>
                 <item name="fields" xsi:type="array">
                     <item name="content" xsi:type="boolean">true</item>
