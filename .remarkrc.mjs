@@ -23,7 +23,8 @@ const remarkConfig = {
 			remarkLintNoDeadUrls,
 			{
 				skipUrlPatterns: [
-					"https://www.php.net"
+					"https://www.php.net",
+					"https://jqueryvalidation.org"
 				]
 			}
 		],

@@ -23,7 +23,7 @@ The ColumnsControls component is a collection of columns. It provides an interfa
 Extends [`uiCollection`](../concepts/collection.md):
 
 *  [`app/code/Magento/Ui/view/base/web/js/grid/controls/columns.js`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/controls/columns.js)
-*  [`app/code/Magento/Ui/view/base/web/templates/grid/controls/columns.html`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/grid/controls/columns.md)
+*  [`app/code/Magento/Ui/view/base/web/templates/grid/controls/columns.html`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/grid/controls/columns.html)
 
 ## Example
 

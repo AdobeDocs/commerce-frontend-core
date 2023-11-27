@@ -54,7 +54,7 @@ After completing these steps, the data migration source code can be found within
 
 This installation option is for those who are part of the Commerce organization on GitHub and want easier access to the migration source code during migration development work.
 
-To install the migration module from the GitHub repo ([magento2/magento2-page-builder-data-migration](<https://github.com/magento/magento2-page-builder-data-migration>)):
+To install the migration module from the GitHub repo ([magento2/magento2-page-builder-data-migration](https://github.com/magento/magento2-page-builder-data-migration)):
 
 1. Navigate into the directory above your Magento 2 installation.
 
