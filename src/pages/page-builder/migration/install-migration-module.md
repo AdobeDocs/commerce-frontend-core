@@ -54,23 +54,23 @@ After completing these steps, the data migration source code can be found within
 
 This installation option is for those who are part of the Commerce organization on GitHub and want easier access to the migration source code during migration development work.
 
-To install the migration module from the GitHub repo ([magento2/magento2-page-builder-data-migration](https://github.com/magento/magento2-page-builder-data-migration)):
+To install the migration module from the GitHub repo, you will need access to the private repo: `magento/magento2-page-builder-data-migration`:
 
 1. Navigate into the directory above your Magento 2 installation.
 
-1. Clone the `magento/magento2-page-builder-data-migration` repository using the following command:
+2. Clone the `magento/magento2-page-builder-data-migration` repository using the following command:
 
    ```bash
    git clone git@github.com:magento/magento2-page-builder-data-migration.git
    ```
 
-1. Symlink the `magento2-page-builder-data-migration` into your Commerce installation:
+3. Symlink the `magento2-page-builder-data-migration` into your Commerce installation:
 
    ```bash
    php <magento-root-directory>/dev/tools/build-ee.php --command=link --ce-source <magento-root-directory> --ee-source magento2-page-builder-data-migration
    ```
 
-1. [Disable the default migration-on-deployment feature](#disable-migration-on-deployment).
+4. [Disable the default migration-on-deployment feature](#disable-migration-on-deployment).
 
    **Note**: This step is critical for migration development work. It disables the default migration module behavior that migrates your content as part of the deployment using `setup:upgrade`. We made this the default behavior so that deployment to production is easy. But during development, you need to turn it off so that you do not run your migrations accidentally, before you have made strategic changes to your migration code, or backups to your database.
 
