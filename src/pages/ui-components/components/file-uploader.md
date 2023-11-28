@@ -12,7 +12,7 @@ The File Uploader component is an adapter for the [jQuery-File-Upload](https://g
 | Title | Description | Type | Default Value |
 | --- | --- | --- | --- |
 | `allowedExtensions` | List of allowed file extensions. For example, `'jpg jpeg gif png svg'`. If set to "false" - then no extension is allowed, "true" - any extension is allowed. | Boolean/String | `false` |
-| `component` | The path to the component’s JS constructor in terms of RequireJS. | String | `'Magento_Ui/js/form/element/file-uploader'` |
+| `component` | The path to the component's JS constructor in terms of RequireJS. | String | `'Magento_Ui/js/form/element/file-uploader'` |
 | `dropZone` | CSS selector of a drop zone element. | String | `[data-role=drop-zone]` |
 | `isMultipleFiles` | Defines whether multiple files can be uploaded. | Boolean | `false` |
 | `maxFileSize` | Defines the maximum allowed file size in bytes. | Boolean/Number | `false` |
@@ -63,6 +63,5 @@ Here is an example of how File Uploader component integrates with [Form](form.md
 Extends `abstract`:
 
 -  [`<Magento_Ui_module_dir>/view/base/web/js/form/element/file-uploader.js`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/element/file-uploader.js)
--  [`jquery/fileUploader/jquery.fileupload-fp`](https://github.com/magento/magento2/blob/2.4/lib/web/jquery/fileUploader/jquery.fileupload-fp.js)
 -  [`<Magento_Ui_module_dir>/view/base/web/templates/form/element/uploader/uploader.html`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/form/element/uploader/uploader.html)
 -  [`<Magento_Ui_module_dir>/view/base/web/templates/form/element/uploader/preview.html`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/form/element/uploader/preview.html)
