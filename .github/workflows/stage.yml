@@ -79,6 +79,8 @@ jobs:
 
       - name: Install Yarn
         uses: borales/actions-yarn@v4.2.0
+        env:
+          YARN_IGNORE_NODE: 1
         with:
           cmd: set version stable
 
