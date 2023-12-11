@@ -78,12 +78,12 @@ jobs:
         run: corepack enable
 
       - name: Install Yarn v3
-        uses: borales/actions-yarn@v3
+        uses: borales/actions-yarn@v3.0.0
         with:
           cmd: set version stable
 
       - name: Install Dependencies
-        uses: borales/actions-yarn@v3
+        uses: borales/actions-yarn@v3.0.0
         env:
           YARN_ENABLE_IMMUTABLE_INSTALLS: false
         with:
