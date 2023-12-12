@@ -1,4 +1,0 @@
-source-path=SCRIPTDIR
-
-# SC2046: Quote this to prevent word splitting.
-disable=SC2046
