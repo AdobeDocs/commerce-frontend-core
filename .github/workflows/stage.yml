@@ -76,8 +76,8 @@ jobs:
           cache: 'yarn'
           cache-dependency-path: 'yarn.lock'
 
-      - name: Enable Corepack for Yarn v3
-        run: yarn corepack enable
+      - name: Enable Corepack for Yarn
+        run: corepack enable
 
       # - name: Install Yarn
       #   uses: borales/actions-yarn@v4.2.0
