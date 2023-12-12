@@ -85,9 +85,10 @@ jobs:
       #     cmd: set version stable
 
       - name: Install Dependencies
-        uses: borales/actions-yarn@v3
+        uses: borales/actions-yarn@v4.2.0
         env:
           YARN_ENABLE_IMMUTABLE_INSTALLS: false
+          YARN_IGNORE_NODE: 1
         with:
           cmd: install
 
