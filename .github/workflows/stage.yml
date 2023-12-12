@@ -92,7 +92,7 @@ jobs:
           YARN_ENABLE_IMMUTABLE_INSTALLS: false
 
       - name: Gatsby Cache
-        uses: actions/cache@v2
+        uses: actions/cache@v3.3.2
         with:
           path: |
             public
