@@ -79,13 +79,6 @@ jobs:
       - name: Enable Corepack for Yarn
         run: corepack enable
 
-      # - name: Install Yarn
-      #   uses: borales/actions-yarn@v4.2.0
-      #   env:
-      #     YARN_IGNORE_NODE: 1
-      #   with:
-      #     cmd: set version stable
-
       - name: Install Dependencies
         run: yarn install
         env:
