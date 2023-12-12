@@ -72,7 +72,7 @@ jobs:
       - name: Setup Node v16 for Yarn v3
         uses: actions/setup-node@v3
         with:
-          node-version: '16.15.0' # Current LTS version
+          node-version-file: '.nvmrc'
           cache: 'yarn'
           cache-dependency-path: 'yarn.lock'
 
