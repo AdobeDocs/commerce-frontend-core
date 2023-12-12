@@ -77,7 +77,7 @@ jobs:
           cache-dependency-path: 'yarn.lock'
 
       - name: Enable Corepack for Yarn v3
-        run: corepack enable
+        run: yarn corepack enable
 
       # - name: Install Yarn
       #   uses: borales/actions-yarn@v4.2.0
@@ -106,14 +106,10 @@ jobs:
 
       - name: Clean Cache
         if: needs.set-state.outputs.clean_cache == 'true'
-        uses: borales/actions-yarn@v3
-        with:
-          cmd: clean
+        run: yarn clean
 
       - name: Build site
-        uses: borales/actions-yarn@v3
-        with:
-          cmd: build
+        run: yarn build
         env:
           NODE_OPTIONS: "--max_old_space_size=8192"
           PREFIX_PATHS: true # equivalent to --prefix-paths flag for 'gatsby build'
