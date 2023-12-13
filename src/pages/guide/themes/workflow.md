@@ -50,7 +50,7 @@ For details, see [Apply and configure a storefront theme](apply-storefront.md)
 #### Grunt (recommended)
 
 *  [Setup Grunt](../tools/grunt.md)
-*  [Add the theme to Grunt configuration](../css/debug.md#add-themes-to-grunt-configuration)
+*  [Add the theme to Grunt configuration](../tools/grunt.md#configuration-file)
 *  [Track changes](../css/debug.md#track-changes-using-grunt)
 
 #### Client-side compilation
