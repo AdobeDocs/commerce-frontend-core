@@ -47,7 +47,9 @@ map: {
 }
 ```
 
-Now we can use our `Vendor_Module/js/complex/path/module` using `alias` in any RequireJS module or config file without needing to type the entire path. For example, `catalogAddToCart` is mapped to `Magento_Catalog/js/catalog-add-to-cart` and can be used anywhere as a RequireJS module name. In the next example, `catalogAddToCart` is mapped to `Magento_Catalog/js/catalog-add-to-cart` only in the context of the `discountCode` module.
+Now we can use our `Vendor_Module/js/complex/path/amd-module` using `alias` in any RequireJS module or config file without needing to type the entire path. 
+
+In the example below, `catalogAddToCart` is mapped to `Magento_Catalog/js/catalog-add-to-cart` and can be used anywhere as a RequireJS module name. On the contrary, `catalogAddToCart` is mapped to `Magento_Catalog/js/catalog-add-to-cart` only in the context of the `discountCode` module.
 
 ```javascript
 map: {
@@ -91,7 +93,7 @@ var config = {
 };
 ```
 
-For external content, resources should be whitelisted; otherwise the application raises error notices in the browser console. See [Content Security Policies](https://developer.adobe.com/commerce/php/development/security/content-security-policies/).
+For external content, resources should be in the allow list of Content Security Policies module; otherwise the application raises error notices in the browser console. See [Content Security Policies](https://developer.adobe.com/commerce/php/development/security/content-security-policies/).
 
 Consider the example of overwriting an HTML file in the adminhtml.
 In this example, the `max-length` value of the text-box in the `adminhtml` is altered. The HTML file is located at `vendor/magento/module_ui/view/base/web/templates/form/element/input.html`.
