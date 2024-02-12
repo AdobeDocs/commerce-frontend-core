@@ -47,7 +47,7 @@ map: {
 }
 ```
 
-Now we can use our `Vendor_Module/js/complex/path/amd-module` using `alias` in any RequireJS module or `requirejs-config.js` file without needing to type the entire path. 
+Now we can use our `Vendor_Module/js/complex/path/amd-module` using `alias` in any RequireJS module or `requirejs-config.js` file without needing to type the entire path.
 
 In the first example below, `catalogAddToCart` is mapped to `Magento_Catalog/js/catalog-add-to-cart` and, it can be used anywhere as a RequireJS module name. However, in the second example, `catalogAddToCart` is mapped to `Magento_Catalog/js/catalog-add-to-cart` only in the context of the `discountCode` RequireJS module.
 
