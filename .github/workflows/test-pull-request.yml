@@ -67,9 +67,6 @@ jobs:
         with:
           node-version-file: '.nvmrc'
 
-      - name: Enable Corepack for Yarn
-        run: corepack enable
-
       - name: Install Dependencies
         run: yarn install
         env:
