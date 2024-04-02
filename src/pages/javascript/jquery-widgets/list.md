@@ -12,8 +12,6 @@ The list widget is deprecated since version 2.2.0. As an alternative component f
 Provides a way to move items, typically a list, from one content section to another.
 The content can be moved using buttons and links.
 
-The list widget source file is [lib/web/mage/list.js](https://github.com/magento/magento2/blob/2.4/lib/web/mage/list.js).
-
 ## Initialize
 
 For information about how to initialize a widget in a JS component or `.phtml` template, see the [Initialize JavaScript](../init.md) topic.
