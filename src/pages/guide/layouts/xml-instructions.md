@@ -410,12 +410,7 @@ The argument with *helper* type can contain `param` items which can be passed as
 
 #### Obtain arguments examples in template
 
-<InlineAlert variant="info" slots="text"/>
-
-Templates must not instantiate new objects within their code. All objects MUST be passed from the Block object.
-This way, the template remains stateless and its sole responsibility is to display the data it receives from the Block object.
-This approach promotes a clear separation of concerns, improves testability, and makes the code more modular and easier to maintain.
-It also ensures that the template does not have unexpected side effects, as it is not responsible for creating objects or managing their lifecycle.
+import Docs from '/src/_includes/objects-in-templates.md'
 
 These argument examples can be taken in the template by *getData* method. Another way to take these arguments is using the magic method *get* followed by the name of argument in CamelCase format. Here is an example to retrieve the arguments from above example:
 
