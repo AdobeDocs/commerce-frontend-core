@@ -79,6 +79,10 @@ Unlike other templates, `root.phtml` contains the `doctype` specification and co
 
 Arguments values set in a layout file are accessed in templates using the block's `get{ArgumentName}()` and `has{ArgumentName}()` methods.
 
+import Docs from '/src/_includes/objects-in-templates.md'
+
+<Docs />
+
 For example, set an argument in the block: `<argument name="store_name" xsi:type="string">ExampleCorp</argument>`.
 
 *  Get the argument value, in the template:
