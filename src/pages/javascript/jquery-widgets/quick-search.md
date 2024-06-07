@@ -166,7 +166,7 @@ The result is an input with autocomplete results, where the results will be retu
 [`<Magento_Search_module_dir>/view/frontend/web/js/form-mini.js`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Search/view/frontend/web/js/form-mini.js
 [Initialize JavaScript]: ../init.md
 
-## How QuickSearch Utilizes OpenSearch
+## How QuickSearch uses OpenSearch
 
 When a user performs a search query using QuickSearch, the input is processed by OpenSearch using its default Standard Built-in analyzers. These analyzers follow a specific set of rules:
 
@@ -174,12 +174,12 @@ When a user performs a search query using QuickSearch, the input is processed by
 - Removes most punctuation
 - Converts tokens to lowercase
 
-## Hyphens in Product Names
+## Hyphens in product names
 
-This means that for a product with the name "abcd-efg" searching with "abc" will return "abcd" as a suggestion. However, searching with "abcd" will give an empty suggestion, as the word boundary is broken with the upcoming hyphen ("-"). Additionally, this behavior affects candidate generators, as described in the OpenSearch documentation on [candidate generators](https://opensearch.org/docs/latest/search-plugins/searching-data/did-you-mean/#candidate-generators)
+If a product is named “abcd-efg”, a search for “abc” will return “abcd” as a suggestion. However, a search for “abcd” will return no suggestions because the word boundary is broken by the subsequent hyphen (`-`). This behavior also impacts OpenSearch [candidate generators](https://opensearch.org/docs/latest/search-plugins/searching-data/did-you-mean/#candidate-generators).
 
-## Customization and Configuration
+## Customization and configuration
 
-While the default behavior of QuickSearch is to use standard analyzer, there may be cases where customization adjustments are necessary in such cases you might need to consider configuring custom analyzers in OpenSearch.
+While the default behavior of QuickSearch is to use standard analyzer, there may be cases where custom adjustments are necessary. In such cases, you might need to consider configuring custom analyzers in OpenSearch.
 
-For further information on customizing OpenSearch text analysis, refer to the official OpenSearch documentation on [analyzers](https://opensearch.org/docs/latest/analyzers/#built-in-analyzers).
+For more information on customizing OpenSearch text analysis, see the OpenSearch [analyzers](https://opensearch.org/docs/latest/analyzers/#built-in-analyzers) documentation.
