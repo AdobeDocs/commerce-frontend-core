@@ -26,7 +26,8 @@ const remarkConfig = {
 			{
 				skipUrlPatterns: [
 					"https://www.php.net",
-					"https://jqueryvalidation.org"
+					"https://jqueryvalidation.org",
+					"https://business.adobe.com/products/magento/partners.html"
 				]
 			}
 		]
