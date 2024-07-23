@@ -25,11 +25,11 @@ const remarkConfig = {
 			remarkLintNoDeadUrls,
 			{
 				skipUrlPatterns: [
-					"https://www.php.net",
-					"https://jqueryvalidation.org",
-					"https://business.adobe.com/products/magento/partners.html",
-					"https://business.adobe.com",
-					"https://www.adobe.com/legal/terms/enterprise-licensing/magento-legacy-terms.html"
+					// "https://www.php.net",
+					// "https://jqueryvalidation.org",
+					// "https://business.adobe.com/products/magento/partners.html",
+					// "https://business.adobe.com",
+					// "https://www.adobe.com/legal/terms/enterprise-licensing/magento-legacy-terms.html"
 				]
 			}
 		]
