@@ -10382,11 +10382,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"commerce-admin.en@https://github.com/AdobeDocs/commerce-admin.en#ds_remote-md":
+  version: 1.0.0
+  resolution: "commerce-admin.en@https://github.com/AdobeDocs/commerce-admin.en.git#commit=870233dc949eefc59005f8785b8858b86f64e523"
+  checksum: 2fee20649a4965c7db91f7b897ea401d3a932f8022bceab69766b2eaea7bdbb48db313d0d60922c7b26e834fbfcf072917aae24b933394002610f5dadac795b3
+  languageName: node
+  linkType: hard
+
 "commerce-frontend-core@workspace:.":
   version: 0.0.0-use.local
   resolution: "commerce-frontend-core@workspace:."
   dependencies:
     "@adobe/gatsby-theme-aio": 4.14.4
+    commerce-admin.en: "https://github.com/AdobeDocs/commerce-admin.en#ds_remote-md"
     gatsby: 4.22.0
     react: ^17.0.2
     react-dom: ^17.0.2
