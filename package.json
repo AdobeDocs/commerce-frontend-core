@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@adobe/gatsby-theme-aio": "4.14.4",
-    "commerce-admin.en": "https://github.com/AdobeDocs/commerce-admin.en#ds_remote-md",
+    "commerce-admin.en": "https://github.com/AdobeDocs/commerce-admin.en.git#commit=f68c365f7f3b13a8c5f04be17cd8b2537d1eeefe",
     "gatsby": "4.22.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
