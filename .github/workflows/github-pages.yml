@@ -18,6 +18,11 @@ jobs:
       - name: Enable Corepack for Yarn
         run: corepack enable
 
+      - name: Install Yarn v3
+        uses: borales/actions-yarn@v3
+        with:
+          cmd: set version stable
+
       - name: Install Dependencies
         run: yarn install
         env:
