@@ -18,9 +18,6 @@ jobs:
       - name: Enable Corepack for Yarn
         run: corepack enable
 
-      - name: Install Yarn v3
-        run: yarn set version ./.yarn/releases/yarn-3.2.4.cjs
-
       - name: Install Dependencies
         run: yarn install
         env:
