@@ -5,8 +5,10 @@ keywords:
   - Page Builder
 ---
 
+import ReleaseNotes from 'commerce-admin.en/help/page-builder/release-notes.md'
+
 # Release notes for Page Builder
 
 The Release notes for Page Builder are hosted on Adobe Experience League as part of the Page Builder User Guide. Follow the link below to open the Page Builder release notes in a new window:
 
-### [Release notes for Page Builder](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/release-notes.html)
+<ReleaseNotes />
