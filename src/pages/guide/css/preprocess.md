@@ -263,6 +263,51 @@ In the processed file, this results in the following:
  // Theme widgets
 ```
 
+## Deploy styles for enabled modules only
+
+<InlineAlert variant="info" slots="text"/>
+
+This feature is available in 2.4.8-beta only.
+
+By default, the core code base imports all CSS from all modules, regardless of whether modules are enabled or disabled. This can lead to unnecessarily large CSS files, which can delay browser parsing, especially for stores with many modules and custom styles. To reduce the size of the CSS output and improve browser performance, you can use the `static_content_only_enabled_modules` flag.
+
+
+1. Add the following line to the top of the array in your `app/etc/env.php` or `app/etc/config.php` file:
+
+   ```php
+   return [
+   'static_content_only_enabled_modules' => true,
+   //...other lines
+   ]
+   ```
+
+With true value meaning magento will deploy static content styles from enabled module to final css files (styles-l.css, styles-m.css). If set value to false magento will deploy all styles no matter modules enabled or disabled!
+
+
+2. After modify php file. Make sure re-run setup upgrade for update config flag 
+
+
+sync-up config
+
+   ```bash
+   bin/magento app:config:import
+   ```
+
+and run setup command
+
+   ```bash
+   bin/magento setup:upgrade
+   ```
+
+3. Re-run static content deployment (if necessary):
+
+   ```bash
+   bin/magento setup:static-content:deploy en_US --area frontend
+   ```
+
+Replace `en_US` with the appropriate locale code if your store uses a different language.
+
+
 <!-- Link definitions -->
 [production application mode]:https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#production-mode
 [LESS PHP library]: https://github.com/wikimedia/less.php
