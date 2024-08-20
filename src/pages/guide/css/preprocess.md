@@ -271,7 +271,6 @@ This feature is available in 2.4.8-beta only.
 
 By default, the core code base imports all CSS from all modules, regardless of whether modules are enabled or disabled. This can lead to unnecessarily large CSS files, which can delay browser parsing, especially for stores with many modules and custom styles. To reduce the size of the CSS output and improve browser performance, you can use the `static_content_only_enabled_modules` flag.
 
-
 1. Add the following line to the top of the array in your `app/etc/env.php` or `app/etc/config.php` file:
 
    ```php
@@ -281,25 +280,20 @@ By default, the core code base imports all CSS from all modules, regardless of w
    ]
    ```
 
-With true value meaning magento will deploy static content styles from enabled module to final css files (styles-l.css, styles-m.css). If set value to false magento will deploy all styles no matter modules enabled or disabled!
+   - Set the value to `true` to deploy styles from enabled modules only to the final CSS files (`styles-l.css`, `styles-m.css`).
+   - Set the value to `false` to deploy all styles, regardless of module status.
 
-
-2. After modify php file. Make sure re-run setup upgrade for update config flag 
-
-
-sync-up config
+1. Update your configuration:
 
    ```bash
    bin/magento app:config:import
    ```
 
-and run setup command
-
    ```bash
    bin/magento setup:upgrade
    ```
 
-3. Re-run static content deployment (if necessary):
+1. Re-run static content deployment (if necessary):
 
    ```bash
    bin/magento setup:static-content:deploy en_US --area frontend
