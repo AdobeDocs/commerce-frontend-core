@@ -263,21 +263,23 @@ In the processed file, this results in the following:
  // Theme widgets
 ```
 
-## Trigger flag deploy styles for only enabled modules
+## Deploy styles for enabled modules only
 
-Default all css by default will build to final css no matter modules enabled or disabled. With this flag explain below allow developers able to control how we want css generate
+<InlineAlert variant="info" slots="text"/>
+
+This feature is available in 2.4.8-beta only.
+
+By default, the core code base imports all CSS from all modules, regardless of whether modules are enabled or disabled. This can lead to unnecessarily large CSS files, which can delay browser parsing, especially for stores with many modules and custom styles. To reduce the size of the CSS output and improve browser performance, you can use the `static_content_only_enabled_modules` flag.
 
 
-### Changing flag trigger deploy static contents
+1. Add the following line to the top of the array in your `app/etc/env.php` or `app/etc/config.php` file:
 
-1. Add inside to app/etc/env.php or app/etc/config.php. Add following line to the top array
-
-```php
-return [
-'static_content_only_enabled_modules' => true,
-//...other lines
-]
-```
+   ```php
+   return [
+   'static_content_only_enabled_modules' => true,
+   //...other lines
+   ]
+   ```
 
 With true value meaning magento will deploy static content styles from enabled module to final css files (styles-l.css, styles-m.css). If set value to false magento will deploy all styles no matter modules enabled or disabled!
 
@@ -287,23 +289,23 @@ With true value meaning magento will deploy static content styles from enabled m
 
 sync-up config
 
-```bash
-php bin/magento app:config:import
-```
+   ```bash
+   bin/magento app:config:import
+   ```
 
 and run setup command
 
-```bash
-php bin/magento setup:upgrade
-```
+   ```bash
+   bin/magento setup:upgrade
+   ```
 
-Now re-run deploy static content if need
+3. Re-run static content deployment (if necessary):
 
-```bash
-php bin/magento setup:static-content:deploy en_US --area frontend
-```
+   ```bash
+   bin/magento setup:static-content:deploy en_US --area frontend
+   ```
 
-Ensure you replace `en_US` with the appropriate locale code if your store uses a different language
+Replace `en_US` with the appropriate locale code if your store uses a different language.
 
 
 <!-- Link definitions -->
