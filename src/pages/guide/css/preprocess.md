@@ -299,8 +299,7 @@ By default, the core code base imports all CSS from all modules, regardless of w
    bin/magento setup:static-content:deploy en_US --area frontend
    ```
 
-Replace `en_US` with the appropriate locale code if your store uses a different language.
-
+   Replace `en_US` with the appropriate locale code if your store uses a different language.
 
 <!-- Link definitions -->
 [production application mode]:https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#production-mode
