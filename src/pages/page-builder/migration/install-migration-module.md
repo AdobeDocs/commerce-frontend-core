@@ -25,7 +25,7 @@ Before installing the migration module, you need to prepare the environment you 
 
 -  Upgrade to Commerce 2.3.1 (which includes Page Builder).
 
-  Please see our [Command-line upgrade](https://devdocs.magento.com/guides/v2.3/comp-mgr/cli/cli-upgrade.html) instructions on how to complete this.
+  Please see our [Command-line upgrade](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade) instructions on how to complete this.
   Page Builder itself does not convert any of your content. We preserve your existing BlueFoot content when we install Page Builder.
 
 ## Composer installation

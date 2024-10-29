@@ -289,7 +289,7 @@ The `<settings>` element defines the data scope, data type, and label to use for
 
 ## Quote form layout
 
-The layout for our Quote form is shown in full here for you to copy into your `pagebuilder_example_form.xml` layout file. For more information about layouts, see [Layout instructions](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/layouts/xml-instructions.html).
+The layout for our Quote form is shown in full here for you to copy into your `pagebuilder_example_form.xml` layout file. For more information about layouts, see [Layout instructions](/guide/layouts/xml-instructions/).
 
 ```xml
 <?xml version="1.0"?>
