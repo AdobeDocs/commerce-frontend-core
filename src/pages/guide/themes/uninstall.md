@@ -15,7 +15,7 @@ This topic describes how to uninstall a storefront theme.
 The way a theme should be uninstalled is defined by two factors:
 
 *  The way the theme was added: manually added (installed or created), installed as composer package or as an extension.
-*  The way the application was installed: [using the source files from GitHub](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-sample-data-clone.html) or [using Composer](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-sample-data-composer.html).
+*  The way the application was installed: [using the source files from GitHub](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/next-steps/sample-data/git-repositories) or [using Composer](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/next-steps/sample-data/composer-packages).
 
 The following sections describe the flow for uninstalling themes in each case.
 
@@ -51,7 +51,7 @@ The flow for uninstalling a theme that is Composer package is different, dependi
 
 ### Composer-based installations
 
-If both the theme and the instance were installed using Composer, you can use a special CLI command. Follow the instructions from the [Uninstall themes Composer package](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-theme-uninstall.html) topic.
+If both the theme and the instance were installed using Composer, you can use a special CLI command. Follow the instructions from the [Uninstall themes Composer package](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/themes) topic.
 
 ### Git-based installations
 
@@ -75,7 +75,7 @@ Take the following steps:
    composer update
    ```
 
-1. Use the `magento theme:uninstall` CLI command as described in the [Uninstall themes Composer package](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-theme-uninstall.html) topic.
+1. Use the `magento theme:uninstall` CLI command as described in the [Uninstall themes Composer package](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/themes) topic.
 
 <InlineAlert variant="info" slots="text"/>
 
