@@ -113,7 +113,7 @@ You can generate a translation dictionary to use by itself (for example, to tran
 
 <InlineAlert variant="success" slots="text"/>
 
-Existing language packages can be installed using [Composer](https://devdocs.magento.com/cloud/howtos/install-components.html) like any other extension. You can search for package names on Packagist.
+Existing language packages can be installed using [Composer](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions) like any other extension. You can search for package names on Packagist.
 
 The application enables you to create the following types of language packages:
 

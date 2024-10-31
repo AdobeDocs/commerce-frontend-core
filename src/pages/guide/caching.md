@@ -113,9 +113,9 @@ You can clean generated static view files in any of the following ways:
 
 -  Several commands support an optional parameter `--clear-static-content`, which cleans generated static view files:
 
-   -  [`magento module:enable` and `magento module:disable`](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-enable.html)
-   -  [`magento theme:uninstall`](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-theme-uninstall.html)
-   -  [`magento module:uninstall`](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-uninstall-mods.html)
+   -  [`magento module:enable` and `magento module:disable`](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/manage-modules)
+   -  [`magento theme:uninstall`](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/themes)
+   -  [`magento module:uninstall`](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/uninstall-modules)
 
 ## Clean static files
 

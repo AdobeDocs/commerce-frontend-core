@@ -178,7 +178,7 @@ The significant parts of a content type renderer are as follows:
 
 #### Constructor dependency injection
 
-First, we use [dependency injection](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/depend-inj.html) to include our dependencies. These are all aspects of Data Migration that aid in retrieving and formatting data along with rendering DOM elements. We go into these in more detail below.
+First, we use [dependency injection](https://developer.adobe.com/commerce/php/development/components/dependency-injection/) to include our dependencies. These are all aspects of Data Migration that aid in retrieving and formatting data along with rendering DOM elements. We go into these in more detail below.
 
 ```php
     public function __construct(
@@ -286,7 +286,7 @@ Some content types do not persist content to the database, such as the row and c
 
 In this example, the EAV loader for Heading is assigned the `title` and `heading_type` attributes, this ensures the EAV attribute loader will retrieve these values within your renderer. Failing to include an attribute here will result in that attribute not being loaded.
 
-We then use [dependency injection](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/depend-inj.html) to inject our virtual configurable EAV loader into the Heading renderer.
+We then use [dependency injection](https://developer.adobe.com/commerce/php/development/components/dependency-injection/) to inject our virtual configurable EAV loader into the Heading renderer.
 
 **Example `di.xml` entry for Heading renderer:**
 
