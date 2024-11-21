@@ -54,7 +54,6 @@ Object content types, `xsi:type="object"`, must implement `ProviderInterface` in
 <?php
 /**
  * Copyright &copy; Adobe, Inc. All rights reserved.
- * See COPYING.txt for license details.
  */
 
 declare(strict_types=1);

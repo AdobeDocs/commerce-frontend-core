@@ -109,8 +109,8 @@ init: function (ed) {
 
 ``` js
 /**
- * Copyright © Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
+ * Copyright Adobe
+ * All Rights Reserved.
  */
 
 /* global CKEDITOR, MagentovariablePlugin, varienGlobalEvents, Base64 */
@@ -234,8 +234,8 @@ init: function (ed, url) {
 
 ``` js
 /**
- * Copyright © Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
+ * Copyright Adobe
+ * All Rights Reserved.
  */
 
 /* global CKEDITOR, MagentovariablePlugin, varienGlobalEvents, Base64 */
