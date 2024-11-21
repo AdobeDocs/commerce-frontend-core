@@ -49,8 +49,8 @@ The option `class` implements `\Magento\Ui\Model\UrlInput\ConfigInterface` and p
 ```php
 <?php
 /**
- * Copyright © Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
+ * Copyright Adobe
+ * All Rights Reserved.
  */
 
 declare(strict_types=1);

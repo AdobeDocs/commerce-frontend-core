@@ -41,7 +41,6 @@ Our converter class for fixing a row padding problem might be called `FixFullWid
 <?php
 /**
  * Copyright &copy; Adobe, Inc. All rights reserved.
- * See COPYING.txt for license details.
  */
 
 declare(strict_types=1);
@@ -108,7 +107,6 @@ For our Data Patch, we'll create a class called `UpgradeFullWidthPadding`, which
 <?php
 /**
  * Copyright &copy; Adobe, Inc. All rights reserved.
- * See COPYING.txt for license details.
  */
 namespace Magento\PageBuilder\Setup\Patch\Data;
 
