@@ -19,12 +19,12 @@ In the Blank and Luma themes, a "mobile first" approach is used. The order is:
 -  Tablet
 -  Desktop
 
-This means that the styles for mobile devices (screen width is 768px and less) are extended by the styles for the higher breakpoints. As the result, the extra styles are never loaded when a store is viewed on a mobile device.
+This means that the styles for mobile devices (screen width is 767px and less) are extended by the styles for the higher breakpoints. As the result, the extra styles are never loaded when a store is viewed on a mobile device.
 
 The mobile and desktop styles are defined in separate files:
 
--  [styles-l.less] is used to generate desktop-specific styles (width higher than 768px).
--  [styles-m.less] is used to generate basic and mobile-specific styles (width of 768px and less).
+-  [styles-l.less] is used to generate desktop-specific styles (width higher than 767px).
+-  [styles-m.less] is used to generate basic and mobile-specific styles (width of 767px and less).
 
 ## Breakpoints
 
@@ -35,7 +35,7 @@ The Blank and Luma themes use Less variables to implement the following [breakpo
 -  `@screen__xxs`: 320px
 -  `@screen__xs`: 480px
 -  `@screen__s`: 640px
--  `@screen__m`: 768px (in the Blank and Luma themes, when the viewport width is more than 768px, this breakpoint switches to the desktop view)
+-  `@screen__m`: 767px (in the Blank and Luma themes, when the viewport width is more than 767px, this breakpoint switches to the desktop view)
 -  `@screen__l`: 1024px
 -  `@screen__xl`: 1440px
 
@@ -102,8 +102,8 @@ For grouping style rules in certain media queries the `.media-width()` mixin use
 
 // This will add styles for tablet devices. When using native media-queries, we recommend wrapping your media-queries with media-width mixins or media-target
 & when (@media-target = 'desktop'), (@media-target = 'all') {
-    @media only screen and (min-width: @screen__m + 1) and (max-width: (@screen__xl - 1)) {
-        // styles for breakpoint > 768px and < 1440px
+    @media only screen and (min-width: @screen__m) and (max-width: (@screen__xl - 1)) {
+        // styles for breakpoint >= 768px and < 1440px
     }
 }
 
