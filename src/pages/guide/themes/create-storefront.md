@@ -132,7 +132,7 @@ To register your theme in the system, add a `registration.php` file in your them
 ```php
 <?php
 /**
- * Copyright Adobe
+ * Copyright [first year code created] Adobe
  * All rights reserved.
  */
 

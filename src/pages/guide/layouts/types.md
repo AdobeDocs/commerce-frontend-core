@@ -102,7 +102,7 @@ Override the default `wishlist_index_share.xml` in any one of the following path
 <?xml version="1.0"?>
 <!--
 /**
- * Copyright Adobe
+ * Copyright [first year code created] Adobe
  * All rights reserved.
  */
 -->

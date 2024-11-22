@@ -47,7 +47,7 @@ The top node can have nested nodes. Every nested node is regarded as a separate 
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 /**
- * Copyright Adobe
+ * Copyright [first year code created] Adobe
  * All rights reserved.
  */
 -->

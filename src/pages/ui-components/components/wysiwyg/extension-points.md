@@ -109,7 +109,7 @@ init: function (ed) {
 
 ``` js
 /**
- * Copyright Adobe
+ * Copyright [first year code created] Adobe
  * All Rights Reserved.
  */
 
@@ -234,7 +234,7 @@ init: function (ed, url) {
 
 ``` js
 /**
- * Copyright Adobe
+ * Copyright [first year code created] Adobe
  * All Rights Reserved.
  */
 

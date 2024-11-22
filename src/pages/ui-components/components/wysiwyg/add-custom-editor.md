@@ -95,7 +95,7 @@ If you are integrating entities such as variable and widget as plugins, your ada
 
 ``` js
 /**
- * Copyright Adobe
+ * Copyright [first year code created] Adobe
  * All Rights Reserved.
  */
 
