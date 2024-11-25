@@ -55,7 +55,7 @@ In this file, add the following code, having replaced placeholders with your the
 ```php
 <?php
 /**
- * Copyright Adobe
+ * Copyright [first year code created] Adobe
  * All rights reserved.
  */
 use \Magento\Framework\Component\ComponentRegistrar;

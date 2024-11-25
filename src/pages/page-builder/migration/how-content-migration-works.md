@@ -83,7 +83,7 @@ To learn more about renderers, let's look at the Heading renderer code, then dis
 
 ```php
 /**
- * Copyright &copy; Adobe, Inc. All rights reserved.
+ * Copyright [first year code created] Adobe. All rights reserved.
  */
 declare(strict_types=1);
 

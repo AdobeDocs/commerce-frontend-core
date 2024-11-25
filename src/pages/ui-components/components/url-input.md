@@ -49,7 +49,7 @@ The option `class` implements `\Magento\Ui\Model\UrlInput\ConfigInterface` and p
 ```php
 <?php
 /**
- * Copyright Adobe
+ * Copyright [first year code created] Adobe
  * All Rights Reserved.
  */
 

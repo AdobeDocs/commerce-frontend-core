@@ -89,7 +89,7 @@ First, create a layout file in the `ModuleName\view\adminhtml\layout` directory 
 <?xml version="1.0"?>
 <!--
 /**
- * Copyright Adobe
+ * Copyright [first year code created] Adobe
  * All Rights Reserved.
  */
 -->
@@ -110,7 +110,7 @@ Next, create a custom form in the `ModuleName\view\adminhtml\ui_component` direc
 <?xml version="1.0"?>
 <!--
 /**
- * Copyright Adobe
+ * Copyright [first year code created] Adobe
  * All Rights Reserved.
  */
 -->
@@ -168,7 +168,7 @@ To use PHP modifiers, your data provider must inherit from `ModifierPoolDataProv
 ```php
 <?php
 /**
- * Copyright Adobe
+ * Copyright [first year code created] Adobe
  * All Rights Reserved.
  */
 namespace Magento\Ui\DataProvider;
@@ -245,7 +245,7 @@ Your form must then use a data provider that inherits from `ModifierPoolDataProv
 ```php
 <?php
 /**
- * Copyright Adobe
+ * Copyright [first year code created] Adobe
  * All Rights Reserved.
  */
 namespace Test\Module\Model;
@@ -282,7 +282,7 @@ The following example shows how to change the default WYSIWYG editor toolbar and
 ```php
 <?php
 /**
- * Copyright Adobe
+ * Copyright [first year code created] Adobe
  * All Rights Reserved.
  */
 namespace Test\Module\Ui\DataProvider\Custom\Modifier;
@@ -334,7 +334,7 @@ Here's an example that connects the data provider and modifier created in the pr
 <?xml version="1.0"?>
 <!--
 /**
- * Copyright Adobe
+ * Copyright [first year code created] Adobe
  * All Rights Reserved.
  */
 -->
