@@ -132,8 +132,8 @@ To register your theme in the system, add a `registration.php` file in your them
 ```php
 <?php
 /**
- * Copyright &copy; Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
+ * Copyright [first year code created] Adobe
+ * All rights reserved.
  */
 
 use \Magento\Framework\Component\ComponentRegistrar;
