@@ -69,7 +69,9 @@ When extending the TinyMCE editor it is necessary to add the PageBuilder module 
 To customize the TinyMCE editor present in Page Builder, revise the `di.xml` file, adding the configuration settings as an argument to `Magento\PageBuilder\Model\Wysiwyg\DefaultConfigProvider`.
 The following code is an example of the configuration settings in the `di.xml` file that determine the font sizes available for selection. It also adds a paragraph menu option associated with the <p> tag, along with a heading option for the <h1> tag.
 
-Note: Ensure numeric keys (0, 1, etc.) are used incrementally in the style_formats array instead of named keys like "paragraph" to maintain compatibility with the configuration:
+<InlineAlert variant="info" slots="text"/>
+
+Ensure that numeric keys (0, 1, etc.) are used incrementally in the `style_formats` array instead of named keys like "paragraph" to maintain compatibility with the configuration.
 
 ```xml
 <type name="Magento\PageBuilder\Model\Wysiwyg\DefaultConfigProvider">
