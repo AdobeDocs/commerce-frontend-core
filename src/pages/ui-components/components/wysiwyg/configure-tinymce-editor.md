@@ -67,7 +67,11 @@ When extending the TinyMCE editor it is necessary to add the PageBuilder module 
 ```
 
 To customize the TinyMCE editor present in Page Builder, revise the `di.xml` file, adding the configuration settings as an argument to `Magento\PageBuilder\Model\Wysiwyg\DefaultConfigProvider`.
-The following code is an example of the configuration settings in the `di.xml` file that determine the font sizes available for selection. Then, it adds a paragraph menu option associated with the `<p>` tag:
+The following code is an example of the configuration settings in the `di.xml` file that determine the font sizes available for selection. It also adds a paragraph menu option associated with the `<p>` tag, along with a heading option for the `<h1>` tag.
+
+<InlineAlert variant="info" slots="text"/>
+
+Ensure that numeric keys (0, 1, etc.) are used incrementally in the `style_formats` array instead of named keys like "paragraph" to maintain compatibility with the configuration.
 
 ```xml
 <type name="Magento\PageBuilder\Model\Wysiwyg\DefaultConfigProvider">
@@ -75,9 +79,13 @@ The following code is an example of the configuration settings in the `di.xml` f
         <argument name="additionalSettings" xsi:type="array">
             <item name="fontsize_formats" xsi:type="string">10px 12px 14px 16px 18px 20px 24px 26px 28px 32px 34px 36px 38px 40px 42px 48px 52px 56px 64px 72px</item>
             <item name="style_formats" xsi:type="array">
-                <item name="paragraph" xsi:type="array">
+                <item name="0" xsi:type="array">
                     <item name="title" xsi:type="string">Paragraph</item>
                     <item name="block" xsi:type="string">p</item>
+                </item>
+                <item name="1" xsi:type="array">
+                    <item name="title" xsi:type="string">Heading 1</item>
+                    <item name="block" xsi:type="string">h1</item>
                 </item>
             </item>
       </argument>
