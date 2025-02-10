@@ -1,27 +1,20 @@
 ---
 name: Github Pages
 on: workflow_dispatch
+permissions: {}
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node v16
-        uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+      - name: Use Setup Node and Install Dependencies Action
+        uses: commerce-docs/devsite-install-action@main
         with:
           node-version-file: '.nvmrc'
-          cache: 'yarn'
           cache-dependency-path: 'yarn.lock'
-
-      - name: Enable Corepack for Yarn
-        run: corepack enable
-
-      - name: Install Dependencies
-        run: yarn install
-        env:
-          YARN_ENABLE_IMMUTABLE_INSTALLS: false
 
       - name: Build site
         run: yarn build
@@ -39,7 +32,6 @@ jobs:
           GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
           GOOGLE_DOCS_TOKEN: ${{ secrets.GOOGLE_DOCS_TOKEN }}
           GOOGLE_DOCS_FOLDER_ID: ${{ secrets.GOOGLE_DOCS_FOLDER_ID }}
-
       - name: Deploy to GH Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
@@ -47,7 +39,6 @@ jobs:
           branch: gh-pages # The branch the action should deploy to.
           folder: public # The folder the action should deploy.
           clean: true # Automatically remove deleted files from deploy branch
-
       - name: GH Pages URL
         id: gh-pages-url
         run: |

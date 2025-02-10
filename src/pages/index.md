@@ -23,7 +23,7 @@ Learn how to develop web-based storefronts for Adobe Commerce and Magento Open S
 *  [Community Slack workspace](https://opensource.magento.com/slack)
 *  [Contributor statistics](https://developer.adobe.com/open/magento/statistic)
 *  [PWA Studio](https://developer.adobe.com/open/magento)
-*  [Page Builder](https://devdocs.magento.com/page-builder/docs/index.html)
+*  [Page Builder](page-builder/)
 
 ## Overview
 
