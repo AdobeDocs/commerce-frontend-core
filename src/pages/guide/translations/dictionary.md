@@ -20,7 +20,7 @@ When the locale is changed for a store, the application searches and applies tra
 1. Theme translations:
    1. `<parent_theme_dir>/i18n/` (iterated through all ancestor themes)
    1. `<current_theme_dir>/i18n/`
-1. The database (translations located in this database take precedence and override translations stored in other locations.)  Refer to the [user guide](https://docs.magento.com/m2/ce/user_guide/system/translate-inline.html) for more information.
+1. The database (translations located in this database take precedence and override translations stored in other locations.)  Refer to the [user guide](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/developer-tools#translate-inline) for more information.
 
 <InlineAlert variant="info" slots="text"/>
 
