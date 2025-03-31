@@ -267,7 +267,7 @@ In the processed file, this results in the following:
 
 <InlineAlert variant="info" slots="text"/>
 
-This feature is available in 2.4.8-beta only.
+This feature was introduced in 2.4.8.
 
 By default, the core code base imports all CSS from all modules, regardless of whether modules are enabled or disabled. This can lead to unnecessarily large CSS files, which can delay browser parsing, especially for stores with many modules and custom styles. To reduce the size of the CSS output and improve browser performance, you can use the `static_content_only_enabled_modules` flag.
 
