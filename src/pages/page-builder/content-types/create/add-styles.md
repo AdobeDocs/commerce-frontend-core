@@ -3,6 +3,7 @@ title: Add styles
 description: Create CSS styles to define the base appearance.
 keywords:
   - Page Builder
+edition: paas
 ---
 
 # Add styles
