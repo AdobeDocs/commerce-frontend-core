@@ -3,7 +3,7 @@ title: Extend another appearance
 description: Extend the appearance for more styling options.
 keywords:
   - Page Builder
-edition: pass
+edition: paas
 ---
 
 # Extend another appearance

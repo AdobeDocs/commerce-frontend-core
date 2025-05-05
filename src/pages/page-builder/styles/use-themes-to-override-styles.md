@@ -3,7 +3,7 @@ title: Use Themes to override styles
 description: Override Page Builder's default styles for native content tusing the Admin and frontend themes.
 keywords:
   - Page Builder
-edition: pass
+edition: paas
 ---
 
 # Use Themes to override styles

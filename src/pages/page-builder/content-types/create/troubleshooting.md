@@ -3,7 +3,7 @@ title: Troubleshooting
 description: Troubleshoot adding content types.
 keywords:
   - Page Builder
-edition: pass
+edition: paas
 ---
 
 # Troubleshooting

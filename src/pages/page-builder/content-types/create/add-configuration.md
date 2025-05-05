@@ -3,7 +3,7 @@ title: Add configuration
 description: Use the configuration file to define settings and references to your content type files.
 keywords:
   - Page Builder
-edition: pass
+edition: paas
 ---
 
 # Add configuration

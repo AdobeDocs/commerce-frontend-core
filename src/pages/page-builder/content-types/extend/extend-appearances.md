@@ -3,7 +3,7 @@ title: Extend an appearance
 description: Add a new user-defined property to an existing content type. 
 keywords:
   - Page Builder
-edition: pass
+edition: paas
 ---
 
 # Extend an appearance

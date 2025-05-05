@@ -3,7 +3,7 @@ title: Install the migration module
 description: Install the migration module composer package.
 keywords:
   - Page Builder
-edition: pass
+edition: paas
 ---
 
 # Install the migration module

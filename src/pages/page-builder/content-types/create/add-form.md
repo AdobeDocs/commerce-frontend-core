@@ -3,7 +3,7 @@ title: Add form
 description: Create a UI component form, so users can enter text.
 keywords:
   - Page Builder
-edition: pass
+edition: paas
 ---
 
 # Add form

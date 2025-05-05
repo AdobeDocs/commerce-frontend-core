@@ -3,7 +3,7 @@ title: Use breakpoints for widgets
 description: Using breakpoints with custom data to control the responsive behavior of content types from widgets.
 keywords:
   - Page Builder
-edition: pass
+edition: paas
 ---
 
 # Use breakpoints for widgets

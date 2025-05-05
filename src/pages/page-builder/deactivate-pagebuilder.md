@@ -3,7 +3,7 @@ title: Deactivate Page Builder
 description: Deactivate the Page Builder editor through the Admin UI.
 keywords:
   - Page Builder
-edition: pass
+edition: paas
 ---
 
 # Deactivate Page Builder

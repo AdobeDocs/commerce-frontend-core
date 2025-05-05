@@ -3,7 +3,7 @@ title: Content type configurations
 description: Define content types to Page Builder.
 keywords:
   - Page Builder
-edition: pass
+edition: paas
 ---
 
 # Content type configurations

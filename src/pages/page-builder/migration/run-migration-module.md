@@ -3,7 +3,7 @@ title: Run the migration module
 description: Run and debug the migration module.
 keywords:
   - Page Builder
-edition: pass
+edition: paas
 ---
 
 # Run the migration module

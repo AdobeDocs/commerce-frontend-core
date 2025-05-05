@@ -3,7 +3,7 @@ title: Configure the panel
 description: Configure the layout and content types for a panel.
 keywords:
   - Page Builder
-edition: pass
+edition: paas
 ---
 
 # Configure the panel

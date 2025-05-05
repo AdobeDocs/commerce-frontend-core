@@ -3,7 +3,7 @@ title: Introduction to creating content types
 description: Add new content types.
 keywords:
   - Page Builder
-edition: pass
+edition: paas
 ---
 
 # Introduction to creating content types

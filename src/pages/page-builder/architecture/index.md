@@ -3,7 +3,7 @@ title: Page Builder Architecture
 description: Describes the architecture of Page Builder
 keywords:
   - Page Builder
-edition: pass
+edition: paas
 ---
 
 # Page Builder Architecture

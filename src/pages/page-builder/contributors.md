@@ -4,7 +4,7 @@ description: Install Page Builder and its dependencies as a contributor.
 keywords:
   - Install
   - Page Builder
-edition: pass
+edition: paas
 ---
 
 # Install Page Builder

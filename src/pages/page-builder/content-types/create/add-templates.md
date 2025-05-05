@@ -3,7 +3,7 @@ title: Add templates
 description: Add content type templates to define how your content type appears on both the Admin stage and within your storefront.
 keywords:
   - Page Builder
-edition: pass
+edition: paas
 ---
 
 # Add templates
