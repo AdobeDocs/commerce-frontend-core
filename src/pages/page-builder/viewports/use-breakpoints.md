@@ -3,7 +3,6 @@ title: Use breakpoints for widgets
 description: Using breakpoints with custom data to control the responsive behavior of content types from widgets.
 keywords:
   - Page Builder
-edition: paas
 ---
 
 # Use breakpoints for widgets
@@ -85,4 +84,29 @@ define([
 
 For the Admin stage, use the [stage:viewportChangeAfter](../architecture/events.md#stageviewportchangeafter) event to control responsive changes to your content type from within your `widget`.
 
-As mentioned for the Products `
+As mentioned for the Products `widget`, your `widget` should handle this event for cases where your content type is contained within a Block or Dynamic Block. In these cases, your content type's `widget` is loaded in the Admin, not your `preview` component.
+
+The Products content type implements the following event handler in its `widget.js`:
+
+```terminal
+Magento/PageBuilder/view/base/web/js/content-type/products/appearance/carousel/widget.js
+```
+
+```typescript
+events.on('stage:viewportChangeAfter', function (args) {
+    var breakpoint = config.breakpoints[args.viewport];
+    initSlider($element, slickConfig, breakpoint);
+});
+```
+
+In both handlers, the event handler uses the breakpoint/viewport name to access the `slidesToShow` value, then uses that value to re-initialize the `Products` carousel (the [slick slider](https://kenwheeler.github.io/slick/)) to show a suitable number of products for the selected viewport width, when displayed on the stage.
+
+Notice how the viewport data in both event handlers is accessed using dot syntax according to the hierarchy defined in the `view.xml` configuration file. For example, the `preview.ts` file, data for the local `this.slidesToShow` property is accessed using the viewport name from `args`, as shown here:
+
+```javascript
+this.slidesToShow = parseFloat(viewports[args.viewport].options.products.default.slidesToShow);
+```
+
+## Summary
+
+In Page Builder, breakpoints provide your content type widgets with the custom, breakpoint-specific data they need to control responsive behavior that cannot otherwise be controlled from media queries alone.
