@@ -3,6 +3,7 @@ title: How Page Builder styles content
 description: Apply CSS styles to both native and custom content types by generating attribute-based CSS rulesets that are unique to each content type on a page.
 keywords:
   - Page Builder
+edition: pass
 ---
 
 # How Page Builder styles content

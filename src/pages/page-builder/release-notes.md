@@ -3,6 +3,7 @@ title: Release notes
 description: This page links to the Page Builder release notes on ExL. 
 keywords:
   - Page Builder
+edition: pass
 ---
 
 # Release notes for Page Builder

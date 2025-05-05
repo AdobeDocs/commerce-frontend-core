@@ -3,6 +3,7 @@ title: Upgrade content types
 description: Upgrade content types and convert existing content to map to the new configuration.
 keywords:
   - Page Builder
+edition: pass
 ---
 
 # Upgrade content types
@@ -273,4 +274,4 @@ To use Page Builder's content upgrade helpers for your own content-type configur
 
 If you have overloaded the configurations of native Page Builder content types, you need to review Page Builder's native configuration changes for each release. If necessary, you will need to create a converter and data patch to customize how the native content types are updated for your changes.
 
-For example, in version 1.3, we updated the configuration of the native Row content type. As mentioned, we moved the padding attribute of the `full-width` appearance from the `<main>` element to the `<inner>` element. So if your Row configuration is different in your custom content type (for example, you removed the `<inner>` element), then you will need to upgrade your overloaded Row as described in the previous steps.
+For example, in version 1.3, we updated the configuration of the native Row content type. As mentioned, we moved the padding attribute of the `full-width` appearance from the `<main>` element to the `<inner>` element. So if your Row configuration is different in your custom content type (for example, you removed the `<inner>`

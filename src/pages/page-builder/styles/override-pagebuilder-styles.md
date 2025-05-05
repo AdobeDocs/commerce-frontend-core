@@ -3,6 +3,7 @@ title: Override Page Builder styles
 description: Create a CSS selector to override the internal CSS styles that Page Builder applies to content types.
 keywords:
   - Page Builder
+edition: pass
 ---
 
 # Override Page Builder styles

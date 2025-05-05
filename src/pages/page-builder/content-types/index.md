@@ -3,6 +3,7 @@ title: Content Type Overview
 description: An overview of how to create, extend, and customize content types.
 keywords:
   - Page Builder
+edition: pass
 ---
 
 # Content Type Overview

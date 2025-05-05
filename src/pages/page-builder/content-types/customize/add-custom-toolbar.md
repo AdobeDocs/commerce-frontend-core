@@ -3,6 +3,7 @@ title: Add a custom toolbar
 description: Implement an inline toolbar for your content type.
 keywords:
   - Page Builder
+edition: pass
 ---
 
 # Add a custom toolbar

@@ -3,6 +3,7 @@ title: Add an image uploader
 description: Add the image uploader component to your content type so users can add images from the Admin stage as needed.
 keywords:
   - Page Builder
+edition: pass
 ---
 
 # Add an image uploader

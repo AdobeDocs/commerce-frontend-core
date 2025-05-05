@@ -3,6 +3,7 @@ title: Overview of content migration
 description: Migrate content from BlueFoot blocks to the new Page Builder content types.
 keywords:
   - Page Builder
+edition: pass
 ---
 
 # Overview of content migration

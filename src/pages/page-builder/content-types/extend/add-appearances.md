@@ -3,6 +3,7 @@ title: Add appearances
 description: Add an appearance to Page Builder's native content types.
 keywords:
   - Page Builder
+edition: pass
 ---
 
 # Add appearances

@@ -3,6 +3,7 @@ title: Use HTML Code to override styles
 description: Override fronted theme and module styles with the HTML Code content type.
 keywords:
   - Page Builder
+edition: pass
 ---
 
 # Use HTML Code to override styles

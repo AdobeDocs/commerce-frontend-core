@@ -3,6 +3,7 @@ title: Migrate other BlueFoot content
 description: Migrate content that is not usually migrated from the Commerce database.
 keywords:
   - Page Builder
+edition: pass
 ---
 
 # Migrate other BlueFoot content

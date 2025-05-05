@@ -3,6 +3,7 @@ title: Extend another appearance
 description: Extend the appearance for more styling options.
 keywords:
   - Page Builder
+edition: pass
 ---
 
 # Extend another appearance
