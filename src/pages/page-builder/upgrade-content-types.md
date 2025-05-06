@@ -3,6 +3,7 @@ title: Upgrade content types
 description: Upgrade content types and convert existing content to map to the new configuration.
 keywords:
   - Page Builder
+edition: paas
 ---
 
 # Upgrade content types

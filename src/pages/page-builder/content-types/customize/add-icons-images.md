@@ -3,6 +3,7 @@ title: Add icons and images
 description: Add icons and images to a panel, form or other content.
 keywords:
   - Page Builder
+edition: paas
 ---
 
 # Add icons and images
