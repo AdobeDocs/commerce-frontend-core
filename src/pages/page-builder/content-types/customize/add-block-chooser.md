@@ -3,6 +3,7 @@ title: Add a block chooser
 description: Use the block chooser UI component for a custom content type.
 keywords:
   - Page Builder
+edition: paas
 ---
 
 # Add a block chooser
