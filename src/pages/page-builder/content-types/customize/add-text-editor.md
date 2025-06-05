@@ -22,7 +22,6 @@ To add configuration for the inline text editor:
          <additional_data>
              <item name="wysiwygConfig" xsi:type="array">
                  <item name="wysiwygConfigData" xsi:type="object">Magento\PageBuilder\Model\Config\ContentType\AdditionalData\Provider\Wysiwyg\Config</item>
-                 </item>
              </item>
          </additional_data>
      </type>
