@@ -47,8 +47,8 @@ The top node can have nested nodes. Every nested node is regarded as a separate 
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 /**
- * Copyright &copy; Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
+ * Copyright [first year code created] Adobe
+ * All rights reserved.
  */
 -->
 <form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"

@@ -89,8 +89,8 @@ First, create a layout file in the `ModuleName\view\adminhtml\layout` directory 
 <?xml version="1.0"?>
 <!--
 /**
- * Copyright © Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
+ * Copyright [first year code created] Adobe
+ * All Rights Reserved.
  */
 -->
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
@@ -110,8 +110,8 @@ Next, create a custom form in the `ModuleName\view\adminhtml\ui_component` direc
 <?xml version="1.0"?>
 <!--
 /**
- * Copyright © Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
+ * Copyright [first year code created] Adobe
+ * All Rights Reserved.
  */
 -->
 <form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
@@ -168,8 +168,8 @@ To use PHP modifiers, your data provider must inherit from `ModifierPoolDataProv
 ```php
 <?php
 /**
- * Copyright © Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
+ * Copyright [first year code created] Adobe
+ * All Rights Reserved.
  */
 namespace Magento\Ui\DataProvider;
 
@@ -245,8 +245,8 @@ Your form must then use a data provider that inherits from `ModifierPoolDataProv
 ```php
 <?php
 /**
- * Copyright © Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
+ * Copyright [first year code created] Adobe
+ * All Rights Reserved.
  */
 namespace Test\Module\Model;
 
@@ -282,8 +282,8 @@ The following example shows how to change the default WYSIWYG editor toolbar and
 ```php
 <?php
 /**
- * Copyright © Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
+ * Copyright [first year code created] Adobe
+ * All Rights Reserved.
  */
 namespace Test\Module\Ui\DataProvider\Custom\Modifier;
 
@@ -334,8 +334,8 @@ Here's an example that connects the data provider and modifier created in the pr
 <?xml version="1.0"?>
 <!--
 /**
- * Copyright © Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
+ * Copyright [first year code created] Adobe
+ * All Rights Reserved.
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">

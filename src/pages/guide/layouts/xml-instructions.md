@@ -410,6 +410,10 @@ The argument with *helper* type can contain `param` items which can be passed as
 
 #### Obtain arguments examples in template
 
+import Docs from '/src/_includes/objects-in-templates.md'
+
+<Docs />
+
 These argument examples can be taken in the template by *getData* method. Another way to take these arguments is using the magic method *get* followed by the name of argument in CamelCase format. Here is an example to retrieve the arguments from above example:
 
 ```php

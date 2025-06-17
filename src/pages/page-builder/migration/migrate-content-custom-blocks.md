@@ -3,6 +3,7 @@ title: Migrate content from custom blocks
 description: Migrate content from your custom BlueFoot blocks to Page Builder custom content types.
 keywords:
   - Page Builder
+edition: paas
 ---
 
 # Migrate content from custom blocks
@@ -113,7 +114,7 @@ bin/magento setup:upgrade
 
 ## Step 6: Add a new setup patch
 
-Create a new data patch inline with our [declarative schema documentation](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/declarative-schema/data-patches.html). For this migration, we first declare the following dependencies in the constructor:
+Create a new data patch inline with our [declarative schema documentation](https://developer.adobe.com/commerce/php/development/components/declarative-schema/patches/). For this migration, we first declare the following dependencies in the constructor:
 
 -  `Magento\Framework\EntityManager\MetadataPool`
 

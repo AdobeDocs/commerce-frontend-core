@@ -3,6 +3,7 @@ title: Add components
 description: Add components to customize your content.
 keywords:
   - Page Builder
+edition: paas
 ---
 
 # Add components
