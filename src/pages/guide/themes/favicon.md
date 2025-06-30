@@ -42,7 +42,9 @@ If caching is enabled in your Admin, you get a notification that refreshing cert
 
 ## Add custom favicons manually
 
-To override the default 16px x 16px favicon manually, add your custom `favicon.ico` in the `<your_theme_dir>/Magento_Theme/web/`directory.
+To manually override the default 16x16 pixel favicon:
+- For **Adobe Commerce**, place your custom `favicon.ico` in `<your_theme_dir>/Magento_Enterprise/web/`.
+- For **Magento Open Source**, place the `favicon.ico` in `<your_theme_dir>/Magento_Theme/web/`.
 
 To add favicon icons of other sizes, take the following steps:
 
