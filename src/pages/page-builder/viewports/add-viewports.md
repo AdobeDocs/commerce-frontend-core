@@ -88,7 +88,7 @@ First, delete everything except the `tablet` and `mobile-small` breakpoints. Whe
 
 What's left at this point is the `options` element that provides breakpoint custom data to the Products content type.
 
-Products uses this data in its `widget.js` file to make the [slick carousel](https://kenwheeler.github.io/slick/) responsive. You will use this data in the [Use breakpoints](./use-breakpoints.md) topic. But not here. So delete the breakpoint data. When you finish, your `view.xml` file should look like this:
+Products uses this data in its `widget.js` file to make the [slick carousel](https://kenwheeler.github.io/slick/) responsive. You will use this data in the [Use breakpoints](use-breakpoints.md) topic. But not here. So delete the breakpoint data. When you finish, your `view.xml` file should look like this:
 
 ```xml
 <?xml version="1.0"?>

@@ -1,0 +1,1164 @@
+{
+  "total": 289,
+  "offset": 0,
+  "limit": 289,
+  "data": [
+    {
+      "Source": "/commerce/frontend-core",
+      "Destination": "/commerce/frontend-core/"
+    },
+    {
+      "Source": "/commerce/frontend-core/index",
+      "Destination": "/commerce/frontend-core/"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components",
+      "Destination": "/commerce/frontend-core/ui-components/"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/index",
+      "Destination": "/commerce/frontend-core/ui-components/"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/debug/",
+      "Destination": "/commerce/frontend-core/ui-components/debug"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/howto/update-url-type/",
+      "Destination": "/commerce/frontend-core/ui-components/howto/update-url-type"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/howto/show-hide-password-checkbox/",
+      "Destination": "/commerce/frontend-core/ui-components/howto/show-hide-password-checkbox"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/howto/price-rendering/",
+      "Destination": "/commerce/frontend-core/ui-components/howto/price-rendering"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/howto/new-component-declaration/",
+      "Destination": "/commerce/frontend-core/ui-components/howto/new-component-declaration"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/howto",
+      "Destination": "/commerce/frontend-core/ui-components/howto/"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/howto/index",
+      "Destination": "/commerce/frontend-core/ui-components/howto/"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/howto/add-category-attribute/",
+      "Destination": "/commerce/frontend-core/ui-components/howto/add-category-attribute"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/concepts/xml-declaration/",
+      "Destination": "/commerce/frontend-core/ui-components/concepts/xml-declaration"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/concepts/xml-configuration/",
+      "Destination": "/commerce/frontend-core/ui-components/concepts/xml-configuration"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/concepts/semantic-configuration/",
+      "Destination": "/commerce/frontend-core/ui-components/concepts/semantic-configuration"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/concepts/registry/",
+      "Destination": "/commerce/frontend-core/ui-components/concepts/registry"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/concepts/modifier/",
+      "Destination": "/commerce/frontend-core/ui-components/concepts/modifier"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/concepts/literals/",
+      "Destination": "/commerce/frontend-core/ui-components/concepts/literals"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/concepts/linking/",
+      "Destination": "/commerce/frontend-core/ui-components/concepts/linking"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/concepts/layout/",
+      "Destination": "/commerce/frontend-core/ui-components/concepts/layout"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/concepts/knockout-bindings/",
+      "Destination": "/commerce/frontend-core/ui-components/concepts/knockout-bindings"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/concepts",
+      "Destination": "/commerce/frontend-core/ui-components/concepts/"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/concepts/index",
+      "Destination": "/commerce/frontend-core/ui-components/concepts/"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/concepts/element/",
+      "Destination": "/commerce/frontend-core/ui-components/concepts/element"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/concepts/data-source/",
+      "Destination": "/commerce/frontend-core/ui-components/concepts/data-source"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/concepts/configuration-flow/",
+      "Destination": "/commerce/frontend-core/ui-components/concepts/configuration-flow"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/concepts/collection/",
+      "Destination": "/commerce/frontend-core/ui-components/concepts/collection"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/concepts/class/",
+      "Destination": "/commerce/frontend-core/ui-components/concepts/class"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/concepts/binding-syntax/",
+      "Destination": "/commerce/frontend-core/ui-components/concepts/binding-syntax"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/concepts/basic-attributes/",
+      "Destination": "/commerce/frontend-core/ui-components/concepts/basic-attributes"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/url-input/",
+      "Destination": "/commerce/frontend-core/ui-components/components/url-input"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/tree-mass-actions/",
+      "Destination": "/commerce/frontend-core/ui-components/components/tree-mass-actions"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/toolbar/",
+      "Destination": "/commerce/frontend-core/ui-components/components/toolbar"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/timeline-columns/",
+      "Destination": "/commerce/frontend-core/ui-components/components/timeline-columns"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/thumbnail-column/",
+      "Destination": "/commerce/frontend-core/ui-components/components/thumbnail-column"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/text/",
+      "Destination": "/commerce/frontend-core/ui-components/components/text"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/text-area/",
+      "Destination": "/commerce/frontend-core/ui-components/components/text-area"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/tab/",
+      "Destination": "/commerce/frontend-core/ui-components/components/tab"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/sortby/",
+      "Destination": "/commerce/frontend-core/ui-components/components/sortby"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/sizes/",
+      "Destination": "/commerce/frontend-core/ui-components/components/sizes"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/select/",
+      "Destination": "/commerce/frontend-core/ui-components/components/select"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/select-column/",
+      "Destination": "/commerce/frontend-core/ui-components/components/select-column"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/secondary-ui-select/",
+      "Destination": "/commerce/frontend-core/ui-components/components/secondary-ui-select"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/search/",
+      "Destination": "/commerce/frontend-core/ui-components/components/search"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/range/",
+      "Destination": "/commerce/frontend-core/ui-components/components/range"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/radio-set/",
+      "Destination": "/commerce/frontend-core/ui-components/components/radio-set"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/paging/",
+      "Destination": "/commerce/frontend-core/ui-components/components/paging"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/on-off-column/",
+      "Destination": "/commerce/frontend-core/ui-components/components/on-off-column"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/navigation/",
+      "Destination": "/commerce/frontend-core/ui-components/components/navigation"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/multiselect/",
+      "Destination": "/commerce/frontend-core/ui-components/components/multiselect"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/multiselect-column/",
+      "Destination": "/commerce/frontend-core/ui-components/components/multiselect-column"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/multiline/",
+      "Destination": "/commerce/frontend-core/ui-components/components/multiline"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/modal/",
+      "Destination": "/commerce/frontend-core/ui-components/components/modal"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/mass-actions/",
+      "Destination": "/commerce/frontend-core/ui-components/components/mass-actions"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/masonry/",
+      "Destination": "/commerce/frontend-core/ui-components/components/masonry"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/listing-grid/",
+      "Destination": "/commerce/frontend-core/ui-components/components/listing-grid"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/link-column/",
+      "Destination": "/commerce/frontend-core/ui-components/components/link-column"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/insert-listing/",
+      "Destination": "/commerce/frontend-core/ui-components/components/insert-listing"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/insert-form/",
+      "Destination": "/commerce/frontend-core/ui-components/components/insert-form"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/input/",
+      "Destination": "/commerce/frontend-core/ui-components/components/input"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components",
+      "Destination": "/commerce/frontend-core/ui-components/components/"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/index",
+      "Destination": "/commerce/frontend-core/ui-components/components/"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/image-uploader/",
+      "Destination": "/commerce/frontend-core/ui-components/components/image-uploader"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/image-preview/",
+      "Destination": "/commerce/frontend-core/ui-components/components/image-preview"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/html-content/",
+      "Destination": "/commerce/frontend-core/ui-components/components/html-content"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/hidden/",
+      "Destination": "/commerce/frontend-core/ui-components/components/hidden"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/grid-data-provider/",
+      "Destination": "/commerce/frontend-core/ui-components/components/grid-data-provider"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/form/",
+      "Destination": "/commerce/frontend-core/ui-components/components/form"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/form-data-provider/",
+      "Destination": "/commerce/frontend-core/ui-components/components/form-data-provider"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/filters/",
+      "Destination": "/commerce/frontend-core/ui-components/components/filters"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/filters-chips/",
+      "Destination": "/commerce/frontend-core/ui-components/components/filters-chips"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/file/",
+      "Destination": "/commerce/frontend-core/ui-components/components/file"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/file-uploader/",
+      "Destination": "/commerce/frontend-core/ui-components/components/file-uploader"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/fieldset/",
+      "Destination": "/commerce/frontend-core/ui-components/components/fieldset"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/export-button/",
+      "Destination": "/commerce/frontend-core/ui-components/components/export-button"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/expandable-column/",
+      "Destination": "/commerce/frontend-core/ui-components/components/expandable-column"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/email/",
+      "Destination": "/commerce/frontend-core/ui-components/components/email"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/dynamic-rows/",
+      "Destination": "/commerce/frontend-core/ui-components/components/dynamic-rows"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/dynamic-rows-record/",
+      "Destination": "/commerce/frontend-core/ui-components/components/dynamic-rows-record"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/dynamic-rows-drag-drop/",
+      "Destination": "/commerce/frontend-core/ui-components/components/dynamic-rows-drag-drop"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/drag-and-drop/",
+      "Destination": "/commerce/frontend-core/ui-components/components/drag-and-drop"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/date/",
+      "Destination": "/commerce/frontend-core/ui-components/components/date"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/date-column/",
+      "Destination": "/commerce/frontend-core/ui-components/components/date-column"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/container/",
+      "Destination": "/commerce/frontend-core/ui-components/components/container"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/columns/",
+      "Destination": "/commerce/frontend-core/ui-components/components/columns"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/columns-resize/",
+      "Destination": "/commerce/frontend-core/ui-components/components/columns-resize"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/columns-editor/",
+      "Destination": "/commerce/frontend-core/ui-components/components/columns-editor"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/columns-editor-view/",
+      "Destination": "/commerce/frontend-core/ui-components/components/columns-editor-view"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/columns-editor-record/",
+      "Destination": "/commerce/frontend-core/ui-components/components/columns-editor-record"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/columns-editing-client/",
+      "Destination": "/commerce/frontend-core/ui-components/components/columns-editing-client"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/columns-editing-bulk/",
+      "Destination": "/commerce/frontend-core/ui-components/components/columns-editing-bulk"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/columns-controls/",
+      "Destination": "/commerce/frontend-core/ui-components/components/columns-controls"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/column/",
+      "Destination": "/commerce/frontend-core/ui-components/components/column"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/color-picker/",
+      "Destination": "/commerce/frontend-core/ui-components/components/color-picker"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/checkbox/",
+      "Destination": "/commerce/frontend-core/ui-components/components/checkbox"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/checkbox-toggle-notice/",
+      "Destination": "/commerce/frontend-core/ui-components/components/checkbox-toggle-notice"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/checkbox-set/",
+      "Destination": "/commerce/frontend-core/ui-components/components/checkbox-set"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/button/",
+      "Destination": "/commerce/frontend-core/ui-components/components/button"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/bookmarks/",
+      "Destination": "/commerce/frontend-core/ui-components/components/bookmarks"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/actions-column/",
+      "Destination": "/commerce/frontend-core/ui-components/components/actions-column"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/action-delete/",
+      "Destination": "/commerce/frontend-core/ui-components/components/action-delete"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/wysiwyg",
+      "Destination": "/commerce/frontend-core/ui-components/components/wysiwyg/"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/wysiwyg/index",
+      "Destination": "/commerce/frontend-core/ui-components/components/wysiwyg/"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/wysiwyg/extension-points/",
+      "Destination": "/commerce/frontend-core/ui-components/components/wysiwyg/extension-points"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/wysiwyg/configure-tinymce-editor/",
+      "Destination": "/commerce/frontend-core/ui-components/components/wysiwyg/configure-tinymce-editor"
+    },
+    {
+      "Source": "/commerce/frontend-core/ui-components/components/wysiwyg/add-custom-editor/",
+      "Destination": "/commerce/frontend-core/ui-components/components/wysiwyg/add-custom-editor"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/use-for-product-attributes/",
+      "Destination": "/commerce/frontend-core/page-builder/use-for-product-attributes"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/upgrade-content-types/",
+      "Destination": "/commerce/frontend-core/page-builder/upgrade-content-types"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/release-notes/",
+      "Destination": "/commerce/frontend-core/page-builder/release-notes"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/pagebuilder-examples/",
+      "Destination": "/commerce/frontend-core/page-builder/pagebuilder-examples"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/known-limitations/",
+      "Destination": "/commerce/frontend-core/page-builder/known-limitations"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder",
+      "Destination": "/commerce/frontend-core/page-builder/"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/index",
+      "Destination": "/commerce/frontend-core/page-builder/"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/deactivate-pagebuilder/",
+      "Destination": "/commerce/frontend-core/page-builder/deactivate-pagebuilder"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/contributors/",
+      "Destination": "/commerce/frontend-core/page-builder/contributors"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/viewports/use-breakpoints/",
+      "Destination": "/commerce/frontend-core/page-builder/viewports/use-breakpoints"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/viewports",
+      "Destination": "/commerce/frontend-core/page-builder/viewports/"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/viewports/index",
+      "Destination": "/commerce/frontend-core/page-builder/viewports/"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/viewports/change-breakpoints-viewports/",
+      "Destination": "/commerce/frontend-core/page-builder/viewports/change-breakpoints-viewports"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/viewports/add-viewports/",
+      "Destination": "/commerce/frontend-core/page-builder/viewports/add-viewports"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/viewports/add-breakpoints/",
+      "Destination": "/commerce/frontend-core/page-builder/viewports/add-breakpoints"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/styles/use-themes-to-override-styles/",
+      "Destination": "/commerce/frontend-core/page-builder/styles/use-themes-to-override-styles"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/styles/use-modules-to-override-styles/",
+      "Destination": "/commerce/frontend-core/page-builder/styles/use-modules-to-override-styles"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/styles/use-htmlcode-to-override-styles/",
+      "Destination": "/commerce/frontend-core/page-builder/styles/use-htmlcode-to-override-styles"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/styles/override-pagebuilder-styles/",
+      "Destination": "/commerce/frontend-core/page-builder/styles/override-pagebuilder-styles"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/styles",
+      "Destination": "/commerce/frontend-core/page-builder/styles/"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/styles/index",
+      "Destination": "/commerce/frontend-core/page-builder/styles/"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/migration/run-migration-module/",
+      "Destination": "/commerce/frontend-core/page-builder/migration/run-migration-module"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/migration/migrate-other-bluefoot-content/",
+      "Destination": "/commerce/frontend-core/page-builder/migration/migrate-other-bluefoot-content"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/migration/migrate-content-custom-blocks/",
+      "Destination": "/commerce/frontend-core/page-builder/migration/migrate-content-custom-blocks"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/migration/install-migration-module/",
+      "Destination": "/commerce/frontend-core/page-builder/migration/install-migration-module"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/migration",
+      "Destination": "/commerce/frontend-core/page-builder/migration/"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/migration/index",
+      "Destination": "/commerce/frontend-core/page-builder/migration/"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/migration/how-content-migration-works/",
+      "Destination": "/commerce/frontend-core/page-builder/migration/how-content-migration-works"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/content-types",
+      "Destination": "/commerce/frontend-core/page-builder/content-types/"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/content-types/index",
+      "Destination": "/commerce/frontend-core/page-builder/content-types/"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/content-types/extend",
+      "Destination": "/commerce/frontend-core/page-builder/content-types/extend/"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/content-types/extend/index",
+      "Destination": "/commerce/frontend-core/page-builder/content-types/extend/"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/content-types/extend/extend-more-appearances/",
+      "Destination": "/commerce/frontend-core/page-builder/content-types/extend/extend-more-appearances"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/content-types/extend/extend-appearances/",
+      "Destination": "/commerce/frontend-core/page-builder/content-types/extend/extend-appearances"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/content-types/extend/add-appearances/",
+      "Destination": "/commerce/frontend-core/page-builder/content-types/extend/add-appearances"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/content-types/customize/render-server-side-preview/",
+      "Destination": "/commerce/frontend-core/page-builder/content-types/customize/render-server-side-preview"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/content-types/customize",
+      "Destination": "/commerce/frontend-core/page-builder/content-types/customize/"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/content-types/customize/index",
+      "Destination": "/commerce/frontend-core/page-builder/content-types/customize/"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/content-types/customize/configure-panel/",
+      "Destination": "/commerce/frontend-core/page-builder/content-types/customize/configure-panel"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/content-types/customize/apply-product-conditions/",
+      "Destination": "/commerce/frontend-core/page-builder/content-types/customize/apply-product-conditions"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/content-types/customize/add-visual-selector/",
+      "Destination": "/commerce/frontend-core/page-builder/content-types/customize/add-visual-selector"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/content-types/customize/add-text-editor/",
+      "Destination": "/commerce/frontend-core/page-builder/content-types/customize/add-text-editor"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/content-types/customize/add-storefront-widget/",
+      "Destination": "/commerce/frontend-core/page-builder/content-types/customize/add-storefront-widget"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/content-types/customize/add-image-uploader/",
+      "Destination": "/commerce/frontend-core/page-builder/content-types/customize/add-image-uploader"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/content-types/customize/add-icons-images/",
+      "Destination": "/commerce/frontend-core/page-builder/content-types/customize/add-icons-images"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/content-types/customize/add-custom-toolbar/",
+      "Destination": "/commerce/frontend-core/page-builder/content-types/customize/add-custom-toolbar"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/content-types/customize/add-block-chooser/",
+      "Destination": "/commerce/frontend-core/page-builder/content-types/customize/add-block-chooser"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/content-types/create/troubleshooting/",
+      "Destination": "/commerce/frontend-core/page-builder/content-types/create/troubleshooting"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/content-types/create",
+      "Destination": "/commerce/frontend-core/page-builder/content-types/create/"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/content-types/create/index",
+      "Destination": "/commerce/frontend-core/page-builder/content-types/create/"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/content-types/create/add-templates/",
+      "Destination": "/commerce/frontend-core/page-builder/content-types/create/add-templates"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/content-types/create/add-styles/",
+      "Destination": "/commerce/frontend-core/page-builder/content-types/create/add-styles"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/content-types/create/add-icon/",
+      "Destination": "/commerce/frontend-core/page-builder/content-types/create/add-icon"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/content-types/create/add-form/",
+      "Destination": "/commerce/frontend-core/page-builder/content-types/create/add-form"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/content-types/create/add-configuration/",
+      "Destination": "/commerce/frontend-core/page-builder/content-types/create/add-configuration"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/content-types/create/add-components/",
+      "Destination": "/commerce/frontend-core/page-builder/content-types/create/add-components"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/architecture/knockout-bindings/",
+      "Destination": "/commerce/frontend-core/page-builder/architecture/knockout-bindings"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/architecture",
+      "Destination": "/commerce/frontend-core/page-builder/architecture/"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/architecture/index",
+      "Destination": "/commerce/frontend-core/page-builder/architecture/"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/architecture/events/",
+      "Destination": "/commerce/frontend-core/page-builder/architecture/events"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/architecture/data-store/",
+      "Destination": "/commerce/frontend-core/page-builder/architecture/data-store"
+    },
+    {
+      "Source": "/commerce/frontend-core/page-builder/architecture/configurations/",
+      "Destination": "/commerce/frontend-core/page-builder/architecture/configurations"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/resources/",
+      "Destination": "/commerce/frontend-core/javascript/resources"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/requirejs/",
+      "Destination": "/commerce/frontend-core/javascript/requirejs"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/practice/",
+      "Destination": "/commerce/frontend-core/javascript/practice"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/mixins/",
+      "Destination": "/commerce/frontend-core/javascript/mixins"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/logger/",
+      "Destination": "/commerce/frontend-core/javascript/logger"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/init/",
+      "Destination": "/commerce/frontend-core/javascript/init"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript",
+      "Destination": "/commerce/frontend-core/javascript/"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/index",
+      "Destination": "/commerce/frontend-core/javascript/"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/frontend-product-repository/",
+      "Destination": "/commerce/frontend-core/javascript/frontend-product-repository"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/debug/",
+      "Destination": "/commerce/frontend-core/javascript/debug"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/custom/",
+      "Destination": "/commerce/frontend-core/javascript/custom"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/conventions/",
+      "Destination": "/commerce/frontend-core/javascript/conventions"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/jquery-widgets/trim-input/",
+      "Destination": "/commerce/frontend-core/javascript/jquery-widgets/trim-input"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/jquery-widgets/toggle/",
+      "Destination": "/commerce/frontend-core/javascript/jquery-widgets/toggle"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/jquery-widgets/tabs/",
+      "Destination": "/commerce/frontend-core/javascript/jquery-widgets/tabs"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/jquery-widgets/sticky/",
+      "Destination": "/commerce/frontend-core/javascript/jquery-widgets/sticky"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/jquery-widgets/sortable/",
+      "Destination": "/commerce/frontend-core/javascript/jquery-widgets/sortable"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/jquery-widgets/row-builder/",
+      "Destination": "/commerce/frontend-core/javascript/jquery-widgets/row-builder"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/jquery-widgets/remaining-characters/",
+      "Destination": "/commerce/frontend-core/javascript/jquery-widgets/remaining-characters"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/jquery-widgets/redirect-url/",
+      "Destination": "/commerce/frontend-core/javascript/jquery-widgets/redirect-url"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/jquery-widgets/quick-search/",
+      "Destination": "/commerce/frontend-core/javascript/jquery-widgets/quick-search"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/jquery-widgets/prompt/",
+      "Destination": "/commerce/frontend-core/javascript/jquery-widgets/prompt"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/jquery-widgets/popup-window/",
+      "Destination": "/commerce/frontend-core/javascript/jquery-widgets/popup-window"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/jquery-widgets/password-strength-indicator/",
+      "Destination": "/commerce/frontend-core/javascript/jquery-widgets/password-strength-indicator"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/jquery-widgets/navigation/",
+      "Destination": "/commerce/frontend-core/javascript/jquery-widgets/navigation"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/jquery-widgets/multiselect/",
+      "Destination": "/commerce/frontend-core/javascript/jquery-widgets/multiselect"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/jquery-widgets/modal/",
+      "Destination": "/commerce/frontend-core/javascript/jquery-widgets/modal"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/jquery-widgets/menu/",
+      "Destination": "/commerce/frontend-core/javascript/jquery-widgets/menu"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/jquery-widgets/media-uploader/",
+      "Destination": "/commerce/frontend-core/javascript/jquery-widgets/media-uploader"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/jquery-widgets/magnifier/",
+      "Destination": "/commerce/frontend-core/javascript/jquery-widgets/magnifier"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/jquery-widgets/loader/",
+      "Destination": "/commerce/frontend-core/javascript/jquery-widgets/loader"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/jquery-widgets/list/",
+      "Destination": "/commerce/frontend-core/javascript/jquery-widgets/list"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/jquery-widgets",
+      "Destination": "/commerce/frontend-core/javascript/jquery-widgets/"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/jquery-widgets/index",
+      "Destination": "/commerce/frontend-core/javascript/jquery-widgets/"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/jquery-widgets/gallery/",
+      "Destination": "/commerce/frontend-core/javascript/jquery-widgets/gallery"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/jquery-widgets/folder-tree/",
+      "Destination": "/commerce/frontend-core/javascript/jquery-widgets/folder-tree"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/jquery-widgets/dropdown/",
+      "Destination": "/commerce/frontend-core/javascript/jquery-widgets/dropdown"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/jquery-widgets/dialog/",
+      "Destination": "/commerce/frontend-core/javascript/jquery-widgets/dialog"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/jquery-widgets/confirm/",
+      "Destination": "/commerce/frontend-core/javascript/jquery-widgets/confirm"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/jquery-widgets/collapsible/",
+      "Destination": "/commerce/frontend-core/javascript/jquery-widgets/collapsible"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/jquery-widgets/calendar/",
+      "Destination": "/commerce/frontend-core/javascript/jquery-widgets/calendar"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/jquery-widgets/breadcrumbs/",
+      "Destination": "/commerce/frontend-core/javascript/jquery-widgets/breadcrumbs"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/jquery-widgets/alert/",
+      "Destination": "/commerce/frontend-core/javascript/jquery-widgets/alert"
+    },
+    {
+      "Source": "/commerce/frontend-core/javascript/jquery-widgets/accordion/",
+      "Destination": "/commerce/frontend-core/javascript/jquery-widgets/accordion"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide",
+      "Destination": "/commerce/frontend-core/guide/"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/index",
+      "Destination": "/commerce/frontend-core/guide/"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/conventions/",
+      "Destination": "/commerce/frontend-core/guide/conventions"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/caching/",
+      "Destination": "/commerce/frontend-core/guide/caching"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/best-practices/",
+      "Destination": "/commerce/frontend-core/guide/best-practices"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/validations/rule-list/",
+      "Destination": "/commerce/frontend-core/guide/validations/rule-list"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/validations",
+      "Destination": "/commerce/frontend-core/guide/validations/"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/validations/index",
+      "Destination": "/commerce/frontend-core/guide/validations/"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/validations/custom-rules/",
+      "Destination": "/commerce/frontend-core/guide/validations/custom-rules"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/validations/custom-form/",
+      "Destination": "/commerce/frontend-core/guide/validations/custom-form"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/translations/theory/",
+      "Destination": "/commerce/frontend-core/guide/translations/theory"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/translations/practice/",
+      "Destination": "/commerce/frontend-core/guide/translations/practice"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/translations",
+      "Destination": "/commerce/frontend-core/guide/translations/"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/translations/index",
+      "Destination": "/commerce/frontend-core/guide/translations/"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/translations/dictionary/",
+      "Destination": "/commerce/frontend-core/guide/translations/dictionary"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/tools",
+      "Destination": "/commerce/frontend-core/guide/tools/"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/tools/index",
+      "Destination": "/commerce/frontend-core/guide/tools/"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/tools/grunt/",
+      "Destination": "/commerce/frontend-core/guide/tools/grunt"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/themes/workflow/",
+      "Destination": "/commerce/frontend-core/guide/themes/workflow"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/themes/uninstall/",
+      "Destination": "/commerce/frontend-core/guide/themes/uninstall"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/themes/structure/",
+      "Destination": "/commerce/frontend-core/guide/themes/structure"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/themes/product-video/",
+      "Destination": "/commerce/frontend-core/guide/themes/product-video"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/themes/js-bundling/",
+      "Destination": "/commerce/frontend-core/guide/themes/js-bundling"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/themes/install/",
+      "Destination": "/commerce/frontend-core/guide/themes/install"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/themes/inheritance/",
+      "Destination": "/commerce/frontend-core/guide/themes/inheritance"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/themes",
+      "Destination": "/commerce/frontend-core/guide/themes/"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/themes/index",
+      "Destination": "/commerce/frontend-core/guide/themes/"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/themes/favicon/",
+      "Destination": "/commerce/frontend-core/guide/themes/favicon"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/themes/debug/",
+      "Destination": "/commerce/frontend-core/guide/themes/debug"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/themes/create-storefront/",
+      "Destination": "/commerce/frontend-core/guide/themes/create-storefront"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/themes/create-admin/",
+      "Destination": "/commerce/frontend-core/guide/themes/create-admin"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/themes/configure/",
+      "Destination": "/commerce/frontend-core/guide/themes/configure"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/themes/apply-storefront/",
+      "Destination": "/commerce/frontend-core/guide/themes/apply-storefront"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/themes/apply-admin/",
+      "Destination": "/commerce/frontend-core/guide/themes/apply-admin"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/templates/walkthrough/",
+      "Destination": "/commerce/frontend-core/guide/templates/walkthrough"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/templates/sample/",
+      "Destination": "/commerce/frontend-core/guide/templates/sample"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/templates/override/",
+      "Destination": "/commerce/frontend-core/guide/templates/override"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/templates",
+      "Destination": "/commerce/frontend-core/guide/templates/"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/templates/index",
+      "Destination": "/commerce/frontend-core/guide/templates/"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/templates/email/",
+      "Destination": "/commerce/frontend-core/guide/templates/email"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/templates/email-migration/",
+      "Destination": "/commerce/frontend-core/guide/templates/email-migration"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/templates/email-layout-handle/",
+      "Destination": "/commerce/frontend-core/guide/templates/email-layout-handle"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/responsive-design/practice/",
+      "Destination": "/commerce/frontend-core/guide/responsive-design/practice"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/responsive-design/mobile/",
+      "Destination": "/commerce/frontend-core/guide/responsive-design/mobile"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/responsive-design/js/",
+      "Destination": "/commerce/frontend-core/guide/responsive-design/js"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/responsive-design",
+      "Destination": "/commerce/frontend-core/guide/responsive-design/"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/responsive-design/index",
+      "Destination": "/commerce/frontend-core/guide/responsive-design/"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/responsive-design/css/",
+      "Destination": "/commerce/frontend-core/guide/responsive-design/css"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/responsive-design/breakpoints/",
+      "Destination": "/commerce/frontend-core/guide/responsive-design/breakpoints"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/layouts/xml-manage/",
+      "Destination": "/commerce/frontend-core/guide/layouts/xml-manage"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/layouts/xml-instructions/",
+      "Destination": "/commerce/frontend-core/guide/layouts/xml-instructions"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/layouts/types/",
+      "Destination": "/commerce/frontend-core/guide/layouts/types"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/layouts/product-layouts/",
+      "Destination": "/commerce/frontend-core/guide/layouts/product-layouts"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/layouts/practice/",
+      "Destination": "/commerce/frontend-core/guide/layouts/practice"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/layouts/override/",
+      "Destination": "/commerce/frontend-core/guide/layouts/override"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/layouts",
+      "Destination": "/commerce/frontend-core/guide/layouts/"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/layouts/index",
+      "Destination": "/commerce/frontend-core/guide/layouts/"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/layouts/extend/",
+      "Destination": "/commerce/frontend-core/guide/layouts/extend"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/layouts/create/",
+      "Destination": "/commerce/frontend-core/guide/layouts/create"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/css/ui-library/",
+      "Destination": "/commerce/frontend-core/guide/css/ui-library"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/css/themes/",
+      "Destination": "/commerce/frontend-core/guide/css/themes"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/css/preprocess/",
+      "Destination": "/commerce/frontend-core/guide/css/preprocess"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/css/practice/",
+      "Destination": "/commerce/frontend-core/guide/css/practice"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/css/jquery/",
+      "Destination": "/commerce/frontend-core/guide/css/jquery"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/css",
+      "Destination": "/commerce/frontend-core/guide/css/"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/css/index",
+      "Destination": "/commerce/frontend-core/guide/css/"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/css/fonts/",
+      "Destination": "/commerce/frontend-core/guide/css/fonts"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/css/debug/",
+      "Destination": "/commerce/frontend-core/guide/css/debug"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/css/critical-path/",
+      "Destination": "/commerce/frontend-core/guide/css/critical-path"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/css/quickstart",
+      "Destination": "/commerce/frontend-core/guide/css/quickstart/"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/css/quickstart/index",
+      "Destination": "/commerce/frontend-core/guide/css/quickstart/"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/css/quickstart/customize-styles/",
+      "Destination": "/commerce/frontend-core/guide/css/quickstart/customize-styles"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/css/quickstart/compilation-mode/",
+      "Destination": "/commerce/frontend-core/guide/css/quickstart/compilation-mode"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/css/custom-preprocessor",
+      "Destination": "/commerce/frontend-core/guide/css/custom-preprocessor/"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/css/custom-preprocessor/index",
+      "Destination": "/commerce/frontend-core/guide/css/custom-preprocessor/"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/css/custom-preprocessor/gulp-sass/",
+      "Destination": "/commerce/frontend-core/guide/css/custom-preprocessor/gulp-sass"
+    },
+    {
+      "Source": "/commerce/frontend-core/guide/css/custom-preprocessor/add/",
+      "Destination": "/commerce/frontend-core/guide/css/custom-preprocessor/add"
+    }
+  ],
+  ":type": "sheet"
+}

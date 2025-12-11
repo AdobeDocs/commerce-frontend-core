@@ -9,12 +9,12 @@ The ListingToolbar component implements a container for the listing-related elem
 
 ## Options
 
-| Option  | Description | Type | Default |
-| ------- | ------- | ------- | ------------ |
-| `sticky` | Whether the toolbar has a fixed position. When set to `true`, elements like paging, filters, and table headers stay in the viewport's area, no matter where the scroll position is. | `Boolean` | `false` |
-| `stickyClass` | A list of additional CSS classes added to the root node of the `.html` template specified in `StickyTmpl`. | {<br />[name:string]: boolean<br />} | {<br />`'sticky-header': true`<br />} |
-| `stickyTmpl` | Path to the toolbar's template for the fixed position. | `String` | `ui/grid/sticky/sticky` |
-| `template` | Path to the component’s `.html` template. | `String` | `ui/grid/toolbar` |
+| Option  | Description | Type                                       | Default                                     |
+| ------- | ------- |--------------------------------------------|---------------------------------------------|
+| `sticky` | Whether the toolbar has a fixed position. When set to `true`, elements like paging, filters, and table headers stay in the viewport's area, no matter where the scroll position is. | `Boolean`                                  | `false`                                     |
+| `stickyClass` | A list of additional CSS classes added to the root node of the `.html` template specified in `StickyTmpl`. | \{\<br /\>[name:string]: boolean\<br /\>\} | \{\<br /\>`'sticky-header': true`\<br /\>\} |
+| `stickyTmpl` | Path to the toolbar's template for the fixed position. | `String`                                   | `ui/grid/sticky/sticky`                     |
+| `template` | Path to the component’s `.html` template. | `String`                                   | `ui/grid/toolbar`                           |
 
 ## Examples
 

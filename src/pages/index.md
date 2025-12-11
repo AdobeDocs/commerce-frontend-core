@@ -7,7 +7,7 @@ keywords:
   - Themes
 ---
 
-<Hero slots="image, heading, text"/>
+<SuperHero slots="image, heading, text"/>
 
 ![Commerce Frontend Development](_images/home-bg.jpeg)
 
@@ -23,7 +23,7 @@ Learn how to develop web-based storefronts for Adobe Commerce and Magento Open S
 *  [Community Slack workspace](https://opensource.magento.com/slack)
 *  [Contributor statistics](https://developer.adobe.com/open/magento/statistic)
 *  [PWA Studio](https://developer.adobe.com/open/magento)
-*  [Page Builder](page-builder/)
+*  [Page Builder](page-builder/index.md)
 
 ## Overview
 
@@ -37,33 +37,33 @@ Use these sections to learn about how to develop a web-based frontend.
 
 ### Sections
 
-[Frontend Development](guide/)
+[Frontend Development](guide/index.md)
 
 Explore core frontend development principles.
 
 <DiscoverBlock slots="link, text"/>
 
-[UI Components](ui-components/)
+[UI Components](ui-components/index.md)
 
 Render distinct user interface elements, like tables, buttons, and dialogs.
 
 <DiscoverBlock slots="link, text"/>
 
-[JavaScript Development](javascript/)
+[JavaScript Development](javascript/index.md)
 
 Learn about initializing and customizing JavaScript.
 
-<!-- <DiscoverBlock slots="link, text"/>
+\<!-- \<DiscoverBlock slots="link, text"/\>
 
 [Admin Style Guide](admin/style-guide/)
 
-Lorem ipsum dolor sit amet -->
+Lorem ipsum dolor sit amet --\>
 
-<!-- <DiscoverBlock slots="link, text"/>
+\<!-- \<DiscoverBlock slots="link, text"/\>
 
 [Admin Design Patterns](admin/design-patterns/)
 
-Lorem ipsum dolor sit amet -->
+Lorem ipsum dolor sit amet --\>
 
 <DiscoverBlock width="100%" slots="heading, text"/>
 

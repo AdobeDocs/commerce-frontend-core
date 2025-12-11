@@ -28,13 +28,13 @@ The MassActions component has dependencies on the following components:
 
 ### MassAction interface
 
-| Option     | Description                                                | Type                                                       | Required |
-|------------|------------------------------------------------------------|------------------------------------------------------------|----------|
-| `callback` |                                                            | [`ColumnAction`](column.md#columnaction-interface)         | Optional |
-| `confirm`  | Confirmation message displayed before applying the action. | `{`<br />`title: string;`<br />`message: string;`<br />`}` | Optional |
-| `label`    | Action's label displayed in the list of actions.           | String                                                     | Required |
-| `type`     | Action's identifier.                                       | String                                                     | Required |
-| `url`      | Path to the controller responsible for action handling.    | String                                                     | Optional |
+| Option     | Description                                                | Type                                                             | Required |
+|------------|------------------------------------------------------------|------------------------------------------------------------------|----------|
+| `callback` |                                                            | [`ColumnAction`](column.md#columnaction-interface)               | Optional |
+| `confirm`  | Confirmation message displayed before applying the action. | `{`\<br /\>`title: string;`\<br /\>`message: string;`\<br /\>`}` | Optional |
+| `label`    | Action's label displayed in the list of actions.           | String                                                           | Required |
+| `type`     | Action's identifier.                                       | String                                                           | Required |
+| `url`      | Path to the controller responsible for action handling.    | String                                                           | Optional |
 
 ## Examples
 

@@ -15,7 +15,7 @@ After you [create a theme](../../themes/create-storefront.md), you need to decid
 
 -  **Client-side compilation mode (recommended for theme development):** Less files are compiled client-side on every page load, which results in slow response times and "flash of unstyled text" (FOUT) issues.
 
-The examples in this topic use the [simple approach](../quickstart/customize-styles.md#) for customizing theme styles. You make changes to the `_extend.less` file.
+The examples in this topic use the [simple approach](customize-styles.md#) for customizing theme styles. You make changes to the `_extend.less` file.
 
 In our examples, we will change the color and font of the primary buttons. The default view of the primary buttons can be illustrated by the **Create an Account** button view on the Customer login page:
 

@@ -110,7 +110,6 @@ Layout validations and error handling depends on the [application mode] in which
 
 *  production or default modes: syntax is validated in `.xml` and `.xsd` files. If validation fails, errors are logged to the `var/log` directory without throwing an exception. The validation according to the xsd schema is not performed.
 
-<!-- Link definitions -->
 [extend]: extend.md
 [override]: override.md
 [Layout file types]: types.md
@@ -118,5 +117,4 @@ Layout validations and error handling depends on the [application mode] in which
 [application mode]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html
 [Layout instructions]: xml-instructions.md
 
-<!-- Image Definitions -->
 [layout]: ../../_images/frontend/layouts_block_containers_defn21.png

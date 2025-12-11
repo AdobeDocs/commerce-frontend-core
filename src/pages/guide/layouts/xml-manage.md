@@ -841,7 +841,6 @@ where:
 
 These files must be placed in the appropriate folders for layout XML files. They will be available as **Custom Layout Update** options for Merchants after flushing the cache.
 
-<!-- Link Definitions -->
 [page configuration]: types.md#page-configuration
 [Locate templates, layouts, and styles]: ../themes/debug.md
 [Conditional comments]: http://en.wikipedia.org/wiki/Conditional_comment

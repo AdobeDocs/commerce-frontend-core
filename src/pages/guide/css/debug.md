@@ -22,14 +22,14 @@ The following shows which Grunt tasks to use for debugging:
 
 -  After you switch the compilation mode from client-side to server-side, run the `exec` command.
 -  After you customize the content of any `.less` file, except the root source files, run the `less` task and reload the page.
--  After you [customize the root source files or move the files included to the root files](../css/preprocess.md#clean-static-view-files), run the `exec` command and reload the page.
+-  After you [customize the root source files or move the files included to the root files](preprocess.md#clean-static-view-files), run the `exec` command and reload the page.
 -  After you run `php bin/magento setup:upgrade`, run `exec` command.
 -  After you run the `exec` command, run the `clear` command to `clear` the cache, then run the `watch` command. Running the commands in this order will ensure that any custom jQuery attributes like product sliders, banners, etc are loaded correctly.
 
 If you have LiveReload installed, run the `grunt watch` command, and the flow is even simpler:
 
 -  After you customize the content of any `.less` file, changes are applied and the page reloads automatically. No additional changes
--  After you [customize the root source files or move the files included to the root files](../css/preprocess.md#clean-static-view-files), run the `clean` and `exec` commands, which reloads the page in the browser.
+-  After you [customize the root source files or move the files included to the root files](preprocess.md#clean-static-view-files), run the `clean` and `exec` commands, which reloads the page in the browser.
 
 ## CSS source maps
 

@@ -117,7 +117,6 @@ As a result, we see the list of sortable items that can be sorted via *Up*, *Dow
 ![Sortable widget initial view Example](../../_images/javascript/sortable-widget-initial-result.png)
 ![Sortable widget sorted view Example](../../_images/javascript/sortable-widget-sorted-result.png)
 
-<!-- Link Definitions -->
 
 [Sortable Widget]: https://api.jqueryui.com/sortable/
 [Initialize JavaScript]: ../init.md

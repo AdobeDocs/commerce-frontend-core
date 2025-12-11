@@ -28,7 +28,7 @@ In a [theme directory][], stylesheets are stored in the following locations:
 Directory relative to `<THEME_DIR>` | Description
 ---------|----------
  `/<Namespace>_<Module>/web/css` | Module-specific styles. |
- `/web/css` | Contains the following:<br/>`print.less`: Used to generate styles for the printed version of store pages.<br />`_styles.less` - A composite file, which includes all Less files used in the theme. The underscore sign (`_`) in a file name conventionally means that a file is not used independently, but is included in other files.<br />`styles-m.less`: Used to generate mobile-specific styles, includes `_styles.less`.<br />`styles-l.less`: Used to generate desktop-specific styles, includes `_styles.less`.<br />`/source`: This subdirectory contains LESS configuration files that invoke mixins from the UI library.<br />`/source/_theme.less`: Overrides the default UI library variables values.
+ `/web/css` | Contains the following:\<br/\>`print.less`: Used to generate styles for the printed version of store pages.\<br /\>`_styles.less` - A composite file, which includes all Less files used in the theme. The underscore sign (`_`) in a file name conventionally means that a file is not used independently, but is included in other files.\<br /\>`styles-m.less`: Used to generate mobile-specific styles, includes `_styles.less`.\<br /\>`styles-l.less`: Used to generate desktop-specific styles, includes `_styles.less`.\<br /\>`/source`: This subdirectory contains LESS configuration files that invoke mixins from the UI library.\<br /\>`/source/_theme.less`: Overrides the default UI library variables values.
 
 ## Include CSS
 

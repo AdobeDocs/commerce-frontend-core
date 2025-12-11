@@ -126,7 +126,6 @@ For grouping style rules in certain media queries the `.media-width()` mixin use
 
 You can find more information about the UI library responsive mixin usage in `<your_Magento_instance>/pub/static/frontend/Magento/blank/en_US/css/docs/responsive.html`.
 
-<!-- Link definitions -->
 [styles-l.less]: https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/blank/web/css/styles-l.less
 [styles-m.less]: https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/blank/web/css/styles-m.less
 [css3-media-queries-wiki]: http://en.wikipedia.org/wiki/Media_queries

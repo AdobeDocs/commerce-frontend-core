@@ -112,7 +112,5 @@ When editing XML configuration files in an IDE, you get visual notifications if 
 
 To use the autocomplete and validation features in your IDE, generate the URN as described in the [URN highlighter] topic.
 
-<!--Link Declarations -->
-
 [declaring a custom UI component]: ../howto/new-component-declaration.md
 [URN highlighter]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/urn-highlighter.html

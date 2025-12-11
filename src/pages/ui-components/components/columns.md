@@ -9,18 +9,18 @@ The Columns component is a collection of columns. It renders the `<table>` eleme
 
 ## Options
 
-| Option | Description | Type | Default |
-| --- | --- | --- | --- |
-| `component` | The path to the component’s `.js` file. | String | `Magento_Ui/js/grid/listing` |
-| `displayMode` | Initial display mode. | String | `'grid'` |
-| `displayModes` | List of available display modes. | {<br />[name: string]: [DisplayMode](#displaymode-interface)<br />} |  `{grid: {value: 'grid',label: 'Grid',template: '${ $.template }'},list: {value: 'list',label: 'List',template: '${ $.listTemplate }'}}` |
-| `dndConfig` | Configuration of the [DragAndDrop component](drag-and-drop.md). | Object | Specified in the [DragAndDrop component configuration](drag-and-drop.md). |
-| `stickyTmpl` | Path to the `.html` template used for the [Toolbar component](toolbar.md) when it receives a fixed position. | String | `ui/grid/sticky/listing` |
-| `template` | Path to the component’s `.html` template. | String | `ui/grid/listing` |
-| `editorConfig` | Configuration of the InlineEditing component. | Object | Specified in the [InlineEditing component configuration](insert-listing.md). |
-| `viewSwitcherTmpl` | Path to the `.html` template for rendering the list of available display modes. By default this list is not displayed. | String | `ui/grid/view-switcher` |
-| `componentType` | The type of component. | String | `columns` |
-| `resizeConfig` | Configurations of [`Resize`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/resize.js) component. | Object | `{name: '${ $.name }_resize',columnsProvider: '${ $.name }',component: 'Magento_Ui/js/grid/resize',enabled: false}` |
+| Option | Description | Type                                                                      | Default |
+| --- | --- |---------------------------------------------------------------------------| --- |
+| `component` | The path to the component’s `.js` file. | String                                                                    | `Magento_Ui/js/grid/listing` |
+| `displayMode` | Initial display mode. | String                                                                    | `'grid'` |
+| `displayModes` | List of available display modes. | \{\<br /\>[name: string]: [DisplayMode](#displaymode-interface)\<br /\>\} |  `{grid: {value: 'grid',label: 'Grid',template: '${ $.template }'},list: {value: 'list',label: 'List',template: '${ $.listTemplate }'}}` |
+| `dndConfig` | Configuration of the [DragAndDrop component](drag-and-drop.md). | Object                                                                    | Specified in the [DragAndDrop component configuration](drag-and-drop.md). |
+| `stickyTmpl` | Path to the `.html` template used for the [Toolbar component](toolbar.md) when it receives a fixed position. | String                                                                    | `ui/grid/sticky/listing` |
+| `template` | Path to the component’s `.html` template. | String                                                                    | `ui/grid/listing` |
+| `editorConfig` | Configuration of the InlineEditing component. | Object                                                                    | Specified in the [InlineEditing component configuration](insert-listing.md). |
+| `viewSwitcherTmpl` | Path to the `.html` template for rendering the list of available display modes. By default this list is not displayed. | String                                                                    | `ui/grid/view-switcher` |
+| `componentType` | The type of component. | String                                                                    | `columns` |
+| `resizeConfig` | Configurations of [`Resize`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/resize.js) component. | Object                                                                    | `{name: '${ $.name }_resize',columnsProvider: '${ $.name }',component: 'Magento_Ui/js/grid/resize',enabled: false}` |
 
 ### DisplayMode interface
 
