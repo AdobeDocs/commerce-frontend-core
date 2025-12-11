@@ -53,18 +53,6 @@ Render distinct user interface elements, like tables, buttons, and dialogs.
 
 Learn about initializing and customizing JavaScript.
 
-\<!-- \<DiscoverBlock slots="link, text"/\>
-
-[Admin Style Guide](admin/style-guide/)
-
-Lorem ipsum dolor sit amet --\>
-
-\<!-- \<DiscoverBlock slots="link, text"/\>
-
-[Admin Design Patterns](admin/design-patterns/)
-
-Lorem ipsum dolor sit amet --\>
-
 <DiscoverBlock width="100%" slots="heading, text"/>
 
 ## Contributing to this documentation
