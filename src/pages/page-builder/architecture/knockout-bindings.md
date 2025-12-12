@@ -70,7 +70,7 @@ This binding provides basic text live editing functionality to the current eleme
 | Name    | Description                                                                        |
 |---------|------------------------------------------------------------------------------------|
 | `field` | The field name from the UI component form you want the live edit instance to edit. |
-| `placeholder`  | _Optional_. A placeholder to display when there is no data entered for this field.
+| `placeholder`  | _Optional_. A placeholder to display when there is no data entered for this field.|
 | `selectAll`    | _Optional_. Selects all text on focus within the live edit field. We use this within tabs. |
 
 **Usage:**

@@ -233,7 +233,6 @@ The detailed information about the UI library is embedded in the code repository
 Each file is named after the mixin it describes, and contains detailed mixin description and navigation controls to access documentation for other mixins.
 The generated UI library documentation is provided in a convenient HTML view. It is available in the following location in your installation: `<your_instance>/pub/static/frontend/Magento/blank/en_US/css/docs/index.html` (view in a browser).
 
-
 [inherits]: https://developer.adobe.com/commerce/frontend-core/guide/themes/inheritance/
 
 [`lib/web/css/docs/source/README.md`]: https://github.com/magento/magento2/blob/2.4/lib/web/css/docs/source/README.md

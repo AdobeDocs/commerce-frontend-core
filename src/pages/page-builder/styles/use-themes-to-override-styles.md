@@ -31,9 +31,7 @@ app/design/adminhtml/VendorName/ThemeName/web/css/source/content-type/<specific 
 app/design/adminhtml/VendorName/ThemeName/web/css/source/_module.less
 ```
 
-![Page Builder admin theme files](../../_images/page-builder/pagebuilder-admin-theme-files.svg)
-
-*Admin theme directory structure*
+![Admin theme directory structure](../../_images/page-builder/pagebuilder-admin-theme-files.svg)
 
 The key takeaways are numbered in the image and described as follows:
 
@@ -108,9 +106,7 @@ app/design/frontend/VendorName/ThemeName/web/css/source/content-type/<specific o
 app/design/frontend/VendorName/ThemeName/web/css/source/_extend.less
 ```
 
-![Page Builder frontend theme files](../../_images/page-builder/pagebuilder-frontend-theme-files.svg)
-
-*Frontend theme directory structure*
+![Frontend theme directory structure](../../_images/page-builder/pagebuilder-frontend-theme-files.svg)
 
 The first three numbered callouts (**1, 2, 3**) for the frontend theme are identical in description to the Admin theme [previously described](#step-1-create-or-modify-an-admin-theme). The only difference for frontend themes is that the `_module.less` file should be named `_extend.less`.
 
@@ -129,9 +125,7 @@ To apply your frontend theme to a store view:
 
 Navigate to **Content** > **Design** > **Configuration** and edit the store view where you can apply your frontend theme as the default theme:
 
-![Set default theme on store view](../../_images/page-builder/theme-default-setting-admin.svg)
-
-*Set default frontend theme for store view*
+![Set default frontend theme for store view](../../_images/page-builder/theme-default-setting-admin.svg)
 
 To apply your frontend theme to a page:
 
@@ -139,9 +133,7 @@ During development, it's easy to apply your frontend theme to a single page for 
 
 On any CMS page, scroll to the Design section at the bottom, and select your theme from the New Theme selector.
 
-![Set theme for page](../../_images/page-builder/theme-page-setting-admin.svg)
-
-*Set frontend theme for page*
+![Set frontend theme for page](../../_images/page-builder/theme-page-setting-admin.svg)
 
 ## More about themes
 

@@ -97,8 +97,8 @@ $("#element").loader("hide");
 
 Loader is subscribed to the following events:
 
--  [processStart](#processStart)
--  [processStop](#processStop)
+-  [processStart](#processstart)
+-  [processStop](#processstop)
 
 ### `processStart`
 

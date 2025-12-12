@@ -20,6 +20,8 @@ We strongly recommend you not change the default application files. If you want 
 
 You can add custom templates as physical files in your custom theme or create them using the Admin. Both approaches are described in the following sections.
 
+## Customizations
+
 ### Theme-based customizations
 
 Override email templates by creating templates in a new directory in your custom theme, using this pattern: `<theme_dir>/<ModuleVendorName>_<ModuleName>/email`. For example, to override the New Order email template, create a template named `order_new.html` in the `<theme_dir>/Magento_Sales/email` directory.

@@ -844,7 +844,5 @@ These files must be placed in the appropriate folders for layout XML files. They
 [page configuration]: types.md#page-configuration
 [Locate templates, layouts, and styles]: ../themes/debug.md
 [Conditional comments]: http://en.wikipedia.org/wiki/Conditional_comment
-[`<move>` instruction]: xml-instructions.md#move
-[`before` and `after` attributes of `<block>`]: xml-instructions.md#before-and-after-attributes
 [Magento/Cms/Block/Block]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Cms/Block/Block.php
 [Magento/Config/Model/Config/Source/Yesno]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Config/Model/Config/Source/Yesno.php

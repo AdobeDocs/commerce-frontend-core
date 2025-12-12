@@ -14,7 +14,7 @@ This topic describes how to extend and configure Page Builder content types to a
 
 For example, if you want to load data from the backend, you can use objects, `xsi:type="object"`, to implement `Magento\PageBuilder\Model\Config\ContentType\AdditionalData\ProviderInterface` to process the data and dynamically load information based on the system config.
 
-## Add additional data to the XML config {#additional-data}
+## Add additional data to the XML config
 
 Use `additional_data` in your `Vendor/ModuleName/view/adminhtml/pagebuilder/content_type/<your-content-type>.xml` XML config file to add custom configuration to a content type:
 
@@ -43,9 +43,9 @@ Use `additional_data` in your `Vendor/ModuleName/view/adminhtml/pagebuilder/cont
         </item>
     </item>
 </additional_data>
- ```
+```
 
-## Implement `ProviderInterface` for conversion {#conversion}
+## Implement `ProviderInterface` for conversion
 
 Array and scalar types, `xsi:type="array"` and `xsi:type="string"` for example (but also boolean, integer, and constant), designated in the XML file are provided as-is to the additional data configuration payload.
 

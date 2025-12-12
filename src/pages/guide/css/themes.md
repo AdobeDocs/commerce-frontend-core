@@ -27,7 +27,7 @@ In a [theme directory][], stylesheets are stored in the following locations:
 
 Directory relative to `<THEME_DIR>` | Description
 ---------|----------
- `/<Namespace>_<Module>/web/css` | Module-specific styles. |
+ `/<Namespace>_<Module>/web/css` | Module-specific styles.
  `/web/css` | Contains the following:\<br/\>`print.less`: Used to generate styles for the printed version of store pages.\<br /\>`_styles.less` - A composite file, which includes all Less files used in the theme. The underscore sign (`_`) in a file name conventionally means that a file is not used independently, but is included in other files.\<br /\>`styles-m.less`: Used to generate mobile-specific styles, includes `_styles.less`.\<br /\>`styles-l.less`: Used to generate desktop-specific styles, includes `_styles.less`.\<br /\>`/source`: This subdirectory contains LESS configuration files that invoke mixins from the UI library.\<br /\>`/source/_theme.less`: Overrides the default UI library variables values.
 
 ## Include CSS
@@ -81,6 +81,5 @@ To include an external CSS file, add `<css src="URL to External Source" src_type
 
 If the system does not find the included CSS files, it searches for the same file names with a `.less` extension. This is part of the built-in preprocessing mechanism. You can find more information about it in the [CSS Preprocessing] topic.
 
-[layout files]: ../layouts/index.md
 [theme directory]: ../themes/structure.md
 [CSS Preprocessing]: preprocess.md

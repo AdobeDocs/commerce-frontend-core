@@ -94,7 +94,7 @@ Attributes of the `style` node are described briefly here:
 
 -  `converter` — JavaScript function that converts internal property values to and from the DOM because DOM values are often not in the right format for internal processing.
 
-#### To add the `max-width` property to the `content` element of each appearance:
+#### To add the `max-width` property to the `content` element of each appearance
 
 1. Open your module's `banner.xml` configuration file.
 

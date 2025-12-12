@@ -64,4 +64,3 @@ There is no `mage/menu.js` in the current theme or parent theme JS files, so the
 
 [assets fallback rules]: ../guide/themes/inheritance.md
 [`lib/web/mage/menu.js`]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/menu.js
-[assets fallback]: ../guide/themes/inheritance.md

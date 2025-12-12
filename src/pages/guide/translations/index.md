@@ -170,7 +170,6 @@ If you need help understanding the context or meaning of a UI string, or have qu
 [Example theme translation dictionary]: practice.md
 [translation dictionary tool]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/localization.html
 [language package]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/localization.html#create-a-language-package
-[dictionary generator tool]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/localization.html
 [Translation dictionaries and packages]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/localization.html
 [CrowdIn account]: https://crowdin.com/join
 [CrowdIn knowledge base]: https://support.crowdin.com/online-editor
@@ -179,4 +178,3 @@ If you need help understanding the context or meaning of a UI string, or have qu
 [Translations Slack channel]: https://magentocommeng.slack.com/archives/CD97DKBHS
 [Commerce Marketplace]: https://marketplace.magento.com/catalogsearch/result/?q=language%20packs#q=language%20pack&idx=m2_cloud_prod_default_products&p=0&nR%5Bvisibility_search%5D%5B%3D%5D%5B0%5D=1
 [Conventional notations for paths to modules and themes]: ../conventions.md
-[Example theme translation dictionary]: practice.md

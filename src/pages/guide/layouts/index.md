@@ -115,6 +115,5 @@ Layout validations and error handling depends on the [application mode] in which
 [Layout file types]: types.md
 [inherited]: ../themes/inheritance.md
 [application mode]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html
-[Layout instructions]: xml-instructions.md
 
 [layout]: ../../_images/frontend/layouts_block_containers_defn21.png

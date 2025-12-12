@@ -47,9 +47,6 @@ Making changes in the out-of-the-box themes is a bad idea, because can result in
 [add a new theme]: ../../themes/create-storefront.md
 [Apply your theme]: ../../themes/apply-storefront.md
 [Styles debugging]: ../debug.md
-[Simple style changes with client-side Less compilation vs. server-side]: compilation-mode.md
 [css overview]: ../index.md
-[Simple ways to customize a theme's styles]: customize-styles.md
-[Simple style changes with client-side Less compilation vs. server-side]: compilation-mode.md
 
 [Storefront with Luma applied]: ../../../_images/frontend/css_guide_luma21.png

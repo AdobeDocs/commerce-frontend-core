@@ -410,9 +410,7 @@ The argument with *helper* type can contain `param` items which can be passed as
 
 #### Obtain arguments examples in template
 
-import Docs from '/src/_includes/objects-in-templates.md'
-
-<Docs />
+<Fragment src="/src/_includes/objects-in-templates.md" />
 
 These argument examples can be taken in the template by *getData* method. Another way to take these arguments is using the magic method *get* followed by the name of argument in CamelCase format. Here is an example to retrieve the arguments from above example:
 
@@ -463,6 +461,4 @@ $helperMethodResult = $block->getData('helper_method_result'); // or $block->get
 [generic layout]: types.md#generic-layout
 [handle]: index.md#layout-handles
 [templates]: ../templates/index.md
-[app/code/Magento/Theme/view/frontend/layout/default.xml]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Theme/view/frontend/layout/default.xml
-[app/code/Magento/Theme/view/frontend/templates/html/title.phtml]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Theme/view/frontend/templates/html/title.phtml
 [Layout file types]: types.md
