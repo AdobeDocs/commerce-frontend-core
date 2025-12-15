@@ -33,11 +33,11 @@ The following table lists the Page Builder events you can bind to and handle wit
 | [contentType:duplicateAfter](#contenttypeduplicateafter)            | [stage:interactionStart](#stageinteractionstart)                                                 |
 | [contentType:mountAfter](#contenttypemountafter)                    | [stage:interactionStop](#stageinteractionstop)                                                   |
 | [contentType:moveAfter](#contenttypemoveafter)                      | [stage:error](#stageerror)                                                                       |
-| [contentType:moveBefore](#contenttypemovebefore)                    | [stage:{{preview.contentType.stageId}}:masterFormatRenderAfter](#stagepreviewcontenttypestageidmasterformatrenderafter) |
-| [contentType:redrawAfter](#contenttyperedrawafter)                  | [stage:{{preview.contentType.stageId}}:readyAfter](#stagepreviewcontenttypestageidreadyafter)                           |
-| [contentType:removeAfter](#contenttyperemoveafter)                  | [stage:{{preview.contentType.stageId}}:renderAfter](#stagepreviewcontenttypestageidrenderafter)                    |
-| [contentType:renderAfter](#contenttyperenderafter)                  | [stage:{{preview.contentType.stageId}}:fullScreenModeChangeAfter](#stagepreviewcontenttypestageidfullscreenmodechangeafter)      |
-| [contentType:renderAfter](#contenttyperenderafter)                  | [stage:{{preview.contentType.stageId}}:viewportChangeAfter](#stagepreviewcontenttypestageidviewportchangeafter)         |
+| [contentType:moveBefore](#contenttypemovebefore)                    | [stage:`{{preview.contentType.stageId}}`:masterFormatRenderAfter](#stagepreviewcontenttypestageidmasterformatrenderafter) |
+| [contentType:redrawAfter](#contenttyperedrawafter)                  | [stage:`{{preview.contentType.stageId}}`:readyAfter](#stagepreviewcontenttypestageidreadyafter)                           |
+| [contentType:removeAfter](#contenttyperemoveafter)                  | [stage:`{{preview.contentType.stageId}}`:renderAfter](#stagepreviewcontenttypestageidrenderafter)                    |
+| [contentType:renderAfter](#contenttyperenderafter)                  | [stage:`{{preview.contentType.stageId}}`:fullScreenModeChangeAfter](#stagepreviewcontenttypestageidfullscreenmodechangeafter)      |
+| [contentType:renderAfter](#contenttyperenderafter)                  | [stage:`{{preview.contentType.stageId}}`:viewportChangeAfter](#stagepreviewcontenttypestageidviewportchangeafter)         |
 | [contentType:renderAfter](#contenttyperenderafter)                  | [stage:viewportChangeAfter](#stageviewportchangeafter)                                           |
 |                                                                     | [stage:updateAfter](#stageupdateafter)                                                           |
 |                                                                     |                                                                                                  |
@@ -47,9 +47,9 @@ The following table lists the Page Builder events you can bind to and handle wit
 | [column:initializeAfter](#columninitializeafter)                    |                                                                                                  |
 |                                                                     |                                                                                                  |
 | **Image Events**                                                    | **Other Events**                                                                                 |
-| [image:{{preview.contentType.id}}:assignAfter](#imagepreviewcontenttypeidassignafter) | [googleMaps:authFailure](#googlemapsauthfailure)                                                 |
+| [image:`{{preview.contentType.id}}`:assignAfter](#imagepreviewcontenttypeidassignafter) | [googleMaps:authFailure](#googlemapsauthfailure)                                                 |
 | [image:mountAfter](#imagemountafter)                                | [state](#state)                                                                                  |
-| [image:uploadAfter](#imageuploadafter)                              | [{{config.name}}:{{preview.contentType.id}}:updateAfter](#confignamepreviewcontenttypeidupdateafter)               |
+| [image:uploadAfter](#imageuploadafter)                              | [`{{config.name}}`:`{{preview.contentType.id}}`:updateAfter](#confignamepreviewcontenttypeidupdateafter)               |
 
 ## Event details
 

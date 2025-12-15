@@ -11,10 +11,6 @@ By default, Page Builder defines four responsive breakpoints, but only uses two 
 
 ![Add viewports illustration](../../_images/page-builder/pagebuilder-adding-viewports.svg)
 
-<InlineAlert variant="info" slots="text"/>
-
-**Example available**. An example for adding additional viewports is available for viewing and installing from: [https://github.com/commerce-docs/pagebuilder-theme](https://github.com/commerce-docs/pagebuilder-theme). This example uses an Admin theme, which is typically a best practice for production releases. But during development, you might find that using a module helps simplify your daily workflow. Especially if you're starting from scratch. Then you can even use the [PB Modules CLI](https://github.com/commerce-docs/pbmodules) to create a starting module.
-
 ## Steps for adding viewports
 
 1. Create an Admin theme or [Create a module](https://github.com/commerce-docs/pbmodules). Of course you can skip this step if you already have either one.
