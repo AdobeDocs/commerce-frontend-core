@@ -7,17 +7,17 @@ description: Configure Adobe Commerce and Magento Open Source UI components and 
 
 The Filters component renders UI controls for filtering and applies filtering. Must be a child of the [Listing component](listing-grid.md).
 
-See the [Admin Design Pattern Library (Filters)](https://developer.adobe.com/commerce/admin-developer/pattern-library/displaying-data/filters/) topic for information about the UI design patterns that can be implemented using Filters component.
+See the [Admin Design Pattern Library (Filters)](https://developer.adobe.com/commerce/admin-developer/pattern-library/displaying-data/filters) topic for information about the UI design patterns that can be implemented using Filters component.
 
 ## Options
 
 | Option | Description | Type | Default Value |
 | --- | --- | --- | --- |
-| `component` | The path to the component’s `.js` file in terms of RequireJS. | String | `''` |
+| `component` | The path to the component's `.js` file in terms of RequireJS. | String | `''` |
 | `chipsConfig` | Configuration passed to the [`FiltersChips`](filters-chips.md) component. | Object | `{ name: '${ $.name }_chips', provider: '${ $.chipsConfig.name }', component: 'Magento_Ui/js/grid/filters/chips'}` |
 | `statefull` |Defines a list of component properties whose values are automatically saved in the configured storage if they change. `key` is the property's name and the `value` defines whether its saved.  | Object | `{applied: true}` |
 | `stickyTmpl` | Additional `.html` template that displays filters when the Toolbar component gets a fixed position. | String | `ui/grid/sticky/filters` |
-| `template` | Path to the component’s `.html` template. | String | `ui/grid/filters/filters` |
+| `template` | Path to the component's `.html` template. | String | `ui/grid/filters/filters` |
 | `templates.filters` |Describes basic filter types. This definitions are used to dynamically create filter elements based on the `filter` field specified in the corresponding column. For example, if a column's `filter` property contains the `text` value, then a `Filter` component instance with a definition for the `text` type will be created.  | Object | Contains definitions of the `text`, `select`,`dateRange` and `textRange` filter types. |
 
 ## Source files

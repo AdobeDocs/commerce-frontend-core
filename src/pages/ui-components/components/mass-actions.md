@@ -7,7 +7,7 @@ description: Configure Adobe Commerce and Magento Open Source UI components and 
 
 The MassActions component allows performing actions with multiple selected items. Must be a child of the [Listing component](listing-grid.md).
 
-See the [Admin Design Pattern Library (MassActions)](https://developer.adobe.com/commerce/admin-developer/pattern-library/displaying-data/datatable/#mass-actions) topic for information about the UI design patterns that can be implemented using the MassActions component.
+See the [Admin Design Pattern Library (MassActions)](https://developer.adobe.com/commerce/admin-developer/pattern-library/displaying-data/datatable#mass-actions) topic for information about the UI design patterns that can be implemented using the MassActions component.
 
 ## Dependencies
 
@@ -24,7 +24,7 @@ The MassActions component has dependencies on the following components:
 | `actions`    | A list of available actions.                                                                                            | `MassAction[]` | -                                  |
 | `noItemsMsg` | Message displayed when a user attempts to perform an action without any selected items.                                 | String         | `'You haven't selected any items!'` |
 | `stickyTmpl` | Additional component's template that is used when its parent [Toolbar](toolbar.md) component receives a fixed position. | String         | `ui/grid/sticky/actions`           |
-| template     | Path to the component’s `.html` template.                                                                               | String         | `ui/grid/paging/sizes`             |
+| template     | Path to the component's `.html` template.                                                                               | String         | `ui/grid/paging/sizes`             |
 
 ### MassAction interface
 
