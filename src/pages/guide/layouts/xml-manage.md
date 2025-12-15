@@ -184,6 +184,7 @@ By default, `itemprop=description` is an argument on the `short_description` att
   </div>
 </div>
 ```
+
 To add the `itemprop` attribute to another product attribute displayed in the `<body>` of your product page layout:
 
 1. Create a new theme-extension file similar to the `catalog_product_view.xml` found here: `app/design/frontend/<Vendor>/<theme>/Magento_Catalog/layout/catalog_product_view.xml`.
