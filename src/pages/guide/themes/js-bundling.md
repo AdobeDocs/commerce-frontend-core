@@ -157,6 +157,6 @@ Follow these steps to help you identify which JavaScript files to bundle for you
 1. Compare the JavaScript files loaded in the pages with the JavaScript files.
 1. Use the results of that comparison to build your exclude list.
 
-[production-mode]:https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#production-mode
-[static-content]:https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/static-view/static-view-file-deployment.html
+[production-mode]:https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#production-mode
+[static-content]:https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/static-view/static-view-file-deployment
 [luma-view-xml]:https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/luma/etc/view.xml#L270

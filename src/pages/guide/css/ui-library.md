@@ -237,15 +237,15 @@ The generated UI library documentation is provided in a convenient HTML view. It
 
 [`lib/web/css/docs/source/README.md`]: https://github.com/magento/magento2/blob/2.4/lib/web/css/docs/source/README.md
 
-[`lib/web/css/docs`]: https://github.com/magento/magento2/blob/2.4/lib/web/css/docs
+[`lib/web/css/docs`]: https://github.com/magento/magento2/tree/2.4/lib/web/css/docs
 
 [`lib/web/css/source/lib/variables/_breadcrumbs.less`]: https://github.com/magento/magento2/blob/2.4/lib/web/css/source/lib/variables/_breadcrumbs.less
 
-[`lib/web/css/source/lib/variables`]: https://github.com/magento/magento2/blob/2.4/lib/web/css/source/lib/variables
+[`lib/web/css/source/lib/variables`]: https://github.com/magento/magento2/tree/2.4/lib/web/css/source/lib/variables
 
-[`lib/web/css`]: https://github.com/magento/magento2/blob/2.4/lib/web/css
+[`lib/web/css`]: https://github.com/magento/magento2/tree/2.4/lib/web/css
 
-[Less]: http://lesscss.org/
+[Less]: https://lesscss.org/
 
 [ui_lib1.png]: ../../_images/frontend/ui_lib1.png
 [ui_lib2.png]: ../../_images/frontend/ui_lib2.png

@@ -21,7 +21,7 @@ Before installing Page Builder for making contributions, you must have the follo
 
 -  A local development installation of Adobe Commerce 2.3.1+ -- Use the installation instructions from the [DevDocs installation guide](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview).
 
--  Access to the private Page Builder repository. You should participate in [Adobe Partner Program](https://business.adobe.com/products/magento/partners.html) to have these permissions.
+-  Access to the private Page Builder repository. You should participate in [Adobe Partner Program](https://business.adobe.com/support/adobe-partners.html) to have these permissions.
 
 -  [npm package manager](https://www.npmjs.com/get-npm)
 

@@ -9,7 +9,7 @@ keywords:
 
 # Cascading style sheets (CSS)
 
-The Adobe Commerce and Magento Source applications incorporate [Less](http://lesscss.org/), a CSS pre-processor that simplifies the management of complex CSS files. To define styles for a store, you can use both CSS and Less stylesheets.
+The Adobe Commerce and Magento Source applications incorporate [Less](https://lesscss.org/), a CSS pre-processor that simplifies the management of complex CSS files. To define styles for a store, you can use both CSS and Less stylesheets.
 
 The Commerce application provides a built-in Less UI library, which you can optionally extend.
 
@@ -21,7 +21,7 @@ To customize storefront styles, you need to [create a custom design theme](../th
 
 ## Things to remember when working with styles
 
-*  Make sure that you [set](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) your application to the developer or default [mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html).
+*  Make sure that you [set](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode) your application to the developer or default [mode](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes).
 
 *  If your style changes do not apply after refreshing the page, cleaning the static files cache might help. See the [caching](../caching.md#page-caching) for instructions how to do this.
 

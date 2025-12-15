@@ -21,7 +21,7 @@ The following sections contain more information about each installation flow.
 
 ## Prerequisites
 
-[Set](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) your application to the developer or default [mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html).
+[Set](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode) your application to the developer or default [mode](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes).
 
 ## Manual install
 
@@ -33,7 +33,7 @@ To install a theme manually:
 
 ## Composer install
 
-To install the theme as composer package, follow the instructions in the [Install, manage, and upgrade modules](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions) topic.
+To install the theme as composer package, follow the instructions in the [Install, manage, and upgrade modules](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions) topic.
 
 -  Manually installed themes are stored in the `app/design/` directory. Themes loaded through Composer are located in the `vendor/` directory and can be stored anywhere in root.
 
@@ -45,7 +45,7 @@ Composer-based themes are loaded from external sources and cannot be modified di
 
 ## Marketplace extension install
 
-If a theme is distributed on [Commerce Marketplace](https://marketplace.magento.com/), see [Install the Extension](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions).
+If a theme is distributed on [Commerce Marketplace](https://commercemarketplace.adobe.com/), see [Install the Extension](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions).
 
 ## Register a theme
 

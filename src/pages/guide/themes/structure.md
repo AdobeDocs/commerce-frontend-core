@@ -108,7 +108,7 @@ Static view files that can be accessed by a direct link from the storefront, are
 
 <InlineAlert variant="info" slots="text"/>
 
-To be actually accessible for browsers public static files are [published](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/static-view/static-view-file-deployment.html#config-cli-static-overview) to the `/pub/static/frontend/<Vendor>/<theme>/<locale>/css/` directory.
+To be actually accessible for browsers public static files are [published](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/static-view/static-view-file-deployment) to the `/pub/static/frontend/<Vendor>/<theme>/<locale>/css/` directory.
 
 ### Dynamic view files
 

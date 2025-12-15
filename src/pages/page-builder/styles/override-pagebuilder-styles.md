@@ -8,7 +8,7 @@ edition: paas
 
 # Override Page Builder styles
 
-To override the internal CSS styles that Page Builder applies to content types, you must create a CSS selector with a [specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity) greater than `110`, which is the selector specificity that Page Builder applies to all of its native content types and your custom content types. Page Builder's default selector pattern is shown here:
+To override the internal CSS styles that Page Builder applies to content types, you must create a CSS selector with a [specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Specificity) greater than `110`, which is the selector specificity that Page Builder applies to all of its native content types and your custom content types. Page Builder's default selector pattern is shown here:
 
 ```scss
 // Specificity = 110, always

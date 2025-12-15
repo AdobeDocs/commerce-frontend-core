@@ -5,7 +5,7 @@ description: Learn how to initialize and configure the Adobe Commerce and Magent
 
 # Menu widget
 
-The menu widget is a customized [jQuery UI Menu widget](http://api.jqueryui.com/menu/). Menu extends the default functionality with the following:
+The menu widget is a customized [jQuery UI Menu widget](https://api.jqueryui.com/menu/). Menu extends the default functionality with the following:
 
 -  expanding all layers of the menu tree past the second layer
 -  declaring a responsive menu
@@ -55,7 +55,7 @@ Setting the default responsive handler for the navigation widget.
 
 ### `mediaBreakpoint`
 
-Sets the width of user’s window in pixels for which the menu switches between mobile view and desktop view.
+Sets the width of user's window in pixels for which the menu switches between mobile view and desktop view.
 
 **Type**: String.
 
@@ -90,7 +90,7 @@ The following methods from [jQuery UI menu widget] were adjusted in scope of the
 
 [lib/web/mage/menu.js]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/menu.js
 [Initialize JavaScript]: ../init.md
-[jQuery UI menu widget]: http://api.jqueryui.com/menu/
+[jQuery UI menu widget]: https://api.jqueryui.com/menu/
 
 ## Code Sample
 

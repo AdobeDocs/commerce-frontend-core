@@ -10,4 +10,4 @@ edition: paas
 
 The Release notes for Page Builder are hosted on Adobe Experience League as part of the Page Builder User Guide. Follow the link below to open the Page Builder release notes in a new window:
 
-- [Release notes for Page Builder](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/release-notes.html)
+- [Release notes for Page Builder](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/release-notes)

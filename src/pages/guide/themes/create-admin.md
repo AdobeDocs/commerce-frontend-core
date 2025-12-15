@@ -12,7 +12,7 @@ This topic describes how to create your custom theme for Admin, referencing the 
 
 ## Prerequisites
 
-[Set](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) your application to the developer [mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html). The application mode influences the way static files are cached.
+[Set](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode) your application to the developer [mode](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes). The application mode influences the way static files are cached.
 
 ## Overview
 

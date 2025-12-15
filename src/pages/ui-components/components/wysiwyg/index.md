@@ -11,7 +11,7 @@ The application supports all selector, plugin, and toolbar/menu configuration op
 
 <InlineAlert variant="info" slots="text" />
 
-Refer to [TinyMCE's documentation](https://www.tiny.cloud/docs/) for more information.
+Refer to [TinyMCE's documentation](https://www.tiny.cloud/docs/tinymce/latest/) for more information.
 
 ## Options
 
@@ -22,7 +22,7 @@ Wysiwyg-specific options:
 | Option | Description | Type | Default |
 | --- | --- | --- | --- |
 | `class` | The path to the component class. | Object | `Magento\Ui\Component\Form\Element\Wysiwyg` |
-| `component` | The path to the component’s `.js` file in terms of RequireJS. | String | `'Magento_Ui/js/form/element/wysiwyg'` |
+| `component` | The path to the component's `.js` file in terms of RequireJS. | String | `'Magento_Ui/js/form/element/wysiwyg'` |
 | `content` | Initial WYSIWYG content. | String | `''` |
 | `elementSelector` | The selector of the HTML element that is wrapped by the WYSIWYG editor. | String | `'textarea'` |
 | `elementTmpl` | The path to the template particular field type template, specific for this component. | String | `'ui/form/element/wysiwyg'` |

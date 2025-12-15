@@ -9,11 +9,11 @@ keywords:
 
 # Compile LESS with Grunt
 
-The topic describes how to use the [Grunt JavaScript task runner](http://gruntjs.com/) to compile `.less` files.
+The topic describes how to use the [Grunt JavaScript task runner](https://gruntjs.com/) to compile `.less` files.
 
 ## Prerequisites
 
--  Make sure that you [set](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) your application to the developer or default [mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html). The default mode sets the Less compilation mode to Server-side Less compilation.
+-  Make sure that you [set](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode) your application to the developer or default [mode](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes). The default mode sets the Less compilation mode to Server-side Less compilation.
 -  Install and configure [Grunt](../tools/grunt.md).
 
 ## Track changes using Grunt

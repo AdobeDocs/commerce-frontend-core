@@ -111,6 +111,6 @@ The result is a calendar and a icon(*Click Here*) that opens the calendar.
 
 ![Calendar Widget](../../_images/javascript/calendar-widget-result.png)
 
-[Datepicker Widget]: http://api.jQueryui.com/datepicker/
+[Datepicker Widget]: https://api.jqueryui.com/datepicker/
 [lib/web/mage/calendar.js]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/calendar.js
 [Initialize JavaScript]: ../init.md

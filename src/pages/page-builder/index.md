@@ -38,4 +38,4 @@ The following topics will help you get started with Page Builder development:
 
 -  [Install Page Builder Examples](pagebuilder-examples.md)
 
--  [Check out the User Guide](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/guide-overview.html?lang=en)
+-  [Check out the User Guide](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/guide-overview)

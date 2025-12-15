@@ -182,7 +182,7 @@ For an example of `listens` usage, see [`new_category_form.xml`, line 84](https:
 
 ## Template strings usage
 
-The options of linking properties can contain template strings in the `'${...}'` format. During the component's initialization, values in this format are processed as template strings using [ES6 templates](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Template_literals). In browsers that do not support ES6 templates, these values are processed as underscore templates.
+The options of linking properties can contain template strings in the `'${...}'` format. During the component's initialization, values in this format are processed as template strings using [ES6 templates](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals). In browsers that do not support ES6 templates, these values are processed as underscore templates.
 
 So if we put a variable name in `'${...}'`, it is processed into a string representation of the variable's value.
 

@@ -101,7 +101,7 @@ The selection of available variables depends on which template you use as a basi
 
 ## Styles for email templates
 
-Some email clients (for example, Gmail) support only CSS styles that have been applied as "inline" styles on the `style` attribute of HTML tags. Because of this, the majority of email styles are applied as inline styles. Inline styling is provided by the [Emogrifier](https://github.com/jjriv/emogrifier)Emogrifier library, which takes the HTML and CSS and adds all of the CSS styles to `style` attributes of the HTML tags.
+Some email clients (for example, Gmail) support only CSS styles that have been applied as "inline" styles on the `style` attribute of HTML tags. Because of this, the majority of email styles are applied as inline styles. Inline styling is provided by the [Emogrifier](https://github.com/MyIntervals/emogrifier) library, which takes the HTML and CSS and adds all of the CSS styles to `style` attributes of the HTML tags.
 
 ### Inline styles
 
@@ -115,7 +115,7 @@ The `inlinecss` directive tells the application which files to apply as inline s
 
 For example, say an email is being sent from a store configured with the Luma theme. The `inlinecss` directive first looks for a `email-inline.less` file in `<Magento_Luma_theme_dir>/web/css/email-inline.less`. However because that file does not exist, it will fall back to the `<Magento_Blank_theme_dir>/web/css/email-inline.less` file. The contents of that file will then be compiled and its contents are applied as inline styles to the email template.
 
-Refer to the [Emogrifier README](https://github.com/jjriv/emogrifier#supported-css-selectors) to see what CSS selectors are supported.
+Refer to the [Emogrifier README](https://github.com/MyIntervals/emogrifier) to see what CSS selectors are supported.
 
 ### Non-inline styles
 
@@ -312,7 +312,7 @@ Exception: argument value can contain spaces if it is enclosed in brackets.
 
 ## Supported email clients and devices
 
-We test responsive emails using a combination of real devices and [Litmus](http://litmus.com/). Due to the greatly varied level of support among email clients for modern web technologies, not all email clients rendered the emails perfectly.
+We test responsive emails using a combination of real devices and [Litmus](https://www.litmus.com/). Due to the greatly varied level of support among email clients for modern web technologies, not all email clients rendered the emails perfectly.
 We strive to support all current, modern e-mail clients. Let us know about any client-specific issues you might have.
 
 ## Newsletter templates
