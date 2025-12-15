@@ -97,7 +97,7 @@ To add a variable to your template content:
 
 <InlineAlert variant="info" slots="text"/>
 
-The selection of available variables depends on which template you use as a basis. The template-specific variables are contained in a `<!--@vars @-->` comment at the top of each template on the file system. (For example, look at [app/code/Magento/Customer/view/frontend/email/account_new.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Customer/view/frontend/email/account_new.html#L8).
+The selection of available variables depends on which template you use as a basis. The template-specific variables are contained in a `<!--@vars @-->` comment at the top of each template on the file system. (For example, look at [app/code/Magento/Customer/view/frontend/email/account_new.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Customer/view/frontend/email/account_new.html)).
 
 ## Styles for email templates
 

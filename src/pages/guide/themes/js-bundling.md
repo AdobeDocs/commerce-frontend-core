@@ -159,4 +159,4 @@ Follow these steps to help you identify which JavaScript files to bundle for you
 
 [production-mode]:https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#production-mode
 [static-content]:https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/static-view/static-view-file-deployment
-[luma-view-xml]:https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/luma/etc/view.xml#L270
+[luma-view-xml]:https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/luma/etc/view.xml
