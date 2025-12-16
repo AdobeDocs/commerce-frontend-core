@@ -3,8 +3,11 @@ title: Render server-side previews
 description: How to use the RenderPool on the stage to render a backend preview.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Render server-side previews
 

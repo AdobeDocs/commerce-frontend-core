@@ -3,8 +3,11 @@ title: Upgrade content types
 description: Upgrade content types and convert existing content to map to the new configuration.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Upgrade content types
 

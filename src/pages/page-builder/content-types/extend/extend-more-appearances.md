@@ -3,8 +3,11 @@ title: Extend another appearance
 description: Extend the appearance for more styling options.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Extend another appearance
 

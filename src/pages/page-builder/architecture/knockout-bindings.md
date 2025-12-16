@@ -3,8 +3,11 @@ title: Page Builder Knockout bindings
 description: Add more functionality to certain content types through Knockouts binding syntax.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Page Builder Knockout bindings
 

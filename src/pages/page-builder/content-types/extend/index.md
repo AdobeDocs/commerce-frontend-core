@@ -3,8 +3,11 @@ title: Introduction to extending content types
 description: Introduction on how to extend content types.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Introduction to extending content types
 

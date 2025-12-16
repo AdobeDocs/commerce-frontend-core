@@ -3,8 +3,11 @@ title: Page Builder Architecture
 description: Describes the architecture of Page Builder
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Page Builder Architecture
 

@@ -3,8 +3,11 @@ title: Add icons and images
 description: Add icons and images to a panel, form or other content.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Add icons and images
 

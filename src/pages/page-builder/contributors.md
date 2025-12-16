@@ -4,8 +4,11 @@ description: Install Page Builder and its dependencies as a contributor.
 keywords:
   - Install
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Install Page Builder
 

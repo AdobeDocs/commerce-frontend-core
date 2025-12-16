@@ -3,8 +3,11 @@ title: Use Page Builder for product attributes
 description: Change a custom product attribute's input type using the Admin UI.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Use Page Builder for product attributes
 

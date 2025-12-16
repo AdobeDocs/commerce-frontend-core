@@ -3,8 +3,11 @@ title: Extend an appearance
 description: Add a new user-defined property to an existing content type. 
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Extend an appearance
 

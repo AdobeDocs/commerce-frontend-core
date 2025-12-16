@@ -3,8 +3,11 @@ title: Page Builder events
 description: How to consume and bind Page Builder events in JavaScript.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Page Builder events
 

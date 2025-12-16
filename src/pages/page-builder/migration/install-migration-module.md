@@ -3,8 +3,11 @@ title: Install the migration module
 description: Install the migration module composer package.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Install the migration module
 

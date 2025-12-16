@@ -3,8 +3,11 @@ title: Content type configurations
 description: Define content types to Page Builder.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Content type configurations
 

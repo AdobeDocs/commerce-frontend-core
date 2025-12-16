@@ -3,8 +3,11 @@ title: Use Themes to override styles
 description: Override Page Builder's default styles for native content tusing the Admin and frontend themes.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Use Themes to override styles
 

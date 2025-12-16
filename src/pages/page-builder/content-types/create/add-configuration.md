@@ -3,8 +3,11 @@ title: Add configuration
 description: Use the configuration file to define settings and references to your content type files.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Add configuration
 

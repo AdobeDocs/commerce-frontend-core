@@ -3,8 +3,11 @@ title: Install Page Builder example modules
 description: Install Page Builder example modules necessary for learning purposes.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Install Page Builder example modules
 

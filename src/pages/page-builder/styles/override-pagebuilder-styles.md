@@ -3,8 +3,11 @@ title: Override Page Builder styles
 description: Create a CSS selector to override the internal CSS styles that Page Builder applies to content types.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Override Page Builder styles
 

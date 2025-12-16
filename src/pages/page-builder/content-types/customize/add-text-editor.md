@@ -3,8 +3,11 @@ title: Add a text editor
 description: Add a reusable inline text editing component to the Page Builder stage for a content type.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Add a text editor
 

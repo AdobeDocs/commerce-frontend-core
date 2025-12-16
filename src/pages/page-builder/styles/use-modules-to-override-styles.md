@@ -3,8 +3,11 @@ title: Use Modules to override styles
 description: Use Page Builder modules to override styles from within the module using the Page Builder selector.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Use Modules to override styles
 

@@ -3,8 +3,11 @@ title: Add additional data
 description: Extend and configure Page Builder content types to accommodate any preferred setting that is not addressed in our existing schema definition.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Add additional data
 
