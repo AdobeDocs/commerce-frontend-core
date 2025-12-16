@@ -94,9 +94,9 @@ You can clean generated static view files in any of the following ways:
 
 -  In the Admin. Go to **System** > **Tools** > **Cache Management** and click **Flush Static Files Cache**.
 
-   <InlineAlert variant="info" slots="text"/>
+<InlineAlert variant="info" slots="text"/>
 
-   This option is only available in `developer` mode. Refer to the [static view files overview](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/static-view/static-view-file-deployment) for more information. For more details about the application modes, see [application modes](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode)
+This option is only available in `developer` mode. Refer to the [static view files overview](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/static-view/static-view-file-deployment) for more information. For more details about the application modes, see [application modes](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode)
 
 -  Manually by clearing the `pub/static` and `var/view_preprocessed` directories and subdirectories *except* for `pub/static/.htaccess`.
 

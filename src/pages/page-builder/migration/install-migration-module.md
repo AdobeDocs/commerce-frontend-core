@@ -46,9 +46,9 @@ To install the migration module:
 
 1. [Disable the default migration-on-deployment feature](#disable-migration-on-deployment).
 
-   <InlineAlert variant="warning" slots="text"/>
+<InlineAlert variant="warning" slots="text"/>
 
-   This step is critical for migration development work. It disables the default migration module behavior that migrates your content as part of the deployment using `setup:upgrade`. We made this the default behavior so that deployment to production is easy. But during development, you need to turn it off so that you do not run your migrations accidentally, before you have made strategic changes to your migration code, or backups to your database.
+This step is critical for migration development work. It disables the default migration module behavior that migrates your content as part of the deployment using `setup:upgrade`. We made this the default behavior so that deployment to production is easy. But during development, you need to turn it off so that you do not run your migrations accidentally, before you have made strategic changes to your migration code, or backups to your database.
 
 After completing these steps, the data migration source code can be found within the `vendor/magento` directory with the other Commerce modules.
 
