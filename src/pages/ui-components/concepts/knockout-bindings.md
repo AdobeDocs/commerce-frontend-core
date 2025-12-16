@@ -367,7 +367,7 @@ The `staticChecked` binding implements the behavior similar to the standard [`ch
 
 **Source**: `<Magento_Ui_module_dir>/view/base/web/js/lib/knockout/bindings/staticChecked.js`. [See on Github](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/knockout/bindings/staticChecked.js).
 
-**Value type:** Boolean \| String \| Number \| Array<String\|Number\|Number>
+**Value type:** Boolean \| String \| Number \| Array`<String\|Number\|Number>`
 
 **Aliases:** `[staticChecked]`
 
