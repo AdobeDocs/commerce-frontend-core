@@ -9,16 +9,16 @@ The Checkbox component implements a form field that is an HTML `<input type="che
 
 ## Options
 
-| Option | Description | Type | Default |
-| --- | --- | --- | --- |
-| `checked` | Initial checkbox state (selected or cleared). If `false`, the checkbox is cleared. If `true`, the checkbox is selected. | Boolean | `false` |
-| `component` | The path to the component’s `.js` file in terms of RequireJS. | String | `Magento_Ui/js/form/element/single-checkbox` |
-| `label` | Label to be displayed in the field. | String | `''` |
-| `multiple` | Renders multiple elements. | Boolean | `false` |
+| Option | Description                                                                                                                                                                                                     | Type | Default |
+| --- |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- | --- |
+| `checked` | Initial checkbox state (selected or cleared). If `false`, the checkbox is cleared. If `true`, the checkbox is selected.                                                                                         | Boolean | `false` |
+| `component` | The path to the component’s `.js` file in terms of RequireJS.                                                                                                                                                   | String | `Magento_Ui/js/form/element/single-checkbox` |
+| `label` | Label to be displayed in the field.                                                                                                                                                                             | String | `''` |
+| `multiple` | Renders multiple elements.                                                                                                                                                                                      | Boolean | `false` |
 | `prefer` | The input type of the element to be rendered. Can be either radio button, checkbox, or toggle key. Changing this value also changes the `elementTmpl`, originally defined in the parent (`abstract`) component. | String (`radio` \| `checkbox` \| `toggle`) | `checkbox` |
-| `template` | The path to the component’s `.html` template. | String | `ui/form/field` |
-| `templates` | Paths to templates for all possible types of input elements. The exact template to be used for rendering is defined by the `prefer` property. | Object | `{radio: 'ui/form/components/single/radio', checkbox: 'ui/form/components/single/checkbox', toggle: 'ui/form/components/single/switcher'}` |
-| `valueMap` | Convert the component's value to the expected type. For example, you can set to convert '0' to 'false', this would look like following: <br />`{'0': false}` | Object | `{}` |
+| `template` | The path to the component’s `.html` template.                                                                                                                                                                   | String | `ui/form/field` |
+| `templates` | Paths to templates for all possible types of input elements. The exact template to be used for rendering is defined by the `prefer` property.                                                                   | Object | `{radio: 'ui/form/components/single/radio', checkbox: 'ui/form/components/single/checkbox', toggle: 'ui/form/components/single/switcher'}` |
+| `valueMap` | Convert the component's value to the expected type. For example, you can set to convert '0' to 'false', this would look like following: \<br /\>`{'0': false}`                                                  | Object | `{}` |
 
 ## Source files
 

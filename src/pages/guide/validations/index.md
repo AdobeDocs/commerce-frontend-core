@@ -27,4 +27,4 @@ This module is present at [`lib/web/mage/validation.js`](https://github.com/mage
 
 ### `mage/validation/validation`
 
-This module is present at [`lib/web/mage/validation/validation.js`](https://github.com/magento/magento2/blob/2.4/lib/web/mage/validation/validation.js). This is considered the entry point for the form validator and is aliased as `validation` at [`Magento_Theme/view/frontend/requirejs-config.js`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Theme/view/frontend/requirejs-config.js#L29). This includes `mage/validation` (which in turn includes `jquery/validate`), and adds a few more rules to the validator.
+This module is present at [`lib/web/mage/validation/validation.js`](https://github.com/magento/magento2/blob/2.4/lib/web/mage/validation/validation.js). This is considered the entry point for the form validator and is aliased as `validation` at [`Magento_Theme/view/frontend/requirejs-config.js`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Theme/view/frontend/requirejs-config.js). This includes `mage/validation` (which in turn includes `jquery/validate`), and adds a few more rules to the validator.

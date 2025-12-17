@@ -3,8 +3,11 @@ title: Add a custom toolbar
 description: Implement an inline toolbar for your content type.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Add a custom toolbar
 

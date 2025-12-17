@@ -9,7 +9,7 @@ keywords:
 
 # Custom Knockout.js bindings
 
-This topic lists the custom [Knockout.js](http://knockoutjs.com/) bindings used in the core application files. These bindings can also be used by third-party developers.
+This topic lists the custom [Knockout.js](https://knockoutjs.com/) bindings used in the core application files. These bindings can also be used by third-party developers.
 
 ## Aliases
 
@@ -67,7 +67,7 @@ Defines whether the binding is enabled (`true`) or disabled (`false`).
 
 The `bindHtml` binding renders the provided string, as a collection of HTML elements, inside of the associated node.
 
-It also instantiates all bindings defined for the rendered elements in the scope of the current [view model](http://knockoutjs.com/documentation/observables.html).
+It also instantiates all bindings defined for the rendered elements in the scope of the current [view model](https://knockoutjs.com/documentation/observables.html).
 
 **Source**: `<Magento_Ui_module_dir>/view/base/web/js/lib/knockout/bindings/bind-html.js`. [See on GitHub](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/knockout/bindings/bind-html.js).
 
@@ -317,7 +317,7 @@ Configuration that is passed to the Slider widget.
 
 ### `resizable`
 
-The `resizable` binding is an adapter for the [jQuery UI Resizable](http://api.jqueryui.com/resizable/) widget.
+The `resizable` binding is an adapter for the [jQuery UI Resizable](https://api.jqueryui.com/resizable/) widget.
 
 **Source:** `<Magento_Ui_module_dir>/view/base/web/js/lib/knockout/bindings/resizable.js`. [See on GitHub](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/knockout/bindings/resizable.js).
 
@@ -363,11 +363,11 @@ Component's name by which to perform a lookup in the registry.
 
 ### `staticChecked`
 
-The `staticChecked` binding implements the behavior similar to the standard [`checked`](http://knockoutjs.com/documentation/checked-binding.html) binding. The difference is that `staticChecked` doesn't change the array of the already selected elements if the value of the associated DOM element changes.
+The `staticChecked` binding implements the behavior similar to the standard [`checked`](https://knockoutjs.com/documentation/checked-binding.html) binding. The difference is that `staticChecked` doesn't change the array of the already selected elements if the value of the associated DOM element changes.
 
 **Source**: `<Magento_Ui_module_dir>/view/base/web/js/lib/knockout/bindings/staticChecked.js`. [See on Github](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/knockout/bindings/staticChecked.js).
 
-**Value type:** Boolean \| String \| Number \| Array<String\|Number\|Number>
+**Value type:** Boolean \| String \| Number \| Array`<String\|Number\|Number>`
 
 **Aliases:** `[staticChecked]`
 
@@ -377,7 +377,7 @@ The `staticChecked` binding implements the behavior similar to the standard [`ch
 
 ### `template`
 
-Application `template` binding is a customization of the existing Knockout [`template` binding](http://knockoutjs.com/documentation/template-binding.html). It is used to render a template inside of the associated element. The original Knockout's  implementation was overridden to support asynchronous loading of templates by the provided path, instead of searching for them on the page.
+Application `template` binding is a customization of the existing Knockout [`template` binding](https://knockoutjs.com/documentation/template-binding.html). It is used to render a template inside of the associated element. The original Knockout's  implementation was overridden to support asynchronous loading of templates by the provided path, instead of searching for them on the page.
 
 **Source:** `<Magento_Ui_module_dir>/view/base/web/js/lib/knockout/template/engine.js`. [See on Github](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/lib/knockout/template/engine.js).
 

@@ -3,8 +3,11 @@ title: Use Modules to override styles
 description: Use Page Builder modules to override styles from within the module using the Page Builder selector.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Use Modules to override styles
 
@@ -40,7 +43,7 @@ In modules, the only difference between overriding Page Builder Admin styles and
 
 To help organize your `.less` files, we recommend using directory names that match the content-type names you want to override. This keeps you consistent with Page Builder module conventions. For example, in our `Heading` extension module, we added a `heading` directory. And for our custom content type module, we added a `custom-content-type` directory (assuming that's the name of our custom content type). These subdirectories (including `content-type`) are not required. They simply help organize your stylesheets as your modules grow.
 
-### Step 3: Add `.less` files and styles.
+### Step 3: Add `.less` files and styles
 
 We also recommend naming your `.less` files to match the content-type appearances you are overriding. Again, this is the Page Builder convention. Our example modules each have only one appearance called `default`. So we added a `_default.less` file to each. However, if we were extending Page Builder's `Row`, we add three `.less` files named after each `Row` appearance. This naming convention helps you find your overriding styles when you start extending or create content types with multiple appearances.
 

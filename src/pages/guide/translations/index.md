@@ -113,7 +113,7 @@ You can generate a translation dictionary to use by itself (for example, to tran
 
 <InlineAlert variant="success" slots="text"/>
 
-Existing language packages can be installed using [Composer](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions) like any other extension. You can search for package names on Packagist.
+Existing language packages can be installed using [Composer](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions) like any other extension. You can search for package names on Packagist.
 
 The application enables you to create the following types of language packages:
 
@@ -149,7 +149,7 @@ In addition to the `.csv` file that contains the language dictionary, the langua
 *  `composer.json` that contains any dependencies for the language package and a mapping to its defined locale. [Sample composer.json](https://developer.adobe.com/commerce/php/development/package/component/#sample-composerjson-file).
 
 *  `language.xml`, in which you declare a language package.
-   [Sample language.xml](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/localization.html#example%3A-create-a-language-package).
+   [Sample language.xml](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/localization#example-create-a-language-package).
 
 ## Open-source translations project
 
@@ -164,19 +164,17 @@ Admins will review and approve translations as available. The project may includ
 
 If you need help understanding the context or meaning of a UI string, or have questions about the project, chat with us in the Community Engineering [Translations Slack channel]. To join, send a request to [engcom@magento.com] or [self signup].
 
-[Generate a translation dictionary]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/localization.html
-[language inheritance]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/localization.html#create-directories-and-files
+[Generate a translation dictionary]: https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/localization
+[language inheritance]: https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/localization
 [parent theme]: ../themes/inheritance.md
 [Example theme translation dictionary]: practice.md
-[translation dictionary tool]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/localization.html
-[language package]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/localization.html#create-a-language-package
-[dictionary generator tool]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/localization.html
-[Translation dictionaries and packages]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/localization.html
+[translation dictionary tool]: https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/localization
+[language package]: https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/localization
+[Translation dictionaries and packages]: https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/localization
 [CrowdIn account]: https://crowdin.com/join
-[CrowdIn knowledge base]: https://support.crowdin.com/online-editor
+[CrowdIn knowledge base]: https://support.crowdin.com/online-editor/
 [engcom@magento.com]: mailto:engcom@magento.com
 [self signup]: https://opensource.magento.com/slack
 [Translations Slack channel]: https://magentocommeng.slack.com/archives/CD97DKBHS
-[Commerce Marketplace]: https://marketplace.magento.com/catalogsearch/result/?q=language%20packs#q=language%20pack&idx=m2_cloud_prod_default_products&p=0&nR%5Bvisibility_search%5D%5B%3D%5D%5B0%5D=1
+[Commerce Marketplace]: https://commercemarketplace.adobe.com/catalogsearch/result/?q=language%20packs
 [Conventional notations for paths to modules and themes]: ../conventions.md
-[Example theme translation dictionary]: practice.md

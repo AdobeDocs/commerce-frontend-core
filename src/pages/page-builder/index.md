@@ -3,8 +3,11 @@ title: What is Page Builder?
 description: An overview of Page Builder, a Adobe extension for creating content by dragging-and-dropping pre-built controls.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # What is Page Builder?
 
@@ -38,4 +41,4 @@ The following topics will help you get started with Page Builder development:
 
 -  [Install Page Builder Examples](pagebuilder-examples.md)
 
--  [Check out the User Guide](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/guide-overview.html?lang=en)
+-  [Check out the User Guide](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/guide-overview)

@@ -53,8 +53,6 @@ If the custom component you create is a [basic UI component] (like Form or Listi
 
 **The current version of the application does not yet support secondary components.**
 
-<!-- Link Definitions -->
-
 [uiElement]: ../concepts/element.md
 [uiCollection]: ../concepts/collection.md
 [use the "arbitrary" structure]: ../concepts/semantic-configuration.md

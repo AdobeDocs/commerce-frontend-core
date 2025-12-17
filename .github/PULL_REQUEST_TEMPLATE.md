@@ -8,7 +8,7 @@ This pull request (PR) ...
 
 - ...
 
-## Links to Magento Open Source code
+## Links to the public Commerce codebase
 
 <!--  OPTIONAL - REMOVE THIS SECTION IF NOT USED. If this pull request references a file in a Magento Open Source or Adobe Commerce codebase repository, add it here. -->
 

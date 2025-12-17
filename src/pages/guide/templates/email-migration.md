@@ -24,7 +24,7 @@ The following command scans all database email templates overridden using the Ad
 bin/magento dev:email:override-compatibility-check
 ```
 
-To scan email templates overriden using a custom [theme](email.md), please consider using the [Upgrade Compatibility Tool](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/install.html).
+To scan email templates overriden using a custom [theme](email.md), please consider using the [Upgrade Compatibility Tool](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run).
 
 The following command scans newsletter templates for any potential variable usage compatibility issues.
 

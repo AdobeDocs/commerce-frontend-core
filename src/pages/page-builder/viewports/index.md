@@ -3,8 +3,11 @@ title: Introduction to viewports for responsive content
 description: Overview of viewports, which are buttons and their related device widths shown on the stage. 
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Introduction to viewports for responsive content
 

@@ -3,12 +3,15 @@ title: Override Page Builder styles
 description: Create a CSS selector to override the internal CSS styles that Page Builder applies to content types.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Override Page Builder styles
 
-To override the internal CSS styles that Page Builder applies to content types, you must create a CSS selector with a [specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity) greater than `110`, which is the selector specificity that Page Builder applies to all of its native content types and your custom content types. Page Builder's default selector pattern is shown here:
+To override the internal CSS styles that Page Builder applies to content types, you must create a CSS selector with a [specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Specificity) greater than `110`, which is the selector specificity that Page Builder applies to all of its native content types and your custom content types. Page Builder's default selector pattern is shown here:
 
 ```scss
 // Specificity = 110, always
@@ -16,9 +19,7 @@ To override the internal CSS styles that Page Builder applies to content types, 
 #html-body  +  [data-pb-style=W3M3WHX]
 ```
 
-![Default style selector](../../_images/page-builder/pagebuilder-style-selector.svg)
-
-*Page Builder default selector pattern*
+![Page Builder default selector pattern](../../_images/page-builder/pagebuilder-style-selector.svg)
 
 You can find all the details about how Page Builder styles its content types in [How Page Builder styles content](index.md).
 
@@ -37,8 +38,6 @@ To override Page Builder's styles, always use the following CSS selector pattern
 ```
 
 ![CSS selector override pattern](../../_images/page-builder/pagebuilder-style-override-pattern-class.svg)
-
-*CSS selector override pattern*
 
 1. `#html-body` - Start all your override selectors with this `id`. The `#html-body` id is in the `<body>` element of every Adobe Commerce frontend and admin page.
 
@@ -106,9 +105,7 @@ If your CSS class name is `.theme-headings`, the CSS selector you define in your
 #html-body [data-content-type="heading"].theme-headings {}
 ```
 
-![Page Builder style selector](../../_images/page-builder/pagebuilder-style-override-selector.svg)
-
-*Adding theme classes to the Page Builder styling pattern*
+![Adding theme classes to the Page Builder styling pattern](../../_images/page-builder/pagebuilder-style-override-selector.svg)
 
 By adding the class to the pattern, you create a `Heading` selector with a specificity of `120`—which again overrides Page Builder's default specificity of `110`. All the CSS rules declared in the selector with the `.theme-headings` class will override Page Builder's equivalent rules for the `Heading` content type.
 

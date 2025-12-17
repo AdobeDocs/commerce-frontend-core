@@ -3,8 +3,11 @@ title: Overview of content migration
 description: Migrate content from BlueFoot blocks to the new Page Builder content types.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Overview of content migration
 

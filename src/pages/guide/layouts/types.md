@@ -91,7 +91,7 @@ Sample page layout declaration file: `<Magento_Theme_module_dir>/view/frontend/l
 </page_layouts>
 ```
 
-Use the `layout` attribute in the `page` node of a page configuration file to define a layout type for the page. The following example shows how to use the `3 columns` page layout type for the [Wish List Sharing](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Wishlist/view/frontend/layout/wishlist_index_share.xml#L8) page:
+Use the `layout` attribute in the `page` node of a page configuration file to define a layout type for the page. The following example shows how to use the `3 columns` page layout type for the [Wish List Sharing](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Wishlist/view/frontend/layout/wishlist_index_share.xml) page:
 
 Override the default `wishlist_index_share.xml` in any one of the following paths and add the `layout="3columns"` in the `page` node.
 
@@ -137,18 +137,18 @@ Conventionally page configuration files must be located as follows:
 
 The following table describes the instructions specific for page configuration files. For the descriptions of common layout instructions see [Layout instructions](xml-instructions.md).
 
-Element | Attributes | Parent of | Description
---------|------------|-----------|------------
-`<page>` | `layout = {layout}`<br />`xsi:noNamespaceSchemaLocation = path_to_schema"` | `<html>`<br />`<head>`<br />`<body>`<br />`<update>` | Mandatory root element.
-`<html>` | none | `<attribute>` |
-`<head>` | none | `<title>`<br />`<meta>`<br />`<link>`<br />`<css>`<br />`<font>`<br />`<script>`<br />`<remove>`<br />`<attribute>` |
-`<body>` | none | `<block>`<br />`<container>`<br />`<move>`<br />`<attribute>`<br />`<referenceBlock>`<br />`<referenceContainer>`<br />`<action>` |
-`<attribute>` | `name = {arbitrary_name}`<br />`value = {arbitrary_value}` | | Specified for `<html>`, rendered as:<br />`<html name="value"`>
-`<title>` | none | none | Page title
-`<meta>` | `<content>`<br />`<charset>`<br />`<http-equiv>`<br />`<name>`<br />`<scheme>` | none
-`<link>` | `<defer>`<br />`<ie_condition>`<br />`<charset>`<br />`<hreflang>`<br />`<media>`<br />`<rel>`<br />`<rev>`<br />`<sizes>`<br />`<src_type>`<br />`<target>`<br />`<type>` | none
-`<css>` | `<defer>`<br />`<ie_condition>`<br />`<charset>`<br />`<hreflang>`<br />`<media>`<br />`<rel>`<br />`<rev>`<br />`<sizes>`<br />`<src>`<br />`<src_type>`<br />`<target>`<br />`<type>` | none
-`<script>` | `<defer>`<br />`<ie_condition>`<br />`<async>`<br />`<charset>`<br />`<src>`<br />`<src_type>`<br />`<type>` | none
+| Element | Attributes | Parent of | Description |
+| ------- | ---------- | --------- | ----------- |
+| `<page>` | `layout = {layout}`, `xsi:noNamespaceSchemaLocation = path_to_schema"` | `<html>`, `<head>`, `<body>`, `<update>` | Mandatory root element. |
+| `<html>` | none | `<attribute>` | |
+| `<head>` | none | `<title>`, `<meta>`, `<link>`, `<css>`, `<font>`, `<script>`, `<remove>`, `<attribute>` | |
+| `<body>` | none | `<block>`, `<container>`, `<move>`, `<attribute>`, `<referenceBlock>`, `<referenceContainer>`, `<action>` | |
+| `<attribute>` | `name = {arbitrary_name}`, `value = {arbitrary_value}` | | Specified for `<html>`, rendered as: `<html name="value">` |
+| `<title>` | none | none | Page title |
+| `<meta>` | `<content>`, `<charset>`, `<http-equiv>`, `<name>`, `<scheme>` | none | |
+| `<link>` | `<defer>`, `<ie_condition>`, `<charset>`, `<hreflang>`, `<media>`, `<rel>`, `<rev>`, `<sizes>`, `<src_type>`, `<target>`, `<type>` | none | |
+| `<css>` | `<defer>`, `<ie_condition>`, `<charset>`, `<hreflang>`, `<media>`, `<rel>`, `<rev>`, `<sizes>`, `<src>`, `<src_type>`, `<target>`, `<type>` | none | |
+| `<script>` | `<defer>`, `<ie_condition>`, `<async>`, `<charset>`, `<src>`, `<src_type>`, `<type>` | none | |
 
 ## Generic layout
 
@@ -165,11 +165,11 @@ Conventionally generic layout files must be located as follows:
 
 The following table describes the instructions specific for generic layout files. For the descriptions of common layout instructions see [Layout instructions](xml-instructions.md).
 
-Element | Attributes | Parent of | Description
---------|------------|-----------|------------
-`<layout>` | `xsi:noNamespaceSchemaLocation="{path_to_schema}"` | `<container>`<br />`<update>` | Mandatory root element.
-`<update>` | `handle="{name_of_handle_to_include}"` | none |
-`<container>` | `name="root"`<br />For a complete list of attributes, see [Layout instructions](xml-instructions.md) | `<block>`<br />`<container>`<br />`<referenceBlock>`<br />`<referenceContainer>` | Mandatory element.
+| Element | Attributes | Parent of | Description |
+| ------- | ---------- | --------- | ----------- |
+| `<layout>` | `xsi:noNamespaceSchemaLocation="{path_to_schema}"` | `<container>`, `<update>` | Mandatory root element. |
+| `<update>` | `handle="{name_of_handle_to_include}"` | none | |
+| `<container>` | `name="root"`, see [Layout instructions](xml-instructions.md) for all attributes | `<block>`, `<container>`, `<referenceBlock>`, `<referenceContainer>` | Mandatory element. |
 
 Sample generic layout:
 

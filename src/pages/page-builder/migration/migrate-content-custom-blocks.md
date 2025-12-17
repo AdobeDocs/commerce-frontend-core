@@ -3,8 +3,11 @@ title: Migrate content from custom blocks
 description: Migrate content from your custom BlueFoot blocks to Page Builder custom content types.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Migrate content from custom blocks
 

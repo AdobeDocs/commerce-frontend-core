@@ -3,8 +3,11 @@ title: Use Page Builder for product attributes
 description: Change a custom product attribute's input type using the Admin UI.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Use Page Builder for product attributes
 
@@ -127,5 +130,5 @@ To prevent your form field from switching or using Page Builder, set the `is_pag
 
 [Catalog Input Type]: ../_images/page-builder/catalog-input-type.png
 [Page Builder button]:../_images/page-builder/pagebuilder-button.png
-[WYSIWYG UI Component]: /src/pages/ui-components/components/wysiwyg/index.md
-[UI Component configuration file]: /src/pages/ui-components/concepts/xml-declaration.md
+[WYSIWYG UI Component]: ../ui-components/components/wysiwyg/index.md
+[UI Component configuration file]: ../ui-components/concepts/xml-declaration.md

@@ -3,8 +3,11 @@ title: Add an image uploader
 description: Add the image uploader component to your content type so users can add images from the Admin stage as needed.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Add an image uploader
 

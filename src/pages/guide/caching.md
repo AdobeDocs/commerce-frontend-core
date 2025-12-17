@@ -19,11 +19,11 @@ Retrieving stored (cached) content from a previous request for the same client i
 
 The Adobe Commerce and Magento Open Source page cache library contains a simple PHP reverse proxy that enables full page caching out of the box. A reverse proxy acts as an intermediary between visitors and your application and can reduce the load on your server.
 
-We recommend using [Varnish](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html), but you can use the default caching mechanism instead, which stores cache files in any of the following:
+We recommend using [Varnish](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish), but you can use the default caching mechanism instead, which stores cache files in any of the following:
 
 -  File system (You don't need to do anything to use file-based caching.)
 -  [Database](https://developer.adobe.com/commerce/php/development/cache/partial/database-caching/)
--  [Redis](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html)
+-  [Redis](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache)
 
 ## Cacheable and uncacheable pages
 
@@ -70,7 +70,7 @@ The following cache types mostly have impact on frontend development process:
 
 <InlineAlert variant="help" slots="text"/>
 
-The full list of cache types can be found in the [Overview of cache types](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-cache.html) topic.
+The full list of cache types can be found in the [Overview of cache types](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache) topic.
 
 ## Clean cache
 
@@ -86,7 +86,7 @@ To view the status of the cache, run:
 bin/magento cache:status
 ```
 
-For more details about working with cache, see [Manage the cache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-cache.html)
+For more details about working with cache, see [Manage the cache](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache)
 
 ## Clean static files cache
 
@@ -94,8 +94,9 @@ You can clean generated static view files in any of the following ways:
 
 -  In the Admin. Go to **System** > **Tools** > **Cache Management** and click **Flush Static Files Cache**.
 
-    {:.bs-callout-info}
-   This option is only available in `developer` mode. Refer to the [static view files overview](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/static-view/static-view-file-deployment.html) for more information. For more details about the application modes, see [application modes](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html)
+<InlineAlert variant="info" slots="text"/>
+
+This option is only available in `developer` mode. Refer to the [static view files overview](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/static-view/static-view-file-deployment) for more information. For more details about the application modes, see [application modes](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode)
 
 -  Manually by clearing the `pub/static` and `var/view_preprocessed` directories and subdirectories *except* for `pub/static/.htaccess`.
 

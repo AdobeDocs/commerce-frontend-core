@@ -11,10 +11,6 @@ By default, Page Builder defines four responsive breakpoints, but only uses two 
 
 ![Add viewports illustration](../../_images/page-builder/pagebuilder-adding-viewports.svg)
 
-<InlineAlert variant="info" slots="text"/>
-
-**Example available**. An example for adding additional viewports is available for viewing and installing from: [https://github.com/commerce-docs/pagebuilder-theme](https://github.com/commerce-docs/pagebuilder-theme). This example uses an Admin theme, which is typically a best practice for production releases. But during development, you might find that using a module helps simplify your daily workflow. Especially if you're starting from scratch. Then you can even use the [PB Modules CLI](https://github.com/commerce-docs/pbmodules) to create a starting module.
-
 ## Steps for adding viewports
 
 1. Create an Admin theme or [Create a module](https://github.com/commerce-docs/pbmodules). Of course you can skip this step if you already have either one.
@@ -88,7 +84,7 @@ First, delete everything except the `tablet` and `mobile-small` breakpoints. Whe
 
 What's left at this point is the `options` element that provides breakpoint custom data to the Products content type.
 
-Products uses this data in its `widget.js` file to make the [slick carousel](https://kenwheeler.github.io/slick/) responsive. You will use this data in the [Use breakpoints](./use-breakpoints.md) topic. But not here. So delete the breakpoint data. When you finish, your `view.xml` file should look like this:
+Products uses this data in its `widget.js` file to make the [slick carousel](https://kenwheeler.github.io/slick/) responsive. You will use this data in the [Use breakpoints](use-breakpoints.md) topic. But not here. So delete the breakpoint data. When you finish, your `view.xml` file should look like this:
 
 ```xml
 <?xml version="1.0"?>

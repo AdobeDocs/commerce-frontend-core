@@ -15,22 +15,22 @@ The Button component allows user to perform a list of predefined actions by clic
 | `additionalClasses` | Sets custom classes to the component's DOM block. | Object | `{}` |
 | `buttonClasses` | Sets custom classes to the HTML `<button>` element. | Object | `{}` |
 | `class` | The path to the component class. | String | `Magento\Ui\Component\Container` |
-| `component` | The path to the component’s JS constructor in terms of RequireJS. | String | `Magento_Ui/js/form/components/button` |
+| `component` | The path to the component's JS constructor in terms of RequireJS. | String | `Magento_Ui/js/form/components/button` |
 | `disabled` | Initial component's state. When set to `true`, users can't take action on the element. | Boolean | `false` |
 | `displayArea` | Display area of the component. | String | `outsideGroup` |
 | `displayAsLink` | Show the button as a link. | Boolean | `false` |
-| `elementTmpl` | The path to the child component’s `.html` template. | String | `ui/form/element/button` |
+| `elementTmpl` | The path to the child component's `.html` template. | String | `ui/form/element/button` |
 | `template` | Path to the general `.html` template for a button. | String | `ui/form/components/button/simple` |
 | `title` | Button title. | String | `''` |
 | `visible` | Initial component's visibility. When set to `false`, the `"display: none"` CSS style is added to the component's DOM block. | Boolean | `true` |
 
 ### ButtonAction interface
 
-Option | Description | Type | Required |
---- | --- | --- | --- |
-`actionName` | Name of the component's method to be invoked. | String | Required |
-`params` | A list of arguments that will be passed to the method. | Array | Optional |
-`targetName` | Reference to component. | String | Required |
+|Option | Description | Type | Required |
+| --- | --- | --- | --- |
+| `actionName` | Name of the component's method to be invoked. | String | Required |
+| `params` | A list of arguments that will be passed to the method. | Array | Optional |
+| `targetName` | Reference to component. | String | Required |
 
 ## Source files
 

@@ -3,8 +3,11 @@ title: Known limitations
 description: Learn about known limitations for Page Builder on Adobe Commerce and Magento Open Source frontends.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Known limitations
 

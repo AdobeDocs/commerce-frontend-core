@@ -3,8 +3,11 @@ title: How content migration works
 description: Convert the old BlueFoot JSON structure into the new PageBuilder format.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # How content migration works
 

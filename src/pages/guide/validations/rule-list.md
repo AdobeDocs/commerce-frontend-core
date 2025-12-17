@@ -14,6 +14,8 @@ keywords:
 This is a list of available form validation rules, ordered alphabetically.
 Each rule contains a short description and a usage example.
 
+## Available rules
+
 ### alphanumeric
 
 Check if the value contains only letters, numbers, spaces or underscores.

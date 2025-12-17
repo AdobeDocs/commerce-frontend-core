@@ -3,8 +3,11 @@ title: Apply product conditions
 description: Set product conditions to define which products you want to display based on a variety of product attributes.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Apply product conditions
 
