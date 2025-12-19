@@ -18,4 +18,4 @@ jobs:
   preview:
     uses: AdobeDocs/commerce-contributor/.github/workflows/github-pages-preview.yml@main
     with:
-      branch: ${{ inputs.branch || github.ref }}
+      branch: ${{ inputs.branch }}
