@@ -2,12 +2,6 @@
 name: Deploy GitHub Pages preview
 on:
   workflow_dispatch:
-    inputs:
-      branch:
-        description: "Branch to deploy"
-        type: string
-        required: true
-        default: main
 
 permissions:
   contents: read
@@ -18,4 +12,4 @@ jobs:
   preview:
     uses: AdobeDocs/commerce-contributor/.github/workflows/github-pages-preview.yml@main
     with:
-      branch: ${{ inputs.branch || github.ref }}
+      branch: ${{ github.ref_name }}

@@ -19,6 +19,9 @@
     "redirectCheck:stage": "npx --yes github:AdobeDocs/adp-devsite-utils redirectChecker stage --verbose",
     "redirectCheck:prod": "npx --yes github:AdobeDocs/adp-devsite-utils redirectChecker prod --verbose"
   },
+  "config": {
+    "sitePath": "commerce/frontend-core"
+  },
   "devDependencies": {
     "express": "5.2.1"
   }
