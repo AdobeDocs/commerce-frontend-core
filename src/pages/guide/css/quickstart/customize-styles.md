@@ -83,6 +83,28 @@ To override parent styles (that is, override default UI library variables):
 
 The drawback of this approach is that you need to monitor and manually update your files whenever the parent's `_theme.less` is updated.
 
+## Override UI library files
+
+To add a new breakpoint to the "responsive mixin, override the UI library's `_responsive.less` in your theme:
+
+1. In your theme directory, create a `web/css/source/lib` sub-directory.
+1. Create a `_responsive.less` file here. The path to it looks like the following:
+
+   ```tree
+   <theme_dir>/
+   │  ├── web/
+   │  │   ├── css/
+   │  │   │   ├── source/
+   │  │   │       ├──lib/
+   │  │   │           ├──_responsive.less
+   ...
+   ```
+
+   This file overrides the `_responsive.less` of the UI library.
+
+1. In your `_responsive.less` file, add the `.media-width` mixin rule for your breakpoint in the corresponding section. If the file is left blank, then compilation of .less files will fail with an error. Here is the full guide on how to [add a custom breakpoint].
+
+
 ## Add structured changes
 
 To make your changes easier to read and support, structure them by adding a separate overriding or extending `.less` files for each [UI library component] you change. Let's use the `button` component implemented in `_button.less` as an illustration.
@@ -171,3 +193,4 @@ For example, to override the Magento_Review module's style, the directory path s
 
 [Less compilation mode]: compilation-mode.md
 [UI library component]: ../ui-library.md#components
+[add a custom breakpoint]: ../../responsive-design/breakpoints.md
