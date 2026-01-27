@@ -3,8 +3,11 @@ title: Add icons and images
 description: Add icons and images to a panel, form or other content.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Add icons and images
 
@@ -133,6 +136,6 @@ For more general information about Adobe Commerce's Admin icons and how to creat
 
 -  [The CMS icons repository]
 
-[Commerce Admin icons]: https://developer.adobe.com/commerce/admin-developer/pattern-library/graphics/iconography/
-[Create your own icons]: https://developer.adobe.com/commerce/admin-developer/pattern-library/graphics/iconography/#creating-icons
+[Commerce Admin icons]: https://developer.adobe.com/commerce/admin-developer/pattern-library/graphics/iconography
+[Create your own icons]: https://developer.adobe.com/commerce/admin-developer/pattern-library/graphics/iconography#creating-icons
 [The CMS icons repository]: https://github.com/magento-ux/cms-icons

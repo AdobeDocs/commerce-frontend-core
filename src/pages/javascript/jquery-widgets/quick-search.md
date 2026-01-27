@@ -176,10 +176,10 @@ When a user performs a search query using QuickSearch, the input is processed by
 
 ## Hyphens in product names
 
-If a product is named “abcd-efg”, a search for “abc” will return “abcd” as a suggestion. However, a search for “abcd” will return no suggestions because the word boundary is broken by the subsequent hyphen (`-`). This behavior also impacts OpenSearch [candidate generators](https://opensearch.org/docs/latest/search-plugins/searching-data/did-you-mean/#candidate-generators).
+If a product is named "abcd-efg", a search for "abc" will return "abcd" as a suggestion. However, a search for "abcd" will return no suggestions because the word boundary is broken by the subsequent hyphen (`-`). This behavior also impacts OpenSearch [candidate generators](https://docs.opensearch.org/latest/search-plugins/searching-data/did-you-mean/#candidate-generators).
 
 ## Customization and configuration
 
 While the default behavior of QuickSearch is to use standard analyzer, there may be cases where custom adjustments are necessary. In such cases, you might need to consider configuring custom analyzers in OpenSearch.
 
-For more information on customizing OpenSearch text analysis, see the OpenSearch [analyzers](https://opensearch.org/docs/latest/analyzers/#built-in-analyzers) documentation.
+For more information on customizing OpenSearch text analysis, see the OpenSearch [analyzers](https://docs.opensearch.org/latest/analyzers/) documentation.

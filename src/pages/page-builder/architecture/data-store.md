@@ -3,8 +3,11 @@ title: Page Builder data store
 description: Store user's input data for a content type.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Page Builder data store
 

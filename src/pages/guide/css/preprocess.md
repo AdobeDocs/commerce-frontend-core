@@ -41,7 +41,7 @@ In the application, the following modes of compiling `.less` files to CSS are im
 
 1. Client-side Less compilation.
 
-   When your application is not in the production mode, you can set the application to compile `.less` files in a browser, using the [native `less.js` library]
+   When your application is not in the production mode, you can set the application to compile `.less` files in a browser, using the [native `less.js` library].
 
 To set the compilation mode, do the following:
 
@@ -72,7 +72,7 @@ In server-side Less compilation mode, to have your changes applied, you need to 
 1. Trigger static files compilation and publication. This can be done in one of the following ways:
 
    -  Reloading the page where the modified styles are applied.
-   -  Running the [static files deployment tool](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/static-view/static-view-file-deployment.html).
+   -  Running the [static files deployment tool](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/static-view/static-view-file-deployment).
 
 Reloading the page only triggers compilation and publication of the styles used on this very page, and does not give you the information about the errors if any. So if you made changes in `.less` files used on many pages, and want to debug them, using the deployment tool is the better option.
 
@@ -100,7 +100,7 @@ The tool pre-processes (including compilation) and publishes the static view fil
 
 <InlineAlert variant="info" slots="text"/>
 
-Manual static content deployment is not required in "default" and "developer" modes. If you still want to deploy in these modes, use the -f option: `bin/magento setup:static-content:deploy -f`. Read more about the command in the [Deploy static view files](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/static-view/static-view-file-deployment.html) section.
+Manual static content deployment is not required in "default" and "developer" modes. If you still want to deploy in these modes, use the -f option: `bin/magento setup:static-content:deploy -f`. Read more about the command in the [Deploy static view files](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/static-view/static-view-file-deployment) section.
 
 All errors occurring during `.less` files compilation are handled by the [LESS PHP library][] third party library.
 
@@ -138,7 +138,7 @@ See the [Compile LESS with Grunt](debug.md) topic for details how to install, co
 The client-side compilation flow is similar to [server-side](#server-side-less-compilation). The difference is in the set of files, published to `pub/static` on the last step. In the client-side mode, the following files are published to the `pub/static/frontend/<Vendor>/<theme>/<locale>` directory:
 
 -  root source (.less) files with resolved `@magento_import` directive
--  [symlinks](http://en.wikipedia.org/wiki/Symbolic_link) to the root source file that do not contain `@magento_import`
+-  [symlinks](https://en.wikipedia.org/wiki/Symbolic_link) to the root source file that do not contain `@magento_import`
 -  symlinks to all other `.less` files imported recursively by the `@magento_import` and `@import` directives
 
 <InlineAlert variant="info" slots="text"/>
@@ -149,7 +149,7 @@ Symlink is not created, and a copy of the processed file is published to `pub/st
 
 Client-side LESS compilation is implemented using the native `less.js` library. The default configuration is set in `lib/web/less/config.less.js`; you can change it as needed.
 
-You can find the detailed information about the configuration and other options of the `less.js` used in a browser at [http://lesscss.org/usage/#using-less-in-the-browser](http://lesscss.org/usage/#using-less-in-the-browser).
+You can find the detailed information about the configuration and other options of the `less.js` used in a browser at [Less.js usage][native `less.js` library].
 
 In client-side compilation mode, most of the stylesheet customizations display immediately after you reload a page in a browser.
 
@@ -168,7 +168,7 @@ To clear the `pub/static/frontend/<Vendor>/<theme>/<locale>` directory, delete t
 
 ## `@import` directive
 
-You can import local and remote `.less` and `.css` files in your `.less` stylesheets by using the standard LESS [`@import` directive](http://lesscss.org/features/#import-directives-feature).
+You can import local and remote `.less` and `.css` files in your `.less` stylesheets by using the standard LESS [`@import` directive](https://lesscss.org/features/).
 According to the `@import` syntax, specifying the file extension for the imported file is not mandatory. For example, the following notation is allowed:
 
 ```less
@@ -301,10 +301,9 @@ By default, the core code base imports all CSS from all modules, regardless of w
 
    Replace `en_US` with the appropriate locale code if your store uses a different language.
 
-<!-- Link definitions -->
-[production application mode]:https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#production-mode
+[production application mode]:https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes
 [LESS PHP library]: https://github.com/wikimedia/less.php
-[native `less.js` library]: http://lesscss.org/usage/#using-less-in-the-browser
+[native `less.js` library]: https://lesscss.org/usage/
 [fallback mechanism]: ../themes/inheritance.md#override-static-assets
-[publication]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/static-view/static-view-file-deployment.html
+[publication]: https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/static-view/static-view-file-deployment
 [static files fallback]: ../themes/inheritance.md#override-static-assets

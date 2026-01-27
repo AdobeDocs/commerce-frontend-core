@@ -3,8 +3,11 @@ title: Migrate other BlueFoot content
 description: Migrate content that is not usually migrated from the Commerce database.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Migrate other BlueFoot content
 

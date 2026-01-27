@@ -3,8 +3,11 @@ title: Introduction to creating content types
 description: Add new content types.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Introduction to creating content types
 

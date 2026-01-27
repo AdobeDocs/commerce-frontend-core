@@ -3,8 +3,11 @@ title: Add a storefront widget
 description: Add a storefront widget to handle the behavior of a content type after Page Builder renders it on the storefront.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Add a storefront widget
 

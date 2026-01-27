@@ -3,8 +3,11 @@ title: Extend another appearance
 description: Extend the appearance for more styling options.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Extend another appearance
 
@@ -276,8 +279,6 @@ To target our DOM output, we want to use attribute-based CSS classes in our `_de
     }
 }
 ```
-
-*Attribute-based CSS classes*
 
 To provide end users with styling options in the Admin UI's form fields, we can add a variety of different CSS properties for each available value. This makes it easy to target and style your content type elements in both small and large ways, depending on your use cases.
 

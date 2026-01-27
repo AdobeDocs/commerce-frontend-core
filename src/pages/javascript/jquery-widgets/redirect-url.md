@@ -75,6 +75,5 @@ The following example shows the button and after clicking on this button you wil
 
 ![RedirectUrl Button Example](../../_images/javascript/redirectUrl-widget-result.png)
 
-<!-- Link Definitions -->
 [lib/web/mage/redirect-url.js]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/redirect-url.js
 [Initialize JavaScript]: ../init.md

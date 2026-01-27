@@ -3,8 +3,11 @@ title: Run the migration module
 description: Run and debug the migration module.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Run the migration module
 

@@ -89,9 +89,9 @@ ExampleCorp [applies the Luma theme](../themes/apply-storefront.md). Using the a
 </container>
 ```
 
-(See [app/code/Magento/Theme/view/frontend/layout/default.xml](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Theme/view/frontend/layout/default.xml#L43-L47) on GitHub).
+(See [app/code/Magento/Theme/view/frontend/layout/default.xml](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Theme/view/frontend/layout/default.xml) on GitHub).
 
-Other modules use this block to add their specific links to the header using the [referenceBlock](xml-instructions.md#referenceblock-and-referencecontainer) instruction. For example, see how links are added in the Customer module: [app/code/Magento/Customer/view/frontend/layout/default.xml#L10-L23](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Customer/view/frontend/layout/default.xml#L10-L23)
+Other modules use this block to add their specific links to the header using the [referenceBlock](xml-instructions.md#referenceblock-and-referencecontainer) instruction. For example, see how links are added in the Customer module: [app/code/Magento/Customer/view/frontend/layout/default.xml](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Customer/view/frontend/layout/default.xml).
 
 The Luma theme [moves](xml-instructions.md#move) the `top.links` block to the new `customer` block in the extending layout file.
 

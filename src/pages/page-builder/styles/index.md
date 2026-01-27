@@ -3,8 +3,11 @@ title: How Page Builder styles content
 description: Apply CSS styles to both native and custom content types by generating attribute-based CSS rulesets that are unique to each content type on a page.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # How Page Builder styles content
 
@@ -39,7 +42,7 @@ Page Builder generates its CSS selectors using one `id` selector and one `attrib
 
 ![Page Builder style selector](../../_images/page-builder/pagebuilder-style-selector.svg)
 
-As noted, the CSS specificity of 110 is relatively low, which makes it possible to override these styles with your own custom CSS. For more information on CSS specificity and how it works, see [https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity).
+As noted, the CSS specificity of 110 is relatively low, which makes it possible to override these styles with your own custom CSS. For more information on CSS specificity and how it works, see [Specificity documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Specificity).
 
 ## CSS rulesets
 

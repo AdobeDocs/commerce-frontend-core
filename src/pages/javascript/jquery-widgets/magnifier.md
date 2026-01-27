@@ -127,4 +127,4 @@ Several other Magnifier options are set in `view.xml`:
 </var>
 ```
 
-For an example of setting the gallery option, see the [view.xml](https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/blank/etc/view.xml#L225) file in the Blank theme.
+For an example of setting the gallery option, see the [view.xml](https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/blank/etc/view.xml) file in the Blank theme.

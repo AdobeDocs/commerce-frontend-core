@@ -3,8 +3,11 @@ title: Configure the panel
 description: Configure the layout and content types for a panel.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Configure the panel
 

@@ -3,8 +3,11 @@ title: Content Type Overview
 description: An overview of how to create, extend, and customize content types.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Content Type Overview
 

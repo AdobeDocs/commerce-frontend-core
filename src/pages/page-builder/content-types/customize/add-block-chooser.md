@@ -3,8 +3,11 @@ title: Add a block chooser
 description: Use the block chooser UI component for a custom content type.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Add a block chooser
 

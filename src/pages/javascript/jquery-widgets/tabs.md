@@ -286,4 +286,4 @@ The result is three tabs with content, where the last tab is disabled based on i
 [lib/web/mage/tabs.js]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/tabs.js
 [Initialize JavaScript]: ../init.md
 [collapsible]: collapsible.md
-[jQuery.animate()]: http://api.jquery.com/animate/
+[jQuery.animate()]: https://api.jquery.com/animate/

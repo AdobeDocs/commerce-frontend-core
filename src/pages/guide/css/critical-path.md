@@ -17,7 +17,7 @@ Thus we can significantly improve the time to first render of our pages.
 
 <InlineAlert variant="info" slots="text"/>
 
-CSS critical path configuration is located on the **Stores** > Settings > **Configuration** > **ADVANCED** > **Developer** tab. However, the **Developer** tab is hidden in [production mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html). Once in production mode, CSS critical path can only be enabled using the CLI.
+CSS critical path configuration is located on the **Stores** > Settings > **Configuration** > **ADVANCED** > **Developer** tab. However, the **Developer** tab is hidden in [production mode](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes). Once in production mode, CSS critical path can only be enabled using the CLI.
 
 To enable the CSS critical path:
 
@@ -65,4 +65,4 @@ As a result, the Google PageSpeed Insights score improved by **5** points.
 
 <InlineAlert variant="info" slots="text"/>
 
-These are results for mobile devices with slow connection from [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/).
+These are results for mobile devices with slow connection from [Google PageSpeed Insights](https://pagespeed.web.dev/).

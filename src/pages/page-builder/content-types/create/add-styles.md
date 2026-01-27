@@ -3,8 +3,11 @@ title: Add styles
 description: Create CSS styles to define the base appearance.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Add styles
 

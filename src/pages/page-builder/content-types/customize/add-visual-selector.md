@@ -3,8 +3,11 @@ title: Add a visual selector
 description: Add a UI select control that makes its options visually clear to end users.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Add a visual selector
 
@@ -14,7 +17,7 @@ In Page Builder, we use a term called _visual selector_, which refers to a UI se
 
 Visual selectors support all image formats, but we highly recommend using SVG images for sharpness and clarity.
 
-## Override the select component with an element template {#element-template}
+## Override the select component with an element template
 
 We use the default select component in the `/app/code/Magento/PageBuilder/view/adminhtml/ui-component/pagebuilder_base_form.xml` file. You can override the default template, by specifying an element template and component for this functionality to implement the Visual Select option.
 
@@ -29,7 +32,7 @@ In the provided template, specify `<elementTmpl>` alongside updating the fields 
     </settings>
 ```
 
-## Add Visual Select to the XML config {#xml-config}
+## Add Visual Select to the XML config
 
 The available options for select, `value`, `title`, `icon` and `noticeMessage`, can be provided by the PHP class that implements the `\Magento\Framework\Option\ArrayInterface` method.
 
@@ -90,7 +93,7 @@ For some options you may wish to display an additional notice when the user sele
 </item>
 ```
 
-## How to reuse vertical alignment between different content types {#vertical-alignment}
+## How to reuse vertical alignment between different content types
 
 To apply vertical alignment to a content type using the Visual Select component, use the virtualType `Magento\PageBuilder\Model\Source\VerticalAlignment` with options in your module's `di.xml` configuration file.
 
@@ -144,7 +147,7 @@ To apply vertical alignment to a content type using the Visual Select component,
 </field>
 ```
 
-### Configure the content type with the vertical alignment style properties. This example is from Row.
+### Configure the content type with the vertical alignment style properties. This example is from Row
 
 ```xml
 <elements>

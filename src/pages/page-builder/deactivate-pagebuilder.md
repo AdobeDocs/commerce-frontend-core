@@ -3,8 +3,11 @@ title: Deactivate Page Builder
 description: Deactivate the Page Builder editor through the Admin UI.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Deactivate Page Builder
 

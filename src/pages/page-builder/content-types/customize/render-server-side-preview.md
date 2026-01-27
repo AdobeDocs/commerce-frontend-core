@@ -3,8 +3,11 @@ title: Render server-side previews
 description: How to use the RenderPool on the stage to render a backend preview.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Render server-side previews
 
@@ -18,7 +21,7 @@ The following steps utilize some example values. Substitute those with values sp
 
 Create a renderer that implements the renderer interface, `Magento\PageBuilder\Model\Stage\RendererInterface`:
 
-``` php
+```php
 <?php
 namespace Magento\PageBuilder\Model\Stage\Renderer;
 
@@ -35,7 +38,7 @@ class AwesomeElement implements \Magento\PageBuilder\Model\Stage\RendererInterfa
 
 Add the renderer you just created as an argument to the `Magento\PageBuilder\Model\Stage\RendererPool` type that specifies your custom content type role as the name in the `di.xml` file:
 
-``` xml
+```xml
 <type name="Magento\PageBuilder\Model\Stage\RendererPool">
     <arguments>
         <argument name="renderers" xsi:type="array">
@@ -52,41 +55,41 @@ To invoke the renderer from the stage, submit an HTTP request to the Page Builde
 1. Obtain the URL for the HTTP request from within your preview component by calling `getConfig("preview_url")` on the `Magento_PageBuilder/js/config` component.
 1. Make a request to the aforementioned obtained URL specifying your custom content type name and any additional parameters you want to use to render the element:
 
-    ```javascript
-     define([
-         'jquery',
-         'Magento_PageBuilder/js/content-type/preview',
-         'Magento_PageBuilder/js/config'
-     ], function ($, Preview, Config) {
-         var AwesomeElement = function() {
-             Preview.apply(this, arguments);
-         };
+```javascript
+    define([
+        'jquery',
+        'Magento_PageBuilder/js/content-type/preview',
+        'Magento_PageBuilder/js/config'
+    ], function ($, Preview, Config) {
+        var AwesomeElement = function() {
+            Preview.apply(this, arguments);
+        };
 
-         AwesomeElement.prototype = Object.create(Preview.prototype);
-         AwesomeElement.prototype.constructor = AwesomeElement;
+        AwesomeElement.prototype = Object.create(Preview.prototype);
+        AwesomeElement.prototype.constructor = AwesomeElement;
 
-         AwesomeElement.prototype.afterObservablesUpdated = function() {
-             Preview.prototype.afterObservablesUpdated.call(this);
-             // Get the url to call
-             var url = Config.getConfig("preview_url");
-             const requestConfig = {
-                 method: "POST",
-                 data: {
-                     role: this.config.name, // this would be awesome-element in this case
-                     // You can also pass any other data to the renderer
-                     message: 'custom data'
-                 }
-             };
+        AwesomeElement.prototype.afterObservablesUpdated = function() {
+            Preview.prototype.afterObservablesUpdated.call(this);
+            // Get the url to call
+            var url = Config.getConfig("preview_url");
+            const requestConfig = {
+                method: "POST",
+                data: {
+                    role: this.config.name, // this would be awesome-element in this case
+                    // You can also pass any other data to the renderer
+                    message: 'custom data'
+                }
+            };
 
-             $.ajax(url, requestConfig).done(function(response) {
-                 // Will display: "Hello stage! You said custom data!"
-                 this.data.main.html(response.data.message);
-             }.bind(this));
-         };
+            $.ajax(url, requestConfig).done(function(response) {
+                // Will display: "Hello stage! You said custom data!"
+                this.data.main.html(response.data.message);
+            }.bind(this));
+        };
 
-         return AwesomeElement;
-     });
-    ```
+        return AwesomeElement;
+    });
+```
 
 ## Step 4: Render the element
 

@@ -3,8 +3,11 @@ title: Add form
 description: Create a UI component form, so users can enter text.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Add form
 
@@ -290,7 +293,7 @@ The `<settings>` element defines the data scope, data type, and label to use for
 
 ## Quote form layout
 
-The layout for our Quote form is shown in full here for you to copy into your `pagebuilder_example_form.xml` layout file. For more information about layouts, see [Layout instructions](/guide/layouts/xml-instructions/).
+The layout for our Quote form is shown in full here for you to copy into your `pagebuilder_example_form.xml` layout file. For more information about layouts, see [Layout instructions](../../../guide/layouts/xml-instructions.md).
 
 ```xml
 <?xml version="1.0"?>

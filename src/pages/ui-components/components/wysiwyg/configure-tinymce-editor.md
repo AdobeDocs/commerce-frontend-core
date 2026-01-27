@@ -145,7 +145,7 @@ class DefaultConfigProvider implements \Magento\Framework\Data\Wysiwyg\ConfigPro
 ```
 
 In this case, the `Magento\Cms\Model\Wysiwyg\Gallery\DefaultConfigProvider` class enables the image plugin.
-See a list of available TinyMCE settings on their [website](https://www.tiny.cloud/docs/configure/).
+See a list of available TinyMCE settings on their [website](https://www.tiny.cloud/docs/tinymce/latest/initial-configuration/).
 
 The following example shows how you can extend the TinyMCE editor configuration by creating a plugin for `DefaultConfigProvider` which extends the `getConfig()` method of the original class.
 

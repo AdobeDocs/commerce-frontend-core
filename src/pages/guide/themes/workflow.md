@@ -19,8 +19,8 @@ bin/magento deploy:mode:set developer
 
 See:
 
-*  [About application modes](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html)
-*  [Get started with command-line configuration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/config-cli.html)
+*  [About application modes](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes)
+*  [Get started with command-line configuration](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/config-cli)
 
 <InlineAlert variant="success" slots="text"/>
 
@@ -98,8 +98,8 @@ In the installation directory, run:
 bin/magento deploy:mode:set production
 ```
 
-See [application modes](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#production-mode) for details.
+See [application modes](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes) for details.
 
 ### Deploy static content
 
-To publish your static files to the `pub/static` directory when your instance is set to production mode, [run the static content deployment tool](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/static-view/static-view-file-deployment.html).
+To publish your static files to the `pub/static` directory when your instance is set to production mode, [run the static content deployment tool](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/static-view/static-view-file-deployment).

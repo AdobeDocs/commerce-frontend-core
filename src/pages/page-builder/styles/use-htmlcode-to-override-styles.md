@@ -3,8 +3,11 @@ title: Use HTML Code to override styles
 description: Override fronted theme and module styles with the HTML Code content type.
 keywords:
   - Page Builder
-edition: paas
 ---
+
+<Edition slot="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
 
 # Use HTML Code to override styles
 
