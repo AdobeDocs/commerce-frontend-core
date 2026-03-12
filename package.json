@@ -1,10 +1,10 @@
 {
-  "name": "dev-docs-template",
+  "name": "commerce-frontend-core",
   "version": "1.0.0",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AdobeDocs/dev-docs-template"
+    "url": "https://github.com/AdobeDocs/commerce-frontend-core"
   },
   "author": {
     "name": "Tim Kim",
