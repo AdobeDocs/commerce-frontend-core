@@ -1,28 +1,17 @@
 {
-  "name": "commerce-frontend-core",
-  "version": "1.0.0",
-  "license": "Apache-2.0",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/AdobeDocs/commerce-frontend-core"
-  },
   "scripts": {
-    "dev": "node ./dev.mjs",
-    "lint": "npx --yes github:AdobeDocs/adp-devsite-utils runLint -v",
-    "lint:errorOnly": "npx --yes github:AdobeDocs/adp-devsite-utils runLint",
-    "link:skipdeadlinks": "npx --yes github:AdobeDocs/adp-devsite-utils runLint --skip-dead-links -v",
-    "link:deadlinkonly": "npx --yes github:AdobeDocs/adp-devsite-utils runLint --dead-links-only -v",
-    "lint:md": "npx --yes markdownlint-cli2 'src/pages/**/*.md' '*.md'",
-    "lint:md:fix": "npx --yes markdownlint-cli2 --fix 'src/pages/**/*.md' '*.md'",
-    "test": "npx --yes jest",
-    "test:config": "npx --yes jest tests/config.test.js",
-    "redirectCheck:stage": "npx --yes github:AdobeDocs/adp-devsite-utils redirectChecker stage --verbose",
-    "redirectCheck:prod": "npx --yes github:AdobeDocs/adp-devsite-utils redirectChecker prod --verbose"
-  },
-  "config": {
-    "sitePath": "commerce/frontend-core"
+    "dev": "node dev.mjs",
+    "lint": "npm run lint:js && npm run lint:md",
+    "lint:js": "eslint .",
+    "lint:md": "adp-devsite-lint",
+    "buildNavigation": "adp-devsite-build-navigation",
+    "buildRedirections": "adp-devsite-build-redirections",
+    "normalizeLinks": "adp-devsite-normalize-links",
+    "renameFiles": "adp-devsite-rename-files",
+    "redirectCheck:stage": "adp-devsite-redirect-check stage",
+    "redirectCheck:prod": "adp-devsite-redirect-check prod"
   },
   "devDependencies": {
-    "express": "5.2.1"
+    "@anthropic-ai/adp-devsite-utils": "latest"
   }
 }
