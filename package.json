@@ -1,17 +1,29 @@
 {
-  "scripts": {
-    "dev": "node dev.mjs",
-    "lint": "npm run lint:js && npm run lint:md",
-    "lint:js": "eslint .",
-    "lint:md": "adp-devsite-lint",
-    "buildNavigation": "adp-devsite-build-navigation",
-    "buildRedirections": "adp-devsite-build-redirections",
-    "normalizeLinks": "adp-devsite-normalize-links",
-    "renameFiles": "adp-devsite-rename-files",
-    "redirectCheck:stage": "adp-devsite-redirect-check stage",
-    "redirectCheck:prod": "adp-devsite-redirect-check prod"
+  "name": "dev-docs-template",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdobeDocs/dev-docs-template"
   },
-  "devDependencies": {
-    "@anthropic-ai/adp-devsite-utils": "latest"
+  "author": {
+    "name": "Tim Kim",
+    "url": "https://github.com/timkim"
+  },
+  "scripts": {
+    "dev": "npx --yes github:AdobeDocs/adp-devsite-utils dev",
+    "buildNavigation": "npx --yes github:AdobeDocs/adp-devsite-utils buildNavigation -v",
+    "buildRedirections": "npx --yes github:AdobeDocs/adp-devsite-utils buildRedirections -v",
+    "renameFiles": "npx --yes github:AdobeDocs/adp-devsite-utils renameFiles -v",
+    "normalizeLinks": "npx --yes github:AdobeDocs/adp-devsite-utils normalizeLinks -v",
+    "buildSiteWideBanner": "npx --yes github:AdobeDocs/adp-devsite-utils buildSiteWideBanner -v",
+    "buildSiteMetadata": "npx --yes github:AdobeDocs/adp-devsite-utils buildSiteMetadata -v",
+    "buildContributors": "npx --yes github:AdobeDocs/adp-devsite-utils buildContributors -v",
+    "lint": "npx --yes github:AdobeDocs/adp-devsite-utils runLint -v",
+    "lint:errorOnly": "npx --yes github:AdobeDocs/adp-devsite-utils runLint",
+    "link:externalLinkOnly": "npx --yes github:AdobeDocs/adp-devsite-utils runLint --external-links-only -v",
+    "link:checkAllLinks": "npx --yes github:AdobeDocs/adp-devsite-utils runLint --internal-links-only --external-links-only -v",
+    "redirectCheck:stage": "npx --yes github:AdobeDocs/adp-devsite-utils redirectChecker stage --verbose",
+    "redirectCheck:prod": "npx --yes github:AdobeDocs/adp-devsite-utils redirectChecker prod --verbose"
   }
 }
