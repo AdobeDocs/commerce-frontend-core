@@ -34,7 +34,7 @@ Component's options are set in the configuration `.xml` file as follows:
 | --- | --- | --- | --- |
 | `modalClass` | CSS class applied to the root node of the component's `.html` template. | String | `modal-component` |
 | `onCancel` | Name of the method invoked when a user attempts to close the modal window. | String | `closeModal` |
-| `options` | Configuration passed to the [modal widget](../../javascript/jquery-widgets/modal.md). | Object | ```{modalClass: '',title: '',subTitle: '',buttons: [],keyEventHandlers: {}}``` |
+| `options` | Configuration passed to the [modal widget](../../javascript/jquery-widgets/modal.md). | Object | `{modalClass: '',title: '',subTitle: '',buttons: [],keyEventHandlers: {}}` |
 | `subTitle` | Subtitle of the modal window. | String | `''` |
 | `template` | Path to the component's `.html` template. | String | `ui/modal/modal-component` |
 | `title` | Label displayed in the header of the modal window. | String | `''` |
