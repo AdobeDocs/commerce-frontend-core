@@ -15,7 +15,7 @@ The out of the box Blank and Luma themes (Luma [inherits](../themes/inheritance.
 
 The following image illustrates how the same page built on the Blank theme looks on mobile, tablet and desktop devices.
 
-![](../../_images/frontend/css_responsive1.jpg)
+![Responsive page on mobile, tablet, and desktop](../../_images/frontend/css_responsive1.jpg)
 
 We recommend using the Blank theme, as a starting point for your customizations. That is, your custom theme should [inherit](../themes/inheritance.md) from Blank.
 
@@ -28,9 +28,9 @@ The articles in this chapter describe the particular approaches used in the Blan
 
 ## Terms used
 
-Term | Description
------------- | -------------
-*Breakpoint* | The width of the user's screen that causes your responsive layout to change.
+| Term | Description |
+| --- | --- |
+| *Breakpoint* | The width of the user's screen that causes your responsive layout to change. |
 
 [CSS in responsive design]: css.md
 [JavaScript in responsive design]: js.md

@@ -15,7 +15,7 @@ They are designed for simple and flexible user interface (UI) rendering. Compone
 
 UI components are implemented as a standard module named Magento_UI.
 
-To use UI components in your custom module, you need to add a dependency for the Magento_UI module in [your component's composer.json file](https://developer.adobe.com/commerce/php/development/build/composer-integration/).
+To use UI components in your custom module, you need to add a dependency for the Magento_UI module in [your component's composer.json file](https://developer.adobe.com/commerce/php/development/build/composer-integration).
 
 The following XSD file contains rules and limitations shared between all components (both definitions and instance configurations):
 

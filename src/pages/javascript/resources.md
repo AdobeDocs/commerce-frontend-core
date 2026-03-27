@@ -102,7 +102,7 @@ To build a dependency on the third-party plugin, specify a [shim](https://requir
 
 To be available for the entire application instance, RequireJS library is included in the following layout files:
 
-*  For the `adminhtml` [area](https://developer.adobe.com/commerce/php/architecture/modules/areas/):
+*  For the `adminhtml` [area](https://developer.adobe.com/commerce/php/architecture/modules/areas):
 
    [app/code/Magento/Backend/view/adminhtml/layout/default.xml](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Backend/view/adminhtml/layout/default.xml)
 
