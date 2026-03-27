@@ -12,7 +12,7 @@ This topic describes how to create your custom theme for Admin, referencing the 
 
 ## Prerequisites
 
-[Set](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) your application to the developer [mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html). The application mode influences the way static files are cached.
+[Set](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode) your application to the developer [mode](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes). The application mode influences the way static files are cached.
 
 ## Overview
 
@@ -55,8 +55,8 @@ In this file, add the following code, having replaced placeholders with your the
 ```php
 <?php
 /**
- * Copyright &copy; Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
+ * Copyright [first year code created] Adobe
+ * All rights reserved.
  */
 use \Magento\Framework\Component\ComponentRegistrar;
 ComponentRegistrar::register(ComponentRegistrar::THEME, 'adminhtml/%vendor_dir/your_theme_dir%', __DIR__); // Example: 'adminhtml/Magento/backend'

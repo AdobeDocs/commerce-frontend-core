@@ -5,6 +5,10 @@ keywords:
   - Page Builder
 ---
 
+<Edition slots="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
+
 # Add an image uploader
 
 This topic describes how to add the image uploader component to your content type so that end-users can add images from the Admin stage as needed.

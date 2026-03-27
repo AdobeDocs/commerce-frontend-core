@@ -14,7 +14,7 @@ The Fieldset component implements a container for visually-grouped form elements
 | `disabled`          | Boolean | `false` | Initial component's state. When `true`, users cannot take action on the element.                                          |
 | `label`             | String  |         | Caption for an item in the UI component context.                                                                          |
 | `visible`           | Boolean | `true`  | Initial component's visibility. When set to `false`, the `display: none` CSS style is added to the component's DOM block. |
-| `additionalClasses` | Object  | {}      | Custom classes added to the component's DOM block.                                                                        |
+| `additionalClasses` | Object  | `{}`      | Custom classes added to the component's DOM block.                                                                        |
 | `level`             | Integer |         | Explicitly indicates the level of nesting([date-level] attribute).                                                        |
 
 ### collapsible configuration

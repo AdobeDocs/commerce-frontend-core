@@ -5,6 +5,10 @@ keywords:
   - Page Builder
 ---
 
+<Edition slots="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
+
 # Content Type Overview
 
 Use the links below to learn more about creating, customizing, and extending content types:

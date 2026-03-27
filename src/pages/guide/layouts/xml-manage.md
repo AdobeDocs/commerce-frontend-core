@@ -173,7 +173,9 @@ By default, `itemprop=description` is an argument on the `short_description` att
     <argument name="add_attribute" xsi:type="string">itemprop="description"</argument>
   </arguments>
 </block>
+```
 
+```html
 <!-- Example usage -->
 <div class="product attribute overview">
   <div class="value" itemprop="description">
@@ -181,6 +183,7 @@ By default, `itemprop=description` is an argument on the `short_description` att
     </p>
   </div>
 </div>
+```
 
 To add the `itemprop` attribute to another product attribute displayed in the `<body>` of your product page layout:
 
@@ -190,17 +193,19 @@ To add the `itemprop` attribute to another product attribute displayed in the `<
 ```xml
 <!-- description attribute block -->
 <block class="Magento\Catalog\Block\Product\View\Description" name="product.info.description" as="description" template="Magento_Catalog::product/view/attribute.phtml" group="detailed_info">
-      <arguments>
-          <argument name="at_call" xsi:type="string">getDescription</argument>
-          <argument name="at_code" xsi:type="string">description</argument>
-          <argument name="css_class" xsi:type="string">description</argument>
-          <argument name="at_label" xsi:type="string">none</argument>
-          <argument name="title" translate="true" xsi:type="string">Details</argument>
-          <argument name="sort_order" xsi:type="string">10</argument>
-          <argument name="add_attribute" xsi:type="string">itemprop="description"</argument>
-      </arguments>
+    <arguments>
+        <argument name="at_call" xsi:type="string">getDescription</argument>
+        <argument name="at_code" xsi:type="string">description</argument>
+        <argument name="css_class" xsi:type="string">description</argument>
+        <argument name="at_label" xsi:type="string">none</argument>
+        <argument name="title" translate="true" xsi:type="string">Details</argument>
+        <argument name="sort_order" xsi:type="string">10</argument>
+        <argument name="add_attribute" xsi:type="string">itemprop="description"</argument>
+    </arguments>
 </block>
+```
 
+```html
 <!-- Example usage -->
 <div class="product attribute description">
   <div class="value" itemprop="description">
@@ -213,6 +218,7 @@ To add the `itemprop` attribute to another product attribute displayed in the `<
     </ul>
   </div>
 </div>
+```
 
 ```xml
 <block class="Magento\Catalog\Block\Product\View\Description" name="product.info.overview" template="Magento_Catalog::product/view/attribute.phtml" group="detailed_info" after="product.info.extrahint">
@@ -229,9 +235,9 @@ To add the `itemprop` attribute to another product attribute displayed in the `<
 
 ```html
 <div class="product attribute overview">
-        <div class="value" itemprop="description">
-          <p>The instructors and routines featured in LifeLong Fitness IV provide safe options to serve all types of physical conditions and abilities. Range of motion, body awareness and breathing practices are essential tools of yogic self-care, essential for maintaining alertness, health, and dignity over a lifetime. The LifeLong Fitness series acknowledges that as we age, the safety and sustainability of our exercise become as important as pushing our limits.</p>
-        </div>
+    <div class="value" itemprop="description">
+        <p>The instructors and routines featured in LifeLong Fitness IV provide safe options to serve all types of physical conditions and abilities. Range of motion, body awareness and breathing practices are essential tools of yogic self-care, essential for maintaining alertness, health, and dignity over a lifetime. The LifeLong Fitness series acknowledges that as we age, the safety and sustainability of our exercise become as important as pushing our limits.</p>
+    </div>
 </div>
 ```
 
@@ -239,15 +245,15 @@ To generate `itemprop=description` for `description` attribute, move the `add_at
 
 ```xml
 <block class="Magento\Catalog\Block\Product\View\Description" name="product.info.description" as="description" template="Magento_Catalog::product/view/attribute.phtml" group="detailed_info">
-      <arguments>
-          <argument name="at_call" xsi:type="string">getDescription</argument>
-          <argument name="at_code" xsi:type="string">description</argument>
-          <argument name="css_class" xsi:type="string">description</argument>
-          <argument name="at_label" xsi:type="string">none</argument>
-          <argument name="title" translate="true" xsi:type="string">Details</argument>
-          <argument name="sort_order" xsi:type="string">10</argument>
-          <argument name="add_attribute" xsi:type="string">itemprop="description"</argument>
-      </arguments>
+    <arguments>
+        <argument name="at_call" xsi:type="string">getDescription</argument>
+        <argument name="at_code" xsi:type="string">description</argument>
+        <argument name="css_class" xsi:type="string">description</argument>
+        <argument name="at_label" xsi:type="string">none</argument>
+        <argument name="title" translate="true" xsi:type="string">Details</argument>
+        <argument name="sort_order" xsi:type="string">10</argument>
+        <argument name="add_attribute" xsi:type="string">itemprop="description"</argument>
+    </arguments>
 </block>
 ```
 
@@ -841,11 +847,8 @@ where:
 
 These files must be placed in the appropriate folders for layout XML files. They will be available as **Custom Layout Update** options for Merchants after flushing the cache.
 
-<!-- Link Definitions -->
 [page configuration]: types.md#page-configuration
 [Locate templates, layouts, and styles]: ../themes/debug.md
 [Conditional comments]: http://en.wikipedia.org/wiki/Conditional_comment
-[`<move>` instruction]: xml-instructions.md#move
-[`before` and `after` attributes of `<block>`]: xml-instructions.md#before-and-after-attributes
 [Magento/Cms/Block/Block]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Cms/Block/Block.php
 [Magento/Config/Model/Config/Source/Yesno]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Config/Model/Config/Source/Yesno.php

@@ -242,5 +242,5 @@ The following is a list of files in the [`Magento_CheckoutAgreement`] module tha
 [`view/frontend/requirejs-config.js`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/CheckoutAgreements/view/frontend/requirejs-config.js
 [`view/frontend/web/js/model/place-order-mixin.js`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/CheckoutAgreements/view/frontend/web/js/model/place-order-mixin.js
 [`view/frontend/web/js/model/set-payment-information-mixin.js`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/CheckoutAgreements/view/frontend/web/js/model/set-payment-information-mixin.js
-[`Magento_CheckoutAgreement`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/CheckoutAgreements
+[`Magento_CheckoutAgreement`]: https://github.com/magento/magento2/tree/2.4/app/code/Magento/CheckoutAgreements
 [modal widget]: jquery-widgets/modal.md

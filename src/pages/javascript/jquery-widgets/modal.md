@@ -292,7 +292,7 @@ The modal widget is subscribed to the following events:
 
 You can listen to these events in two ways:
 
-Use jQuery's [`on`](http://api.jquery.com/on/) function:
+Use jQuery's [`on`](https://api.jquery.com/on/) function:
 
 ```javascript
 var modal = $('#modal_content').modal({...});
@@ -401,5 +401,5 @@ The result is a modal and a button (_Click Here_) that opens the modal.
 [`<Magento_Ui_module_dir>/view/base/web/js/modal/modal.js`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/modal/modal.js
 [`<Magento_Ui_module_dir>/view/base/web/templates/modal/modal-popup.html`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/modal/modal-popup.html
 [`<Magento_Ui_module_dir>/view/base/web/templates/modal/modal-slide.html`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/modal/modal-slide.html
-[Admin Pattern Library, the Slide-out Panels, Modal Windows, and Overlays topic.]: https://developer.adobe.com/commerce/admin-developer/pattern-library/containers/slideouts-modals-overlays/#modals
+[Admin Pattern Library, the Slide-out Panels, Modal Windows, and Overlays topic.]: https://developer.adobe.com/commerce/admin-developer/pattern-library/containers/slideouts-modals-overlays
 [JavaScript initialization]: ../init.md

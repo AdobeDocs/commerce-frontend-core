@@ -20,7 +20,7 @@ Widget source file is [lib/web/mage/dropdowns.js].
 [Customer menu]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Customer/view/frontend/templates/account/customer.phtml
 [UI tooltip]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/frontend/web/templates/form/element/helper/tooltip.html
 
-### HTML markup
+## HTML markup
 
 ```html
 <div class="magento__dropdown-widget">

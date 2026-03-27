@@ -109,8 +109,8 @@ init: function (ed) {
 
 ``` js
 /**
- * Copyright © Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
+ * Copyright [first year code created] Adobe
+ * All Rights Reserved.
  */
 
 /* global CKEDITOR, MagentovariablePlugin, varienGlobalEvents, Base64 */
@@ -234,8 +234,8 @@ init: function (ed, url) {
 
 ``` js
 /**
- * Copyright © Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
+ * Copyright [first year code created] Adobe
+ * All Rights Reserved.
  */
 
 /* global CKEDITOR, MagentovariablePlugin, varienGlobalEvents, Base64 */
@@ -406,7 +406,6 @@ In the example provided, this value is `default`
 [`Magento\Cms\Model\Wysiwyg\Config`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Cms/Model/Wysiwyg/Config.php
 [virtual type]: https://developer.adobe.com/commerce/php/development/build/dependency-injection-file/#virtual-types
 [`di.xml`]: https://developer.adobe.com/commerce/php/development/build/dependency-injection-file/
-[Integrate third-party editors]: add-custom-editor.md
 [`widgetTools`]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/adminhtml/wysiwyg/tiny_mce/plugins/magentowidget/editor_plugin.js
 [`MagentovariablePlugin`]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/adminhtml/wysiwyg/tiny_mce/plugins/magentovariable/editor_plugin.js
 [`MediabrowserUtility`]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/adminhtml/browser.js

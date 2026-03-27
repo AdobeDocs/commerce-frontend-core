@@ -5,6 +5,10 @@ keywords:
   - Page Builder
 ---
 
+<Edition slots="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
+
 # Install Page Builder example modules
 
 Learning by example is one of the best ways to absorb the knowledge you need when learning new development tasks. We take that approach to heart and have tried to provide several example modules that focus on different areas of Page Builder development.
@@ -42,7 +46,7 @@ Extension modules are extensions of Page Builder's existing modules. Extending a
 
 Custom modules create new content types for Page Builder. Creating a new content type is required when you want to introduce a completely new type of content structure to Page Builder. Our current custom modules are described here:
 
--  **[Custom Quote](https://github.com/commerce-docs/pagebuilder-examples/tree/master/Quote/Custom)** — This module shows you how to create a content type for a customer testimonial. This is the completed Quote module featured in the documentation tutorial: [Creating content types](../content-types/create/../../index.md). Created by [Bruce Denham](https://github.com/bdenham).
+-  **[Custom Quote](https://github.com/commerce-docs/pagebuilder-examples/tree/master/Quote/Custom)** — This module shows you how to create a content type for a customer testimonial. This is the completed Quote module featured in the documentation tutorial: [Creating content types](../index.md). Created by [Bruce Denham](https://github.com/bdenham).
 
 -  **[Custom Homepage Grid](https://github.com/commerce-docs/pagebuilder-examples/tree/master/Grid/Custom)** — This module shows you how to create a content type that recreates the layout of the Commerce Luma-themed home page using a grid structure with grid items. Created by [Dave Macaulay](https://github.com/davemacaulay).
 

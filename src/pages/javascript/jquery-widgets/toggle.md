@@ -128,6 +128,5 @@ The result is two sections with initial content and toggled content.
 ![Toggle Widget Initial Result](../../_images/javascript/toggle-widget-initial-result.png)
 ![Toggle Widget Toggled Result](../../_images/javascript/toggle-widget-toggled-result.png)
 
-<!-- Link Definitions -->
 [lib/web/mage/toggle.js]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/toggle.js
 [Initialize JavaScript]: ../init.md

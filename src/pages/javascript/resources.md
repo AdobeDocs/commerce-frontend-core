@@ -11,7 +11,7 @@ keywords:
 
 This topic describes general concepts of how JavaScript (JS) components are organized.
 
-To address the problem of slow page loads, we exclude JavaScript from the page headers and we added the ability to use the [RequireJS library](http://requirejs.org).
+To address the problem of slow page loads, we exclude JavaScript from the page headers and we added the ability to use the [RequireJS library](https://requirejs.org/).
 
 RequireJS improves the perceived page load time because it allows JavaScript to load in the background; in particular, it enables asynchronous JavaScript loading.
 
@@ -75,7 +75,7 @@ Relative paths are also used in for [mapping and setting `paths` in requirejs-co
 
 ## Dependencies
 
-To build a dependency on the third-party plugin, specify a [shim](http://requirejs.org/docs/api.html#config-shim) in the following configuration files:
+To build a dependency on the third-party plugin, specify a [shim](https://requirejs.org/docs/api.html) in the following configuration files:
 
 *  `requirejs-config.js`
 

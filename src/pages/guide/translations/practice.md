@@ -27,7 +27,7 @@ ExampleCorp has a requirement to change the default strings to the following val
 
 To override the strings, ExampleCorp plans to use the `en_US.csv` dictionary file.
 
-1. Run the [i18n (internationalization) tool](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/localization.html) to generate the en_US dictionary for the `orange` theme:
+1. Run the [i18n (internationalization) tool](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/localization) to generate the en_US dictionary for the `orange` theme:
 
    ```bash
    bin/magento i18n:collect-phrases --output="app/design/frontend/ExampleCorp/orange/i18n/en_US.csv" app/design/frontend/ExampleCorp/orange

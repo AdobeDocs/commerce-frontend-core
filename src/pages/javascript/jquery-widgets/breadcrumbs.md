@@ -146,7 +146,6 @@ The result is the breadcrumbs block with three items.
 
 ![Breadcrumb List Item Options HTML](../../_images/javascript/breadcrumbs-widget-result.png)
 
-<!-- Link Definitions -->
 [Initialize JavaScript]: ../init.md
 [`<Magento_Theme_module_dir>/view/frontend/web/js/view/breadcrumbs.js`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Theme/view/frontend/web/js/view/breadcrumbs.js
 [`<Magento_Theme_module_dir>/view/frontend/web/js/model/breadcrumb-list.js`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Theme/view/frontend/web/js/model/breadcrumb-list.js

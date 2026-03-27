@@ -434,7 +434,7 @@ Set as follows:
 
 Where the options are as follows:
 
-*  `conditions`: compiled in [media query](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) through and operand. For example: `"max-width": "767px"`
+*  `conditions`: compiled in [media query](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries/Using) through and operand. For example: `"max-width": "767px"`
 *  `options` - object of options that are applied
 
 ## Configure options in `view.xml`
@@ -466,7 +466,7 @@ The fullscreen and breakpoints options are set in a similar way:
 </var>
 ```
 
-For illustration of setting gallery option in `view.xml`, you can reference to the [view.xml of the Blank theme](https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/blank/etc/view.xml#L184).
+For illustration of setting gallery option in `view.xml`, you can reference to the [view.xml of the Blank theme](https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/blank/etc/view.xml).
 
 ## Gallery API
 
@@ -566,7 +566,7 @@ api.updateOptions([{
 }]);
 ```
 
-[Fotorama widget]: http://fotorama.io/
+[Fotorama widget]: https://fotorama.io/
 [lib/web/mage/gallery/gallery.js]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/gallery/gallery.js
 [lib/web/magnifier/magnify.js]: https://github.com/magento/magento2/blob/2.4/lib/web/magnifier/magnify.js
 

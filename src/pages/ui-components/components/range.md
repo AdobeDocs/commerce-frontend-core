@@ -9,13 +9,13 @@ The Range component implements the range for filtering rows in a grid. Visually,
 
 ## Options
 
-| Option | Description | Type | Default Value |
-| -------- | --------------------- | --------------------- | --------------------- |
-| `class` | Path to the PHP class responsible for the backend implementation of the component. | String | `Magento\Ui\Component\Filters\Type\Range` |
-| `component` | The path to the component’s `.js` file in terms of RequireJS. | String | `Magento_Ui/js/grid/filters/range` |
-| `isRange` | Defines range filter. | Boolean | `true` |
-| `rangeType` | Defines what kind of input elements the range contains.<br/>For example, if the value is `date`, then range includes two date fields. | String | - |
-| `template` | Path to the component’s `.html` template. | String | `ui/grid/filters/elements/group` |
+| Option | Description                                                                                                                             | Type | Default Value |
+| -------- |-----------------------------------------------------------------------------------------------------------------------------------------| --------------------- | --------------------- |
+| `class` | Path to the PHP class responsible for the backend implementation of the component.                                                      | String | `Magento\Ui\Component\Filters\Type\Range` |
+| `component` | The path to the component’s `.js` file in terms of RequireJS.                                                                           | String | `Magento_Ui/js/grid/filters/range` |
+| `isRange` | Defines range filter.                                                                                                                   | Boolean | `true` |
+| `rangeType` | Defines what kind of input elements the range contains.\<br/\>For example, if the value is `date`, then range includes two date fields. | String | - |
+| `template` | Path to the component’s `.html` template.                                                                                               | String | `ui/grid/filters/elements/group` |
 
 ## Source files
 

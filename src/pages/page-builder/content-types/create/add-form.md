@@ -5,6 +5,10 @@ keywords:
   - Page Builder
 ---
 
+<Edition slots="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
+
 # Add form
 
 In this step, we will create a UI component form. This form will give users another way to enter text for the Quote and style the text's appearance.
@@ -289,7 +293,7 @@ The `<settings>` element defines the data scope, data type, and label to use for
 
 ## Quote form layout
 
-The layout for our Quote form is shown in full here for you to copy into your `pagebuilder_example_form.xml` layout file. For more information about layouts, see [Layout instructions](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/layouts/xml-instructions.html).
+The layout for our Quote form is shown in full here for you to copy into your `pagebuilder_example_form.xml` layout file. For more information about layouts, see [Layout instructions](../../../guide/layouts/xml-instructions.md).
 
 ```xml
 <?xml version="1.0"?>

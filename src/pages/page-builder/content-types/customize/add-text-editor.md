@@ -5,6 +5,10 @@ keywords:
   - Page Builder
 ---
 
+<Edition slots="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
+
 # Add a text editor
 
 This topic describes how to add a reusable inline text editing component to the Page Builder stage for a content type.
@@ -21,7 +25,6 @@ To add configuration for the inline text editor:
          <additional_data>
              <item name="wysiwygConfig" xsi:type="array">
                  <item name="wysiwygConfigData" xsi:type="object">Magento\PageBuilder\Model\Config\ContentType\AdditionalData\Provider\Wysiwyg\Config</item>
-                 </item>
              </item>
          </additional_data>
      </type>

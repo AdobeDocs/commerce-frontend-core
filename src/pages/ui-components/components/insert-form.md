@@ -9,20 +9,20 @@ The InsertForm component inserts the [Form component](form.md) into other compon
 
 ## Options
 
-| Option | Description | Type | Default |
-| --- | --- | --- | --- |
-| `autoRender` | When set to true, the Form component is automatically rendered during InsertForm initialization. Otherwise, insertForm's `render` method should be called to render the Form. | Boolean | `false` |
-| `class` | Path to the PHP class responsible for the backend implementation of the component. | String | `Magento\Ui\Component\Container` |
-| `component` | The path to the component’s JS constructor file in terms of RequireJS. | String | `Magento_Ui/js/form/components/insert-form` |
-| `dataLinks`.`exports` | Enable export from the insertForm's externalValue to the inserted Form aggregated value. | Boolean | `false` |
-| `dataLinks`.`imports` | Enable import from the inserted Form value to the insertForm's externalValue. | Boolean | `false` |
-| `externalProvider` | DataSource of the inserted Form. | String | `''` |
-| `formSubmitType` | Expect that Form will save data using AJAX. Links responseData and responseStatus with form. Export to form submit type. | Boolean | `false` |
-| `ns` | Namespace of the inserted form. | String | `''` |
-| `realTimeLink` | Enables a link between the externalValue and value of insertForms. Here 'link' means the two-way [links property](../concepts/linking.md#links-property) of UI components, which allows immediate update. | Boolean | `false` |
-| `render_url` | With default `render_url(mui/index/render)` form will be without form buttons. To get Form with buttons, url must be changed to `mui/index/render_handle` and next GET parameters: <br/> `buttons=1` (flag to get buttons) <br/> `handle=%layout namespace%/` (buttons scope) | String | `mui/index/render` |
-| `showSpinner` | Show spinner while the Form is rendered. | Boolean | `true` |
-| `toolbarContainer` | Path to component that has toolbarSection property with reference to HTML element. Component will insert Form buttons to this section. | String | `''` |
+| Option | Description                                                                                                                                                                                                                                                                       | Type | Default |
+| --- |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- | --- |
+| `autoRender` | When set to true, the Form component is automatically rendered during InsertForm initialization. Otherwise, insertForm's `render` method should be called to render the Form.                                                                                                     | Boolean | `false` |
+| `class` | Path to the PHP class responsible for the backend implementation of the component.                                                                                                                                                                                                | String | `Magento\Ui\Component\Container` |
+| `component` | The path to the component’s JS constructor file in terms of RequireJS.                                                                                                                                                                                                            | String | `Magento_Ui/js/form/components/insert-form` |
+| `dataLinks`.`exports` | Enable export from the insertForm's externalValue to the inserted Form aggregated value.                                                                                                                                                                                          | Boolean | `false` |
+| `dataLinks`.`imports` | Enable import from the inserted Form value to the insertForm's externalValue.                                                                                                                                                                                                     | Boolean | `false` |
+| `externalProvider` | DataSource of the inserted Form.                                                                                                                                                                                                                                                  | String | `''` |
+| `formSubmitType` | Expect that Form will save data using AJAX. Links responseData and responseStatus with form. Export to form submit type.                                                                                                                                                          | Boolean | `false` |
+| `ns` | Namespace of the inserted form.                                                                                                                                                                                                                                                   | String | `''` |
+| `realTimeLink` | Enables a link between the externalValue and value of insertForms. Here 'link' means the two-way [links property](../concepts/linking.md#links-property) of UI components, which allows immediate update.                                                                         | Boolean | `false` |
+| `render_url` | With default `render_url(mui/index/render)` form will be without form buttons. To get Form with buttons, url must be changed to `mui/index/render_handle` and next GET parameters: \<br/\> `buttons=1` (flag to get buttons) \<br/\> `handle=%layout namespace%/` (buttons scope) | String | `mui/index/render` |
+| `showSpinner` | Show spinner while the Form is rendered.                                                                                                                                                                                                                                          | Boolean | `true` |
+| `toolbarContainer` | Path to component that has toolbarSection property with reference to HTML element. Component will insert Form buttons to this section.                                                                                                                                            | String | `''` |
 
 ## Source files
 

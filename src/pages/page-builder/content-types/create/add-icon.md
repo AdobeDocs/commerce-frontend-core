@@ -5,6 +5,10 @@ keywords:
   - Page Builder
 ---
 
+<Edition slots="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
+
 # Add icon
 
 In this last step, we will create a panel icon for our Quote content type so that it has a unique but visually consistent identity alongside Page Builder's native font icons. When finished, the panel icon for our Quote content type will look like this:

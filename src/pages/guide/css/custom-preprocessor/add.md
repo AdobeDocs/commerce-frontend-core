@@ -9,7 +9,7 @@ keywords:
 
 # Add a custom CSS preprocessor
 
-This topic describes how to add a custom CSS preprocessor. Adding [Sass](http://sass-lang.com/) support is used as an example.
+This topic describes how to add a custom CSS preprocessor. Adding [Sass](https://sass-lang.com/) support is used as an example.
 
 ## Sample Sass module
 
@@ -31,7 +31,7 @@ To add a custom preprocessor, take the following steps:
 
 1. If the browser compilation is possible for your file types, that is, if the corresponding JavaScript library exists, create the custom renderer for the client-side compilation. This will allow the default [client-side compilation functionality](../preprocess.md#client-side-less-compilation) to be applied for your files type as well. You can use the default renderer for reference: [app/code/Magento/Developer/Model/View/Page/Config/ClientSideLessCompilation/Renderer.php](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Developer/Model/View/Page/Config/ClientSideLessCompilation/Renderer.php)
 
-1. If in your custom preprocessor, the syntax of the importing directives is different from `@import` and `@magento_import`, you must implement custom processor classes. You can view the default processors for reference: [lib/internal/Magento/Framework/Css/PreProcessor/Instruction](https://github.com/magento/magento2/blob/2.4/lib/internal/Magento/Framework/Css/PreProcessor/Instruction).
+1. If in your custom preprocessor, the syntax of the importing directives is different from `@import` and `@magento_import`, you must implement custom processor classes. You can view the default processors for reference: [lib/internal/Magento/Framework/Css/PreProcessor/Instruction](https://github.com/magento/magento2/tree/2.4/lib/internal/Magento/Framework/Css/PreProcessor/Instruction).
 
 1. In `<your_module_dir>/etc/di.xml`, declare the following:
 

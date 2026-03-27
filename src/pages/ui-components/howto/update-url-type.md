@@ -17,8 +17,8 @@ Create a `.php` file implementing the new link class in the module directory con
 ```php
 <?php
 /**
- * Copyright &copy; Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
+ * Copyright [first year code created] Adobe
+ * All rights reserved.
  */
 
 declare(strict_types=1);
@@ -93,8 +93,8 @@ Create the JavaScript implementation for the applicable UI component in your mod
 
 ```js
 /**
- * Copyright &copy; Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
+ * Copyright [first year code created] Adobe
+ * All rights reserved.
  */
 
 define([
@@ -195,8 +195,8 @@ Create a controller to search the page using a search key.
 ```php
 <?php
 /**
- * Copyright &copy; Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
+ * Copyright [first year code created] Adobe
+ * All rights reserved.
  */
 
 declare(strict_types=1);
@@ -277,8 +277,8 @@ Create a controller to return the page, or empty array if the option doesn't exi
 ```php
 <?php
 /**
- * Copyright &copy; Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
+ * Copyright [first year code created] Adobe
+ * All rights reserved.
  */
 
 declare(strict_types=1);

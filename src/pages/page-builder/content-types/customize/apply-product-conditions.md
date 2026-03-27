@@ -5,6 +5,10 @@ keywords:
   - Page Builder
 ---
 
+<Edition slots="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
+
 # Apply product conditions
 
 Out-of-the-box, product conditions can be set on Page Builder's Product content type to define which products you want to display based on a variety of product attributes. For example, if you only want display products in a category with a price greater than $50, you would set up a condition for the product as shown here:

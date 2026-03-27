@@ -5,6 +5,10 @@ keywords:
   - Page Builder
 ---
 
+<Edition slots="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
+
 # Use breakpoints for widgets
 
 Using breakpoints in Page Builder involves adding custom data to a breakpoint configuration so that you can use that data to control the responsive behavior of content types from `widgets`.

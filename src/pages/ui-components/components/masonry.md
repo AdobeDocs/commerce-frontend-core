@@ -25,10 +25,10 @@ The Masonry component has dependencies on the following components:
 | containerWidth           | Width of the container.                                                          |  Int           | window.innerWidth          |
 | imageMargin              | Margin between images.                                                           |  Int           | 20                         |
 | maxImageHeight           | Maximum height of the image.                                                     |  Int           | 240                        |
-| containerWidthToMinRatio | Minimum width and height ratio when the container width is less than default key.|  Object        | {640: 3, 1280: 5, 1920: 8} |
+| containerWidthToMinRatio | Minimum width and height ratio when the container width is less than default key.|  Object        | `{640: 3, 1280: 5, 1920: 8}` |
 | defaultMinRatio          | Default minimal image width to height ratio.                                     |  Int           | 10                         |
 | refreshFPS               | Layout update FPS during window resizing.                                        |  Int           | 60                         |
-| template                 | Path to the component’s <code>.html</code> template.                             |  String        | ui/grid/masonry            |
+| template                 | Path to the component's `.html` template.                             |  String        | ui/grid/masonry            |
 
 ## Examples
 

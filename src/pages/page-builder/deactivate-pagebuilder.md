@@ -5,6 +5,10 @@ keywords:
   - Page Builder
 ---
 
+<Edition slots="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
+
 # Deactivate Page Builder
 
 We recommend deactivating the Page Builder editor through the Admin UI instead of disabling the module with the CLI (`bin/magento`). If you use the CLI, you could break various layouts, for example, the full-width layouts. Deactivating from the Admin UI allows the Page Builder module to continue rendering the content on the storefront even if the editor is not used in the Admin.

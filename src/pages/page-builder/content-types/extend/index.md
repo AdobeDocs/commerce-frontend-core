@@ -5,6 +5,10 @@ keywords:
   - Page Builder
 ---
 
+<Edition slots="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
+
 # Introduction to extending content types
 
 Extending Page Builder's native content types is often the best way to satisfy your end users when they request changes.

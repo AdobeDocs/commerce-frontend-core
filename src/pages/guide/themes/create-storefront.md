@@ -18,7 +18,7 @@ A new theme you create is not applied for your store automatically. You need to 
 ## Prerequisites
 
 1. For the sake of compatibility, upgradability, and easy maintenance, do not modify the out-of-the-box themes. To customize the design of your store, create a new custom theme.
-1. [Set](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) your application to the developer [mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html). The application mode influences the way static files are cached. The recommendations about theme development we provide in this chapter are developer/default-mode specific.
+1. [Set](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode) your application to the developer [mode](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes). The application mode influences the way static files are cached. The recommendations about theme development we provide in this chapter are developer/default-mode specific.
 
 ## Walkthrough
 
@@ -33,8 +33,8 @@ The high-level steps required to add a new theme in the system are the following
 
 ## Recommended reading
 
-*  [Checklist of modules](https://github.com/magento/magento2/blob/2.4/app/code/Magento)
-*  [Static view files processing](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/static-view/static-view-file-deployment.html)
+*  [Checklist of modules](https://github.com/magento/magento2/tree/2.4/app/code/Magento)
+*  [Static view files processing](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/static-view/static-view-file-deployment)
 
 ## Create a theme directory
 
@@ -132,8 +132,8 @@ To register your theme in the system, add a `registration.php` file in your them
 ```php
 <?php
 /**
- * Copyright &copy; Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
+ * Copyright [first year code created] Adobe
+ * All rights reserved.
  */
 
 use \Magento\Framework\Component\ComponentRegistrar;
@@ -151,7 +151,7 @@ Product image sizes and other properties used on the storefront are configured i
 
 If the product image sizes of your theme differ from those of the parent theme, or if your theme does not inherit from any theme, add `view.xml` using the following steps:
 
-1. Log in to your application server as a user with permissions to create directories and files in the installation directory. (Typically, this is the [file system owner](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/apache.html).)
+1. Log in to your application server as a user with permissions to create directories and files in the installation directory. (Typically, this is the [file system owner](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/web-server/apache).)
 
 1. Create the `etc` directory in your theme folder.
 
@@ -197,13 +197,13 @@ It is likely that your theme will also contain module-specific files, which are 
 
 When you change files stored here during theme development, you need to clear the `pub/static` and `var/view_preprocessed` directories, and then reload the pages. Otherwise, the old versions of files are displayed on the storefront.
 
-### To clear the `pub/static` directory:
+### To clear the `pub/static` directory
 
 ```bash
 rm -r <magento_root>/pub/static/*/*
 ```
 
-### To clear the `var/view_preprocessed` directory:
+### To clear the `var/view_preprocessed` directory
 
 ```bash
 rm -r <magento_root>/var/view_preprocessed/*
