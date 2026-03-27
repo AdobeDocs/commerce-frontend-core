@@ -33,3 +33,4 @@ yalc.lock
 
 # local files
 tmp/
+.cursor/
