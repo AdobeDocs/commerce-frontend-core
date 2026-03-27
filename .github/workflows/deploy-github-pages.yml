@@ -3,6 +3,9 @@ name: Deploy GitHub Pages preview
 on:
   workflow_dispatch:
 
+# Note: GitHub Pages must be enabled on the repository with "GitHub Actions" as the source
+# (Settings → Pages → Build and deployment → Source → GitHub Actions)
+# Fork contributors must enable this on their fork before running this workflow.
 permissions:
   contents: read
   pages: write
