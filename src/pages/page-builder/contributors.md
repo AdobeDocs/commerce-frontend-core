@@ -26,7 +26,7 @@ Before installing Page Builder for making contributions, you must have the follo
 
 -  Access to the private Page Builder repository. You should participate in [Adobe Partner Program](https://business.adobe.com/support/adobe-partners.html) to have these permissions.
 
--  [npm package manager](https://www.npmjs.com/get-npm)
+-  [npm package manager](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm/)
 
 1. Clone the Page Builder repos into the root directory of your Adobe Commerce 2.3+ installation:
 

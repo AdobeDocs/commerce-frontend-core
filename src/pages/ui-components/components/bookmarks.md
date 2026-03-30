@@ -9,14 +9,14 @@ The Bookmarks component stores active and changed state of a grid implemented us
 
 ## Options
 
-Option | Description | Type | Default Value
---- | --- | --- | ---
-`newViewLabel` | Default label for a new bookmark. | String | New View
-`template` | Path to the component’s `.html` template. | String | `ui/grid/controls/bookmarks/bookmarks`
-`viewTmpl` | Path to the `.html` template used to render each bookmark in the list. | String | `ui/grid/controls/bookmarks/view`
-`defaultIndex` | The index of the default view. | String | `default`
-`activeIndex` | The index of the current view. | String | `default`
-`viewsArray` | The array of views. | Array | `default`
+| Option | Description | Type | Default Value |
+| --- | --- | --- | --- |
+| `newViewLabel` | Default label for a new bookmark. | String | New View |
+| `template` | Path to the component’s `.html` template. | String | `ui/grid/controls/bookmarks/bookmarks` |
+| `viewTmpl` | Path to the `.html` template used to render each bookmark in the list. | String | `ui/grid/controls/bookmarks/view` |
+| `defaultIndex` | The index of the default view. | String | `default` |
+| `activeIndex` | The index of the current view. | String | `default` |
+| `viewsArray` | The array of views. | Array | `default` |
 
 ## Source files
 

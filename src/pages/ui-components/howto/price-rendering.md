@@ -40,7 +40,7 @@ A product can have more than one price shown and taxes may or may not apply to a
 
 Example of pricing strategy for bundled products:
 
-![](../../_images/ui-components/bundle_prices.png)
+![Example of pricing strategy for bundled products](../../_images/ui-components/bundle_prices.png)
 
 ## Render prices with UI components
 

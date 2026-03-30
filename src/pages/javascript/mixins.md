@@ -234,7 +234,7 @@ The following is a list of files in the [`Magento_CheckoutAgreement`] module tha
 *  [`view/frontend/web/js/model/set-payment-information-mixin.js`]
 
 [mixin]: https://en.wikipedia.org/wiki/Mixin
-[application area]: https://developer.adobe.com/commerce/php/architecture/modules/areas/
+[application area]: https://developer.adobe.com/commerce/php/architecture/modules/areas
 [AMD module]: https://en.wikipedia.org/wiki/Asynchronous_module_definition
 [grid column component]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/controls/columns.js
 [step navigator object]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Checkout/view/frontend/web/js/model/step-navigator.js

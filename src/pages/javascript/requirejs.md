@@ -93,7 +93,7 @@ var config = {
 };
 ```
 
-For external content, resources should be in the allow list of Content Security Policies module; otherwise the application raises error notices in the browser console. See [Content Security Policies](https://developer.adobe.com/commerce/php/development/security/content-security-policies/).
+For external content, resources should be in the allow list of Content Security Policies module; otherwise the application raises error notices in the browser console. See [Content Security Policies](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
 
 Consider the example of overwriting an HTML file in the adminhtml.
 In this example, the `max-length` value of the text-box in the `adminhtml` is altered. The HTML file is located at `vendor/magento/module_ui/view/base/web/templates/form/element/input.html`.

@@ -33,7 +33,7 @@ For example:
 @screen__lg: 1600px;
 ```
 
-For variables' naming rules see [Less coding standards](https://developer.adobe.com/commerce/php/coding-standards/less/#variables).
+For variables' naming rules see [Less coding standards](https://developer.adobe.com/commerce/php/coding-standards/less#variables).
 
 ## Override `_responsive.less` from the library
 

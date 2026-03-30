@@ -19,8 +19,8 @@ The ActionDelete component provides a user interface for deleting records of the
 
 Extends [`Abstract`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/element/abstract.js):
 
--  [`app/code/Magento/Ui/view/base/web/js/dynamic-rows/action-delete.js`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/dynamic-rows/action-delete.js)
--  [`app/code/Magento/Ui/view/base/web/templates/dynamic-rows/cells/action-delete.html`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/dynamic-rows/cells/action-delete.html)
+-  [`app/code/Magento/Ui/view/base/web/js/dynamic-rows/action-delete.js`](https://raw.githubusercontent.com/magento/magento2/refs/heads/2.4/app/code/Magento/Ui/view/base/web/js/dynamic-rows/action-delete.js)
+-  [`app/code/Magento/Ui/view/base/web/templates/dynamic-rows/cells/action-delete.html`](https://raw.githubusercontent.com/magento/magento2/refs/heads/2.4/app/code/Magento/Ui/view/base/web/templates/dynamic-rows/cells/action-delete.html)
 
 ## Examples
 

@@ -592,7 +592,7 @@ put the stock availability and SKU blocks next to the product price on a product
 
 In the Blank theme these elements are located as follows:
 
-![](../../_images/frontend/layout_image1.png)
+![Layout elements in Blank theme](../../_images/frontend/layout_image1.png)
 
 Place the stock availability and SKU blocks after product price block on a product page, and move the review block out of the product-info-price container.
 To do this, add the extending `catalog_product_view.xml` in the `app/design/frontend/ExampleCorp/orange/Magento_Catalog/layout/` directory:
@@ -608,7 +608,7 @@ To do this, add the extending `catalog_product_view.xml` in the `app/design/fron
 
 This would make the product page look like following:
 
-![](../../_images/frontend/layout_image2.png)
+![Product page after layout customization](../../_images/frontend/layout_image2.png)
 
 <InlineAlert variant="info" slots="text"/>
 
@@ -724,7 +724,7 @@ class AddBodyClassToProductPagePlugin
 
 As result, the `<body>` tag has a new `my-new-body-class` class on all product pages.
 
-See [plugins](https://developer.adobe.com/commerce/php/development/components/plugins/).
+See [plugins](https://developer.adobe.com/commerce/php/development/components/plugins).
 
 ## Manage the 'My Account' dashboard navigation links
 
@@ -849,6 +849,6 @@ These files must be placed in the appropriate folders for layout XML files. They
 
 [page configuration]: types.md#page-configuration
 [Locate templates, layouts, and styles]: ../themes/debug.md
-[Conditional comments]: http://en.wikipedia.org/wiki/Conditional_comment
+[Conditional comments]: https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/ms537512(v=vs.85)
 [Magento/Cms/Block/Block]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Cms/Block/Block.php
 [Magento/Config/Model/Config/Source/Yesno]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Config/Model/Config/Source/Yesno.php
