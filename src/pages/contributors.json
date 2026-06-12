@@ -162,10 +162,12 @@
     {
       "page": "/guide/css/quickstart/customize-styles",
       "avatars": [
+        "https://avatars.githubusercontent.com/u/1828494?v=4",
+        "https://avatars.githubusercontent.com/u/11754689?v=4",
         "https://avatars.githubusercontent.com/u/13662379?v=4",
         "https://avatars.githubusercontent.com/u/12731225?v=4"
       ],
-      "lastUpdated": "9/11/2023"
+      "lastUpdated": "6/12/2026"
     },
     {
       "page": "/guide/css/themes",
@@ -436,10 +438,11 @@
     {
       "page": "/guide/themes/favicon",
       "avatars": [
+        "https://avatars.githubusercontent.com/u/7402947?v=4",
         "https://avatars.githubusercontent.com/u/13662379?v=4",
         "https://avatars.githubusercontent.com/u/12731225?v=4"
       ],
-      "lastUpdated": "9/11/2023"
+      "lastUpdated": "10/11/2024"
     },
     {
       "page": "/guide/themes/inheritance",
