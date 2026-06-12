@@ -61,7 +61,7 @@ The directories and files structure described below is the most extended one. It
 |Directory|Required|Description|
 |--- |--- |--- |
 |`/<Vendor>_<Module>`|optional|Module-specific styles, layouts, and templates.|
-|`/<Vendor>_<Module>/web/css/`|optional|Module-specific styles (`.css` and/or `.less` files). General styles for the module are in the _module.less file, and styles for widgets are in `_widgets.less`.|
+|`/<Vendor>_<Module>/web/css/source`|optional|Module-specific styles (`.css` and/or `.less` files). General styles for the module are in the _module.less file, and styles for widgets are in `_widgets.less`.|
 |`/<Vendor>_<Module>/layout`|optional|Layout files which extend the default module or parent theme layouts.|
 |`/<Vendor>_<Module>/layout/override/base`|optional|Layouts that override the default module layouts.|
 |`/<Vendor>_<Module>/layout/override/<parent_theme>`|optional|Layouts that override the parent theme layouts for the module.|
