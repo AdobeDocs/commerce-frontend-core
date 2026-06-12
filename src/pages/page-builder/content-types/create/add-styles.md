@@ -5,6 +5,10 @@ keywords:
   - Page Builder
 ---
 
+<Edition slots="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
+
 # Add styles
 
 In this step, we will create CSS styles (using LESS) to define the Quote's base appearance. We will also create several optional CSS classes that end-users can apply to our Quote.

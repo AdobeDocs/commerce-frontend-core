@@ -11,8 +11,8 @@ The Multiselect component provides the interface for a list or a data set. Multi
 
 | Option | Description | Type | Default |
 | --- | --- | --- | --- |
-| `component` | The path to the component’s `.js` file in terms of RequireJS. | String | `'Magento_Ui/js/form/element/multiselect'` |
-| `elementTmpl` | The path to the <code>.html</code> template of the particular field type (multiselect). | String | `'ui/form/element/multiselect'` |
+| `component` | The path to the component's `.js` file in terms of RequireJS. | String | `'Magento_Ui/js/form/element/multiselect'` |
+| `elementTmpl` | The path to the `.html` template of the particular field type (multiselect). | String | `'ui/form/element/multiselect'` |
 | `size` | The number of options that are displayed in the multiselect UI. | Number | `6` |
 | `template` | The path to the general field `.html` template. | String | `'ui/form/field'` |
 

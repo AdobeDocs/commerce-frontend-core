@@ -9,19 +9,19 @@ keywords:
 
 # Cascading style sheets (CSS)
 
-The Adobe Commerce and Magento Source applications incorporate [Less](http://lesscss.org/), a CSS pre-processor that simplifies the management of complex CSS files. To define styles for a store, you can use both CSS and Less stylesheets.
+The Adobe Commerce and Magento Source applications incorporate [Less](https://lesscss.org/), a CSS pre-processor that simplifies the management of complex CSS files. To define styles for a store, you can use both CSS and Less stylesheets.
 
 The Commerce application provides a built-in Less UI library, which you can optionally extend.
 
 To customize storefront styles, you need to [create a custom design theme](../themes/create-storefront.md). Then you can use one of the following approaches:
 
-*  If your theme [inherits](..//themes/inheritance.md) from the out-of-the-box Blank or Luma theme, you can override the default Less files. For example, to [change the values of the variables](ui-library.md#predefined-variables) used in the default files.
+*  If your theme [inherits](../themes/inheritance.md) from the out-of-the-box Blank or Luma theme, you can override the default Less files. For example, to [change the values of the variables](ui-library.md#predefined-variables) used in the default files.
 *  Create your own Less files using the built-in Less preprocessor.
 *  Create your own CSS files, optionally having compiled them using third-party CSS preprocessor.
 
 ## Things to remember when working with styles
 
-*  Make sure that you [set](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) your application to the developer or default [mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html).
+*  Make sure that you [set](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode) your application to the developer or default [mode](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes).
 
 *  If your style changes do not apply after refreshing the page, cleaning the static files cache might help. See the [caching](../caching.md#page-caching) for instructions how to do this.
 

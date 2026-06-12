@@ -5,6 +5,10 @@ keywords:
   - Page Builder
 ---
 
+<Edition slots="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
+
 # Configure the panel
 
 By default, the Page Builder panel has four menu sections (Layout, Elements, Media, Add Content) and 16 content types as shown here:

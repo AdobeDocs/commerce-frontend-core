@@ -5,6 +5,10 @@ keywords:
   - Page Builder
 ---
 
+<Edition slots="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
+
 # Upgrade content types
 
 Before version 1.3, if we updated our content-type configurations and sent them out with a new version of Page Builder, it could break the data you saved using the previous version. This happened because the configuration data of a content type is mapped to the content type's display templates. So when we change a configuration, the display of existing content might also change. With significant changes, the data from the appearance `element` nodes (`attributes`, `css`, `html`, `style`, and `tag`) is lost. Such changes cause existing content to appear incorrectly, or not at all.
@@ -40,8 +44,7 @@ Our converter class for fixing a row padding problem might be called `FixFullWid
 ```php
 <?php
 /**
- * Copyright &copy; Adobe, Inc. All rights reserved.
- * See COPYING.txt for license details.
+ * Copyright [first year code created] Adobe. All rights reserved.
  */
 
 declare(strict_types=1);
@@ -107,8 +110,7 @@ For our Data Patch, we'll create a class called `UpgradeFullWidthPadding`, which
 ```php
 <?php
 /**
- * Copyright &copy; Adobe, Inc. All rights reserved.
- * See COPYING.txt for license details.
+ * Copyright [first year code created] Adobe. All rights reserved.
  */
 namespace Magento\PageBuilder\Setup\Patch\Data;
 

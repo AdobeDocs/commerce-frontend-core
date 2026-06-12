@@ -54,11 +54,11 @@ The table below shows examples of how the Knockout bindings map to their applica
 
 |Name| Knockout Syntax | Application Syntax |
 |--- | -------- | -------|
-|if             |`<!-- ko if: isVisible--><!-- /ko -->`                                         | `<if args="isVisible"></if>`                                          |
-|               |`<div data-bind="if: isVisible"></div>`                                        | `<div if="isVisible"></div>`
+|if             |`<!-- ko if: isVisible--><!-- /ko -->`                                         | `<if args="isVisible"></if>`|
+|               |`<div data-bind="if: isVisible"></div>`                                        | `<div if="isVisible"></div>` |
 |               |`<!-- ko if: getCartParam('summary_count') -->`                                        | `<if args="getCartParam('summary_count')">`                                          |
 |ifnot          |`<!-- ko ifnot: isVisible--><!-- /ko -->`                                      | `<ifnot args="isVisible"></ifnot>`                                    |
-|               |`<div data-bind="ifnot: isVisible"></div>`                                     | `<div ifnot="isVisible"></div>`
+|               |`<div data-bind="ifnot: isVisible"></div>`                                     | `<div ifnot="isVisible"></div>`|
 |               |`<!-- ko ifnot: getCartParam('summary_count') -->`                                        | `<ifnot args="getCartParam('summary_count')">`                                       |
 |text           |`<!-- ko text: 'Some text' --><!-- /ko -->`                                    | `<text args="'Some text'">`                                           |
 |               |`<div data-bind="text: 'Some text'"></div>`                                    | `<div text="'Some text'"></div>`                                      |

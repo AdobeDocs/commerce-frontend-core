@@ -5,6 +5,10 @@ keywords:
   - Page Builder
 ---
 
+<Edition slots="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
+
 # Extend another appearance
 
 Out of the box, Page Builder provides a variety of interactive CSS styling options for your content types. For example, Page Builder's `Heading` content type provides options for setting heading types (`h1` through `h6`), text alignments, border properties, margins, and paddings. It also lets users apply one or more static CSS classes by entering them into a text input field.
@@ -275,8 +279,6 @@ To target our DOM output, we want to use attribute-based CSS classes in our `_de
     }
 }
 ```
-
-*Attribute-based CSS classes*
 
 To provide end users with styling options in the Admin UI's form fields, we can add a variety of different CSS properties for each available value. This makes it easy to target and style your content type elements in both small and large ways, depending on your use cases.
 

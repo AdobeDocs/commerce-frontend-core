@@ -5,6 +5,10 @@ keywords:
   - Page Builder
 ---
 
+<Edition slots="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
+
 # Migrate other BlueFoot content
 
 By default, the migration module only migrates content from these tables of the Commerce database:
@@ -29,7 +33,7 @@ Here are the basic steps for migrating BlueFoot content from other database tabl
 
 1. Add the following directory structure within your module: `Setup/Patch/Data`.
 
-1. Create a [data patch class](https://developer.adobe.com/commerce/php/development/components/declarative-schema/patches/) for your migration. Example: `MigrateBlogToPageBuilder.php`. Commerce executes this class when installing your module.
+1. Create a [data patch class](https://developer.adobe.com/commerce/php/development/components/declarative-schema/patches) for your migration. Example: `MigrateBlogToPageBuilder.php`. Commerce executes this class when installing your module.
 
 1. Implement the `Magento\Framework\Setup\Patch\DataPatchInterface`.
 

@@ -148,6 +148,5 @@ The following example shows the initialization of FolderTree widget.
 
 ![FolderTree widget example](../../_images/javascript/folder-tree-widget.png)
 
-<!-- Link Definitions -->
 [`<Magento_Cms_module_dir>/view/adminhtml/web/js/folder-tree.js`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Cms/view/adminhtml/web/js/folder-tree.js
 [Initialize JavaScript]: ../init.md

@@ -237,7 +237,6 @@ You can now search for an option in the search bar and the **Add new value** but
 
 ![Multiselect Widget Example](../../_images/javascript/multiselect-widget-result.png)
 
-<!-- Link Definitions -->
 [lib/web/mage/multiselect.js]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/multiselect.js
 [Initialize JavaScript]: ../init.md
 [`<Magento_Tax_module_dir>/Controller/Adminhtml/Rule/AjaxLoadRates.php`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Tax/Controller/Adminhtml/Rule/AjaxLoadRates.php

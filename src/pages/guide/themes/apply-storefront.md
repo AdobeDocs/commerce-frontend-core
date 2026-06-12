@@ -14,7 +14,7 @@ Also, it gives information how to add a theme independent logo for your store.
 
 ## Prerequisites
 
-Make sure that you [set](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) your application to the developer [mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html).
+Make sure that you [set](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode) your application to the developer [mode](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes).
 
 ## Apply a theme
 

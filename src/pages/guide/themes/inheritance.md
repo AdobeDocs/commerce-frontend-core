@@ -93,13 +93,13 @@ Let's imagine SampleCompany needs to add some winter holidays decor. So it creat
 
 In the Orange theme there is a footer background image located at `app/design/frontend/SampleCompany/orange/web/images/background.jpg`.
 
-![](../../_images/frontend/inh-background1.jpg)
+![Orange theme footer background image](../../_images/frontend/inh-background1.jpg)
 
 SampleCompany wants it to be replaced with a holiday one, so it places a new background image with exactly the same name and extension in `app/design/frontend/SampleCompany/orange_winter/web/images/background.jpg`
 
 Once the Orange Winter theme is [applied](apply-storefront.md), the new holiday image overrides the one from Orange, so on storefront the holiday background is visible.
 
-![](../../_images/frontend/inh-background2.jpg)
+![Orange Winter theme holiday background image](../../_images/frontend/inh-background2.jpg)
 
 ## Override templates
 

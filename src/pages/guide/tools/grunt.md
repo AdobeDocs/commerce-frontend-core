@@ -10,13 +10,13 @@ keywords:
 
 # Grunt
 
-The topic describes how to install and configure [Grunt JavaScript task runner](http://gruntjs.com/).
+The topic describes how to install and configure [Grunt JavaScript task runner](https://gruntjs.com/).
 
 You can use Grunt to automate any tasks you need, but out of the box the application comes with pre-configured grunt tasks for compiling LESS files.
 
 ## Prerequisites
 
-Make sure that you [set](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) your application to the developer or default [mode](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html).
+Make sure that you [set](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode) your application to the developer or default [mode](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes).
 
 ## Install and configure Grunt
 

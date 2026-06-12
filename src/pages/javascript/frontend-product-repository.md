@@ -192,8 +192,8 @@ The object structure for this REST response is represented by [`\Magento\Catalog
 ]
 ```
 
-[datasource-component]: https://developer.adobe.com/commerce/frontend-core/ui-components/concepts/data-source/
+[datasource-component]: ../ui-components/concepts/data-source.md
 [recently-viewed-widget]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Catalog/view/frontend/ui_component/widget_recently_viewed.xml
 [product-render-interface]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Catalog/Api/Data/ProductRenderInterface.php
 [storage-service]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Catalog/view/frontend/web/js/product/storage/storage-service.js
-[load-data-from-server]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Catalog/view/frontend/web/js/product/storage/data-storage.js#L213
+[load-data-from-server]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Catalog/view/frontend/web/js/product/storage/data-storage.js

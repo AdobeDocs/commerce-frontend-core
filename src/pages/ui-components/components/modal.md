@@ -11,7 +11,7 @@ Similar to the widget's configuration, the component's configuration allows you 
 
 The Modal component can be used for both Admin and storefronts.
 
-For recommendations about modal windows usage from the UX point of view, see the corresponding topic in the [Admin pattern library](https://developer.adobe.com/commerce/admin-developer/pattern-library/containers/slideouts-modals-overlays/).
+For recommendations about modal windows usage from the UX point of view, see the corresponding topic in the [Admin pattern library](https://developer.adobe.com/commerce/admin-developer/pattern-library/containers/slideouts-modals-overlays).
 
 ## Options
 
@@ -34,7 +34,7 @@ Component's options are set in the configuration `.xml` file as follows:
 | --- | --- | --- | --- |
 | `modalClass` | CSS class applied to the root node of the component's `.html` template. | String | `modal-component` |
 | `onCancel` | Name of the method invoked when a user attempts to close the modal window. | String | `closeModal` |
-| `options` | Configuration passed to the [modal widget](../../javascript/jquery-widgets/modal.md). | Object | ```{modalClass: '',title: '',subTitle: '',buttons: [],keyEventHandlers: {}}``` |
+| `options` | Configuration passed to the [modal widget](../../javascript/jquery-widgets/modal.md). | Object | `{modalClass: '',title: '',subTitle: '',buttons: [],keyEventHandlers: {}}` |
 | `subTitle` | Subtitle of the modal window. | String | `''` |
 | `template` | Path to the component's `.html` template. | String | `ui/modal/modal-component` |
 | `title` | Label displayed in the header of the modal window. | String | `''` |
@@ -141,7 +141,7 @@ The Button component `Open modal` is added, that onClick, opens a modal window w
                     <item name="label" xsi:type="string"/>
                     <item name="additionalClasses" xsi:type="string">release-notification-text</item>
                     <item name="text" xsi:type="string" translate="true"><![CDATA[
-                <p>We’ll try to show it again the next time you refresh the <b>page</b>.</p>]]></item>
+                <p>We'll try to show it again the next time you refresh the <b>page</b>.</p>]]></item>
                 </item>
             </argument>
         </container>

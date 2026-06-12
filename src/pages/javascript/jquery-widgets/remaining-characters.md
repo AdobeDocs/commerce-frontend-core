@@ -138,6 +138,5 @@ This example shows the text field with the note that shows you a message about t
 ![RemainingCharacters widget example with not exceeded text length](../../_images/javascript/remaining-characters-widget-with-not-exceeded-text-length.png)
 ![RemainingCharacters widget example with exceeded text length](../../_images/javascript/remaining-characters-widget-with-exceeded-text-length.png)
 
-<!-- Link Definitions -->
 [`<Magento_Catalog_module_dir>/view/frontend/web/js/product/remaining-characters.js`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Catalog/view/frontend/web/js/product/remaining-characters.js
 [Initialize JavaScript]: ../init.md

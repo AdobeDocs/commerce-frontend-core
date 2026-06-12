@@ -134,5 +134,4 @@ var config = {
 
 [`gallery.js`]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/gallery/gallery.js
 [can be reached from the page source view or from the file system]: custom.md#extend-a-default-ui-component
-[jCarousel widget]: http://sorgalla.com/jcarousel/
-[`gallery.js`]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/gallery/gallery.js
+[jCarousel widget]: https://sorgalla.com/jcarousel/

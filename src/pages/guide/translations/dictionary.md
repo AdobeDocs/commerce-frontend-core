@@ -20,7 +20,7 @@ When the locale is changed for a store, the application searches and applies tra
 1. Theme translations:
    1. `<parent_theme_dir>/i18n/` (iterated through all ancestor themes)
    1. `<current_theme_dir>/i18n/`
-1. The database (translations located in this database take precedence and override translations stored in other locations.)  Refer to the [user guide](https://docs.magento.com/m2/ce/user_guide/system/translate-inline.html) for more information.
+1. The database (translations located in this database take precedence and override translations stored in other locations.)  Refer to the [user guide](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/developer-tools#translate-inline) for more information.
 
 <InlineAlert variant="info" slots="text"/>
 
@@ -70,6 +70,6 @@ The locale dictionary would use the default values (keys) in the left column fol
 
 [translation dictionaries]: index.md#terms
 [`<Magento_Luma_theme_dir>/i18n/en_US.csv`]: https://github.com/magento/magento2/blob/2.4/app/design/frontend/Magento/luma/i18n/en_US.csv
-[i18n tool]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/localization.html
-[Generate the dictionary]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/localization.html
+[i18n tool]: https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/localization
+[Generate the dictionary]: https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/localization
 [Example theme translation dictionary]: practice.md

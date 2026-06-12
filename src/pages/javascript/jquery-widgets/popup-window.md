@@ -200,6 +200,5 @@ As a result, we see the *Open Customer Login* link and after clicking on it, the
 
 ![PopupWindow Example](../../_images/javascript/popupWindow-widget-result.png)
 
-<!-- Link Definitions -->
 [lib/web/mage/popup-window.js]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/popup-window.js
 [Initialize JavaScript]: ../init.md

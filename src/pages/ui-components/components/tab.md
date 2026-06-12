@@ -7,14 +7,14 @@ description: Configure Adobe Commerce and Magento Open Source UI components and 
 
 The Tab component implements a tab content area.
 
-See the [Admin Design Pattern Library (Tabs)](https://developer.adobe.com/commerce/admin-developer/pattern-library/containers/tabs/) topic for information about the UI design patterns that can be implemented using the Tab component.
+See the [Admin Design Pattern Library (Tabs)](https://developer.adobe.com/commerce/admin-developer/pattern-library/containers/tabs) topic for information about the UI design patterns that can be implemented using the Tab component.
 
 ## Options
 
 | Option      | Description                                                        | Type   | Default                              |
 |-------------|--------------------------------------------------------------------|--------|--------------------------------------|
-| `component` | The path to the component’s JS constructor, in terms of RequireJS. | String | `Magento_Ui/js/form/components/area` |
-| `template`  | The path to the component’s `.html` template.                      | String | `templates/layout/tabs/tab/default`  |
+| `component` | The path to the component's JS constructor, in terms of RequireJS. | String | `Magento_Ui/js/form/components/area` |
+| `template`  | The path to the component's `.html` template.                      | String | `templates/layout/tabs/tab/default`  |
 | `uniqueNs`  | Unique namespace for the component.                                | String | `params.activeArea`                  |
 
 ## Examples

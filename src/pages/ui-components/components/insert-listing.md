@@ -9,18 +9,18 @@ The InsertListing component inserts [Listing](listing-grid.md) into other compon
 
 ## Options
 
-| Option | Description | Type | Default |
-| --- | --- | --- | --- |
-| `autoRender` | When set to true, the Listing component is automatically rendered during insertListing initialization. Otherwise, insertListing's `render` method should be called to render the Listing. | Boolean | `false` |
-| `behaviourType` | Can be `simple` or `edit`. Where `edit` means that insertListing also includes changes from Listing's inlineEdit into value. In this case, Listing must be configured with enabled inline editing. | String (`simple` \| `edit`) | `'simple'` |
-| `class` | Path to the PHP class responsible for the backend implementation of the component. | String | `Magento\Ui\Component\Container` |
-| `component` | The path to the component’s `.js` file in terms of RequireJS. | String | `'Magento_Ui/js/form/components/insert-listing'` |
-| `dataLinks`.`exports` | Enable exporting from the insertListing's externalValue to the inserted Listing aggregated value. | Boolean | `false` |
-| `dataLinks`.`imports` | Enable importing from the inserted Listing value to the insertListing's externalValue. | Boolean | `true` |
-| `realTimeLink` | Enable the link between insertListing's externalValue and value. Here `link` means the two-way [links property](../concepts/linking.md#links-property) of UI components, which allows immediate update. | Boolean | `true` |
-| `render_url` | With default `render_url(mui/index/render)` listing will be without buttons. For get a list with buttons url must be changed to `mui/index/render_handle` and the following GET parameters:<br /> buttons=1 (flag to get buttons)<br /> handle= (buttons scope) | String | `'mui/index/render'` |
-| `update_url` | Where the AJAX request will go to retrieve, foster component update data. It will be in json format by default and will be automatically set into `externalProvider.data` | String | `'mui/index/render'` |
-| `selectionsProvider` | The source selector for Ajax request of the main form through the identifier of the 'selectionColumns' | String | null |
+| Option | Description                                                                                                                                                                                                                                                         | Type | Default |
+| --- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- | --- |
+| `autoRender` | When set to true, the Listing component is automatically rendered during insertListing initialization. Otherwise, insertListing's `render` method should be called to render the Listing.                                                                           | Boolean | `false` |
+| `behaviourType` | Can be `simple` or `edit`. Where `edit` means that insertListing also includes changes from Listing's inlineEdit into value. In this case, Listing must be configured with enabled inline editing.                                                                  | String (`simple` \| `edit`) | `'simple'` |
+| `class` | Path to the PHP class responsible for the backend implementation of the component.                                                                                                                                                                                  | String | `Magento\Ui\Component\Container` |
+| `component` | The path to the component’s `.js` file in terms of RequireJS.                                                                                                                                                                                                       | String | `'Magento_Ui/js/form/components/insert-listing'` |
+| `dataLinks`.`exports` | Enable exporting from the insertListing's externalValue to the inserted Listing aggregated value.                                                                                                                                                                   | Boolean | `false` |
+| `dataLinks`.`imports` | Enable importing from the inserted Listing value to the insertListing's externalValue.                                                                                                                                                                              | Boolean | `true` |
+| `realTimeLink` | Enable the link between insertListing's externalValue and value. Here `link` means the two-way [links property](../concepts/linking.md#links-property) of UI components, which allows immediate update.                                                             | Boolean | `true` |
+| `render_url` | With default `render_url(mui/index/render)` listing will be without buttons. For get a list with buttons url must be changed to `mui/index/render_handle` and the following GET parameters:\<br /\> buttons=1 (flag to get buttons)\<br /\> handle= (buttons scope) | String | `'mui/index/render'` |
+| `update_url` | Where the AJAX request will go to retrieve, foster component update data. It will be in json format by default and will be automatically set into `externalProvider.data`                                                                                           | String | `'mui/index/render'` |
+| `selectionsProvider` | The source selector for Ajax request of the main form through the identifier of the 'selectionColumns'                                                                                                                                                              | String | null |
 
 ## Source files
 

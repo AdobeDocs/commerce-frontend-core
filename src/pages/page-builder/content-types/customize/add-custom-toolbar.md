@@ -5,6 +5,10 @@ keywords:
   - Page Builder
 ---
 
+<Edition slots="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
+
 # Add a custom toolbar
 
 This topic shows you how to implement an inline toolbar for your content type. You can see an example of a toolbar in Page Builder's Heading content type, as shown here:

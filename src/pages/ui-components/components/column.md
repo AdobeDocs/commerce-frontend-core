@@ -18,7 +18,7 @@ The Column component implements a basic column in [Listing](listing-grid.md).
 | `disableAction` | Disables the action set in the `templates.fieldAction` property. | Boolean | `false` |
 | `draggable` | Defines if a user can change column's position in the table by grabbing column's header and dragging it across the table. | Boolean | `true` |
 | `editor` |  | String \| Object |  |
-| `fieldClass` | Additional CSS classes added to the column's field elements. | {[name: String]: Boolean} | `''` |
+| `fieldClass` | Additional CSS classes added to the column's field elements. | `{[name: String]: Boolean}` | `''` |
 | `filter` | Reference to one of the available filter types defined in the [Filters component](filters.md). If the value represents an object containing the `filterType` field, this object is considered as an extension of the referenced filter element. If there's no such field in the value object, it is considered as a definition of a custom filter element. | String \| Object | `-` |
 | `headerTmpl` | Path to the `.html` template for the column's header. | String | `ui/grid/columns/text` |
 | `label` | The column label displayed in the header. | String | `''` |

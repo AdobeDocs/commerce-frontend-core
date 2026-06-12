@@ -5,6 +5,10 @@ keywords:
   - Page Builder
 ---
 
+<Edition slots="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
+
 # Introduction to viewports for responsive content
 
 What's a viewport? It's a window in a spacecraft. But that's not important right now. [(WTM?)](https://www.youtube.com/watch?v=AK3gB7DpaM0 "What's That Movie?") For development, we know a viewport refers to the size of the window (or device) used to view content. But in Page Builder, the term has more specific meanings.
@@ -55,7 +59,7 @@ Page Builder defines the **Minimum Height** form field as a viewport property fo
 
 First, the user clicks the `mobile` viewport button. This changes the stage width accordingly. The user then opens a form for a content type that defines a viewport property field. The user adds a value to the field and clicks the Save button on the form. Page Builder saves that value _with_ the viewport, which connects it to the breakpoint.
 
-Later, when rendering content for the frontend, Page Builder starts generating styles for the content types on the page. When Page Builder gets to the viewport properties it adds, it adds them to a media query on the frontend that is defined in the viewport `media` node of the `view.xml` configuration.
+Later, when rendering content for the frontend, Page Builder starts generating styles for the content types on the page. When Page Builder gets to the viewport properties, it adds them to a media query on the frontend that is defined in the viewport `media` node of the `view.xml` configuration.
 
 Finally, Page Builder adds all its content type styles — for both viewport properties and common properties — to an internal stylesheet on the page (see [Internal stylesheets](../styles/index.md#internal-stylesheets)). So when the viewport of a device matches the media queries assigned to the viewport properties, those properties change accordingly.
 

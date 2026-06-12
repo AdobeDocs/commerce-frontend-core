@@ -95,8 +95,8 @@ If you are integrating entities such as variable and widget as plugins, your ada
 
 ``` js
 /**
- * Copyright © Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
+ * Copyright [first year code created] Adobe
+ * All Rights Reserved.
  */
 
 /* global varienGlobalEvents, tinyMceEditors, MediabrowserUtility, closeEditorPopup, Base64 */

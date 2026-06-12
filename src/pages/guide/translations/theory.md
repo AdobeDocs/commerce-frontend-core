@@ -156,8 +156,8 @@ To ensure that the text you add in a `.js` file is collected by the i18n tool an
 
 In this example, the `'Hello %1'` string is added to the dictionary when the i18n tool is run.
 
-[i18n tool]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/localization.html
-[generating the dictionary]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/localization.html
+[i18n tool]: https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/localization
+[generating the dictionary]: https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/localization
 [.phtml template]: ../templates/index.md
 [custom email templates]: ../templates/email.md
 [directive]: ../templates/email.md#localization

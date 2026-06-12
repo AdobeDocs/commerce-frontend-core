@@ -5,6 +5,10 @@ keywords:
   - Page Builder
 ---
 
+<Edition slots="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
+
 # Add templates
 
 Content type templates are the HTML files (HTML fragments) that define how your content type *appears* on both the Admin stage and within your storefront. The combination of these templates (one `preview.html` and one `master.html`) creates an `appearance`. As discussed in the previous configuration step, you must have at least one `appearance` (two templates) defined for your content type. But like the Banner, you can define several appearances for users to choose from as shown here:

@@ -61,7 +61,7 @@ All components options are separate nodes, and a node's purpose is defined by it
         </validation>
         <dataType>number</dataType>
         <tooltip>
-            <link>https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings</link>
+            <link>https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/websites-stores-views#scope-settings</link>
             <description translate="true">If your installation has multiple websites, you can edit the scope to associate the customer with a specific site.</description>
         </tooltip>
         <imports>
@@ -112,7 +112,5 @@ When editing XML configuration files in an IDE, you get visual notifications if 
 
 To use the autocomplete and validation features in your IDE, generate the URN as described in the [URN highlighter] topic.
 
-<!--Link Declarations -->
-
 [declaring a custom UI component]: ../howto/new-component-declaration.md
-[URN highlighter]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/urn-highlighter.html
+[URN highlighter]: https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/urn-highlighter

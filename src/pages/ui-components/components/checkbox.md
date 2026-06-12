@@ -9,16 +9,16 @@ The Checkbox component implements a form field that is an HTML `<input type="che
 
 ## Options
 
-| Option | Description | Type | Default |
-| --- | --- | --- | --- |
-| `checked` | Initial checkbox state (selected or cleared). If `false`, the checkbox is cleared. If `true`, the checkbox is selected. | Boolean | `false` |
-| `component` | The path to the component’s `.js` file in terms of RequireJS. | String | `Magento_Ui/js/form/element/single-checkbox` |
-| `label` | Label to be displayed in the field. | String | `''` |
-| `multiple` | Renders multiple elements. | Boolean | `false` |
+| Option | Description                                                                                                                                                                                                     | Type | Default |
+| --- |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- | --- |
+| `checked` | Initial checkbox state (selected or cleared). If `false`, the checkbox is cleared. If `true`, the checkbox is selected.                                                                                         | Boolean | `false` |
+| `component` | The path to the component’s `.js` file in terms of RequireJS.                                                                                                                                                   | String | `Magento_Ui/js/form/element/single-checkbox` |
+| `label` | Label to be displayed in the field.                                                                                                                                                                             | String | `''` |
+| `multiple` | Renders multiple elements.                                                                                                                                                                                      | Boolean | `false` |
 | `prefer` | The input type of the element to be rendered. Can be either radio button, checkbox, or toggle key. Changing this value also changes the `elementTmpl`, originally defined in the parent (`abstract`) component. | String (`radio` \| `checkbox` \| `toggle`) | `checkbox` |
-| `template` | The path to the component’s `.html` template. | String | `ui/form/field` |
-| `templates` | Paths to templates for all possible types of input elements. The exact template to be used for rendering is defined by the `prefer` property. | Object | `{radio: 'ui/form/components/single/radio', checkbox: 'ui/form/components/single/checkbox', toggle: 'ui/form/components/single/switcher'}` |
-| `valueMap` | Convert the component's value to the expected type. For example, you can set to convert '0' to 'false', this would look like following: <br />`{'0': false}` | Object | `{}` |
+| `template` | The path to the component’s `.html` template.                                                                                                                                                                   | String | `ui/form/field` |
+| `templates` | Paths to templates for all possible types of input elements. The exact template to be used for rendering is defined by the `prefer` property.                                                                   | Object | `{radio: 'ui/form/components/single/radio', checkbox: 'ui/form/components/single/checkbox', toggle: 'ui/form/components/single/switcher'}` |
+| `valueMap` | Convert the component's value to the expected type. For example, you can set to convert '0' to 'false', this would look like following: \<br /\>`{'0': false}`                                                  | Object | `{}` |
 
 ## Source files
 
@@ -27,8 +27,8 @@ Extends [`Abstract`](https://github.com/magento/magento2/blob/2.4/app/code/Magen
 -  [app/code/Magento/Ui/view/base/web/js/form/element/single-checkbox.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/element/single-checkbox.js)
 -  [app/code/Magento/Ui/view/base/web/templates/form/components/single/checkbox.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/form/components/single/checkbox.html)
 -  [app/code/Magento/Ui/view/base/web/templates/form/components/single/radio.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/form/components/single/radio.html)
--  [app/code/Magento/Ui/view/base/web/templates/form/components/single/switcher.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/form/components/single/switcher.html)
--  [app/code/Magento/Ui/view/base/web/templates/form/field.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/form/field.html)
+-  [app/code/Magento/Ui/view/base/web/templates/form/components/single/switcher.html](https://raw.githubusercontent.com/magento/magento2/refs/heads/2.4/app/code/Magento/Ui/view/base/web/templates/form/components/single/switcher.html)
+-  [app/code/Magento/Ui/view/base/web/templates/form/field.html](https://raw.githubusercontent.com/magento/magento2/refs/heads/2.4/app/code/Magento/Ui/view/base/web/templates/form/field.html)
 
 ## Examples
 

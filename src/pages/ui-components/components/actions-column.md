@@ -11,12 +11,12 @@ The ActionsColumns component implements a table's column responsible for display
 
 | Option | Description | Type | Default |
 | --- | --- | --- | --- |
-| `component` | The path to the component’s `.js` file in terms of RequireJS. | String | `Magento_Ui/js/grid/columns/actions` |
+| `component` | The path to the component's `.js` file in terms of RequireJS. | String | `Magento_Ui/js/grid/columns/actions` |
 | `bodyTmpl` | Path to the `.html` template used to render a column's field in the table's body. | String | `ui/grid/cells/actions` |
 | `draggable` | Defines whether a user can change column's position in the table by grabbing column's header and dragging it across the table. | Boolean | `false` |
-| `fieldClass` | Additional CSS classes added to the column's field elements. | {[name: string]: Boolean} | `{'data-grid-actions-cell': true}` |
+| `fieldClass` | Additional CSS classes added to the column's field elements. | `{[name: string]: Boolean}` | `{'data-grid-actions-cell': true}` |
 | `sortable` | Whether column's fields can be used to sort records in the table. | Boolean | `false` |
-| `templates.actions` | A list of actions that will be displayed in column's fields. | {[name: String]: `ActionItem`} | `-` |
+| `templates.actions` | A list of actions that will be displayed in column's fields. | `{[name: String]: ActionItem}` | `-` |
 
 ### ActionItem interface
 

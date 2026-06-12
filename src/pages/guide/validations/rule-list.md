@@ -14,6 +14,8 @@ keywords:
 This is a list of available form validation rules, ordered alphabetically.
 Each rule contains a short description and a usage example.
 
+## Available rules
+
 ### alphanumeric
 
 Check if the value contains only letters, numbers, spaces or underscores.
@@ -46,7 +48,7 @@ Possible values are: amex, mastercard, visa, dinersclub, enroute, discover, jcb,
 
 ### dateITA
 
-Date in Italy, **\d{1,2}\/\d{1,2}\/\d{4}** format, i.e. **4/4/24** or **24/12/21**.
+Date in Italy, `\d{1,2}\/\d{1,2}\/\d{4}` format, i.e. `4/4/24` or `24/12/21`.
 
 #### Example
 

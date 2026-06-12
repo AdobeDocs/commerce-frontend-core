@@ -5,6 +5,10 @@ keywords:
   - Page Builder
 ---
 
+<Edition slots="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
+
 # Page Builder Architecture
 
 We wrote Page Builder in [TypeScript], a superset of JavaScript. Before each release, we transpile the TypeScript to JavaScript.
@@ -92,7 +96,7 @@ A mass converter changes data for all content type elements, not just one. You m
 
 For example, the content type for two elements, main and image, has data stored in the fields `border`, `border_color`, `border_width`, `background_image`. A mass converter allows you to change all these fields, not just one of them.
 
-Any content type using background images will have a mass converter. In the following example, we use a mass converter to generate a JSON string for an attribute on an element for the storefront to render as a <style /> block.
+Any content type using background images will have a mass converter. In the following example, we use a mass converter to generate a JSON string for an attribute on an element for the storefront to render as a `<style />` block.
 
 ```xml
 <converters>

@@ -5,6 +5,10 @@ keywords:
   - Page Builder
 ---
 
+<Edition slots="text"/>
+
+[PaaS only](https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions)
+
 # Add icons and images
 
 Page Builder Admin icons follow the same design principles as the core [Commerce Admin icons]. They are simple, flat, and monochromatic to prevent the loss of detail at smaller sizes, while making their shapes easier to comprehend.
@@ -132,6 +136,6 @@ For more general information about Adobe Commerce's Admin icons and how to creat
 
 -  [The CMS icons repository]
 
-[Commerce Admin icons]: https://devdocs.magento.com/guides/v2.3/pattern-library/graphics/iconography/iconography.html
-[Create your own icons]: https://devdocs.magento.com/guides/v2.3/pattern-library/graphics/iconography/iconography.html#creating-icons
+[Commerce Admin icons]: https://developer.adobe.com/commerce/admin-developer/pattern-library/graphics/iconography
+[Create your own icons]: https://developer.adobe.com/commerce/admin-developer/pattern-library/graphics/iconography#creating-icons
 [The CMS icons repository]: https://github.com/magento-ux/cms-icons

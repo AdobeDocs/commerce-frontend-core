@@ -11,27 +11,20 @@ Changing breakpoints and viewports is about changing Page Builder's default `min
 
 The following list shows Page Builder's default `min-width` and `max-width` values for breakpoints and viewports:
 
-**desktop**
+- **desktop**
+  - `<var name="min-width">1024px</var>`
 
--  `<var name="min-width">1024px</var>`
+- **tablet**
+  - `<var name="max-width">1024px</var>`
+  - `<var name="min-width">768px</var>`
 
-**tablet**
+- **mobile**
+  - `<var name="max-width">768px</var>`
+  - `<var name="min-width">640px</var>`
+  - `<var name="media">only screen and (max-width: 768px)</var>`
 
--  `<var name="max-width">1024px</var>`
-
--  `<var name="min-width">768px</var>`
-
-**mobile**
-
--  `<var name="max-width">768px</var>`
-
--  `<var name="min-width">640px</var>`
-
--  `<var name="media">only screen and (max-width: 768px)</var>`
-
-**mobile-small**
-
--  `<var name="max-width">640px</var>`
+- **mobile-small**
+  - `<var name="max-width">640px</var>`
 
 By default, Page Builder defines only one viewport `media` query for the `mobile` breakpoint. But you may find that your instance of Page Builder has a viewport `media` query defined for each breakpoint.
 
