@@ -104,7 +104,6 @@ To add a new breakpoint to the "responsive mixin, override the UI library's `_re
 
 1. In your `_responsive.less` file, add the `.media-width` mixin rule for your breakpoint in the corresponding section. If the file is left blank, then compilation of .less files will fail with an error. Here is the full guide on how to [add a custom breakpoint].
 
-
 ## Add structured changes
 
 To make your changes easier to read and support, structure them by adding a separate overriding or extending `.less` files for each [UI library component] you change. Let's use the `button` component implemented in `_button.less` as an illustration.
