@@ -38,19 +38,17 @@ MD033:
     - SuperHero
     - CodeBlock
     - Fragment
+    - Cards
+    - HorizontalLine
 
 # MD034/no-bare-urls - Bare URL used
 MD034: false
-
-# MD035/hr-style - Horizontal rule style
-MD035:
-  style: "---"
 
 # MD041/first-line-heading/first-line-h1 - First line in file should be a top level heading
 MD041: false
 
 # MD045/no-alt-text - Images should have alternate text
-MD045: false
+MD045: true
 
 # MD046/code-block-style - Code block style
 MD046:
@@ -66,6 +64,18 @@ MD049: false
 # MD050/strong-style - Strong style
 MD050:
   style: asterisk
+
+# MD052/reference-links-images - Reference links and images should have a title attribute (disabled for flexibility)
+MD052: false
+
+# MD054/link-image-style - Link and image style (disabled for flexibility)
+MD054:
+  autolink: false
+  url_inline: false
+
+# MD055/table-pipe-style - Require leading and trailing pipes (matches AM023)
+MD055:
+  style: leading_and_trailing
 
 # MD060/table-column-style - Table column style (disabled for flexible formatting)
 MD060: false

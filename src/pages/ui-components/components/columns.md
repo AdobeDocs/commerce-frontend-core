@@ -34,8 +34,8 @@ The Columns component is a collection of columns. It renders the `<table>` eleme
 
 Extends [`uiCollection`](../concepts/collection.md):
 
--  [`Magento/Ui/view/base/web/js/grid/listing.js`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/grid/listing.js)
--  [`Magento/Ui/view/base/web/templates/list/listing.html`](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/list/listing.html)
+-  [`Magento/Ui/view/base/web/js/grid/listing.js`](https://raw.githubusercontent.com/magento/magento2/refs/heads/2.4/app/code/Magento/Ui/view/base/web/js/grid/listing.js)
+-  [`Magento/Ui/view/base/web/templates/list/listing.html`](https://raw.githubusercontent.com/magento/magento2/refs/heads/2.4/app/code/Magento/Ui/view/base/web/templates/list/listing.html)
 
 ## Examples
 
