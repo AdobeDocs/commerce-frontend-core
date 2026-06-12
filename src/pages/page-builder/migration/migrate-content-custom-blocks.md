@@ -23,7 +23,7 @@ This topic assumes you have taken the following actions:
 
 -  Familiarized yourself with our [content type renderers](how-content-migration-works.md).
 
--  Familiarized yourself with the [module lifecycle](https://developer.adobe.com/commerce/php/development/prepare/extension-lifecycle/).
+-  Familiarized yourself with the [module lifecycle](https://developer.adobe.com/commerce/php/development/prepare/extension-lifecycle).
 
 -  Re-implemented your custom BlueFoot block as a new Page Builder content type.
 
@@ -31,7 +31,7 @@ This topic assumes you have taken the following actions:
 
 ## Step 1: Increase version
 
-Increase your module's `version` in the [`composer.json`](https://developer.adobe.com/commerce/php/development/build/composer-integration/) file.
+Increase your module's `version` in the [`composer.json`](https://developer.adobe.com/commerce/php/development/build/composer-integration) file.
 
 This causes Adobe Commerce to run your module's setup scripts during the migration process.
 
@@ -117,7 +117,7 @@ bin/magento setup:upgrade
 
 ## Step 6: Add a new setup patch
 
-Create a new data patch inline with our [declarative schema documentation](https://developer.adobe.com/commerce/php/development/components/declarative-schema/patches/). For this migration, we first declare the following dependencies in the constructor:
+Create a new data patch inline with our [declarative schema documentation](https://developer.adobe.com/commerce/php/development/components/declarative-schema/patches). For this migration, we first declare the following dependencies in the constructor:
 
 -  `Magento\Framework\EntityManager\MetadataPool`
 

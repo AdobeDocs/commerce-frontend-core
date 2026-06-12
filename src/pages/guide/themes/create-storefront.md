@@ -123,7 +123,7 @@ Example of a theme `composer.json` file:
 }
 ```
 
-You can find details about the Composer integration in the system in [Composer integration](https://developer.adobe.com/commerce/php/development/build/composer-integration/).
+You can find details about the Composer integration in the system in [Composer integration](https://developer.adobe.com/commerce/php/development/build/composer-integration).
 
 ## Add registration.php
 

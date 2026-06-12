@@ -22,7 +22,7 @@ The Adobe Commerce and Magento Open Source page cache library contains a simple 
 We recommend using [Varnish](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish), but you can use the default caching mechanism instead, which stores cache files in any of the following:
 
 -  File system (You don't need to do anything to use file-based caching.)
--  [Database](https://developer.adobe.com/commerce/php/development/cache/partial/database-caching/)
+-  [Database](https://developer.adobe.com/commerce/php/development/cache/partial/database-caching)
 -  [Redis](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache)
 
 ## Cacheable and uncacheable pages
@@ -49,9 +49,9 @@ Do not configure content pages (i.e., catalog, product, and CMS pages) to be unc
 
 Reverse proxies serve "public" or shared content to more than one user. However, most Adobe Commerce and Magento Open Source websites generate dynamic and personalized "private" content that should only be served to one user, which presents unique caching challenges. To address these challenges, the application can distinguish between two types of content:
 
--  **[Public](https://developer.adobe.com/commerce/php/development/cache/page/public-content/)** - Public content is stored server side in your reverse proxy cache storage (e.g., file system, database, Redis, or Varnish) and is available to multiple customers. Examples of public content include header, footer, and category listing.
+-  **[Public](https://developer.adobe.com/commerce/php/development/cache/page/public-content)** - Public content is stored server side in your reverse proxy cache storage (e.g., file system, database, Redis, or Varnish) and is available to multiple customers. Examples of public content include header, footer, and category listing.
 
--  **[Private](https://developer.adobe.com/commerce/php/development/cache/page/private-content/)** - Private content is stored client side (e.g., browser) and is specific to an individual customer. Examples of private content include wishlist, shopping cart, customer name, and address. You should limit stored private content to a small portion of the page's total content.
+-  **[Private](https://developer.adobe.com/commerce/php/development/cache/page/private-content)** - Private content is stored client side (e.g., browser) and is specific to an individual customer. Examples of private content include wishlist, shopping cart, customer name, and address. You should limit stored private content to a small portion of the page's total content.
 
 <InlineAlert variant="info" slots="text"/>
 

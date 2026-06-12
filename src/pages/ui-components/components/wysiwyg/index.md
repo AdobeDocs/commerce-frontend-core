@@ -151,7 +151,7 @@ Next, create a custom form in the `ModuleName\view\adminhtml\ui_component` direc
 
 ![Wysiwyg Component example](../../../_images/ui-components/ui-wysiwyg-result.png)
 
-Last, add your data provider, controller, and routes. Refer to [Creating an Admin page](https://developer.adobe.com/commerce/php/tutorials/admin/create-admin-page/) for more information.
+Last, add your data provider, controller, and routes. Refer to [Creating an Admin page](https://developer.adobe.com/commerce/php/tutorials/admin/create-admin-page) for more information.
 
 ## Modify the default editor
 
