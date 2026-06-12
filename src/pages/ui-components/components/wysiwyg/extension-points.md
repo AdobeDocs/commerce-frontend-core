@@ -404,8 +404,8 @@ The `name` attribute for the configuration provider in the `di.xml` entry must m
 In the example provided, this value is `default`
 
 [`Magento\Cms\Model\Wysiwyg\Config`]: https://github.com/magento/magento2/blob/2.4/app/code/Magento/Cms/Model/Wysiwyg/Config.php
-[virtual type]: https://developer.adobe.com/commerce/php/development/build/dependency-injection-file/#virtual-types
-[`di.xml`]: https://developer.adobe.com/commerce/php/development/build/dependency-injection-file/
+[virtual type]: https://developer.adobe.com/commerce/php/development/build/dependency-injection-file#virtual-types
+[`di.xml`]: https://developer.adobe.com/commerce/php/development/build/dependency-injection-file
 [`widgetTools`]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/adminhtml/wysiwyg/tiny_mce/plugins/magentowidget/editor_plugin.js
 [`MagentovariablePlugin`]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/adminhtml/wysiwyg/tiny_mce/plugins/magentovariable/editor_plugin.js
 [`MediabrowserUtility`]: https://github.com/magento/magento2/blob/2.4/lib/web/mage/adminhtml/browser.js

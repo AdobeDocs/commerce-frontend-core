@@ -27,8 +27,8 @@ Extends [`Abstract`](https://github.com/magento/magento2/blob/2.4/app/code/Magen
 -  [app/code/Magento/Ui/view/base/web/js/form/element/single-checkbox.js](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/js/form/element/single-checkbox.js)
 -  [app/code/Magento/Ui/view/base/web/templates/form/components/single/checkbox.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/form/components/single/checkbox.html)
 -  [app/code/Magento/Ui/view/base/web/templates/form/components/single/radio.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/form/components/single/radio.html)
--  [app/code/Magento/Ui/view/base/web/templates/form/components/single/switcher.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/form/components/single/switcher.html)
--  [app/code/Magento/Ui/view/base/web/templates/form/field.html](https://github.com/magento/magento2/blob/2.4/app/code/Magento/Ui/view/base/web/templates/form/field.html)
+-  [app/code/Magento/Ui/view/base/web/templates/form/components/single/switcher.html](https://raw.githubusercontent.com/magento/magento2/refs/heads/2.4/app/code/Magento/Ui/view/base/web/templates/form/components/single/switcher.html)
+-  [app/code/Magento/Ui/view/base/web/templates/form/field.html](https://raw.githubusercontent.com/magento/magento2/refs/heads/2.4/app/code/Magento/Ui/view/base/web/templates/form/field.html)
 
 ## Examples
 
