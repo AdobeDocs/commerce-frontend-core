@@ -54,7 +54,7 @@ There are three kinds of layout handles:
 
 For a particular page, its layout is defined by two major layout components: *page layout* file and *page configuration* file (or *generic layout* for pages returned in AJAX requests, emails, and so on).
 
-Following are the definitions of each layout file type:
+The following are the definitions of each layout file type:
 
 *  *Page layout*: an XML file declaring a page wireframe inside the `<body>` section of the HTML page markup, for example, two-column page layout.
 *  *Page configuration*: an XML file declaring detailed structure, contents and meta-information of a page (includes the `<html>`, `<head>`, and `<body>` sections of the HTML page markup).
