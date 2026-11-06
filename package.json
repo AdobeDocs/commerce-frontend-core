@@ -7,6 +7,8 @@
     "url": "https://github.com/AdobeDocs/commerce-frontend-core"
   },
   "scripts": {
+    "helper:render": "cd _helper && bundle exec rake render",
+    "helper:whatsnew": "cd _helper && bundle exec rake whatsnew",
     "dev": "npx --yes --prefer-online github:AdobeDocs/adp-devsite-utils dev",
     "buildNavigation": "npx --yes --prefer-online github:AdobeDocs/adp-devsite-utils buildNavigation -v",
     "buildRedirections": "npx --yes --prefer-online github:AdobeDocs/adp-devsite-utils buildRedirections -v",
@@ -25,6 +27,15 @@
     "lint:md:fix": "npx --yes markdownlint-cli2 --fix 'src/pages/**/*.md' '*.md'",
     "test": "npx --yes jest",
     "test:config": "npx --yes jest tests/config.test.js"
+  },
+    "lint": {
+    "skipRules": {
+      "check-frontmatter": {
+        "paths": [
+          "src/pages/_includes"
+        ]
+      }
+    }
   },
   "engines": {
     "node": "^24.11.0"
