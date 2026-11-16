@@ -53,7 +53,7 @@
         "https://avatars.githubusercontent.com/u/16198998?v=4",
         "https://avatars.githubusercontent.com/u/22393364?v=4"
       ],
-      "lastUpdated": "12/16/2025"
+      "lastUpdated": "3/27/2026"
     },
     {
       "page": "/guide/conventions",
@@ -183,7 +183,7 @@
         "https://avatars.githubusercontent.com/u/14320591?v=4",
         "https://avatars.githubusercontent.com/u/13662379?v=4"
       ],
-      "lastUpdated": "12/12/2025"
+      "lastUpdated": "3/27/2026"
     },
     {
       "page": "/guide/css/ui-library",
@@ -194,7 +194,7 @@
         "https://avatars.githubusercontent.com/u/40261741?v=4",
         "https://avatars.githubusercontent.com/u/40389953?v=4"
       ],
-      "lastUpdated": "12/15/2025"
+      "lastUpdated": "3/27/2026"
     },
     {
       "page": "/guide/layouts/",
@@ -240,9 +240,10 @@
     {
       "page": "/guide/layouts/product-layouts",
       "avatars": [
+        "https://avatars.githubusercontent.com/u/12731225?v=4",
         "https://avatars.githubusercontent.com/u/13662379?v=4"
       ],
-      "lastUpdated": "9/11/2023"
+      "lastUpdated": "3/27/2026"
     },
     {
       "page": "/guide/layouts/types",
@@ -274,23 +275,23 @@
         "https://avatars.githubusercontent.com/u/13662379?v=4",
         "https://avatars.githubusercontent.com/u/5556060?v=4"
       ],
-      "lastUpdated": "12/15/2025"
+      "lastUpdated": "3/27/2026"
     },
     {
       "page": "/guide/responsive-design/",
       "avatars": [
-        "https://avatars.githubusercontent.com/u/13662379?v=4",
-        "https://avatars.githubusercontent.com/u/12731225?v=4"
+        "https://avatars.githubusercontent.com/u/12731225?v=4",
+        "https://avatars.githubusercontent.com/u/13662379?v=4"
       ],
-      "lastUpdated": "9/11/2023"
+      "lastUpdated": "3/27/2026"
     },
     {
       "page": "/guide/responsive-design/breakpoints",
       "avatars": [
-        "https://avatars.githubusercontent.com/u/13662379?v=4",
-        "https://avatars.githubusercontent.com/u/12731225?v=4"
+        "https://avatars.githubusercontent.com/u/12731225?v=4",
+        "https://avatars.githubusercontent.com/u/13662379?v=4"
       ],
-      "lastUpdated": "9/11/2023"
+      "lastUpdated": "3/27/2026"
     },
     {
       "page": "/guide/responsive-design/css",
@@ -432,7 +433,7 @@
         "https://avatars.githubusercontent.com/u/12731225?v=4",
         "https://avatars.githubusercontent.com/u/13662379?v=4"
       ],
-      "lastUpdated": "12/15/2025"
+      "lastUpdated": "3/27/2026"
     },
     {
       "page": "/guide/themes/debug",
@@ -455,11 +456,11 @@
     {
       "page": "/guide/themes/inheritance",
       "avatars": [
+        "https://avatars.githubusercontent.com/u/12731225?v=4",
         "https://avatars.githubusercontent.com/u/13662379?v=4",
-        "https://avatars.githubusercontent.com/u/5873715?v=4",
-        "https://avatars.githubusercontent.com/u/12731225?v=4"
+        "https://avatars.githubusercontent.com/u/5873715?v=4"
       ],
-      "lastUpdated": "10/3/2023"
+      "lastUpdated": "3/27/2026"
     },
     {
       "page": "/guide/themes/install",
@@ -631,7 +632,7 @@
         "https://avatars.githubusercontent.com/u/12731225?v=4",
         "https://avatars.githubusercontent.com/u/13662379?v=4"
       ],
-      "lastUpdated": "12/15/2025"
+      "lastUpdated": "3/27/2026"
     },
     {
       "page": "/javascript/init",
@@ -915,7 +916,7 @@
         "https://avatars.githubusercontent.com/u/13662379?v=4",
         "https://avatars.githubusercontent.com/u/2659558?v=4"
       ],
-      "lastUpdated": "12/15/2025"
+      "lastUpdated": "3/27/2026"
     },
     {
       "page": "/javascript/practice",
@@ -932,7 +933,7 @@
         "https://avatars.githubusercontent.com/u/7840447?v=4",
         "https://avatars.githubusercontent.com/u/13662379?v=4"
       ],
-      "lastUpdated": "12/15/2025"
+      "lastUpdated": "3/27/2026"
     },
     {
       "page": "/javascript/resources",
@@ -940,7 +941,7 @@
         "https://avatars.githubusercontent.com/u/12731225?v=4",
         "https://avatars.githubusercontent.com/u/13662379?v=4"
       ],
-      "lastUpdated": "12/15/2025"
+      "lastUpdated": "3/27/2026"
     },
     {
       "page": "/page-builder/",
@@ -966,12 +967,12 @@
     {
       "page": "/page-builder/architecture/configurations",
       "avatars": [
-        "https://avatars.githubusercontent.com/u/14320591?v=4",
         "https://avatars.githubusercontent.com/u/12731225?v=4",
+        "https://avatars.githubusercontent.com/u/14320591?v=4",
         "https://avatars.githubusercontent.com/u/13662379?v=4",
         "https://avatars.githubusercontent.com/u/98363870?v=4"
       ],
-      "lastUpdated": "3/18/2026"
+      "lastUpdated": "3/27/2026"
     },
     {
       "page": "/page-builder/architecture/data-store",
@@ -1249,12 +1250,12 @@
     {
       "page": "/page-builder/contributors",
       "avatars": [
-        "https://avatars.githubusercontent.com/u/14320591?v=4",
         "https://avatars.githubusercontent.com/u/12731225?v=4",
+        "https://avatars.githubusercontent.com/u/14320591?v=4",
         "https://avatars.githubusercontent.com/u/13662379?v=4",
         "https://avatars.githubusercontent.com/u/98363870?v=4"
       ],
-      "lastUpdated": "3/18/2026"
+      "lastUpdated": "3/27/2026"
     },
     {
       "page": "/page-builder/deactivate-pagebuilder",
@@ -1289,12 +1290,12 @@
     {
       "page": "/page-builder/migration/how-content-migration-works",
       "avatars": [
-        "https://avatars.githubusercontent.com/u/14320591?v=4",
         "https://avatars.githubusercontent.com/u/12731225?v=4",
+        "https://avatars.githubusercontent.com/u/14320591?v=4",
         "https://avatars.githubusercontent.com/u/13662379?v=4",
         "https://avatars.githubusercontent.com/u/98363870?v=4"
       ],
-      "lastUpdated": "3/18/2026"
+      "lastUpdated": "3/27/2026"
     },
     {
       "page": "/page-builder/migration/install-migration-module",
@@ -1310,22 +1311,22 @@
     {
       "page": "/page-builder/migration/migrate-content-custom-blocks",
       "avatars": [
-        "https://avatars.githubusercontent.com/u/14320591?v=4",
         "https://avatars.githubusercontent.com/u/12731225?v=4",
+        "https://avatars.githubusercontent.com/u/14320591?v=4",
         "https://avatars.githubusercontent.com/u/13662379?v=4",
         "https://avatars.githubusercontent.com/u/98363870?v=4"
       ],
-      "lastUpdated": "3/18/2026"
+      "lastUpdated": "3/27/2026"
     },
     {
       "page": "/page-builder/migration/migrate-other-bluefoot-content",
       "avatars": [
-        "https://avatars.githubusercontent.com/u/14320591?v=4",
         "https://avatars.githubusercontent.com/u/12731225?v=4",
+        "https://avatars.githubusercontent.com/u/14320591?v=4",
         "https://avatars.githubusercontent.com/u/13662379?v=4",
         "https://avatars.githubusercontent.com/u/98363870?v=4"
       ],
-      "lastUpdated": "3/18/2026"
+      "lastUpdated": "3/27/2026"
     },
     {
       "page": "/page-builder/migration/run-migration-module",
@@ -1479,11 +1480,11 @@
     {
       "page": "/ui-components/",
       "avatars": [
-        "https://avatars.githubusercontent.com/u/13662379?v=4",
         "https://avatars.githubusercontent.com/u/12731225?v=4",
+        "https://avatars.githubusercontent.com/u/13662379?v=4",
         "https://avatars.githubusercontent.com/u/11652541?v=4"
       ],
-      "lastUpdated": "9/11/2023"
+      "lastUpdated": "3/27/2026"
     },
     {
       "page": "/ui-components/components/",
@@ -1495,9 +1496,10 @@
     {
       "page": "/ui-components/components/action-delete",
       "avatars": [
+        "https://avatars.githubusercontent.com/u/12731225?v=4",
         "https://avatars.githubusercontent.com/u/13662379?v=4"
       ],
-      "lastUpdated": "9/11/2023"
+      "lastUpdated": "3/27/2026"
     },
     {
       "page": "/ui-components/components/actions-column",
@@ -1510,9 +1512,10 @@
     {
       "page": "/ui-components/components/bookmarks",
       "avatars": [
+        "https://avatars.githubusercontent.com/u/12731225?v=4",
         "https://avatars.githubusercontent.com/u/13662379?v=4"
       ],
-      "lastUpdated": "9/11/2023"
+      "lastUpdated": "3/27/2026"
     },
     {
       "page": "/ui-components/components/button",
@@ -1525,11 +1528,11 @@
     {
       "page": "/ui-components/components/checkbox",
       "avatars": [
+        "https://avatars.githubusercontent.com/u/12731225?v=4",
         "https://avatars.githubusercontent.com/u/14320591?v=4",
-        "https://avatars.githubusercontent.com/u/13662379?v=4",
-        "https://avatars.githubusercontent.com/u/12731225?v=4"
+        "https://avatars.githubusercontent.com/u/13662379?v=4"
       ],
-      "lastUpdated": "12/11/2025"
+      "lastUpdated": "3/27/2026"
     },
     {
       "page": "/ui-components/components/checkbox-set",
@@ -1568,7 +1571,7 @@
         "https://avatars.githubusercontent.com/u/14320591?v=4",
         "https://avatars.githubusercontent.com/u/13662379?v=4"
       ],
-      "lastUpdated": "12/15/2025"
+      "lastUpdated": "3/27/2026"
     },
     {
       "page": "/ui-components/components/columns-controls",
@@ -2036,7 +2039,7 @@
         "https://avatars.githubusercontent.com/u/12731225?v=4",
         "https://avatars.githubusercontent.com/u/13662379?v=4"
       ],
-      "lastUpdated": "12/15/2025"
+      "lastUpdated": "3/27/2026"
     },
     {
       "page": "/ui-components/components/wysiwyg/add-custom-editor",
@@ -2061,7 +2064,7 @@
         "https://avatars.githubusercontent.com/u/12731225?v=4",
         "https://avatars.githubusercontent.com/u/13662379?v=4"
       ],
-      "lastUpdated": "12/12/2025"
+      "lastUpdated": "3/27/2026"
     },
     {
       "page": "/ui-components/concepts/",
@@ -2131,7 +2134,7 @@
         "https://avatars.githubusercontent.com/u/12731225?v=4",
         "https://avatars.githubusercontent.com/u/13662379?v=4"
       ],
-      "lastUpdated": "12/15/2025"
+      "lastUpdated": "12/16/2025"
     },
     {
       "page": "/ui-components/concepts/layout",
@@ -2159,10 +2162,10 @@
     {
       "page": "/ui-components/concepts/modifier",
       "avatars": [
-        "https://avatars.githubusercontent.com/u/13662379?v=4",
-        "https://avatars.githubusercontent.com/u/12731225?v=4"
+        "https://avatars.githubusercontent.com/u/12731225?v=4",
+        "https://avatars.githubusercontent.com/u/13662379?v=4"
       ],
-      "lastUpdated": "9/11/2023"
+      "lastUpdated": "3/27/2026"
     },
     {
       "page": "/ui-components/concepts/registry",
@@ -2219,7 +2222,7 @@
         "https://avatars.githubusercontent.com/u/13662379?v=4",
         "https://avatars.githubusercontent.com/u/1828494?v=4"
       ],
-      "lastUpdated": "10/29/2024"
+      "lastUpdated": "3/27/2026"
     },
     {
       "page": "/ui-components/howto/new-component-declaration",
@@ -2234,9 +2237,10 @@
     {
       "page": "/ui-components/howto/price-rendering",
       "avatars": [
+        "https://avatars.githubusercontent.com/u/12731225?v=4",
         "https://avatars.githubusercontent.com/u/13662379?v=4"
       ],
-      "lastUpdated": "9/11/2023"
+      "lastUpdated": "3/27/2026"
     },
     {
       "page": "/ui-components/howto/show-hide-password-checkbox",
